@@ -1,0 +1,124 @@
+{
+  "runs": [
+    {
+      "label": "trailer-signed cohort code",
+      "aggregate": {
+        "lines_signed": 114711.0,
+        "lines_unsigned": 676666.0,
+        "share_2024plus_conservative": 0.8227196315337474,
+        "share_2024plus": 0.890781469454979,
+        "trailer_visible": 0.14495114212316002,
+        "coverage_of_cohort_modern_lines": 0.42970665722594953
+      },
+      "ci95": [
+        0.8072927709099575,
+        0.9441811726582152
+      ],
+      "per_lang": {
+        "Python": {
+          "placebo_pre2023_as_unknown": 0.3578736863284241,
+          "auc": 0.9216372695920031,
+          "threshold": 0.6608083202382835,
+          "tpr": 0.9327629488035744,
+          "fpr": 0.14194046541349378,
+          "fpr_cohort_pre": 0.4249550227757008,
+          "fpr_conservative": 0.4249550227757008,
+          "observed": 0.799704198734628,
+          "p_unsigned": 0.8317463743588156,
+          "p_unsigned_conservative": 0.7379742551288125,
+          "n_pos_lines": 86842.0,
+          "n_neg_lines": 37558.0,
+          "pos_repos": 33,
+          "neg_repos": 9,
+          "signed_lines": 86842.0,
+          "unsigned_line_total": 438132.0
+        },
+        "Rust": {
+          "placebo_pre2023_as_unknown": 0.5012213080993891,
+          "auc": 0.6869839308797913,
+          "threshold": 0.22688126519703616,
+          "tpr": 0.5888262944490293,
+          "fpr": 0.2809328730660456,
+          "fpr_cohort_pre": 0.43525561648682115,
+          "fpr_conservative": 0.43525561648682115,
+          "observed": 0.5724131570342174,
+          "p_unsigned": 0.9466921464541591,
+          "p_unsigned_conservative": 0.8931232339883851,
+          "n_pos_lines": 27869.0,
+          "n_neg_lines": 96176.0,
+          "pos_repos": 11,
+          "neg_repos": 5,
+          "signed_lines": 27869.0,
+          "unsigned_line_total": 238534.0
+        }
+      },
+      "skipped": [
+        "C: too little labeled code (agent 104 / human 43,410 lines)",
+        "C++: too little labeled code (agent 583 / human 18,428 lines)",
+        "Go: needs 3 substantial repos per side, has 1 agent / 2 human",
+        "Java: too little labeled code (agent 1,450 / human 15,784 lines)",
+        "TS/JS: not identifiable \u2014 AUC 0.412 < 0.6"
+      ]
+    },
+    {
+      "label": "maintainer's own repos",
+      "aggregate": {
+        "lines_signed": 86842.0,
+        "lines_unsigned": 438132.0,
+        "share_2024plus_conservative": 0.7183730108016453,
+        "share_2024plus": 0.8019773731120914,
+        "trailer_visible": 0.16542152563746015,
+        "coverage_of_cohort_modern_lines": 0.28505354928249826
+      },
+      "ci95": [
+        0.7361444546796293,
+        0.8628627352293229
+      ],
+      "per_lang": {
+        "Python": {
+          "placebo_pre2023_as_unknown": 0.29686203921159743,
+          "auc": 0.9635701441529164,
+          "threshold": 0.8468712784294503,
+          "tpr": 0.9381328284791832,
+          "fpr": 0.07729378561158741,
+          "fpr_cohort_pre": 0.3328442193102216,
+          "fpr_conservative": 0.3328442193102216,
+          "observed": 0.7338792875206559,
+          "p_unsigned": 0.7627273731938025,
+          "p_unsigned_conservative": 0.6625518176544579,
+          "n_pos_lines": 118318.0,
+          "n_neg_lines": 37558.0,
+          "pos_repos": 21,
+          "neg_repos": 9,
+          "signed_lines": 86842.0,
+          "unsigned_line_total": 438132.0
+        }
+      },
+      "skipped": [
+        "C++: too little labeled code (agent 1,718 / human 18,428 lines)",
+        "Go: needs 3 substantial repos per side, has 1 agent / 2 human",
+        "Java: too little labeled code (agent 59 / human 15,784 lines)",
+        "Rust: needs 3 substantial repos per side, has 2 agent / 5 human",
+        "TS/JS: not identifiable \u2014 AUC 0.484 < 0.6"
+      ]
+    }
+  ],
+  "cross_check": {
+    "OWN": {
+      "Python": 0.970418702141686,
+      "Rust": 0.6868148599269184
+    },
+    "PRE": {
+      "Python": 0.4249550227757008,
+      "Rust": 0.43525561648682115
+    }
+  },
+  "envelope": [
+    0.7183730108016453,
+    0.9441811726582152
+  ],
+  "point_range": [
+    0.7183730108016453,
+    0.890781469454979
+  ]
+}

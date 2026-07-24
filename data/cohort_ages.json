@@ -1,0 +1,1052 @@
+[
+  {
+    "created": "2016-03-20T23:49:42Z",
+    "pushed": "2026-07-13T15:58:22Z",
+    "stars": 452368,
+    "full_name": "public-apis/public-apis",
+    "stars_cohort": 450035
+  },
+  {
+    "created": "2025-11-24T10:16:47Z",
+    "pushed": "2026-07-24T19:54:27Z",
+    "stars": 384023,
+    "full_name": "openclaw/openclaw",
+    "stars_cohort": 382933
+  },
+  {
+    "created": "2025-10-09T19:45:18Z",
+    "pushed": "2026-07-24T00:29:46Z",
+    "stars": 260534,
+    "full_name": "obra/superpowers",
+    "stars_cohort": 254625
+  },
+  {
+    "created": "2013-05-24T16:15:54Z",
+    "pushed": "2026-07-24T14:51:54Z",
+    "stars": 246702,
+    "full_name": "react/react",
+    "stars_cohort": 246467
+  },
+  {
+    "created": "2026-01-18T00:51:51Z",
+    "pushed": "2026-07-24T16:53:30Z",
+    "stars": 232852,
+    "full_name": "affaan-m/ECC",
+    "stars_cohort": 229648
+  },
+  {
+    "created": "2025-07-22T22:22:28Z",
+    "pushed": "2026-07-24T20:00:22Z",
+    "stars": 219956,
+    "full_name": "NousResearch/hermes-agent",
+    "stars_cohort": 214811
+  },
+  {
+    "created": "2019-06-22T09:24:21Z",
+    "pushed": "2026-07-24T19:58:52Z",
+    "stars": 197822,
+    "full_name": "n8n-io/n8n",
+    "stars_cohort": 196432
+  },
+  {
+    "created": "2009-08-28T18:15:37Z",
+    "pushed": "2026-07-23T17:38:43Z",
+    "stars": 188781,
+    "full_name": "ohmyzsh/ohmyzsh",
+    "stars_cohort": 188724
+  },
+  {
+    "created": "2015-09-03T20:23:38Z",
+    "pushed": "2026-07-24T19:55:41Z",
+    "stars": 187860,
+    "full_name": "microsoft/vscode",
+    "stars_cohort": 187555
+  },
+  {
+    "created": "2025-04-30T20:08:00Z",
+    "pushed": "2026-07-24T19:58:50Z",
+    "stars": 189361,
+    "full_name": "anomalyco/opencode",
+    "stars_cohort": 185772
+  },
+  {
+    "created": "2023-03-16T09:21:07Z",
+    "pushed": "2026-07-24T19:58:16Z",
+    "stars": 185675,
+    "full_name": "Significant-Gravitas/AutoGPT",
+    "stars_cohort": 185533
+  },
+  {
+    "created": "2020-10-26T04:22:55Z",
+    "pushed": "2026-07-23T16:54:49Z",
+    "stars": 179883,
+    "full_name": "yt-dlp/yt-dlp",
+    "stars_cohort": 177982
+  },
+  {
+    "created": "2015-03-06T22:54:58Z",
+    "pushed": "2026-07-24T20:00:24Z",
+    "stars": 177922,
+    "full_name": "flutter/flutter",
+    "stars_cohort": 177896
+  },
+  {
+    "created": "2023-06-26T19:39:32Z",
+    "pushed": "2026-07-24T19:24:54Z",
+    "stars": 176800,
+    "full_name": "ollama/ollama",
+    "stars_cohort": 176107
+  },
+  {
+    "created": "2011-07-29T21:19:00Z",
+    "pushed": "2026-07-24T19:17:45Z",
+    "stars": 174518,
+    "full_name": "twbs/bootstrap",
+    "stars_cohort": 174473
+  },
+  {
+    "created": "2024-11-13T19:56:40Z",
+    "pushed": "2026-07-23T22:33:26Z",
+    "stars": 168782,
+    "full_name": "microsoft/markitdown",
+    "stars_cohort": 165897
+  },
+  {
+    "created": "2023-02-08T22:28:03Z",
+    "pushed": "2026-07-24T18:56:25Z",
+    "stars": 152343,
+    "full_name": "langflow-ai/langflow",
+    "stars_cohort": 151880
+  },
+  {
+    "created": "2024-04-15T21:02:29Z",
+    "pushed": "2026-07-24T20:02:03Z",
+    "stars": 155528,
+    "full_name": "firecrawl/firecrawl",
+    "stars_cohort": 150952
+  },
+  {
+    "created": "2023-04-12T07:40:24Z",
+    "pushed": "2026-07-24T16:13:35Z",
+    "stars": 150126,
+    "full_name": "langgenius/dify",
+    "stars_cohort": 148825
+  },
+  {
+    "created": "2017-11-21T18:00:27Z",
+    "pushed": "2026-07-12T18:16:07Z",
+    "stars": 146334,
+    "full_name": "Genymobile/scrcpy",
+    "stars_cohort": 145718
+  },
+  {
+    "created": "2023-10-06T22:08:27Z",
+    "pushed": "2026-07-24T16:49:19Z",
+    "stars": 146612,
+    "full_name": "open-webui/open-webui",
+    "stars_cohort": 145416
+  },
+  {
+    "created": "2022-10-17T02:58:36Z",
+    "pushed": "2026-07-24T19:10:00Z",
+    "stars": 142530,
+    "full_name": "langchain-ai/langchain",
+    "stars_cohort": 141771
+  },
+  {
+    "created": "2016-10-05T23:32:51Z",
+    "pushed": "2026-07-24T19:57:55Z",
+    "stars": 141105,
+    "full_name": "vercel/next.js",
+    "stars_cohort": 141087
+  },
+  {
+    "created": "2010-10-31T14:35:07Z",
+    "pushed": "2026-02-19T16:45:25Z",
+    "stars": 140783,
+    "full_name": "ytdl-org/youtube-dl",
+    "stars_cohort": 140709
+  },
+  {
+    "created": "2025-02-22T17:41:21Z",
+    "pushed": "2026-07-24T17:14:23Z",
+    "stars": 138957,
+    "full_name": "anthropics/claude-code",
+    "stars_cohort": 137867
+  },
+  {
+    "created": "2019-05-01T17:44:02Z",
+    "pushed": "2026-07-24T00:28:24Z",
+    "stars": 136722,
+    "full_name": "microsoft/PowerToys",
+    "stars_cohort": 136595
+  },
+  {
+    "created": "2014-08-19T04:33:40Z",
+    "pushed": "2026-07-24T18:49:30Z",
+    "stars": 135342,
+    "full_name": "golang/go",
+    "stars_cohort": 135378
+  },
+  {
+    "created": "2018-11-14T22:00:57Z",
+    "pushed": "2026-07-24T17:54:59Z",
+    "stars": 134232,
+    "full_name": "iptv-org/iptv",
+    "stars_cohort": 132953
+  },
+  {
+    "created": "2023-11-21T18:24:03Z",
+    "pushed": "2026-07-24T19:43:50Z",
+    "stars": 133573,
+    "full_name": "clash-verge-rev/clash-verge-rev",
+    "stars_cohort": 131487
+  },
+  {
+    "created": "2025-10-13T12:12:29Z",
+    "pushed": "2026-07-23T21:09:52Z",
+    "stars": 136393,
+    "full_name": "msitarzewski/agency-agents",
+    "stars_cohort": 131431
+  },
+  {
+    "created": "2020-01-02T01:04:43Z",
+    "pushed": "2026-07-24T17:47:27Z",
+    "stars": 128283,
+    "full_name": "excalidraw/excalidraw",
+    "stars_cohort": 127463
+  },
+  {
+    "created": "2015-01-09T18:10:16Z",
+    "pushed": "2026-07-24T19:16:49Z",
+    "stars": 126256,
+    "full_name": "react/react-native",
+    "stars_cohort": 126198
+  },
+  {
+    "created": "2014-06-06T22:56:04Z",
+    "pushed": "2026-07-24T13:13:51Z",
+    "stars": 123916,
+    "full_name": "kubernetes/kubernetes",
+    "stars_cohort": 123781
+  },
+  {
+    "created": "2013-04-12T01:47:36Z",
+    "pushed": "2026-07-24T17:57:35Z",
+    "stars": 122165,
+    "full_name": "electron/electron",
+    "stars_cohort": 121999
+  },
+  {
+    "created": "2025-08-21T22:54:31Z",
+    "pushed": "2026-07-24T18:10:55Z",
+    "stars": 123646,
+    "full_name": "github/spec-kit",
+    "stars_cohort": 121173
+  },
+  {
+    "created": "2023-01-17T03:15:56Z",
+    "pushed": "2026-07-24T19:17:35Z",
+    "stars": 122101,
+    "full_name": "Comfy-Org/ComfyUI",
+    "stars_cohort": 120725
+  },
+  {
+    "created": "2023-03-10T18:58:00Z",
+    "pushed": "2026-07-24T19:43:23Z",
+    "stars": 121503,
+    "full_name": "ggml-org/llama.cpp",
+    "stars_cohort": 120363
+  },
+  {
+    "created": "2023-01-04T12:43:27Z",
+    "pushed": "2026-07-23T19:50:36Z",
+    "stars": 119738,
+    "full_name": "shadcn-ui/ui",
+    "stars_cohort": 119106
+  },
+  {
+    "created": "2014-11-26T19:57:11Z",
+    "pushed": "2026-07-24T18:33:03Z",
+    "stars": 118346,
+    "full_name": "nodejs/node",
+    "stars_cohort": 118346
+  },
+  {
+    "created": "2020-09-28T15:36:08Z",
+    "pushed": "2026-07-24T10:35:49Z",
+    "stars": 118790,
+    "full_name": "rustdesk/rustdesk",
+    "stars_cohort": 118236
+  },
+  {
+    "created": "2025-08-04T14:16:16Z",
+    "pushed": "2026-07-24T04:52:43Z",
+    "stars": 120904,
+    "full_name": "farion1231/cc-switch",
+    "stars_cohort": 117183
+  },
+  {
+    "created": "2010-06-16T20:39:03Z",
+    "pushed": "2026-07-24T19:30:33Z",
+    "stars": 114801,
+    "full_name": "rust-lang/rust",
+    "stars_cohort": 114716
+  },
+  {
+    "created": "2014-01-04T16:05:36Z",
+    "pushed": "2026-07-24T14:25:31Z",
+    "stars": 114576,
+    "full_name": "godotengine/godot",
+    "stars_cohort": 114077
+  },
+  {
+    "created": "2010-03-23T18:58:01Z",
+    "pushed": "2026-07-24T18:28:52Z",
+    "stars": 113974,
+    "full_name": "mrdoob/three.js",
+    "stars_cohort": 113734
+  },
+  {
+    "created": "2010-09-27T17:22:42Z",
+    "pushed": "2026-05-28T14:43:01Z",
+    "stars": 113269,
+    "full_name": "d3/d3",
+    "stars_cohort": 113221
+  },
+  {
+    "created": "2019-07-30T03:47:24Z",
+    "pushed": "2026-07-24T09:00:55Z",
+    "stars": 112128,
+    "full_name": "2dust/v2rayN",
+    "stars_cohort": 111351
+  },
+  {
+    "created": "2014-06-17T15:28:39Z",
+    "pushed": "2026-07-23T18:41:16Z",
+    "stars": 109937,
+    "full_name": "microsoft/TypeScript",
+    "stars_cohort": 109917
+  },
+  {
+    "created": "2014-08-18T22:30:27Z",
+    "pushed": "2026-07-22T17:28:47Z",
+    "stars": 109143,
+    "full_name": "axios/axios",
+    "stars_cohort": 109107
+  },
+  {
+    "created": "2019-07-13T09:09:37Z",
+    "pushed": "2026-07-24T18:35:55Z",
+    "stars": 109440,
+    "full_name": "tauri-apps/tauri",
+    "stars_cohort": 109047
+  },
+  {
+    "created": "2015-12-21T15:24:59Z",
+    "pushed": "2026-07-23T14:02:50Z",
+    "stars": 108320,
+    "full_name": "fatedier/frp",
+    "stars_cohort": 108037
+  },
+  {
+    "created": "2018-05-15T01:34:26Z",
+    "pushed": "2026-07-24T13:52:40Z",
+    "stars": 107779,
+    "full_name": "denoland/deno",
+    "stars_cohort": 107785
+  },
+  {
+    "created": "2022-02-03T15:56:27Z",
+    "pushed": "2026-07-24T20:01:43Z",
+    "stars": 108657,
+    "full_name": "immich-app/immich",
+    "stars_cohort": 107667
+  },
+  {
+    "created": "2019-10-12T05:56:49Z",
+    "pushed": "2026-07-24T19:57:22Z",
+    "stars": 106905,
+    "full_name": "supabase/supabase",
+    "stars_cohort": 106379
+  },
+  {
+    "created": "2025-04-17T17:04:31Z",
+    "pushed": "2026-07-24T19:13:41Z",
+    "stars": 106157,
+    "full_name": "google-gemini/gemini-cli",
+    "stars_cohort": 105986
+  },
+  {
+    "created": "2025-11-30T11:36:31Z",
+    "pushed": "2026-07-21T15:51:36Z",
+    "stars": 109749,
+    "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "stars_cohort": 105551
+  },
+  {
+    "created": "2022-09-16T20:02:54Z",
+    "pushed": "2026-04-15T16:32:15Z",
+    "stars": 105511,
+    "full_name": "openai/whisper",
+    "stars_cohort": 104932
+  },
+  {
+    "created": "2024-10-31T16:00:56Z",
+    "pushed": "2026-07-24T18:53:23Z",
+    "stars": 106598,
+    "full_name": "browser-use/browser-use",
+    "stars_cohort": 104742
+  },
+  {
+    "created": "2017-08-11T18:38:22Z",
+    "pushed": "2026-07-24T03:05:14Z",
+    "stars": 104338,
+    "full_name": "microsoft/terminal",
+    "stars_cohort": 103953
+  },
+  {
+    "created": "2014-01-31T13:39:22Z",
+    "pushed": "2026-07-24T17:55:36Z",
+    "stars": 101324,
+    "full_name": "neovim/neovim",
+    "stars_cohort": 101123
+  },
+  {
+    "created": "2014-09-18T16:12:01Z",
+    "pushed": "2026-07-24T17:37:02Z",
+    "stars": 100611,
+    "full_name": "angular/angular",
+    "stars_cohort": 100647
+  },
+  {
+    "created": "2018-12-08T08:21:47Z",
+    "pushed": "2026-07-24T20:02:19Z",
+    "stars": 100840,
+    "full_name": "fastapi/fastapi",
+    "stars_cohort": 100477
+  },
+  {
+    "created": "2015-04-24T15:37:24Z",
+    "pushed": "2026-07-24T16:57:49Z",
+    "stars": 98809,
+    "full_name": "ant-design/ant-design",
+    "stars_cohort": 98712
+  },
+  {
+    "created": "2014-08-18T19:11:54Z",
+    "pushed": "2026-07-24T09:25:50Z",
+    "stars": 98631,
+    "full_name": "mui/material-ui",
+    "stars_cohort": 98586
+  },
+  {
+    "created": "2025-04-13T05:37:54Z",
+    "pushed": "2026-07-24T20:02:10Z",
+    "stars": 101233,
+    "full_name": "openai/codex",
+    "stars_cohort": 98040
+  },
+  {
+    "created": "2024-03-11T02:57:34Z",
+    "pushed": "2026-07-24T09:33:23Z",
+    "stars": 99115,
+    "full_name": "harry0703/MoneyPrinterTurbo",
+    "stars_cohort": 97412
+  },
+  {
+    "created": "2017-10-06T14:59:14Z",
+    "pushed": "2026-07-16T17:15:19Z",
+    "stars": 96046,
+    "full_name": "tailwindlabs/tailwindcss",
+    "stars_cohort": 95980
+  },
+  {
+    "created": "2017-05-09T22:16:13Z",
+    "pushed": "2026-07-24T10:39:18Z",
+    "stars": 95340,
+    "full_name": "puppeteer/puppeteer",
+    "stars_cohort": 95438
+  },
+  {
+    "created": "2023-09-24T13:19:31Z",
+    "pushed": "2026-07-23T14:16:38Z",
+    "stars": 95191,
+    "full_name": "hacksider/Deep-Live-Cam",
+    "stars_cohort": 94904
+  },
+  {
+    "created": "2021-04-14T00:48:17Z",
+    "pushed": "2026-07-24T19:56:50Z",
+    "stars": 94987,
+    "full_name": "oven-sh/bun",
+    "stars_cohort": 94693
+  },
+  {
+    "created": "2010-04-15T17:47:47Z",
+    "pushed": "2026-07-24T19:11:41Z",
+    "stars": 94228,
+    "full_name": "nvm-sh/nvm",
+    "stars_cohort": 94128
+  },
+  {
+    "created": "2019-11-15T18:32:42Z",
+    "pushed": "2026-07-24T16:27:47Z",
+    "stars": 93395,
+    "full_name": "microsoft/playwright",
+    "stars_cohort": 92836
+  },
+  {
+    "created": "2016-03-18T04:23:44Z",
+    "pushed": "2026-07-24T17:36:12Z",
+    "stars": 90659,
+    "full_name": "storybookjs/storybook",
+    "stars_cohort": 90694
+  },
+  {
+    "created": "2010-12-19T15:16:43Z",
+    "pushed": "2026-07-24T17:14:11Z",
+    "stars": 89675,
+    "full_name": "bitcoin/bitcoin",
+    "stars_cohort": 89750
+  },
+  {
+    "created": "2013-09-17T07:29:48Z",
+    "pushed": "2026-07-24T15:18:52Z",
+    "stars": 89417,
+    "full_name": "home-assistant/core",
+    "stars_cohort": 89372
+  },
+  {
+    "created": "2014-11-01T23:52:32Z",
+    "pushed": "2026-07-24T19:59:54Z",
+    "stars": 89399,
+    "full_name": "mermaid-js/mermaid",
+    "stars_cohort": 89228
+  },
+  {
+    "created": "2021-07-03T01:02:42Z",
+    "pushed": "2026-07-24T14:33:39Z",
+    "stars": 89466,
+    "full_name": "louislam/uptime-kuma",
+    "stars_cohort": 89119
+  },
+  {
+    "created": "2013-07-04T15:26:26Z",
+    "pushed": "2026-07-22T23:25:09Z",
+    "stars": 89141,
+    "full_name": "gohugoio/hugo",
+    "stars_cohort": 88979
+  },
+  {
+    "created": "2014-06-16T23:57:25Z",
+    "pushed": "2026-07-16T22:32:47Z",
+    "stars": 88954,
+    "full_name": "gin-gonic/gin",
+    "stars_cohort": 88913
+  },
+  {
+    "created": "2015-03-22T18:50:58Z",
+    "pushed": "2026-07-17T14:02:59Z",
+    "stars": 88838,
+    "full_name": "3b1b/manim",
+    "stars_cohort": 88532
+  },
+  {
+    "created": "2024-11-19T01:10:17Z",
+    "pushed": "2026-07-10T03:30:19Z",
+    "stars": 88850,
+    "full_name": "modelcontextprotocol/servers",
+    "stars_cohort": 88474
+  },
+  {
+    "created": "2023-03-10T18:27:54Z",
+    "pushed": "2026-07-06T06:19:02Z",
+    "stars": 88545,
+    "full_name": "ChatGPTNextWeb/NextChat",
+    "stars_cohort": 88457
+  },
+  {
+    "created": "2012-04-28T02:47:18Z",
+    "pushed": "2026-07-24T18:54:30Z",
+    "stars": 88195,
+    "full_name": "django/django",
+    "stars_cohort": 88202
+  },
+  {
+    "created": "2016-11-20T18:13:05Z",
+    "pushed": "2026-07-24T18:23:17Z",
+    "stars": 87652,
+    "full_name": "sveltejs/svelte",
+    "stars_cohort": 87614
+  },
+  {
+    "created": "2023-10-02T20:24:11Z",
+    "pushed": "2026-07-24T20:02:42Z",
+    "stars": 87843,
+    "full_name": "astral-sh/uv",
+    "stars_cohort": 87460
+  },
+  {
+    "created": "2025-08-31T20:50:03Z",
+    "pushed": "2026-07-23T22:47:38Z",
+    "stars": 88462,
+    "full_name": "thedotmack/claude-mem",
+    "stars_cohort": 87242
+  },
+  {
+    "created": "2023-01-27T18:22:42Z",
+    "pushed": "2026-07-24T19:58:08Z",
+    "stars": 87922,
+    "full_name": "Stirling-Tools/Stirling-PDF",
+    "stars_cohort": 87083
+  },
+  {
+    "created": "2021-02-20T03:01:06Z",
+    "pushed": "2026-07-24T19:59:30Z",
+    "stars": 87478,
+    "full_name": "zed-industries/zed",
+    "stars_cohort": 86971
+  },
+  {
+    "created": "2018-12-24T14:30:48Z",
+    "pushed": "2026-07-24T06:02:35Z",
+    "stars": 87013,
+    "full_name": "sherlock-project/sherlock",
+    "stars_cohort": 86562
+  },
+  {
+    "created": "2013-11-26T09:48:21Z",
+    "pushed": "2026-07-24T06:09:47Z",
+    "stars": 86862,
+    "full_name": "syncthing/syncthing",
+    "stars_cohort": 86379
+  },
+  {
+    "created": "2023-02-09T11:23:20Z",
+    "pushed": "2026-07-24T20:00:05Z",
+    "stars": 87082,
+    "full_name": "vllm-project/vllm",
+    "stars_cohort": 86256
+  },
+  {
+    "created": "2026-04-03T15:49:07Z",
+    "pushed": "2026-07-22T22:56:34Z",
+    "stars": 95167,
+    "full_name": "Graphify-Labs/graphify",
+    "stars_cohort": 86077
+  },
+  {
+    "created": "2020-05-08T10:38:16Z",
+    "pushed": "2026-07-22T11:59:34Z",
+    "stars": 86199,
+    "full_name": "PaddlePaddle/PaddleOCR",
+    "stars_cohort": 85474
+  },
+  {
+    "created": "2022-12-16T00:46:07Z",
+    "pushed": "2026-07-24T09:02:02Z",
+    "stars": 85926,
+    "full_name": "localsend/localsend",
+    "stars_cohort": 85293
+  },
+  {
+    "created": "2023-12-12T06:13:13Z",
+    "pushed": "2026-07-24T14:50:56Z",
+    "stars": 85910,
+    "full_name": "infiniflow/ragflow",
+    "stars_cohort": 85037
+  },
+  {
+    "created": "2011-06-08T03:06:08Z",
+    "pushed": "2026-07-16T14:43:42Z",
+    "stars": 84667,
+    "full_name": "laravel/laravel",
+    "stars_cohort": 84734
+  },
+  {
+    "created": "2016-02-26T20:49:53Z",
+    "pushed": "2026-06-15T22:54:31Z",
+    "stars": 83893,
+    "full_name": "realworld-apps/realworld",
+    "stars_cohort": 83853
+  },
+  {
+    "created": "2026-05-31T14:05:51Z",
+    "pushed": "2026-07-23T17:36:12Z",
+    "stars": 61872,
+    "full_name": "pewdiepie-archdaemon/odysseus",
+    "stars_cohort": 82765
+  },
+  {
+    "created": "2020-04-21T05:03:57Z",
+    "pushed": "2026-07-24T15:12:34Z",
+    "stars": 82055,
+    "full_name": "vitejs/vite",
+    "stars_cohort": 82061
+  },
+  {
+    "created": "2014-11-11T19:32:38Z",
+    "pushed": "2026-05-18T16:18:53Z",
+    "stars": 81859,
+    "full_name": "tonsky/FiraCode",
+    "stars_cohort": 81836
+  },
+  {
+    "created": "2013-10-23T16:04:23Z",
+    "pushed": "2026-07-24T12:38:43Z",
+    "stars": 81954,
+    "full_name": "junegunn/fzf",
+    "stars_cohort": 81715
+  },
+  {
+    "created": "2012-10-19T15:02:57Z",
+    "pushed": "2026-07-24T14:03:33Z",
+    "stars": 81153,
+    "full_name": "spring-projects/spring-boot",
+    "stars_cohort": 81206
+  },
+  {
+    "created": "2024-03-13T03:33:31Z",
+    "pushed": "2026-07-24T19:41:29Z",
+    "stars": 81982,
+    "full_name": "OpenHands/OpenHands",
+    "stars_cohort": 80773
+  },
+  {
+    "created": "2018-05-19T00:53:06Z",
+    "pushed": "2026-07-23T16:08:14Z",
+    "stars": 80696,
+    "full_name": "jesseduffield/lazygit",
+    "stars_cohort": 80363
+  },
+  {
+    "created": "2023-05-21T07:19:12Z",
+    "pushed": "2026-07-24T19:58:38Z",
+    "stars": 80775,
+    "full_name": "lobehub/lobehub",
+    "stars_cohort": 79845
+  },
+  {
+    "created": "2019-08-21T13:15:24Z",
+    "pushed": "2026-07-24T14:54:05Z",
+    "stars": 79883,
+    "full_name": "hoppscotch/hoppscotch",
+    "stars_cohort": 79811
+  },
+  {
+    "created": "2020-07-09T10:34:22Z",
+    "pushed": "2026-07-01T01:15:41Z",
+    "stars": 79785,
+    "full_name": "anuraghazra/github-readme-stats",
+    "stars_cohort": 79792
+  },
+  {
+    "created": "2018-10-06T11:38:30Z",
+    "pushed": "2026-06-25T02:21:18Z",
+    "stars": 79015,
+    "full_name": "doocs/advanced-java",
+    "stars_cohort": 79004
+  },
+  {
+    "created": "2019-02-27T16:50:41Z",
+    "pushed": "2026-07-24T00:18:13Z",
+    "stars": 78508,
+    "full_name": "coder/code-server",
+    "stars_cohort": 78403
+  },
+  {
+    "created": "2020-04-11T09:21:31Z",
+    "pushed": "2026-03-15T14:33:08Z",
+    "stars": 78456,
+    "full_name": "Z4nzu/hackingtool",
+    "stars_cohort": 78267
+  },
+  {
+    "created": "2026-02-15T20:20:26Z",
+    "pushed": "2026-07-24T09:04:23Z",
+    "stars": 80198,
+    "full_name": "addyosmani/agent-skills",
+    "stars_cohort": 78253
+  },
+  {
+    "created": "2026-04-28T04:25:20Z",
+    "pushed": "2026-07-24T18:42:30Z",
+    "stars": 81308,
+    "full_name": "nexu-io/open-design",
+    "stars_cohort": 78132
+  },
+  {
+    "created": "2020-03-10T15:19:19Z",
+    "pushed": "2026-07-24T13:20:16Z",
+    "stars": 78222,
+    "full_name": "ventoy/Ventoy",
+    "stars_cohort": 78018
+  },
+  {
+    "created": "2016-02-05T01:15:20Z",
+    "pushed": "2026-07-23T20:59:23Z",
+    "stars": 77677,
+    "full_name": "tensorflow/models",
+    "stars_cohort": 77670
+  },
+  {
+    "created": "2010-02-08T13:20:56Z",
+    "pushed": "2026-07-24T19:42:41Z",
+    "stars": 77594,
+    "full_name": "elastic/elasticsearch",
+    "stars_cohort": 77613
+  },
+  {
+    "created": "2025-05-07T02:50:19Z",
+    "pushed": "2026-07-24T14:49:53Z",
+    "stars": 77789,
+    "full_name": "bytedance/deer-flow",
+    "stars_cohort": 77037
+  },
+  {
+    "created": "2017-02-04T20:12:52Z",
+    "pushed": "2026-07-24T06:20:58Z",
+    "stars": 76187,
+    "full_name": "nestjs/nest",
+    "stars_cohort": 76270
+  },
+  {
+    "created": "2013-11-27T13:21:13Z",
+    "pushed": "2026-03-23T19:40:00Z",
+    "stars": 75672,
+    "full_name": "typicode/json-server",
+    "stars_cohort": 75654
+  },
+  {
+    "created": "2013-12-11T15:59:56Z",
+    "pushed": "2026-07-24T19:58:31Z",
+    "stars": 75774,
+    "full_name": "grafana/grafana",
+    "stars_cohort": 75609
+  },
+  {
+    "created": "2009-03-21T22:32:25Z",
+    "pushed": "2026-07-24T08:07:26Z",
+    "stars": 75662,
+    "full_name": "redis/redis",
+    "stars_cohort": 75442
+  },
+  {
+    "created": "2022-03-11T02:08:53Z",
+    "pushed": "2026-07-24T19:59:04Z",
+    "stars": 74855,
+    "full_name": "openai/openai-cookbook",
+    "stars_cohort": 74686
+  },
+  {
+    "created": "2014-07-21T14:29:47Z",
+    "pushed": "2026-07-23T16:56:58Z",
+    "stars": 75016,
+    "full_name": "ocornut/imgui",
+    "stars_cohort": 74651
+  },
+  {
+    "created": "2024-02-29T08:52:34Z",
+    "pushed": "2026-07-24T08:20:16Z",
+    "stars": 75632,
+    "full_name": "opendatalab/MinerU",
+    "stars_cohort": 74605
+  },
+  {
+    "created": "2015-01-13T19:45:03Z",
+    "pushed": "2026-07-21T22:39:35Z",
+    "stars": 74327,
+    "full_name": "caddyserver/caddy",
+    "stars_cohort": 74022
+  },
+  {
+    "created": "2026-03-15T02:30:51Z",
+    "pushed": "2026-07-21T07:28:40Z",
+    "stars": 75974,
+    "full_name": "Egonex-AI/Understand-Anything",
+    "stars_cohort": 74016
+  },
+  {
+    "created": "2023-05-16T22:33:39Z",
+    "pushed": "2026-07-17T13:44:49Z",
+    "stars": 73876,
+    "full_name": "unionlabs/union",
+    "stars_cohort": 73906
+  },
+  {
+    "created": "2013-10-01T02:40:31Z",
+    "pushed": "2026-07-24T19:55:07Z",
+    "stars": 74116,
+    "full_name": "obsproject/obs-studio",
+    "stars_cohort": 73881
+  },
+  {
+    "created": "2015-07-21T18:55:34Z",
+    "pushed": "2026-07-24T19:13:05Z",
+    "stars": 73961,
+    "full_name": "apache/superset",
+    "stars_cohort": 73828
+  },
+  {
+    "created": "2017-02-10T19:23:51Z",
+    "pushed": "2026-07-24T19:50:10Z",
+    "stars": 73887,
+    "full_name": "python/cpython",
+    "stars_cohort": 73795
+  },
+  {
+    "created": "2021-06-16T12:56:48Z",
+    "pushed": "2026-07-24T07:43:53Z",
+    "stars": 74249,
+    "full_name": "AppFlowy-IO/AppFlowy",
+    "stars_cohort": 73787
+  },
+  {
+    "created": "2026-03-02T15:01:51Z",
+    "pushed": "2026-07-24T20:00:07Z",
+    "stars": 74658,
+    "full_name": "paperclipai/paperclip",
+    "stars_cohort": 73651
+  },
+  {
+    "created": "2023-05-28T10:09:12Z",
+    "pushed": "2026-07-24T08:30:00Z",
+    "stars": 73498,
+    "full_name": "hiyouga/LlamaFactory",
+    "stars_cohort": 73271
+  },
+  {
+    "created": "2016-12-23T09:06:10Z",
+    "pushed": "2026-07-24T10:47:57Z",
+    "stars": 73468,
+    "full_name": "Eugeny/tabby",
+    "stars_cohort": 73245
+  },
+  {
+    "created": "2017-10-16T10:12:36Z",
+    "pushed": "2026-06-18T03:46:44Z",
+    "stars": 73301,
+    "full_name": "thedaviddias/Front-End-Checklist",
+    "stars_cohort": 73211
+  },
+  {
+    "created": "2015-09-30T15:34:48Z",
+    "pushed": "2026-07-24T15:32:12Z",
+    "stars": 72713,
+    "full_name": "strapi/strapi",
+    "stars_cohort": 72662
+  },
+  {
+    "created": "2024-05-09T09:48:50Z",
+    "pushed": "2026-07-22T12:57:04Z",
+    "stars": 74860,
+    "full_name": "unclecode/crawl4ai",
+    "stars_cohort": 72617
+  },
+  {
+    "created": "2012-02-19T01:30:18Z",
+    "pushed": "2026-07-24T10:45:43Z",
+    "stars": 72382,
+    "full_name": "danielmiessler/SecLists",
+    "stars_cohort": 72163
+  },
+  {
+    "created": "2011-06-07T18:54:22Z",
+    "pushed": "2026-05-21T19:20:20Z",
+    "stars": 72017,
+    "full_name": "hakimel/reveal.js",
+    "stars_cohort": 71927
+  },
+  {
+    "created": "2013-01-18T18:10:57Z",
+    "pushed": "2026-07-24T18:32:59Z",
+    "stars": 71893,
+    "full_name": "moby/moby",
+    "stars_cohort": 71922
+  },
+  {
+    "created": "2010-04-06T11:11:59Z",
+    "pushed": "2026-06-10T18:03:29Z",
+    "stars": 72003,
+    "full_name": "pallets/flask",
+    "stars_cohort": 71921
+  },
+  {
+    "created": "2014-08-26T15:52:15Z",
+    "pushed": "2026-07-24T20:00:50Z",
+    "stars": 71623,
+    "full_name": "protocolbuffers/protobuf",
+    "stars_cohort": 71495
+  },
+  {
+    "created": "2023-03-20T09:05:13Z",
+    "pushed": "2026-01-25T12:33:10Z",
+    "stars": 71133,
+    "full_name": "binary-husky/gpt_academic",
+    "stars_cohort": 71083
+  },
+  {
+    "created": "2019-01-02T19:53:43Z",
+    "pushed": "2026-07-10T19:36:34Z",
+    "stars": 71195,
+    "full_name": "nektos/act",
+    "stars_cohort": 71062
+  },
+  {
+    "created": "2016-03-13T21:37:45Z",
+    "pushed": "2026-06-22T15:28:21Z",
+    "stars": 71444,
+    "full_name": "juliangarnier/anime",
+    "stars_cohort": 71006
+  },
+  {
+    "created": "2026-01-22T16:54:16Z",
+    "pushed": "2026-07-24T18:20:36Z",
+    "stars": 73084,
+    "full_name": "rtk-ai/rtk",
+    "stars_cohort": 71000
+  },
+  {
+    "created": "2025-08-09T14:03:50Z",
+    "pushed": "2026-07-24T19:38:45Z",
+    "stars": 77010,
+    "full_name": "earendil-works/pi",
+    "stars_cohort": 70996
+  },
+  {
+    "created": "2019-03-01T03:27:48Z",
+    "pushed": "2026-07-24T16:30:14Z",
+    "stars": 71318,
+    "full_name": "NationalSecurityAgency/ghidra",
+    "stars_cohort": 70881
+  },
+  {
+    "created": "2022-07-31T18:45:21Z",
+    "pushed": "2026-07-24T15:39:57Z",
+    "stars": 70768,
+    "full_name": "toeverything/AFFiNE",
+    "stars_cohort": 70437
+  },
+  {
+    "created": "2015-10-23T21:15:07Z",
+    "pushed": "2026-07-24T20:00:39Z",
+    "stars": 70189,
+    "full_name": "swiftlang/swift",
+    "stars_cohort": 70154
+  },
+  {
+    "created": "2012-03-06T14:58:02Z",
+    "pushed": "2026-07-24T18:51:56Z",
+    "stars": 69673,
+    "full_name": "ansible/ansible",
+    "stars_cohort": 69676
+  },
+  {
+    "created": "2023-06-30T09:04:55Z",
+    "pushed": "2026-01-21T10:12:33Z",
+    "stars": 69500,
+    "full_name": "FoundationAgents/MetaGPT",
+    "stars_cohort": 69374
+  }
+]

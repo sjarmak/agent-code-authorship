@@ -1,0 +1,1520 @@
+{
+  "runs": [
+    {
+      "zero_trailer_control": {
+        "repos": 63,
+        "lines": 413317.0,
+        "observed_positive_rate": 0.4959341135254538
+      },
+      "label": "all features",
+      "threshold": 0.4152789834703732,
+      "tpr": 0.616743884865841,
+      "fpr_pre_era": 0.21734661978133346,
+      "fpr_modern_extrapolated": 0.28878205861784484,
+      "auc_lines": 0.7515249934065783,
+      "observed_positive_rate_unsigned": 0.5059665576906957,
+      "p_unsigned_range": [
+        0.6622249350100325,
+        0.7226387437788133
+      ],
+      "share_2024plus_range": [
+        0.7024446540645961,
+        0.7556648400129101
+      ],
+      "trailer_visible_share": 0.1190724929791906,
+      "lines": {
+        "signed": 219292.0,
+        "unsigned": 1622376.0,
+        "pre": 489421.0
+      },
+      "fpr_by_year": [
+        [
+          2010,
+          0.13070404172099087,
+          296
+        ],
+        [
+          2011,
+          0.48942598187311176,
+          222
+        ],
+        [
+          2012,
+          0.03010872595483691,
+          260
+        ],
+        [
+          2013,
+          0.08178480026705241,
+          532
+        ],
+        [
+          2014,
+          0.02965077970568856,
+          1180
+        ],
+        [
+          2015,
+          0.02419472380119516,
+          1824
+        ],
+        [
+          2016,
+          0.03890718380290279,
+          1501
+        ],
+        [
+          2017,
+          0.11444855206407886,
+          1844
+        ],
+        [
+          2018,
+          0.10804837364470392,
+          1971
+        ],
+        [
+          2019,
+          0.13735859468407982,
+          4274
+        ],
+        [
+          2020,
+          0.2996160926765749,
+          5449
+        ],
+        [
+          2021,
+          0.291149627731967,
+          6010
+        ],
+        [
+          2022,
+          0.2755804554449926,
+          7452
+        ]
+      ],
+      "bootstrap": {
+        "low_ci": [
+          0.5189503909609683,
+          0.867368381418958
+        ],
+        "high_ci": [
+          0.6049900134820801,
+          0.8910906216674704
+        ]
+      }
+    },
+    {
+      "zero_trailer_control": {
+        "repos": 63,
+        "lines": 413317.0,
+        "observed_positive_rate": 0.43684629473261444
+      },
+      "label": "formatting-era proxies removed",
+      "threshold": 0.42873052914625115,
+      "tpr": 0.6022654725206574,
+      "fpr_pre_era": 0.200105839348945,
+      "fpr_modern_extrapolated": 0.262889582078709,
+      "auc_lines": 0.7333882276723754,
+      "observed_positive_rate_unsigned": 0.4494895141446866,
+      "p_unsigned_range": [
+        0.5498326113354132,
+        0.6201111554357839
+      ],
+      "share_2024plus_range": [
+        0.6034351645616378,
+        0.6653454672130293
+      ],
+      "trailer_visible_share": 0.1190724929791906,
+      "lines": {
+        "signed": 219292.0,
+        "unsigned": 1622376.0,
+        "pre": 489421.0
+      },
+      "fpr_by_year": [
+        [
+          2010,
+          0.10332464146023468,
+          296
+        ],
+        [
+          2011,
+          0.3821752265861027,
+          222
+        ],
+        [
+          2012,
+          0.019793699470309453,
+          260
+        ],
+        [
+          2013,
+          0.1175030599755202,
+          532
+        ],
+        [
+          2014,
+          0.04312175122629768,
+          1180
+        ],
+        [
+          2015,
+          0.03711801000825924,
+          1824
+        ],
+        [
+          2016,
+          0.05634833516282473,
+          1501
+        ],
+        [
+          2017,
+          0.16347042513863216,
+          1844
+        ],
+        [
+          2018,
+          0.10041701417848208,
+          1971
+        ],
+        [
+          2019,
+          0.10936877280112818,
+          4274
+        ],
+        [
+          2020,
+          0.2693974226572673,
+          5449
+        ],
+        [
+          2021,
+          0.2795913057401329,
+          6010
+        ],
+        [
+          2022,
+          0.23968001783872675,
+          7452
+        ]
+      ],
+      "bootstrap": {
+        "low_ci": [
+          0.4474848576741735,
+          0.7666382175126197
+        ],
+        "high_ci": [
+          0.5337415718960912,
+          0.8030698354726229
+        ]
+      },
+      "by_group": [
+        {
+          "group": "agent-era repos (created 2024+)",
+          "repos": 31,
+          "lines_signed": 149497.0,
+          "lines_unsigned": 590748.0,
+          "trailer_visible": 0.2019561091260326,
+          "share_range": [
+            0.9760962815783208,
+            0.9798280457433002
+          ]
+        },
+        {
+          "group": "established repos (pre-2024)",
+          "repos": 118,
+          "lines_signed": 69795.0,
+          "lines_unsigned": 1031628.0,
+          "trailer_visible": 0.06336802481880259,
+          "share_range": [
+            0.35297686782549303,
+            0.4539878359086708
+          ]
+        }
+      ],
+      "per_repo": [
+        {
+          "repo": "anthropics/claude-code",
+          "lines": 8205.0,
+          "trailer_visible": 0.10847044485070079,
+          "observed_positive_rate": 0.9764866712235133,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "lines": 19301.0,
+          "trailer_visible": 0.26185171752758923,
+          "observed_positive_rate": 0.9550080718747807,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "realworld-apps/realworld",
+          "lines": 4539.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.9442608504075788,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "Z4nzu/hackingtool",
+          "lines": 3227.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.9154013015184381,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "nexu-io/open-design",
+          "lines": 28599.0,
+          "trailer_visible": 0.07989789852792056,
+          "observed_positive_rate": 0.8596564566390514,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "ansible/ansible",
+          "lines": 3582.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.8584589614740369,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "iptv-org/iptv",
+          "lines": 6336.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.8576388888888888,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "thedaviddias/Front-End-Checklist",
+          "lines": 11229.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.8575117998040788,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "Graphify-Labs/graphify",
+          "lines": 34533.0,
+          "trailer_visible": 0.6020907537717546,
+          "observed_positive_rate": 0.8430245251437305,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "Egonex-AI/Understand-Anything",
+          "lines": 16812.0,
+          "trailer_visible": 0.5956459671663098,
+          "observed_positive_rate": 0.8402471315092674,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "openai/openai-cookbook",
+          "lines": 15820.0,
+          "trailer_visible": 0.25417193426042983,
+          "observed_positive_rate": 0.8321044156284431,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "pewdiepie-archdaemon/odysseus",
+          "lines": 33565.0,
+          "trailer_visible": 0.04731118724862208,
+          "observed_positive_rate": 0.8264377521343466,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "microsoft/markitdown",
+          "lines": 11707.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.8224139403775519,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "paperclipai/paperclip",
+          "lines": 31570.0,
+          "trailer_visible": 0.2428254672157111,
+          "observed_positive_rate": 0.8114123159303882,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "langflow-ai/langflow",
+          "lines": 13978.0,
+          "trailer_visible": 0.3324509944198025,
+          "observed_positive_rate": 0.8029150144679027,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "unclecode/crawl4ai",
+          "lines": 33134.0,
+          "trailer_visible": 0.1480654312790487,
+          "observed_positive_rate": 0.7892518067167351,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "NousResearch/hermes-agent",
+          "lines": 34668.0,
+          "trailer_visible": 0.06068997346255913,
+          "observed_positive_rate": 0.783441837612087,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "home-assistant/core",
+          "lines": 7525.0,
+          "trailer_visible": 0.19973421926910298,
+          "observed_positive_rate": 0.7583859182995683,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "OpenHands/OpenHands",
+          "lines": 15512.0,
+          "trailer_visible": 0.032490974729241874,
+          "observed_positive_rate": 0.755863539445629,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "browser-use/browser-use",
+          "lines": 19394.0,
+          "trailer_visible": 0.006548417036196762,
+          "observed_positive_rate": 0.7357658172003945,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "microsoft/vscode",
+          "lines": 19560.0,
+          "trailer_visible": 0.48236196319018404,
+          "observed_positive_rate": 0.733037037037037,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "hakimel/reveal.js",
+          "lines": 6551.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.7104258891772248,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "hoppscotch/hoppscotch",
+          "lines": 14367.0,
+          "trailer_visible": 0.047539500243613836,
+          "observed_positive_rate": 0.7103916983338205,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "fastapi/fastapi",
+          "lines": 5726.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.709395738735592,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "Significant-Gravitas/AutoGPT",
+          "lines": 21015.0,
+          "trailer_visible": 0.38743754461099217,
+          "observed_positive_rate": 0.6967295890623786,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "earendil-works/pi",
+          "lines": 18252.0,
+          "trailer_visible": 0.0010957703265395574,
+          "observed_positive_rate": 0.6840719613865731,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "microsoft/playwright",
+          "lines": 8128.0,
+          "trailer_visible": 0.09436515748031496,
+          "observed_positive_rate": 0.6837386224697731,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "harry0703/MoneyPrinterTurbo",
+          "lines": 26157.0,
+          "trailer_visible": 0.009366517566999273,
+          "observed_positive_rate": 0.674745291756715,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "modelcontextprotocol/servers",
+          "lines": 12996.0,
+          "trailer_visible": 0.2743151738996614,
+          "observed_positive_rate": 0.6703424875410879,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "axios/axios",
+          "lines": 11699.0,
+          "trailer_visible": 0.01487306607402342,
+          "observed_positive_rate": 0.6698481561822126,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "binary-husky/gpt_academic",
+          "lines": 16842.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.6451134069587935,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "juliangarnier/anime",
+          "lines": 24576.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.644775390625,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "opendatalab/MinerU",
+          "lines": 30151.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.6331464959702829,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "yt-dlp/yt-dlp",
+          "lines": 3754.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.6289291422482686,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "excalidraw/excalidraw",
+          "lines": 18141.0,
+          "trailer_visible": 0.06934568105396616,
+          "observed_positive_rate": 0.6264289522004383,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "github/spec-kit",
+          "lines": 40846.0,
+          "trailer_visible": 0.5844146305635802,
+          "observed_positive_rate": 0.6137849779086892,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "n8n-io/n8n",
+          "lines": 12952.0,
+          "trailer_visible": 0.2452130945027795,
+          "observed_positive_rate": 0.6097585924713584,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "strapi/strapi",
+          "lines": 7695.0,
+          "trailer_visible": 0.042884990253411304,
+          "observed_positive_rate": 0.6088255261371351,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "openclaw/openclaw",
+          "lines": 34785.0,
+          "trailer_visible": 0.019174931723444012,
+          "observed_positive_rate": 0.6070695820388065,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "vllm-project/vllm",
+          "lines": 27929.0,
+          "trailer_visible": 0.06376884242185542,
+          "observed_positive_rate": 0.6065091020345724,
+          "saturated": true,
+          "share_range": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "repo": "bytedance/deer-flow",
+          "lines": 23280.0,
+          "trailer_visible": 0.2952749140893471,
+          "observed_positive_rate": 0.5870413263440205,
+          "saturated": false,
+          "share_range": [
+            0.9683865647961165,
+            0.9733219427379329
+          ]
+        },
+        {
+          "repo": "louislam/uptime-kuma",
+          "lines": 5330.0,
+          "trailer_visible": 0.09380863039399624,
+          "observed_positive_rate": 0.584472049689441,
+          "saturated": false,
+          "share_range": [
+            0.9524885336303616,
+            0.9599058560944278
+          ]
+        },
+        {
+          "repo": "google-gemini/gemini-cli",
+          "lines": 25474.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.5840857344743661,
+          "saturated": false,
+          "share_range": [
+            0.9464318516479854,
+            0.9547947219294158
+          ]
+        },
+        {
+          "repo": "puppeteer/puppeteer",
+          "lines": 8089.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.5637285202126344,
+          "saturated": false,
+          "share_range": [
+            0.8864475839522993,
+            0.9041749864249338
+          ]
+        },
+        {
+          "repo": "lobehub/lobehub",
+          "lines": 11561.0,
+          "trailer_visible": 0.26736441484300666,
+          "observed_positive_rate": 0.5628099173553719,
+          "saturated": false,
+          "share_range": [
+            0.9148244039711548,
+            0.928121717442808
+          ]
+        },
+        {
+          "repo": "affaan-m/ECC",
+          "lines": 38320.0,
+          "trailer_visible": 0.07058977035490606,
+          "observed_positive_rate": 0.5488417801488137,
+          "saturated": false,
+          "share_range": [
+            0.8536945976594132,
+            0.8765352807684611
+          ]
+        },
+        {
+          "repo": "immich-app/immich",
+          "lines": 10611.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.5452831966826878,
+          "saturated": false,
+          "share_range": [
+            0.8320968653260398,
+            0.8583093101896689
+          ]
+        },
+        {
+          "repo": "toeverything/AFFiNE",
+          "lines": 14939.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.5434098667916193,
+          "saturated": false,
+          "share_range": [
+            0.8265769390618937,
+            0.8536511353343406
+          ]
+        },
+        {
+          "repo": "FoundationAgents/MetaGPT",
+          "lines": 4659.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.5428203477141017,
+          "saturated": false,
+          "share_range": [
+            0.8248398708312957,
+            0.8521852520658778
+          ]
+        },
+        {
+          "repo": "langchain-ai/langchain",
+          "lines": 10255.0,
+          "trailer_visible": 0.004583130180399805,
+          "observed_positive_rate": 0.5404584639498433,
+          "saturated": false,
+          "share_range": [
+            0.8187150568522874,
+            0.8470166224311135
+          ]
+        },
+        {
+          "repo": "mermaid-js/mermaid",
+          "lines": 13391.0,
+          "trailer_visible": 0.08483309685609738,
+          "observed_positive_rate": 0.5344757241942064,
+          "saturated": false,
+          "share_range": [
+            0.817196990746652,
+            0.8457355514487113
+          ]
+        },
+        {
+          "repo": "angular/angular",
+          "lines": 4543.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.5331278890600925,
+          "saturated": false,
+          "share_range": [
+            0.7962802149247216,
+            0.8280842288538569
+          ]
+        },
+        {
+          "repo": "anomalyco/opencode",
+          "lines": 14242.0,
+          "trailer_visible": 0.0031596685858727705,
+          "observed_positive_rate": 0.5327886173135169,
+          "saturated": false,
+          "share_range": [
+            0.7959273674977095,
+            0.8277864667219693
+          ]
+        },
+        {
+          "repo": "storybookjs/storybook",
+          "lines": 5450.0,
+          "trailer_visible": 0.16348623853211008,
+          "observed_positive_rate": 0.517438034656723,
+          "saturated": false,
+          "share_range": [
+            0.7909123154540014,
+            0.8235543469054598
+          ]
+        },
+        {
+          "repo": "thedotmack/claude-mem",
+          "lines": 16245.0,
+          "trailer_visible": 0.69689135118498,
+          "observed_positive_rate": 0.5152315190901706,
+          "saturated": false,
+          "share_range": [
+            0.9222668882253533,
+            0.9344023073193914
+          ]
+        },
+        {
+          "repo": "shadcn-ui/ui",
+          "lines": 9739.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.5136050929253517,
+          "saturated": false,
+          "share_range": [
+            0.738754631391615,
+            0.7795393364170643
+          ]
+        },
+        {
+          "repo": "Comfy-Org/ComfyUI",
+          "lines": 26907.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.5067454565726391,
+          "saturated": false,
+          "share_range": [
+            0.7185421279524941,
+            0.7624823376859567
+          ]
+        },
+        {
+          "repo": "hacksider/Deep-Live-Cam",
+          "lines": 6313.0,
+          "trailer_visible": 0.2677015681926184,
+          "observed_positive_rate": 0.5052995890114644,
+          "saturated": false,
+          "share_range": [
+            0.7907689779019661,
+            0.8234333867062174
+          ]
+        },
+        {
+          "repo": "hiyouga/LlamaFactory",
+          "lines": 12464.0,
+          "trailer_visible": 0.03465982028241335,
+          "observed_positive_rate": 0.48977726063829785,
+          "saturated": false,
+          "share_range": [
+            0.6800321008860776,
+            0.7299843601452115
+          ]
+        },
+        {
+          "repo": "grafana/grafana",
+          "lines": 12640.0,
+          "trailer_visible": 0.06186708860759493,
+          "observed_positive_rate": 0.4782425366840951,
+          "saturated": false,
+          "share_range": [
+            0.6571648100156079,
+            0.7106870300279267
+          ]
+        },
+        {
+          "repo": "apache/superset",
+          "lines": 12605.0,
+          "trailer_visible": 0.2552955176517255,
+          "observed_positive_rate": 0.4709704911047193,
+          "saturated": false,
+          "share_range": [
+            0.7118947929891104,
+            0.7568727611989476
+          ]
+        },
+        {
+          "repo": "firecrawl/firecrawl",
+          "lines": 15394.0,
+          "trailer_visible": 0.22944004157463946,
+          "observed_positive_rate": 0.4469735289158658,
+          "saturated": false,
+          "share_range": [
+            0.6474064393552721,
+            0.7024521017582861
+          ]
+        },
+        {
+          "repo": "3b1b/manim",
+          "lines": 3170.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.4312302839116719,
+          "saturated": false,
+          "share_range": [
+            0.49603023247686545,
+            0.574708214098759
+          ]
+        },
+        {
+          "repo": "langgenius/dify",
+          "lines": 13825.0,
+          "trailer_visible": 0.0894755877034358,
+          "observed_positive_rate": 0.4169049888782968,
+          "saturated": false,
+          "share_range": [
+            0.5026893477563134,
+            0.5803277318004606
+          ]
+        },
+        {
+          "repo": "bitcoin/bitcoin",
+          "lines": 7978.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.41213336675858614,
+          "saturated": false,
+          "share_range": [
+            0.4397595376781954,
+            0.5272223015956217
+          ]
+        },
+        {
+          "repo": "supabase/supabase",
+          "lines": 8013.0,
+          "trailer_visible": 0.09983776363409459,
+          "observed_positive_rate": 0.3887425481769028,
+          "saturated": false,
+          "share_range": [
+            0.4336507733582222,
+            0.5220672160037625
+          ]
+        },
+        {
+          "repo": "tailwindlabs/tailwindcss",
+          "lines": 26355.0,
+          "trailer_visible": 0.0022766078542970974,
+          "observed_positive_rate": 0.38786841604867844,
+          "saturated": false,
+          "share_range": [
+            0.3696990137669586,
+            0.468099379437362
+          ]
+        },
+        {
+          "repo": "nodejs/node",
+          "lines": 20287.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.3722088036673732,
+          "saturated": false,
+          "share_range": [
+            0.3221184081353112,
+            0.4279468900473768
+          ]
+        },
+        {
+          "repo": "ChatGPTNextWeb/NextChat",
+          "lines": 11709.0,
+          "trailer_visible": 0.04355623879067384,
+          "observed_positive_rate": 0.36958657022948477,
+          "saturated": false,
+          "share_range": [
+            0.34425428933204216,
+            0.4466269955880792
+          ]
+        },
+        {
+          "repo": "gohugoio/hugo",
+          "lines": 11594.0,
+          "trailer_visible": 0.07736760393306882,
+          "observed_positive_rate": 0.3654295596896326,
+          "saturated": false,
+          "share_range": [
+            0.35613432808844525,
+            0.45665236461788855
+          ]
+        },
+        {
+          "repo": "Stirling-Tools/Stirling-PDF",
+          "lines": 13587.0,
+          "trailer_visible": 0.10127327592551703,
+          "observed_positive_rate": 0.35648186061747605,
+          "saturated": false,
+          "share_range": [
+            0.3491220013617179,
+            0.4507347775935915
+          ]
+        },
+        {
+          "repo": "open-webui/open-webui",
+          "lines": 20912.0,
+          "trailer_visible": 0.017741009946442236,
+          "observed_positive_rate": 0.34039238595978777,
+          "saturated": false,
+          "share_range": [
+            0.24205814033366801,
+            0.3603853487262906
+          ]
+        },
+        {
+          "repo": "oven-sh/bun",
+          "lines": 15568.0,
+          "trailer_visible": 0.1244218910585817,
+          "observed_positive_rate": 0.3361455505832294,
+          "saturated": false,
+          "share_range": [
+            0.313419766801413,
+            0.4206062499014615
+          ]
+        },
+        {
+          "repo": "python/cpython",
+          "lines": 13305.0,
+          "trailer_visible": 0.026005261180007518,
+          "observed_positive_rate": 0.33567404892352803,
+          "saturated": false,
+          "share_range": [
+            0.23489366419046892,
+            0.3543393653154938
+          ]
+        },
+        {
+          "repo": "PaddlePaddle/PaddleOCR",
+          "lines": 6825.0,
+          "trailer_visible": 0.4514285714285714,
+          "observed_positive_rate": 0.3263888888888889,
+          "saturated": false,
+          "share_range": [
+            0.5540696441482444,
+            0.6236867176381504
+          ]
+        },
+        {
+          "repo": "infiniflow/ragflow",
+          "lines": 22441.0,
+          "trailer_visible": 0.03792166124504256,
+          "observed_positive_rate": 0.31866604909680407,
+          "saturated": false,
+          "share_range": [
+            0.1960393479802721,
+            0.32155084783711635
+          ]
+        },
+        {
+          "repo": "caddyserver/caddy",
+          "lines": 10111.0,
+          "trailer_visible": 0.01414301256057759,
+          "observed_positive_rate": 0.2986556982343499,
+          "saturated": false,
+          "share_range": [
+            0.11804042106443831,
+            0.2557288381371147
+          ]
+        },
+        {
+          "repo": "ggml-org/llama.cpp",
+          "lines": 37562.0,
+          "trailer_visible": 0.01200681539854108,
+          "observed_positive_rate": 0.2904529654280402,
+          "saturated": false,
+          "share_range": [
+            0.0922495069410471,
+            0.23396431051183594
+          ]
+        },
+        {
+          "repo": "farion1231/cc-switch",
+          "lines": 33207.0,
+          "trailer_visible": 0.08492185382600054,
+          "observed_positive_rate": 0.27909961496692665,
+          "saturated": false,
+          "share_range": [
+            0.12862986981220711,
+            0.2646650995160108
+          ]
+        },
+        {
+          "repo": "rustdesk/rustdesk",
+          "lines": 20811.0,
+          "trailer_visible": 0.0054778722790831775,
+          "observed_positive_rate": 0.2754022322075663,
+          "saturated": false,
+          "share_range": [
+            0.04214549593783335,
+            0.1916823608919234
+          ]
+        },
+        {
+          "repo": "mrdoob/three.js",
+          "lines": 12228.0,
+          "trailer_visible": 0.11154726856395158,
+          "observed_positive_rate": 0.27190721649484534,
+          "saturated": false,
+          "share_range": [
+            0.1351545493218005,
+            0.2701711690858305
+          ]
+        },
+        {
+          "repo": "denoland/deno",
+          "lines": 12377.0,
+          "trailer_visible": 0.15456087904985052,
+          "observed_positive_rate": 0.26118119266055045,
+          "saturated": false,
+          "share_range": [
+            0.15456087904985052,
+            0.2829563935579822
+          ]
+        },
+        {
+          "repo": "react/react",
+          "lines": 9399.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.25821895946377277,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.14450261866539668
+          ]
+        },
+        {
+          "repo": "kubernetes/kubernetes",
+          "lines": 5148.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.2395104895104895,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.097982609171318
+          ]
+        },
+        {
+          "repo": "syncthing/syncthing",
+          "lines": 3225.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.2275968992248062,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.06835857606853143
+          ]
+        },
+        {
+          "repo": "NationalSecurityAgency/ghidra",
+          "lines": 4766.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.2234578262694083,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.058066461659250064
+          ]
+        },
+        {
+          "repo": "electron/electron",
+          "lines": 3750.0,
+          "trailer_visible": 0.04533333333333334,
+          "observed_positive_rate": 0.20782122905027933,
+          "saturated": false,
+          "share_range": [
+            0.04533333333333334,
+            0.06364851158759198
+          ]
+        },
+        {
+          "repo": "ollama/ollama",
+          "lines": 39160.0,
+          "trailer_visible": 0.0003575076608784474,
+          "observed_positive_rate": 0.1889592806417003,
+          "saturated": false,
+          "share_range": [
+            0.0003575076608784474,
+            0.0003575076608784474
+          ]
+        },
+        {
+          "repo": "junegunn/fzf",
+          "lines": 18022.0,
+          "trailer_visible": 0.011097547442015314,
+          "observed_positive_rate": 0.1788800359106722,
+          "saturated": false,
+          "share_range": [
+            0.011097547442015314,
+            0.011097547442015314
+          ]
+        },
+        {
+          "repo": "gin-gonic/gin",
+          "lines": 5611.0,
+          "trailer_visible": 0.04295134557119943,
+          "observed_positive_rate": 0.17430167597765364,
+          "saturated": false,
+          "share_range": [
+            0.04295134557119943,
+            0.04295134557119943
+          ]
+        },
+        {
+          "repo": "react/react-native",
+          "lines": 4371.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.16540837336993822,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "AppFlowy-IO/AppFlowy",
+          "lines": 4836.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.16480562448304384,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "unionlabs/union",
+          "lines": 11089.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.16376589412931733,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "fatedier/frp",
+          "lines": 7187.0,
+          "trailer_visible": 0.0019479615973285098,
+          "observed_positive_rate": 0.1495887355360379,
+          "saturated": false,
+          "share_range": [
+            0.0019479615973285098,
+            0.0019479615973285098
+          ]
+        },
+        {
+          "repo": "redis/redis",
+          "lines": 5691.0,
+          "trailer_visible": 0.0024600246002460025,
+          "observed_positive_rate": 0.14549938347718866,
+          "saturated": false,
+          "share_range": [
+            0.0024600246002460025,
+            0.0024600246002460025
+          ]
+        },
+        {
+          "repo": "clash-verge-rev/clash-verge-rev",
+          "lines": 10878.0,
+          "trailer_visible": 0.013881228166942452,
+          "observed_positive_rate": 0.12594387992915074,
+          "saturated": false,
+          "share_range": [
+            0.013881228166942452,
+            0.013881228166942452
+          ]
+        },
+        {
+          "repo": "nektos/act",
+          "lines": 3175.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.1247244094488189,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "tauri-apps/tauri",
+          "lines": 11718.0,
+          "trailer_visible": 0.0037549069807134325,
+          "observed_positive_rate": 0.11769744731882817,
+          "saturated": false,
+          "share_range": [
+            0.0037549069807134325,
+            0.0037549069807134325
+          ]
+        },
+        {
+          "repo": "elastic/elasticsearch",
+          "lines": 8354.0,
+          "trailer_visible": 0.016399329662437154,
+          "observed_positive_rate": 0.11269319703054642,
+          "saturated": false,
+          "share_range": [
+            0.016399329662437154,
+            0.016399329662437154
+          ]
+        },
+        {
+          "repo": "ocornut/imgui",
+          "lines": 15876.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.08900226757369614,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "microsoft/PowerToys",
+          "lines": 6373.0,
+          "trailer_visible": 0.11721324337046916,
+          "observed_positive_rate": 0.08585140419480981,
+          "saturated": false,
+          "share_range": [
+            0.11721324337046916,
+            0.11721324337046916
+          ]
+        },
+        {
+          "repo": "protocolbuffers/protobuf",
+          "lines": 7511.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.06430568499534017,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "rtk-ai/rtk",
+          "lines": 48312.0,
+          "trailer_visible": 0.41184384831925813,
+          "observed_positive_rate": 0.04620798873834243,
+          "saturated": false,
+          "share_range": [
+            0.41184384831925813,
+            0.41184384831925813
+          ]
+        },
+        {
+          "repo": "jesseduffield/lazygit",
+          "lines": 5796.0,
+          "trailer_visible": 0.1694271911663216,
+          "observed_positive_rate": 0.04424594931449938,
+          "saturated": false,
+          "share_range": [
+            0.1694271911663216,
+            0.1694271911663216
+          ]
+        },
+        {
+          "repo": "openai/codex",
+          "lines": 28792.0,
+          "trailer_visible": 0.06838705195887747,
+          "observed_positive_rate": 0.036237557320210265,
+          "saturated": false,
+          "share_range": [
+            0.06838705195887747,
+            0.06838705195887747
+          ]
+        },
+        {
+          "repo": "astral-sh/uv",
+          "lines": 36672.0,
+          "trailer_visible": 0.030677356020942407,
+          "observed_positive_rate": 0.03403944074042817,
+          "saturated": false,
+          "share_range": [
+            0.030677356020942407,
+            0.030677356020942407
+          ]
+        },
+        {
+          "repo": "flutter/flutter",
+          "lines": 4430.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.023250564334085778,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "gastownhall/gascity",
+          "lines": 41608.0,
+          "trailer_visible": 0.36714093443568546,
+          "observed_positive_rate": 0.019709858727024153,
+          "saturated": false,
+          "share_range": [
+            0.36714093443568546,
+            0.36714093443568546
+          ]
+        },
+        {
+          "repo": "localsend/localsend",
+          "lines": 10758.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.016638780442461424,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "microsoft/terminal",
+          "lines": 7834.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.013658412050038295,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "Genymobile/scrcpy",
+          "lines": 4119.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.008497208060208788,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "zed-industries/zed",
+          "lines": 45596.0,
+          "trailer_visible": 0.016624265286428633,
+          "observed_positive_rate": 0.005018065034122842,
+          "saturated": false,
+          "share_range": [
+            0.016624265286428633,
+            0.016624265286428633
+          ]
+        },
+        {
+          "repo": "2dust/v2rayN",
+          "lines": 9652.0,
+          "trailer_visible": 0.02818068794032325,
+          "observed_positive_rate": 0.004690831556503198,
+          "saturated": false,
+          "share_range": [
+            0.02818068794032325,
+            0.02818068794032325
+          ]
+        },
+        {
+          "repo": "neovim/neovim",
+          "lines": 7313.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.0008204567209079721,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "repo": "godotengine/godot",
+          "lines": 16660.0,
+          "trailer_visible": 0.0,
+          "observed_positive_rate": 0.0,
+          "saturated": false,
+          "share_range": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "envelope_2024plus": [
+    0.6034351645616378,
+    0.7556648400129101
+  ],
+  "dropped_in_ablation": [
+    "trailing_ws_rate",
+    "tab_rate",
+    "double_quote_pref",
+    "semicolon_rate",
+    "brace_only_rate",
+    "indent_mean",
+    "indent_sd",
+    "line_len_p90",
+    "blank_rate"
+  ]
+}

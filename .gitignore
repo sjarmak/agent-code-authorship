@@ -1,0 +1,15 @@
+# Clones and shards: multi-gigabyte, always rebuildable
+.cache/
+
+# Uncompressed corpora. The gzipped copies are committed and load transparently;
+# a gatherer run writes the plain file, which then takes precedence.
+corpora/*.jsonl
+corpora/*.done
+
+# Rendered report; regenerate with python3 -m authorship.report.page
+report.html
+
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
