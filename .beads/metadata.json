@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "server",
+  "dolt_database": "agent_code_authorship",
+  "project_id": "649c38f0-02fe-4383-911d-9a35ba974234"
+}
