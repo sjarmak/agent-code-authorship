@@ -1,0 +1,74 @@
+[
+  {
+    "horizon_days": 30,
+    "language": "Go",
+    "lower": -0.014678398563810317,
+    "paired_repository_count": 30,
+    "point": -0.005313658667653235,
+    "status": "identified",
+    "upper": -0.00012919896640826897
+  },
+  {
+    "horizon_days": 90,
+    "language": "Go",
+    "lower": -0.03743337007699465,
+    "paired_repository_count": 30,
+    "point": -0.014492586582791726,
+    "status": "identified",
+    "upper": -0.0002300145840478524
+  },
+  {
+    "horizon_days": 180,
+    "language": "Go",
+    "lower": -0.036137865485856034,
+    "paired_repository_count": 30,
+    "point": -0.005051931920001007,
+    "status": "identified",
+    "upper": 0.024803442810570606
+  },
+  {
+    "horizon_days": 365,
+    "language": "Go",
+    "lower": -0.024408252736950856,
+    "paired_repository_count": 30,
+    "point": 0.023691967776792895,
+    "status": "identified",
+    "upper": 0.07634856837737883
+  },
+  {
+    "horizon_days": 30,
+    "language": "Python",
+    "lower": -0.04782233165561787,
+    "paired_repository_count": 47,
+    "point": 0.014695916187389033,
+    "status": "identified",
+    "upper": 0.08656267871251945
+  },
+  {
+    "horizon_days": 90,
+    "language": "Python",
+    "lower": -0.061515927317481234,
+    "paired_repository_count": 47,
+    "point": 0.005473535293812347,
+    "status": "identified",
+    "upper": 0.07673493482747054
+  },
+  {
+    "horizon_days": 180,
+    "language": "Python",
+    "lower": -0.06205783871698051,
+    "paired_repository_count": 47,
+    "point": 0.016423046689861696,
+    "status": "identified",
+    "upper": 0.09895962432814791
+  },
+  {
+    "horizon_days": 365,
+    "language": "Python",
+    "lower": -0.08014408548405362,
+    "paired_repository_count": 47,
+    "point": 0.018615516637313863,
+    "status": "identified",
+    "upper": 0.12401362833233223
+  }
+]

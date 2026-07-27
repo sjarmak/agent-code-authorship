@@ -23,6 +23,9 @@ class BuildSurvivalReportTests(unittest.TestCase):
         self.assertIn("not_identified", report)
         self.assertIn("non_agent_attributed", report)
         self.assertIn("pending blinded", report)
+        self.assertIn("## Report figures", report)
+        self.assertIn("figures/tier2-survival-small-multiples.svg", report)
+        self.assertIn("figures/contextual-effects.svg", report)
         self.assertNotIn("causal authorship effects are identified", report)
 
     def test_completed_failed_gate_builds_exact_only_final_report(self):

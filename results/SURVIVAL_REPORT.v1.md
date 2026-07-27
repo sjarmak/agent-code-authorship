@@ -50,6 +50,16 @@ The secondary comparison is labeled `non_agent_attributed`, uses the same reposi
 | Python | 47 | 180d | identified | 1.6 pp (-6.2, 9.9) |
 | Python | 47 | 365d | identified | 1.9 pp (-8.0, 12.4) |
 
+## Report figures
+
+![Tier 2 repository-weighted survival trajectories](figures/tier2-survival-small-multiples.svg)
+
+*Figure 1. Repository-weighted `unchanged + modified` survival among observable lineage. Shared-scale small multiples show only identified cells; the tables retain every gate-driven `not_identified` result.*
+
+![Matched contextual survival differences](figures/contextual-effects.svg)
+
+*Figure 2. Repository-weighted agent-minus-`non_agent_attributed` survival differences with 95% paired-repository bootstrap intervals. This comparison is descriptive, not causal.*
+
 ## Identification and limitations
 
 - Tier 1 is `not_identified` because no role-separated eligible repository remained.

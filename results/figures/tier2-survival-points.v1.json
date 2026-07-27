@@ -1,0 +1,372 @@
+[
+  {
+    "agent": "Claude_Code",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Go",
+    "repository_count": 5,
+    "status": "identified",
+    "survival": 0.9953417282598779
+  },
+  {
+    "agent": "Claude_Code",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Go",
+    "repository_count": 5,
+    "status": "identified",
+    "survival": 0.9948650195915649
+  },
+  {
+    "agent": "Claude_Code",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Go",
+    "repository_count": 5,
+    "status": "identified",
+    "survival": 0.984130821278283
+  },
+  {
+    "agent": "Claude_Code",
+    "gate_reasons": [
+      "lineage_coverage_below_0.80"
+    ],
+    "horizon_days": 365,
+    "language": "Go",
+    "repository_count": 5,
+    "status": "not_identified",
+    "survival": null
+  },
+  {
+    "agent": "Copilot",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Go",
+    "repository_count": 15,
+    "status": "identified",
+    "survival": 0.9902385190058851
+  },
+  {
+    "agent": "Copilot",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Go",
+    "repository_count": 15,
+    "status": "identified",
+    "survival": 0.9712876002397681
+  },
+  {
+    "agent": "Copilot",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Go",
+    "repository_count": 15,
+    "status": "identified",
+    "survival": 0.9679214932256072
+  },
+  {
+    "agent": "Copilot",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Go",
+    "repository_count": 15,
+    "status": "identified",
+    "survival": 0.9045426442192708
+  },
+  {
+    "agent": "Cursor",
+    "gate_reasons": [
+      "fewer_than_5_repositories"
+    ],
+    "horizon_days": 30,
+    "language": "Go",
+    "repository_count": 4,
+    "status": "not_identified",
+    "survival": null
+  },
+  {
+    "agent": "Cursor",
+    "gate_reasons": [
+      "fewer_than_5_repositories"
+    ],
+    "horizon_days": 90,
+    "language": "Go",
+    "repository_count": 4,
+    "status": "not_identified",
+    "survival": null
+  },
+  {
+    "agent": "Cursor",
+    "gate_reasons": [
+      "fewer_than_5_repositories"
+    ],
+    "horizon_days": 180,
+    "language": "Go",
+    "repository_count": 4,
+    "status": "not_identified",
+    "survival": null
+  },
+  {
+    "agent": "Cursor",
+    "gate_reasons": [
+      "fewer_than_5_repositories"
+    ],
+    "horizon_days": 365,
+    "language": "Go",
+    "repository_count": 4,
+    "status": "not_identified",
+    "survival": null
+  },
+  {
+    "agent": "Devin",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Go",
+    "repository_count": 5,
+    "status": "identified",
+    "survival": 1.0
+  },
+  {
+    "agent": "Devin",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Go",
+    "repository_count": 5,
+    "status": "identified",
+    "survival": 1.0
+  },
+  {
+    "agent": "Devin",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Go",
+    "repository_count": 5,
+    "status": "identified",
+    "survival": 0.9896551724137931
+  },
+  {
+    "agent": "Devin",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Go",
+    "repository_count": 5,
+    "status": "identified",
+    "survival": 0.9878333587516032
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Go",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.9942697365762546
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Go",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.9942604722490179
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Go",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.9942604722490179
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Go",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.9833550204056554
+  },
+  {
+    "agent": "Claude_Code",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Python",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.9548173841235346
+  },
+  {
+    "agent": "Claude_Code",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Python",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.9319825800795482
+  },
+  {
+    "agent": "Claude_Code",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Python",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.9031073708448687
+  },
+  {
+    "agent": "Claude_Code",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Python",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.8325430373061055
+  },
+  {
+    "agent": "Copilot",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Python",
+    "repository_count": 14,
+    "status": "identified",
+    "survival": 0.9805917415839169
+  },
+  {
+    "agent": "Copilot",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Python",
+    "repository_count": 14,
+    "status": "identified",
+    "survival": 0.97460983647028
+  },
+  {
+    "agent": "Copilot",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Python",
+    "repository_count": 14,
+    "status": "identified",
+    "survival": 0.9720942685189415
+  },
+  {
+    "agent": "Copilot",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Python",
+    "repository_count": 14,
+    "status": "identified",
+    "survival": 0.950033400678609
+  },
+  {
+    "agent": "Cursor",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Python",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.8268576437912346
+  },
+  {
+    "agent": "Cursor",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Python",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.8135944029888151
+  },
+  {
+    "agent": "Cursor",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Python",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.735806801684439
+  },
+  {
+    "agent": "Cursor",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Python",
+    "repository_count": 8,
+    "status": "identified",
+    "survival": 0.7734368674681379
+  },
+  {
+    "agent": "Devin",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Python",
+    "repository_count": 13,
+    "status": "identified",
+    "survival": 0.9770081365731332
+  },
+  {
+    "agent": "Devin",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Python",
+    "repository_count": 13,
+    "status": "identified",
+    "survival": 0.9767401937004039
+  },
+  {
+    "agent": "Devin",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Python",
+    "repository_count": 13,
+    "status": "identified",
+    "survival": 0.917382406458324
+  },
+  {
+    "agent": "Devin",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Python",
+    "repository_count": 13,
+    "status": "identified",
+    "survival": 0.8945935061486529
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Python",
+    "repository_count": 16,
+    "status": "identified",
+    "survival": 0.9645876873333744
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Python",
+    "repository_count": 16,
+    "status": "identified",
+    "survival": 0.9554308487073214
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Python",
+    "repository_count": 16,
+    "status": "identified",
+    "survival": 0.9553240064174995
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Python",
+    "repository_count": 16,
+    "status": "identified",
+    "survival": 0.9243796871442006
+  }
+]

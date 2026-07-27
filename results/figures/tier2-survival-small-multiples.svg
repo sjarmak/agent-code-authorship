@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 747" font-family="et-book, ET-Bembo, Palatino, Georgia, serif" font-size="12">
+<rect width="1050" height="747" fill="white"/>
+<text x="32" y="28" font-size="17">Tier 2 agent-attributed code survival</text>
+<text x="32" y="46" font-size="12" fill="#666">Repository-weighted unchanged + modified among observable lineage; gated cells omitted</text>
+<text x="68.0" y="78.0" font-size="12" fill="#222">Go · Claude Code (n=5)</text>
+<line x1="68.0" y1="245.8" x2="68.0" y2="86.0" stroke="#444" stroke-width="0.8"/>
+<line x1="68.0" y1="245.8" x2="344.7" y2="245.8" stroke="#444" stroke-width="0.8"/>
+<polyline points="68.0,88.8 117.6,89.1 191.9,95.6" fill="none" stroke="#222" stroke-width="1.1"/>
+<text x="64.0" y="89.0" text-anchor="end" font-size="10" fill="#666">100</text>
+<text x="64.0" y="248.8" text-anchor="end" font-size="10" fill="#666">73.5807</text>
+<text x="68.0" y="257.8" text-anchor="middle" font-size="10" fill="#666">30</text>
+<text x="344.7" y="257.8" text-anchor="middle" font-size="10" fill="#666">365</text>
+<text x="396.7" y="78.0" font-size="12" fill="#222">Go · Copilot (n=15)</text>
+<line x1="396.7" y1="245.8" x2="396.7" y2="86.0" stroke="#444" stroke-width="0.8"/>
+<line x1="396.7" y1="245.8" x2="673.3" y2="245.8" stroke="#444" stroke-width="0.8"/>
+<polyline points="396.7,91.9 446.2,103.4 520.5,105.4 673.3,143.7" fill="none" stroke="#222" stroke-width="1.1"/>
+<text x="725.3" y="78.0" font-size="12" fill="#222">Go · Devin (n=5)</text>
+<line x1="725.3" y1="245.8" x2="725.3" y2="86.0" stroke="#444" stroke-width="0.8"/>
+<line x1="725.3" y1="245.8" x2="1002.0" y2="245.8" stroke="#444" stroke-width="0.8"/>
+<polyline points="725.3,86.0 774.9,86.0 849.2,92.3 1002.0,93.4" fill="none" stroke="#222" stroke-width="1.1"/>
+<text x="68.0" y="299.8" font-size="12" fill="#222">Go · OpenAI Codex (n=8)</text>
+<line x1="68.0" y1="467.5" x2="68.0" y2="307.8" stroke="#444" stroke-width="0.8"/>
+<line x1="68.0" y1="467.5" x2="344.7" y2="467.5" stroke="#444" stroke-width="0.8"/>
+<polyline points="68.0,311.2 117.6,311.2 191.9,311.2 344.7,317.8" fill="none" stroke="#222" stroke-width="1.1"/>
+<text x="396.7" y="299.8" font-size="12" fill="#222">Python · Claude Code (n=8)</text>
+<line x1="396.7" y1="467.5" x2="396.7" y2="307.8" stroke="#444" stroke-width="0.8"/>
+<line x1="396.7" y1="467.5" x2="673.3" y2="467.5" stroke="#444" stroke-width="0.8"/>
+<polyline points="396.7,335.1 446.2,348.9 520.5,366.4 673.3,409.0" fill="none" stroke="#222" stroke-width="1.1"/>
+<text x="725.3" y="299.8" font-size="12" fill="#222">Python · Copilot (n=14)</text>
+<line x1="725.3" y1="467.5" x2="725.3" y2="307.8" stroke="#444" stroke-width="0.8"/>
+<line x1="725.3" y1="467.5" x2="1002.0" y2="467.5" stroke="#444" stroke-width="0.8"/>
+<polyline points="725.3,319.5 774.9,323.1 849.2,324.6 1002.0,338.0" fill="none" stroke="#222" stroke-width="1.1"/>
+<text x="68.0" y="521.5" font-size="12" fill="#222">Python · Cursor (n=8)</text>
+<line x1="68.0" y1="689.3" x2="68.0" y2="529.5" stroke="#444" stroke-width="0.8"/>
+<line x1="68.0" y1="689.3" x2="344.7" y2="689.3" stroke="#444" stroke-width="0.8"/>
+<polyline points="68.0,634.3 117.6,642.3 191.9,689.3 344.7,666.6" fill="none" stroke="#222" stroke-width="1.1"/>
+<text x="396.7" y="521.5" font-size="12" fill="#222">Python · Devin (n=13)</text>
+<line x1="396.7" y1="689.3" x2="396.7" y2="529.5" stroke="#444" stroke-width="0.8"/>
+<line x1="396.7" y1="689.3" x2="673.3" y2="689.3" stroke="#444" stroke-width="0.8"/>
+<polyline points="396.7,543.5 446.2,543.6 520.5,579.5 673.3,593.3" fill="none" stroke="#222" stroke-width="1.1"/>
+<text x="725.3" y="521.5" font-size="12" fill="#222">Python · OpenAI Codex (n=16)</text>
+<line x1="725.3" y1="689.3" x2="725.3" y2="529.5" stroke="#444" stroke-width="0.8"/>
+<line x1="725.3" y1="689.3" x2="1002.0" y2="689.3" stroke="#444" stroke-width="0.8"/>
+<polyline points="725.3,551.0 774.9,556.5 849.2,556.6 1002.0,575.3" fill="none" stroke="#222" stroke-width="1.1"/>
+</svg>
