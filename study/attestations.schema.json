@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agent-code-authorship.local/study/attestations.schema.json",
+  "title": "Contemporary authorship attestation response ledger",
+  "type": "object",
+  "required": [
+    "$schema",
+    "ledger_version",
+    "status",
+    "candidate_frame_sha256",
+    "records"
+  ],
+  "properties": {
+    "$schema": {"const": "attestations.schema.json"},
+    "ledger_version": {"const": 2},
+    "status": {
+      "enum": [
+        "open_for_responses",
+        "frozen_for_modeling",
+        "frozen_without_solicitation"
+      ]
+    },
+    "candidate_frame_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "records": {"type": "array"},
+    "closure": {
+      "type": "object",
+      "required": [
+        "kind",
+        "applies_to_all_unsolicited_candidates",
+        "decision_at",
+        "label_inference_from_closure"
+      ],
+      "properties": {
+        "kind": {"const": "no_external_outreach"},
+        "applies_to_all_unsolicited_candidates": {"const": true},
+        "decision_at": {"type": "string"},
+        "label_inference_from_closure": {"const": false}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

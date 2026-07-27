@@ -1,0 +1,155 @@
+{
+  "artifact_sha256": {
+    "agent_go_audit_v2": "8b7bd1647aa1b1a1ed7b535f190e305e0c104168a1a76474c1ebc8ffff1aaa6b",
+    "attestation_ledger_v2": "d658371778d2a57b829d07cd0174f39be8b3c1df29d90ba2cd69a4df8cb2dfba",
+    "candidate_frame_v2": "8591ebac1c0ac17bac883829e2e02c5b7fb8b4248be86c50308c3e6bbe4769ed",
+    "execution_decision_v2": "c2d3888debae90b4e4a2048f8ab23a8d83571def20fd82e04ad5aee216d7cb0e",
+    "features_v1": "2c0d006dbe1a86b60a31490927267d413a09e595f05c7529be4636e160f01977",
+    "freeze_implementation": "a374cdf14eb969ced2a4c7daa36b48519dcbbaaa2c32cb6118af50e53ff278b6",
+    "human_audit_batch1_v2": "8d88895ef5b7e879935348137db763ac394d9357081e3b031916da0defd2fd8a",
+    "human_audit_batch2_v2": "f9521b3ab3dce45913b1af563dba53dab73f94ab6a506106fa13e5fd8f01684a",
+    "protocol_amendment_v2": "c790489b5b97bf4c2d3bb3850d6ed1d948c5461e7f6ce68fd2eb43330d8ae7a2",
+    "protocol_v1": "4ccefb87a8aa30f962c3569412116112180843a205ba4b5ad0ab30c2cc30facd",
+    "rebuild_implementation": "7556e6892571f86c83dc3bf21597c77e4b8343d24ded66969846eab20b5f47f8",
+    "reference_manifest_v1": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+    "reference_manifest_v2": "7683ec9cf9418061998ffac2759a723baa03b4e5e6c0f15522a7fc206e732ff7",
+    "replication_implementation": "297cf89c1c78a528a8cca12f268fd65d20e1335443d8e3ca177bfa8a6b5c9cfd",
+    "replication_v1": "109546709100f05b22982c1a07356ecd2c6a71f0839839bddaf50a84ee6e97b9",
+    "role_separation_implementation": "7d9f87febdbba661936c9f98db45c30e2cb6492abe90e391c9318cbec5219edd",
+    "role_separation_v2": "20e713ece7e949967ea78b0c00e515464e8dd210300c475f99ea9c98e4589fb1",
+    "target_manifest_v1": "e2d4c7b90fb1276fc979935b60628eafb9c053f4f5a971df115eb3f6fab23238"
+  },
+  "corpus": {
+    "exact_collision_hashes_removed": 19,
+    "introduced_on_or_after": "2024-01-01",
+    "reference_shard_root": "/mnt/agent-code-authorship/reference-shards-v2",
+    "reference_totals": {
+      "Go": {
+        "groups": 3,
+        "hunks": 53294,
+        "lines": 1733488
+      },
+      "Python": {
+        "groups": 6,
+        "hunks": 9717,
+        "lines": 475024
+      }
+    },
+    "status": "rebuilt_not_identified",
+    "target_repository_count": 150,
+    "target_totals": {
+      "Go": {
+        "hunks": 128188,
+        "lines": 3291011,
+        "repositories": 22
+      },
+      "Python": {
+        "hunks": 337949,
+        "lines": 8738920,
+        "repositories": 86
+      }
+    },
+    "v1_reference_repository_count": 15,
+    "v2_rebuild_performed": true
+  },
+  "estimand": {
+    "generalize_to_all_github": false,
+    "languages": [
+      "Python",
+      "Go"
+    ],
+    "target_cohort": "unchanged frozen v1 cohort"
+  },
+  "expansion": {
+    "agent_statement_treatment": {
+      "gastownhall/gascity": "already admitted under the pinned v1 Tier-1 entire-history attestation",
+      "gastownhall/gastown": "known agent-generated but not newly admitted because this statement does not pin an exact commit or explicitly state entire-history-through-cutoff scope"
+    },
+    "candidate_count": 200,
+    "eligible_attestations": 0,
+    "eligible_attestations_by_label": {},
+    "external_requests_sent": 0,
+    "human_labels_inferred": 0,
+    "ledger_status": "frozen_without_solicitation"
+  },
+  "frozen_at": "2026-07-25",
+  "headline_estimate": null,
+  "locked_quantitative_gates": {
+    "maximum_bootstrap_interval_width": {
+      "passed": false,
+      "reason": "upstream reference-diversity precondition failed",
+      "status": "not_run"
+    },
+    "maximum_estimator_disagreement": {
+      "passed": false,
+      "reason": "upstream reference-diversity precondition failed",
+      "status": "not_run"
+    },
+    "maximum_leave_one_group_out_shift": {
+      "passed": false,
+      "reason": "upstream reference-diversity precondition failed",
+      "status": "not_run"
+    },
+    "maximum_synthetic_mean_absolute_error": {
+      "passed": false,
+      "reason": "upstream reference-diversity precondition failed",
+      "status": "not_run"
+    },
+    "minimum_auc": {
+      "passed": false,
+      "reason": "upstream reference-diversity precondition failed",
+      "status": "not_run"
+    },
+    "minimum_synthetic_interval_coverage": {
+      "passed": false,
+      "reason": "upstream reference-diversity precondition failed",
+      "status": "not_run"
+    },
+    "plausible_mixture": {
+      "passed": false,
+      "reason": "upstream reference-diversity precondition failed",
+      "status": "not_run"
+    },
+    "systematic_bias_trend": {
+      "passed": false,
+      "reason": "protocol v1 forbids a systematic bias trend but preregisters neither a statistic nor a decision threshold; no post-outcome criterion was invented",
+      "status": "not_evaluable"
+    }
+  },
+  "reason": "The contemporary expansion acquired no eligible human attestations because external maintainer solicitation was declined. The locked five-development-plus-one-validation reference gate therefore fails.",
+  "reference_diversity_gate_passed": false,
+  "reference_eligibility": {
+    "Go": {
+      "agent": {
+        "development": 2,
+        "eligible": false,
+        "validation": 1
+      },
+      "human": {
+        "development": 0,
+        "eligible": false,
+        "validation": 0
+      }
+    },
+    "Python": {
+      "agent": {
+        "development": 5,
+        "eligible": true,
+        "validation": 1
+      },
+      "human": {
+        "development": 0,
+        "eligible": false,
+        "validation": 0
+      }
+    }
+  },
+  "result_version": 2,
+  "status": "not_identified",
+  "temporal_diagnostics": {
+    "historical_code_role": "diagnostic_and_sensitivity_only",
+    "primary_model_use": false,
+    "reason": "no admissible primary contemporary reference model",
+    "status": "not_run"
+  }
+}

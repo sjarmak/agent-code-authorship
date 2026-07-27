@@ -1,0 +1,17 @@
+{
+  "accepted_same_lineage": 100,
+  "accepted_sample_size": 100,
+  "artifact": "lineage-validation",
+  "headline_handling": "structural_candidates_map_to_modified",
+  "minimum_structural_precision": 0.9,
+  "private_mapping_sha256": "5ef6ecf723f0d58264d7fc801883179d10b9f0fd2ece49082e8b71c6b2ee7405",
+  "public_adjudication_sha256": "f226cd76da0a8ac8bfba431d2c112f97efe0c957aef93eed42adcfd133514078",
+  "rejected_same_lineage": 45,
+  "rejected_same_lineage_rate": 0.45,
+  "rejected_sample_size": 100,
+  "status": "complete",
+  "structural_match_gate_passed": true,
+  "structural_precision": 1.0,
+  "unresolved_cases": 0,
+  "version": 1
+}

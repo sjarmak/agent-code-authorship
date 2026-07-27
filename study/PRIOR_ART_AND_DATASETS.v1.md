@@ -1,0 +1,209 @@
+# Prior Art and Dataset Audit for Agent-Code Authorship
+
+Status: research memo, 2026-07-25
+Study fit: amendment v2 (`study/protocol-amendment.v2.json`)
+
+## Decision
+
+The literature does not supply a ready-made repository-level dataset that
+identifies the study's primary human/agent contrast. It does supply a much
+better **agent-positive discovery frame** and several useful, but deliberately
+secondary, detector benchmarks.
+
+The highest-leverage next acquisition step is:
+
+1. query **AIDev/AIDev-pop** for Python and Go PRs whose agent identity, exact
+   repository, PR, commits, and dates can be resolved;
+2. exclude all 150 target repositories and every existing reference repository;
+3. reconstruct only the code surviving at the frozen snapshot, grouped by
+   repository;
+4. use the resulting candidates as agent-positive evidence only after checking
+   that the recorded attribution covers generated code rather than merely an
+   agent-mediated PR; and
+5. retain the current `not_identified` result until an admissible contemporary
+   human reference population exists.
+
+This can fill the Go agent-group shortfall and diversify agent families. It
+cannot fill the human side. AIDev's “human” PRs, generic post-2023 GitHub code,
+and pre-2023 code must not be promoted to primary human labels. Pre-2023 code
+remains an era-confounding diagnostic under amendment v2.
+
+## Search method
+
+Three independent discovery routes were used:
+
+- **SciX MCP**: a local stdio SciX server was queried for literature reviews and
+  paper searches on AI-generated source-code detection, model attribution,
+  real-world agent-authored repositories, and self-admitted GenAI usage.
+- **Code Intelligence Digest MCP**: the live, read-only production digest was
+  searched by keyword and semantic similarity. It surfaced the newest
+  repository-mining and attribution work, including AIDev, agent
+  fingerprinting, AICD Bench, HybridCodeAuthorship, and self-admitted usage.
+- **Primary-source web verification**: paper records, full text, official
+  repositories, and dataset cards were checked directly. Search-engine or
+  digest snippets were treated as leads, not evidence.
+
+The search was run on 2026-07-25. Recent 2026 papers are predominantly
+preprints or newly accepted conference papers; their claims should be treated
+as provisional until independently replicated.
+
+## Research map
+
+| Work | Unit and data | Main result or contribution | Relevance and limitation |
+|---|---|---|---|
+| [Discriminating Human-authored from ChatGPT-Generated Code](https://arxiv.org/abs/2306.14397) (2023) | Hand-engineered features; 10,000 generated lines; repository-derived human code | Early interpretable source-style detector | Useful feature baseline. Controlled ChatGPT generation and temporal cleansing do not establish contemporary repository authorship. |
+| [An Empirical Study on Automatically Detecting AI-Generated Source Code](https://arxiv.org/abs/2411.04299) (2024) | Generated snippets; static metrics, AST embeddings, fine-tuned models | Reports best F1 82.55 and poor generalization of existing detectors | Strong warning against transporting snippet accuracy to repositories; candidate reproduction baseline if artifacts are available. |
+| [AIGCodeSet](https://arxiv.org/abs/2412.16594) (2024) | 2,828 AI and 4,755 human Python contest solutions from CodeNet prompts | Three LLMs and three prompt conditions | Public controlled benchmark; task, language, and era mismatch make it unsuitable as a population reference. |
+| [Detection of LLM-Generated Java Code Using Discretized Nested Bigrams](https://arxiv.org/abs/2502.15740) (2025) | Java source; discretized nested-bigram representation | Interpretable structural detection | Candidate classical baseline, but language and synthetic-generation mismatch. |
+| [Self-Admitted GenAI Usage in Open-Source Software](https://arxiv.org/abs/2507.10422) (2025/2026) | 1,292 curated mentions in 156 repositories found from more than 200,000 repositories | Taxonomy of explicit GenAI use in commits, comments, and documentation | High-precision candidate discovery. A mention may concern prose, tests, or assistance and is not automatically a code-level label. |
+| [Fingerprinting AI Coding Agents on GitHub](https://arxiv.org/abs/2601.17406) (2026) | 33,580 AIDev-pop PRs; 41 PR, commit, temporal, and code features; five agents | Reports 97.2% multiclass F1 | Best behavioral prior-art baseline. Stratified CV and metadata-dominated signal are not comparable to source-only, repository-held-out inference. The paper itself flags contamination of nominal human PRs and temporal validity. |
+| [AIDev](https://arxiv.org/abs/2602.09185) (2026) | 932,791 agentic PRs, 116,211 repositories, five agents; curated 33,596-PR subset | Largest real-world agentic-PR corpus located | Best repository/commit discovery frame, but a PR/account label is not proof that every changed or surviving line was generated by the agent. |
+| [AICD Bench](https://arxiv.org/abs/2602.02079) (2026) | Roughly 2M examples, 77 models, 11 model families, nine languages | Binary, family-attribution, hybrid, and adversarial benchmark | Best stress-test corpus for source detectors; generated-example unit and prompt/domain construction do not match the target estimand. |
+| [HybridCodeAuthorship](https://arxiv.org/abs/2606.12620) (2026) | Python line/chunk labels formed by inserting generated code into CodeSearchNet-linked code | Reports F1 0.48 at chunk level and 0.56 at line level | Directly demonstrates how hard mixed authorship is. Synthetic insertion is valuable for recovery tests, not real repository labels. |
+| [Code Fingerprints](https://arxiv.org/abs/2603.04212) (2026) | Generated Python, Java, C, and Go from DeepSeek, Claude, Qwen, and ChatGPT | Model-level attribution with disentangled representations | Useful agent-family holdout stress test; no naturally authored repository histories. |
+
+Two separate research problems are often conflated:
+
+- **generated-snippet detection** asks whether a model produced an isolated
+  answer to a known prompt; and
+- **surviving repository authorship** asks how much code at a snapshot came
+  from agents after edits, review, merges, reverts, formatting, and human-agent
+  collaboration.
+
+Most high reported scores address the first problem, or use PR metadata for
+agent attribution. Neither directly estimates the second.
+
+## Candidate dataset audit
+
+Ratings are for amendment-v2 acquisition, not for the intrinsic quality of the
+datasets.
+
+| Rank | Dataset | Labels and grouping | Dates / languages | Access / license | Contamination and fit |
+|---:|---|---|---|---|---|
+| 1 | [AIDev](https://huggingface.co/datasets/hao-li/AIDev) / AIDev-pop | Agent name, repo URL/ID, PR URL/ID, timestamps, commit and review tables; groupable by repository | Agentic activity through the collection cutoff; repository metadata includes primary language; Python and Go can be selected | Public parquet, about 970 MB for the main normalized release; CC-BY-4.0 | **High-fit agent discovery only.** Resolve exact commit SHAs and patches, verify label mechanism, remove bots/agent wrappers that do not imply generation, and reconstruct surviving lines. Do not use its “human PR” table as a clean negative class. |
+| 2 | Self-Admitted GenAI Usage replication data | Curated admission with repository and artifact context | Contemporary OSS; mixed languages | Paper states a replication package; artifact URL/version and license must be pinned before ingestion | **High-precision lead list.** Manually require an explicit generated-code claim and exact commits. Many admissions describe non-code content or assistance and will fail Tier 1. |
+| 3 | [AIDev-full](https://huggingface.co/datasets/hao-li/AIDev-full) | AIDev plus expanded commits/repositories, 16,476,809 rows | Same ecosystem, mixed languages | Public parquet, 3.37 GB, CC-BY-4.0 | Useful only if missing commit detail cannot be recovered from the smaller release/GitHub. Higher storage and privacy/reproducibility surface; keep cold on NAS if acquired. |
+| 4 | [AICD Bench](https://huggingface.co/datasets/AICD-bench/AICD-Bench) | Human, machine, hybrid, adversarial; model/family labels | Nine languages, many current models | Public Hugging Face dataset; pin revision and confirm per-source licensing before download | **Benchmark only.** Excellent breadth, but synthetic/example-level labels and likely source-domain shortcuts make it inadmissible as a repository reference. |
+| 5 | [AIGCodeSet](https://arxiv.org/abs/2412.16594) | Human CodeNet and generated Python solutions | Python; three models | Paper and linked code/data; license must be checked at pinned artifact | **Benchmark only.** Contest-domain, prompt-paired examples are useful for leakage tests, not population training. |
+| 6 | [DCAN / Code Fingerprints](https://github.com/mtt500/DCAN) | Four generating models across four languages | Includes Python and Go | Public repository; dataset and code advertised, exact release license must be audited | **Attribution stress test only.** Useful for leave-one-model-out evaluation, not human-v-agent repository calibration. |
+| 7 | HybridCodeAuthorship | Human/generated labels at line and chunk level | Python | Paper says CodeSearchNet-linked construction; artifact and license need pinning | **Mixed-authorship recovery test only.** Synthetic insertion changes boundary and editing behavior. |
+| 8 | Historical pre-2023 GitHub/CodeSearchNet/CodeNet | Human-by-era assumption, repository or snippet groups | Predates widespread coding-assistant use; broad language coverage | Varies | **Diagnostic only.** It cleanly reduces AI contamination by introducing a fatal era label: the classifier can learn year, dependency, API, or style drift instead of authorship. Amendment v2 already forbids it as a negative label. |
+
+### What counts as a candidate repository
+
+An AIDev row is a lead, not an admitted label. A candidate should pass all of:
+
+- public repository and resolvable PR/commit IDs;
+- commit introduced between 2024-01-01 and 2026-07-24;
+- Python or Go changes with at least 2,000 surviving, non-vendored lines in the
+  repository group after reconstruction;
+- agent-generation provenance covers the code, not only issue triage,
+  review, commit-message generation, or account mediation;
+- no target or reference overlap by canonical repository ID or exact content
+  hash;
+- repository license permits the intended analysis and retained artifacts; and
+- one repository contributes to exactly one role and one cross-validation
+  group.
+
+Agent names, languages, repository counts, acceptance rates, or stars must not
+be used to select candidates after consulting classifier outputs.
+
+## Prior-art baseline
+
+The defensible comparison is a **baseline suite**, because each family answers
+a different question.
+
+### B0 — Locked study baseline (headline)
+
+- Existing manifest-defined source features.
+- L2 logistic regression.
+- Repository-grouped development folds.
+- One untouched repository per language/label.
+- Full-score mixture quantification and all existing uncertainty gates.
+
+This remains the headline baseline because it matches the estimand and is
+interpretable. It must not run until the reference-diversity gate passes.
+
+### B1 — Classical source-style replication
+
+Reproduce a compact union of published lexical/structural features:
+
+- whitespace and formatting;
+- comment and docstring rates;
+- identifier and literal distributions;
+- complexity and nesting;
+- AST node/n-gram or discretized nested-bigram counts; and
+- readability/maintainability measures.
+
+Use the same repository folds, cutoff, survivor reconstruction, and role
+separation as B0. Compare out-of-repository AUC, log loss, calibration error,
+mixture recovery, and bootstrap interval width—not random-row F1.
+
+### B2 — Neural source detector
+
+Fine-tune one reproducible code encoder from the 2024 detector literature and
+evaluate it under exactly the B0 splits. Freeze architecture and tuning before
+opening the dedicated validation repositories. This tests whether learned
+representations add transportable source signal beyond B1.
+
+### B3 — Behavioral/metadata upper bound
+
+Reproduce the AIDev fingerprinting feature families with gradient-boosted
+trees:
+
+- PR and commit-message structure;
+- timing and activity;
+- patch/change statistics; and
+- source-code metrics.
+
+Report source-only and metadata-only ablations. This is an **upper-bound
+diagnostic**, never the population estimator, because the target snapshot lacks
+equivalent PR metadata and metadata can encode the agent account directly.
+
+### B4 — Robustness and transport battery
+
+Every trained detector should face:
+
+- repository-held-out evaluation;
+- forward temporal holdout;
+- leave-one-agent-family-out testing;
+- language-held-out or separately reported Python/Go performance;
+- formatting/comment stripping;
+- post-review and surviving-line reconstruction;
+- exact and near-duplicate decontamination;
+- synthetic mixed-authorship recovery using AICD/Hybrid-style data; and
+- a pre-2023-vs-contemporary era classifier to quantify temporal confounding.
+
+Primary metrics are repository-bootstrap confidence intervals for ROC AUC and
+log loss, calibration curves/error, threshold-free mixture recovery bias, and
+coverage of the final interval. Macro F1 may be reported only as a secondary
+comparison with papers that use it.
+
+## Acquisition plan
+
+1. Pin the AIDev dataset revision and download only metadata plus commit-detail
+   columns needed to enumerate Python/Go candidates.
+2. Store the immutable raw snapshot and large parquet files on NAS; keep a
+   small checksummed manifest and derived candidate table in the repository.
+3. Freeze the candidate ordering before source-feature extraction.
+4. Audit the label mechanism for each agent family and manually review a
+   random sample of PRs.
+5. Resolve commit SHAs, clone selected repositories, and run the existing
+   survivor/role-separation pipeline.
+6. Reassess the Go agent gate. Keep the study result `not_identified` unless a
+   separate admissible human-positive process fills every human gate.
+7. Only after both classes pass, preregister B1–B4 details and execute the
+   baseline suite.
+
+## Bottom line
+
+AIDev is the one dataset worth integrating now, but as a **candidate generator
+for exact agent-positive commit sets**, not as ground truth wholesale. The
+self-admitted-usage corpus is the second-best precision source. Controlled
+datasets should establish a prior-art stress-test floor, not train the headline
+classifier.
+
+No located public dataset makes “contemporary human, no AI assistance” an
+observable fact at exact commits. Therefore the research improves agent
+coverage and the evaluation design but does not overturn amendment v2's
+non-identification conclusion.

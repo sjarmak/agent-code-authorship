@@ -1,0 +1,134 @@
+{
+  "$schema": "survival-protocol.schema.json",
+  "protocol_version": 1,
+  "status": "preregistered",
+  "purpose": "Estimate how confirmed agent-authored Python and Go code survives and changes after reaching real repositories while separating explicit generation evidence from agent-attributed pull requests.",
+  "snapshot": {
+    "cutoff": "2026-07-24T23:59:59Z",
+    "later_observations_forbidden": true,
+    "insufficient_followup": "right_censored"
+  },
+  "estimand": {
+    "population": "eligible agent-authored changes reaching selected repositories' default branches",
+    "time_zero": "first_default_branch_commit_containing_change",
+    "languages": ["Python", "Go"],
+    "horizons_days": [30, 90, 180, 365],
+    "primary_weighting": "repository",
+    "secondary_weighting": "line",
+    "headline_survival_states": ["unchanged", "modified"],
+    "unmerged_pr_role": "separate_attrition_analysis"
+  },
+  "provenance": {
+    "tiers": {
+      "tier_1": "explicit entire-history or exact commit/PR evidence that an agent generated the code",
+      "tier_2": "AIDev agent-attributed PR with reliable agent identity but no independent generation-scope attestation"
+    },
+    "pool_tiers_for_headline": false,
+    "require_exact_repository": true,
+    "require_exact_commit_or_pr": true
+  },
+  "sourcegraph": {
+    "roles": [
+      "population_discovery",
+      "repository_filtering",
+      "cross_repository_search",
+      "snapshot_verification"
+    ],
+    "authoritative_lineage_source": "pinned_git_history",
+    "reproducible_identifiers": ["canonical_repository_url", "commit_sha"]
+  },
+  "lineage": {
+    "states": ["introduced", "unchanged", "modified", "deleted", "unobservable"],
+    "headline_match_hierarchy": [
+      "exact_line_or_blob",
+      "git_rename_and_diff",
+      "validated_structural_match"
+    ],
+    "embedding_similarity_role": "sensitivity_only",
+    "ambiguous_semantic_match": "unobservable",
+    "allowed_transitions": [
+      ["introduced", "unchanged"],
+      ["introduced", "modified"],
+      ["introduced", "deleted"],
+      ["introduced", "unobservable"],
+      ["unchanged", "unchanged"],
+      ["unchanged", "modified"],
+      ["unchanged", "deleted"],
+      ["unchanged", "unobservable"],
+      ["modified", "modified"],
+      ["modified", "deleted"],
+      ["modified", "unobservable"],
+      ["unobservable", "unobservable"]
+    ]
+  },
+  "sampling": {
+    "frame": "all eligible Python and Go candidates from Tier 1 sources and pinned AIDev",
+    "strata": ["language", "agent_family", "provenance_tier"],
+    "maximum_repositories_per_stratum": 25,
+    "minimum_attributable_lines_per_repository": 200,
+    "include_all_eligible_tier_1": true,
+    "include_all_qualifying_changes_within_selected_repository": true,
+    "outcome_blind": true,
+    "frozen_order": "sha256_of_canonical_repository_id"
+  },
+  "contextual_comparison": {
+    "label": "non_agent_attributed",
+    "forbidden_label": "human",
+    "source": "contemporaneous code from the same repositories",
+    "matching": ["language", "file_type", "change_size", "code_age", "repository"],
+    "role": "secondary_context_only"
+  },
+  "analysis": {
+    "model": "multistate_survival",
+    "states": ["introduced", "unchanged", "modified", "deleted"],
+    "state_occupancy_horizons_days": [30, 90, 180, 365],
+    "bootstrap_unit": "repository",
+    "uncertainty": "repository_bootstrap_confidence_intervals",
+    "secondary_outcomes": [
+      "time_to_first_modification",
+      "time_to_deletion",
+      "first_subsequent_editor_identity_when_observable",
+      "survival_by_code_category",
+      "repository_heterogeneity",
+      "agent_family_heterogeneity"
+    ],
+    "deferred_claims": ["bug_rate", "security", "causal_quality"]
+  },
+  "validation": {
+    "blinded_decisions": 200,
+    "positive_structural_candidates": 100,
+    "rejected_or_ambiguous_candidates": 100,
+    "blind_fields": ["agent_family", "survival_outcome"],
+    "minimum_structural_precision": 0.9,
+    "failure_behavior": "headline_uses_exact_git_lineage_only"
+  },
+  "identification_gates": {
+    "minimum_repositories_per_stratum": 5,
+    "minimum_attributable_lines_per_repository": 200,
+    "minimum_lineage_coverage": 0.8,
+    "require_horizon_followup": true,
+    "allow_target_or_reference_overlap": false,
+    "allow_duplicate_repository_leakage": false,
+    "failure_result": "not_identified"
+  },
+  "storage": {
+    "raw_inputs": "immutable_checksummed",
+    "large_artifacts": "nas",
+    "repository_artifacts": "small_manifests_and_derived_outputs",
+    "pin_dataset_revisions": true
+  },
+  "reporting": {
+    "separate_provenance_tiers": true,
+    "separate_languages": true,
+    "failed_gate_result": "not_identified",
+    "required_artifacts": [
+      "frozen_candidate_manifest",
+      "raw_input_inventory",
+      "lineage_validation",
+      "transitions",
+      "survival_estimates",
+      "final_report"
+    ]
+  },
+  "protocol_sha256": "27de72b2920cbb3c821bfa4c1971413f472ec3fdae04400c402876d6818339c8"
+}

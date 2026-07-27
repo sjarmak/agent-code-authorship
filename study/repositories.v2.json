@@ -1,0 +1,353 @@
+{
+  "$schema": "repositories.schema.json",
+  "cutoff": "2026-07-24T23:59:59Z",
+  "excluded_candidates": [
+    {
+      "frame": "all amendment-v2 human candidates",
+      "reason": "no external solicitation; no label inferred"
+    },
+    {
+      "reason": "agent provenance statement lacks exact cutoff or entire-history-through-cutoff scope",
+      "repository": "gastownhall/gastown"
+    }
+  ],
+  "manifest_version": 2,
+  "protocol_sha256": "c790489b5b97bf4c2d3bb3850d6ed1d948c5461e7f6ce68fd2eb43330d8ae7a2",
+  "repositories": [
+    {
+      "content_checksum": "git-tree-sha1:58d73d2c50ed4723ee179a7138ed6520015147b1",
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "evidence": {
+        "attestor": "sjarmak",
+        "kind": "maintainer_attestation",
+        "recorded_at": "2026-07-24",
+        "scope": "entire_repository_history",
+        "statement": "The maintainer attests that this owned repository was agent-generated.",
+        "tier": 1
+      },
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "id": "sjarmak/nls-finetune-scix",
+      "label": "agent",
+      "languages": [
+        "Python"
+      ],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "role": "reference",
+      "snapshot": {
+        "commit": "a615c44f9d93b4f9f5fe79f8009269a3d3fb5930",
+        "committed_at": "2026-06-17T19:16:20Z",
+        "tree": "58d73d2c50ed4723ee179a7138ed6520015147b1"
+      },
+      "url": "https://github.com/sjarmak/nls-finetune-scix"
+    },
+    {
+      "content_checksum": "git-tree-sha1:e55928ea587bbca1929431f3e3cd9a35104731da",
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "evidence": {
+        "attestor": "sjarmak",
+        "kind": "maintainer_attestation",
+        "recorded_at": "2026-07-24",
+        "scope": "entire_repository_history",
+        "statement": "The maintainer attests that this owned repository was agent-generated.",
+        "tier": 1
+      },
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "id": "sjarmak/scix-agent",
+      "label": "agent",
+      "languages": [
+        "Python"
+      ],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "role": "reference",
+      "snapshot": {
+        "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+        "committed_at": "2026-07-11T02:49:31Z",
+        "tree": "e55928ea587bbca1929431f3e3cd9a35104731da"
+      },
+      "url": "https://github.com/sjarmak/scix-agent"
+    },
+    {
+      "content_checksum": "git-tree-sha1:66df02bf66d79146775aec592c2ee73176bc8c3b",
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "evidence": {
+        "attestor": "sjarmak",
+        "kind": "maintainer_attestation",
+        "recorded_at": "2026-07-24",
+        "scope": "entire_repository_history",
+        "statement": "The maintainer attests that this owned repository was agent-generated.",
+        "tier": 1
+      },
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "id": "sjarmak/agent-diagnostics",
+      "label": "agent",
+      "languages": [
+        "Python"
+      ],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "role": "reference",
+      "snapshot": {
+        "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+        "committed_at": "2026-06-17T19:16:15Z",
+        "tree": "66df02bf66d79146775aec592c2ee73176bc8c3b"
+      },
+      "url": "https://github.com/sjarmak/agent-diagnostics"
+    },
+    {
+      "content_checksum": "git-tree-sha1:baf3a7c8b029e4222e2c4c47027a35710a94489d",
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "evidence": {
+        "attestor": "sjarmak",
+        "kind": "maintainer_attestation",
+        "recorded_at": "2026-07-24",
+        "scope": "entire_repository_history",
+        "statement": "The maintainer attests that this owned repository was agent-generated.",
+        "tier": 1
+      },
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "id": "sjarmak/codeprobe",
+      "label": "agent",
+      "languages": [
+        "Python"
+      ],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "role": "dedicated_validation",
+      "snapshot": {
+        "commit": "6052fec96850a06b18527a9bb8e41243bc1cbdb1",
+        "committed_at": "2026-07-23T20:32:20Z",
+        "tree": "baf3a7c8b029e4222e2c4c47027a35710a94489d"
+      },
+      "url": "https://github.com/sjarmak/codeprobe"
+    },
+    {
+      "content_checksum": "git-tree-sha1:b026df11ce26796f0515c5f2634c158dfa76ac4e",
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "evidence": {
+        "attestor": "sjarmak",
+        "kind": "maintainer_attestation",
+        "recorded_at": "2026-07-24",
+        "scope": "entire_repository_history",
+        "statement": "The maintainer attests that this owned repository was agent-generated.",
+        "tier": 1
+      },
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "id": "sjarmak/sg_benchmark",
+      "label": "agent",
+      "languages": [
+        "Python"
+      ],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "role": "reference",
+      "snapshot": {
+        "commit": "75aaeb23930e144a0471b2a00d57e0f210ce31a1",
+        "committed_at": "2025-12-17T18:52:15Z",
+        "tree": "b026df11ce26796f0515c5f2634c158dfa76ac4e"
+      },
+      "url": "https://github.com/sjarmak/sg_benchmark"
+    },
+    {
+      "content_checksum": "git-tree-sha1:6e1814a3561cd5f7c676489eebb6a8947cc85a58",
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "evidence": {
+        "attestor": "sjarmak",
+        "kind": "maintainer_attestation",
+        "recorded_at": "2026-07-24",
+        "scope": "entire_repository_history",
+        "statement": "The maintainer attests that this owned repository was agent-generated.",
+        "tier": 1
+      },
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "id": "sjarmak/GEO_public",
+      "label": "agent",
+      "languages": [
+        "Python"
+      ],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "role": "reference",
+      "snapshot": {
+        "commit": "5f0ba3b7b6b12888c6dabfa2fbb14604def437cf",
+        "committed_at": "2026-07-02T17:22:03Z",
+        "tree": "6e1814a3561cd5f7c676489eebb6a8947cc85a58"
+      },
+      "url": "https://github.com/sjarmak/GEO_public"
+    },
+    {
+      "content_checksum": "git-tree-sha1:6ed73f5a7ca4839e672d117f311fc03d6d0cea52",
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "evidence": {
+        "attestor": "sjarmak",
+        "kind": "maintainer_attestation",
+        "recorded_at": "2026-07-24",
+        "scope": "entire_repository_history",
+        "statement": "The maintainer attests that this owned repository was agent-generated.",
+        "tier": 1
+      },
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "id": "sjarmak/livedocs",
+      "label": "agent",
+      "languages": [
+        "Go"
+      ],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "role": "reference",
+      "snapshot": {
+        "commit": "39bec8c08c7444eb06a4f9df55e4887b9c54e266",
+        "committed_at": "2026-06-17T19:16:13Z",
+        "tree": "6ed73f5a7ca4839e672d117f311fc03d6d0cea52"
+      },
+      "url": "https://github.com/sjarmak/livedocs"
+    },
+    {
+      "content_checksum": "git-tree-sha1:5179bfeb0cd424b4a6381c18bfad45b8758ec7d7",
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "evidence": {
+        "attestor": "sjarmak",
+        "kind": "maintainer_attestation",
+        "recorded_at": "2026-07-24",
+        "scope": "entire_repository_history",
+        "statement": "The maintainer attests from direct knowledge that the entire Gas City history is agent-generated.",
+        "tier": 1
+      },
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "id": "gastownhall/gascity",
+      "label": "agent",
+      "languages": [
+        "Go"
+      ],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "role": "reference",
+      "snapshot": {
+        "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+        "committed_at": "2026-07-24T22:36:12Z",
+        "tree": "5179bfeb0cd424b4a6381c18bfad45b8758ec7d7"
+      },
+      "url": "https://github.com/gastownhall/gascity"
+    },
+    {
+      "content_checksum": "git-tree-sha1:3443411928c32e3aee4001026708c95f2eef0b04",
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "evidence": {
+        "attestor": "sjarmak",
+        "kind": "maintainer_attestation",
+        "recorded_at": "2026-07-24",
+        "scope": "entire_repository_history",
+        "statement": "The maintainer attests from direct knowledge that the entire Beads history is agent-generated.",
+        "tier": 1
+      },
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "id": "gastownhall/beads",
+      "label": "agent",
+      "languages": [
+        "Go"
+      ],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "role": "dedicated_validation",
+      "snapshot": {
+        "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+        "committed_at": "2026-07-24T23:40:20Z",
+        "tree": "3443411928c32e3aee4001026708c95f2eef0b04"
+      },
+      "url": "https://github.com/gastownhall/beads"
+    }
+  ],
+  "selection": {
+    "agent_frame": "Pinned v1 Tier-1 maintainer-attested repositories; no new agent project admitted without exact cutoff/history scope.",
+    "human_frame": "Frozen amendment-v2 candidate frame requiring exact-commit maintainer attestations.",
+    "human_frame_status": "closed_without_solicitation_no_admissible_labels",
+    "line_eligibility_status": "rebuilt_and_verified",
+    "minimum_groups_per_side": 5,
+    "model_outputs_consulted": false,
+    "outcome_blind": true,
+    "reserved_validation_groups_per_side": 1,
+    "substantial_line_threshold": 2000
+  }
+}

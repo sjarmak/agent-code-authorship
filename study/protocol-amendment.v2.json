@@ -1,0 +1,104 @@
+{
+  "$schema": "protocol-amendment.schema.json",
+  "amendment_version": 2,
+  "status": "preregistered",
+  "preregistered_at": "2026-07-25T16:10:41Z",
+  "purpose": "Restore repository-level reference diversity using contemporary, exact-commit Tier-1 attestations without changing the target estimand or consulting classifier outcomes.",
+  "parent": {
+    "protocol_version": 1,
+    "result_status": "not_identified",
+    "sha256": {
+      "protocol": "4ccefb87a8aa30f962c3569412116112180843a205ba4b5ad0ab30c2cc30facd",
+      "failed_result": "109546709100f05b22982c1a07356ecd2c6a71f0839839bddaf50a84ee6e97b9",
+      "target_manifest": "e2d4c7b90fb1276fc979935b60628eafb9c053f4f5a971df115eb3f6fab23238"
+    }
+  },
+  "selection": {
+    "outcome_blind": true,
+    "classifier_outputs_consulted": false,
+    "candidate_frame_frozen_before_solicitation": true,
+    "ordering": "sha256_of_canonical_repository_id",
+    "stopping_rule": "Solicit in frozen order until each language/label has at least six qualifying groups: five development groups plus one untouched dedicated-validation group.",
+    "failed_or_nonresponsive_candidates": "Retain with reason; do not replace based on model scores or source-style features."
+  },
+  "labels": {
+    "human": {
+      "unit": "commit_set",
+      "introduced_on_or_after": "2024-01-01",
+      "introduced_on_or_before": "2026-07-24",
+      "evidence_tier": 1,
+      "permitted_evidence": [
+        "public_maintainer_attestation",
+        "signed_maintainer_attestation"
+      ],
+      "required_claims": [
+        "attestor_identity_and_authority",
+        "exact_repository",
+        "exact_commit_ids",
+        "no_ai_or_llm_assistance",
+        "scope_includes_code_and_tests"
+      ],
+      "excluded_claims": [
+        "probably_human",
+        "no_known_ai",
+        "repository_policy_without_commit_scope"
+      ]
+    },
+    "agent": {
+      "unit": "commit_set_or_entire_history",
+      "introduced_on_or_after": "2024-01-01",
+      "introduced_on_or_before": "2026-07-24",
+      "evidence_tier": 1,
+      "required_claims": [
+        "attestor_identity_and_authority",
+        "exact_repository",
+        "exact_commit_ids_or_entire_history",
+        "agent_generated_code"
+      ]
+    }
+  },
+  "grouping": {
+    "unit": "repository",
+    "commit_sets_from_one_repository_form_one_group": true,
+    "bootstrap_unit": "repository",
+    "cross_validation_unit": "repository"
+  },
+  "roles": {
+    "allow_target_overlap": false,
+    "allow_cross_label_overlap": false,
+    "dedicated_validation_is_never_used_for_training": true
+  },
+  "identification": {
+    "minimum_surviving_lines_per_group": 2000,
+    "minimum_substantial_groups_per_side": 5,
+    "reserved_validation_groups_per_side": 1,
+    "languages": [
+      "Python",
+      "Go"
+    ],
+    "all_original_v1_classifier_mixture_and_uncertainty_gates_remain_locked": true
+  },
+  "historical_code": {
+    "introduced_before": "2023-01-01",
+    "role": "diagnostic_and_sensitivity_only",
+    "forbidden_uses": [
+      "primary_human_reference",
+      "classifier_negative_label",
+      "substitute_for_contemporary_attestation"
+    ],
+    "diagnostics": [
+      "repository_grouped_era_classifier_auc",
+      "featurewise_standardized_mean_shift",
+      "historical_anchor_mixture_sensitivity"
+    ],
+    "report_even_if_unfavorable": true
+  },
+  "unchanged": {
+    "estimand": "Line-weighted surviving non-vendored Python and Go lines introduced on or after 2024-01-01 in the fixed 150-repository cohort.",
+    "snapshot_cutoff": "2026-07-24T23:59:59Z",
+    "feature_manifest": "study/features.v1.json",
+    "primary_model": "l2_logistic_regression",
+    "primary_quantifier": "full_score_mixture",
+    "failed_gate_result": "not_identified"
+  }
+}

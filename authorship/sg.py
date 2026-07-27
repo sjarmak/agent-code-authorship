@@ -19,10 +19,25 @@ the fork named in the cohort manifest.
 from __future__ import annotations
 
 import json
+import os
 import subprocess
+from urllib.parse import urlparse
 
 from authorship.languages import SKIP_PATH, is_code_path
 from authorship.paths import COHORT_FORKS
+
+
+def _src_environment() -> dict[str, str]:
+    """Accept both src-cli and connected Sourcegraph MCP environment names."""
+    environment = dict(os.environ)
+    if "SRC_ENDPOINT" not in environment and environment.get("SOURCEGRAPH_MCP_URL"):
+        parsed = urlparse(environment["SOURCEGRAPH_MCP_URL"])
+        environment["SRC_ENDPOINT"] = f"{parsed.scheme}://{parsed.netloc}"
+    if "SRC_ACCESS_TOKEN" not in environment and environment.get(
+        "SOURCEGRAPH_ACCESS_TOKEN"
+    ):
+        environment["SRC_ACCESS_TOKEN"] = environment["SOURCEGRAPH_ACCESS_TOKEN"]
+    return environment
 
 
 def api(query: str, **variables: str) -> dict:
@@ -30,7 +45,9 @@ def api(query: str, **variables: str) -> dict:
     because src-cli is particular about variable typing."""
     cmd = ["src", "api", "-query", query]
     cmd += [f"{key}={value}" for key, value in variables.items()]
-    result = subprocess.run(cmd, capture_output=True, text=True, check=False)
+    result = subprocess.run(
+        cmd, capture_output=True, text=True, check=False, env=_src_environment()
+    )
     if result.returncode != 0 or not result.stdout.strip():
         raise RuntimeError(f"src api failed: {(result.stderr or result.stdout)[:300]}")
     try:

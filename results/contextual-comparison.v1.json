@@ -1,0 +1,216 @@
+{
+  "agent_inventory_sha256": "808b86ece980b80cf57a71a2f82bd4918cbde7d5b26ac6f7d18fd1d786288f26",
+  "artifact": "contextual-comparison",
+  "bootstrap": {
+    "interval": "percentile_95",
+    "replicates": 2000,
+    "seed": 20260724,
+    "unit": "paired_repository"
+  },
+  "causal_interpretation": false,
+  "context_inventory_sha256": "80f23534b7745a97d16b1036abcbca5bc59a2016b59f3d01f548886e8344f0b6",
+  "context_label": "non_agent_attributed",
+  "frame_sha256": "c32a7be4d9826c704486c3dfc13f6688b4d2600a2b5d73270968b451d0a718ae",
+  "languages": [
+    {
+      "horizons": {
+        "180": {
+          "agent_lineage_coverage": 0.8476886032471096,
+          "context_lineage_coverage": 0.8685041476090876,
+          "gate_reasons": [],
+          "paired_estimate": {
+            "estimand": "agent_minus_non_agent_attributed_observable_survival",
+            "line_weighted_secondary": {
+              "bootstrap_95_ci": [
+                -0.017806697621668286,
+                0.1890477577342901
+              ],
+              "point": 0.008351786807963224
+            },
+            "repository_weighted_primary": {
+              "bootstrap_95_ci": [
+                -0.036137865485856034,
+                0.024803442810570606
+              ],
+              "point": -0.005051931920001007
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "agent_lineage_coverage": 0.8536941626387635,
+          "context_lineage_coverage": 0.8735801822985316,
+          "gate_reasons": [],
+          "paired_estimate": {
+            "estimand": "agent_minus_non_agent_attributed_observable_survival",
+            "line_weighted_secondary": {
+              "bootstrap_95_ci": [
+                -0.011446032478958253,
+                0.001716919110062567
+              ],
+              "point": 0.0011008587940691816
+            },
+            "repository_weighted_primary": {
+              "bootstrap_95_ci": [
+                -0.014678398563810317,
+                -0.00012919896640826897
+              ],
+              "point": -0.005313658667653235
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "agent_lineage_coverage": 0.8401144637844589,
+          "context_lineage_coverage": 0.8405762126640554,
+          "gate_reasons": [],
+          "paired_estimate": {
+            "estimand": "agent_minus_non_agent_attributed_observable_survival",
+            "line_weighted_secondary": {
+              "bootstrap_95_ci": [
+                0.0018244325673004358,
+                0.25636755018810975
+              ],
+              "point": 0.046821633321042055
+            },
+            "repository_weighted_primary": {
+              "bootstrap_95_ci": [
+                -0.024408252736950856,
+                0.07634856837737883
+              ],
+              "point": 0.023691967776792895
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "agent_lineage_coverage": 0.8519767709495228,
+          "context_lineage_coverage": 0.8718253135961916,
+          "gate_reasons": [],
+          "paired_estimate": {
+            "estimand": "agent_minus_non_agent_attributed_observable_survival",
+            "line_weighted_secondary": {
+              "bootstrap_95_ci": [
+                -0.021214953320808437,
+                0.0014402459456973047
+              ],
+              "point": 0.0006648566674266609
+            },
+            "repository_weighted_primary": {
+              "bootstrap_95_ci": [
+                -0.03743337007699465,
+                -0.0002300145840478524
+              ],
+              "point": -0.014492586582791726
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Go",
+      "paired_repository_count": 30
+    },
+    {
+      "horizons": {
+        "180": {
+          "agent_lineage_coverage": 0.8813375899572534,
+          "context_lineage_coverage": 0.8523838691193614,
+          "gate_reasons": [],
+          "paired_estimate": {
+            "estimand": "agent_minus_non_agent_attributed_observable_survival",
+            "line_weighted_secondary": {
+              "bootstrap_95_ci": [
+                -0.08620462278823761,
+                0.027466995408557474
+              ],
+              "point": -0.02700011009524439
+            },
+            "repository_weighted_primary": {
+              "bootstrap_95_ci": [
+                -0.06205783871698051,
+                0.09895962432814791
+              ],
+              "point": 0.016423046689861696
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "agent_lineage_coverage": 0.9362047508251718,
+          "context_lineage_coverage": 0.9060283337614352,
+          "gate_reasons": [],
+          "paired_estimate": {
+            "estimand": "agent_minus_non_agent_attributed_observable_survival",
+            "line_weighted_secondary": {
+              "bootstrap_95_ci": [
+                -0.07907722755964437,
+                0.014084535606950065
+              ],
+              "point": -0.02971741990859622
+            },
+            "repository_weighted_primary": {
+              "bootstrap_95_ci": [
+                -0.04782233165561787,
+                0.08656267871251945
+              ],
+              "point": 0.014695916187389033
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "agent_lineage_coverage": 0.8583335618128478,
+          "context_lineage_coverage": 0.8077911256162766,
+          "gate_reasons": [],
+          "paired_estimate": {
+            "estimand": "agent_minus_non_agent_attributed_observable_survival",
+            "line_weighted_secondary": {
+              "bootstrap_95_ci": [
+                -0.09183739954133507,
+                0.026568473183774845
+              ],
+              "point": -0.03147090017256493
+            },
+            "repository_weighted_primary": {
+              "bootstrap_95_ci": [
+                -0.08014408548405362,
+                0.12401362833233223
+              ],
+              "point": 0.018615516637313863
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "agent_lineage_coverage": 0.9023185974784914,
+          "context_lineage_coverage": 0.8818241093833357,
+          "gate_reasons": [],
+          "paired_estimate": {
+            "estimand": "agent_minus_non_agent_attributed_observable_survival",
+            "line_weighted_secondary": {
+              "bootstrap_95_ci": [
+                -0.08161815594363307,
+                0.007415937680011179
+              ],
+              "point": -0.03599224609009777
+            },
+            "repository_weighted_primary": {
+              "bootstrap_95_ci": [
+                -0.061515927317481234,
+                0.07673493482747054
+              ],
+              "point": 0.005473535293812347
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Python",
+      "paired_repository_count": 47
+    }
+  ],
+  "lineage_validation_sha256": "6c953c959eb3d7945e0d652f20c204b304eb750e640ae6c65c549c08df225c9d",
+  "role": "secondary_context_only",
+  "structural_candidate_handling": "mapped_to_modified",
+  "version": 1
+}

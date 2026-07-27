@@ -1,0 +1,13 @@
+{
+  "$schema": "attestations.schema.json",
+  "ledger_version": 2,
+  "status": "frozen_without_solicitation",
+  "candidate_frame_sha256": "8591ebac1c0ac17bac883829e2e02c5b7fb8b4248be86c50308c3e6bbe4769ed",
+  "records": [],
+  "closure": {
+    "kind": "no_external_outreach",
+    "applies_to_all_unsolicited_candidates": true,
+    "decision_at": "2026-07-25",
+    "label_inference_from_closure": false
+  }
+}

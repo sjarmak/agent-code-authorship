@@ -1,0 +1,47 @@
+{
+  "inventory_version": 1,
+  "dataset": "hao-li/AIDev",
+  "dataset_revision": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
+  "retrieved_on": "2026-07-25",
+  "access": "public_ungated",
+  "license": "CC-BY-4.0",
+  "nas_root": "/mnt/agent-code-authorship/raw/aidev/68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "90c878d05f07c356737e2cfde6afebfdf6c4ba1445bf686761007570b73833a9"
+    },
+    {
+      "path": "pull_request.parquet",
+      "sha256": "08f520b5ef36b6281f82090db09ac14aefc3534ee113886e7bc85131fd8d214c"
+    },
+    {
+      "path": "repository.parquet",
+      "sha256": "5b76717c39be1cada097d680aa0fcecd03611aa52ae05ef7f1d1e0e1e8b34192"
+    },
+    {
+      "path": "pr_commits.parquet",
+      "sha256": "339228e250d420cd20ffe4b90583d57040263427ea605c1c039631b8ca2bfb4f"
+    },
+    {
+      "path": "pr_commit_details.parquet",
+      "sha256": "28efcc5b23c657fad8aa3da374fad40d164934e5aeefc5e23ad55ec69a592836"
+    }
+  ],
+  "source_urls": {
+    "dataset": "https://huggingface.co/datasets/hao-li/AIDev",
+    "paper": "https://arxiv.org/abs/2602.09185"
+  },
+  "external_audits": {
+    "github_default_branch_facts": {
+      "path": "/mnt/agent-code-authorship/raw/github/survival-default-branch-facts.v1.json",
+      "sha256": "037b9f1736b0ad58cda798e0fa3b110ab3a29d2e815da5a2416cd2d3887abe63"
+    },
+    "sourcegraph_snapshot": {
+      "path": "/mnt/agent-code-authorship/raw/sourcegraph/survival-snapshot-audit.v1.json",
+      "sha256": "0885adf6da97b60daa9ba51ff309c2432aabbd4cb7f073d0ad58b057acafbbdf",
+      "directly_indexed_repositories": 0,
+      "interpretation": "The connected demo.sourcegraph.com instance authenticated successfully but directly indexed none of the frozen candidates; pinned Git history is therefore required for authoritative snapshot and lineage verification."
+    }
+  }
+}

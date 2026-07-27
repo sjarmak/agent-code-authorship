@@ -1,0 +1,191 @@
+{
+  "$schema": "protocol.schema.json",
+  "protocol_version": 1,
+  "status": "preregistered",
+  "purpose": "Paper-grade replication of the population estimate, where non-identification is a valid result.",
+  "estimand": {
+    "description": "Line-weighted share of eligible surviving Python and Go lines introduced from 2024 onward in the fixed cohort that were agent-generated.",
+    "languages": ["Python", "Go"],
+    "unit": "surviving_nonvendored_lines",
+    "introduced_on_or_after": "2024-01-01",
+    "report_languages_separately": true,
+    "combined_estimate_weighting": "eligible_lines",
+    "coverage_must_be_reported": true
+  },
+  "snapshot": {
+    "cutoff": "2026-07-24T23:59:59Z",
+    "selection": "latest_commit_at_or_before_cutoff",
+    "target_repository_list": "preserve_original_cohort",
+    "regather_required": true,
+    "existing_results_role": "baseline",
+    "future_commits_require_new_protocol_version": true
+  },
+  "provenance": {
+    "positive_evidence_tiers": {
+      "tier_1": "Direct maintainer attestation or exact commit-level agent evidence; eligible for training.",
+      "tier_2": "Project-level claim without exact scope; sensitivity analysis only.",
+      "tier_3": "Reputation or inference; discovery only."
+    },
+    "confirmed_full_history_agent_projects": [
+      "Gas City",
+      "Beads"
+    ],
+    "maintainer_owned_confirmed_agent_projects": true,
+    "positive_scope_rule": "Only commits covered by recorded evidence enter labeled data.",
+    "human_control_rule": "Repository-local anti-AI policy evidence must be effective for every sampled commit date.",
+    "human_control_selection": "Outcome-blind: define search and eligibility first, then include every qualifier.",
+    "manifest_required_fields": [
+      "repository_url",
+      "snapshot_commit",
+      "evidence",
+      "effective_date_range",
+      "role",
+      "language",
+      "excluded_paths",
+      "retrieved_at",
+      "content_checksum"
+    ],
+    "missing_evidence_behavior": "fail_closed"
+  },
+  "repository_roles": {
+    "roles": ["reference", "target", "dedicated_validation"],
+    "allow_role_overlap": false,
+    "positive_validation": "Gas City and Beads alternate as held-out validations when both qualify for the language.",
+    "role_assignment_timing": "before_feature_or_model_fitting"
+  },
+  "sampling": {
+    "minimum_hunk_lines": 6,
+    "minimum_eligible_modern_lines_per_repository_group": 2000,
+    "modern_lines_must_satisfy_era_cutoff": true,
+    "include": ["handwritten_production_code", "handwritten_tests"],
+    "exclude": [
+      "vendored",
+      "generated",
+      "minified",
+      "fixture_snapshots",
+      "lockfiles",
+      "machine_translated"
+    ],
+    "tag_production_and_test_code": true
+  },
+  "contamination_controls": {
+    "group_known_forks": true,
+    "content_deduplicate_exact_hunks": true,
+    "content_deduplicate_near_exact_hunks": true,
+    "duplicate_cluster_single_fold_and_role": true,
+    "repository_group_held_out": true,
+    "selection_may_not_use_model_outcomes": true
+  },
+  "features": {
+    "classifier_inputs": ["source_text"],
+    "forbidden_inputs": [
+      "commit_message",
+      "author",
+      "trailer",
+      "repository_name",
+      "timestamp",
+      "policy_metadata"
+    ],
+    "baseline": "existing_46_feature_regex_extractor",
+    "primary": "language_aware_python_and_go_parser",
+    "new_feature_development_data": "development_repositories_only",
+    "freeze_before_dedicated_validation": true
+  },
+  "models": {
+    "primary": {
+      "kind": "l2_logistic_regression",
+      "ridge": 3.0,
+      "standardize_within_training_fold": true,
+      "line_weighted": true
+    },
+    "challenger": {
+      "kind": "gradient_boosted_trees",
+      "purpose": "nonlinear diagnostic",
+      "headline_replacement_rule": "Must improve repository-held-out transport across both positive definitions without increasing instability."
+    },
+    "embeddings_or_llm_judges": "out_of_scope"
+  },
+  "quantification": {
+    "primary": "full_score_mixture",
+    "method": {
+      "score_source": "repository_group_cross_fitted",
+      "class_conditional_representation": "line_weighted_fixed_histogram",
+      "bins": 20,
+      "bin_edges": "weighted_quantiles_of_pooled_reference_scores",
+      "mixture_share_fit": "bounded_maximum_likelihood",
+      "smoothing": "jeffreys",
+      "goodness_of_fit": "repository_bootstrap_predictive_check"
+    },
+    "robustness": "threshold_adjusted_count",
+    "disagreement_behavior": "not_identified",
+    "fit_failure_behavior": "not_identified"
+  },
+  "evaluation": {
+    "primary_metric": "mixture_share_recovery",
+    "synthetic_mixtures": {
+      "construction": "whole held-out repository groups",
+      "shares": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+      "maximum_mean_absolute_error": 0.1,
+      "allow_systematic_bias_trend": false,
+      "minimum_interval_coverage": 0.9,
+      "nominal_interval": 0.95
+    },
+    "auc_role": "supporting_diagnostic",
+    "compare_positive_definitions": ["trailer_signed", "confirmed_agent_projects"]
+  },
+  "identification_gates": {
+    "minimum_repository_groups_per_side": 5,
+    "reserve_positive_validation_group": true,
+    "minimum_auc": 0.7,
+    "require_plausible_mixture_fit": true,
+    "maximum_estimator_disagreement": 0.1,
+    "maximum_leave_one_group_out_shift": 0.1,
+    "maximum_bootstrap_interval_width": 0.25
+  },
+  "uncertainty": {
+    "bootstrap_unit": "repository_group",
+    "refit_entire_pipeline": true,
+    "resample_reference_and_target_groups": true,
+    "replicates": 2000,
+    "seed": 1729
+  },
+  "storage": {
+    "canonical_gather_backend": "local_git",
+    "sourcegraph_role": "optional_accelerator",
+    "pin_repository_commits": true,
+    "commit_third_party_source": false,
+    "committed_artifacts": [
+      "repository_urls_and_shas",
+      "blame_commit_ids_and_hunk_coordinates",
+      "content_hashes",
+      "derived_features",
+      "provenance_evidence",
+      "exclusion_decisions",
+      "retrieval_scripts"
+    ],
+    "nas": {
+      "local_tier": "active_repositories_and_current_shards",
+      "archive_tier": "inactive_clones_snapshot_bundles_and_rebuild_caches",
+      "offload_after_verification": true,
+      "verify_checksum_before_delete_local_copy": true,
+      "path_is_runtime_configuration": true
+    }
+  },
+  "reporting": {
+    "failed_gate_result": "not_identified",
+    "may_relax_gate_after_results": false,
+    "generalize_to_all_github": false,
+    "required_outputs": [
+      "machine_readable_protocol",
+      "pinned_corpus_pipeline",
+      "tested_estimation_pipeline",
+      "immutable_results_with_checksums",
+      "revised_baseline_comparison_report"
+    ]
+  },
+  "workflow": {
+    "tracker": "Beads",
+    "execution": "grill-me -> goal -> ultracode",
+    "next_slice": "Build and validate the pinned provenance manifest before gathering source."
+  }
+}

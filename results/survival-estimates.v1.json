@@ -1,0 +1,4251 @@
+{
+  "analysis_status": "validated_structural_lineage",
+  "artifact": "survival-estimates",
+  "bootstrap": {
+    "interval": "percentile_95",
+    "replicates": 2000,
+    "seed": 20260724,
+    "unit": "repository"
+  },
+  "candidate_frame_sha256": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837",
+  "lineage_inventory_sha256": "3be81e43cbff7a6b1355b8a883a499c4067417befe628b9832383debe0367a6f",
+  "lineage_validation_sha256": "6c953c959eb3d7945e0d652f20c204b304eb750e640ae6c65c549c08df225c9d",
+  "strata": [
+    {
+      "agent_family": "Claude_Code",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.034171546675852565
+                ],
+                "modified": [
+                  0.021816562778272486,
+                  0.08440237797246558
+                ],
+                "unchanged": [
+                  0.8828905419766206,
+                  0.9687652513421181
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.02895335940692312
+                ],
+                "modified": [
+                  0.021267361111111112,
+                  0.06917775284500721
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.722419072615923,
+                  0.9390018484288355
+                ],
+                "unobservable": [
+                  0.025173611111111112,
+                  0.1818458461939747
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.034169832316488236
+                ],
+                "modified": [
+                  0.02115965107504189,
+                  0.0933246026442652
+                ],
+                "unchanged": [
+                  0.8917525628973051,
+                  0.9647844971600401
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.03223432573881578
+                ],
+                "modified": [
+                  0.019121909555957366,
+                  0.08124286637450773
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7686582591601658,
+                  0.9400138110251961
+                ],
+                "unobservable": [
+                  0.023853211009174313,
+                  0.1393353383443094
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8321464304631864,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.031119598274276822,
+                "modified": 0.07857698564254897,
+                "unchanged": 0.8903034160831742
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.025896062621387793,
+                "modified": 0.06538755811900418,
+                "right_censored": 0.0,
+                "unchanged": 0.7408628097227944,
+                "unobservable": 0.1678535695368136
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.015869178721716996,
+                "modified": 0.056703350262033755,
+                "unchanged": 0.9274274710162492
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.014399930834357186,
+                "modified": 0.049882686291009705,
+                "right_censored": 0.0,
+                "unchanged": 0.8571343001077242,
+                "unobservable": 0.07858308276690883
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.010492016943629848
+                ],
+                "modified": [
+                  0.0,
+                  0.019007746384274393
+                ],
+                "unchanged": [
+                  0.9705882352941176,
+                  1.0
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.010214681440443213
+                ],
+                "modified": [
+                  0.0,
+                  0.018489883920987868
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.9436158303700777,
+                  0.9923394225103123
+                ],
+                "unobservable": [
+                  0.002357100766057749,
+                  0.03941513032422123
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.009786476868327402
+                ],
+                "modified": [
+                  0.0,
+                  0.011941098640386897
+                ],
+                "unchanged": [
+                  0.9792122912674515,
+                  1.0
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.009679375712264146
+                ],
+                "modified": [
+                  0.0,
+                  0.011616628234246062
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.9503325615991558,
+                  0.9958598726114649
+                ],
+                "unobservable": [
+                  0.0012738853503184715,
+                  0.0397860759735173
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9728679889353187,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.009739866908650937,
+                "modified": 0.01718088324258923,
+                "unchanged": 0.9730792498487598
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.009475604731916897,
+                "modified": 0.016714731328350302,
+                "right_censored": 0.0,
+                "unchanged": 0.9466776528750515,
+                "unobservable": 0.027132011064681303
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.004658271740122274,
+                "modified": 0.004194041427137513,
+                "unchanged": 0.9911476868327403
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.00458383431099026,
+                "modified": 0.004084523636468432,
+                "right_censored": 0.0,
+                "unchanged": 0.9730962171053104,
+                "unobservable": 0.01823542494723092
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "bootstrap_95_ci": null,
+          "gate_reasons": [
+            "lineage_coverage_below_0.80"
+          ],
+          "lineage_coverage": 0.7884739734885224,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.13900563813429012,
+                "modified": 0.09174782162993336,
+                "unchanged": 0.7692465402357765
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.07980695662409511,
+                "modified": 0.05267494555941381,
+                "right_censored": 0.27184980283679594,
+                "unchanged": 0.4416455770702136,
+                "unobservable": 0.1540227179094815
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.043259226703114495,
+                "modified": 0.06866099103670467,
+                "unchanged": 0.8880797822601808
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.02689486101816742,
+                "modified": 0.054411866460391534,
+                "right_censored": 0.061467828864195884,
+                "unchanged": 0.7725682074607596,
+                "unobservable": 0.08465723619648564
+              }
+            }
+          },
+          "status": "not_identified"
+        },
+        "90": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.012639062602856955
+                ],
+                "modified": [
+                  0.0032502708559046588,
+                  0.04307319252121754
+                ],
+                "unchanged": [
+                  0.9450444026058785,
+                  0.9938605994944023
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.012178104782443232
+                ],
+                "modified": [
+                  0.003146853146853147,
+                  0.04138311568879897
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8943502824858757,
+                  0.9655543595263725
+                ],
+                "unobservable": [
+                  0.020833333333333332,
+                  0.06505295007564296
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.010321366145874263
+                ],
+                "modified": [
+                  0.0029173419773095626,
+                  0.08012199544135931
+                ],
+                "unchanged": [
+                  0.9173304098511507,
+                  0.9944894651539709
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.01009191147645338
+                ],
+                "modified": [
+                  0.0028662420382165607,
+                  0.07124739265554485
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8384946869718292,
+                  0.9707560535234794
+                ],
+                "unobservable": [
+                  0.014338859945082818,
+                  0.08647508592920115
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9630392560767466,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.011733789647375176,
+                "modified": 0.03844038379270305,
+                "unchanged": 0.9498258265599218
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.01130010005296922,
+                "modified": 0.03701959861102937,
+                "right_censored": 0.0,
+                "unchanged": 0.9147195574127479,
+                "unobservable": 0.036960743923253485
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.005134980408435042,
+                "modified": 0.035122670752002205,
+                "unchanged": 0.9597423488395627
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.004996370075179494,
+                "modified": 0.031911799831376084,
+                "right_censored": 0.0,
+                "unchanged": 0.9169906756642605,
+                "unobservable": 0.04610115442918376
+              }
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Go",
+      "provenance_tier": 2,
+      "repository_count": 5
+    },
+    {
+      "agent_family": "Copilot",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.00018765428033927094,
+                  0.09359665870048471
+                ],
+                "modified": [
+                  0.007007497392483588,
+                  0.07434536420569622
+                ],
+                "unchanged": [
+                  0.8438775376987367,
+                  0.991111956692313
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.00018314139475367883,
+                  0.09048754776713012
+                ],
+                "modified": [
+                  0.006922516119814104,
+                  0.07173445806879702
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8109473707741832,
+                  0.98129113110664
+                ],
+                "unobservable": [
+                  0.007781698663801978,
+                  0.04696699331181805
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0001780151312861593,
+                  0.08397211423859416
+                ],
+                "modified": [
+                  0.01126133864031963,
+                  0.06719204112808527
+                ],
+                "unchanged": [
+                  0.8651153737153242,
+                  0.9842832200149336
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0001780151312861593,
+                  0.07951772412176374
+                ],
+                "modified": [
+                  0.010789707448904323,
+                  0.06338592689525985
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8364795958917449,
+                  0.9675868122102332
+                ],
+                "unobservable": [
+                  0.01247094725481082,
+                  0.04659871795832008
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9784869766201441,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.030344326337785044,
+                "modified": 0.0291632597437994,
+                "unchanged": 0.9404924139184155
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.029691528135834297,
+                "modified": 0.02853586985509823,
+                "right_censored": 0.0,
+                "unchanged": 0.9202595786292115,
+                "unobservable": 0.021513023379855986
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.03207850677439276,
+                "modified": 0.03436070154829847,
+                "unchanged": 0.9335607916773087
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.03035468557175537,
+                "modified": 0.03251084414454097,
+                "right_censored": 0.0,
+                "unchanged": 0.9092941992713656,
+                "unobservable": 0.027840271012338
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.044580103884339375
+                ],
+                "modified": [
+                  0.002645838083758196,
+                  0.01328064895952564
+                ],
+                "unchanged": [
+                  0.943351005040447,
+                  0.9971912247532639
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.04380186277630407
+                ],
+                "modified": [
+                  0.0026209867136468075,
+                  0.013118302783916737
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.9285770847157708,
+                  0.9936662492559575
+                ],
+                "unobservable": [
+                  0.001533673418549635,
+                  0.026624965118583473
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.029026045049528614
+                ],
+                "modified": [
+                  0.00337667332909639,
+                  0.011369450672483331
+                ],
+                "unchanged": [
+                  0.9597886822026814,
+                  0.996338889149574
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.028902494673867095
+                ],
+                "modified": [
+                  0.003290821862351427,
+                  0.011263689076376178
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.9400632745649873,
+                  0.9920584616771148
+                ],
+                "unobservable": [
+                  0.001732100529822534,
+                  0.03160055749180845
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.991021424126589,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.011840688912809472,
+                "modified": 0.0070864729099390025,
+                "unchanged": 0.9810728381772515
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.011734376389012357,
+                "modified": 0.007022846475242244,
+                "right_censored": 0.0,
+                "unchanged": 0.9722642012623345,
+                "unobservable": 0.00897857587341097
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.009761480994115052,
+                "modified": 0.006962022009340109,
+                "unchanged": 0.983276496996545
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.009720297535561213,
+                "modified": 0.006834699288453128,
+                "right_censored": 0.0,
+                "unchanged": 0.9695402846617888,
+                "unobservable": 0.013904718514197003
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0013942312140174582,
+                  0.1614453602332882
+                ],
+                "modified": [
+                  0.010807015338679457,
+                  0.08092732171414894
+                ],
+                "unchanged": [
+                  0.7733887699522639,
+                  0.977537754261963
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0012931199914369134,
+                  0.13945882519773742
+                ],
+                "modified": [
+                  0.010402886206962158,
+                  0.06760915316713233
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0019741121383639133
+                ],
+                "unchanged": [
+                  0.6494054494462982,
+                  0.9263352307044984
+                ],
+                "unobservable": [
+                  0.03299907221674836,
+                  0.17825754402968721
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0036601307189542483,
+                  0.2344931132308089
+                ],
+                "modified": [
+                  0.020605747422426227,
+                  0.08020931418717399
+                ],
+                "unchanged": [
+                  0.7183658830537484,
+                  0.9591908558517784
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0036175710594315244,
+                  0.2179287739277915
+                ],
+                "modified": [
+                  0.017318426379839023,
+                  0.061373186915262695
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0020498387045734187
+                ],
+                "unchanged": [
+                  0.6099107091636204,
+                  0.8818406894278479
+                ],
+                "unobservable": [
+                  0.04805279013062374,
+                  0.20502653819609595
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9084763853064128,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.05502251811239475,
+                "modified": 0.031623262189152145,
+                "unchanged": 0.9133542196984531
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.049959996444128366,
+                "modified": 0.028713663436749932,
+                "right_censored": 0.0005333807449551071,
+                "unchanged": 0.8293181616143657,
+                "unobservable": 0.09147479775980087
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.09545735578072924,
+                "modified": 0.045979861567056864,
+                "unchanged": 0.8585627826522139
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.08731836469378305,
+                "modified": 0.036239458836564355,
+                "right_censored": 0.0007168478797050705,
+                "unchanged": 0.7620382579488681,
+                "unobservable": 0.11368707064107922
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.00016981244856888433,
+                  0.08433661916189963
+                ],
+                "modified": [
+                  0.0049420555864443565,
+                  0.02549109994824873
+                ],
+                "unchanged": [
+                  0.8958036148301627,
+                  0.9924973634636994
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.00016848467540918067,
+                  0.08259889329696603
+                ],
+                "modified": [
+                  0.004887087083430522,
+                  0.024748342693243254
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8761962012997526,
+                  0.9835528463625264
+                ],
+                "unobservable": [
+                  0.005929823075318509,
+                  0.036487198226625286
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.00025839793281653745,
+                  0.07523714598775716
+                ],
+                "modified": [
+                  0.007202847574462297,
+                  0.03191319673972257
+                ],
+                "unchanged": [
+                  0.908387812327366,
+                  0.9891736469343584
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.00025839793281653745,
+                  0.07378459379296887
+                ],
+                "modified": [
+                  0.006994262095783562,
+                  0.030685782947581786
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8847276526278832,
+                  0.9749426498738614
+                ],
+                "unobservable": [
+                  0.00794744277944615,
+                  0.04052980476727327
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9843541648146502,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.028447575182877268,
+                "modified": 0.012553056985460128,
+                "unchanged": 0.9589993678316626
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.028002489110143122,
+                "modified": 0.012356653924793315,
+                "right_censored": 0.0,
+                "unchanged": 0.9439950217797137,
+                "unobservable": 0.01564583518534981
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.028712399760231856,
+                "modified": 0.017338588153903465,
+                "unchanged": 0.9539490120858647
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.02812590581891182,
+                "modified": 0.01672079716606638,
+                "right_censored": 0.0,
+                "unchanged": 0.9341780289422317,
+                "unobservable": 0.02097526807278995
+              }
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Go",
+      "provenance_tier": 2,
+      "repository_count": 15
+    },
+    {
+      "agent_family": "Cursor",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": null,
+          "gate_reasons": [
+            "fewer_than_5_repositories"
+          ],
+          "lineage_coverage": 0.9650493421052632,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.024286322965487855,
+                "unchanged": 0.9757136770345122
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.0234375,
+                "right_censored": 0.0,
+                "unchanged": 0.9416118421052632,
+                "unobservable": 0.03495065789473684
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.044108568234801096,
+                "unchanged": 0.955891431765199
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.03982789387075397,
+                "right_censored": 0.0,
+                "unchanged": 0.9072661803811215,
+                "unobservable": 0.05290592574812451
+              }
+            }
+          },
+          "status": "not_identified"
+        },
+        "30": {
+          "bootstrap_95_ci": null,
+          "gate_reasons": [
+            "fewer_than_5_repositories"
+          ],
+          "lineage_coverage": 0.985608552631579,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.012237519121123627,
+                "unchanged": 0.9877624808788764
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.01206140350877193,
+                "right_censored": 0.0,
+                "unchanged": 0.973547149122807,
+                "unobservable": 0.014391447368421052
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.027463394727320786,
+                "unchanged": 0.9725366052726793
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.02670944116566886,
+                "right_censored": 0.0,
+                "unchanged": 0.953893643247931,
+                "unobservable": 0.01939691558640009
+              }
+            }
+          },
+          "status": "not_identified"
+        },
+        "365": {
+          "bootstrap_95_ci": null,
+          "gate_reasons": [
+            "fewer_than_5_repositories"
+          ],
+          "lineage_coverage": 0.9163925438596491,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.19608136404427162,
+                "modified": 0.04576727490278193,
+                "unchanged": 0.7581513610529464
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.1796875,
+                "modified": 0.04194078947368421,
+                "right_censored": 0.0,
+                "unchanged": 0.6947642543859649,
+                "unobservable": 0.08360745614035088
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.1605830475257227,
+                "modified": 0.06325340997147863,
+                "unchanged": 0.7761635425027986
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.14108910891089108,
+                "modified": 0.05515924497829677,
+                "right_censored": 0.0,
+                "unchanged": 0.7050571010019654,
+                "unobservable": 0.09869454510884673
+              }
+            }
+          },
+          "status": "not_identified"
+        },
+        "90": {
+          "bootstrap_95_ci": null,
+          "gate_reasons": [
+            "fewer_than_5_repositories"
+          ],
+          "lineage_coverage": 0.9816337719298246,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.012147444847807875,
+                "unchanged": 0.9878525551521922
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.011924342105263159,
+                "right_censored": 0.0,
+                "unchanged": 0.9697094298245614,
+                "unobservable": 0.01836622807017544
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.027206327841934795,
+                "unchanged": 0.9727936721580652
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.026229054102007404,
+                "right_censored": 0.0,
+                "unchanged": 0.9478837342014135,
+                "unobservable": 0.02588721169657915
+              }
+            }
+          },
+          "status": "not_identified"
+        }
+      },
+      "language": "Go",
+      "provenance_tier": 2,
+      "repository_count": 4
+    },
+    {
+      "agent_family": "Devin",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.026025236593059938
+                ],
+                "modified": [
+                  0.0033842220049635258,
+                  0.05376075884693531
+                ],
+                "unchanged": [
+                  0.9331600445599703,
+                  0.9952794844897348
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.023921710764769843
+                ],
+                "modified": [
+                  0.0033793932111745267,
+                  0.0512396694214876
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8316789862724393,
+                  0.992715530189246
+                ],
+                "unobservable": [
+                  0.001982677658353334,
+                  0.13657474600870828
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.03103448275862069
+                ],
+                "modified": [
+                  0.008867777306265485,
+                  0.07297736634736138
+                ],
+                "unchanged": [
+                  0.9177630662854883,
+                  0.981872655326584
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.03013698630136986
+                ],
+                "modified": [
+                  0.008539770731551554,
+                  0.07264935977264744
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8525849812288169,
+                  0.9640846824408469
+                ],
+                "unobservable": [
+                  0.00578386605783866,
+                  0.10508491508491509
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9553233180927498,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.004512511964993846,
+                "modified": 0.01558867769725147,
+                "unchanged": 0.9798988103377547
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0043109079033311565,
+                "modified": 0.014892227302416721,
+                "right_censored": 0.0,
+                "unchanged": 0.9361201828870019,
+                "unobservable": 0.04467668190725017
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.010344827586206896,
+                "modified": 0.036139279664226406,
+                "unchanged": 0.9535158927495667
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.01004566210045662,
+                "modified": 0.03485468869030513,
+                "right_censored": 0.0,
+                "unchanged": 0.9090660329016493,
+                "unobservable": 0.04603361630758891
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.0
+                ],
+                "modified": [
+                  0.0003071253071253071,
+                  0.027145541866778033
+                ],
+                "unchanged": [
+                  0.972854458133222,
+                  0.9996928746928747
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.0
+                ],
+                "modified": [
+                  0.0003071253071253071,
+                  0.02391904323827047
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8423326133909287,
+                  0.9996928746928747
+                ],
+                "unobservable": [
+                  0.0,
+                  0.1365319345880901
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.0
+                ],
+                "modified": [
+                  0.001095890410958904,
+                  0.023961760074738225
+                ],
+                "unchanged": [
+                  0.9760382399252618,
+                  0.9989041095890411
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.0
+                ],
+                "modified": [
+                  0.001095890410958904,
+                  0.021615370930439425
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8747652347652348,
+                  0.9989041095890411
+                ],
+                "unobservable": [
+                  0.0,
+                  0.10508491508491509
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.957805355976486,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.00900163666121113,
+                "unchanged": 0.9909983633387889
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.008621815806662313,
+                "right_censored": 0.0,
+                "unchanged": 0.9491835401698236,
+                "unobservable": 0.04219464402351404
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.012528825242848565,
+                "unchanged": 0.9874711747571514
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.011355630670699165,
+                "right_censored": 0.0,
+                "unchanged": 0.9483946190795505,
+                "unobservable": 0.04024975024975025
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0006841505131128849,
+                  0.026426656453466105
+                ],
+                "modified": [
+                  0.028594605556682213,
+                  0.0686680469289165
+                ],
+                "unchanged": [
+                  0.9220325833979829,
+                  0.9598491988689916
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0005899705014749262,
+                  0.025009061254077564
+                ],
+                "modified": [
+                  0.024872111483506792,
+                  0.06566680178354277
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8142340181557572,
+                  0.9314430379746835
+                ],
+                "unobservable": [
+                  0.002400083481164562,
+                  0.1484192037470726
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.000830078125,
+                  0.03269463900862069
+                ],
+                "modified": [
+                  0.027381440424418,
+                  0.08774240154109589
+                ],
+                "unchanged": [
+                  0.9097804081090894,
+                  0.9515947773640611
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0008296730112249878,
+                  0.031796332323819836
+                ],
+                "modified": [
+                  0.024452168835730474,
+                  0.0859277708592777
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8188698972260615,
+                  0.9178422707590961
+                ],
+                "unobservable": [
+                  0.0059790832369504224,
+                  0.1305091407831134
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9443500979751797,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.007331581131553465,
+                "modified": 0.05132106792087426,
+                "unchanged": 0.9413473509475723
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.006923579359895493,
+                "modified": 0.048465055519268455,
+                "right_censored": 0.0,
+                "unchanged": 0.8889614630960156,
+                "unobservable": 0.055649902024820376
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.012166641248396979,
+                "modified": 0.0538613483343787,
+                "unchanged": 0.9339720104172244
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.011714495950842448,
+                "modified": 0.05086113222237092,
+                "right_censored": 0.0,
+                "unchanged": 0.8683560839925789,
+                "unobservable": 0.06906828783420774
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.0
+                ],
+                "modified": [
+                  0.0026519988213338573,
+                  0.050474151116549404
+                ],
+                "unchanged": [
+                  0.9495258488834506,
+                  0.9973480011786662
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.0
+                ],
+                "modified": [
+                  0.0026405867970660146,
+                  0.04619260918253079
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8377358490566038,
+                  0.9956095419288746
+                ],
+                "unobservable": [
+                  0.0008348116456224564,
+                  0.13480679156908665
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.0
+                ],
+                "modified": [
+                  0.007038036347487906,
+                  0.0711476253885838
+                ],
+                "unchanged": [
+                  0.9288523746114162,
+                  0.9929619636525121
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.0
+                ],
+                "modified": [
+                  0.006787367883258294,
+                  0.07089695692435419
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8631936708649037,
+                  0.9786301369863015
+                ],
+                "unobservable": [
+                  0.00243531202435312,
+                  0.09968805927710038
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9567602873938602,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.01474604041507373,
+                "unchanged": 0.9852539595849262
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.01410842586544742,
+                "right_censored": 0.0,
+                "unchanged": 0.9426518615284128,
+                "unobservable": 0.04323971260613978
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0,
+                "modified": 0.034309538705448825,
+                "unchanged": 0.9656904612945512
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.0,
+                "modified": 0.03310228584201187,
+                "right_censored": 0.0,
+                "unchanged": 0.9242126518838848,
+                "unobservable": 0.04268506227410337
+              }
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Go",
+      "provenance_tier": 2,
+      "repository_count": 5
+    },
+    {
+      "agent_family": "OpenAI_Codex",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.04583868490569012
+                ],
+                "modified": [
+                  0.00675631891611674,
+                  0.07156727245788808
+                ],
+                "unchanged": [
+                  0.8825961937012675,
+                  0.9932436810838832
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.03861203536386084
+                ],
+                "modified": [
+                  0.006738807554428328,
+                  0.060283589596840374
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7434520236598645,
+                  0.9908317020965204
+                ],
+                "unobservable": [
+                  0.0013735698612961367,
+                  0.1576542243577265
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.017218583252946215
+                ],
+                "modified": [
+                  0.005697185510635533,
+                  0.03580838350495588
+                ],
+                "unchanged": [
+                  0.9469730332420979,
+                  0.9943028144893644
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.014500204508271225
+                ],
+                "modified": [
+                  0.005690390871799708,
+                  0.03131030002224397
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.890943929430923,
+                  0.9926181102362205
+                ],
+                "unobservable": [
+                  0.001112099644128114,
+                  0.0628285186945518
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8431045706136671,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.045566931172065374,
+                "modified": 0.07122008693866985,
+                "unchanged": 0.8832129818892648
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.038417687940006696,
+                "modified": 0.060045980817495286,
+                "right_censored": 0.0,
+                "unchanged": 0.744640901856165,
+                "unobservable": 0.15689542938633294
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.005739527750982072,
+                "modified": 0.019014929479661446,
+                "unchanged": 0.9752455427693565
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.004833401502757075,
+                "modified": 0.017516346475883383,
+                "right_censored": 0.0,
+                "unchanged": 0.9540443464844728,
+                "unobservable": 0.023605905536886834
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.04576811282337954
+                ],
+                "modified": [
+                  0.0035273867570795032,
+                  0.07130834775370634
+                ],
+                "unchanged": [
+                  0.8829238769837712,
+                  0.9964726132429205
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.03861438768584601
+                ],
+                "modified": [
+                  0.003522607677533086,
+                  0.06016355803019242
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7449213306974798,
+                  0.9951711841863878
+                ],
+                "unobservable": [
+                  0.0012261169933043953,
+                  0.15630289524587684
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.01719079027123621
+                ],
+                "modified": [
+                  0.002908603840684535,
+                  0.03373716466551416
+                ],
+                "unchanged": [
+                  0.9490720450632497,
+                  0.9970913961593155
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.014500204508271225
+                ],
+                "modified": [
+                  0.0028820077185082007,
+                  0.02949389523637581
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8930427454570783,
+                  0.9959964412811388
+                ],
+                "unobservable": [
+                  0.001112099644128114,
+                  0.06231795811465724
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.844459160981777,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.04549383761239785,
+                "modified": 0.07093875041216259,
+                "unchanged": 0.8835674119754395
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.038417687940006696,
+                "modified": 0.0599048776541505,
+                "right_censored": 0.0,
+                "unchanged": 0.7461365953876198,
+                "unobservable": 0.155540839018223
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0057302634237454035,
+                "modified": 0.015531675603255362,
+                "unchanged": 0.9787380609729992
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.004833401502757075,
+                "modified": 0.014057025923452211,
+                "right_censored": 0.0,
+                "unchanged": 0.9579199168889947,
+                "unobservable": 0.023189655684795998
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.037396429588115336
+                ],
+                "modified": [
+                  0.011263073209975865,
+                  0.07308013071816671
+                ],
+                "unchanged": [
+                  0.8896148266679506,
+                  0.9881660301873069
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.031172772569038918
+                ],
+                "modified": [
+                  0.01113719504777953,
+                  0.053518724091788046
+                ],
+                "right_censored": [
+                  0.0,
+                  0.12550801990732102
+                ],
+                "unchanged": [
+                  0.6514743692461116,
+                  0.9752381985043788
+                ],
+                "unobservable": [
+                  0.010776807374146791,
+                  0.14220267339189624
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.040603312927677965
+                ],
+                "modified": [
+                  0.011733323271762264,
+                  0.044815561793416954
+                ],
+                "unchanged": [
+                  0.9196798173998034,
+                  0.9861361682531717
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.03737179168330645
+                ],
+                "modified": [
+                  0.010993569279311256,
+                  0.036973925430502826
+                ],
+                "right_censored": [
+                  0.0,
+                  0.04713276563352118
+                ],
+                "unchanged": [
+                  0.8170050530241454,
+                  0.9706210110392604
+                ],
+                "unobservable": [
+                  0.009403168605264824,
+                  0.08849515538699354
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8381880292636155,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.03712386248217418,
+                "modified": 0.07271650029239467,
+                "unchanged": 0.8901596372254311
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.02723102915003217,
+                "modified": 0.05333887711983986,
+                "right_censored": 0.12487629956013441,
+                "unchanged": 0.6529483035637015,
+                "unobservable": 0.14160549060629207
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.016644979594344626,
+                "modified": 0.027417147091644018,
+                "unchanged": 0.9559378733140114
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.014733996407715897,
+                "modified": 0.023734298115167828,
+                "right_censored": 0.015710921877840393,
+                "unchanged": 0.9007407424815352,
+                "unobservable": 0.045080041117740596
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.04583706517078909
+                ],
+                "modified": [
+                  0.005991329788357255,
+                  0.07156530779255356
+                ],
+                "unchanged": [
+                  0.8826012447656029,
+                  0.9940086702116427
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.03861096334542631
+                ],
+                "modified": [
+                  0.005981898331965573,
+                  0.06028355976018151
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7434611878158145,
+                  0.9923483231932425
+                ],
+                "unobservable": [
+                  0.0008605065803985002,
+                  0.15764813872609917
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.017218583252946215
+                ],
+                "modified": [
+                  0.005162923703759447,
+                  0.03513991886358856
+                ],
+                "unchanged": [
+                  0.9476414978834653,
+                  0.9948370762962406
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.014500204508271225
+                ],
+                "modified": [
+                  0.005136968056769024,
+                  0.031105780777204328
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8913555597739825,
+                  0.9937509322991029
+                ],
+                "unobservable": [
+                  0.0007381889763779527,
+                  0.06282851869455179
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8431045706136671,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.045566931172065374,
+                "modified": 0.07122008693866985,
+                "unchanged": 0.8832129818892648
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.038417687940006696,
+                "modified": 0.060045980817495286,
+                "right_censored": 0.0,
+                "unchanged": 0.744640901856165,
+                "unobservable": 0.15689542938633294
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.005739527750982072,
+                "modified": 0.019014929479661446,
+                "unchanged": 0.9752455427693565
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.004833401502757075,
+                "modified": 0.017516346475883383,
+                "right_censored": 0.0,
+                "unchanged": 0.9540443464844728,
+                "unobservable": 0.023605905536886834
+              }
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Go",
+      "provenance_tier": 2,
+      "repository_count": 8
+    },
+    {
+      "agent_family": "Claude_Code",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.006717734265247159,
+                  0.3290371228108641
+                ],
+                "modified": [
+                  0.025167792051871207,
+                  0.0755145188072254
+                ],
+                "unchanged": [
+                  0.6254659304042682,
+                  0.9656295475019057
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.006129034176243128,
+                  0.26129280163948426
+                ],
+                "modified": [
+                  0.022751222583303594,
+                  0.06388526727509779
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.47931980735862423,
+                  0.8820890330770275
+                ],
+                "unobservable": [
+                  0.08473989368220386,
+                  0.2409009009009009
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0025,
+                  0.2127399396054836
+                ],
+                "modified": [
+                  0.02174907259919523,
+                  0.18971553020651508
+                ],
+                "unchanged": [
+                  0.6840901922258399,
+                  0.9413929721090007
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0023923444976076554,
+                  0.15179797035450412
+                ],
+                "modified": [
+                  0.018205288627326864,
+                  0.12270612554647738
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.5553785017799459,
+                  0.89065249653304
+                ],
+                "unobservable": [
+                  0.05248175298846452,
+                  0.23588177466176458
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8822878738996175,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.08546204879068067,
+                "modified": 0.03113409601420885,
+                "unchanged": 0.8834038551951104
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.07540212932663502,
+                "modified": 0.02746923537816288,
+                "right_censored": 0.0,
+                "unchanged": 0.7794165091948195,
+                "unobservable": 0.11771212610038254
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.09689262915513132,
+                "modified": 0.08434789115198837,
+                "unchanged": 0.8187594796928803
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.07580196462760136,
+                "modified": 0.059212885963670185,
+                "right_censored": 0.0,
+                "unchanged": 0.7286757791045536,
+                "unobservable": 0.1363093703041748
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.006429592562252435,
+                  0.2272834516519749
+                ],
+                "modified": [
+                  0.010094495991090545,
+                  0.026711401800882665
+                ],
+                "unchanged": [
+                  0.7497044781699014,
+                  0.9820755794040416
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.006261320009175362,
+                  0.2102482123700122
+                ],
+                "modified": [
+                  0.009801737580752952,
+                  0.024845405271559713
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.6922821024617432,
+                  0.9596738828602669
+                ],
+                "unobservable": [
+                  0.020814512515980276,
+                  0.07896449611160047
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.002260008609556608,
+                  0.12421675086482849
+                ],
+                "modified": [
+                  0.006944355434368296,
+                  0.027197666796302786
+                ],
+                "unchanged": [
+                  0.8537911190359777,
+                  0.989573167005083
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.002180232558139535,
+                  0.1123152333356375
+                ],
+                "modified": [
+                  0.006742198942592791,
+                  0.025650387442121107
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8134934514497294,
+                  0.9762788554107917
+                ],
+                "unobservable": [
+                  0.012801665770094048,
+                  0.05360958078550008
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9634050790431857,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.046261302205425056,
+                "modified": 0.01444768693488973,
+                "unchanged": 0.9392910108596852
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.04456837350785823,
+                "modified": 0.01391897497349864,
+                "right_censored": 0.0,
+                "unchanged": 0.9049177305618288,
+                "unobservable": 0.036594920956814304
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.045182615876465416,
+                "modified": 0.016228057244012883,
+                "unchanged": 0.9385893268795217
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.04107397459437877,
+                "modified": 0.015442784443769094,
+                "right_censored": 0.0,
+                "unchanged": 0.9119807027192216,
+                "unobservable": 0.031502538242630496
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.007623728761255102,
+                  0.3711299219322696
+                ],
+                "modified": [
+                  0.025017324392473582,
+                  0.08380489628829671
+                ],
+                "unchanged": [
+                  0.5733211213022359,
+                  0.959887046721211
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.006924582492465221,
+                  0.2803256242966633
+                ],
+                "modified": [
+                  0.022442408308281172,
+                  0.06463056226908492
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.4156044730659137,
+                  0.8730987235171527
+                ],
+                "unobservable": [
+                  0.08924574632217128,
+                  0.2845211503190078
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.004818173186479303,
+                  0.3329769713429732
+                ],
+                "modified": [
+                  0.020590160722499598,
+                  0.22877609188603384
+                ],
+                "unchanged": [
+                  0.5664560000808805,
+                  0.9020897464016373
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.004381821635810999,
+                  0.2620586011978854
+                ],
+                "modified": [
+                  0.017509616882199604,
+                  0.13334300286521186
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.44505467403172416,
+                  0.8354821245187602
+                ],
+                "unobservable": [
+                  0.07328186846871779,
+                  0.2698764292121628
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8750057611651381,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.09586515670265999,
+                "modified": 0.031709244140110615,
+                "unchanged": 0.8724255991572294
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.08388256440982625,
+                "modified": 0.02774577130478868,
+                "right_censored": 0.0,
+                "unchanged": 0.7633774254505231,
+                "unobservable": 0.12499423883486196
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.1674569626938945,
+                "modified": 0.09678370419320806,
+                "unchanged": 0.7357593331128974
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.13082588807257745,
+                "modified": 0.061500265395130045,
+                "right_censored": 0.0,
+                "unchanged": 0.6417002094232896,
+                "unobservable": 0.1659736371090029
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.006478097524348793,
+                  0.24325672640065862
+                ],
+                "modified": [
+                  0.014929099811662341,
+                  0.048777256760339345
+                ],
+                "unchanged": [
+                  0.7174739626674089,
+                  0.977971572472382
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.006122198538928526,
+                  0.21978007884215825
+                ],
+                "modified": [
+                  0.014040008655707929,
+                  0.0405543541416979
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.6182998511431766,
+                  0.9242158348196866
+                ],
+                "unobservable": [
+                  0.045685099573914555,
+                  0.17713275408480034
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0025,
+                  0.1541906248554558
+                ],
+                "modified": [
+                  0.01439833355715713,
+                  0.051485480712544024
+                ],
+                "unchanged": [
+                  0.8099104801654228,
+                  0.9759751376099621
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0023923444976076554,
+                  0.13008261888375947
+                ],
+                "modified": [
+                  0.013122382192024041,
+                  0.045218191340022265
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7238071166637198,
+                  0.9461222848271541
+                ],
+                "unobservable": [
+                  0.029154695784491546,
+                  0.12753600286838862
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9150573812047749,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.06507504784929989,
+                "modified": 0.021658104160370707,
+                "unchanged": 0.9132668479903294
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.05954740286675577,
+                "modified": 0.019818408074849057,
+                "right_censored": 0.0,
+                "unchanged": 0.83569157026317,
+                "unobservable": 0.08494261879522515
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.06801741992045184,
+                "modified": 0.03181997829038421,
+                "unchanged": 0.900162601789164
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.05794482177045851,
+                "modified": 0.02822247829132607,
+                "right_censored": 0.0,
+                "unchanged": 0.8401709765660067,
+                "unobservable": 0.07366172337220878
+              }
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Python",
+      "provenance_tier": 2,
+      "repository_count": 8
+    },
+    {
+      "agent_family": "Copilot",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0008373426560731339,
+                  0.046408976600886054
+                ],
+                "modified": [
+                  0.01882616608095712,
+                  0.06098098750004558
+                ],
+                "unchanged": [
+                  0.906398817068274,
+                  0.970629014016598
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0007294855398800013,
+                  0.04073610421501271
+                ],
+                "modified": [
+                  0.016621807686856737,
+                  0.05197717246981474
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7406625683914587,
+                  0.8989638675240517
+                ],
+                "unobservable": [
+                  0.05953485877175112,
+                  0.20849217570353554
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0007980613046297812,
+                  0.07473622804688498
+                ],
+                "modified": [
+                  0.019530714997195445,
+                  0.047926323544978486
+                ],
+                "unchanged": [
+                  0.8881035558954764,
+                  0.9734505424911363
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0006193006222951065,
+                  0.06482045245188409
+                ],
+                "modified": [
+                  0.017052179019526943,
+                  0.039653013376377624
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7679131177609289,
+                  0.9247788301266875
+                ],
+                "unobservable": [
+                  0.043391658882519446,
+                  0.16645591741235258
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8804864791411877,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.025233428505285902,
+                "modified": 0.04344471023998765,
+                "unchanged": 0.9313218612547265
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.022217692621280066,
+                "modified": 0.03825247995651583,
+                "right_censored": 0.0,
+                "unchanged": 0.8200163065633918,
+                "unobservable": 0.11951352085881234
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.027905731481058422,
+                "modified": 0.032618716811408766,
+                "unchanged": 0.9394755517075328
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.024298846618817167,
+                "modified": 0.027619757000492084,
+                "right_censored": 0.0,
+                "unchanged": 0.8519710293169416,
+                "unobservable": 0.0961103670637491
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.000459041502199493,
+                  0.04053174968677508
+                ],
+                "modified": [
+                  0.004530739693178412,
+                  0.037929789354940124
+                ],
+                "unchanged": [
+                  0.9265040865011673,
+                  0.9891943378935584
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0004064433052757466,
+                  0.03804729777880204
+                ],
+                "modified": [
+                  0.004440383189641837,
+                  0.03444501528561804
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8098578109038702,
+                  0.9638821081581695
+                ],
+                "unobservable": [
+                  0.016660389026309872,
+                  0.15497501079449855
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.00041288191577208916,
+                  0.05284053330419631
+                ],
+                "modified": [
+                  0.005664076279129098,
+                  0.025525453195569984
+                ],
+                "unchanged": [
+                  0.9296735349018099,
+                  0.9906851014179736
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.00041288191577208916,
+                  0.05211939301711218
+                ],
+                "modified": [
+                  0.005028803420282119,
+                  0.02101339163915959
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8462485146537968,
+                  0.9701982990611023
+                ],
+                "unobservable": [
+                  0.012085639863381112,
+                  0.11387730645549238
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9217964397336594,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.021965062283481978,
+                "modified": 0.026387558045256873,
+                "unchanged": 0.9516473796712611
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.02024731621144177,
+                "modified": 0.024323957059383068,
+                "right_censored": 0.0,
+                "unchanged": 0.8772251664628347,
+                "unobservable": 0.07820356026634054
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.019408258416082878,
+                "modified": 0.01494711879637604,
+                "unchanged": 0.9656446227875409
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.019048729741771818,
+                "modified": 0.012547543380441492,
+                "right_censored": 0.0,
+                "unchanged": 0.9155785259095769,
+                "unobservable": 0.052825200968209855
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0014742146935060117,
+                  0.09810478684811155
+                ],
+                "modified": [
+                  0.022156647674907236,
+                  0.06336767517658917
+                ],
+                "unchanged": [
+                  0.8524698979837849,
+                  0.9620394488021511
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.001251960695808133,
+                  0.07699541280681677
+                ],
+                "modified": [
+                  0.018109879398938246,
+                  0.05173807448017648
+                ],
+                "right_censored": [
+                  0.0,
+                  0.1382568343330265
+                ],
+                "unchanged": [
+                  0.6423711431410578,
+                  0.8500362747799406
+                ],
+                "unobservable": [
+                  0.055010151615566945,
+                  0.21846460391189204
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0012440441406070164,
+                  0.11561047274052177
+                ],
+                "modified": [
+                  0.021725269273502993,
+                  0.05051657902615714
+                ],
+                "unchanged": [
+                  0.8420076576809717,
+                  0.9708776154999287
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.001117143532356632,
+                  0.09195817645171711
+                ],
+                "modified": [
+                  0.018416706719801376,
+                  0.041174674780256736
+                ],
+                "right_censored": [
+                  0.0,
+                  0.10390171626126683
+                ],
+                "unchanged": [
+                  0.6892922218209823,
+                  0.891426522429754
+                ],
+                "unobservable": [
+                  0.04473235009369093,
+                  0.172846514841354
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8666384120929576,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.044257885728258214,
+                "modified": 0.04686608525552205,
+                "unchanged": 0.9088760290162198
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.03689359967386873,
+                "modified": 0.03906780812610409,
+                "right_censored": 0.03811659192825112,
+                "unchanged": 0.7576437015898899,
+                "unobservable": 0.12827829868188612
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.049966599321390824,
+                "modified": 0.03548749221257534,
+                "unchanged": 0.9145459084660337
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.039851842010522234,
+                "modified": 0.029323049220624002,
+                "right_censored": 0.03463390542042227,
+                "unchanged": 0.792586638053133,
+                "unobservable": 0.10360456529529836
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0008118925243037493,
+                  0.04741474397188223
+                ],
+                "modified": [
+                  0.015168370055659998,
+                  0.0586207723510589
+                ],
+                "unchanged": [
+                  0.9104722705591219,
+                  0.9760595854040713
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.000680944646103396,
+                  0.04282118112438856
+                ],
+                "modified": [
+                  0.013735364018431258,
+                  0.04964385551705333
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7534309293560522,
+                  0.9123650148577405
+                ],
+                "unobservable": [
+                  0.04925709140848197,
+                  0.19601571599059583
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0007226685817115461,
+                  0.06972724061382042
+                ],
+                "modified": [
+                  0.014665068014569464,
+                  0.043257802955740755
+                ],
+                "unchanged": [
+                  0.8992012014635347,
+                  0.9790470468861772
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0006163422435914511,
+                  0.06705419170725926
+                ],
+                "modified": [
+                  0.01322046214307555,
+                  0.03518077583164578
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7886432560549901,
+                  0.9377231593481421
+                ],
+                "unobservable": [
+                  0.03225107730887215,
+                  0.1578840257426681
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8857861122435113,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.02508245762061824,
+                "modified": 0.03865920073636573,
+                "unchanged": 0.936258341643016
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.022217692621280066,
+                "modified": 0.034243783122706886,
+                "right_censored": 0.0,
+                "unchanged": 0.8293246364995244,
+                "unobservable": 0.11421388775648865
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.02539016352972,
+                "modified": 0.02799690654121148,
+                "unchanged": 0.9466129299290685
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.024298846618817167,
+                "modified": 0.023358405760577624,
+                "right_censored": 0.0,
+                "unchanged": 0.8658251017672856,
+                "unobservable": 0.08651764585331966
+              }
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Python",
+      "provenance_tier": 2,
+      "repository_count": 14
+    },
+    {
+      "agent_family": "Cursor",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.03667495781386462,
+                  0.4427933037198916
+                ],
+                "modified": [
+                  0.010745069862720905,
+                  0.09801688093042793
+                ],
+                "unchanged": [
+                  0.4879219345120912,
+                  0.9389418335653935
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.03411480179954715,
+                  0.3787981403435399
+                ],
+                "modified": [
+                  0.009977646539120923,
+                  0.08552428085369626
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.4173841738417384,
+                  0.8798155737704918
+                ],
+                "unobservable": [
+                  0.05043394806721807,
+                  0.15815727699530516
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.08466667110488693,
+                  0.49467189794136085
+                ],
+                "modified": [
+                  0.012873911881627698,
+                  0.19043924689153244
+                ],
+                "unchanged": [
+                  0.4300437219629274,
+                  0.8904551835387975
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.07151305936280294,
+                  0.4246535433252304
+                ],
+                "modified": [
+                  0.011204159238124753,
+                  0.14885822504651497
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.3720075833697889,
+                  0.8238556647522771
+                ],
+                "unobservable": [
+                  0.06137180306897239,
+                  0.17294167190280824
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9068705321683876,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.17560761988176046,
+                "modified": 0.03262535581344427,
+                "unchanged": 0.7917670243047953
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.15925337569499604,
+                "modified": 0.02958697378872121,
+                "right_censored": 0.0,
+                "unchanged": 0.7180301826846703,
+                "unobservable": 0.0931294678316124
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.2641931983155609,
+                "modified": 0.07754147737610628,
+                "unchanged": 0.6582653243083327
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.22611217694458913,
+                "modified": 0.06158766641798617,
+                "right_censored": 0.0,
+                "unchanged": 0.5944731273382441,
+                "unobservable": 0.1178270292991806
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.01743135838150289,
+                  0.35405474283390886
+                ],
+                "modified": [
+                  0.00941885655081473,
+                  0.10653617088348359
+                ],
+                "unchanged": [
+                  0.5886664965430632,
+                  0.9615901189374302
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.01685883997204752,
+                  0.3178915409800551
+                ],
+                "modified": [
+                  0.009044044496698924,
+                  0.09871025000169209
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.52537210691061,
+                  0.9260889500229252
+                ],
+                "unobservable": [
+                  0.028901200369344415,
+                  0.10488648778990113
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.006782400899634523,
+                  0.40652064862564175
+                ],
+                "modified": [
+                  0.010832364157400269,
+                  0.20579767563177845
+                ],
+                "unchanged": [
+                  0.5156137967700464,
+                  0.9271663968529492
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.006295668058455115,
+                  0.3727165948399719
+                ],
+                "modified": [
+                  0.01006296448840417,
+                  0.18488527755855058
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.48222995476843455,
+                  0.9019569827908291
+                ],
+                "unobservable": [
+                  0.029469258659093854,
+                  0.10194284283862427
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9343725178713265,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.11390925512697907,
+                "modified": 0.035065349059611096,
+                "unchanged": 0.8510253958134099
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.10643367752184273,
+                "modified": 0.03276409849086576,
+                "right_censored": 0.0,
+                "unchanged": 0.7951747418586179,
+                "unobservable": 0.06562748212867354
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.1731423562087654,
+                "modified": 0.08026421822060545,
+                "unchanged": 0.7465934255706291
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.156110096645026,
+                "modified": 0.0721093520951313,
+                "right_censored": 0.0,
+                "unchanged": 0.707484441802309,
+                "unobservable": 0.06429610945753382
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.020451998446845775,
+                  0.4869901330302819
+                ],
+                "modified": [
+                  0.011158155175580936,
+                  0.10030359899366204
+                ],
+                "unchanged": [
+                  0.44659115440714614,
+                  0.9515307840213281
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.01824557410988577,
+                  0.39423394993253663
+                ],
+                "modified": [
+                  0.009917622399860918,
+                  0.08145637832677646
+                ],
+                "right_censored": [
+                  0.0,
+                  0.13576213037085444
+                ],
+                "unchanged": [
+                  0.34905015716823834,
+                  0.8488433913142468
+                ],
+                "unobservable": [
+                  0.06924194651410923,
+                  0.17514696370746852
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.014833486290826117,
+                  0.5020561573634301
+                ],
+                "modified": [
+                  0.012141216577023325,
+                  0.21357619157937716
+                ],
+                "unchanged": [
+                  0.41560522228245306,
+                  0.9190799059181802
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.011080357053670425,
+                  0.3579672101774094
+                ],
+                "modified": [
+                  0.007807026370784622,
+                  0.1448690477802651
+                ],
+                "right_censored": [
+                  0.0,
+                  0.375
+                ],
+                "unchanged": [
+                  0.28084569894363665,
+                  0.7684472593012727
+                ],
+                "unobservable": [
+                  0.06561609377526616,
+                  0.18017594945936294
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8869831546707504,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.1766804788213628,
+                "modified": 0.03326427255985267,
+                "unchanged": 0.7900552486187845
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.15240270055599683,
+                "modified": 0.028693407466243052,
+                "right_censored": 0.02750198570293884,
+                "unchanged": 0.6814932486100079,
+                "unobservable": 0.10990865766481335
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.22656313253186208,
+                "modified": 0.0835678533911643,
+                "unchanged": 0.6898690140769735
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.164175674980922,
+                "modified": 0.05728031805501167,
+                "right_censored": 0.125,
+                "unchanged": 0.5287460932399899,
+                "unobservable": 0.12479791372407645
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.018617227967740214,
+                  0.3399994586104689
+                ],
+                "modified": [
+                  0.011164836535187517,
+                  0.11124643918818042
+                ],
+                "unchanged": [
+                  0.5906810035842294,
+                  0.958954078693549
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.017757337604535656,
+                  0.3032907467301712
+                ],
+                "modified": [
+                  0.010547140993204127,
+                  0.10195880190727337
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.5287491915167171,
+                  0.9121047915266225
+                ],
+                "unobservable": [
+                  0.036360028194867486,
+                  0.11674675836793544
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.01303353057199211,
+                  0.417515338568603
+                ],
+                "modified": [
+                  0.014007990968644211,
+                  0.20136527270125695
+                ],
+                "unchanged": [
+                  0.49860148590321623,
+                  0.9218177265426133
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.011591622682038305,
+                  0.3712433902533128
+                ],
+                "modified": [
+                  0.012499197199210898,
+                  0.18005306272439972
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.46157745696987834,
+                  0.886215035073291
+                ],
+                "unobservable": [
+                  0.04283341177185723,
+                  0.11735269721610349
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9273232724384433,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.11734475374732334,
+                "modified": 0.03693790149892934,
+                "unchanged": 0.8457173447537473
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.10881652104845115,
+                "modified": 0.03425337569499603,
+                "right_censored": 0.0,
+                "unchanged": 0.784253375694996,
+                "unobservable": 0.0726767275615568
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.18640559701118492,
+                "modified": 0.08210994842239722,
+                "unchanged": 0.7314844545664179
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.16190590798604515,
+                "modified": 0.07314262517223019,
+                "right_censored": 0.0,
+                "unchanged": 0.6853501917199243,
+                "unobservable": 0.07960127512180032
+              }
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Python",
+      "provenance_tier": 2,
+      "repository_count": 8
+    },
+    {
+      "agent_family": "Devin",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.02029256015270392,
+                  0.14289669835511926
+                ],
+                "modified": [
+                  0.012192602980401994,
+                  0.07376236791494345
+                ],
+                "unchanged": [
+                  0.8275449970058067,
+                  0.9237488987682065
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.01670162940929244,
+                  0.1291212596783527
+                ],
+                "modified": [
+                  0.011505129843456169,
+                  0.058266942760259705
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.6153609802054152,
+                  0.8337153548001098
+                ],
+                "unobservable": [
+                  0.04682336807237564,
+                  0.2830262991322271
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.006358333876224982,
+                  0.20733007441286988
+                ],
+                "modified": [
+                  0.033345421496748594,
+                  0.11141052508013317
+                ],
+                "unchanged": [
+                  0.7200478811710609,
+                  0.9294834841710287
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.004972128018404451,
+                  0.15990250122476404
+                ],
+                "modified": [
+                  0.022210415800623776,
+                  0.06184591314207379
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.521465728501615,
+                  0.8396394301160577
+                ],
+                "unobservable": [
+                  0.0879314196937576,
+                  0.3489223464704527
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.8881334492845284,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.09978636282713192,
+                "modified": 0.032223606907601926,
+                "unchanged": 0.8679900302652661
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.08862360660921811,
+                "modified": 0.028618863151237253,
+                "right_censored": 0.0,
+                "unchanged": 0.770890979524073,
+                "unobservable": 0.11186655071547158
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.08261759354167612,
+                "modified": 0.072150187561783,
+                "unchanged": 0.845232218896541
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.06540438582567543,
+                "modified": 0.0412326680759378,
+                "right_censored": 0.0,
+                "unchanged": 0.6831866099340367,
+                "unobservable": 0.21017633616435002
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.00031653353876396706,
+                  0.12329154723043023
+                ],
+                "modified": [
+                  0.010878141299167957,
+                  0.0514332619758466
+                ],
+                "unchanged": [
+                  0.8605748425629556,
+                  0.9672770824663078
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.00027905285886125914,
+                  0.11679062402579446
+                ],
+                "modified": [
+                  0.010464412992436422,
+                  0.043283764649353726
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7464429885998538,
+                  0.8928938866871445
+                ],
+                "unobservable": [
+                  0.03542230928890375,
+                  0.1657052280156897
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0001419641152891774,
+                  0.05596558390269413
+                ],
+                "modified": [
+                  0.02003127292258939,
+                  0.08829081474285667
+                ],
+                "unchanged": [
+                  0.8862913928070855,
+                  0.964823267335727
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.00013971071663379362,
+                  0.05300281839468436
+                ],
+                "modified": [
+                  0.015553331001721567,
+                  0.06084583896155315
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7097943366868582,
+                  0.9043959820592408
+                ],
+                "unobservable": [
+                  0.05269386377659916,
+                  0.22237413119443003
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9288481302869792,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.08128351349050983,
+                "modified": 0.021874202059749766,
+                "unchanged": 0.8968422844497405
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.07550003952881651,
+                "modified": 0.02031781168471816,
+                "right_censored": 0.0,
+                "unchanged": 0.8330302790734445,
+                "unobservable": 0.07115186971302079
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.022991863426866526,
+                "modified": 0.05098652299151645,
+                "unchanged": 0.9260216135816168
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.021620366441945645,
+                "modified": 0.03561498112506201,
+                "right_censored": 0.0,
+                "unchanged": 0.814645129167251,
+                "unobservable": 0.12811952326574125
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.08429794721852374,
+                  0.16492669367212748
+                ],
+                "modified": [
+                  0.014605029670679804,
+                  0.11763152466202483
+                ],
+                "unchanged": [
+                  0.7346566913231197,
+                  0.8685074120416226
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.06056667280110283,
+                  0.13456456096282748
+                ],
+                "modified": [
+                  0.013487337813895607,
+                  0.08469110433534906
+                ],
+                "right_censored": [
+                  0.0,
+                  0.009786631643418536
+                ],
+                "unchanged": [
+                  0.49524847371807873,
+                  0.802073148947664
+                ],
+                "unobservable": [
+                  0.05964007202903606,
+                  0.3425230782325959
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.02619760479041916,
+                  0.22289932862102618
+                ],
+                "modified": [
+                  0.052981823719198504,
+                  0.14024403143770903
+                ],
+                "unchanged": [
+                  0.6841567696071624,
+                  0.8846209113496967
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.019752174249559194,
+                  0.16514118815764503
+                ],
+                "modified": [
+                  0.031472536952863714,
+                  0.08360220569874338
+                ],
+                "right_censored": [
+                  0.0,
+                  0.007856629351956456
+                ],
+                "unchanged": [
+                  0.44395381333108463,
+                  0.7611625194639766
+                ],
+                "unobservable": [
+                  0.12299527592932886,
+                  0.39438820307033595
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.846516417792213,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.13428785326595546,
+                "modified": 0.047632416245554934,
+                "unchanged": 0.8180797304884896
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.11344770337576093,
+                "modified": 0.04024033520436398,
+                "right_censored": 0.0020159696418689224,
+                "unchanged": 0.6911218278124753,
+                "unobservable": 0.15317416396553088
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.10540649385134716,
+                "modified": 0.096176281728954,
+                "unchanged": 0.7984172244196989
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.08040597523895562,
+                "modified": 0.055775260444046855,
+                "right_censored": 0.0026188764506521515,
+                "unchanged": 0.6086884425184267,
+                "unobservable": 0.2525114453479187
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0002774778516057586,
+                  0.1262623293400046
+                ],
+                "modified": [
+                  0.011493393701921307,
+                  0.05049645854131518
+                ],
+                "unchanged": [
+                  0.857029319749946,
+                  0.9650611603612712
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.00022808229046903704,
+                  0.11725769453760779
+                ],
+                "modified": [
+                  0.010908166602431725,
+                  0.04191264973311182
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.6810009330134359,
+                  0.8728174507763116
+                ],
+                "unobservable": [
+                  0.03891981791501605,
+                  0.24612400117433672
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  9.54380606986066e-05,
+                  0.05755491624415646
+                ],
+                "modified": [
+                  0.02372352271129996,
+                  0.09193743936776387
+                ],
+                "unchanged": [
+                  0.8803556437524933,
+                  0.9599876819516344
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  9.392317084624777e-05,
+                  0.053097585683241834
+                ],
+                "modified": [
+                  0.01798139800825591,
+                  0.06312440908830773
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.6675408406555633,
+                  0.8889656727959871
+                ],
+                "unobservable": [
+                  0.060892933117770706,
+                  0.2718445274720281
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9099138271800142,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.08297493375038012,
+                "modified": 0.024414614014509752,
+                "unchanged": 0.8926104522351102
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.07550003952881651,
+                "modified": 0.02221519487706538,
+                "right_censored": 0.0,
+                "unchanged": 0.8121985927741323,
+                "unobservable": 0.09008617281998577
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.023259806299596123,
+                "modified": 0.054227326588180524,
+                "unchanged": 0.9225128671122234
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.021620366441945645,
+                "modified": 0.03745002988341568,
+                "right_censored": 0.0,
+                "unchanged": 0.7878757290451125,
+                "unobservable": 0.15305387462952627
+              }
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Python",
+      "provenance_tier": 2,
+      "repository_count": 13
+    },
+    {
+      "agent_family": "OpenAI_Codex",
+      "horizons": {
+        "180": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.2124445908090593
+                ],
+                "modified": [
+                  0.006063798369972713,
+                  0.03421523058909523
+                ],
+                "unchanged": [
+                  0.7637952284987567,
+                  0.9900527221486035
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.1724351211935836
+                ],
+                "modified": [
+                  0.005874824328125586,
+                  0.02944217514135134
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.6142533489347,
+                  0.9774868985579278
+                ],
+                "unobservable": [
+                  0.011923316763140188,
+                  0.19573947352809432
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.12093361079429016
+                ],
+                "modified": [
+                  0.007640641574521251,
+                  0.037832803690362134
+                ],
+                "unchanged": [
+                  0.8519598560879501,
+                  0.984324073077375
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.08014225219240192
+                ],
+                "modified": [
+                  0.006782431718467428,
+                  0.03230411600509717
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7862346582719871,
+                  0.9669857866640734
+                ],
+                "unobservable": [
+                  0.015522782596914095,
+                  0.11414665355067415
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9009197324414716,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.07668213457076566,
+                "modified": 0.018445475638051045,
+                "unchanged": 0.9048723897911833
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.06908444816053512,
+                "modified": 0.016617892976588628,
+                "right_censored": 0.0,
+                "unchanged": 0.8152173913043478,
+                "unobservable": 0.09908026755852843
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.04467599358250059,
+                "modified": 0.022306717493646936,
+                "unchanged": 0.9330172889238525
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.031025964534954844,
+                "modified": 0.01900201639663909,
+                "right_censored": 0.0,
+                "unchanged": 0.8886130472145439,
+                "unobservable": 0.06135897185386209
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "30": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.1919658040600916
+                ],
+                "modified": [
+                  0.0033365823314973823,
+                  0.027382154083371933
+                ],
+                "unchanged": [
+                  0.7895205533863237,
+                  0.9926685790381441
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.17363612834083236
+                ],
+                "modified": [
+                  0.003317615768940799,
+                  0.024717416932745997
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7141917178362414,
+                  0.9870805197959224
+                ],
+                "unobservable": [
+                  0.004627855849571062,
+                  0.10616585503540643
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.0949962137966916
+                ],
+                "modified": [
+                  0.003754630254338134,
+                  0.024776945471661056
+                ],
+                "unchanged": [
+                  0.888638485789689,
+                  0.9905891714731285
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.08136111138007181
+                ],
+                "modified": [
+                  0.0035504852575484634,
+                  0.021180976065082013
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.8430578396385373,
+                  0.9837631731014084
+                ],
+                "unobservable": [
+                  0.0053144352160176675,
+                  0.06661355619693024
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.946383779264214,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0725565985643291,
+                "modified": 0.012921038100496962,
+                "unchanged": 0.9145223633351739
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.06866638795986622,
+                "modified": 0.012228260869565218,
+                "right_censored": 0.0,
+                "unchanged": 0.8654891304347826,
+                "unobservable": 0.05361622073578595
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.03541231266662563,
+                "modified": 0.01272275951765962,
+                "unchanged": 0.9518649278157147
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.03087277826044504,
+                "modified": 0.011219994752571691,
+                "right_censored": 0.0,
+                "unchanged": 0.9265445605803784,
+                "unobservable": 0.031362666406604824
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "365": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.35644828079138235
+                ],
+                "modified": [
+                  0.009079661725662602,
+                  0.04882206969256128
+                ],
+                "unchanged": [
+                  0.605608047267553,
+                  0.9853423468377028
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.2501370375506892
+                ],
+                "modified": [
+                  0.007525598790791411,
+                  0.036468752336183435
+                ],
+                "right_censored": [
+                  0.0,
+                  0.25341727785061846
+                ],
+                "unchanged": [
+                  0.40978778642653596,
+                  0.9258675553496074
+                ],
+                "unobservable": [
+                  0.020654193792133617,
+                  0.234312000508171
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.19940523031340363
+                ],
+                "modified": [
+                  0.012140037258069614,
+                  0.052179329572349734
+                ],
+                "unchanged": [
+                  0.7651812595513735,
+                  0.9760729422524985
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.12817550267573236
+                ],
+                "modified": [
+                  0.01013528833120959,
+                  0.043468852921934774
+                ],
+                "right_censored": [
+                  0.0,
+                  0.1878925361083135
+                ],
+                "unchanged": [
+                  0.6233923866754286,
+                  0.9149091856905509
+                ],
+                "unobservable": [
+                  0.02698006371373698,
+                  0.13668746416794605
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.874242597461987,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.11703936184124493,
+                "modified": 0.025107885445272655,
+                "unchanged": 0.8578527527134824
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.09354096989966555,
+                "modified": 0.020066889632107024,
+                "right_censored": 0.08580685618729098,
+                "unchanged": 0.68561872909699,
+                "unobservable": 0.1149665551839465
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.0756203128557994,
+                "modified": 0.03070040601219251,
+                "unchanged": 0.8936792811320081
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.05153180359981831,
+                "modified": 0.025435040420641604,
+                "right_censored": 0.06655159394188635,
+                "unchanged": 0.7808168952368406,
+                "unobservable": 0.07566466680081312
+              }
+            }
+          },
+          "status": "identified"
+        },
+        "90": {
+          "bootstrap_95_ci": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.21923709630927612
+                ],
+                "modified": [
+                  0.005801739258849317,
+                  0.033344524745256544
+                ],
+                "unchanged": [
+                  0.7569764355294364,
+                  0.9894576995261288
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.17414297445977667
+                ],
+                "modified": [
+                  0.005707102088557927,
+                  0.028926821450262055
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.6130249682647211,
+                  0.9780769181072853
+                ],
+                "unobservable": [
+                  0.009869498362489017,
+                  0.1945956113422604
+                ]
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": [
+                  0.0,
+                  0.12117531678104679
+                ],
+                "modified": [
+                  0.007532245910873506,
+                  0.030875771662116063
+                ],
+                "unchanged": [
+                  0.8569244152280366,
+                  0.9854375838497331
+                ]
+              },
+              "unconditional_state_occupancy": {
+                "deleted": [
+                  0.0,
+                  0.08081537091187826
+                ],
+                "modified": [
+                  0.0067015814650532345,
+                  0.02651938377523337
+                ],
+                "right_censored": [
+                  0.0,
+                  0.0
+                ],
+                "unchanged": [
+                  0.7994399681551807,
+                  0.9713043251267788
+                ],
+                "unobservable": [
+                  0.012991504105920397,
+                  0.10545167291276532
+                ]
+              }
+            }
+          },
+          "gate_reasons": [],
+          "lineage_coverage": 0.9057274247491639,
+          "point_estimates": {
+            "line_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.07627509808446803,
+                "modified": 0.01707823678744519,
+                "unchanged": 0.9066466651280868
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.06908444816053512,
+                "modified": 0.015468227424749164,
+                "right_censored": 0.0,
+                "unchanged": 0.8211747491638796,
+                "unobservable": 0.09427257525083613
+              }
+            },
+            "repository_weighted": {
+              "conditional_on_observable_lineage": {
+                "deleted": 0.044569151292678535,
+                "modified": 0.01847855141019739,
+                "unchanged": 0.936952297297124
+              },
+              "unconditional_state_occupancy": {
+                "deleted": 0.031025964534954844,
+                "modified": 0.016157434507939553,
+                "right_censored": 0.0,
+                "unchanged": 0.9006277206842537,
+                "unobservable": 0.05218888027285189
+              }
+            }
+          },
+          "status": "identified"
+        }
+      },
+      "language": "Python",
+      "provenance_tier": 2,
+      "repository_count": 16
+    }
+  ],
+  "structural_candidate_handling": "mapped_to_modified",
+  "tier_results": {
+    "1": {
+      "reason": "zero_eligible_role_separated_repositories",
+      "status": "not_identified"
+    },
+    "2": {
+      "status": "partially_identified_by_stratum_and_horizon"
+    }
+  },
+  "version": 1
+}

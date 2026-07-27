@@ -1,0 +1,20 @@
+{
+  "inventory_version": 1,
+  "candidate_frame_sha256": "e2b24d9a16989a868cffbca7e8814f72c2c9e48c509cc404891341a21888748f",
+  "git_inventory": {
+    "path": "/mnt/agent-code-authorship/survival-study/git-inventory.v1.json",
+    "sha256": "8b7fc2fbbe4c63d14def6208fff7dd99a16cb9d94050b093da6491897cd84aa2",
+    "bundle_root": "/mnt/agent-code-authorship/survival-study/git-bundles",
+    "pinned_repositories": 126,
+    "reachable_pr_result_commits": 6447,
+    "missing_pr_result_commits": 1
+  },
+  "merged_line_cohorts": {
+    "path": "/mnt/agent-code-authorship/survival-study/cohort-inventory.v1.json",
+    "sha256": "416ec98ed55061f0930eefd75272e781f6a4f34e2acc3b607a4cb6dcf2c387b0",
+    "shard_root": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1",
+    "eligible_repositories": 96,
+    "eligible_merged_lines": 656070,
+    "excluded_duplicate_physical_line_attributions": 228
+  }
+}

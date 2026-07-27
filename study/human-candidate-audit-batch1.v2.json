@@ -1,0 +1,108 @@
+{
+  "audit_version": 2,
+  "candidate_frame_sha256": "8591ebac1c0ac17bac883829e2e02c5b7fb8b4248be86c50308c3e6bbe4769ed",
+  "cutoff": "2026-07-24T23:59:59Z",
+  "classifier_outputs_consulted": false,
+  "source_features_consulted_for_selection": false,
+  "screen": {
+    "criterion": "at least 2000 surviving eligible lines in commits from 2024-01-01 through the cutoff",
+    "purpose": "mechanical solicitation feasibility only; status is not an authorship label",
+    "repositories_audited": 20,
+    "substantial": 10,
+    "insufficient_total_eligible_lines": 10
+  },
+  "substantial": [
+    {
+      "id": "chinesehuazhou/python-weekly",
+      "language": "Python",
+      "commit": "00f996a07b721520193901c12cd63b1b426f34a4",
+      "committed_at": "2026-07-18T13:21:49Z",
+      "hunks": 115,
+      "surviving_lines": 4959
+    },
+    {
+      "id": "timbrel/GitSavvy",
+      "language": "Python",
+      "commit": "8eebaee8d006db1056074a98b89caa6c66d00fc9",
+      "committed_at": "2026-07-23T17:48:51Z",
+      "hunks": 560,
+      "surviving_lines": 11065
+    },
+    {
+      "id": "jimmc414/onefilellm",
+      "language": "Python",
+      "commit": "11f754636bd4798175dc2b9dd03e0946ac5c24d8",
+      "committed_at": "2026-06-12T19:40:17Z",
+      "hunks": 189,
+      "surviving_lines": 7399
+    },
+    {
+      "id": "AlexxIT/YandexStation",
+      "language": "Python",
+      "commit": "fada7941a17553b31dc2fd38e5e7cc01f8d0be11",
+      "committed_at": "2026-07-17T09:45:12Z",
+      "hunks": 305,
+      "surviving_lines": 7106
+    },
+    {
+      "id": "GitGuardian/ggshield",
+      "language": "Python",
+      "commit": "68621555943f153d64a0d246e179f1acaf517dca",
+      "committed_at": "2026-07-23T08:22:31Z",
+      "hunks": 1624,
+      "surviving_lines": 40894
+    },
+    {
+      "id": "Vchitect/Latte",
+      "language": "Python",
+      "commit": "b27c24a17487e3c33ae4e92364521303d0f14845",
+      "committed_at": "2025-10-30T23:04:13Z",
+      "hunks": 75,
+      "surviving_lines": 6947
+    },
+    {
+      "id": "fwdcloudsec/granted",
+      "language": "Go",
+      "commit": "4a52c35ce2ca7c3ef8ae4ba611785cafa9fc7828",
+      "committed_at": "2026-07-23T12:55:42Z",
+      "hunks": 155,
+      "surviving_lines": 4801
+    },
+    {
+      "id": "sourcegraph/zoekt",
+      "language": "Go",
+      "commit": "2b2ce2e398e6bee68d67143f567b6c6199340c7f",
+      "committed_at": "2026-07-24T09:53:53Z",
+      "hunks": 487,
+      "surviving_lines": 11504
+    },
+    {
+      "id": "aws/aws-node-termination-handler",
+      "language": "Go",
+      "commit": "62a8761d812b331620a0f006b55f70bcadb0462e",
+      "committed_at": "2026-07-21T22:42:36Z",
+      "hunks": 84,
+      "surviving_lines": 2415
+    },
+    {
+      "id": "ccxt/go-binance",
+      "language": "Go",
+      "commit": "8d09cc688dbcb6493d80063aef5b9d08ff01b9c7",
+      "committed_at": "2026-06-08T16:37:16Z",
+      "hunks": 946,
+      "surviving_lines": 59672
+    }
+  ],
+  "insufficient": [
+    "faust-streaming/faust",
+    "johannfaouzi/pyts",
+    "iBaa/PlexConnect",
+    "jupyter/nbconvert",
+    "githubnemo/CompileDaemon",
+    "norwoodj/helm-docs",
+    "moul/sshportal",
+    "Allenxuxu/gev",
+    "linki/chaoskube",
+    "denisenkom/go-mssqldb"
+  ]
+}

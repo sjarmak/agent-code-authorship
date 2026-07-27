@@ -18,8 +18,19 @@ EXT_LANG = {
     ".scala": "Scala", ".php": "PHP", ".m": "Objective-C", ".mm": "Objective-C",
 }
 
-SKIP_FRAGMENTS = ("vendor/", "node_modules/", "third_party/", "testdata/",
-                  "generated", ".pb.go", ".min.js", "dist/", "build/")
+SKIP_FRAGMENTS = (
+    "vendor/",
+    "node_modules/",
+    "third_party/",
+    "testdata/",
+    "fixture/",
+    "fixtures/",
+    "generated",
+    ".pb.go",
+    ".min.js",
+    "dist/",
+    "build/",
+)
 
 HASH_COMMENT = {"Python", "Ruby", "Shell", "YAML"}
 CURLY_COMMENT = {"TypeScript", "JavaScript", "Go", "Java", "C", "C++", "C#",

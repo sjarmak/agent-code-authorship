@@ -1,0 +1,88 @@
+{
+  "audit_version": 2,
+  "candidate_frame_sha256": "8591ebac1c0ac17bac883829e2e02c5b7fb8b4248be86c50308c3e6bbe4769ed",
+  "cutoff": "2026-07-24T23:59:59Z",
+  "classifier_outputs_consulted": false,
+  "source_features_consulted_for_selection": false,
+  "screen": {
+    "criterion": "at least 2000 surviving eligible lines in commits from 2024-01-01 through the cutoff",
+    "purpose": "mechanical solicitation feasibility only; status is not an authorship label",
+    "repositories_audited": 20,
+    "substantial": 7,
+    "insufficient_total_eligible_lines": 13,
+    "errors": 0
+  },
+  "substantial": [
+    {
+      "id": "linbailo/zyqinglong",
+      "language": "Python",
+      "commit": "ad8f871d988d08290b8802cc3de88be3064abcde",
+      "committed_at": "2025-06-03T12:08:50+08:00",
+      "hunks": 56,
+      "surviving_lines": 3148
+    },
+    {
+      "id": "vacanza/holidays",
+      "language": "Python",
+      "commit": "c382fdec456ce76e03b841ab809d47e46be610a2",
+      "committed_at": "2026-07-23T03:35:21+00:00",
+      "hunks": 4484,
+      "surviving_lines": 98444
+    },
+    {
+      "id": "anymail/django-anymail",
+      "language": "Python",
+      "commit": "8a4cc24895c60485e7d77a77da4aeb397506d78c",
+      "committed_at": "2026-06-16T12:34:30-07:00",
+      "hunks": 267,
+      "surviving_lines": 10250
+    },
+    {
+      "id": "open-telemetry/opentelemetry-operator",
+      "language": "Go",
+      "commit": "78ecbf3e3763985904a929335729c8a1840ffe24",
+      "committed_at": "2026-07-24T19:21:58+02:00",
+      "hunks": 2377,
+      "surviving_lines": 52356
+    },
+    {
+      "id": "google/go-jsonnet",
+      "language": "Go",
+      "commit": "567b61ac4a6c23546a62d79324bb4aaed6bdc941",
+      "committed_at": "2026-03-24T15:55:53+00:00",
+      "hunks": 1032,
+      "surviving_lines": 18460
+    },
+    {
+      "id": "NVIDIA/dcgm-exporter",
+      "language": "Go",
+      "commit": "181290c399d46a9b905e083d0204348be63cb436",
+      "committed_at": "2026-07-15T12:30:09-05:00",
+      "hunks": 1402,
+      "surviving_lines": 74236
+    },
+    {
+      "id": "Consensys/gnark",
+      "language": "Go",
+      "commit": "2ea1515eee1b1e4e8564ec0c1e15b7fd29bbb918",
+      "committed_at": "2026-07-15T18:10:09-04:00",
+      "hunks": 3013,
+      "surviving_lines": 90159
+    }
+  ],
+  "insufficient": [
+    "d8ahazard/sd_dreambooth_extension",
+    "joshyattridge/smart-money-concepts",
+    "maguowei/starred",
+    "Forethought-Technologies/AutoChain",
+    "SathyaBhat/spotify-dl",
+    "quodlibet/mutagen",
+    "crystian/ComfyUI-Crystools",
+    "openacid/slim",
+    "kairos-io/kairos",
+    "yyyar/gobetween",
+    "1Password/for-open-source",
+    "arttor/helmify",
+    "gobyexample-cn/gobyexample"
+  ]
+}

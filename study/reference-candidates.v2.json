@@ -1,0 +1,4022 @@
+{
+  "$schema": "reference-candidates.schema.json",
+  "frame_version": 2,
+  "status": "frozen_before_solicitation",
+  "retrieved_at": "2026-07-25T16:16:46.980265Z",
+  "amendment_sha256": "c790489b5b97bf4c2d3bb3850d6ed1d948c5461e7f6ce68fd2eb43330d8ae7a2",
+  "target_manifest_sha256": "e2d4c7b90fb1276fc979935b60628eafb9c053f4f5a971df115eb3f6fab23238",
+  "reference_manifest_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+  "selection": {
+    "queries": {
+      "Python": "language:Python fork:false archived:false created:<2024-01-01 pushed:>=2025-01-01 size:500..50000 stars:20..2000",
+      "Go": "language:Go fork:false archived:false created:<2024-01-01 pushed:>=2025-01-01 size:500..50000 stars:20..2000"
+    },
+    "github_sort": "stars_descending",
+    "github_page_size": 100,
+    "final_order": "sha256(proposed_label + NUL + language + NUL + lowercase_repository_id)",
+    "classifier_outputs_consulted": false,
+    "source_features_consulted": false
+  },
+  "candidates": [
+    {
+      "id": "chinesehuazhou/python-weekly",
+      "url": "https://github.com/chinesehuazhou/python-weekly",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "chinesehuazhou/python-weekly",
+      "metadata": {
+        "created_at": "2023-05-13T09:37:13Z",
+        "pushed_at": "2026-07-25T12:58:45Z",
+        "stars": 1885,
+        "disk_kib": 5106,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "0066e279cde879b7c06cfb233e8d1147eeefb090822d5350f3dbf343be4ae8b7"
+    },
+    {
+      "id": "timbrel/GitSavvy",
+      "url": "https://github.com/timbrel/GitSavvy",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "timbrel/GitSavvy",
+      "metadata": {
+        "created_at": "2015-01-18T05:40:08Z",
+        "pushed_at": "2026-07-23T17:48:57Z",
+        "stars": 1943,
+        "disk_kib": 5476,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "0255a5a294b71b0e1d3780cac01a2ddad2689274f6500143024f5b76c10ccdba"
+    },
+    {
+      "id": "faust-streaming/faust",
+      "url": "https://github.com/faust-streaming/faust",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "faust-streaming/faust",
+      "metadata": {
+        "created_at": "2020-10-22T15:32:50Z",
+        "pushed_at": "2026-07-23T07:20:20Z",
+        "stars": 1879,
+        "disk_kib": 10512,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "0365876fa190d1a0363c8714bab8981eab5c9edde44575018a88d3b02796094d"
+    },
+    {
+      "id": "fwdcloudsec/granted",
+      "url": "https://github.com/fwdcloudsec/granted",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "fwdcloudsec/granted",
+      "metadata": {
+        "created_at": "2022-02-14T16:35:35Z",
+        "pushed_at": "2026-07-23T12:55:42Z",
+        "stars": 1743,
+        "disk_kib": 2394,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "044a8cdd9171a1cc2037848fd0c4e70d04afef899f338cb0af81ab5d2c20f98a"
+    },
+    {
+      "id": "sourcegraph/zoekt",
+      "url": "https://github.com/sourcegraph/zoekt",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "sourcegraph/zoekt",
+      "metadata": {
+        "created_at": "2018-10-01T20:58:06Z",
+        "pushed_at": "2026-07-24T15:08:33Z",
+        "stars": 1786,
+        "disk_kib": 15598,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "04f1a8baf27a2635b4094800018d9363cf7e8433d13974d1760ec896d51211a5"
+    },
+    {
+      "id": "aws/aws-node-termination-handler",
+      "url": "https://github.com/aws/aws-node-termination-handler",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "aws/aws-node-termination-handler",
+      "metadata": {
+        "created_at": "2019-10-21T17:57:15Z",
+        "pushed_at": "2026-07-21T22:42:37Z",
+        "stars": 1761,
+        "disk_kib": 2042,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "050ca4cd2d2500abb29d577aa943903a870ef8a2e58b11d359767a5721dce739"
+    },
+    {
+      "id": "githubnemo/CompileDaemon",
+      "url": "https://github.com/githubnemo/CompileDaemon",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "githubnemo/CompileDaemon",
+      "metadata": {
+        "created_at": "2012-09-15T00:24:11Z",
+        "pushed_at": "2026-05-06T09:51:39Z",
+        "stars": 1724,
+        "disk_kib": 1214,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "050dcd6808f04cf77912afaa086d5df8704f202f3914ad24d8043a6e3f244e19"
+    },
+    {
+      "id": "norwoodj/helm-docs",
+      "url": "https://github.com/norwoodj/helm-docs",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "norwoodj/helm-docs",
+      "metadata": {
+        "created_at": "2018-09-01T15:23:11Z",
+        "pushed_at": "2026-06-22T09:25:43Z",
+        "stars": 1755,
+        "disk_kib": 4119,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "05bd4a95d3e7a9acb80f61a227bd5a70cecfa06943c99b5057cd37c5439495d8"
+    },
+    {
+      "id": "johannfaouzi/pyts",
+      "url": "https://github.com/johannfaouzi/pyts",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "johannfaouzi/pyts",
+      "metadata": {
+        "created_at": "2017-07-31T09:23:16Z",
+        "pushed_at": "2025-06-18T15:41:19Z",
+        "stars": 1875,
+        "disk_kib": 7896,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "06699e5e40af6113fa9e16d1258923079b7f3b370d5ca5ea1542f0890291a4a5"
+    },
+    {
+      "id": "jimmc414/onefilellm",
+      "url": "https://github.com/jimmc414/onefilellm",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "jimmc414/onefilellm",
+      "metadata": {
+        "created_at": "2023-03-17T02:16:23Z",
+        "pushed_at": "2026-06-12T19:40:26Z",
+        "stars": 2000,
+        "disk_kib": 1197,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "06936e3fea662e1bf08780f12f3a1e17ae9fbb1985da195c318b4dbaa8255485"
+    },
+    {
+      "id": "iBaa/PlexConnect",
+      "url": "https://github.com/iBaa/PlexConnect",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "iBaa/PlexConnect",
+      "metadata": {
+        "created_at": "2013-04-14T08:02:23Z",
+        "pushed_at": "2026-06-15T18:50:27Z",
+        "stars": 1906,
+        "disk_kib": 19264,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "07d1c93e2a24073564558c9b8ec2e01f37880f891756ca91c8799cde15bb5e31"
+    },
+    {
+      "id": "AlexxIT/YandexStation",
+      "url": "https://github.com/AlexxIT/YandexStation",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "AlexxIT/YandexStation",
+      "metadata": {
+        "created_at": "2020-01-27T19:15:27Z",
+        "pushed_at": "2026-07-17T09:45:26Z",
+        "stars": 1893,
+        "disk_kib": 2990,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "0a2b20e63955bb5a014de0cc6a83f2c512083778cfa81994688fc875719cccd3"
+    },
+    {
+      "id": "GitGuardian/ggshield",
+      "url": "https://github.com/GitGuardian/ggshield",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "GitGuardian/ggshield",
+      "metadata": {
+        "created_at": "2020-04-20T15:36:24Z",
+        "pushed_at": "2026-07-24T14:45:13Z",
+        "stars": 1973,
+        "disk_kib": 9057,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "0b59a895cb0e5c9ea32debfec3a4f99cde8ac776313dcc4a371ae947e255451a"
+    },
+    {
+      "id": "Vchitect/Latte",
+      "url": "https://github.com/Vchitect/Latte",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Vchitect/Latte",
+      "metadata": {
+        "created_at": "2023-10-28T09:14:10Z",
+        "pushed_at": "2025-10-30T23:04:14Z",
+        "stars": 1947,
+        "disk_kib": 37238,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "0eee5a5e54dd826d2b3aa64c7e3cf6e225c4e21b87f9db462362b678a071cfc5"
+    },
+    {
+      "id": "ccxt/go-binance",
+      "url": "https://github.com/ccxt/go-binance",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "ccxt/go-binance",
+      "metadata": {
+        "created_at": "2017-10-25T12:06:57Z",
+        "pushed_at": "2026-06-08T16:37:47Z",
+        "stars": 1903,
+        "disk_kib": 2216,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "1108aa7b616ff0f6fabce7f2fa5be3aede4652d181756ea0acaf08cb3e922d95"
+    },
+    {
+      "id": "jupyter/nbconvert",
+      "url": "https://github.com/jupyter/nbconvert",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "jupyter/nbconvert",
+      "metadata": {
+        "created_at": "2015-04-09T06:58:23Z",
+        "pushed_at": "2026-07-06T21:48:46Z",
+        "stars": 1933,
+        "disk_kib": 5610,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "136d6ff8ec2aeb3f16bbfa49b0a583f9fe3fb2af67b78d38aff314bc4a39a3e0"
+    },
+    {
+      "id": "linbailo/zyqinglong",
+      "url": "https://github.com/linbailo/zyqinglong",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "linbailo/zyqinglong",
+      "metadata": {
+        "created_at": "2023-05-08T21:05:27Z",
+        "pushed_at": "2025-06-03T04:08:50Z",
+        "stars": 1922,
+        "disk_kib": 2285,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "13d9ec828deeb90ecf5ef9c170b3b2d1a93623d944337425316dd72f4dc45680"
+    },
+    {
+      "id": "d8ahazard/sd_dreambooth_extension",
+      "url": "https://github.com/d8ahazard/sd_dreambooth_extension",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "d8ahazard/sd_dreambooth_extension",
+      "metadata": {
+        "created_at": "2022-11-06T02:40:44Z",
+        "pushed_at": "2025-09-17T21:59:05Z",
+        "stars": 1888,
+        "disk_kib": 13737,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "1429d9af1d4617097b8e17b12cbd7cddfd0f0005aa2e716a6e953b8d46eadac4"
+    },
+    {
+      "id": "joshyattridge/smart-money-concepts",
+      "url": "https://github.com/joshyattridge/smart-money-concepts",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "joshyattridge/smart-money-concepts",
+      "metadata": {
+        "created_at": "2023-09-21T20:26:13Z",
+        "pushed_at": "2026-04-03T14:16:51Z",
+        "stars": 1877,
+        "disk_kib": 24183,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "177d99eb5547e45ecd5b16f0b473556003fc44a705166a3264cced135e205128"
+    },
+    {
+      "id": "moul/sshportal",
+      "url": "https://github.com/moul/sshportal",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "moul/sshportal",
+      "metadata": {
+        "created_at": "2017-10-30T11:13:36Z",
+        "pushed_at": "2026-07-21T20:41:30Z",
+        "stars": 1938,
+        "disk_kib": 4866,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "17d45ed0787e5453d64f6724dee8a7999049d10d19b87c47f5ca98babdd46b0a"
+    },
+    {
+      "id": "Allenxuxu/gev",
+      "url": "https://github.com/Allenxuxu/gev",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Allenxuxu/gev",
+      "metadata": {
+        "created_at": "2019-09-01T12:16:18Z",
+        "pushed_at": "2025-06-07T16:56:39Z",
+        "stars": 1776,
+        "disk_kib": 571,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "1957b3dfd700974fa33e854acffc1b6db61680804596796e53abbba809a3ca0a"
+    },
+    {
+      "id": "linki/chaoskube",
+      "url": "https://github.com/linki/chaoskube",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "linki/chaoskube",
+      "metadata": {
+        "created_at": "2016-11-03T20:58:42Z",
+        "pushed_at": "2026-07-15T07:50:37Z",
+        "stars": 1931,
+        "disk_kib": 19339,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "1a479f8a6316d882545438d886623151a2de12281afda21020dc42cca67ee9ea"
+    },
+    {
+      "id": "denisenkom/go-mssqldb",
+      "url": "https://github.com/denisenkom/go-mssqldb",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "denisenkom/go-mssqldb",
+      "metadata": {
+        "created_at": "2013-12-16T00:10:47Z",
+        "pushed_at": "2025-04-26T18:38:54Z",
+        "stars": 1883,
+        "disk_kib": 5321,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "1df7cdd9562c93e02221dced5fc7217d5c621325abfaf3f50f18a382917f5064"
+    },
+    {
+      "id": "openacid/slim",
+      "url": "https://github.com/openacid/slim",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "openacid/slim",
+      "metadata": {
+        "created_at": "2019-02-02T06:12:39Z",
+        "pushed_at": "2026-03-10T18:07:48Z",
+        "stars": 1924,
+        "disk_kib": 18975,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "1f4e81ead2fb3261e9cabbf738924de3a26b69d320915f1834d7d0d8c5f7291b"
+    },
+    {
+      "id": "maguowei/starred",
+      "url": "https://github.com/maguowei/starred",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "maguowei/starred",
+      "metadata": {
+        "created_at": "2016-06-16T15:46:49Z",
+        "pushed_at": "2026-06-19T16:30:16Z",
+        "stars": 1932,
+        "disk_kib": 1974,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "1fc878417d71e69893b16b403093b575d5df50277c472d868d72a28a95817763"
+    },
+    {
+      "id": "Forethought-Technologies/AutoChain",
+      "url": "https://github.com/Forethought-Technologies/AutoChain",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Forethought-Technologies/AutoChain",
+      "metadata": {
+        "created_at": "2023-05-19T17:49:27Z",
+        "pushed_at": "2025-12-16T20:53:26Z",
+        "stars": 1881,
+        "disk_kib": 1211,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "20545887f73b42872cd98a6bc04334c01591a0d2c73dace1d1197e9e625113cc"
+    },
+    {
+      "id": "vacanza/holidays",
+      "url": "https://github.com/vacanza/holidays",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "vacanza/holidays",
+      "metadata": {
+        "created_at": "2014-08-24T15:17:18Z",
+        "pushed_at": "2026-07-23T03:52:27Z",
+        "stars": 1910,
+        "disk_kib": 24710,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "2208fff8c8ae5add9e9d4e75233550421255287a250b45c089e129033f82c93a"
+    },
+    {
+      "id": "SathyaBhat/spotify-dl",
+      "url": "https://github.com/SathyaBhat/spotify-dl",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "SathyaBhat/spotify-dl",
+      "metadata": {
+        "created_at": "2015-12-28T18:49:30Z",
+        "pushed_at": "2026-07-10T00:53:21Z",
+        "stars": 1937,
+        "disk_kib": 1362,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "2314f67427ea214e7dfbc96e55f56ec45db4f5bd9896f9905242d23970e92387"
+    },
+    {
+      "id": "anymail/django-anymail",
+      "url": "https://github.com/anymail/django-anymail",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "anymail/django-anymail",
+      "metadata": {
+        "created_at": "2016-03-10T02:55:09Z",
+        "pushed_at": "2026-06-16T19:44:22Z",
+        "stars": 1893,
+        "disk_kib": 2960,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "258608dd7b95f08af62d57572784934c3603c4912452a893627f6a1f3986f382"
+    },
+    {
+      "id": "kairos-io/kairos",
+      "url": "https://github.com/kairos-io/kairos",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "kairos-io/kairos",
+      "metadata": {
+        "created_at": "2021-07-30T16:24:54Z",
+        "pushed_at": "2026-07-24T02:11:29Z",
+        "stars": 1771,
+        "disk_kib": 6302,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "259fb3076fb66c590764f333685b4a884b76b8eee1ad07b399ec0bb85139037e"
+    },
+    {
+      "id": "open-telemetry/opentelemetry-operator",
+      "url": "https://github.com/open-telemetry/opentelemetry-operator",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "open-telemetry/opentelemetry-operator",
+      "metadata": {
+        "created_at": "2019-12-18T21:39:22Z",
+        "pushed_at": "2026-07-25T14:17:11Z",
+        "stars": 1741,
+        "disk_kib": 13988,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "2a491fdf1ee90da25768be2994a6f432c1b8285242379a40a0868fc6967e8560"
+    },
+    {
+      "id": "quodlibet/mutagen",
+      "url": "https://github.com/quodlibet/mutagen",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "quodlibet/mutagen",
+      "metadata": {
+        "created_at": "2016-04-07T17:10:15Z",
+        "pushed_at": "2026-07-13T06:43:46Z",
+        "stars": 1932,
+        "disk_kib": 7607,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "2a556d9c4d5dce738e0797d388a7c7d3644e8dd9031c14b3b58260208560570a"
+    },
+    {
+      "id": "yyyar/gobetween",
+      "url": "https://github.com/yyyar/gobetween",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "yyyar/gobetween",
+      "metadata": {
+        "created_at": "2016-06-06T10:56:03Z",
+        "pushed_at": "2025-08-16T14:46:57Z",
+        "stars": 1987,
+        "disk_kib": 545,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "2b033fa3116339c3a95c21b500ea57fb527f0145a04155e42beb7e93a9470ad9"
+    },
+    {
+      "id": "1Password/for-open-source",
+      "url": "https://github.com/1Password/for-open-source",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "1Password/for-open-source",
+      "metadata": {
+        "created_at": "2018-04-11T19:28:31Z",
+        "pushed_at": "2026-07-22T01:14:44Z",
+        "stars": 1920,
+        "disk_kib": 3924,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "2b4bea8ca6b9f96883b3215cc723be5fe25da2bc65d64263fee38ff54b0025f9"
+    },
+    {
+      "id": "arttor/helmify",
+      "url": "https://github.com/arttor/helmify",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "arttor/helmify",
+      "metadata": {
+        "created_at": "2021-08-01T15:21:36Z",
+        "pushed_at": "2026-05-07T07:38:16Z",
+        "stars": 1741,
+        "disk_kib": 501,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "2c33bc051b1e92cb3a4400b16249742e2d09299a16868bcfcc2c627aafaacac7"
+    },
+    {
+      "id": "gobyexample-cn/gobyexample",
+      "url": "https://github.com/gobyexample-cn/gobyexample",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "gobyexample-cn/gobyexample",
+      "metadata": {
+        "created_at": "2014-04-07T13:48:19Z",
+        "pushed_at": "2026-04-08T01:57:00Z",
+        "stars": 1964,
+        "disk_kib": 8116,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "2c408d31b21ff907fc22d4b06f388fe6c28754167c5b0eeb22924468174b77d7"
+    },
+    {
+      "id": "google/go-jsonnet",
+      "url": "https://github.com/google/go-jsonnet",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "google/go-jsonnet",
+      "metadata": {
+        "created_at": "2016-02-19T01:07:55Z",
+        "pushed_at": "2026-07-10T18:14:25Z",
+        "stars": 1842,
+        "disk_kib": 14402,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "3326bdc0f78dc1ab376b80b1bd9fda0c98eff2d22f5b795080c2acbf09d4cd98"
+    },
+    {
+      "id": "crystian/ComfyUI-Crystools",
+      "url": "https://github.com/crystian/ComfyUI-Crystools",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "crystian/ComfyUI-Crystools",
+      "metadata": {
+        "created_at": "2023-12-23T18:54:06Z",
+        "pushed_at": "2025-10-26T19:10:29Z",
+        "stars": 1925,
+        "disk_kib": 15884,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "3372408d25aa6be235c0cc95fb893c3f913d9def31907aa9b050fb38b61928b8"
+    },
+    {
+      "id": "NVIDIA/dcgm-exporter",
+      "url": "https://github.com/NVIDIA/dcgm-exporter",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "NVIDIA/dcgm-exporter",
+      "metadata": {
+        "created_at": "2021-08-11T15:40:37Z",
+        "pushed_at": "2026-07-25T02:39:06Z",
+        "stars": 1811,
+        "disk_kib": 6685,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "3416eea78098c364f3b5885a1de1f4fb1ee9504b6d0d28785e95bd183bac01fc"
+    },
+    {
+      "id": "Consensys/gnark",
+      "url": "https://github.com/Consensys/gnark",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Consensys/gnark",
+      "metadata": {
+        "created_at": "2020-02-24T16:08:21Z",
+        "pushed_at": "2026-07-24T17:34:15Z",
+        "stars": 1725,
+        "disk_kib": 35326,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "3470092659a645ed947427970d2d1bc1364af3afd6b4f102ba66d2fb41f31118"
+    },
+    {
+      "id": "ReAbout/web-sec",
+      "url": "https://github.com/ReAbout/web-sec",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "ReAbout/web-sec",
+      "metadata": {
+        "created_at": "2019-03-12T02:13:09Z",
+        "pushed_at": "2026-07-20T15:37:42Z",
+        "stars": 1924,
+        "disk_kib": 1548,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "349d56eeb9f15e70cde1060ac2378d7d1c43bbb2854a1acdc159dde9cfdea2d1"
+    },
+    {
+      "id": "openshift/osin",
+      "url": "https://github.com/openshift/osin",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "openshift/osin",
+      "metadata": {
+        "created_at": "2013-09-10T19:52:00Z",
+        "pushed_at": "2026-04-15T11:33:47Z",
+        "stars": 1934,
+        "disk_kib": 553,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "34e2721078d4198bb6c1c49b9c0d7e79d64e9bda3ab89f3bbd918eb399b9a3c1"
+    },
+    {
+      "id": "EgeBalci/sgn",
+      "url": "https://github.com/EgeBalci/sgn",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "EgeBalci/sgn",
+      "metadata": {
+        "created_at": "2019-10-30T10:20:01Z",
+        "pushed_at": "2026-05-01T22:56:23Z",
+        "stars": 1991,
+        "disk_kib": 895,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "364f976f6d04ad7833c80b80fca8a419b77aab906961e8c89ea35df57f303ca0"
+    },
+    {
+      "id": "yuk7/wsldl",
+      "url": "https://github.com/yuk7/wsldl",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "yuk7/wsldl",
+      "metadata": {
+        "created_at": "2017-10-17T10:04:09Z",
+        "pushed_at": "2026-07-13T16:32:34Z",
+        "stars": 1941,
+        "disk_kib": 2610,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "378a6d6c96a67267e9d65b0689a28341fea6d777c8be8a738c826854ebb6247d"
+    },
+    {
+      "id": "stefanprodan/timoni",
+      "url": "https://github.com/stefanprodan/timoni",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "stefanprodan/timoni",
+      "metadata": {
+        "created_at": "2023-02-11T13:18:25Z",
+        "pushed_at": "2026-07-23T07:14:39Z",
+        "stars": 1982,
+        "disk_kib": 3547,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "37bdb6d13e92d3ad12aa6f934eaca0c8dbcf97809932479a7e658819ffa05abe"
+    },
+    {
+      "id": "Mimino666/langdetect",
+      "url": "https://github.com/Mimino666/langdetect",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Mimino666/langdetect",
+      "metadata": {
+        "created_at": "2014-05-12T15:44:46Z",
+        "pushed_at": "2025-03-03T13:07:08Z",
+        "stars": 1897,
+        "disk_kib": 1003,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "3850733d91acb5372b5bd4eed73e1bf1d3f740022626d70981a4913ec183a3ba"
+    },
+    {
+      "id": "TimothyYe/godns",
+      "url": "https://github.com/TimothyYe/godns",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "TimothyYe/godns",
+      "metadata": {
+        "created_at": "2014-05-11T11:49:17Z",
+        "pushed_at": "2026-07-18T07:54:44Z",
+        "stars": 1752,
+        "disk_kib": 3621,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "38bab1e05031198277b2bc24c986c2c71af146f7f7e9586f49f39dea77391bd5"
+    },
+    {
+      "id": "jaypipes/ghw",
+      "url": "https://github.com/jaypipes/ghw",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "jaypipes/ghw",
+      "metadata": {
+        "created_at": "2017-05-26T16:39:02Z",
+        "pushed_at": "2026-07-14T17:02:50Z",
+        "stars": 1876,
+        "disk_kib": 1569,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "3a1d6579d922febfab6c5d9292a123c6c6346a06b254b05ce20fee7ed6d1c01e"
+    },
+    {
+      "id": "pymatting/pymatting",
+      "url": "https://github.com/pymatting/pymatting",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "pymatting/pymatting",
+      "metadata": {
+        "created_at": "2020-01-24T13:20:26Z",
+        "pushed_at": "2026-04-07T17:41:58Z",
+        "stars": 1911,
+        "disk_kib": 7592,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "3bfb7b2fea42cb9743ebfd36722998ef2d084771ceb5a2a18a7cc3fb22f30df7"
+    },
+    {
+      "id": "openapi-generators/openapi-python-client",
+      "url": "https://github.com/openapi-generators/openapi-python-client",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "openapi-generators/openapi-python-client",
+      "metadata": {
+        "created_at": "2020-02-15T19:33:46Z",
+        "pushed_at": "2026-07-20T22:39:11Z",
+        "stars": 1974,
+        "disk_kib": 4359,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "3dbbaf8d1cc1cbd6a7286307ea6d6c08091d50f2b5bca839a5819e31ea35ba5a"
+    },
+    {
+      "id": "Instagram/LibCST",
+      "url": "https://github.com/Instagram/LibCST",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Instagram/LibCST",
+      "metadata": {
+        "created_at": "2019-08-06T17:30:33Z",
+        "pushed_at": "2026-07-20T17:39:52Z",
+        "stars": 1930,
+        "disk_kib": 4552,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "3eb0bb7c4ebf76bef5734186440ffb9bb7c05fd4f0de37eb335af865fb4bc157"
+    },
+    {
+      "id": "raphaelvallat/pingouin",
+      "url": "https://github.com/raphaelvallat/pingouin",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "raphaelvallat/pingouin",
+      "metadata": {
+        "created_at": "2018-04-01T01:10:22Z",
+        "pushed_at": "2026-04-05T08:28:47Z",
+        "stars": 1927,
+        "disk_kib": 14916,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "404d7680623451efeb1fc416decd5432e30bb04c51adf32fa25c8d9c81136194"
+    },
+    {
+      "id": "cpmech/gosl",
+      "url": "https://github.com/cpmech/gosl",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "cpmech/gosl",
+      "metadata": {
+        "created_at": "2015-02-09T23:00:38Z",
+        "pushed_at": "2025-12-30T00:20:17Z",
+        "stars": 1877,
+        "disk_kib": 31193,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "40e689cbd2a88574227e45b159e334392580c8a6bf649906b329c3a6dc666571"
+    },
+    {
+      "id": "AgentOps-AI/tokencost",
+      "url": "https://github.com/AgentOps-AI/tokencost",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "AgentOps-AI/tokencost",
+      "metadata": {
+        "created_at": "2023-12-03T04:56:44Z",
+        "pushed_at": "2025-09-05T08:10:10Z",
+        "stars": 1997,
+        "disk_kib": 2264,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "41331b87c9ced7e26a295c35bbdaecec465e55ce68b81d31904fa17f70999a66"
+    },
+    {
+      "id": "clastix/kamaji",
+      "url": "https://github.com/clastix/kamaji",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "clastix/kamaji",
+      "metadata": {
+        "created_at": "2021-12-16T14:35:38Z",
+        "pushed_at": "2026-07-24T20:53:03Z",
+        "stars": 1992,
+        "disk_kib": 7954,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "4235e5ea8fa29580f5cb35976381e74af605eb5785cb8e131f87d9dc996131bd"
+    },
+    {
+      "id": "wallarm/gotestwaf",
+      "url": "https://github.com/wallarm/gotestwaf",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "wallarm/gotestwaf",
+      "metadata": {
+        "created_at": "2020-01-28T21:08:21Z",
+        "pushed_at": "2025-07-31T14:13:27Z",
+        "stars": 1795,
+        "disk_kib": 12308,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "42ed75121b085ec859728c78e88e7df77c512b94ebe9dda8ad7103c2a7e50598"
+    },
+    {
+      "id": "gastownhall/tmux-adapter",
+      "url": "https://github.com/gastownhall/tmux-adapter",
+      "language": "Go",
+      "proposed_label": "agent",
+      "source": "maintainer_organization_frame",
+      "content_group": "gastownhall/tmux-adapter",
+      "metadata": {
+        "created_at": null,
+        "pushed_at": "2026-02-17T21:56:50Z",
+        "stars": null,
+        "disk_kib": 39683,
+        "has_issues": true,
+        "owner_type": null,
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "442874a81e89f4dbc9d5fdf524024c695d09e1d352ce775f89eacc7fd7c589c4"
+    },
+    {
+      "id": "aaronjanse/3mux",
+      "url": "https://github.com/aaronjanse/3mux",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "aaronjanse/3mux",
+      "metadata": {
+        "created_at": "2019-01-06T21:11:43Z",
+        "pushed_at": "2026-07-06T22:59:39Z",
+        "stars": 1846,
+        "disk_kib": 10813,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "4a8ebf9d2521e5f925052007751d89e981c93d9f7296deef99575e83d58f57bf"
+    },
+    {
+      "id": "selkies-project/selkies",
+      "url": "https://github.com/selkies-project/selkies",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "selkies-project/selkies",
+      "metadata": {
+        "created_at": "2021-09-20T02:40:04Z",
+        "pushed_at": "2026-07-24T08:09:20Z",
+        "stars": 1933,
+        "disk_kib": 6775,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "4c01012bf34cbda1a0f12383240814d0f9ff7b0ba56f04a4678a4a8fcaa56b5b"
+    },
+    {
+      "id": "typeddjango/django-stubs",
+      "url": "https://github.com/typeddjango/django-stubs",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "typeddjango/django-stubs",
+      "metadata": {
+        "created_at": "2018-07-29T17:08:50Z",
+        "pushed_at": "2026-07-25T11:20:13Z",
+        "stars": 1962,
+        "disk_kib": 9881,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "4ce4c3f339be335518156bd92e80ee5a6363e1e055cabec2918cee2e59d0f2ed"
+    },
+    {
+      "id": "KunMoe/kun-galgame-forum",
+      "url": "https://github.com/KunMoe/kun-galgame-forum",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "KunMoe/kun-galgame-forum",
+      "metadata": {
+        "created_at": "2023-12-02T09:13:38Z",
+        "pushed_at": "2026-07-25T12:34:21Z",
+        "stars": 1734,
+        "disk_kib": 42570,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "4cfdd41bdb73a5e3cafb9beac2597b385f3d4a83ffbf3efbb4b455e9313e45f9"
+    },
+    {
+      "id": "pelletier/go-toml",
+      "url": "https://github.com/pelletier/go-toml",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "pelletier/go-toml",
+      "metadata": {
+        "created_at": "2013-02-24T17:45:51Z",
+        "pushed_at": "2026-07-18T20:18:44Z",
+        "stars": 1963,
+        "disk_kib": 3600,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "4dc45d1be75d408fbc5c70dcba9a26c3cf8b0879ec5dc19ae6d30ee9543ffd02"
+    },
+    {
+      "id": "kyegomez/BitNet",
+      "url": "https://github.com/kyegomez/BitNet",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "kyegomez/BitNet",
+      "metadata": {
+        "created_at": "2023-10-18T16:19:06Z",
+        "pushed_at": "2026-07-20T00:23:57Z",
+        "stars": 1939,
+        "disk_kib": 38272,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "50b539cba54176f10710b69afcd0d56bcfb7b4280079d7497e127d493b818f4f"
+    },
+    {
+      "id": "pytest-dev/pytest-xdist",
+      "url": "https://github.com/pytest-dev/pytest-xdist",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "pytest-dev/pytest-xdist",
+      "metadata": {
+        "created_at": "2015-09-01T18:51:45Z",
+        "pushed_at": "2026-07-21T13:35:09Z",
+        "stars": 1878,
+        "disk_kib": 2099,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "51823484b24c79fc6efaa64e0af177e44e7208e7156fc23a0391ed3a10c1d78e"
+    },
+    {
+      "id": "lxzan/gws",
+      "url": "https://github.com/lxzan/gws",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "lxzan/gws",
+      "metadata": {
+        "created_at": "2022-09-09T00:51:50Z",
+        "pushed_at": "2026-07-10T09:47:38Z",
+        "stars": 1793,
+        "disk_kib": 16252,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5311992248c87eac5f7511cc0523f3d10bafa9c251108d1e2a22e52e5ac0aab1"
+    },
+    {
+      "id": "ymcui/Chinese-LLaMA-Alpaca-3",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca-3",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "ymcui/Chinese-LLaMA-Alpaca-3",
+      "metadata": {
+        "created_at": "2023-11-09T08:11:19Z",
+        "pushed_at": "2026-04-19T00:59:15Z",
+        "stars": 1974,
+        "disk_kib": 1624,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "532e2ef965e97ef50377618e5b3b717d25e63f69ba21594cc2314713b7cca879"
+    },
+    {
+      "id": "kjk/notionapi",
+      "url": "https://github.com/kjk/notionapi",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "kjk/notionapi",
+      "metadata": {
+        "created_at": "2018-07-10T08:36:44Z",
+        "pushed_at": "2026-07-02T10:38:41Z",
+        "stars": 1840,
+        "disk_kib": 834,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "53f81d6377fa8a54c7b802ece970b6c5a336f63dc1ff88a3d7ab40a3825a8592"
+    },
+    {
+      "id": "gastownhall/wasteland",
+      "url": "https://github.com/gastownhall/wasteland",
+      "language": "Go",
+      "proposed_label": "agent",
+      "source": "maintainer_organization_frame",
+      "content_group": "gastownhall/wasteland",
+      "metadata": {
+        "created_at": null,
+        "pushed_at": "2026-07-07T21:16:09Z",
+        "stars": null,
+        "disk_kib": 1870,
+        "has_issues": true,
+        "owner_type": null,
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5632fcd32f4db1cf176bd3fe408bbad40dceb911f384efbbb0b8d6b74471f65a"
+    },
+    {
+      "id": "ethereum/research",
+      "url": "https://github.com/ethereum/research",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "ethereum/research",
+      "metadata": {
+        "created_at": "2015-09-20T10:13:12Z",
+        "pushed_at": "2025-10-18T04:01:33Z",
+        "stars": 1934,
+        "disk_kib": 37589,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "565e0a924daa074f6b466748072700bd25c2c040c98d0b33a0299fe5579db934"
+    },
+    {
+      "id": "h44z/wg-portal",
+      "url": "https://github.com/h44z/wg-portal",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "h44z/wg-portal",
+      "metadata": {
+        "created_at": "2020-11-05T18:33:12Z",
+        "pushed_at": "2026-07-23T21:01:45Z",
+        "stars": 1782,
+        "disk_kib": 22898,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5a4dfd9b27c407f2e9e89ae800d541e72a0ea429c07fad28939ed9a1ce687657"
+    },
+    {
+      "id": "petertodd/python-bitcoinlib",
+      "url": "https://github.com/petertodd/python-bitcoinlib",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "petertodd/python-bitcoinlib",
+      "metadata": {
+        "created_at": "2013-03-14T05:46:34Z",
+        "pushed_at": "2025-03-14T19:54:17Z",
+        "stars": 1950,
+        "disk_kib": 1517,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5c132aec945e056e715b9f4202df245b07479b7db4951e47bf7f099d418497f6"
+    },
+    {
+      "id": "meta-pytorch/opacus",
+      "url": "https://github.com/meta-pytorch/opacus",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "meta-pytorch/opacus",
+      "metadata": {
+        "created_at": "2019-12-07T01:58:09Z",
+        "pushed_at": "2026-07-13T21:37:10Z",
+        "stars": 1943,
+        "disk_kib": 10487,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5c14f852795a2c586c56252841697d6672f69f4ff5ddd5e60f5ee7bf4e6c6d89"
+    },
+    {
+      "id": "LumePart/Explo",
+      "url": "https://github.com/LumePart/Explo",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "LumePart/Explo",
+      "metadata": {
+        "created_at": "2023-11-10T10:24:46Z",
+        "pushed_at": "2026-07-23T08:54:54Z",
+        "stars": 1785,
+        "disk_kib": 17256,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5d0084cc5ddb61f1b2053d5a54df69367b3024f030c59fc04a8a923d19c84436"
+    },
+    {
+      "id": "aiortc/aioquic",
+      "url": "https://github.com/aiortc/aioquic",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "aiortc/aioquic",
+      "metadata": {
+        "created_at": "2019-02-04T23:27:58Z",
+        "pushed_at": "2025-10-11T10:14:57Z",
+        "stars": 1993,
+        "disk_kib": 2170,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5d71d3f234402c7f76b37307f7ab24b752125d602aae7f4a95aee1f41dc9fbc9"
+    },
+    {
+      "id": "melih-unsal/DemoGPT",
+      "url": "https://github.com/melih-unsal/DemoGPT",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "melih-unsal/DemoGPT",
+      "metadata": {
+        "created_at": "2023-06-07T09:56:20Z",
+        "pushed_at": "2026-04-01T12:30:12Z",
+        "stars": 1903,
+        "disk_kib": 26340,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5d82e6a25dd98c2df21e24710ef8e1041ff997732071244c5555f83d45d655bf"
+    },
+    {
+      "id": "cloudpipe/cloudpickle",
+      "url": "https://github.com/cloudpipe/cloudpickle",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "cloudpipe/cloudpickle",
+      "metadata": {
+        "created_at": "2015-04-13T16:33:00Z",
+        "pushed_at": "2025-11-05T10:43:32Z",
+        "stars": 1932,
+        "disk_kib": 890,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5deeac5ab791a59d52f0116a19057e55eda5f067bfa273f72a72e1c23ee3e4a7"
+    },
+    {
+      "id": "celery/django-celery-beat",
+      "url": "https://github.com/celery/django-celery-beat",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "celery/django-celery-beat",
+      "metadata": {
+        "created_at": "2016-08-03T22:34:19Z",
+        "pushed_at": "2026-07-22T18:31:26Z",
+        "stars": 1943,
+        "disk_kib": 944,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "5f25f078fc0f6ff65e7df7d67b23344ab89a4340546f003e4ad65f0b107a9895"
+    },
+    {
+      "id": "carvel-dev/ytt",
+      "url": "https://github.com/carvel-dev/ytt",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "carvel-dev/ytt",
+      "metadata": {
+        "created_at": "2019-03-01T00:13:56Z",
+        "pushed_at": "2026-07-08T12:43:28Z",
+        "stars": 1869,
+        "disk_kib": 4707,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "6117e4564743655f607902db904f07df2da39ef8708269045bb203ce649eb0f5"
+    },
+    {
+      "id": "mlco2/codecarbon",
+      "url": "https://github.com/mlco2/codecarbon",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mlco2/codecarbon",
+      "metadata": {
+        "created_at": "2020-05-12T14:44:03Z",
+        "pushed_at": "2026-07-24T13:29:06Z",
+        "stars": 1885,
+        "disk_kib": 37110,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "62406de3754bc72cdc5b4b33b50001f9e7953a813f5ab94697970b4e3d815909"
+    },
+    {
+      "id": "Tencent/NeuralNLP-NeuralClassifier",
+      "url": "https://github.com/Tencent/NeuralNLP-NeuralClassifier",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Tencent/NeuralNLP-NeuralClassifier",
+      "metadata": {
+        "created_at": "2019-07-04T08:16:11Z",
+        "pushed_at": "2025-11-18T08:56:25Z",
+        "stars": 1921,
+        "disk_kib": 11885,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "632768ca3d6767fee60b6e9febde69c4e2c1790d3e63e37f2b92dd1c4bceb5c6"
+    },
+    {
+      "id": "devploit/nomore403",
+      "url": "https://github.com/devploit/nomore403",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "devploit/nomore403",
+      "metadata": {
+        "created_at": "2021-08-30T13:09:18Z",
+        "pushed_at": "2026-06-21T10:19:20Z",
+        "stars": 1820,
+        "disk_kib": 7325,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "63b88c237c95eaef77b237e5ff88280edc74fc7a63e031360f4e85c80de2d468"
+    },
+    {
+      "id": "bellingcat/octosuite",
+      "url": "https://github.com/bellingcat/octosuite",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "bellingcat/octosuite",
+      "metadata": {
+        "created_at": "2022-02-24T02:10:31Z",
+        "pushed_at": "2026-02-28T01:24:10Z",
+        "stars": 1894,
+        "disk_kib": 5171,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "63c03d6bf53b6527f1adcf0b643d1270929df7f93d9325ab034df9cfeb529209"
+    },
+    {
+      "id": "Bouni/kicad-jlcpcb-tools",
+      "url": "https://github.com/Bouni/kicad-jlcpcb-tools",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Bouni/kicad-jlcpcb-tools",
+      "metadata": {
+        "created_at": "2021-08-03T13:38:40Z",
+        "pushed_at": "2026-07-20T13:54:56Z",
+        "stars": 1985,
+        "disk_kib": 21301,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "6443677e1126e2add5abb6850a43db5b7dab8290038d56ebc1a4af1b4cdcae77"
+    },
+    {
+      "id": "microsoft/GlobalMLBuildingFootprints",
+      "url": "https://github.com/microsoft/GlobalMLBuildingFootprints",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "microsoft/GlobalMLBuildingFootprints",
+      "metadata": {
+        "created_at": "2022-04-22T22:09:24Z",
+        "pushed_at": "2026-07-24T19:12:53Z",
+        "stars": 1911,
+        "disk_kib": 24519,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "6552bba7a3e5d7118ea138aed85778711bb863a7839f4481b471baf21aae4ba6"
+    },
+    {
+      "id": "DavidoTek/ProtonUp-Qt",
+      "url": "https://github.com/DavidoTek/ProtonUp-Qt",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "DavidoTek/ProtonUp-Qt",
+      "metadata": {
+        "created_at": "2021-08-29T17:10:01Z",
+        "pushed_at": "2026-07-11T23:29:39Z",
+        "stars": 1996,
+        "disk_kib": 6292,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "66f876ad67e129bcb10dda42c65571a7bb9dad2fafb72edd3a2f8332762f1fce"
+    },
+    {
+      "id": "haoheliu/versatile_audio_super_resolution",
+      "url": "https://github.com/haoheliu/versatile_audio_super_resolution",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "haoheliu/versatile_audio_super_resolution",
+      "metadata": {
+        "created_at": "2023-09-06T19:55:09Z",
+        "pushed_at": "2025-08-27T06:39:47Z",
+        "stars": 1930,
+        "disk_kib": 23257,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "6a90d893772a5293711729427f57caf08a76dd5d7a3d583cf171db835342549b"
+    },
+    {
+      "id": "peer-calls/peer-calls",
+      "url": "https://github.com/peer-calls/peer-calls",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "peer-calls/peer-calls",
+      "metadata": {
+        "created_at": "2016-03-31T22:41:02Z",
+        "pushed_at": "2025-10-28T22:46:52Z",
+        "stars": 1902,
+        "disk_kib": 4790,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "6bcdab770133f098b13ca068fc06e283e0dd320710d746875aca8c5909c5c15d"
+    },
+    {
+      "id": "erikrose/parsimonious",
+      "url": "https://github.com/erikrose/parsimonious",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "erikrose/parsimonious",
+      "metadata": {
+        "created_at": "2012-02-03T09:10:42Z",
+        "pushed_at": "2025-11-12T01:18:06Z",
+        "stars": 1911,
+        "disk_kib": 528,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "6e499a9ab03603e1602e959a79a42dc44037d44624de05c4a81dbb821ea4bb49"
+    },
+    {
+      "id": "selinuxG/Golin",
+      "url": "https://github.com/selinuxG/Golin",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "selinuxG/Golin",
+      "metadata": {
+        "created_at": "2023-02-17T09:20:44Z",
+        "pushed_at": "2026-05-09T06:56:53Z",
+        "stars": 1834,
+        "disk_kib": 35989,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "71ec8f17eb06655e853a5a4206ac90062733888498986c48f1b593bb9d3e4bf3"
+    },
+    {
+      "id": "django-notifications/django-notifications",
+      "url": "https://github.com/django-notifications/django-notifications",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "django-notifications/django-notifications",
+      "metadata": {
+        "created_at": "2012-07-22T10:41:02Z",
+        "pushed_at": "2025-07-17T17:54:23Z",
+        "stars": 1956,
+        "disk_kib": 7352,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "73553ac922d48ebf9b2e364192807de10c9b0afff3fb219a4c48188d0d391bf2"
+    },
+    {
+      "id": "piccolo-orm/piccolo",
+      "url": "https://github.com/piccolo-orm/piccolo",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "piccolo-orm/piccolo",
+      "metadata": {
+        "created_at": "2018-10-27T20:53:26Z",
+        "pushed_at": "2026-07-23T16:33:32Z",
+        "stars": 1931,
+        "disk_kib": 4904,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "74cc293d1990c81cae62aa43008068ca9fa6b6df5e7fcc397f6a6e1b9b04c877"
+    },
+    {
+      "id": "mylxsw/aidea-server",
+      "url": "https://github.com/mylxsw/aidea-server",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mylxsw/aidea-server",
+      "metadata": {
+        "created_at": "2023-08-30T03:38:44Z",
+        "pushed_at": "2026-03-18T15:37:29Z",
+        "stars": 1757,
+        "disk_kib": 25844,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "764e57853a3d7a276ad17abf75c5c64aa9fb3313b1ee5749f77118b7a9ade732"
+    },
+    {
+      "id": "weaveworks/grafanalib",
+      "url": "https://github.com/weaveworks/grafanalib",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "weaveworks/grafanalib",
+      "metadata": {
+        "created_at": "2016-12-02T14:11:13Z",
+        "pushed_at": "2025-12-08T07:33:05Z",
+        "stars": 1968,
+        "disk_kib": 830,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "76d2fab999e2906edd48c5e1e2de358f37c9c64fa8b27a1d9a936da8519009d8"
+    },
+    {
+      "id": "jsksxs360/How-to-use-Transformers",
+      "url": "https://github.com/jsksxs360/How-to-use-Transformers",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "jsksxs360/How-to-use-Transformers",
+      "metadata": {
+        "created_at": "2022-09-19T07:07:34Z",
+        "pushed_at": "2026-02-24T06:26:48Z",
+        "stars": 1881,
+        "disk_kib": 21117,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "798912bc6f13ca81a7ccab3bcca231d049aa29dfb14fdc915b888a9263c11789"
+    },
+    {
+      "id": "rq/django-rq",
+      "url": "https://github.com/rq/django-rq",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "rq/django-rq",
+      "metadata": {
+        "created_at": "2012-05-15T10:21:58Z",
+        "pushed_at": "2026-07-13T17:47:26Z",
+        "stars": 1947,
+        "disk_kib": 1334,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "7ac2d066b80e99ee8d126597d75ea69648e00dcb2cec0ba3eace10e5d0156d5d"
+    },
+    {
+      "id": "django-wiki/django-wiki",
+      "url": "https://github.com/django-wiki/django-wiki",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "django-wiki/django-wiki",
+      "metadata": {
+        "created_at": "2012-07-17T18:46:09Z",
+        "pushed_at": "2026-06-23T22:33:13Z",
+        "stars": 1928,
+        "disk_kib": 12446,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "7d74f12ab6efc2b77351b51ab972d6ce559701fac246d47d16902cee4283d38d"
+    },
+    {
+      "id": "zema1/watchvuln",
+      "url": "https://github.com/zema1/watchvuln",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "zema1/watchvuln",
+      "metadata": {
+        "created_at": "2023-03-25T13:23:45Z",
+        "pushed_at": "2025-11-26T08:44:34Z",
+        "stars": 1865,
+        "disk_kib": 19787,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "7e8046bd1adcd37338da6d1192ed6e08bf422900184db462afe725623c21f1c6"
+    },
+    {
+      "id": "go-spring/go-spring",
+      "url": "https://github.com/go-spring/go-spring",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "go-spring/go-spring",
+      "metadata": {
+        "created_at": "2019-10-11T11:26:55Z",
+        "pushed_at": "2026-07-25T12:40:56Z",
+        "stars": 1788,
+        "disk_kib": 16196,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "7ec300ca21181d0340e19a3a38e1fc1747ba2b7a38452f3117d63a6d06bb6bcd"
+    },
+    {
+      "id": "425776024/nlpcda",
+      "url": "https://github.com/425776024/nlpcda",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "425776024/nlpcda",
+      "metadata": {
+        "created_at": "2019-12-29T04:33:10Z",
+        "pushed_at": "2025-03-18T08:26:13Z",
+        "stars": 1879,
+        "disk_kib": 1105,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "7f36b7bb5be241657faa64cc5924b92ea49836d8604c10f081228eb6c31232be"
+    },
+    {
+      "id": "gographics/imagick",
+      "url": "https://github.com/gographics/imagick",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "gographics/imagick",
+      "metadata": {
+        "created_at": "2013-04-30T17:31:48Z",
+        "pushed_at": "2026-05-31T22:27:34Z",
+        "stars": 1873,
+        "disk_kib": 1644,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "81cb68fac6f1ba7649bc22b8b7c841123ecb66eaf043ca06b3ab5be7413d891f"
+    },
+    {
+      "id": "mudler/edgevpn",
+      "url": "https://github.com/mudler/edgevpn",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mudler/edgevpn",
+      "metadata": {
+        "created_at": "2021-05-14T21:18:10Z",
+        "pushed_at": "2026-07-22T09:36:24Z",
+        "stars": 1950,
+        "disk_kib": 9173,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "81cdb699fccaa89970d312dc36ddd3e4170de0770e4f010109db59d21f718d5e"
+    },
+    {
+      "id": "kadirnar/whisper-plus",
+      "url": "https://github.com/kadirnar/whisper-plus",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "kadirnar/whisper-plus",
+      "metadata": {
+        "created_at": "2023-11-21T09:59:50Z",
+        "pushed_at": "2026-05-04T20:32:21Z",
+        "stars": 1956,
+        "disk_kib": 1049,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "83763d5f5e6a048bcd255d834db41e50a67e5327f2e89c8e846600969b2e284b"
+    },
+    {
+      "id": "blacktwin/JBOPS",
+      "url": "https://github.com/blacktwin/JBOPS",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "blacktwin/JBOPS",
+      "metadata": {
+        "created_at": "2016-09-14T00:30:40Z",
+        "pushed_at": "2025-11-05T05:30:40Z",
+        "stars": 1921,
+        "disk_kib": 1695,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "85130b2609f2288af61ddc4f6d8dd6a70d3a5022317a638ef16b7266136091a2"
+    },
+    {
+      "id": "nosarthur/gita",
+      "url": "https://github.com/nosarthur/gita",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "nosarthur/gita",
+      "metadata": {
+        "created_at": "2018-01-31T15:30:46Z",
+        "pushed_at": "2026-07-06T21:42:52Z",
+        "stars": 1900,
+        "disk_kib": 2395,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "855b73db088f6819e314f2052a3ceb3275ff85dd5a3aba37f128b42e6378b5c6"
+    },
+    {
+      "id": "antrea-io/antrea",
+      "url": "https://github.com/antrea-io/antrea",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "antrea-io/antrea",
+      "metadata": {
+        "created_at": "2019-10-25T00:42:23Z",
+        "pushed_at": "2026-07-24T19:10:19Z",
+        "stars": 1806,
+        "disk_kib": 44605,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "85a9743e931bd27e99a960e6fa290038c5f52be6b5d68ed1ca7b5b00f7c8d021"
+    },
+    {
+      "id": "deadc0de6/dotdrop",
+      "url": "https://github.com/deadc0de6/dotdrop",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "deadc0de6/dotdrop",
+      "metadata": {
+        "created_at": "2017-03-07T18:16:55Z",
+        "pushed_at": "2026-07-21T21:08:35Z",
+        "stars": 1937,
+        "disk_kib": 2698,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "8843ab1c574f03d7ecf824428b8de8adb98d71a0997efd3200e929da879d974f"
+    },
+    {
+      "id": "yutto-dev/yutto",
+      "url": "https://github.com/yutto-dev/yutto",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "yutto-dev/yutto",
+      "metadata": {
+        "created_at": "2021-05-02T15:58:56Z",
+        "pushed_at": "2026-07-25T08:54:05Z",
+        "stars": 1939,
+        "disk_kib": 3869,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "8884813f4e362eba39995d631655f2833267c6093c4b659e52dbc4e47428820f"
+    },
+    {
+      "id": "uber/petastorm",
+      "url": "https://github.com/uber/petastorm",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "uber/petastorm",
+      "metadata": {
+        "created_at": "2018-06-15T23:15:29Z",
+        "pushed_at": "2026-01-02T23:08:02Z",
+        "stars": 1888,
+        "disk_kib": 2712,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "88abc7d85734974ef9a6e0210e9798e08ea2c4faf142ff87cb59d3f5c7d5b025"
+    },
+    {
+      "id": "will8211/unimatrix",
+      "url": "https://github.com/will8211/unimatrix",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "will8211/unimatrix",
+      "metadata": {
+        "created_at": "2018-01-20T06:52:50Z",
+        "pushed_at": "2026-05-20T23:15:33Z",
+        "stars": 1934,
+        "disk_kib": 2096,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "891dedacd09fe455ccd84d17eb47dfb0ff9b5123f57e3ee6be2653d99e0a4fb0"
+    },
+    {
+      "id": "tuna/tunasync",
+      "url": "https://github.com/tuna/tunasync",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "tuna/tunasync",
+      "metadata": {
+        "created_at": "2014-10-17T08:24:26Z",
+        "pushed_at": "2026-07-10T13:22:13Z",
+        "stars": 1857,
+        "disk_kib": 1103,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "8be8de4d3585c3807f2cd4e83a3f058069becc154dea2b7a55a6d5541b86b47b"
+    },
+    {
+      "id": "bakito/adguardhome-sync",
+      "url": "https://github.com/bakito/adguardhome-sync",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "bakito/adguardhome-sync",
+      "metadata": {
+        "created_at": "2021-03-27T22:32:10Z",
+        "pushed_at": "2026-07-23T15:09:07Z",
+        "stars": 1751,
+        "disk_kib": 1901,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "8f0e15c1b28158b11f14dedbed684075c09a8e3779a2941642eaba61d1a41c89"
+    },
+    {
+      "id": "mozilla/cipherscan",
+      "url": "https://github.com/mozilla/cipherscan",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mozilla/cipherscan",
+      "metadata": {
+        "created_at": "2013-07-17T18:50:06Z",
+        "pushed_at": "2025-06-09T16:21:03Z",
+        "stars": 1995,
+        "disk_kib": 35374,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "8f9ea7a7f299be77958dc9618e80097ecb86786115f5ecc5910e2f9f65b58e1e"
+    },
+    {
+      "id": "scholarly-python-package/scholarly",
+      "url": "https://github.com/scholarly-python-package/scholarly",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "scholarly-python-package/scholarly",
+      "metadata": {
+        "created_at": "2014-12-02T17:01:14Z",
+        "pushed_at": "2026-03-24T04:29:03Z",
+        "stars": 1877,
+        "disk_kib": 6738,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "904c38793784f15da6f7c5ffc28746abbb62a4c7961b36869be4d36a4c746c66"
+    },
+    {
+      "id": "aio-libs/aiomysql",
+      "url": "https://github.com/aio-libs/aiomysql",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "aio-libs/aiomysql",
+      "metadata": {
+        "created_at": "2015-01-07T20:14:48Z",
+        "pushed_at": "2026-03-27T01:52:43Z",
+        "stars": 1892,
+        "disk_kib": 1530,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "93336aab1e9202ffd81ded083a8b966e52fad27604b14aa353676a44a015db43"
+    },
+    {
+      "id": "Pointcept/PointTransformerV3",
+      "url": "https://github.com/Pointcept/PointTransformerV3",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Pointcept/PointTransformerV3",
+      "metadata": {
+        "created_at": "2023-12-06T08:32:43Z",
+        "pushed_at": "2025-10-24T07:27:41Z",
+        "stars": 1893,
+        "disk_kib": 2613,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "9481fb03a7c3b20819c3842b6e9ee4a3b53cd500e4ee1706071465f3dfdea226"
+    },
+    {
+      "id": "probberechts/soccerdata",
+      "url": "https://github.com/probberechts/soccerdata",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "probberechts/soccerdata",
+      "metadata": {
+        "created_at": "2022-02-03T15:07:14Z",
+        "pushed_at": "2026-07-24T12:21:41Z",
+        "stars": 1910,
+        "disk_kib": 22781,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "94f575e11e3e33d04b40dd41739aa9ff8c3a47441cc5ef694f68920eb5cea21c"
+    },
+    {
+      "id": "zitadel/oidc",
+      "url": "https://github.com/zitadel/oidc",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "zitadel/oidc",
+      "metadata": {
+        "created_at": "2019-11-15T12:13:21Z",
+        "pushed_at": "2026-07-23T09:08:41Z",
+        "stars": 1851,
+        "disk_kib": 1936,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "95917d92f2f27e4b50e9cdf0fda5ba9763e030ce610f986e94da19b86415aaeb"
+    },
+    {
+      "id": "gastownhall/gascity-packs",
+      "url": "https://github.com/gastownhall/gascity-packs",
+      "language": "Go",
+      "proposed_label": "agent",
+      "source": "maintainer_organization_frame",
+      "content_group": "gastownhall/gascity-packs",
+      "metadata": {
+        "created_at": null,
+        "pushed_at": "2026-07-25T09:32:22Z",
+        "stars": null,
+        "disk_kib": 9621,
+        "has_issues": true,
+        "owner_type": null,
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "98b756e0a73df494223c6a1b9838ca2a219d43ef860e7a82e8235898430ca237"
+    },
+    {
+      "id": "golang/geo",
+      "url": "https://github.com/golang/geo",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "golang/geo",
+      "metadata": {
+        "created_at": "2014-12-03T23:02:15Z",
+        "pushed_at": "2026-07-20T18:14:15Z",
+        "stars": 1845,
+        "disk_kib": 1371,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "9a69825853cfcd0ac676601517b93f963232527ed41b4a897d413dc27252b9c7"
+    },
+    {
+      "id": "zabbix/community-templates",
+      "url": "https://github.com/zabbix/community-templates",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "zabbix/community-templates",
+      "metadata": {
+        "created_at": "2021-10-28T11:19:47Z",
+        "pushed_at": "2026-07-14T08:41:25Z",
+        "stars": 1930,
+        "disk_kib": 41662,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "9bad93011a8ae9b43cd23afb63662813cd0fa9b919f8b8292e0e1e8615f18e8d"
+    },
+    {
+      "id": "sartography/SpiffWorkflow",
+      "url": "https://github.com/sartography/SpiffWorkflow",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "sartography/SpiffWorkflow",
+      "metadata": {
+        "created_at": "2009-12-25T09:11:22Z",
+        "pushed_at": "2026-07-12T16:06:27Z",
+        "stars": 1907,
+        "disk_kib": 33451,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a107023e2deef93ab76b9e341301937f084523b0585161fa2ada5b7929fd5e51"
+    },
+    {
+      "id": "gsamokovarov/jump",
+      "url": "https://github.com/gsamokovarov/jump",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "gsamokovarov/jump",
+      "metadata": {
+        "created_at": "2015-08-16T22:07:17Z",
+        "pushed_at": "2026-07-18T20:51:49Z",
+        "stars": 1939,
+        "disk_kib": 3320,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a1eec56c906bd3a15d7f8fe4d88cbae0028ee88b0cd6b61788a122c14b272884"
+    },
+    {
+      "id": "tinylib/msgp",
+      "url": "https://github.com/tinylib/msgp",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "tinylib/msgp",
+      "metadata": {
+        "created_at": "2014-09-12T03:09:53Z",
+        "pushed_at": "2026-06-04T07:41:49Z",
+        "stars": 1948,
+        "disk_kib": 10449,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a21a080c8b8e458cde41c5ac283b0267123722c2f56a6d785c87d3fa0ef08690"
+    },
+    {
+      "id": "django-tenants/django-tenants",
+      "url": "https://github.com/django-tenants/django-tenants",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "django-tenants/django-tenants",
+      "metadata": {
+        "created_at": "2015-06-09T19:48:59Z",
+        "pushed_at": "2026-06-30T21:22:35Z",
+        "stars": 1878,
+        "disk_kib": 972,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a41c245ce8eef82b5384f1b9b559c0dda0000f3f83c43f78a62f261ba2417b57"
+    },
+    {
+      "id": "djhworld/simple-computer",
+      "url": "https://github.com/djhworld/simple-computer",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "djhworld/simple-computer",
+      "metadata": {
+        "created_at": "2019-05-13T18:21:44Z",
+        "pushed_at": "2026-05-29T11:25:55Z",
+        "stars": 1987,
+        "disk_kib": 726,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a4309d3a0bb93d5f9d61be75dc0724fc5920061b8eccf8ea17253105410ebaa9"
+    },
+    {
+      "id": "kubepug/kubepug",
+      "url": "https://github.com/kubepug/kubepug",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "kubepug/kubepug",
+      "metadata": {
+        "created_at": "2020-01-07T01:53:50Z",
+        "pushed_at": "2026-06-22T09:27:04Z",
+        "stars": 1836,
+        "disk_kib": 16900,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a595bb8a9fed7e69fd6f12e3b5da09f6cc76e2cac5c073ad79cbc7df9da06289"
+    },
+    {
+      "id": "doableware/djongo",
+      "url": "https://github.com/doableware/djongo",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "doableware/djongo",
+      "metadata": {
+        "created_at": "2017-07-12T14:00:41Z",
+        "pushed_at": "2026-07-18T19:05:31Z",
+        "stars": 1924,
+        "disk_kib": 22292,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a6ddb1132e7a315451756065a2cb27de68d90581642b5725a89f6b7769a05bad"
+    },
+    {
+      "id": "lucidrains/gigagan-pytorch",
+      "url": "https://github.com/lucidrains/gigagan-pytorch",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "lucidrains/gigagan-pytorch",
+      "metadata": {
+        "created_at": "2023-03-10T15:21:25Z",
+        "pushed_at": "2025-01-12T14:26:17Z",
+        "stars": 1941,
+        "disk_kib": 1088,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a6eaf2d272b9959797b641c7ad83721239b27578b99052777499bf09c61917cc"
+    },
+    {
+      "id": "gabriel-vasile/mimetype",
+      "url": "https://github.com/gabriel-vasile/mimetype",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "gabriel-vasile/mimetype",
+      "metadata": {
+        "created_at": "2018-07-02T07:15:29Z",
+        "pushed_at": "2026-07-24T11:25:15Z",
+        "stars": 1996,
+        "disk_kib": 24714,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a83b37a7590b1432f8ac5c1068878725b3e1c893c66adb4971c4d0fccf0bc742"
+    },
+    {
+      "id": "mxpv/podsync",
+      "url": "https://github.com/mxpv/podsync",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mxpv/podsync",
+      "metadata": {
+        "created_at": "2016-10-02T13:10:28Z",
+        "pushed_at": "2026-07-24T18:54:07Z",
+        "stars": 1937,
+        "disk_kib": 4379,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "a8e4e596240c178de177e0b49c528a1f49ad13a517befdb3ba75f0cab35b431d"
+    },
+    {
+      "id": "aquaproj/aqua",
+      "url": "https://github.com/aquaproj/aqua",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "aquaproj/aqua",
+      "metadata": {
+        "created_at": "2021-08-25T12:31:16Z",
+        "pushed_at": "2026-07-25T05:33:52Z",
+        "stars": 1787,
+        "disk_kib": 11330,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "aa2f3b1e7fc5cb2c9c082f8f0378a1fee7c2f35d15fe411954263af0ee4d3bbd"
+    },
+    {
+      "id": "gastownhall/gastown",
+      "url": "https://github.com/gastownhall/gastown",
+      "language": "Go",
+      "proposed_label": "agent",
+      "source": "maintainer_organization_frame",
+      "content_group": "gastownhall/gastown",
+      "metadata": {
+        "created_at": null,
+        "pushed_at": "2026-07-25T08:34:02Z",
+        "stars": null,
+        "disk_kib": 87287,
+        "has_issues": true,
+        "owner_type": null,
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "ad856242272d15ab771ca6d1cb9dd59b9ba5bfc1cfd363547da9d41d390b0236"
+    },
+    {
+      "id": "JurajNyiri/HomeAssistant-Tapo-Control",
+      "url": "https://github.com/JurajNyiri/HomeAssistant-Tapo-Control",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "JurajNyiri/HomeAssistant-Tapo-Control",
+      "metadata": {
+        "created_at": "2020-10-01T17:08:12Z",
+        "pushed_at": "2026-07-22T14:39:34Z",
+        "stars": 1953,
+        "disk_kib": 1552,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "ae2288e1cfb26b4d1fbe4dffe28550547f54eb364578ccea08fb09f6e8ab39ac"
+    },
+    {
+      "id": "LlmKira/Openaibot",
+      "url": "https://github.com/LlmKira/Openaibot",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "LlmKira/Openaibot",
+      "metadata": {
+        "created_at": "2022-12-05T11:17:59Z",
+        "pushed_at": "2025-06-09T16:20:12Z",
+        "stars": 1970,
+        "disk_kib": 18779,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "af151bf8c919fa1ebd62ced7c58855962f2afc823203fa3b7bbc874ca8688f9a"
+    },
+    {
+      "id": "hxz393/BaiduPanFilesTransfers",
+      "url": "https://github.com/hxz393/BaiduPanFilesTransfers",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "hxz393/BaiduPanFilesTransfers",
+      "metadata": {
+        "created_at": "2020-06-15T18:36:01Z",
+        "pushed_at": "2025-09-21T03:27:58Z",
+        "stars": 1995,
+        "disk_kib": 5346,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "b0dab95fbe23b77d6a1cf4aec76582507a107c01d64c8f3e9e7e1b022566756b"
+    },
+    {
+      "id": "systemd/mkosi",
+      "url": "https://github.com/systemd/mkosi",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "systemd/mkosi",
+      "metadata": {
+        "created_at": "2016-07-13T10:31:19Z",
+        "pushed_at": "2026-07-20T11:51:46Z",
+        "stars": 1959,
+        "disk_kib": 8706,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "b0e8acce13bca38e8e3ea236e03005bf8a92fc16180d34e5e280b81bab21971e"
+    },
+    {
+      "id": "sipcapture/homer",
+      "url": "https://github.com/sipcapture/homer",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "sipcapture/homer",
+      "metadata": {
+        "created_at": "2014-03-28T14:11:48Z",
+        "pushed_at": "2026-07-24T16:47:29Z",
+        "stars": 1996,
+        "disk_kib": 8434,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "b15cc4121053f3849745b3d6002e8139d2110bcab440781fb981211bbd9649a3"
+    },
+    {
+      "id": "tkfy920/qstock",
+      "url": "https://github.com/tkfy920/qstock",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "tkfy920/qstock",
+      "metadata": {
+        "created_at": "2022-10-10T14:34:24Z",
+        "pushed_at": "2025-03-16T03:36:35Z",
+        "stars": 1911,
+        "disk_kib": 788,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "b3aa95fde212ba0a0718ac88ab1d6df09d3f7b55c6d1ac58c3bbef9525bd1141"
+    },
+    {
+      "id": "mochi-mqtt/server",
+      "url": "https://github.com/mochi-mqtt/server",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mochi-mqtt/server",
+      "metadata": {
+        "created_at": "2019-09-21T11:56:13Z",
+        "pushed_at": "2026-07-02T20:32:49Z",
+        "stars": 1904,
+        "disk_kib": 5448,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "b7ee723833b1d1e07f3a25e8eaa4481768a3154463a99a378b8e3e9963652366"
+    },
+    {
+      "id": "Vespa314/chan.py",
+      "url": "https://github.com/Vespa314/chan.py",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Vespa314/chan.py",
+      "metadata": {
+        "created_at": "2021-12-02T06:31:06Z",
+        "pushed_at": "2026-06-25T08:32:52Z",
+        "stars": 1968,
+        "disk_kib": 20307,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "bc2b35ff31307e2ecf5536fcc376376670d79cb3234fdd38e4af04a13988afca"
+    },
+    {
+      "id": "hetznercloud/cli",
+      "url": "https://github.com/hetznercloud/cli",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "hetznercloud/cli",
+      "metadata": {
+        "created_at": "2017-11-29T17:12:42Z",
+        "pushed_at": "2026-07-25T01:47:37Z",
+        "stars": 1757,
+        "disk_kib": 10512,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "bc55ca114a2b97df489e005db5450ae7671aab92d7a16c4a16052213de1e768f"
+    },
+    {
+      "id": "pyupio/safety",
+      "url": "https://github.com/pyupio/safety",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "pyupio/safety",
+      "metadata": {
+        "created_at": "2016-10-19T13:22:56Z",
+        "pushed_at": "2026-07-21T19:53:06Z",
+        "stars": 1994,
+        "disk_kib": 3717,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "bce1d90942dafc032dfbcdd71958ed14d9b60bb304cd5992d74c9bcd0d9da817"
+    },
+    {
+      "id": "sachaos/todoist",
+      "url": "https://github.com/sachaos/todoist",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "sachaos/todoist",
+      "metadata": {
+        "created_at": "2016-10-18T14:22:04Z",
+        "pushed_at": "2026-05-23T19:45:23Z",
+        "stars": 1731,
+        "disk_kib": 3853,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "bd291bc73b9d3f9e5b584b9cc1aa00ef8045746a377f9cae7477b38d7e8efd96"
+    },
+    {
+      "id": "readytotouch/readytotouch",
+      "url": "https://github.com/readytotouch/readytotouch",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "readytotouch/readytotouch",
+      "metadata": {
+        "created_at": "2023-07-27T20:15:04Z",
+        "pushed_at": "2026-07-18T00:18:32Z",
+        "stars": 1896,
+        "disk_kib": 23638,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "bd453f2160d940546e4d27c41629c5b614a808c76ebae952283f0c5ef09d1b8e"
+    },
+    {
+      "id": "jjjake/internetarchive",
+      "url": "https://github.com/jjjake/internetarchive",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "jjjake/internetarchive",
+      "metadata": {
+        "created_at": "2012-08-15T19:18:30Z",
+        "pushed_at": "2026-07-24T17:27:57Z",
+        "stars": 1887,
+        "disk_kib": 3067,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "bdf74d60979572125c9874835f4d237a06e95180ec16c8de5a7b320c36f8f6fd"
+    },
+    {
+      "id": "nomic-ai/nomic",
+      "url": "https://github.com/nomic-ai/nomic",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "nomic-ai/nomic",
+      "metadata": {
+        "created_at": "2022-07-21T19:57:43Z",
+        "pushed_at": "2025-11-11T05:18:31Z",
+        "stars": 1878,
+        "disk_kib": 25303,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "be913e30389f118f8f30600af467957ab690c4c0c6cbb920942e90ad18c745d6"
+    },
+    {
+      "id": "kapicorp/kapitan",
+      "url": "https://github.com/kapicorp/kapitan",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "kapicorp/kapitan",
+      "metadata": {
+        "created_at": "2017-10-09T16:11:42Z",
+        "pushed_at": "2026-07-24T20:07:08Z",
+        "stars": 1922,
+        "disk_kib": 37625,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "bef42f9284a3ff9e07ba11da92241ceedc8a3123d69cfef04807c52861f957fd"
+    },
+    {
+      "id": "alibaba/EasyCV",
+      "url": "https://github.com/alibaba/EasyCV",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "alibaba/EasyCV",
+      "metadata": {
+        "created_at": "2022-04-02T01:47:41Z",
+        "pushed_at": "2025-05-09T10:40:23Z",
+        "stars": 1947,
+        "disk_kib": 11023,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "bf3eb56d3cf80aa21715eadcd4f3b00ae82f1591bf4d8a6be217e3093b7c9df0"
+    },
+    {
+      "id": "murphysecurity/murphysec",
+      "url": "https://github.com/murphysecurity/murphysec",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "murphysecurity/murphysec",
+      "metadata": {
+        "created_at": "2022-03-16T02:52:33Z",
+        "pushed_at": "2026-04-07T09:07:34Z",
+        "stars": 1749,
+        "disk_kib": 5721,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "bfe4c4449cdbe6a27924413baa675038fcff0338a43259f635e13c15fd22db2e"
+    },
+    {
+      "id": "ebitengine/oto",
+      "url": "https://github.com/ebitengine/oto",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "ebitengine/oto",
+      "metadata": {
+        "created_at": "2017-05-04T12:16:30Z",
+        "pushed_at": "2026-06-14T10:47:43Z",
+        "stars": 1941,
+        "disk_kib": 647,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c0ef43ea7bda307efdc977b4b9daf9df33205f6278cdfb075f209cb6857a54e2"
+    },
+    {
+      "id": "nntaoli-project/goex",
+      "url": "https://github.com/nntaoli-project/goex",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "nntaoli-project/goex",
+      "metadata": {
+        "created_at": "2016-05-26T12:28:52Z",
+        "pushed_at": "2026-07-02T23:25:47Z",
+        "stars": 1992,
+        "disk_kib": 2181,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c115cd75f72682c3657884c2fa64c531bcd018ee59b1e8de493b9f513b0fb545"
+    },
+    {
+      "id": "OpenMotionLab/MotionGPT",
+      "url": "https://github.com/OpenMotionLab/MotionGPT",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "OpenMotionLab/MotionGPT",
+      "metadata": {
+        "created_at": "2023-06-20T06:04:24Z",
+        "pushed_at": "2025-07-01T18:22:15Z",
+        "stars": 1945,
+        "disk_kib": 8952,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c1e49fd250435dd3bf6ff6299a5ae85b085dea30fe6d84655bee14fbbbef05e8"
+    },
+    {
+      "id": "aquasecurity/trivy-operator",
+      "url": "https://github.com/aquasecurity/trivy-operator",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "aquasecurity/trivy-operator",
+      "metadata": {
+        "created_at": "2022-05-08T06:31:32Z",
+        "pushed_at": "2026-07-12T16:14:57Z",
+        "stars": 1904,
+        "disk_kib": 45009,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c3fd7cb206ffe489927923a129c1c78ad7ab43d9ff1f58d019899034891c37a1"
+    },
+    {
+      "id": "Qexo/Qexo",
+      "url": "https://github.com/Qexo/Qexo",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Qexo/Qexo",
+      "metadata": {
+        "created_at": "2021-11-08T11:12:08Z",
+        "pushed_at": "2026-07-14T06:48:07Z",
+        "stars": 1949,
+        "disk_kib": 11042,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c409330dda06d1317fc5df48e0450eac3e40b5036a4784d42748986c76028c09"
+    },
+    {
+      "id": "NVlabs/RADIO",
+      "url": "https://github.com/NVlabs/RADIO",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "NVlabs/RADIO",
+      "metadata": {
+        "created_at": "2023-12-08T19:53:01Z",
+        "pushed_at": "2026-05-29T07:44:42Z",
+        "stars": 1901,
+        "disk_kib": 25310,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c4c22699cb7d86827f6d0b8a9fb0308526522b75d8892fa7eff7bc34e38fd883"
+    },
+    {
+      "id": "gourouting/singo",
+      "url": "https://github.com/gourouting/singo",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "gourouting/singo",
+      "metadata": {
+        "created_at": "2018-12-05T08:04:59Z",
+        "pushed_at": "2026-05-31T13:21:11Z",
+        "stars": 1941,
+        "disk_kib": 1573,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c6f22eee0517963bee94cf33c87b4bead095702c54ce6223ceda98d51404377a"
+    },
+    {
+      "id": "Xpl0itU/WiiUDownloader",
+      "url": "https://github.com/Xpl0itU/WiiUDownloader",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Xpl0itU/WiiUDownloader",
+      "metadata": {
+        "created_at": "2022-11-03T18:55:39Z",
+        "pushed_at": "2026-07-24T19:03:25Z",
+        "stars": 1970,
+        "disk_kib": 3782,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c7168de6d5990ac7a27170d4395814384c19903b68e7c103142240a8fa39c6c1"
+    },
+    {
+      "id": "koordinator-sh/koordinator",
+      "url": "https://github.com/koordinator-sh/koordinator",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "koordinator-sh/koordinator",
+      "metadata": {
+        "created_at": "2022-03-16T07:14:48Z",
+        "pushed_at": "2026-07-24T06:52:45Z",
+        "stars": 1726,
+        "disk_kib": 36351,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c9598aebfe05d5ad256eb7b60c190fd92feb270d5fbcb567ad863aed7d616565"
+    },
+    {
+      "id": "mudler/LocalAGI",
+      "url": "https://github.com/mudler/LocalAGI",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mudler/LocalAGI",
+      "metadata": {
+        "created_at": "2023-07-27T23:21:36Z",
+        "pushed_at": "2026-06-18T14:48:37Z",
+        "stars": 1891,
+        "disk_kib": 7250,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "c96fe614119adf69fbfd8211bd8bb7af73ad0cb62e7d6a83aca7ec84c3013616"
+    },
+    {
+      "id": "O365/python-o365",
+      "url": "https://github.com/O365/python-o365",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "O365/python-o365",
+      "metadata": {
+        "created_at": "2015-02-18T10:50:04Z",
+        "pushed_at": "2026-03-10T13:15:31Z",
+        "stars": 1920,
+        "disk_kib": 14819,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "cb9d28f9d7d32a9da0ac1fc8ea9ae8bd2bf0954a6336667a4f1fedf891d88ab1"
+    },
+    {
+      "id": "KusionStack/karpor",
+      "url": "https://github.com/KusionStack/karpor",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "KusionStack/karpor",
+      "metadata": {
+        "created_at": "2023-04-03T09:59:20Z",
+        "pushed_at": "2026-07-12T04:44:57Z",
+        "stars": 1728,
+        "disk_kib": 7792,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "cbe03ca6f5377dc532f700cc5db53c6f97408c283df25b435b2903c24c8c0592"
+    },
+    {
+      "id": "mautrix/whatsapp",
+      "url": "https://github.com/mautrix/whatsapp",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mautrix/whatsapp",
+      "metadata": {
+        "created_at": "2018-08-12T19:26:15Z",
+        "pushed_at": "2026-07-23T15:58:26Z",
+        "stars": 1844,
+        "disk_kib": 8492,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "d19043dc8fe94649f0d4dad83304c10d12c4dd8c3a88c0be28ed7179f0dda01f"
+    },
+    {
+      "id": "cupcakearmy/autorestic",
+      "url": "https://github.com/cupcakearmy/autorestic",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "cupcakearmy/autorestic",
+      "metadata": {
+        "created_at": "2019-06-20T08:17:19Z",
+        "pushed_at": "2026-04-05T22:09:11Z",
+        "stars": 1848,
+        "disk_kib": 3350,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "d2c3cc89dc2bf209390534380171a4ff8dd1bada83bc4f15679998abcda95d62"
+    },
+    {
+      "id": "go-fuego/fuego",
+      "url": "https://github.com/go-fuego/fuego",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "go-fuego/fuego",
+      "metadata": {
+        "created_at": "2023-10-17T15:36:43Z",
+        "pushed_at": "2026-07-24T09:27:03Z",
+        "stars": 1758,
+        "disk_kib": 12606,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "d3408ba45d433df95392be27398e118484d6ae04cf9e81da1ebd3073d9aacc52"
+    },
+    {
+      "id": "karlicoss/promnesia",
+      "url": "https://github.com/karlicoss/promnesia",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "karlicoss/promnesia",
+      "metadata": {
+        "created_at": "2019-04-06T14:03:08Z",
+        "pushed_at": "2026-07-01T20:37:46Z",
+        "stars": 1886,
+        "disk_kib": 3246,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "d427eba3fa24e58986c3f0c4e07994c5011e3db539a51f600b55efe72c41f273"
+    },
+    {
+      "id": "regclient/regclient",
+      "url": "https://github.com/regclient/regclient",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "regclient/regclient",
+      "metadata": {
+        "created_at": "2020-09-09T17:22:35Z",
+        "pushed_at": "2026-07-19T19:28:36Z",
+        "stars": 1886,
+        "disk_kib": 6575,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "d4626fc574b13ef429722522becbd0356b58031cd6e5f3b52e0a81331dd780dc"
+    },
+    {
+      "id": "carapace-sh/carapace-bin",
+      "url": "https://github.com/carapace-sh/carapace-bin",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "carapace-sh/carapace-bin",
+      "metadata": {
+        "created_at": "2020-04-20T20:49:41Z",
+        "pushed_at": "2026-07-24T23:33:11Z",
+        "stars": 1900,
+        "disk_kib": 46852,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "d81812c53393b123cc8f87ed0dc08e8ec676808e7730feee651eeb4871ab6721"
+    },
+    {
+      "id": "mozillazg/go-pinyin",
+      "url": "https://github.com/mozillazg/go-pinyin",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mozillazg/go-pinyin",
+      "metadata": {
+        "created_at": "2014-11-09T14:04:33Z",
+        "pushed_at": "2026-03-08T13:36:18Z",
+        "stars": 1788,
+        "disk_kib": 2368,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "dba3bce5a95291684676321b93380f371ffb3e9601b924026817d6903a9beb8f"
+    },
+    {
+      "id": "mholt/caddy-l4",
+      "url": "https://github.com/mholt/caddy-l4",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "mholt/caddy-l4",
+      "metadata": {
+        "created_at": "2020-05-11T18:16:30Z",
+        "pushed_at": "2026-07-16T14:46:35Z",
+        "stars": 1727,
+        "disk_kib": 934,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "dc9c8b735e08beeadc990d7aa4347907f4d95692d8a235beb0fb7ad787649362"
+    },
+    {
+      "id": "nlpodyssey/spago",
+      "url": "https://github.com/nlpodyssey/spago",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "nlpodyssey/spago",
+      "metadata": {
+        "created_at": "2020-01-05T20:39:29Z",
+        "pushed_at": "2025-04-01T10:17:42Z",
+        "stars": 1850,
+        "disk_kib": 20438,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "dca2b04abdc3001c6843549a81a9c1502e20e999f96f6ad9444c879d5b2b4d83"
+    },
+    {
+      "id": "homeport/dyff",
+      "url": "https://github.com/homeport/dyff",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "homeport/dyff",
+      "metadata": {
+        "created_at": "2018-03-09T20:54:05Z",
+        "pushed_at": "2026-07-23T19:43:45Z",
+        "stars": 1863,
+        "disk_kib": 8184,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e197fc1c57d7fbf4880ee08c0e5d723a6cf3bb47a04a0beeeec46dbdba6b972a"
+    },
+    {
+      "id": "nix-community/NUR",
+      "url": "https://github.com/nix-community/NUR",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "nix-community/NUR",
+      "metadata": {
+        "created_at": "2018-02-28T18:49:50Z",
+        "pushed_at": "2026-07-25T16:04:18Z",
+        "stars": 1906,
+        "disk_kib": 25882,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e2b9c368ed55aaa3209f049ced12d86270f38358197a8ccc530d65b61ef0965d"
+    },
+    {
+      "id": "rodrigo-brito/gocity",
+      "url": "https://github.com/rodrigo-brito/gocity",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "rodrigo-brito/gocity",
+      "metadata": {
+        "created_at": "2018-09-02T12:17:56Z",
+        "pushed_at": "2025-12-05T02:31:22Z",
+        "stars": 1810,
+        "disk_kib": 10786,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e369a8a39f6439afeb332b2270c88f7e94e6db23c41d70448e2f56c6501deee2"
+    },
+    {
+      "id": "simple-salesforce/simple-salesforce",
+      "url": "https://github.com/simple-salesforce/simple-salesforce",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "simple-salesforce/simple-salesforce",
+      "metadata": {
+        "created_at": "2013-01-17T20:08:57Z",
+        "pushed_at": "2026-07-08T20:21:37Z",
+        "stars": 1885,
+        "disk_kib": 768,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e42ded1908b5e6621409fc58e402fe5feaafa8afcced41e09c58529fd71565ca"
+    },
+    {
+      "id": "tsale/EDR-Telemetry",
+      "url": "https://github.com/tsale/EDR-Telemetry",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "tsale/EDR-Telemetry",
+      "metadata": {
+        "created_at": "2023-04-01T20:02:33Z",
+        "pushed_at": "2026-07-07T17:30:35Z",
+        "stars": 1975,
+        "disk_kib": 2864,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e490c6141615b0367673f95a0cb314b002602886936e5cd6e382d42a3807be1a"
+    },
+    {
+      "id": "alandtse/alexa_media_player",
+      "url": "https://github.com/alandtse/alexa_media_player",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "alandtse/alexa_media_player",
+      "metadata": {
+        "created_at": "2018-07-04T03:33:57Z",
+        "pushed_at": "2026-07-23T06:54:54Z",
+        "stars": 1957,
+        "disk_kib": 4231,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e49a583410f892decafde215bdeababcbf930d3efb707f3b25bc0e94c4b3852a"
+    },
+    {
+      "id": "ArtisanCloud/PowerWeChat",
+      "url": "https://github.com/ArtisanCloud/PowerWeChat",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "ArtisanCloud/PowerWeChat",
+      "metadata": {
+        "created_at": "2021-05-24T15:24:09Z",
+        "pushed_at": "2026-04-19T03:36:23Z",
+        "stars": 1803,
+        "disk_kib": 12946,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e596fd8690a2b7ff87b4451a8246482b667f9ea24ddf5ab33e09fae757715fa3"
+    },
+    {
+      "id": "agittins/bermuda",
+      "url": "https://github.com/agittins/bermuda",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "agittins/bermuda",
+      "metadata": {
+        "created_at": "2023-08-08T12:15:09Z",
+        "pushed_at": "2026-07-24T06:33:03Z",
+        "stars": 1892,
+        "disk_kib": 2332,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e5ead9dbccfb4497a56b74c0da2aff60a9f3ff48e19db83895b6e78f02603728"
+    },
+    {
+      "id": "maragudk/gomponents",
+      "url": "https://github.com/maragudk/gomponents",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "maragudk/gomponents",
+      "metadata": {
+        "created_at": "2020-09-12T07:01:22Z",
+        "pushed_at": "2026-07-20T15:04:01Z",
+        "stars": 1861,
+        "disk_kib": 574,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e772a9e4fb186adf55fe24511150674b6e4858cdae545d8e61957a2c3aba7234"
+    },
+    {
+      "id": "yonahd/kor",
+      "url": "https://github.com/yonahd/kor",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "yonahd/kor",
+      "metadata": {
+        "created_at": "2023-07-05T19:13:12Z",
+        "pushed_at": "2026-07-10T07:15:38Z",
+        "stars": 1803,
+        "disk_kib": 1308,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "e84ef0b046989f293f695ca4f3738887e8a3d40f7fa3ee275f0639f56be23cfa"
+    },
+    {
+      "id": "ugorji/go",
+      "url": "https://github.com/ugorji/go",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "ugorji/go",
+      "metadata": {
+        "created_at": "2013-05-30T02:13:13Z",
+        "pushed_at": "2026-05-11T05:04:40Z",
+        "stars": 1956,
+        "disk_kib": 7884,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "eb8fe99348492c4dcd8e6e403ab90264fa9000cf4a39d976bc335d648efe717e"
+    },
+    {
+      "id": "candid82/joker",
+      "url": "https://github.com/candid82/joker",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "candid82/joker",
+      "metadata": {
+        "created_at": "2016-12-11T07:41:53Z",
+        "pushed_at": "2026-07-07T01:52:02Z",
+        "stars": 1765,
+        "disk_kib": 7681,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "eddb9263df196e1a78ed4701abf6387f89805ccae51175f15bce4d116862d115"
+    },
+    {
+      "id": "zer0yu/CyberSecurityRSS",
+      "url": "https://github.com/zer0yu/CyberSecurityRSS",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "zer0yu/CyberSecurityRSS",
+      "metadata": {
+        "created_at": "2017-12-05T11:11:40Z",
+        "pushed_at": "2026-03-26T09:07:23Z",
+        "stars": 1939,
+        "disk_kib": 987,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "edeff7f38cf3abfe543cabd10e4d45d0fe483da307864c0a44131d546f3e7eed"
+    },
+    {
+      "id": "EngoEngine/engo",
+      "url": "https://github.com/EngoEngine/engo",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "EngoEngine/engo",
+      "metadata": {
+        "created_at": "2014-11-12T05:50:03Z",
+        "pushed_at": "2026-03-30T16:31:33Z",
+        "stars": 1817,
+        "disk_kib": 11379,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "ef4457c3c53e2dc34348867f176aa6b97019ccd785b92e14838eeb8912b52dfc"
+    },
+    {
+      "id": "loxilb-io/loxilb",
+      "url": "https://github.com/loxilb-io/loxilb",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "loxilb-io/loxilb",
+      "metadata": {
+        "created_at": "2022-06-27T04:17:44Z",
+        "pushed_at": "2026-07-23T07:27:39Z",
+        "stars": 1865,
+        "disk_kib": 41033,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "efe6b9da6fb69db7a323b5d4c00793567d41ec8fc87819ac6b02885636f04b2b"
+    },
+    {
+      "id": "GoBelieveIO/im_service",
+      "url": "https://github.com/GoBelieveIO/im_service",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "GoBelieveIO/im_service",
+      "metadata": {
+        "created_at": "2015-04-19T07:39:36Z",
+        "pushed_at": "2026-04-26T13:12:24Z",
+        "stars": 1984,
+        "disk_kib": 1410,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "f2d7f213be91059623f08cea73adac523353d7390d150f7f7616f2091bd38b14"
+    },
+    {
+      "id": "go-goyave/goyave",
+      "url": "https://github.com/go-goyave/goyave",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "go-goyave/goyave",
+      "metadata": {
+        "created_at": "2019-10-21T09:44:34Z",
+        "pushed_at": "2026-06-03T11:57:21Z",
+        "stars": 1774,
+        "disk_kib": 10896,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "f2e2572ab7b2d43a815f1f94e5b3e1b6ff5f15045498d02387c6910f8d3e3396"
+    },
+    {
+      "id": "DerekSelander/LLDB",
+      "url": "https://github.com/DerekSelander/LLDB",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "DerekSelander/LLDB",
+      "metadata": {
+        "created_at": "2017-01-24T23:28:56Z",
+        "pushed_at": "2025-07-23T18:13:03Z",
+        "stars": 1879,
+        "disk_kib": 23400,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "f34704be7562c398cc889bfcf86e48c6d60c3817fb2f9a289e3b8b1a91b01513"
+    },
+    {
+      "id": "rbanffy/3270font",
+      "url": "https://github.com/rbanffy/3270font",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "rbanffy/3270font",
+      "metadata": {
+        "created_at": "2012-09-23T15:36:01Z",
+        "pushed_at": "2026-02-13T04:07:55Z",
+        "stars": 1979,
+        "disk_kib": 18309,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "f3a1baad3c7a24bf0e75005ac084a5ac85b0de6efcd72a523915bda7382c35e9"
+    },
+    {
+      "id": "arsaboo/homeassistant-config",
+      "url": "https://github.com/arsaboo/homeassistant-config",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "arsaboo/homeassistant-config",
+      "metadata": {
+        "created_at": "2016-10-05T15:40:46Z",
+        "pushed_at": "2026-05-03T18:33:37Z",
+        "stars": 1956,
+        "disk_kib": 18035,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "f4da35d96d671bb20cfdd50c83af97dfd540b81aac072def99a9872e7c6571bd"
+    },
+    {
+      "id": "stephenafamo/bob",
+      "url": "https://github.com/stephenafamo/bob",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "stephenafamo/bob",
+      "metadata": {
+        "created_at": "2022-04-20T23:10:57Z",
+        "pushed_at": "2026-07-20T16:32:01Z",
+        "stars": 1753,
+        "disk_kib": 3899,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "f5c1619931c1e1a37926768d0d49a538822c60bc7fbaa6b725f3add3801b7217"
+    },
+    {
+      "id": "hashicorp/go-getter",
+      "url": "https://github.com/hashicorp/go-getter",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "hashicorp/go-getter",
+      "metadata": {
+        "created_at": "2015-10-12T23:17:07Z",
+        "pushed_at": "2026-07-21T08:26:08Z",
+        "stars": 1823,
+        "disk_kib": 2902,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "fba74f3e1925bf1b49f62420ca398e0b686bf43142aa74f3812c319360763e19"
+    },
+    {
+      "id": "remotemobprogramming/mob",
+      "url": "https://github.com/remotemobprogramming/mob",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "remotemobprogramming/mob",
+      "metadata": {
+        "created_at": "2018-09-21T08:13:46Z",
+        "pushed_at": "2026-04-21T13:40:52Z",
+        "stars": 1782,
+        "disk_kib": 2157,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "fc3b3a5d340cce18c7994bf0a2baa0fca1b3add901c0b11309d4fe66e0c2434a"
+    },
+    {
+      "id": "glycerine/zygomys",
+      "url": "https://github.com/glycerine/zygomys",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "glycerine/zygomys",
+      "metadata": {
+        "created_at": "2016-01-10T03:38:56Z",
+        "pushed_at": "2026-06-30T14:11:06Z",
+        "stars": 1787,
+        "disk_kib": 7452,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "fc51a76f5dcd7475c98d1351a5e2decc1d674c375eaccddbfe9467cb5986f477"
+    },
+    {
+      "id": "apptainer/apptainer",
+      "url": "https://github.com/apptainer/apptainer",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "apptainer/apptainer",
+      "metadata": {
+        "created_at": "2021-11-30T13:45:16Z",
+        "pushed_at": "2026-07-24T14:15:40Z",
+        "stars": 1916,
+        "disk_kib": 43678,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "fd177ed5623470d9b4503e7dac2450ab4d95b4309ada5dac9b9bf1420ab586cb"
+    },
+    {
+      "id": "brightio/penelope",
+      "url": "https://github.com/brightio/penelope",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "brightio/penelope",
+      "metadata": {
+        "created_at": "2021-06-05T20:32:27Z",
+        "pushed_at": "2026-07-21T22:22:09Z",
+        "stars": 1935,
+        "disk_kib": 1672,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "fd3f5d8a4a7b10b04f099936cade9151d5a6c79a778b6a45b59f5f027ae33c66"
+    },
+    {
+      "id": "Azure/aztfexport",
+      "url": "https://github.com/Azure/aztfexport",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "Azure/aztfexport",
+      "metadata": {
+        "created_at": "2021-08-14T08:30:23Z",
+        "pushed_at": "2026-07-25T04:11:08Z",
+        "stars": 1904,
+        "disk_kib": 8432,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "fdc63688177a6b8b93c9434f43535a71fbb01a3e6fc4d4a3eaf2ff0d27b3f331"
+    },
+    {
+      "id": "noborus/ov",
+      "url": "https://github.com/noborus/ov",
+      "language": "Go",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "noborus/ov",
+      "metadata": {
+        "created_at": "2020-03-22T02:27:32Z",
+        "pushed_at": "2026-07-25T08:53:05Z",
+        "stars": 1987,
+        "disk_kib": 13514,
+        "has_issues": true,
+        "owner_type": "User",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "fdee8c9803e35d6aa231fcc8e8f0f2b44805ccef686f85cd23d58ad579601530"
+    },
+    {
+      "id": "photonixapp/photonix",
+      "url": "https://github.com/photonixapp/photonix",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "photonixapp/photonix",
+      "metadata": {
+        "created_at": "2017-03-07T22:30:32Z",
+        "pushed_at": "2026-07-21T11:06:10Z",
+        "stars": 1953,
+        "disk_kib": 5898,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "fdfb2d99bb2f69009db911499981ff5faa335d98ba115d7a8a0d557cbadafe8e"
+    },
+    {
+      "id": "cherrypy/cherrypy",
+      "url": "https://github.com/cherrypy/cherrypy",
+      "language": "Python",
+      "proposed_label": "human",
+      "source": "github_search",
+      "content_group": "cherrypy/cherrypy",
+      "metadata": {
+        "created_at": "2016-04-30T10:09:26Z",
+        "pushed_at": "2026-07-20T17:50:19Z",
+        "stars": 1945,
+        "disk_kib": 28665,
+        "has_issues": true,
+        "owner_type": "Organization",
+        "is_fork": false,
+        "is_archived": false
+      },
+      "solicitation_status": "unsolicited",
+      "selection_key": "ff03befdbfe84847a657e595f137df737bc99838dabfd1103ad84ddb7afec2f3"
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "feature_manifest_sha256": "2c0d006dbe1a86b60a31490927267d413a09e595f05c7529be4636e160f01977",
+  "headline_estimate": null,
+  "identification_gates": {
+    "go_agent_minimum_groups": false,
+    "go_human_minimum_groups": false,
+    "python_agent_minimum_groups": true,
+    "python_human_minimum_groups": false
+  },
+  "minimum_repository_groups_per_side": 5,
+  "protocol_sha256": "4ccefb87a8aa30f962c3569412116112180843a205ba4b5ad0ab30c2cc30facd",
+  "reason": "Insufficient substantial reference repository groups under locked gate.",
+  "reference_repositories": {
+    "AsahiLinux/m1n1": {
+      "hunks": 0,
+      "label": "human",
+      "languages": {},
+      "lines": 0,
+      "role": "reference",
+      "shard_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "snapshot_commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "substantial_languages": []
+    },
+    "borgmatic-collective/borgmatic": {
+      "hunks": 266,
+      "label": "human",
+      "languages": {
+        "Python": {
+          "hunks": 266,
+          "lines": 4771
+        }
+      },
+      "lines": 4771,
+      "role": "reference",
+      "shard_sha256": "3dc22c41cc71c9aeb5aa556963a578e8fbf54afbf2844e3c88fe15039bfd610c",
+      "snapshot_commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "gastownhall/beads": {
+      "hunks": 14836,
+      "label": "agent",
+      "languages": {
+        "Go": {
+          "hunks": 14836,
+          "lines": 448006
+        }
+      },
+      "lines": 448006,
+      "role": "dedicated_validation",
+      "shard_sha256": "30992a62a996df02d88fb1aa437b27d67df28fe1613b88ba6000293cf1821fdc",
+      "snapshot_commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "substantial_languages": [
+        "Go"
+      ]
+    },
+    "gastownhall/gascity": {
+      "hunks": 37147,
+      "label": "agent",
+      "languages": {
+        "Go": {
+          "hunks": 37147,
+          "lines": 1208925
+        }
+      },
+      "lines": 1208925,
+      "role": "reference",
+      "shard_sha256": "5d2f4d264908eb7608d20700d293ec89569609a5e59f93bebdefeba9b040cd46",
+      "snapshot_commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "substantial_languages": [
+        "Go"
+      ]
+    },
+    "poezio/poezio": {
+      "hunks": 138,
+      "label": "human",
+      "languages": {
+        "Python": {
+          "hunks": 138,
+          "lines": 1777
+        }
+      },
+      "lines": 1777,
+      "role": "reference",
+      "shard_sha256": "a7e42872fd1ac3f760430cbe2b5652a00f7483454769714aec576fed8e12a650",
+      "snapshot_commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "substantial_languages": []
+    },
+    "qemu-project/qemu": {
+      "hunks": 370,
+      "label": "human",
+      "languages": {
+        "Python": {
+          "hunks": 370,
+          "lines": 11017
+        }
+      },
+      "lines": 11017,
+      "role": "dedicated_validation",
+      "shard_sha256": "df98bcdc5ed1a51a3ef2f1b28f8c084e8f65f6708e4f0306e0e9c1b9dd524d5b",
+      "snapshot_commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/GEO_public": {
+      "hunks": 27,
+      "label": "agent",
+      "languages": {
+        "Python": {
+          "hunks": 27,
+          "lines": 7269
+        }
+      },
+      "lines": 7269,
+      "role": "reference",
+      "shard_sha256": "1b867e47533182f707fabb7d24361aed24ed257f36f212c7d1e289040e32e766",
+      "snapshot_commit": "5f0ba3b7b6b12888c6dabfa2fbb14604def437cf",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/agent-diagnostics": {
+      "hunks": 701,
+      "label": "agent",
+      "languages": {
+        "Python": {
+          "hunks": 701,
+          "lines": 28648
+        }
+      },
+      "lines": 28648,
+      "role": "reference",
+      "shard_sha256": "ba9ef1c9d28b9f450da5d9b76ee5f3baf6a3f214b0ffffb1927a56028a4c2201",
+      "snapshot_commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/codeprobe": {
+      "hunks": 3907,
+      "label": "agent",
+      "languages": {
+        "Python": {
+          "hunks": 3907,
+          "lines": 154145
+        }
+      },
+      "lines": 154145,
+      "role": "dedicated_validation",
+      "shard_sha256": "a7f87649f07052c64e700852bc78b299ab1b433a263ac419b9d828c24be4719b",
+      "snapshot_commit": "6052fec96850a06b18527a9bb8e41243bc1cbdb1",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/livedocs": {
+      "hunks": 1369,
+      "label": "agent",
+      "languages": {
+        "Go": {
+          "hunks": 1369,
+          "lines": 77664
+        }
+      },
+      "lines": 77664,
+      "role": "reference",
+      "shard_sha256": "ddaba9ef03a8b0ea49f58cc5821cb9228269c08b5bf4c7d5755d3820f5b467ee",
+      "snapshot_commit": "39bec8c08c7444eb06a4f9df55e4887b9c54e266",
+      "substantial_languages": [
+        "Go"
+      ]
+    },
+    "sjarmak/nls-finetune-scix": {
+      "hunks": 368,
+      "label": "agent",
+      "languages": {
+        "Python": {
+          "hunks": 368,
+          "lines": 51392
+        }
+      },
+      "lines": 51392,
+      "role": "reference",
+      "shard_sha256": "a8d50939f755a5bbf608e67bffa3341c8aa1cafc99d62e6073a930c82e51a7f0",
+      "snapshot_commit": "a615c44f9d93b4f9f5fe79f8009269a3d3fb5930",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/scix-agent": {
+      "hunks": 4508,
+      "label": "agent",
+      "languages": {
+        "Python": {
+          "hunks": 4508,
+          "lines": 217793
+        }
+      },
+      "lines": 217793,
+      "role": "reference",
+      "shard_sha256": "423f55570b7559f95d5433df64e1f6e3e4197905bc2499c6f577805cc527d760",
+      "snapshot_commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/sg_benchmark": {
+      "hunks": 208,
+      "label": "agent",
+      "languages": {
+        "Python": {
+          "hunks": 208,
+          "lines": 15789
+        }
+      },
+      "lines": 15789,
+      "role": "reference",
+      "shard_sha256": "17a0467563418b42728a4219273bf4666202ea9d61ec689b873ebf83591aaa1e",
+      "snapshot_commit": "75aaeb23930e144a0471b2a00d57e0f210ce31a1",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "superseriousbusiness/gotosocial": {
+      "hunks": 6694,
+      "label": "human",
+      "languages": {
+        "Go": {
+          "hunks": 6694,
+          "lines": 138892
+        }
+      },
+      "lines": 138892,
+      "role": "reference",
+      "shard_sha256": "5b2f01213ab62c161b1fed2f090a676d2564ebf08e12f57744fbbb2d91d64c65",
+      "snapshot_commit": "3722d124433d2087a97f68689fea934610703783",
+      "substantial_languages": [
+        "Go"
+      ]
+    },
+    "twpayne/chezmoi": {
+      "hunks": 139,
+      "label": "human",
+      "languages": {
+        "Go": {
+          "hunks": 139,
+          "lines": 2831
+        }
+      },
+      "lines": 2831,
+      "role": "reference",
+      "shard_sha256": "5e574deaaab91b84054d542c765379b0ba33b6186032b948586eae4c24236d61",
+      "snapshot_commit": "c7f235ea5217f1fa201cf70f48eec021058538dd",
+      "substantial_languages": [
+        "Go"
+      ]
+    }
+  },
+  "reference_repository_count": 15,
+  "reference_substantial_groups": {
+    "Go": {
+      "agent": 3,
+      "human": 2
+    },
+    "Python": {
+      "agent": 6,
+      "human": 2
+    }
+  },
+  "result_version": 1,
+  "status": "not_identified",
+  "substantial_line_threshold": 2000,
+  "target_repository_count": 150,
+  "target_shard_checksums": {
+    "2dust/v2rayN": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "3b1b/manim": "42f3a377f0e5f4499e86ae6149f93521ce0c3e51f4e91979ac68fc43f68d6878",
+    "AppFlowy-IO/AppFlowy": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ChatGPTNextWeb/NextChat": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "Comfy-Org/ComfyUI": "a741a84c20d501daf25547e998ae03e6a4ba4e2d9819910fc3500dd5a30b6200",
+    "Egonex-AI/Understand-Anything": "bf99ced6328fc8e53b5459fd0bf4ef6beda81e80ce31f254c1eff64e9688a3ef",
+    "Eugeny/tabby": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "FoundationAgents/MetaGPT": "127f086c0096901a9f82cba5b66c655879f63f18dee0e937456cdd23843a1c92",
+    "Genymobile/scrcpy": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "Graphify-Labs/graphify": "7184acbde7ee05081320a8034db7c8ba37247cc861e6fae4e5c317117878a28a",
+    "NationalSecurityAgency/ghidra": "1e5dfd8ac38093bdc39de69b4fdb48fc47af5cace57e4b65262bf0f84fe05c50",
+    "NousResearch/hermes-agent": "d6ef944b1341acfb96d995a90f97f929e068e9acb13e72fe76f38b2066086176",
+    "OpenHands/OpenHands": "7234aa630e8e13c689affebb9597b97099b6ad7ab042638ab86bfd2a93035d7e",
+    "PaddlePaddle/PaddleOCR": "0c166e5da6de5f9ba4beb8867b139ed0895db9ce3636c9f4fd3081f9931fed2d",
+    "Significant-Gravitas/AutoGPT": "65a1fffa33502ad9c3f8a9b7a571104f46cb02f00ac04334b1bffd40ff126664",
+    "Stirling-Tools/Stirling-PDF": "dc1371e78340d4029c2fc7dc7bdd615ff8fe803111912ddb89209a09862e7bcf",
+    "Z4nzu/hackingtool": "325102c69ab353fe1a5d3e9b61d33a68d5023ffbee1c658272c3f7c0ec12692e",
+    "addyosmani/agent-skills": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "affaan-m/ECC": "1bcafcce21dec97d9ba3052d1a88892b48811925f4bc470f707d49d9ca92ffa4",
+    "angular/angular": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "anomalyco/opencode": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ansible/ansible": "65c8903dbe30253a593b70576db7bb83f50331aa9e12f504ef49ba7dcda1e5fd",
+    "ant-design/ant-design": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "anthropics/claude-code": "f7c919bfa0b24008a5515d94aee48cc311ae313b2f4335a5d1bec2a85acfe4b1",
+    "anuraghazra/github-readme-stats": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "apache/superset": "da9131cea25d5f4969f42b3560edeaa427401c69a11f243fbd318d15d1e2928a",
+    "astral-sh/uv": "799277c432419d2f514c9246e3dfa508db26308bd70f8dfa0d1676d62d95f225",
+    "axios/axios": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "binary-husky/gpt_academic": "c89a4e984525d7b050585238df471d9f3db1388b45b060d75e8158f541292203",
+    "bitcoin/bitcoin": "1c76569b9e8a86769a7428e4bae12bd6f38012678373e675b926407ffc4e1394",
+    "browser-use/browser-use": "091b0f176a90a67d61e7cba4d3dd4f8afe44aff5d611393e6f4e3b69cf50e2e4",
+    "bytedance/deer-flow": "9fa3487cada18a22ddae28b07dd22c3fad0eafdbd2e6730d98f177e1f05c7445",
+    "caddyserver/caddy": "da85b6fd74a8250b18c622ba91556409cbcc05395e597b058c5b7e8b8fe2e11a",
+    "clash-verge-rev/clash-verge-rev": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "coder/code-server": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "d3/d3": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "danielmiessler/SecLists": "1a3bdd88271f624e75777fb6db2cbb6d5647b73047d7d12d236d87f9f674c177",
+    "denoland/deno": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "django/django": "5afa339f837ea8bf142a69d8b4df2eb1f787e74ea2dd89b946daccc6fdf51502",
+    "doocs/advanced-java": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "earendil-works/pi": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "elastic/elasticsearch": "89d7bdf21bdd92adc17d325b8299e50d032d3f8861f319418904c08e50d7884e",
+    "electron/electron": "fcd6e49a15afa7f1600eef1c978f2b640ffda0a5e3bcae014b8cb6b987b50190",
+    "excalidraw/excalidraw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "farion1231/cc-switch": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fastapi/fastapi": "c4bda4ca995ef22b81a56d1d65f6bc476728c60c3968e9ae9b74d246965aabf0",
+    "fatedier/frp": "533cf21e018f8c4afb6192ff8d9564ca180364c8778acc75132de018b7cfbb6e",
+    "firecrawl/firecrawl": "6be983fad8e123b0ba7da7923134c0fdb4f974d2d1ce042546173032da0a00ee",
+    "flutter/flutter": "23dddfee0a7171ac8337fc63f47e09afadaec9da30be2349bd124749d4bc1e01",
+    "ggml-org/llama.cpp": "ac6b8cfdbf1c49c2abc9db72db479b9c220b0bc11cf3e55101c138599cb282ce",
+    "gin-gonic/gin": "51a4521414e184029545ae6fdeb9ce54ea364c7926952573e1405a3f7866e352",
+    "github/spec-kit": "8ee1f7d87b16952d565a381ee5b29a2d092e183d9ac6083afd2618364ad3862f",
+    "godotengine/godot": "51787374fe60f6a8b76f9122bb9fbdde4cc26673d33f720a9d0ed1552d0ca06b",
+    "gohugoio/hugo": "93553fba407f7d3c1f7a7d71dc0a216dbc7b7e568c51c49ed630828bc7adbe73",
+    "golang/go": "cd03ef5a3307b191e4b15123f8d01ec8c88fdd78bc3ffde3a43b9cdf13827b6b",
+    "google-gemini/gemini-cli": "ed6073e12b4ff23c985d56ad2d1a002512753abd6aab1e8c5afd801fcef1c762",
+    "grafana/grafana": "2ca61b44ded10233a094322ae391d1565cdbae873cf6596febf5a69bca3fec2d",
+    "hacksider/Deep-Live-Cam": "505277f7e769841a259ebaad218c5f12ebcba6232b6c167114565fe931eefc59",
+    "hakimel/reveal.js": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "harry0703/MoneyPrinterTurbo": "1e652b510cbbb43ac01638c3581a7f2fee6363caddb166d920d15067f66994bd",
+    "hiyouga/LlamaFactory": "19a2713a08c49c37298eb669fab3be4eab2a18c577678eea6471cf6b122fe738",
+    "home-assistant/core": "3cc2ef553d0a2c668ffb33eae5e502fffcb8e92e9faa2d7b2cb237c3661210f8",
+    "hoppscotch/hoppscotch": "ac81c460acc6043445cf22668096d9c14696c708b586d8eef0c944c42061a50f",
+    "immich-app/immich": "211f6183966489a07e39fd16436189633bffe248b99682b3b8f7c330b099dfe5",
+    "infiniflow/ragflow": "025a80161b2504fa5b5d81fa2c69171ad3f5abbf1c08341534811d04388a1505",
+    "iptv-org/iptv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "jesseduffield/lazygit": "54a14ea61305da670272b3781556407d0ed938c04ef1a44d4888551e9bcbe0e6",
+    "juliangarnier/anime": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "junegunn/fzf": "5bdd537bbc4d14beb4194fba4a269baa46e19b8692df425c5f4cef056c0446f7",
+    "kubernetes/kubernetes": "05b731fe07634523d492c410a0af91634fee040af181d0998e08a46c5faa8641",
+    "langchain-ai/langchain": "6e11e2c45b9fb7135b8da9f1d9518ecc99d5a9764f4bade0a659cc67c276289a",
+    "langflow-ai/langflow": "bf2c34fb5de5f40d51593c274f16f42381d46d91324849739dfd96fdc1a2ee5a",
+    "langgenius/dify": "a3cb60ed790048d3c30e9c02760b44dcacfcd6819d49cb641e30cebdbf6dee6b",
+    "laravel/laravel": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lobehub/lobehub": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "localsend/localsend": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "louislam/uptime-kuma": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mermaid-js/mermaid": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "microsoft/PowerToys": "2aebc208298437da684fed0af6ca11a03ee41d14af0aa4525bb3f7a7a124b403",
+    "microsoft/TypeScript": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "microsoft/markitdown": "a2e2973c08fc63dfcd8b0713b450b67d71a859e66f43c01548219a6953324401",
+    "microsoft/playwright": "961cf261398ba492ffd1d76485a2588a13fd3997c5d8dddb4ca158bb6e42a735",
+    "microsoft/terminal": "06c73aec28803d828c7f072bd0269a05fa7bae3d3ccb69dd2248f1b52734862c",
+    "microsoft/vscode": "8f93a2270f9bc0ef93fa7c923857bff48ebd03fea355e7bbf5461f4365fb63a3",
+    "moby/moby": "566f77e8bf80179605645f3cc7070d009444f29a06c10096fd3c53dd9381f602",
+    "modelcontextprotocol/servers": "3f78b2f8218497a96a8ba67dfa0583bacee0df0485f0fb042b5ff880c401c09e",
+    "mrdoob/three.js": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "msitarzewski/agency-agents": "6c0c9f0f11973128d151c438c77488c9405fac73d94650db333c9ac6a7a0376a",
+    "mui/material-ui": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "n8n-io/n8n": "a3e85e50d221a1353db11693f626e512fdb08e75185bc3eee08616c4c4924b49",
+    "nektos/act": "acbb1ed1a0d7a05ab77b4ae8f9da5444f8715c9216515c5f32bbc2531bbb923b",
+    "neovim/neovim": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "nestjs/nest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "nextlevelbuilder/ui-ux-pro-max-skill": "9e00f521f59ef4d600c131856cc7bcc7054b72efc4487dd613bd6d78004b872a",
+    "nexu-io/open-design": "148d687bd570d702eca77c5e614b8ea585ea5900bf2246130715aea9ba2f1cb2",
+    "nodejs/node": "7e1bf26b6c2f0e68d05136a69f5ff72fed5153717e04d0d57dff7ac9436f6759",
+    "nvm-sh/nvm": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "obra/superpowers": "ea5004331461db9496eab765452aab8b3ac76fd5155c5e4b3a92072414fc64af",
+    "obsproject/obs-studio": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ocornut/imgui": "027a21eeb3cafd0f8fee19864ac64d8aa50edda44a03ba3060490d8c3f06c2c2",
+    "ohmyzsh/ohmyzsh": "7a12a8958c6789b2a8de6c7bcf43179bc0f359f07ad9a1ec5ce58b17b2213875",
+    "ollama/ollama": "08060ac27cc0d7be3f79d425b05e278096499acf62ca66987a2a21cd713bf509",
+    "open-webui/open-webui": "6f7db1427291a22dc1ddce8cb71a6a8ed0b3dad47fa6fbafe652238d953ceeed",
+    "openai/codex": "b91a873e385f92a76b6d3ab1f404fbabb947090476505aa8a733589b8b6648ed",
+    "openai/openai-cookbook": "cfb3acf051248b4b647ef3e17fb7b44b7b64b7e003941b347efe36b1035cf2e7",
+    "openai/whisper": "84d40e29ff07b610ccb8836320660d46086debe8a0e7bc99b4e9fda9e70d301d",
+    "openclaw/openclaw": "4e6bf0bd656df3e4468de65af77d7fb0090fddf62a18e3f39f50620f0862b134",
+    "opendatalab/MinerU": "27bde45c1c889200195d35db7669dfad9326cc7df6001c38c1db29c220e8c8d4",
+    "oven-sh/bun": "e4bb705ff8c30f99c54be1c1909a8bbf4589c83aa6df8dea085c0b0866e1b2fe",
+    "pallets/flask": "cdf1938007e6b25cd704e51a0f98ace1062f8ec5a5a2a2c19ed23c4c5579cbc5",
+    "paperclipai/paperclip": "1f138aaf83b84692e15483d87c3cd220d0faac594a6d028bfac31d087ae2e948",
+    "pewdiepie-archdaemon/odysseus": "0a576c708c34e51a75f7c0dfa937c9efc017bb056fda286126ac2a4d8b10e6fc",
+    "protocolbuffers/protobuf": "dec092d68a589015086e04d3450d5b048ac640fd075fb30176a4bcac0ab5713b",
+    "public-apis/public-apis": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "puppeteer/puppeteer": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "python/cpython": "0d8e2c7d2bbecf24ad725e07348760e7499d9cade5a5249d3bbd01706c02f2cd",
+    "react/react": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "react/react-native": "e7080a981acf66e450ed8b1caa2fa3fdff98681ec11af5ec31fe2923e635ab20",
+    "realworld-apps/realworld": "b73a7412ce8c2d6b01aab2b44c03819bce87523e8394bfaf598583d30c823945",
+    "redis/redis": "c8cf57c39f55be1c5d81eae13b67222d3315c379a8296c4e1e3f94e3cb1d337f",
+    "rtk-ai/rtk": "0610f92b0f0bf72f12782280fc42a607211aaad078d4ab7e564f6a8862f04642",
+    "rust-lang/rust": "2e4511471cd5fc9eb2ffc560bcc23a836dee035319f02ad960afa62009f2b755",
+    "rustdesk/rustdesk": "a2ad6aa72b8421ab155cea4958de88e8614c0792bb2470af51a9f4f2600e823f",
+    "shadcn-ui/ui": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sherlock-project/sherlock": "6dc3f74f27efeb72348b467a3e52765380be904b62c07627142af9ca891d917c",
+    "spring-projects/spring-boot": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "storybookjs/storybook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "strapi/strapi": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "supabase/supabase": "106bd3e806c2f3c5ff72cf6df13f4e225a18f16807f533cec38f85509ee82ab9",
+    "sveltejs/svelte": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "swiftlang/swift": "89cd4ad7efb739c71965aae619cf00f5e6811cb67aa000e8c044b070efb9c9d0",
+    "syncthing/syncthing": "edfe7a75df8200a42b1ca494f1793ba26314a1ef98413a8bb4092b48c5799411",
+    "tailwindlabs/tailwindcss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tauri-apps/tauri": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tensorflow/models": "7f69f3f56c64eea25a18936d5e6ba8bd744302d6f0d2a46614dd5454b5ca75ce",
+    "thedaviddias/Front-End-Checklist": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "thedotmack/claude-mem": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "toeverything/AFFiNE": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tonsky/FiraCode": "7dff2d6c8de5ed4f47d1ec9c227aca544bbcec50be62e05cb8e06f943daf85bf",
+    "twbs/bootstrap": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "typicode/json-server": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "unclecode/crawl4ai": "3625761e4322522a1669a88531b8c8eb4630c583c2e177738edb5ac67c393392",
+    "unionlabs/union": "9482f39fa5d0ecae185df7a87bb3927b3cfac6af183a8144dbd03b9556060777",
+    "ventoy/Ventoy": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vercel/next.js": "ccae710060994b0fd418aa9f40265f73ddb4a2a56d470213e7d484696a5f83b4",
+    "vitejs/vite": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vllm-project/vllm": "1f5ecc844eb0d34fc16b5f3b20bf0911bd6b4dbf70c6978c3f08351ccac7bdbe",
+    "yt-dlp/yt-dlp": "b7fd0020b5d061ffa06b8796d1b745489697156728df4bd7e01d543304412c33",
+    "ytdl-org/youtube-dl": "fa619cdd56bedc6efc8c8db30438e466c7c7ec21d3a9a7bcbf2b2f338d1260c0",
+    "zed-industries/zed": "a82b4a588048154cfb17bba560624dfc2e5e5554cad3adb560d954be2d06e748"
+  },
+  "target_totals": {
+    "Go": {
+      "hunks": 128188,
+      "lines": 3291011,
+      "repositories": 22
+    },
+    "Python": {
+      "hunks": 337949,
+      "lines": 8738920,
+      "repositories": 86
+    }
+  }
+}

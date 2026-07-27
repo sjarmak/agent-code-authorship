@@ -1,0 +1,230 @@
+{
+  "$schema": "repositories.schema.json",
+  "manifest_version": 1,
+  "protocol_sha256": "4ccefb87a8aa30f962c3569412116112180843a205ba4b5ad0ab30c2cc30facd",
+  "cutoff": "2026-07-24T23:59:59Z",
+  "selection": {
+    "outcome_blind": true,
+    "agent_frame": "User-attested projects, ranked only by eligible line volume in the frozen baseline; Gas City and Beads added by explicit attestation.",
+    "human_frame": "Every Python or Go candidate in the pre-model public no-AI policy inventory with repository-local evidence effective by the cutoff.",
+    "minimum_groups_per_side": 5,
+    "substantial_line_threshold": 2000,
+    "line_eligibility_status": "pending_pinned_gather",
+    "model_outputs_consulted": false
+  },
+  "repositories": [
+    {
+      "id": "sjarmak/nls-finetune-scix",
+      "url": "https://github.com/sjarmak/nls-finetune-scix",
+      "role": "reference",
+      "label": "agent",
+      "languages": ["Python"],
+      "snapshot": {"commit": "a615c44f9d93b4f9f5fe79f8009269a3d3fb5930", "committed_at": "2026-06-17T19:16:20Z", "tree": "58d73d2c50ed4723ee179a7138ed6520015147b1"},
+      "evidence": {"tier": 1, "kind": "maintainer_attestation", "attestor": "sjarmak", "recorded_at": "2026-07-24", "scope": "entire_repository_history", "statement": "The maintainer attests that this owned repository was agent-generated."},
+      "effective_date_range": [null, "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:58d73d2c50ed4723ee179a7138ed6520015147b1"
+    },
+    {
+      "id": "sjarmak/scix-agent",
+      "url": "https://github.com/sjarmak/scix-agent",
+      "role": "reference",
+      "label": "agent",
+      "languages": ["Python"],
+      "snapshot": {"commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a", "committed_at": "2026-07-11T02:49:31Z", "tree": "e55928ea587bbca1929431f3e3cd9a35104731da"},
+      "evidence": {"tier": 1, "kind": "maintainer_attestation", "attestor": "sjarmak", "recorded_at": "2026-07-24", "scope": "entire_repository_history", "statement": "The maintainer attests that this owned repository was agent-generated."},
+      "effective_date_range": [null, "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:e55928ea587bbca1929431f3e3cd9a35104731da"
+    },
+    {
+      "id": "sjarmak/agent-diagnostics",
+      "url": "https://github.com/sjarmak/agent-diagnostics",
+      "role": "reference",
+      "label": "agent",
+      "languages": ["Python"],
+      "snapshot": {"commit": "e973e4ec1d4a325b5d739562ce87586127c973ed", "committed_at": "2026-06-17T19:16:15Z", "tree": "66df02bf66d79146775aec592c2ee73176bc8c3b"},
+      "evidence": {"tier": 1, "kind": "maintainer_attestation", "attestor": "sjarmak", "recorded_at": "2026-07-24", "scope": "entire_repository_history", "statement": "The maintainer attests that this owned repository was agent-generated."},
+      "effective_date_range": [null, "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:66df02bf66d79146775aec592c2ee73176bc8c3b"
+    },
+    {
+      "id": "sjarmak/codeprobe",
+      "url": "https://github.com/sjarmak/codeprobe",
+      "role": "dedicated_validation",
+      "label": "agent",
+      "languages": ["Python"],
+      "snapshot": {"commit": "6052fec96850a06b18527a9bb8e41243bc1cbdb1", "committed_at": "2026-07-23T20:32:20Z", "tree": "baf3a7c8b029e4222e2c4c47027a35710a94489d"},
+      "evidence": {"tier": 1, "kind": "maintainer_attestation", "attestor": "sjarmak", "recorded_at": "2026-07-24", "scope": "entire_repository_history", "statement": "The maintainer attests that this owned repository was agent-generated."},
+      "effective_date_range": [null, "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:baf3a7c8b029e4222e2c4c47027a35710a94489d"
+    },
+    {
+      "id": "sjarmak/sg_benchmark",
+      "url": "https://github.com/sjarmak/sg_benchmark",
+      "role": "reference",
+      "label": "agent",
+      "languages": ["Python"],
+      "snapshot": {"commit": "75aaeb23930e144a0471b2a00d57e0f210ce31a1", "committed_at": "2025-12-17T18:52:15Z", "tree": "b026df11ce26796f0515c5f2634c158dfa76ac4e"},
+      "evidence": {"tier": 1, "kind": "maintainer_attestation", "attestor": "sjarmak", "recorded_at": "2026-07-24", "scope": "entire_repository_history", "statement": "The maintainer attests that this owned repository was agent-generated."},
+      "effective_date_range": [null, "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:b026df11ce26796f0515c5f2634c158dfa76ac4e"
+    },
+    {
+      "id": "sjarmak/GEO_public",
+      "url": "https://github.com/sjarmak/GEO_public",
+      "role": "reference",
+      "label": "agent",
+      "languages": ["Python"],
+      "snapshot": {"commit": "5f0ba3b7b6b12888c6dabfa2fbb14604def437cf", "committed_at": "2026-07-02T17:22:03Z", "tree": "6e1814a3561cd5f7c676489eebb6a8947cc85a58"},
+      "evidence": {"tier": 1, "kind": "maintainer_attestation", "attestor": "sjarmak", "recorded_at": "2026-07-24", "scope": "entire_repository_history", "statement": "The maintainer attests that this owned repository was agent-generated."},
+      "effective_date_range": [null, "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:6e1814a3561cd5f7c676489eebb6a8947cc85a58"
+    },
+    {
+      "id": "sjarmak/livedocs",
+      "url": "https://github.com/sjarmak/livedocs",
+      "role": "reference",
+      "label": "agent",
+      "languages": ["Go"],
+      "snapshot": {"commit": "39bec8c08c7444eb06a4f9df55e4887b9c54e266", "committed_at": "2026-06-17T19:16:13Z", "tree": "6ed73f5a7ca4839e672d117f311fc03d6d0cea52"},
+      "evidence": {"tier": 1, "kind": "maintainer_attestation", "attestor": "sjarmak", "recorded_at": "2026-07-24", "scope": "entire_repository_history", "statement": "The maintainer attests that this owned repository was agent-generated."},
+      "effective_date_range": [null, "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:6ed73f5a7ca4839e672d117f311fc03d6d0cea52"
+    },
+    {
+      "id": "gastownhall/gascity",
+      "url": "https://github.com/gastownhall/gascity",
+      "role": "reference",
+      "label": "agent",
+      "languages": ["Go"],
+      "snapshot": {"commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4", "committed_at": "2026-07-24T22:36:12Z", "tree": "5179bfeb0cd424b4a6381c18bfad45b8758ec7d7"},
+      "evidence": {"tier": 1, "kind": "maintainer_attestation", "attestor": "sjarmak", "recorded_at": "2026-07-24", "scope": "entire_repository_history", "statement": "The maintainer attests from direct knowledge that the entire Gas City history is agent-generated."},
+      "effective_date_range": [null, "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:5179bfeb0cd424b4a6381c18bfad45b8758ec7d7"
+    },
+    {
+      "id": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "role": "dedicated_validation",
+      "label": "agent",
+      "languages": ["Go"],
+      "snapshot": {"commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c", "committed_at": "2026-07-24T23:40:20Z", "tree": "3443411928c32e3aee4001026708c95f2eef0b04"},
+      "evidence": {"tier": 1, "kind": "maintainer_attestation", "attestor": "sjarmak", "recorded_at": "2026-07-24", "scope": "entire_repository_history", "statement": "The maintainer attests from direct knowledge that the entire Beads history is agent-generated."},
+      "effective_date_range": [null, "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:3443411928c32e3aee4001026708c95f2eef0b04"
+    },
+    {
+      "id": "borgmatic-collective/borgmatic",
+      "url": "https://projects.torsion.org/borgmatic-collective/borgmatic",
+      "role": "reference",
+      "label": "human",
+      "languages": ["Python"],
+      "snapshot": {"commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b", "committed_at": "2026-07-21T06:04:51Z", "tree": "40a0559857d8ab65d817b63e637bcbcea0dd6642"},
+      "evidence": {"tier": 1, "kind": "repository_policy", "repository_local": true, "path": "AGENTS.md", "quote": "Please do not use AI agents to modify this codebase.", "introduced_commit": "67eb48e6433beaab5b7472ceb190219d5b724149", "effective_from": "2026-02-19T19:11:57Z"},
+      "effective_date_range": ["2026-02-19T19:11:57Z", "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:40a0559857d8ab65d817b63e637bcbcea0dd6642"
+    },
+    {
+      "id": "poezio/poezio",
+      "url": "https://codeberg.org/poezio/poezio",
+      "role": "reference",
+      "label": "human",
+      "languages": ["Python"],
+      "snapshot": {"commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5", "committed_at": "2026-07-05T13:23:51Z", "tree": "216c0e8b8d91d983e21db24e6b40f4002eec8666"},
+      "evidence": {"tier": 1, "kind": "repository_policy", "repository_local": true, "path": "README.rst", "quote": "This project does not allow contributions generated by large languages models (LLMs) and chatbots.", "introduced_commit": "c41effcbc6e91ad800be15bd83f1f9ea58cff275", "effective_from": "2026-03-22T18:38:08Z"},
+      "effective_date_range": ["2026-03-22T18:38:08Z", "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:216c0e8b8d91d983e21db24e6b40f4002eec8666"
+    },
+    {
+      "id": "AsahiLinux/m1n1",
+      "url": "https://github.com/AsahiLinux/m1n1",
+      "role": "reference",
+      "label": "human",
+      "languages": ["Python"],
+      "snapshot": {"commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce", "committed_at": "2026-07-23T15:41:05Z", "tree": "516a8a4a8a5c7b53013fbb4fba816eaf3bb22a68"},
+      "evidence": {"tier": 1, "kind": "repository_policy", "repository_local": true, "path": "AGENTS.md", "quote": "The maintainers of this project forbid any usage of AI or LLM tools whatsoever due to legal reasons.", "introduced_commit": "c9a03479bc2b0d1d97f77f61f6a0f8b277789cc3", "effective_from": "2026-07-21T18:22:44Z"},
+      "effective_date_range": ["2026-07-21T18:22:44Z", "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:516a8a4a8a5c7b53013fbb4fba816eaf3bb22a68"
+    },
+    {
+      "id": "qemu-project/qemu",
+      "url": "https://gitlab.com/qemu-project/qemu",
+      "role": "dedicated_validation",
+      "label": "human",
+      "languages": ["Python"],
+      "snapshot": {"commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587", "committed_at": "2026-07-24T13:13:49Z", "tree": "7def022deb1d8abeadc92b3673943f7f348b5692"},
+      "evidence": {"tier": 1, "kind": "repository_policy", "repository_local": true, "path": "docs/devel/code-provenance.rst", "quote": "Current QEMU project policy is to DECLINE any contributions which are believed to include or derive from AI generated content.", "introduced_commit": "3d40db0efc22520fa6c399cf73960dced423b048", "effective_from": "2025-06-24T14:37:56Z"},
+      "effective_date_range": ["2025-06-24T14:37:56Z", "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:7def022deb1d8abeadc92b3673943f7f348b5692"
+    },
+    {
+      "id": "twpayne/chezmoi",
+      "url": "https://github.com/twpayne/chezmoi",
+      "role": "reference",
+      "label": "human",
+      "languages": ["Go"],
+      "snapshot": {"commit": "c7f235ea5217f1fa201cf70f48eec021058538dd", "committed_at": "2026-07-23T09:43:26Z", "tree": "bc440e415b4983b3d3e04f6a84bef68c662ecde1"},
+      "evidence": {"tier": 1, "kind": "repository_policy", "repository_local": true, "path": ".github/CONTRIBUTING.md", "quote": "If you use an LLM to make any kind of contribution then you will immediately be banned without recourse.", "introduced_commit": "7938c65ca55aaeaf6fc56d37b0b32073d2e5c461", "effective_from": "2025-10-19T22:52:56Z"},
+      "effective_date_range": ["2025-10-19T22:52:56Z", "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:bc440e415b4983b3d3e04f6a84bef68c662ecde1"
+    },
+    {
+      "id": "superseriousbusiness/gotosocial",
+      "url": "https://codeberg.org/superseriousbusiness/gotosocial",
+      "role": "reference",
+      "label": "human",
+      "languages": ["Go"],
+      "snapshot": {"commit": "3722d124433d2087a97f68689fea934610703783", "committed_at": "2026-07-24T17:25:03Z", "tree": "fda1d8baf795c5106ebae1bc9216f56576119b1a"},
+      "evidence": {"tier": 1, "kind": "repository_policy", "repository_local": true, "path": "CODE_OF_CONDUCT.md", "quote": "We will not accept changes (code or otherwise) created with the aid of AI tooling.", "introduced_commit": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24", "effective_from": "2023-08-09T13:47:03Z"},
+      "effective_date_range": ["2024-01-01T00:00:00Z", "2026-07-24T23:59:59Z"],
+      "excluded_paths": ["vendored", "generated", "minified", "fixture_snapshots", "lockfiles", "machine_translated"],
+      "retrieved_at": "2026-07-25T03:45:00Z",
+      "content_checksum": "git-tree-sha1:fda1d8baf795c5106ebae1bc9216f56576119b1a"
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "id": "yt-dlp/yt-dlp",
+      "reason": "Removed from the human reference set after the frozen target manifest exposed role overlap; the original cohort takes precedence and the repository remains a target."
+    },
+    {
+      "id": "postmarketOS/pmbootstrap",
+      "reason": "No repository-local policy evidence at the frozen snapshot; external organization policy is insufficient under the protocol."
+    },
+    {
+      "id": "forgejo/forgejo",
+      "reason": "The no-AI agreement is stored in the separate forgejo/governance repository, so it fails the repository-local evidence rule."
+    },
+    {
+      "id": "influxdata/telegraf",
+      "reason": "The project permits AI-assisted contributions subject to contributor responsibility; it is not a strict modern-human control."
+    }
+  ]
+}

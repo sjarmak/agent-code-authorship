@@ -1,0 +1,48 @@
+{
+  "audit_version": 2,
+  "candidate_frame_sha256": "8591ebac1c0ac17bac883829e2e02c5b7fb8b4248be86c50308c3e6bbe4769ed",
+  "cutoff": "2026-07-24T23:59:59Z",
+  "eligibility_only": true,
+  "classifier_outputs_consulted": false,
+  "source_features_used_for_selection": false,
+  "minimum_surviving_lines": 2000,
+  "shard_root": "/mnt/agent-code-authorship/candidate-audit-shards",
+  "repositories": [
+    {
+      "id": "gastownhall/gascity-packs",
+      "snapshot_commit": "f69ec02b39e04b1febc3ced4c47fd4972f706e91",
+      "tree": "ff47c99fb041c3d7cdd09e21b6575ba0aa1fc151",
+      "hunks": 389,
+      "surviving_lines": 41046,
+      "substantial": true,
+      "shard_sha256": "a9a896cb540cfaed0a06ab66c44bec563ee02097a8ff3047ebc7cb803cea11a9"
+    },
+    {
+      "id": "gastownhall/gastown",
+      "snapshot_commit": "649b832b7672bc7a2dbef26f5983aba6198b819b",
+      "tree": "f2d1aa94b89dac09664cf68e119d18e5b9e3c9fd",
+      "hunks": 14605,
+      "surviving_lines": 399473,
+      "substantial": true,
+      "shard_sha256": "b61f08e7e2161d84fd86fd28bfb34669f0628d9a7d4c861f81a3e1591d996f44"
+    },
+    {
+      "id": "gastownhall/wasteland",
+      "snapshot_commit": "fbad824c1e826be00ec7e8434473e6a70556a6fd",
+      "tree": "dc13ebbc43c09f237107bc56ddce9eb326595042",
+      "hunks": 2067,
+      "surviving_lines": 68449,
+      "substantial": true,
+      "shard_sha256": "49910b87906d01ac9b261bdcfd8652e39c200680c89d8af358d271baf5cf155f"
+    },
+    {
+      "id": "gastownhall/tmux-adapter",
+      "snapshot_commit": "085e424eda551f7da8a3a369af1c413c3bc47041",
+      "tree": "ea6e7dc1db7f8e320876d38b823006b825f8cc29",
+      "hunks": 196,
+      "surviving_lines": 6045,
+      "substantial": true,
+      "shard_sha256": "0a50ea067aec854711fcc289770b3431a61c6cce3d519a742b904d49a41d6a01"
+    }
+  ]
+}

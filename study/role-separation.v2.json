@@ -1,0 +1,463 @@
+{
+  "cutoff": "2026-07-24T23:59:59Z",
+  "introduced_on_or_after": "2024-01-01",
+  "output_reference_shards": "/mnt/agent-code-authorship/reference-shards-v2",
+  "rebuild_version": 2,
+  "repositories": {
+    "gastownhall/beads": {
+      "hunks": 14821,
+      "label": "agent",
+      "lines": 447538,
+      "lines_by_language": {
+        "Go": 447538
+      },
+      "role": "dedicated_validation",
+      "shard_sha256": "16af7e9cc79410b8ca4b8333799fbb3d7b49e17477244540d6cc242209df793a",
+      "substantial_languages": [
+        "Go"
+      ]
+    },
+    "gastownhall/gascity": {
+      "hunks": 37109,
+      "label": "agent",
+      "lines": 1208318,
+      "lines_by_language": {
+        "Go": 1208318
+      },
+      "role": "reference",
+      "shard_sha256": "064d84c8b3e1e19626f0c5b7e5f4d3d6619156472c902aa366248b29b0858767",
+      "substantial_languages": [
+        "Go"
+      ]
+    },
+    "sjarmak/GEO_public": {
+      "hunks": 27,
+      "label": "agent",
+      "lines": 7269,
+      "lines_by_language": {
+        "Python": 7269
+      },
+      "role": "reference",
+      "shard_sha256": "1b867e47533182f707fabb7d24361aed24ed257f36f212c7d1e289040e32e766",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/agent-diagnostics": {
+      "hunks": 701,
+      "label": "agent",
+      "lines": 28648,
+      "lines_by_language": {
+        "Python": 28648
+      },
+      "role": "reference",
+      "shard_sha256": "ba9ef1c9d28b9f450da5d9b76ee5f3baf6a3f214b0ffffb1927a56028a4c2201",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/codeprobe": {
+      "hunks": 3906,
+      "label": "agent",
+      "lines": 154139,
+      "lines_by_language": {
+        "Python": 154139
+      },
+      "role": "dedicated_validation",
+      "shard_sha256": "87baa0e7eae15d6f015a443f134a48ecdd5ca390aca259093641e1a1279447e6",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/livedocs": {
+      "hunks": 1364,
+      "label": "agent",
+      "lines": 77632,
+      "lines_by_language": {
+        "Go": 77632
+      },
+      "role": "reference",
+      "shard_sha256": "de0295b14168da25d2c3abb1a7415d8682e523db9e3d98bc927e39355e67b96f",
+      "substantial_languages": [
+        "Go"
+      ]
+    },
+    "sjarmak/nls-finetune-scix": {
+      "hunks": 368,
+      "label": "agent",
+      "lines": 51392,
+      "lines_by_language": {
+        "Python": 51392
+      },
+      "role": "reference",
+      "shard_sha256": "a8d50939f755a5bbf608e67bffa3341c8aa1cafc99d62e6073a930c82e51a7f0",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/scix-agent": {
+      "hunks": 4507,
+      "label": "agent",
+      "lines": 217787,
+      "lines_by_language": {
+        "Python": 217787
+      },
+      "role": "reference",
+      "shard_sha256": "d6d9591bade98b01b3e32754ccac9c91afc0a9eb578526ba94bfa610620735f5",
+      "substantial_languages": [
+        "Python"
+      ]
+    },
+    "sjarmak/sg_benchmark": {
+      "hunks": 208,
+      "label": "agent",
+      "lines": 15789,
+      "lines_by_language": {
+        "Python": 15789
+      },
+      "role": "reference",
+      "shard_sha256": "17a0467563418b42728a4219273bf4666202ea9d61ec689b873ebf83591aaa1e",
+      "substantial_languages": [
+        "Python"
+      ]
+    }
+  },
+  "role_separation": {
+    "collision_hashes": 19,
+    "collisions": [
+      {
+        "content_sha256": "19b571491e49800343284c7e7702675defff7d3f7a36cf8a4319667e88f2d3de",
+        "groups": [
+          "gastownhall/beads",
+          "grafana/grafana",
+          "infiniflow/ragflow"
+        ],
+        "partitions": [
+          "target",
+          "validation"
+        ],
+        "removed_records": {
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "33861cae866585136d86716275de2977ffdb274c04d0ee2db73f9d08d2478082",
+        "groups": [
+          "NousResearch/hermes-agent",
+          "langgenius/dify",
+          "sjarmak/codeprobe",
+          "sjarmak/scix-agent"
+        ],
+        "partitions": [
+          "modeling",
+          "target",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 1,
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "33e75af83f013e5b2db511f15004e82692b5106568a6cb78716a42f49cb0a545",
+        "groups": [
+          "gastownhall/beads",
+          "gastownhall/gascity",
+          "junegunn/fzf"
+        ],
+        "partitions": [
+          "modeling",
+          "target",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 1,
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "3a5ed64ed144aaad0cd52854690f29ab9ac46b9969f25e857382e3364400bc0c",
+        "groups": [
+          "gastownhall/beads",
+          "gastownhall/gascity",
+          "golang/go",
+          "grafana/grafana",
+          "kubernetes/kubernetes",
+          "sjarmak/livedocs"
+        ],
+        "partitions": [
+          "modeling",
+          "target",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 3,
+          "validation": 2
+        }
+      },
+      {
+        "content_sha256": "4571328120742bfa51a79c29c175874aa901e4714c5e5cfae8be8f05dceefa5f",
+        "groups": [
+          "gastownhall/beads",
+          "gastownhall/gascity"
+        ],
+        "partitions": [
+          "modeling",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 1,
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "492de588fc46125ddaa53e0d8bb87beae76f1d48b31df3ef01cbd360edf82b5e",
+        "groups": [
+          "gastownhall/beads",
+          "gastownhall/gascity",
+          "grafana/grafana",
+          "moby/moby",
+          "syncthing/syncthing"
+        ],
+        "partitions": [
+          "modeling",
+          "target",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 5,
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "4f965ed1e39a65ff4139f3bbdc3202b677373f148797f343ce066adb725c07be",
+        "groups": [
+          "gastownhall/gascity",
+          "infiniflow/ragflow",
+          "ollama/ollama",
+          "openclaw/openclaw"
+        ],
+        "partitions": [
+          "modeling",
+          "target"
+        ],
+        "removed_records": {
+          "modeling": 6
+        }
+      },
+      {
+        "content_sha256": "5358b82b288bd7b5bc02c2d2a565c453083c270e36d039e119fbb702fd92eb2b",
+        "groups": [
+          "gastownhall/gascity",
+          "grafana/grafana"
+        ],
+        "partitions": [
+          "modeling",
+          "target"
+        ],
+        "removed_records": {
+          "modeling": 1
+        }
+      },
+      {
+        "content_sha256": "5fe59fe6c1e0307f9ba70ee7efb507eb782455edaad504773e28b56a6cc9fd15",
+        "groups": [
+          "gastownhall/beads",
+          "gastownhall/gascity",
+          "grafana/grafana",
+          "jesseduffield/lazygit",
+          "kubernetes/kubernetes",
+          "moby/moby"
+        ],
+        "partitions": [
+          "modeling",
+          "target",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 14,
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "613d9be596689d8311b58e26bec7b0eb72b179454a6a7fcdc68ac437449767a4",
+        "groups": [
+          "gastownhall/beads",
+          "gastownhall/gascity"
+        ],
+        "partitions": [
+          "modeling",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 2,
+          "validation": 2
+        }
+      },
+      {
+        "content_sha256": "691b40720c1b153ea59a11fd1b483a9c923168236478a316c010907b80266255",
+        "groups": [
+          "gastownhall/beads",
+          "sjarmak/livedocs"
+        ],
+        "partitions": [
+          "modeling",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 1,
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "75ca8c9180d630f6b695c79bbfdc32d63878877f5925332f7ace066a8ce1e1f7",
+        "groups": [
+          "gastownhall/beads",
+          "gastownhall/gascity"
+        ],
+        "partitions": [
+          "modeling",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 1,
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "85919c74569085ffa0c7a9c8ed078a92e1fdb96924fea1532a0136b69adab7f5",
+        "groups": [
+          "gastownhall/beads",
+          "sjarmak/livedocs"
+        ],
+        "partitions": [
+          "modeling",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 1,
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "b3efc343172c7d6248db41d4d0f0866bc3c7f62aa445605816cd613c6cdf0769",
+        "groups": [
+          "gastownhall/beads",
+          "gastownhall/gascity"
+        ],
+        "partitions": [
+          "modeling",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 1,
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "ba935a75d9b6b366c3ced00eb8eeb3ba7fbc97e83650dd9f8ea3d8fab3480852",
+        "groups": [
+          "gastownhall/beads",
+          "grafana/grafana"
+        ],
+        "partitions": [
+          "target",
+          "validation"
+        ],
+        "removed_records": {
+          "validation": 1
+        }
+      },
+      {
+        "content_sha256": "d0d12cb79a58e0e21532b53e8187ec230b9a97db8f538d5ca47438766946501f",
+        "groups": [
+          "kubernetes/kubernetes",
+          "sjarmak/livedocs",
+          "syncthing/syncthing"
+        ],
+        "partitions": [
+          "modeling",
+          "target"
+        ],
+        "removed_records": {
+          "modeling": 2
+        }
+      },
+      {
+        "content_sha256": "db1328e88de96f19c0041e0f6d1e33f71a18fc288e167981cf9ae66647618af8",
+        "groups": [
+          "gastownhall/gascity",
+          "kubernetes/kubernetes"
+        ],
+        "partitions": [
+          "modeling",
+          "target"
+        ],
+        "removed_records": {
+          "modeling": 1
+        }
+      },
+      {
+        "content_sha256": "f57b5b8f246b93d553c2a72988f5d2db1ea4f655df7112fa9e772a26f1e36be8",
+        "groups": [
+          "gastownhall/gascity",
+          "golang/go"
+        ],
+        "partitions": [
+          "modeling",
+          "target"
+        ],
+        "removed_records": {
+          "modeling": 1
+        }
+      },
+      {
+        "content_sha256": "f770a2e6b47c412ffca01fc92db87a8fa421b658af806b75b57c757199881a30",
+        "groups": [
+          "gastownhall/beads",
+          "gastownhall/gascity"
+        ],
+        "partitions": [
+          "modeling",
+          "validation"
+        ],
+        "removed_records": {
+          "modeling": 2,
+          "validation": 1
+        }
+      }
+    ],
+    "dropped_records": {
+      "modeling": 44,
+      "target": 0,
+      "validation": 16
+    },
+    "input_records": {
+      "modeling": 44328,
+      "target": 466137,
+      "validation": 18743
+    },
+    "output_records": {
+      "modeling": 44284,
+      "target": 466137,
+      "validation": 18727
+    },
+    "policy": "strict-role-separation-v1",
+    "target_partition": "target"
+  },
+  "source_reference_shards": "/mnt/agent-code-authorship/reference-shards",
+  "source_target_shards": "/mnt/agent-code-authorship/target-shards",
+  "status": "rebuilt_not_identified",
+  "totals": {
+    "Go": {
+      "groups": 3,
+      "hunks": 53294,
+      "lines": 1733488
+    },
+    "Python": {
+      "groups": 6,
+      "hunks": 9717,
+      "lines": 475024
+    }
+  }
+}

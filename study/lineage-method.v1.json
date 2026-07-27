@@ -1,0 +1,41 @@
+{
+  "artifact": "lineage-method",
+  "version": 1,
+  "frozen_at": "2026-07-25",
+  "parents": {
+    "survival_protocol_sha256": "35a1cb5e2a457fa0a2fa85d405cddd4495129dc74cded5d30b508369b9765dd4",
+    "survival_candidates_sha256": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837"
+  },
+  "horizons_days": [
+    30,
+    90,
+    180,
+    365
+  ],
+  "lineage": {
+    "history": "default_branch_first_parent",
+    "snapshot_rule": "latest_commit_at_or_before_merge_time_plus_horizon",
+    "post_cutoff_rule": "right_censored",
+    "exact_unique_move_state": "unchanged",
+    "structural_candidate_state": "modified_candidate",
+    "structural_similarity": "difflib.SequenceMatcher_ratio_on_stripped_line",
+    "structural_threshold": 0.8,
+    "structural_runner_up_margin": 0.1,
+    "maximum_cross_file_candidate_additions": 2000,
+    "ambiguous_or_broader_candidate_space_state": "unobservable",
+    "terminal_states": [
+      "deleted",
+      "unobservable"
+    ]
+  },
+  "validation": {
+    "blind_sample_size": 200,
+    "target_balance": {
+      "modified_candidate": 100,
+      "rejected_or_ambiguous": 100
+    },
+    "selection": "lowest_deterministic_case_hash_within_class",
+    "minimum_precision": 0.9,
+    "failed_gate_rule": "exclude_structural_matches_from_headline_estimates"
+  }
+}

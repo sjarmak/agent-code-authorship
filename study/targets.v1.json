@@ -1,0 +1,4209 @@
+{
+  "manifest_version": 1,
+  "cutoff": "2026-07-24T23:59:59Z",
+  "retrieved_at": "2026-07-25T04:07:10.424969Z",
+  "source": "data/cohort_ages.json",
+  "repositories": [
+    {
+      "id": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "b3442b2ee646b1283561e37ed81729aa851b38ee",
+        "committed_at": "2026-07-24T21:33:38Z",
+        "tree": "034feb21ed08ce58c232bb3a32828eb332114599"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:034feb21ed08ce58c232bb3a32828eb332114599"
+    },
+    {
+      "id": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "872ba27ff3633f9b8458c50920ed6c1ac7e3f15d",
+        "committed_at": "2026-07-24T23:14:49Z",
+        "tree": "967b5a8c6d546854e62e0aadab075d8507ced25a"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:967b5a8c6d546854e62e0aadab075d8507ced25a"
+    },
+    {
+      "id": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
+        "committed_at": "2026-07-24T00:27:16Z",
+        "tree": "da1e7bb99212a060f90ffd6def69ff606775a79c"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:da1e7bb99212a060f90ffd6def69ff606775a79c"
+    },
+    {
+      "id": "react/react",
+      "url": "https://github.com/react/react",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "b685b40d870b90a975da28c8d22ecf0ba910b1a1",
+        "committed_at": "2026-07-24T21:38:07Z",
+        "tree": "2274d450f6a9f01af8947f531d59141201ee0df4"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:2274d450f6a9f01af8947f531d59141201ee0df4"
+    },
+    {
+      "id": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "abe185c6a46c312d526c215abfcafe98ed9e951b",
+        "committed_at": "2026-07-24T20:40:53Z",
+        "tree": "ca167be6a7d47019f81933c97caa508cc673204a"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:ca167be6a7d47019f81933c97caa508cc673204a"
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "8dc99787418e5b10720c0a7a432addc02deef322",
+        "committed_at": "2026-07-24T23:04:48Z",
+        "tree": "5765b4f6c79592dead8cc345fcee3e3af0e2663c"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:5765b4f6c79592dead8cc345fcee3e3af0e2663c"
+    },
+    {
+      "id": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "5339b5e48a2b844958ba20cbc8c68f8256104604",
+        "committed_at": "2026-07-24T17:12:51Z",
+        "tree": "4628bb606cb83865f5f3ce29f5a338c7ffdc010a"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:4628bb606cb83865f5f3ce29f5a338c7ffdc010a"
+    },
+    {
+      "id": "ohmyzsh/ohmyzsh",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "b37dd49ca5bfe0d99b35607637152cb8cc8b29d7",
+        "committed_at": "2026-07-23T17:38:43Z",
+        "tree": "6c3359b772f5426eaa975d7c436778d0b60f26c9"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:6c3359b772f5426eaa975d7c436778d0b60f26c9"
+    },
+    {
+      "id": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "e04b6ae5cc95d3f73d7dec621d98a2257936f091",
+        "committed_at": "2026-07-24T23:29:42Z",
+        "tree": "b0df09fdac520f4873f95260e4c529c278b59e19"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:b0df09fdac520f4873f95260e4c529c278b59e19"
+    },
+    {
+      "id": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "a85d8d23aa297b3051e642c28e3fc79b457fc4bc",
+        "committed_at": "2026-07-24T22:18:13Z",
+        "tree": "8272662fe8ee9397cb9bb2c9cb84efc06032c7a2"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:8272662fe8ee9397cb9bb2c9cb84efc06032c7a2"
+    },
+    {
+      "id": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "656d8f5d9c2bf91097d97f7ea8e034b57a324c70",
+        "committed_at": "2026-07-22T20:26:34Z",
+        "tree": "07c6f865e53d69c248a605ef66fd5c8c645640d0"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:07c6f865e53d69c248a605ef66fd5c8c645640d0"
+    },
+    {
+      "id": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+        "committed_at": "2026-07-23T16:54:48Z",
+        "tree": "8d9467ae78ba66371ba4be3351ea88e2b442e846"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:8d9467ae78ba66371ba4be3351ea88e2b442e846"
+    },
+    {
+      "id": "flutter/flutter",
+      "url": "https://github.com/flutter/flutter",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "a6ab6a5c3a458233cab98343834180e94e7f430d",
+        "committed_at": "2026-07-24T23:44:09Z",
+        "tree": "a21c6c5cbd556d6849d58c7ef8a289445e5c668c"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:a21c6c5cbd556d6849d58c7ef8a289445e5c668c"
+    },
+    {
+      "id": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "9eef4a7195dc8ad246e697a5251a8df344a56880",
+        "committed_at": "2026-07-24T22:34:32Z",
+        "tree": "704fbbca4b170e19ef582a2a3f4e773f93f962c0"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:704fbbca4b170e19ef582a2a3f4e773f93f962c0"
+    },
+    {
+      "id": "twbs/bootstrap",
+      "url": "https://github.com/twbs/bootstrap",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "b8932a1ec1c3e633084b1f1cb65e1ef05eb19f1e",
+        "committed_at": "2026-07-22T05:02:51Z",
+        "tree": "bc57eb3c1e4892c2f0a4ff51289ab4753a770316"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:bc57eb3c1e4892c2f0a4ff51289ab4753a770316"
+    },
+    {
+      "id": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "2e42a01c404629b06892a1bdb5e7bf5261770c40",
+        "committed_at": "2026-07-23T22:33:26Z",
+        "tree": "6203e184d83c5bb20fb17d0777f2a6e94258d33f"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:6203e184d83c5bb20fb17d0777f2a6e94258d33f"
+    },
+    {
+      "id": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "ce17f022bed0eac943a723b9b6c74a023e819b60",
+        "committed_at": "2026-07-24T01:53:13Z",
+        "tree": "b07a11734862402347b25dbe3b4ad27a3a35f4e7"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:b07a11734862402347b25dbe3b4ad27a3a35f4e7"
+    },
+    {
+      "id": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "4f8c82f0762ccd9614ef45de80c74457b21b24f8",
+        "committed_at": "2026-07-24T09:21:21Z",
+        "tree": "9c91ca54326cc925e74a87d161855c6ae6ac76ef"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:9c91ca54326cc925e74a87d161855c6ae6ac76ef"
+    },
+    {
+      "id": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "58f83fa7e749a4a82c714d802e3f964c124e800e",
+        "committed_at": "2026-07-24T15:30:52Z",
+        "tree": "b3d48b2cc93b61ac69fdd91945984e29a9eeff13"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:b3d48b2cc93b61ac69fdd91945984e29a9eeff13"
+    },
+    {
+      "id": "Genymobile/scrcpy",
+      "url": "https://github.com/Genymobile/scrcpy",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "2926c06c5dc3064ae6d8db706f1a98a37cfcf3f0",
+        "committed_at": "2026-07-12T18:10:40Z",
+        "tree": "188abb6921c054a698ad7894904c6de6387de7ec"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:188abb6921c054a698ad7894904c6de6387de7ec"
+    },
+    {
+      "id": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "ecd48e2f718220a6400ecf49eafd4867a38feb10",
+        "committed_at": "2026-07-01T08:40:54Z",
+        "tree": "6273a9ed3d194683775893b36e4541b543156320"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:6273a9ed3d194683775893b36e4541b543156320"
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "fa7ce760a26437a904a4c93db75333f01d65ed83",
+        "committed_at": "2026-07-24T21:55:40Z",
+        "tree": "3d3877486f072905a3b4a826116836424cf2f69d"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:3d3877486f072905a3b4a826116836424cf2f69d"
+    },
+    {
+      "id": "vercel/next.js",
+      "url": "https://github.com/vercel/next.js",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "4a432e4d79be9ff5c326a3a62a1e7d9d1e4f5f90",
+        "committed_at": "2026-07-24T23:35:57Z",
+        "tree": "a27ef9b94014177bfabaf50dd24884b4c7f6374a"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:a27ef9b94014177bfabaf50dd24884b4c7f6374a"
+    },
+    {
+      "id": "ytdl-org/youtube-dl",
+      "url": "https://github.com/ytdl-org/youtube-dl",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "956b8c585591b401a543e409accb163eeaaa1193",
+        "committed_at": "2025-11-26T03:02:36Z",
+        "tree": "596ff4ef809eaab6454a8c3a44d879c2ba04fcdf"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:596ff4ef809eaab6454a8c3a44d879c2ba04fcdf"
+    },
+    {
+      "id": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "0c188278cdf9b8b717c2740550bdb0f69c02f6b5",
+        "committed_at": "2026-07-24T17:14:14Z",
+        "tree": "2223c47d81bc72872816aa1edc912ba43ec689bf"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:2223c47d81bc72872816aa1edc912ba43ec689bf"
+    },
+    {
+      "id": "microsoft/PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "fc680d350f74f1f4eec8a64296420e614724e74d",
+        "committed_at": "2026-07-22T21:39:32Z",
+        "tree": "91787e7c1e684d8f6034771fbcffe17dd6f8d681"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:91787e7c1e684d8f6034771fbcffe17dd6f8d681"
+    },
+    {
+      "id": "golang/go",
+      "url": "https://github.com/golang/go",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "a961f702a48edbfc044639775f4ffae692b7f0dc",
+        "committed_at": "2026-07-24T21:36:24Z",
+        "tree": "51fb74519d81373416b6ed9e37c1b8ed1301cd32"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:51fb74519d81373416b6ed9e37c1b8ed1301cd32"
+    },
+    {
+      "id": "iptv-org/iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "ee6d0f1c0195e67fbd7b5fea100ef0c2b2ceed43",
+        "committed_at": "2026-07-24T00:25:35Z",
+        "tree": "1e7a9e5eb7cdd1ad55ad999837bc6afa60038323"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:1e7a9e5eb7cdd1ad55ad999837bc6afa60038323"
+    },
+    {
+      "id": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "7796259b0394df73bf35a6f1984a7f8d96603690",
+        "committed_at": "2026-07-24T21:47:28Z",
+        "tree": "1a1905f8a407ced263aaa670f1c1b0606cf907b9"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:1a1905f8a407ced263aaa670f1c1b0606cf907b9"
+    },
+    {
+      "id": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "8ef49232e02431f7ca4792b487e5a85a7939ff3a",
+        "committed_at": "2026-07-23T21:09:51Z",
+        "tree": "cc54b63492c367cb9771ce71208e383ea5bc8de4"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:cc54b63492c367cb9771ce71208e383ea5bc8de4"
+    },
+    {
+      "id": "excalidraw/excalidraw",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "b2e81e38a6fde8b3cb5dfdf2f2fb651323ad309d",
+        "committed_at": "2026-07-24T14:10:00Z",
+        "tree": "8bddcad60e6d78248b8afdaaa67c17c50ab8c8cc"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:8bddcad60e6d78248b8afdaaa67c17c50ab8c8cc"
+    },
+    {
+      "id": "react/react-native",
+      "url": "https://github.com/react/react-native",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "834721f124636c3d326a25e9ff6608026ab856df",
+        "committed_at": "2026-07-24T23:39:01Z",
+        "tree": "46b8c4dd4ca828e29851f6403464b5827bc37681"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:46b8c4dd4ca828e29851f6403464b5827bc37681"
+    },
+    {
+      "id": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "2a5a1c06c4bb33424a8253d876a094cc01957b07",
+        "committed_at": "2026-07-24T13:13:51Z",
+        "tree": "c7b4e42a526126607ae962037bb70138fada92d5"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:c7b4e42a526126607ae962037bb70138fada92d5"
+    },
+    {
+      "id": "electron/electron",
+      "url": "https://github.com/electron/electron",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "e12e04e87bb7c3a0ce744a0bab9b317d250d725e",
+        "committed_at": "2026-07-24T13:54:09Z",
+        "tree": "fe07e5ea334eb083b8c9cb9c5e18b2a4fd03b221"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:fe07e5ea334eb083b8c9cb9c5e18b2a4fd03b221"
+    },
+    {
+      "id": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "c0fe0e43cd728ebc3dd1f714343f3921510a157f",
+        "committed_at": "2026-07-24T20:42:56Z",
+        "tree": "7c80eef1a888542d20073a56d4198fbd3916e5bd"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:7c80eef1a888542d20073a56d4198fbd3916e5bd"
+    },
+    {
+      "id": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "36aec0d086f7321d253cde71b4f3b08f63e35d8f",
+        "committed_at": "2026-07-24T23:48:52Z",
+        "tree": "f62980b57b5d062463a9475d08244b0eedb02187"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:f62980b57b5d062463a9475d08244b0eedb02187"
+    },
+    {
+      "id": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "555881ebc8b0fc0402b30e09258a32a7bfd13c52",
+        "committed_at": "2026-07-24T20:09:46Z",
+        "tree": "8c0b2e13c271baf98c1e159771ed63ac8471b70a"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:8c0b2e13c271baf98c1e159771ed63ac8471b70a"
+    },
+    {
+      "id": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "4baadbc6517070ae8f8feb2c97037adc2b305544",
+        "committed_at": "2026-07-23T19:50:36Z",
+        "tree": "5d30a5de7d900392949368e49f7fc96535a710c2"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:5d30a5de7d900392949368e49f7fc96535a710c2"
+    },
+    {
+      "id": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "b420cb649d497051f4686cf3cddf4f276d6682b0",
+        "committed_at": "2026-07-24T23:11:39Z",
+        "tree": "df6331d4ac435255cbf5f8635cc25e86547099ef"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:df6331d4ac435255cbf5f8635cc25e86547099ef"
+    },
+    {
+      "id": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "b4af82157bc5b44b62e66c1e7b50cc945bc42532",
+        "committed_at": "2026-07-24T10:35:49Z",
+        "tree": "b50fb680e595a3d962c71933f289ffb4f10a7ea1"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:b50fb680e595a3d962c71933f289ffb4f10a7ea1"
+    },
+    {
+      "id": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "878c26f31e012ba32b9772bd080bd4fa9e7d495e",
+        "committed_at": "2026-07-24T04:12:22Z",
+        "tree": "d3f923f80d50a6ab8f4d78b93d6bf59870ac775b"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:d3f923f80d50a6ab8f4d78b93d6bf59870ac775b"
+    },
+    {
+      "id": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "da86f4d0726be475afbbffe40cb2f65741c51ad3",
+        "committed_at": "2026-07-24T20:15:07Z",
+        "tree": "5f5de5becba2bef108a35950651c5bead7ab6538"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:5f5de5becba2bef108a35950651c5bead7ab6538"
+    },
+    {
+      "id": "godotengine/godot",
+      "url": "https://github.com/godotengine/godot",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "fb1821384214b901c86793b09150d3e74b37153d",
+        "committed_at": "2026-07-24T14:18:53Z",
+        "tree": "de234f83f1bc6dcad17cc307c753af3f1d07d150"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:de234f83f1bc6dcad17cc307c753af3f1d07d150"
+    },
+    {
+      "id": "mrdoob/three.js",
+      "url": "https://github.com/mrdoob/three.js",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "bb24effff0ada930c7fa2c0254e17d1a1af1c90a",
+        "committed_at": "2026-07-24T17:31:55Z",
+        "tree": "0b50200b50d1268caf1fb94b4ee703d590173557"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:0b50200b50d1268caf1fb94b4ee703d590173557"
+    },
+    {
+      "id": "d3/d3",
+      "url": "https://github.com/d3/d3",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "ca958d45217b4c15332d971b935451a6d4c978f4",
+        "committed_at": "2026-05-28T14:43:00Z",
+        "tree": "856920156186e280c5ae542ac7394f9e96a3fee4"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:856920156186e280c5ae542ac7394f9e96a3fee4"
+    },
+    {
+      "id": "2dust/v2rayN",
+      "url": "https://github.com/2dust/v2rayN",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "cf8dd45abe3dd54667a3ce0e6923695acbf10823",
+        "committed_at": "2026-07-24T08:57:53Z",
+        "tree": "578bf99bd2be7399c108f2c8f1b4507f92420036"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:578bf99bd2be7399c108f2c8f1b4507f92420036"
+    },
+    {
+      "id": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "cc5c6e2d32e2228fff83a66537bbe6042943054d",
+        "committed_at": "2026-07-23T18:31:29Z",
+        "tree": "44c033c20b568610551e72513a2f3659a51fee32"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:44c033c20b568610551e72513a2f3659a51fee32"
+    },
+    {
+      "id": "axios/axios",
+      "url": "https://github.com/axios/axios",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "311fcc5c8d989b7248f05d390bb83bfbfb009977",
+        "committed_at": "2026-07-22T17:26:22Z",
+        "tree": "e235490f75463ad553dca06d75427aa17c1ab647"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:e235490f75463ad553dca06d75427aa17c1ab647"
+    },
+    {
+      "id": "tauri-apps/tauri",
+      "url": "https://github.com/tauri-apps/tauri",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "3f5d3984bc8916b5dd31289b19284637ede37e3d",
+        "committed_at": "2026-07-24T09:17:08Z",
+        "tree": "1b18d94438505371227193235bf488f099df6064"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:1b18d94438505371227193235bf488f099df6064"
+    },
+    {
+      "id": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "40274d8c92249043d8cddb6e40b4b23128e18df4",
+        "committed_at": "2026-07-23T14:02:49Z",
+        "tree": "cfc2de87fa1a2cc3c10b486d177d06ae025dbb8d"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:cfc2de87fa1a2cc3c10b486d177d06ae025dbb8d"
+    },
+    {
+      "id": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "150f9cf083eb7beb9c19111b7c81bdb4aba578f8",
+        "committed_at": "2026-07-24T22:01:26Z",
+        "tree": "5f55e2b63776d3ee6766ffc6fd7abeb809f75d35"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:5f55e2b63776d3ee6766ffc6fd7abeb809f75d35"
+    },
+    {
+      "id": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "409734e1db36e8df09591b1867104ed7cf3a304c",
+        "committed_at": "2026-07-24T19:44:37Z",
+        "tree": "b1fe38ed5d719d1e6e4a2b23f940450778b5e4d9"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:b1fe38ed5d719d1e6e4a2b23f940450778b5e4d9"
+    },
+    {
+      "id": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "2b27ed0ab17ec74f17bfa2e4e54175e3a1f5b444",
+        "committed_at": "2026-07-24T22:51:19Z",
+        "tree": "1f372d3af5b591b884f3118e774addac9024578e"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:1f372d3af5b591b884f3118e774addac9024578e"
+    },
+    {
+      "id": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "3818efbbfbf8ef029ef53a6ab1093db39971ce83",
+        "committed_at": "2026-07-24T20:48:37Z",
+        "tree": "f2fa071dca6aa53a9391d4552ef324f12d8aded1"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:f2fa071dca6aa53a9391d4552ef324f12d8aded1"
+    },
+    {
+      "id": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "1307d97a72e6c1cda572cb65471ae5ce82995218",
+        "committed_at": "2026-07-21T15:51:36Z",
+        "tree": "e7d045a89dc4fb6ce51b32aa9779734ea77ff1de"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:e7d045a89dc4fb6ce51b32aa9779734ea77ff1de"
+    },
+    {
+      "id": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "04f449b8a437f1bbd3dba5c9f826aca972e7709a",
+        "committed_at": "2026-04-15T16:32:15Z",
+        "tree": "aa9c8dffd631fa42ace669c397e3c5bbea2a793c"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:aa9c8dffd631fa42ace669c397e3c5bbea2a793c"
+    },
+    {
+      "id": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "05b68eb5679da0497510a6954863687bef41c706",
+        "committed_at": "2026-07-24T19:30:06Z",
+        "tree": "dcc3fe4397914b1b99974bfdd9695c8b83f90973"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:dcc3fe4397914b1b99974bfdd9695c8b83f90973"
+    },
+    {
+      "id": "microsoft/terminal",
+      "url": "https://github.com/microsoft/terminal",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "4f225a56aff245bbb9d1400f266c20e1747cc580",
+        "committed_at": "2026-07-23T15:29:10Z",
+        "tree": "1f55070b2762a7342a01701154b25c324b3696a7"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:1f55070b2762a7342a01701154b25c324b3696a7"
+    },
+    {
+      "id": "neovim/neovim",
+      "url": "https://github.com/neovim/neovim",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "89cab37358a49f7bfe7f3d40b75f8b3a4a573222",
+        "committed_at": "2026-07-24T23:07:43Z",
+        "tree": "30681fa0b060d3479f02ddecb0265e0ada990e7f"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:30681fa0b060d3479f02ddecb0265e0ada990e7f"
+    },
+    {
+      "id": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "5ad823139758b4d3a8a021d378b008c3457f8689",
+        "committed_at": "2026-07-24T20:56:17Z",
+        "tree": "5fd8effa022d0161e84995c6c9ed480150c05f24"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:5fd8effa022d0161e84995c6c9ed480150c05f24"
+    },
+    {
+      "id": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "255b912928904e3ba5980425a54d6837c8bd1a1c",
+        "committed_at": "2026-07-24T21:15:37Z",
+        "tree": "4cb96fa317baff0cfeceae8525bd17648888955a"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:4cb96fa317baff0cfeceae8525bd17648888955a"
+    },
+    {
+      "id": "ant-design/ant-design",
+      "url": "https://github.com/ant-design/ant-design",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "29ea546eef68cf30079e66ed1b5751d881c8c86a",
+        "committed_at": "2026-07-24T16:36:58Z",
+        "tree": "76026855a3e3b299312356a4f9a7ef027c646d06"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:76026855a3e3b299312356a4f9a7ef027c646d06"
+    },
+    {
+      "id": "mui/material-ui",
+      "url": "https://github.com/mui/material-ui",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "4d5fe7254baa7e97e38b516f37c7af13128468b7",
+        "committed_at": "2026-07-24T09:25:49Z",
+        "tree": "d8138b41b9aee68a6e171494326cad81ff8aec73"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:d8138b41b9aee68a6e171494326cad81ff8aec73"
+    },
+    {
+      "id": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "a4535884169be8da2f81b8a4debecbd4dc11aa97",
+        "committed_at": "2026-07-24T23:44:55Z",
+        "tree": "444415c9bbd7c98535aefda0c0f2624c9f961d11"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:444415c9bbd7c98535aefda0c0f2624c9f961d11"
+    },
+    {
+      "id": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "3c4df9f5d1b9b9d239aa52fd538b7555e4d2af86",
+        "committed_at": "2026-07-24T09:33:23Z",
+        "tree": "bde6412ed598ea8f8c189f298537d4cacd695806"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:bde6412ed598ea8f8c189f298537d4cacd695806"
+    },
+    {
+      "id": "tailwindlabs/tailwindcss",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "094bf62605870311a8def6ae45c87d578b198ebf",
+        "committed_at": "2026-07-16T17:15:10Z",
+        "tree": "9513932c6431da770f307ecc39a97fe3af7730dc"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:9513932c6431da770f307ecc39a97fe3af7730dc"
+    },
+    {
+      "id": "puppeteer/puppeteer",
+      "url": "https://github.com/puppeteer/puppeteer",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "06442aeb8b03fb9effb32bd261a9bffa0b45603a",
+        "committed_at": "2026-07-23T11:06:19Z",
+        "tree": "c354cafbf89f0d8a4bbe9b0832235137e6aeda82"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:c354cafbf89f0d8a4bbe9b0832235137e6aeda82"
+    },
+    {
+      "id": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "8234965ee8711394ccc47cadde8754b17cb34ee9",
+        "committed_at": "2026-07-23T14:16:38Z",
+        "tree": "a6bda4919afc49adeaf81a48b9d80ce6240508d5"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:a6bda4919afc49adeaf81a48b9d80ce6240508d5"
+    },
+    {
+      "id": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "27b2df9b015904c2b3e8b0618328d60096fcb792",
+        "committed_at": "2026-07-24T23:34:14Z",
+        "tree": "a3ae3c563c14dea214fcf9b1fcb0f83b899be604"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:a3ae3c563c14dea214fcf9b1fcb0f83b899be604"
+    },
+    {
+      "id": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "65ded65d46c16481dbbe8e93f8ba9e6b35f20740",
+        "committed_at": "2026-07-24T18:11:57Z",
+        "tree": "4006d0e242749afd87f641256881f7b64ca48b2f"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:4006d0e242749afd87f641256881f7b64ca48b2f"
+    },
+    {
+      "id": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "3827650d171cc1b035cbefb7e00bf5948d6809df",
+        "committed_at": "2026-07-24T22:26:48Z",
+        "tree": "80aaeb77ce885113d12fc2f5cba1e7ea025aa6c1"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:80aaeb77ce885113d12fc2f5cba1e7ea025aa6c1"
+    },
+    {
+      "id": "storybookjs/storybook",
+      "url": "https://github.com/storybookjs/storybook",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "e4e223af77341bce9633eac7d7d2ae937be18438",
+        "committed_at": "2026-07-24T16:22:20Z",
+        "tree": "5d0629bc129ecc88bae599c374407968770d6e0b"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:5d0629bc129ecc88bae599c374407968770d6e0b"
+    },
+    {
+      "id": "bitcoin/bitcoin",
+      "url": "https://github.com/bitcoin/bitcoin",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "6b059d9dbdbd4d5b6f52993f93bf291181bf3900",
+        "committed_at": "2026-07-24T22:09:10Z",
+        "tree": "5f2f7ff4e1c73a475299e20386a624c3cf1f56b6"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:5f2f7ff4e1c73a475299e20386a624c3cf1f56b6"
+    },
+    {
+      "id": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "702a9cb7289e535927f5279190bcad6ffc5d3fd0",
+        "committed_at": "2026-07-24T15:18:50Z",
+        "tree": "38d984717477f81587486b01abd1b2637045c26d"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:38d984717477f81587486b01abd1b2637045c26d"
+    },
+    {
+      "id": "mermaid-js/mermaid",
+      "url": "https://github.com/mermaid-js/mermaid",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "46d72558156421f69b8b2d2af7d4525523e043d3",
+        "committed_at": "2026-07-24T10:52:35Z",
+        "tree": "0f94596119722246fe93702916bb910c5a80d6ec"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:0f94596119722246fe93702916bb910c5a80d6ec"
+    },
+    {
+      "id": "louislam/uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "1aa80912e73c17d525d232073c4c8d757f8e38ab",
+        "committed_at": "2026-07-24T14:33:38Z",
+        "tree": "cb943ca975016c3ea9a0847a27dd17d75c15827e"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:cb943ca975016c3ea9a0847a27dd17d75c15827e"
+    },
+    {
+      "id": "gohugoio/hugo",
+      "url": "https://github.com/gohugoio/hugo",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "f961093ea9f1669ea15f1e590a481a8d8282f6f7",
+        "committed_at": "2026-07-22T17:32:19Z",
+        "tree": "114dd1c085007845e32c2eb7c2bc459b955d7eec"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:114dd1c085007845e32c2eb7c2bc459b955d7eec"
+    },
+    {
+      "id": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "34dac209ffb6ef85cc78c5d217bbb7ad001d68fd",
+        "committed_at": "2026-06-26T16:48:16Z",
+        "tree": "a00a1aaf4244b385aa2ea22b4c2c3bb4d73a6a70"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:a00a1aaf4244b385aa2ea22b4c2c3bb4d73a6a70"
+    },
+    {
+      "id": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "6199a00d4c1b1127ebe45cb629c3f22538b10e13",
+        "committed_at": "2026-07-17T14:02:59Z",
+        "tree": "de6affd9b206a18050b0ea3bd9574c44a724ecc5"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:de6affd9b206a18050b0ea3bd9574c44a724ecc5"
+    },
+    {
+      "id": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "d31124c982401739917fd817c2a59db344529c16",
+        "committed_at": "2026-07-06T17:15:49Z",
+        "tree": "749952ee07834faea4119cb1132b0b836acde72d"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:749952ee07834faea4119cb1132b0b836acde72d"
+    },
+    {
+      "id": "ChatGPTNextWeb/NextChat",
+      "url": "https://github.com/ChatGPTNextWeb/NextChat",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "706a18b95b714ab29b2a4842d3b9ff4f887935d5",
+        "committed_at": "2026-07-06T06:19:02Z",
+        "tree": "47f188feffad6f95b4acc3989ff0bebaa8d0142c"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:47f188feffad6f95b4acc3989ff0bebaa8d0142c"
+    },
+    {
+      "id": "django/django",
+      "url": "https://github.com/django/django",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "957d0cee7167757ae221ffde59d2cf0a322e89c7",
+        "committed_at": "2026-07-24T18:52:40Z",
+        "tree": "7b045d2167892dfb2b562509c4dd4c46148a6354"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:7b045d2167892dfb2b562509c4dd4c46148a6354"
+    },
+    {
+      "id": "sveltejs/svelte",
+      "url": "https://github.com/sveltejs/svelte",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "44a7813730579b94004e182e5a67aab27aa9d2a6",
+        "committed_at": "2026-07-24T22:04:41Z",
+        "tree": "63390158bfe8f997c474e35215a4fa627194c229"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:63390158bfe8f997c474e35215a4fa627194c229"
+    },
+    {
+      "id": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "007981b6260cda6d8ebd5bf0c3fb9dd7e4ee87b6",
+        "committed_at": "2026-07-24T23:40:53Z",
+        "tree": "e05e1e05a94623aab6564f98a8b875bbe686e3a9"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:e05e1e05a94623aab6564f98a8b875bbe686e3a9"
+    },
+    {
+      "id": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "132b46343e60ecf4057c427736c57b08f7615dfe",
+        "committed_at": "2026-07-23T22:47:35Z",
+        "tree": "771159a732d9bd930fe7e814e34e735fa3b86590"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:771159a732d9bd930fe7e814e34e735fa3b86590"
+    },
+    {
+      "id": "Stirling-Tools/Stirling-PDF",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "3813ca360ea0e146379c477c6d13b48f689773c6",
+        "committed_at": "2026-07-24T12:53:16Z",
+        "tree": "e8bd88a320dee69fbb69ea737283ffb7a8cf842d"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:e8bd88a320dee69fbb69ea737283ffb7a8cf842d"
+    },
+    {
+      "id": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "d23aaeebeafd509ff089cc822edd64ccce585181",
+        "committed_at": "2026-07-24T22:54:30Z",
+        "tree": "fba5bb363c075e49136a17160aa5e2b9b862531d"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:fba5bb363c075e49136a17160aa5e2b9b862531d"
+    },
+    {
+      "id": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "206068dc7842665130c87e16e1535572d3d1a907",
+        "committed_at": "2026-05-09T12:06:34Z",
+        "tree": "67b3ccdbae79ae2f0e9734a6fa462afc211fa4eb"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:67b3ccdbae79ae2f0e9734a6fa462afc211fa4eb"
+    },
+    {
+      "id": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "977f7901439b80141ef5f29b8b928eb751ab51e0",
+        "committed_at": "2026-07-24T06:09:47Z",
+        "tree": "af6425b576d148cd2041e42c437a6921f131ce8b"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:af6425b576d148cd2041e42c437a6921f131ce8b"
+    },
+    {
+      "id": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "213f681f8117b9026ca8189583d2855d70104401",
+        "committed_at": "2026-07-24T23:04:59Z",
+        "tree": "9b9d25a5c8ec82174c6eb9f09ea7b7ccc6ae3075"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:9b9d25a5c8ec82174c6eb9f09ea7b7ccc6ae3075"
+    },
+    {
+      "id": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "66d8110a534b52df3d660b5fda5aa5461a6b667a",
+        "committed_at": "2026-07-24T23:09:40Z",
+        "tree": "4ec91b62bcc0fce3fffe7f3a73b763cac8d664f0"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:4ec91b62bcc0fce3fffe7f3a73b763cac8d664f0"
+    },
+    {
+      "id": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+        "committed_at": "2026-07-22T11:58:12Z",
+        "tree": "099081756acf84074cd40d77196592347e74105c"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:099081756acf84074cd40d77196592347e74105c"
+    },
+    {
+      "id": "localsend/localsend",
+      "url": "https://github.com/localsend/localsend",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "c92866b5be7f7834b0b604661f7db3ca027dd37e",
+        "committed_at": "2026-07-21T02:05:07Z",
+        "tree": "d1370f224ec1885c9046dc8cd8e53b9e14a6f0cf"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:d1370f224ec1885c9046dc8cd8e53b9e14a6f0cf"
+    },
+    {
+      "id": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "f4646d4a13729014ff67763b142ee1ac71eb25c8",
+        "committed_at": "2026-07-24T14:50:49Z",
+        "tree": "6ca38b600e728bd16928a76c940b1454d06c0cff"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:6ca38b600e728bd16928a76c940b1454d06c0cff"
+    },
+    {
+      "id": "laravel/laravel",
+      "url": "https://github.com/laravel/laravel",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "2eb457783ee0e1f034612c2fae690924532d4ca4",
+        "committed_at": "2026-07-16T14:43:41Z",
+        "tree": "7efa1d7e3d84e9b1be3d5a8e0d26385c98d690f8"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:7efa1d7e3d84e9b1be3d5a8e0d26385c98d690f8"
+    },
+    {
+      "id": "realworld-apps/realworld",
+      "url": "https://github.com/realworld-apps/realworld",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "98f29fb3f8bcb1dd614b91f2851371bf22c34775",
+        "committed_at": "2026-06-15T22:56:00Z",
+        "tree": "8888fb889ee4e2e865ce183bb85608061e15c768"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:8888fb889ee4e2e865ce183bb85608061e15c768"
+    },
+    {
+      "id": "pewdiepie-archdaemon/odysseus",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "d8a2059df8e53bc7275c45339849d14c8651e73c",
+        "committed_at": "2026-07-23T14:49:02Z",
+        "tree": "caf52ca15b83640274db148f4b65134edcddda60"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:caf52ca15b83640274db148f4b65134edcddda60"
+    },
+    {
+      "id": "vitejs/vite",
+      "url": "https://github.com/vitejs/vite",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "3ac77d9dd742968961af38a5a91ed6b061ceda7d",
+        "committed_at": "2026-07-24T10:18:06Z",
+        "tree": "9071787e25dcac38617aa42e98a4706996dda35f"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:9071787e25dcac38617aa42e98a4706996dda35f"
+    },
+    {
+      "id": "tonsky/FiraCode",
+      "url": "https://github.com/tonsky/FiraCode",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "727682c24c33fb0bbc7ab0ed9b7a8d0d9745a198",
+        "committed_at": "2026-05-18T16:18:53Z",
+        "tree": "4afb1535bf9d5f672c4b0d1b97e3bcecb143c013"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:4afb1535bf9d5f672c4b0d1b97e3bcecb143c013"
+    },
+    {
+      "id": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "0efef298d2a47cf757d6deedaa804ecc0515bb28",
+        "committed_at": "2026-07-24T12:38:18Z",
+        "tree": "043d1fe1ae8dcd8255f0300a9a130551e4d79792"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:043d1fe1ae8dcd8255f0300a9a130551e4d79792"
+    },
+    {
+      "id": "spring-projects/spring-boot",
+      "url": "https://github.com/spring-projects/spring-boot",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "07f80348a576303eadda3e923593c89a818c8b48",
+        "committed_at": "2026-07-24T13:57:23Z",
+        "tree": "4c97a1f944bf76994e611881644b651feb276c19"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:4c97a1f944bf76994e611881644b651feb276c19"
+    },
+    {
+      "id": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "652503005093d18d1b2f48816c91d62e93f45970",
+        "committed_at": "2026-07-24T19:40:27Z",
+        "tree": "50d7b9fd62a7f7a134a92d33ca171ec4d94d5073"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:50d7b9fd62a7f7a134a92d33ca171ec4d94d5073"
+    },
+    {
+      "id": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "a5b4477a20cbede19c381f72e68abc7a4176537a",
+        "committed_at": "2026-07-23T16:07:56Z",
+        "tree": "596f2b7d4171c60668009c387fdd22e923b4a20a"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:596f2b7d4171c60668009c387fdd22e923b4a20a"
+    },
+    {
+      "id": "lobehub/lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "407da050ca481d250bc2fd28d7cc7be2d4e83010",
+        "committed_at": "2026-07-24T23:53:26Z",
+        "tree": "0b1af5e837ceb2767bd5a675746dd1efa7516a91"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:0b1af5e837ceb2767bd5a675746dd1efa7516a91"
+    },
+    {
+      "id": "hoppscotch/hoppscotch",
+      "url": "https://github.com/hoppscotch/hoppscotch",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "a4395b3e7c41541de1d769e8701ea110ba8f96c2",
+        "committed_at": "2026-07-15T16:15:18Z",
+        "tree": "392a092f55c15c7ffb3ce30bf657ba2255a17f40"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:392a092f55c15c7ffb3ce30bf657ba2255a17f40"
+    },
+    {
+      "id": "anuraghazra/github-readme-stats",
+      "url": "https://github.com/anuraghazra/github-readme-stats",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "54a7985aeefda00d5eadb55b80c17c7f976c37d2",
+        "committed_at": "2026-06-30T08:16:49Z",
+        "tree": "605cfba25df416dab73795ab5019840a640ce4ea"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:605cfba25df416dab73795ab5019840a640ce4ea"
+    },
+    {
+      "id": "doocs/advanced-java",
+      "url": "https://github.com/doocs/advanced-java",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "1659850d7de4739ac9394dddd6c68466a8c38761",
+        "committed_at": "2026-06-25T02:21:16Z",
+        "tree": "ed638cf4640a32e32e2fed10d5d8030647aab849"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:ed638cf4640a32e32e2fed10d5d8030647aab849"
+    },
+    {
+      "id": "coder/code-server",
+      "url": "https://github.com/coder/code-server",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "14bdb36f9217671bff9e9389f812c9ac9de575c0",
+        "committed_at": "2026-07-24T00:18:12Z",
+        "tree": "9fa38cdd45ac8848cd1beb1c6841820a429850db"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:9fa38cdd45ac8848cd1beb1c6841820a429850db"
+    },
+    {
+      "id": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "01a51bbca6d0c7a20696aeef9ed92b143e26b10c",
+        "committed_at": "2026-03-15T14:33:08Z",
+        "tree": "695199e74e8f9ee8ddd560638ad4c84e9c08a2af"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:695199e74e8f9ee8ddd560638ad4c84e9c08a2af"
+    },
+    {
+      "id": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "ff2df4c07e7836a092ed28e1e9b42f4d6009280c",
+        "committed_at": "2026-07-24T09:04:23Z",
+        "tree": "36876efd1595ee7ff6c487d579b14d7bca68c4a3"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:36876efd1595ee7ff6c487d579b14d7bca68c4a3"
+    },
+    {
+      "id": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "99c13e083e070f44aaa0009b2fc96589118c2a9a",
+        "committed_at": "2026-07-24T09:14:00Z",
+        "tree": "3418ea63ecf5a3c844fb8dd36c6da8549a26dc1f"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:3418ea63ecf5a3c844fb8dd36c6da8549a26dc1f"
+    },
+    {
+      "id": "ventoy/Ventoy",
+      "url": "https://github.com/ventoy/Ventoy",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "7cbdc5cf69935bcf1f085ae67f40e70ea7e74bae",
+        "committed_at": "2026-07-24T12:56:41Z",
+        "tree": "173e0dfc3380501647cb420e1218a9631b3d7b4d"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:173e0dfc3380501647cb420e1218a9631b3d7b4d"
+    },
+    {
+      "id": "tensorflow/models",
+      "url": "https://github.com/tensorflow/models",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "4d7bdd8c170ee90850f2f9ccef0f6d19b817de35",
+        "committed_at": "2026-07-23T20:59:20Z",
+        "tree": "ec8996a2b5ce3f4f81f6036ad54f0af0644fef40"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:ec8996a2b5ce3f4f81f6036ad54f0af0644fef40"
+    },
+    {
+      "id": "elastic/elasticsearch",
+      "url": "https://github.com/elastic/elasticsearch",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "4e9c8e970b3e8523a510a991403a381f5e79172e",
+        "committed_at": "2026-07-24T20:19:22Z",
+        "tree": "53549ddb75cf9251bae92c317bfef0f3fc6e1316"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:53549ddb75cf9251bae92c317bfef0f3fc6e1316"
+    },
+    {
+      "id": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "16b612cfcfda48e302ca6ddb5905a0282f854873",
+        "committed_at": "2026-07-24T14:49:52Z",
+        "tree": "3dbd756c3d87bc84134afcdf440d31c569f58093"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:3dbd756c3d87bc84134afcdf440d31c569f58093"
+    },
+    {
+      "id": "nestjs/nest",
+      "url": "https://github.com/nestjs/nest",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "d8ee0143bdd76b2e81b460a196c15a9387b73ee2",
+        "committed_at": "2026-07-24T06:16:38Z",
+        "tree": "0c18c9e8b7de8e8c9630b432035393e31e94c73b"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:0c18c9e8b7de8e8c9630b432035393e31e94c73b"
+    },
+    {
+      "id": "typicode/json-server",
+      "url": "https://github.com/typicode/json-server",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "89a34a44b7a6a5311dc84f3b8a1b8b45c0905aea",
+        "committed_at": "2026-03-23T19:39:28Z",
+        "tree": "d305d02f13ab51efaa9af089c65881f276a5e97f"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:d305d02f13ab51efaa9af089c65881f276a5e97f"
+    },
+    {
+      "id": "grafana/grafana",
+      "url": "https://github.com/grafana/grafana",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "ade9476f849d6f649c7fcc7614ab4d979311094c",
+        "committed_at": "2026-07-24T22:58:26Z",
+        "tree": "7f08b658e4de8f59c72e2ef2b8ab21673594426a"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:7f08b658e4de8f59c72e2ef2b8ab21673594426a"
+    },
+    {
+      "id": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "b53f65d9b471ee264293976805ad6c896171e3ed",
+        "committed_at": "2026-07-24T08:07:26Z",
+        "tree": "1f43c1de1a550447ff6842beed016c927a063444"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:1f43c1de1a550447ff6842beed016c927a063444"
+    },
+    {
+      "id": "openai/openai-cookbook",
+      "url": "https://github.com/openai/openai-cookbook",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "e65bbfc454036e38e27c863c13ff3b3996daed87",
+        "committed_at": "2026-07-21T21:49:08Z",
+        "tree": "675785c47c855cb4f644c992b5756f47545e733e"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:675785c47c855cb4f644c992b5756f47545e733e"
+    },
+    {
+      "id": "ocornut/imgui",
+      "url": "https://github.com/ocornut/imgui",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "d94d0f3649c99d9a026518214f796aaacde707fe",
+        "committed_at": "2026-07-23T16:56:53Z",
+        "tree": "1befc4366cd64ccabfc7714ed029a51d655b6f8c"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:1befc4366cd64ccabfc7714ed029a51d655b6f8c"
+    },
+    {
+      "id": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "79d6d8d79fb8f3ddba5cc34c07a16f0ec36f56c7",
+        "committed_at": "2026-07-10T11:51:49Z",
+        "tree": "e81ab44bb33fddf7f0405cc43aa29740bbdc31f0"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:e81ab44bb33fddf7f0405cc43aa29740bbdc31f0"
+    },
+    {
+      "id": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "31daa220fcba80c7ed7ea636e7f04c568c8cccf8",
+        "committed_at": "2026-07-21T22:39:33Z",
+        "tree": "ae04cfa756c99c5778ea91f3bd57af4bda0e5ea8"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:ae04cfa756c99c5778ea91f3bd57af4bda0e5ea8"
+    },
+    {
+      "id": "Egonex-AI/Understand-Anything",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "6ae71878beb50226a1e4b7e2f52ac6468c86f74b",
+        "committed_at": "2026-07-21T07:28:40Z",
+        "tree": "bb6894af3124cba7b3a70f9d050ddb96a9205338"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:bb6894af3124cba7b3a70f9d050ddb96a9205338"
+    },
+    {
+      "id": "unionlabs/union",
+      "url": "https://github.com/unionlabs/union",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "773eb5d3e7682680539a49986a8e63ffb00898eb",
+        "committed_at": "2026-07-17T13:25:04Z",
+        "tree": "bed371bc379e8d97df5af1a9d62cd23a2dd1c0f2"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:bed371bc379e8d97df5af1a9d62cd23a2dd1c0f2"
+    },
+    {
+      "id": "obsproject/obs-studio",
+      "url": "https://github.com/obsproject/obs-studio",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "0052d024fd6a5ff1aa04c76cbdffd3085a5dfacc",
+        "committed_at": "2026-07-24T21:49:25Z",
+        "tree": "5054109455c24a33d17f5ad6e22bb01cb85c7fc0"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:5054109455c24a33d17f5ad6e22bb01cb85c7fc0"
+    },
+    {
+      "id": "apache/superset",
+      "url": "https://github.com/apache/superset",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "8c37d627aa9c8351e7e60611cd3e1219495bb830",
+        "committed_at": "2026-07-24T23:17:25Z",
+        "tree": "3819a672acb50835fdc95071d4286f278a9e353a"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:3819a672acb50835fdc95071d4286f278a9e353a"
+    },
+    {
+      "id": "python/cpython",
+      "url": "https://github.com/python/cpython",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "59e67c284d3e8dcb708e473cfca02b1307c9cd0a",
+        "committed_at": "2026-07-24T23:40:32Z",
+        "tree": "90abe138d0d9f4c20ced2a0f115092ea1f85aee8"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:90abe138d0d9f4c20ced2a0f115092ea1f85aee8"
+    },
+    {
+      "id": "AppFlowy-IO/AppFlowy",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "5cf3a365dec0d59f64bad1ee4bb1050471a39b93",
+        "committed_at": "2026-06-26T02:35:45Z",
+        "tree": "d5587a980231fed193fd999c02ce0b26dc0c59af"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:d5587a980231fed193fd999c02ce0b26dc0c59af"
+    },
+    {
+      "id": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "cca2806e57c272ed919b1cde224d3d2a23d2f668",
+        "committed_at": "2026-07-24T23:29:47Z",
+        "tree": "3f147aaf0c1e4190c45cba2437cc6c8e5de167be"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:3f147aaf0c1e4190c45cba2437cc6c8e5de167be"
+    },
+    {
+      "id": "hiyouga/LlamaFactory",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "2ebe7be6116e13ccb5be38f468dcd8cd8a07a051",
+        "committed_at": "2026-07-24T08:29:58Z",
+        "tree": "b08b9a7644dfb449b8cda5c4aadaecda4b2610f0"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:b08b9a7644dfb449b8cda5c4aadaecda4b2610f0"
+    },
+    {
+      "id": "Eugeny/tabby",
+      "url": "https://github.com/Eugeny/tabby",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "14e2d60b9b6dee84a53c37f05eefeb803787de04",
+        "committed_at": "2026-07-13T08:57:23Z",
+        "tree": "e5d6c802d3dfcb3594c648a4ca44c7ffca6ec3c8"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:e5d6c802d3dfcb3594c648a4ca44c7ffca6ec3c8"
+    },
+    {
+      "id": "thedaviddias/Front-End-Checklist",
+      "url": "https://github.com/thedaviddias/Front-End-Checklist",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "48405aaf57886e621f5fe0957d66e38669cba3cc",
+        "committed_at": "2026-06-18T03:45:25Z",
+        "tree": "e1033bc25462461620d7141fe58f0b999a7a7c74"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:e1033bc25462461620d7141fe58f0b999a7a7c74"
+    },
+    {
+      "id": "strapi/strapi",
+      "url": "https://github.com/strapi/strapi",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "344c0a1e6ad1f6ddc9f85b45d540031bd57c3f6e",
+        "committed_at": "2026-07-24T15:30:28Z",
+        "tree": "e99db0fb2016313ca35c9e8652c2c16c03713917"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:e99db0fb2016313ca35c9e8652c2c16c03713917"
+    },
+    {
+      "id": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "7e801521428ee12509994d39151006f64055ebe3",
+        "committed_at": "2026-07-15T08:24:13Z",
+        "tree": "7e693bc84b184006f94cd878c5a2d68baed20def"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:7e693bc84b184006f94cd878c5a2d68baed20def"
+    },
+    {
+      "id": "danielmiessler/SecLists",
+      "url": "https://github.com/danielmiessler/SecLists",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "ffb381d7be6609812f6014de46251537cf8e9ff8",
+        "committed_at": "2026-07-24T10:45:42Z",
+        "tree": "1baf64ff1a54c2a09dbb75ef255d1cb4366dc4e9"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:1baf64ff1a54c2a09dbb75ef255d1cb4366dc4e9"
+    },
+    {
+      "id": "hakimel/reveal.js",
+      "url": "https://github.com/hakimel/reveal.js",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "a3b940695648aa1c5b0680bc9a5b905cf43020e5",
+        "committed_at": "2026-05-21T19:20:15Z",
+        "tree": "ee8692e1f30e61ef2ab1782da90bf1e0433c6fa5"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:ee8692e1f30e61ef2ab1782da90bf1e0433c6fa5"
+    },
+    {
+      "id": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "7a4a06cc8976c8001160942e66d688cf91f8d633",
+        "committed_at": "2026-07-24T18:32:59Z",
+        "tree": "3a01ff31fd97ef7765daa9ef918b60fdced415a2"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:3a01ff31fd97ef7765daa9ef918b60fdced415a2"
+    },
+    {
+      "id": "pallets/flask",
+      "url": "https://github.com/pallets/flask",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "36e4a824f340fdee7ed50937ba8e7f6bc7d17f81",
+        "committed_at": "2026-05-31T14:42:46Z",
+        "tree": "ad6f20e03ec7f7229e1d05b7c14d10b2c67e467e"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:ad6f20e03ec7f7229e1d05b7c14d10b2c67e467e"
+    },
+    {
+      "id": "protocolbuffers/protobuf",
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "44fa35f8607515ce7172ed7e96829cd7e45a71f7",
+        "committed_at": "2026-07-24T23:57:59Z",
+        "tree": "14d5709bcd3714479b2c95bfae685981e432f79d"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:14d5709bcd3714479b2c95bfae685981e432f79d"
+    },
+    {
+      "id": "binary-husky/gpt_academic",
+      "url": "https://github.com/binary-husky/gpt_academic",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "d6bde0fa54373309bd05823a49bda8da019d2c77",
+        "committed_at": "2026-01-25T12:32:44Z",
+        "tree": "65facb547ca28c64b878805ff5de8782c2a1bd29"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:65facb547ca28c64b878805ff5de8782c2a1bd29"
+    },
+    {
+      "id": "nektos/act",
+      "url": "https://github.com/nektos/act",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "4f411281417e88660bea1c1a1749aa71ae0bd60f",
+        "committed_at": "2026-06-01T03:17:32Z",
+        "tree": "18392d0166abda17ed2b949990f7cc8b0c3ff9d0"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:18392d0166abda17ed2b949990f7cc8b0c3ff9d0"
+    },
+    {
+      "id": "juliangarnier/anime",
+      "url": "https://github.com/juliangarnier/anime",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "2c9cf8ea00329f6768c7d7902252ed977d75ce42",
+        "committed_at": "2026-06-22T14:37:19Z",
+        "tree": "1511dce2d3e54de4c9c9cbfdb1d1dff2248d2c98"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:1511dce2d3e54de4c9c9cbfdb1d1dff2248d2c98"
+    },
+    {
+      "id": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "bee2178ad2308d3d697f6c5e759af6374a921528",
+        "committed_at": "2026-07-24T18:13:49Z",
+        "tree": "f67cc7bfff04696907e7ec978506e96e00e6ba6b"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:f67cc7bfff04696907e7ec978506e96e00e6ba6b"
+    },
+    {
+      "id": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "8eef62ed3ea62d646a7fad92fa583fc8d71fec17",
+        "committed_at": "2026-07-24T19:05:08Z",
+        "tree": "58a3220e0c0b329a3e10d7b8590933a16d92d8a0"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:58a3220e0c0b329a3e10d7b8590933a16d92d8a0"
+    },
+    {
+      "id": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "817766af27129d6e88aa4d895ce55c9f1526faec",
+        "committed_at": "2026-07-24T16:28:49Z",
+        "tree": "47f5465d2d1355bc0562d252259502dde901c31f"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:47f5465d2d1355bc0562d252259502dde901c31f"
+    },
+    {
+      "id": "toeverything/AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "0d889bc643f67f420cb0b9d3618798ba088365a3",
+        "committed_at": "2026-07-23T15:25:55Z",
+        "tree": "08a046e8e5573bf123cf114cd177dc202cf76bf6"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:08a046e8e5573bf123cf114cd177dc202cf76bf6"
+    },
+    {
+      "id": "swiftlang/swift",
+      "url": "https://github.com/swiftlang/swift",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "84b22795934ad5d74f3f660b1e56a88e8e2896bf",
+        "committed_at": "2026-07-24T23:11:01Z",
+        "tree": "aa797f29ca3667b6ff31fcac2a337bc216a915f6"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:aa797f29ca3667b6ff31fcac2a337bc216a915f6"
+    },
+    {
+      "id": "ansible/ansible",
+      "url": "https://github.com/ansible/ansible",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "76884711a617bfe59b417df11fbfc42016c99de8",
+        "committed_at": "2026-07-24T18:51:56Z",
+        "tree": "b334987217673609e6b4d62f99f6a46eff6acfae"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:b334987217673609e6b4d62f99f6a46eff6acfae"
+    },
+    {
+      "id": "FoundationAgents/MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "role": "target",
+      "label": "unlabeled",
+      "languages": [
+        "Python",
+        "Go"
+      ],
+      "snapshot": {
+        "commit": "11cdf466d042aece04fc6cfd13b28e1a70341b1f",
+        "committed_at": "2026-01-21T10:12:32Z",
+        "tree": "96a0f71eba483ac892e995c65e5e3158b7c835b6"
+      },
+      "effective_date_range": [
+        "2024-01-01T00:00:00Z",
+        "2026-07-24T23:59:59Z"
+      ],
+      "excluded_paths": [
+        "vendored",
+        "generated",
+        "minified",
+        "fixture_snapshots",
+        "lockfiles",
+        "machine_translated"
+      ],
+      "content_checksum": "git-tree-sha1:96a0f71eba483ac892e995c65e5e3158b7c835b6"
+    }
+  ],
+  "unresolved": []
+}

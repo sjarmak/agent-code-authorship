@@ -1,0 +1,30 @@
+{
+  "decision_version": 2,
+  "recorded_at": "2026-07-25",
+  "decision": "no_external_maintainer_outreach",
+  "scope": "all frozen contemporary human-reference candidates",
+  "candidate_frame_sha256": "8591ebac1c0ac17bac883829e2e02c5b7fb8b4248be86c50308c3e6bbe4769ed",
+  "consequences": {
+    "candidate_ledger_status": "frozen_without_solicitation",
+    "infer_labels_from_non_solicitation": false,
+    "contemporary_human_attestations_acquired": 0,
+    "primary_identification_precondition_can_pass": false,
+    "required_result": "revised_non_identification"
+  },
+  "agent_provenance_statement": {
+    "statement": "we know the gascity gastown ones are agent generated",
+    "conservative_repository_interpretation": [
+      "gastownhall/gascity",
+      "gastownhall/gastown"
+    ],
+    "not_inferred_to_cover": [
+      "gastownhall/gascity-packs",
+      "gastownhall/wasteland",
+      "gastownhall/tmux-adapter"
+    ],
+    "admission": {
+      "gastownhall/gascity": "already admitted under the pinned v1 Tier-1 entire-history attestation",
+      "gastownhall/gastown": "known agent-generated but not newly admitted because this statement does not pin an exact commit or explicitly state entire-history-through-cutoff scope"
+    }
+  }
+}

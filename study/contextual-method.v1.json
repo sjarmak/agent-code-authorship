@@ -1,0 +1,42 @@
+{
+  "artifact": "contextual-method",
+  "version": 1,
+  "frozen_at": "2026-07-25",
+  "label": "non_agent_attributed",
+  "forbidden_label": "human",
+  "role": "secondary_context_only",
+  "matching": {
+    "exact": [
+      "repository",
+      "language",
+      "file_type"
+    ],
+    "code_age_proxy": "absolute_default_branch_landing_date_difference_days",
+    "maximum_date_difference_days": 90,
+    "change_size": "nonblank_nonvendored_added_lines",
+    "maximum_size_ratio": 4.0,
+    "cost": "date_difference_days_div_90_plus_absolute_log2_size_ratio",
+    "reuse": "without_replacement",
+    "target_order": "sha256_repository_source_commit_pr_number",
+    "tie_break": "context_commit_sha",
+    "oversized_context": "deterministic_hash_subsample_to_target_line_count",
+    "undersized_context": "retain_all_within_size_caliper",
+    "unmatched": "explicit"
+  },
+  "exclusions": [
+    "all_agent_attributed_first_parent_landing_commits",
+    "vendored_or_generated_paths",
+    "blank_lines",
+    "post_cutoff_commits"
+  ],
+  "lineage": {
+    "horizons_days": [
+      30,
+      90,
+      180,
+      365
+    ],
+    "cutoff": "2026-07-24T23:59:59Z",
+    "pipeline": "same_as_agent_attributed_cohort"
+  }
+}
