@@ -1,179 +1,129 @@
-# agent-code-authorship
+# Agent code authorship
 
-Estimating how much of a codebase was written by coding agents, when almost none
-of it says so.
+An open research project measuring what repository history can—and cannot—tell
+us about code written with coding agents.
 
-A commit trailer (`Co-Authored-By: Claude`, `copilot-swe-agent`, and friends)
-can tie a change to an agent. It only sees work whose provenance was preserved,
-so it provides visible positives rather than a prevalence denominator. The
-current Sourcegraph-backed catalog contains 155 provenance-positive commits in
-155 repositories from a frozen frame of 302 repositories, 296 of them indexed
-and accessible at their pinned revisions.
+The study combines public agent-provenance signals with Sourcegraph's indexed
+Git history. It follows known agent-attributed lines after they land in
+established open-source repositories, while keeping unsupported prevalence and
+quality claims explicitly unavailable.
 
-**The current population share is not identified.** The contemporary control
-and era-adjustment gates do not support a defensible estimate of what share of
-all open-source commits or code at HEAD is agent-written. The repository keeps
-that result unavailable instead of substituting an exploratory style proxy.
+## Read the investigation
 
-What the data does identify is durability. In a separate 96-repository cohort
-covering 656,070 agent-attributed Go and Python lines, the
-repository-balanced estimate finds **90.2% surviving at 365 days**, including
-**84.9% unchanged**. Those figures describe known agent-attributed code after it
-lands, not how much of open source agents wrote.
+The self-contained article and its script-free figures are available at
+[`results/agent-code-authorship-sourcegraph.html`](results/agent-code-authorship-sourcegraph.html).
+It can be downloaded and opened directly in any modern browser.
 
-The current rendered investigation, including the Sourcegraph study and charts,
-is in [`results/agent-code-authorship-sourcegraph.html`](results/agent-code-authorship-sourcegraph.html).
+## Current result
 
-## Why a naive fingerprint does not work
+**The current population share is not identified.** Public provenance signals
+find known positives, but they do not supply the contemporary human denominator
+needed to estimate how much of all open-source code is agent-written.
 
-Train a classifier to separate trailer-signed code from pre-2023 code and it
-scores AUC 0.75. That looks like a fingerprint until you read the coefficients.
-The heaviest weight, standardized −4.56, is trailing whitespace. Pre-2023 code has
-it and modern code does not, because formatters took over. What the model learned
-is when a line was written.
+Durability is identifiable in a separate frozen cohort:
 
-Run the harder test instead. Trailer-signed against unsigned code, same
-repositories, same era, and it collapses to AUC 0.52. Within the modern era the
-two are stylistically indistinguishable. Two very different worlds produce that
-result: style says nothing about authorship, or unsigned code is largely
-agent-written too. No amount of modelling separates them, because the cohort
-contains no modern code that is *known* to be human.
+- 656,070 agent-attributed Go and Python lines across 96 repositories
+- 90.2% estimated to survive at 365 days
+- 84.9% estimated to remain unchanged at 365 days
+- separate estimates for Claude Code, Codex, GitHub Copilot, and Cursor
 
-## The control group
+These numbers describe known agent-attributed code after it lands. They are not
+an estimate of agent-written code's share of open source, and deletion is not a
+revert or a quality judgment.
 
-There is a population of projects whose contribution policy rejects
-AI-generated code. Their post-2024 commits are modern code the project asserts is
-human-written, which is the missing class exactly. `corpus/control.py` gathers it
-from 17 such projects and will not take a project's status on trust. It greps
-each repository for its own policy language and records the quote in
-[`data/control_evidence.json`](data/control_evidence.json). A project whose
-policy cannot be located in its own tree is dropped.
+## Why prevalence remains unavailable
 
-Six candidates were dropped that way. The instructive one is Telegraf, whose
-policy *permits* AI-generated contributions subject to disclosure. Treating its
-code as human would have quietly poisoned the control group.
+Commit trailers and other preserved provenance establish high-confidence agent
+examples, but most assisted work is unlabeled. Treating unlabeled modern code as
+human would build the answer into the control group.
 
-Read the control group as a proxy rather than a guarantee. A policy is not
-enforcement, and any agent code that slipped past one raises the measured false
-positive rate, which lowers the estimate. The bias runs toward understatement.
-It is still a bias.
+The repository includes experiments with stylistic classifiers and
+era-adjusted controls. Their identification gates reject a population estimate:
+a model can distinguish old from new code without learning authorship, and the
+available modern controls do not resolve that ambiguity. The published article
+reports the boundary instead of substituting a style proxy.
 
-## What the fingerprint reads
+## Repository map
 
-Every surviving signal concerns comments rather than code structure. Agents write
-comments as sentences (longer, capitalized, ending in a period) and attach
-docstrings that modern human Python has largely stopped writing, appearing in 69%
-of agent hunks against 10–34% across the four Python control projects
-individually. Comment *density* runs the other way and is pure era drift, having
-collapsed industry-wide after 2023.
-
-`signals.py` scores every feature on whether modern humans already moved to where
-agent code sits, so a feature that merely dates code cannot be mistaken for one
-that attributes it.
-
-## Method
-
-- **Unit**: a blame hunk, meaning a contiguous run of lines at HEAD from one
-  introducing commit, minimum 6 lines. Every statistic is line-weighted.
-- **Features**: 46 style measures, all rates rather than counts, in
-  `features.py`. Language indicators are carried as controls and excluded from
-  reporting.
-- **Model**: L2 logistic regression fit by Newton-Raphson in numpy
-  (`logreg.py`). Deliberately weak, because the argument rests on identification
-  rather than capacity, and inspectable coefficients are how the
-  trailing-whitespace problem was caught.
-- **Validation**: repo-grouped 5-fold CV throughout. No repository appears in
-  both training and test, and unlabeled hunks are scored by a fold model that
-  never saw their repository. External check: a model trained only on
-  trailer-signed code versus the control group scores an independent
-  confirmed-agent corpus at 0.97 mean.
-- **Quantification**: the classifier answers what share of a population is
-  positive rather than which items are, via
-  `p = (observed − FPR) / (TPR − FPR)`, line-weighted, per language.
-- **Two human references**: the control group, and the cohort's own pre-2023
-  code. The second absorbs house style but also era drift, so it overstates the
-  false positive rate and understates the answer. Both are reported.
-- **Placebo**: hand the estimator pre-2023 Python as if its authorship were
-  unknown. The control-referenced specification returns 36% agent-written for
-  code that predates the tools. That is its error floor, and why the reported
-  range starts where it does.
-- **Uncertainty**: bootstrap resamples repositories. Resampling hunks would give
-  a fake-narrow interval, since hunks within a repository are anything but
-  independent.
-- **Gates**: a language must clear AUC ≥ 0.60, TPR ≥ 0.20, FPR ≤ 0.80,
-  TPR − FPR ≥ 0.15, and three substantial repositories per side, or it is
-  reported as not identifiable.
-
-## What does not work
-
-| language | status |
+| Path | Contents |
 |---|---|
-| Python | identified: AUC 0.92 against the control group, 0.96 with vouched positives |
-| Rust | weak instrument: AUC 0.69, placebo error floor 50% |
-| TypeScript / JavaScript | **not identifiable**: AUC 0.41. 29% of the cohort's modern lines, and the largest hole here |
-| C, C++, Go, Java | too little trailer-signed code to label anything |
+| `authorship/` | Collection, validation, estimation, and rendering code |
+| `study/` | Frozen protocols, schemas, manifests, and study inputs |
+| `results/` | Compact result artifacts, figures, and the rendered article |
+| `corpora/` | Compressed feature records used by the earlier classifier work |
+| `data/` | Cohort definitions and control-policy evidence |
+| `tests/` | Unit, integration, artifact-contract, and browser tests |
 
-One high-precision tell from earlier work, the edit-elision comment an agent
-leaves behind (`// ...existing code...`), fired on none of the 141,112 hunks
-gathered here. Real, and far too rare to sample.
+Large raw Sourcegraph responses, local clones, caches, and agent-workspace
+metadata are intentionally excluded. The checked-in manifests and checksums
+document the inputs used by the published artifacts.
 
-## Layout
+## Reproduce the published article
 
-```
-authorship/
-  features.py      46 stylistic measures over a block of lines
-  logreg.py        logistic regression, weighted AUC, grouped folds
-  data.py          corpus loading; the four populations and three label sets
-  model.py         label sets, grouped CV, coefficients        -> results/model.json
-  estimate.py      era-referenced estimate + drift placebo     -> results/estimate.json
-  identify.py      per-language estimate vs the control group  -> results/identified.json
-  signals.py       feature audit + a classifier-free cross-check
-  sg.py            Sourcegraph blame access (the only network dependency)
-  trailers.py      the agent trailer patterns, listed openly
-  languages.py     extension map and what counts as vendored
-  corpus/
-    cohort.py      the repositories under study
-    own.py         vouched agent-positive ground truth
-    control.py     AI-banning projects, with policy evidence
-  report/          the write-up renderer
-data/              cohort manifest, control-group policy evidence
-corpora/           feature records, gzipped, load transparently
-results/           fitted coefficients, metrics, estimates
-```
-
-## Running it
+Python 3.12 is the reference runtime.
 
 ```sh
-pip install -r requirements.txt
+python3 -m venv .venv
+. .venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 -m authorship.build_v3_blog_post
 ```
 
-The committed corpora are enough to reproduce every number:
+The renderer uses the frozen JSON artifacts in `study/` and `results/`. If a
+neighboring Sourcegraph checkout contains the blog fonts, they are embedded;
+otherwise the output remains self-contained and uses system font fallbacks.
+
+Rebuild the standalone study figures with:
 
 ```sh
-python3 -m authorship.model                       # label sets, grouped CV, coefficients
-python3 -m authorship.identify --boots 400        # the identified per-language estimate
-python3 -m authorship.signals --lang Python       # feature audit + classifier-free check
-python3 -m authorship.report.page                 # render report.html
+python3 -m authorship.build_report_figures
 ```
 
-Re-gathering needs a Sourcegraph instance that indexes the cohort, which is what
-buys you blame over 150 repositories, plus `gh` and disk for the two local
-gatherers:
+## Validate
+
+Install the development dependencies and run the Python suite:
 
 ```sh
-export SRC_ENDPOINT=https://sourcegraph.example.com SRC_ACCESS_TOKEN=...
-python3 -m authorship.corpus.cohort --files 100
-python3 -m authorship.corpus.own --owner <github-user>
-python3 -m authorship.corpus.control --files 250   # ~2GB of shallow clones
+python3 -m pip install -r requirements-dev.txt
+python3 -m pytest -q
+python3 -m ruff check authorship tests
 ```
 
-`AUTHORSHIP_CACHE` relocates clones and shards. `AUTHORSHIP_FONT_CSS` supplies
-`@font-face` rules for the report; without it the page uses system faces, because
-no font binaries ship here.
+The browser checks cover responsive layout, navigation, runtime errors, and
+WCAG A/AA violations:
 
-## Scope
+```sh
+npm install
+npx playwright install chromium
+npm run test:e2e
+```
 
-Numbers here are estimates carrying a measured false positive rate. They are a
-different kind of claim from a trailer scan, where every match is a true positive
-and the number is a floor. Do not add them, average them, or put them on one
-axis.
+## Method at a glance
+
+- Agent attribution requires explicit, auditable provenance; ambiguous cases
+  remain unlabeled.
+- Survival follows lines from their introducing commit through later repository
+  states using indexed blame and Git history.
+- Estimates are repository-balanced so a handful of very large repositories do
+  not define the answer.
+- Bootstrap intervals resample repositories, preserving codebase-level
+  clustering.
+- Underpowered or mixed-evidence strata are reported as not identified.
+- Cohorts, revisions, schemas, and analysis gates are frozen before reporting.
+
+For artifact-level detail, see
+[`results/SOURCEGRAPH_STUDY_ASSETS.md`](results/SOURCEGRAPH_STUDY_ASSETS.md) and
+the protocols under [`study/`](study/).
+
+## Scope and interpretation
+
+The repository studies established public repositories and known
+agent-attributed code. It does not measure private code, unlabeled assistance,
+developer productivity, defect rates, or the causal effect of any coding agent.
+
+Prevalence, survival, reverts, and quality are different estimands. Do not add
+them, average them, or treat one as a proxy for another.
+
+## License
+
+Released under the [MIT License](LICENSE).

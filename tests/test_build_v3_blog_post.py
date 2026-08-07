@@ -218,6 +218,23 @@ class BuildV3BlogPostTests(unittest.TestCase):
                 }.issubset(audit.ids)
             )
 
+    def test_build_uses_system_fonts_when_sibling_checkout_is_absent(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "study.html"
+            missing_font_root = Path(directory) / "missing-fonts"
+
+            with patch(
+                "authorship.build_v3_blog_post._default_font_root",
+                return_value=missing_font_root,
+            ):
+                build(self.root, output)
+
+            html = output.read_text()
+
+        self.assertTrue(html.startswith("<!doctype html>"))
+        self.assertNotIn("@font-face", html)
+        self.assertIn("font-family: var(--font-sans)", html)
+
     def test_build_is_deterministic(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             first = Path(directory) / "first.html"

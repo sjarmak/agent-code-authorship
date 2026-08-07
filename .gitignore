@@ -1,6 +1,16 @@
 # Clones and shards: multi-gigabyte, always rebuildable
 .cache/
 
+# Local agent, task-tracking, and workspace state. These directories and
+# instruction files are useful in a working clone but are not project assets.
+/.agents/
+/.beads/
+/.claude/
+/.codex/
+/.dashboard/
+/AGENTS.md
+/CLAUDE.md
+
 # Uncompressed corpora. The gzipped copies are committed and load transparently;
 # a gatherer run writes the plain file, which then takes precedence.
 corpora/*.jsonl
@@ -14,6 +24,9 @@ __pycache__/
 .DS_Store
 *.swp
 .venv/
+node_modules/
+.pytest_cache/
+.ruff_cache/
 
 # Local verification outputs
 .coverage
@@ -34,8 +47,7 @@ results/sourcegraph-evidence-packets.pre-blame.v3.json
 results/sourcegraph-evidence-packets.v3.json
 results/sourcegraph-repository-cases-v3/
 
-# Beads / Dolt files (added by bd init)
+# Local database files
 .dolt/
 *.db
 .beads-credential-key
-.beads/proxieddb/

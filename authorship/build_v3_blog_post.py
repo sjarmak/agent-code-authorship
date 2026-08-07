@@ -57,11 +57,18 @@ def _default_font_root(root: Path) -> Path:
     return root.resolve().parent / "sourcegraph/cmd/docs/static/_docssvc/fonts"
 
 
+def _font_css(root: Path, font_root: Path | None) -> str:
+    resolved_root = font_root or _default_font_root(root)
+    if font_root is None and not resolved_root.is_dir():
+        return ""
+    return embedded_sourcegraph_font_css(resolved_root)
+
+
 def build(root: Path, output: Path, font_root: Path | None = None) -> None:
     """Build the article from frozen study artifacts under ``root``."""
     html = render_html(
         summary=_load_summary(root),
-        font_css=embedded_sourcegraph_font_css(font_root or _default_font_root(root)),
+        font_css=_font_css(root, font_root),
     )
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(html)

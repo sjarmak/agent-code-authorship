@@ -1,0 +1,17 @@
+{
+  "name": "agent-code-authorship",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser validation for the agent code authorship research article.",
+  "license": "MIT",
+  "scripts": {
+    "test:e2e": "playwright test tests/e2e_v3_blog.spec.js"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.12.1",
+    "@playwright/test": "1.62.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
