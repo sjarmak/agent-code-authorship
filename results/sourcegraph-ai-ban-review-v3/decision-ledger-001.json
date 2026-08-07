@@ -1,0 +1,304 @@
+{
+  "$schema": "sourcegraph-ai-ban-decision-ledger.schema.json",
+  "decision_count": 14,
+  "decision_ledger_sha256": "217ab8fdb371543776167ca98d1314e838ef0732fa00145e81e84c80ae800fd1",
+  "decision_ledger_version": 3,
+  "decisions": [
+    {
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "event_id": "57d6f21a90f98c1b9d7b42ba950fef920a71174cc810c306d68af73aa3709814",
+      "evidence_citations": [
+        "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/README.md#L1541",
+        "https://github.com/yt-dlp/yt-dlp/commit/ae6a1b95857c7ba1392e37be99b9ee2b66b14b1d"
+      ],
+      "evidence_tier": "not_applicable",
+      "outcomes_consulted": false,
+      "policy_scope": "not_applicable",
+      "rationale": "The cited README text concerns media format selection and does not prohibit AI-generated or AI-authored contributions.",
+      "response_sha256": "74f86390a7422fc4096d35b09ed3d5d028d3255332e966f7ca4857c0a337f04e",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "0d46888853ac83d1ced201f07c7b178f85beb8c504ade181755cb246c4d446ee",
+      "task_sha256": "27e33ab63d8ce66be9dfc4b5fda10276aa6efa4319de890f962d2cb14b3cc06d",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "decision": "accept_policy",
+      "default_branch_supported": true,
+      "event_id": "92a08b7ffb49377eb59cc8fdd945755886d818664dac7cadf28a60ba0baa45f2",
+      "evidence_citations": [
+        "https://projects.torsion.org/borgmatic-collective/borgmatic"
+      ],
+      "evidence_tier": "datable_default_branch_policy",
+      "outcomes_consulted": false,
+      "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+      "rationale": "The dated AGENTS.md addition instructs contributors not to use AI agents to modify the codebase, establishing a repository-wide prohibition on agent-authored modifications.",
+      "response_sha256": "0ba50972c7b6a766cb39a936a06484006bb897685e5d930ae4e7174db7d83d5d",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "3717147ff4c4291cad67e7f0688dc1c0d5359e9d880fdd9f13cd72361489aa2b",
+      "task_sha256": "1ef05708726bd61b8034a40bdaa823d06e60688710692a95968c554bdb961ba4",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "poezio/poezio",
+      "decision": "accept_policy",
+      "default_branch_supported": true,
+      "event_id": "9f5d07bbeba95f21c8cc3ebf71550feab127bcd164f9a448df17aa51e24a2263",
+      "evidence_citations": [
+        "https://codeberg.org/poezio/poezio"
+      ],
+      "evidence_tier": "datable_default_branch_policy",
+      "outcomes_consulted": false,
+      "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+      "rationale": "The dated README addition disallows LLM- and chatbot-generated contributions and expressly applies the ban to all project areas, including code and documentation.",
+      "response_sha256": "479adbefc25f2398e2a6ff80dc7b2d1427fc79bd1ed6b2e6cfe41cf1f82e2acf",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "c8d6271b962276d38dca7da685391d856596f30955ad381788779ab5656732be",
+      "task_sha256": "a41b6b53e77581df4aacfacc4109279b2fae24caba9417e1ef3ad78c4232462e",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "teamtype/teamtype",
+      "decision": "accept_policy",
+      "default_branch_supported": true,
+      "event_id": "6236f17219734fce35c4b29fc57da81bdbdad750fd163d821103ac18ca0d0290",
+      "evidence_citations": [
+        "https://github.com/teamtype/teamtype/blob/b92b68dc1d66b1da327be50040225a52723ad337/CONTRIBUTING.md#L38",
+        "https://github.com/teamtype/teamtype/commit/b14f1eb8663fb6406512770fae1897a2f7528a91"
+      ],
+      "evidence_tier": "datable_default_branch_policy",
+      "outcomes_consulted": false,
+      "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+      "rationale": "The dated CONTRIBUTING.md change states that no contribution may contain LLM-generated content, covering the repository contribution surface.",
+      "response_sha256": "272fe4930b82bcd0b7e918435ca5dc4d66e1494d800f26e6e216e32721ece0cb",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "9167aa987f620b88cf97720004531a0d281bcc301fe8807769c2a4470fc16930",
+      "task_sha256": "990ff0bd095f08b8ce3e73f7e84179099c5f4cfe2ad11d866db8f2b15d64ff74",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "typst/typst",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "event_id": "d152d8f2bfc5f5a1f0422f1a5b928376ddb471f7f8aea110f46f20ae3a867153",
+      "evidence_citations": [
+        "https://github.com/typst/typst/blob/b212e34147986d8cfecb553bbaae2a4825f53e07/CONTRIBUTING.md#L44",
+        "https://github.com/typst/typst/commit/4c245355d7fc4a548427e4a5dea98e50ef2524fc"
+      ],
+      "evidence_tier": "not_applicable",
+      "outcomes_consulted": false,
+      "policy_scope": "not_applicable",
+      "rationale": "The evidence prohibits AI only for writing a feature description; it does not prohibit AI-generated or AI-authored code contributions repository-wide.",
+      "response_sha256": "5fabae46e70126c86c16ed62b65524132b52d0c0a7ac64c95d8027eebeddb038",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "a1ca40c34c629faad3fec672a614079acdfe652e7afd438860d8e369952f0f44",
+      "task_sha256": "43c61dc085f877b97a12e3c267ab205e982e2761bd9fbe8c4419887eac45f684",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "bevyengine/bevy",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "event_id": "8d39ba5a7ae855155a55a16a9834862d85557668e09b4619dcecdff4a407431c",
+      "evidence_citations": [
+        "https://github.com/bevyengine/bevy/blob/17ca59b4dab18a8d494412b70b842961f102c573/CODE_OF_CONDUCT.md#L31",
+        "https://github.com/bevyengine/bevy/commit/1f7cdbd4ceed98a97419620ebd9608487f9f5256",
+        "https://github.com/bevyengine/bevy/blob/17ca59b4dab18a8d494412b70b842961f102c573/CODE_OF_CONDUCT.md#L35",
+        "https://github.com/bevyengine/bevy/blob/17ca59b4dab18a8d494412b70b842961f102c573/CODE_OF_CONDUCT.md#L36"
+      ],
+      "evidence_tier": "not_applicable",
+      "outcomes_consulted": false,
+      "policy_scope": "not_applicable",
+      "rationale": "The cited code-of-conduct provisions concern inappropriate remarks and user bans, not AI-generated or AI-authored contributions.",
+      "response_sha256": "dab9fd974d4a5860d3a97cd3760238b6fa3ff323ef14241aee52e222dacc7179",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "b38d991bf3b0f3952a81b59fae4f0ce055f1ef247b77fe7b937cb79a85caae32",
+      "task_sha256": "f29592e1548e9bf893224bc3629b4b089b34a4580774df8caffc3b102ed74bf2",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "twpayne/chezmoi",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "event_id": "be19923c01634dfab6f4ac62678be4bce95dbc38d4d7ad6f68b6fe456132ef12",
+      "evidence_citations": [
+        "https://github.com/twpayne/chezmoi/commit/bddbf7f0f0ca295af2140938143b40a2af9b7690"
+      ],
+      "evidence_tier": "not_applicable",
+      "outcomes_consulted": false,
+      "policy_scope": "not_applicable",
+      "rationale": "The rule penalizes undisclosed, unreviewed LLM-generated content but does not prohibit reviewed or disclosed AI-generated contributions repository-wide.",
+      "response_sha256": "6c6a95da05a545a0c9f200eb29272866e219980f42ee72ddc107b7d68c5e43a2",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "8298b8e855277838fdfac0f18c93c47195a1de0dca5ddd4231bd552caf3483b1",
+      "task_sha256": "d90599589487ce562f8a4c2f7cf0d653035f7e33912d0ccd44d369d857561ec1",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "event_id": "1a224ee15bf153a76f169d2545036d1a4dc75fef92ec4a96d85ef87d015d6eae",
+      "evidence_citations": [
+        "https://codeberg.org/superseriousbusiness/gotosocial"
+      ],
+      "evidence_tier": "not_applicable",
+      "outcomes_consulted": false,
+      "policy_scope": "not_applicable",
+      "rationale": "The cited vendored README limits new-functionality proposals for an upstream package and contains no AI-contribution prohibition for this repository.",
+      "response_sha256": "03971c8cdefcad5226cff4d0044a04ac806b1a7f267f6f431154f230ed6751cc",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "8ebfaada506be3709f8e65760970f4ed12c4ebafb8594dabfbe432616844e96d",
+      "task_sha256": "5d2b8c7b5b0a74ebea65cd1adc23e94718f155f70f0c965945d19e966cc97203",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "wafrn/wafrn",
+      "decision": "accept_policy",
+      "default_branch_supported": true,
+      "event_id": "b5cae5141a534d689bb7296e750d12c49e82a3b2ebe77add255f6ef6a90543f6",
+      "evidence_citations": [
+        "https://codeberg.org/wafrn/wafrn"
+      ],
+      "evidence_tier": "datable_default_branch_policy",
+      "outcomes_consulted": false,
+      "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+      "rationale": "The dated CONTRIBUTING.md addition rejects contributions involving AI at any step and specifically asks contributors not to submit code made with such tools.",
+      "response_sha256": "0ecdcd75059649f22ae9633bb4dc3a793dc641af13992f17b8588c9784f77da1",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "ce1fd9cefd03851cac69f76bb9e529f74af0251984ade0a67f79124ac2766ad6",
+      "task_sha256": "3c974e58938629dc9fa5d841f085bbf5b3b9cc75e6dd2d183ede4b3dc36c79bd",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "pouchdb/pouchdb",
+      "decision": "accept_policy",
+      "default_branch_supported": true,
+      "event_id": "c974fabbe24aa778cd64cf4c502aaafbd24581889be3227837645348582eaa37",
+      "evidence_citations": [
+        "https://github.com/pouchdb/pouchdb/commit/ac9166fa9cb4c20e40a331ce74f21994700ae0a7",
+        "https://github.com/pouchdb/pouchdb/blob/70b9de3c2072fa97e4b5b97cb74faa712ac184e0/CONTRIBUTING.md#L177"
+      ],
+      "evidence_tier": "datable_default_branch_policy",
+      "outcomes_consulted": false,
+      "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+      "rationale": "The dated CONTRIBUTING.md addition expressly forbids AI- and LLM-generated material from being contributed to the PouchDB project.",
+      "response_sha256": "acc0ecd772571b32f4a6b3a83144bddbfe0548a9a5c1322eb7f3e44d5bd47364",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "cc3a1863090fe901876e4101d59cf67c8dc85a04954b616661396bb552d56a94",
+      "task_sha256": "9b6987da3323674f95f60cde75d6727295a73be8c1c751af2c87e4ec9d7340b1",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "apache/couchdb",
+      "decision": "accept_policy",
+      "default_branch_supported": true,
+      "event_id": "2097ba918ac3ac3a3dafd225edc8844f61f61900cc073d5d99676b45481a28cf",
+      "evidence_citations": [
+        "https://github.com/apache/couchdb/commit/1c33ad50fcf55824b129454da2017a3037732ff5",
+        "https://github.com/apache/couchdb/blob/a2eedd4af19f40d9f92de3fd52ab3e922668748a/CONTRIBUTING.md#L313"
+      ],
+      "evidence_tier": "datable_default_branch_policy",
+      "outcomes_consulted": false,
+      "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+      "rationale": "The dated CONTRIBUTING.md addition expressly forbids AI- and LLM-generated material from being contributed to the CouchDB project.",
+      "response_sha256": "cb822ffddfbfb3ae989ac606a66926a1e5356e9b3b54bd45274a59f238aecff0",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "05b3b6d3dc7f7517ac67c444e84295947adf8c4e0b92addc69dc276accf34005",
+      "task_sha256": "4591785c4c0b2a7de834f3961ea7a4b1be8bdeddf81dfabdb5de6d0db6743d51",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "jhy/jsoup",
+      "decision": "accept_policy",
+      "default_branch_supported": true,
+      "event_id": "f7c95680a46361ccbbd59d2d86c9d46eac2f1407a97894cf252abed45c973072",
+      "evidence_citations": [
+        "https://github.com/jhy/jsoup/commit/06fa52d15a22003b67dfdb3f8220cc025d493a43",
+        "https://github.com/jhy/jsoup/blob/d8c49e5ec72a08ca1ac4e08740e70dc0f47ad911/.github/CONTRIBUTING.md#L17"
+      ],
+      "evidence_tier": "datable_default_branch_policy",
+      "outcomes_consulted": false,
+      "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+      "rationale": "The dated project-wide contributing policy rejects code generated in whole or in part by AI or LLMs.",
+      "response_sha256": "ca7310fb0a6f93ff4498e9c43d0ed2328ced496679348786dd40aa2e46592fdf",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "98d784478a0c9c0c80157327a966c27a7af815e99cfd43d42c77eb58ff691f2d",
+      "task_sha256": "0d501b03fddf54b00f9eca8a463a290135e4606de84c790b22bb3498ffc0443a",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "endless-sky/endless-sky",
+      "decision": "accept_policy",
+      "default_branch_supported": true,
+      "event_id": "6f867ffd7480f8547eef09f7753410c84ffa9280a8c9eced4066f7c5d441437b",
+      "evidence_citations": [
+        "https://github.com/endless-sky/endless-sky/commit/b5c201444b9a5f4dc1f8716d4f77728f7e2a68b2"
+      ],
+      "evidence_tier": "datable_default_branch_policy",
+      "outcomes_consulted": false,
+      "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+      "rationale": "The dated CONTRIBUTING.md addition states that AI-generated or AI-assisted content is forbidden in Endless Sky development.",
+      "response_sha256": "9c63acbbfa1249a8080ac9a2415eb23c572bd73a43b165fef9a20544ec91e405",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "8a6c4a95abca63aab4688a9fa5a44860c17900e90bcde3f951165881da6238e0",
+      "task_sha256": "5f15c1a1821e426ab2b0bedc4a9b12aca7968c6297a157e4b0983f20f70623b6",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    },
+    {
+      "canonical_repository_id": "asahilinux/m1n1",
+      "decision": "accept_policy",
+      "default_branch_supported": true,
+      "event_id": "a57c36fb1e62b8ad89d1b18f9fcd09472872fa0ab32c7e1355cc82cbe2cb19e0",
+      "evidence_citations": [
+        "https://github.com/AsahiLinux/m1n1/commit/c9a03479bc2b0d1d97f77f61f6a0f8b277789cc3",
+        "https://github.com/AsahiLinux/m1n1/blob/7c7716b6a196c7e601f9f22bb8af335c1b8173ce/AGENTS.md#L1"
+      ],
+      "evidence_tier": "datable_default_branch_policy",
+      "outcomes_consulted": false,
+      "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+      "rationale": "The dated repository-root AGENTS.md policy forbids any use of AI or LLM tools in this project, which includes AI-authored code modifications.",
+      "response_sha256": "e5767f044ebeb1e6d8ac0ff5049185d9b9e323a2124a21102f79f27507b999ac",
+      "response_version": 3,
+      "review_role": "primary",
+      "reviewer_id": "ai-ban-primary-a",
+      "task_id": "f18eb0d259c72de94ac46619d1fae0700870293db274cf9e37948a44d83e67b6",
+      "task_sha256": "16c45c929e3b677920de4019aed073b39ab45d897ef530563c8ecaf6fbf4239f",
+      "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+    }
+  ],
+  "outcomes_consulted": false,
+  "prior_decision_count": 0,
+  "prior_decision_ledger_sha256": null,
+  "response_count": 14,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+  "worksheet_sha256": "58f851dacbd271a48dc32c721d155ebbdfd287a381a9068bca0b6844a2212970"
+}

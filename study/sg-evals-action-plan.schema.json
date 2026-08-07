@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sg-evals.local/schemas/sg-evals-action-plan.v3.json",
+  "title": "Approval-gated sg-evals repository action plan v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "plan_version",
+    "status",
+    "observed_at",
+    "outcomes_consulted",
+    "repository_count",
+    "action_counts",
+    "source_artifacts",
+    "repositories",
+    "plan_sha256"
+  ],
+  "properties": {
+    "plan_version": {
+      "const": 3
+    },
+    "status": {
+      "const": "dry_run_external_approval_required"
+    },
+    "observed_at": {
+      "type": "string"
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "repository_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "action_counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "source_artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "index_manifest_canonical_sha256",
+        "github_audit_sha256",
+        "license_audit_sha256"
+      ],
+      "properties": {
+        "index_manifest_canonical_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "github_audit_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "license_audit_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "repositories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/action"
+      }
+    },
+    "plan_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "$defs": {
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_repository_id",
+        "canonical_source_url",
+        "mirror_name",
+        "mirror_slug",
+        "cutoff_commit",
+        "action",
+        "approval_class",
+        "force_required",
+        "reason"
+      ],
+      "properties": {
+        "canonical_repository_id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "canonical_source_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mirror_name": {
+          "type": "string",
+          "pattern": "^github\\.com/sg-evals/"
+        },
+        "mirror_slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cutoff_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "action": {
+          "enum": [
+            "no_action",
+            "create_github_fork",
+            "create_git_mirror",
+            "fast_forward_sync",
+            "replace_standalone_mirror",
+            "hold_private",
+            "hold_redistribution",
+            "hold_missing_expected_mirror",
+            "hold_source_revision_missing",
+            "hold_name_collision"
+          ]
+        },
+        "approval_class": {
+          "enum": [
+            "none",
+            "external_mutation",
+            "destructive_external",
+            "additional_approval"
+          ]
+        },
+        "force_required": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "argv": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_transport_cutoff_oid": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "source_default_branch": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._/-]*$"
+        },
+        "destination_default_branch": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._/-]*$"
+        },
+        "force_refspec": {
+          "type": "string",
+          "pattern": "^\\+refs/heads/.+:refs/heads/.+$"
+        }
+      }
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

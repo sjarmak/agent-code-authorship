@@ -1,0 +1,179 @@
+{
+  "diagnostics": {
+    "leave_one_target_repository_out": true,
+    "required_era_diagnostics": true,
+    "synthetic_mixture": {
+      "design": "repository_held_out_before_model_fit",
+      "groups_per_mixture": 8,
+      "interval_replicates": 200,
+      "shares": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "trials_per_share": 20
+    }
+  },
+  "era_adjustment": {
+    "failed_or_unavailable_result": "not_identified",
+    "required_for_headline": true,
+    "unadjusted_estimates_role": "diagnostic_only"
+  },
+  "estimands": {
+    "primary": {
+      "name": "line_weighted_current_code_prevalence",
+      "unit_weight": "line_count_times_file_sampling_weight"
+    },
+    "secondary": {
+      "name": "equal_repository_current_code_prevalence",
+      "repository_total_weight": 1.0
+    }
+  },
+  "evidence_tiers": {
+    "H1": {
+      "agent_reference": "all_confirmed_agent_units",
+      "human_reference": "H1_attested_human"
+    },
+    "H2": {
+      "agent_reference": "all_confirmed_agent_units",
+      "human_reference": "H2_policy_human"
+    },
+    "H3": {
+      "agent_reference": "matched_agent_hunk_sha256s_only",
+      "human_reference": "H3_contemporary_pre_adoption"
+    }
+  },
+  "feature_manifest_sha256": "90d2b7842b4d033f9c0ef3af18d0199b408ceb4dc5f2e33aedfc0bfd824993dc",
+  "features": [
+    "log_lines",
+    "line_len_mean",
+    "line_len_sd",
+    "line_len_p90",
+    "blank_rate",
+    "indent_mean",
+    "indent_sd",
+    "tab_rate",
+    "trailing_ws_rate",
+    "comment_line_rate",
+    "inline_comment_rate",
+    "comment_words_mean",
+    "comment_capital_rate",
+    "comment_period_rate",
+    "comment_long_rate",
+    "comment_per_code",
+    "explanatory_rate",
+    "step_comment_rate",
+    "todo_rate",
+    "emoji_comment_rate",
+    "docstring_present",
+    "divider_rate",
+    "elision_present",
+    "guard_rate",
+    "logging_rate",
+    "raise_rate",
+    "typehint_rate",
+    "fstring_rate",
+    "kwarg_rate",
+    "ternary_rate",
+    "async_rate",
+    "semicolon_rate",
+    "brace_only_rate",
+    "ident_len_mean",
+    "ident_long_rate",
+    "snake_rate",
+    "camel_rate",
+    "string_rate",
+    "string_len_mean",
+    "number_rate",
+    "punct_rate",
+    "double_quote_pref",
+    "is_python",
+    "is_ts_js",
+    "is_go",
+    "is_curly_other"
+  ],
+  "historical_anchors": {
+    "primary_role": "excluded",
+    "sensitivity_role": "era_diagnostic_only"
+  },
+  "identification_gates": {
+    "era_adjustment_diagnostics_must_pass": true,
+    "failed_gate_result": "not_identified",
+    "maximum_bootstrap_interval_width": 0.25,
+    "maximum_estimator_disagreement": 0.1,
+    "maximum_leave_one_repository_out_shift": 0.1,
+    "maximum_synthetic_mean_absolute_error": 0.1,
+    "minimum_adopters_per_language": 20,
+    "minimum_agent_family_repositories": 8,
+    "minimum_controls_per_language": 10,
+    "minimum_repository_held_out_auc": 0.7,
+    "minimum_synthetic_interval_coverage": 0.9
+  },
+  "input_pins": {
+    "authorship_materialization_sha256": "413a4cd1ca0b428252707ea5b0d617556a561cfbd457428df1a1209dfe98a69b",
+    "cohort_freeze_sha256": "945a012805e159f386f32d7e10901dd6b5279040838fa1dacf850e21b676b12f",
+    "era_study_execution_sha256": "13795b55b4d90623260c1130620fcaef712d104812119991c605b06fb385000c"
+  },
+  "languages": [
+    "Python",
+    "Go"
+  ],
+  "model": {
+    "cross_fit_folds": 5,
+    "cross_validation_unit": "repository",
+    "family": "l2_logistic_regression",
+    "nonlinear_models_role": "diagnostic_only",
+    "ridge": 3.0,
+    "score_mixture_bins": 20,
+    "seed": 20260730
+  },
+  "outcomes_consulted": false,
+  "partial_identification": {
+    "contamination_grid_step": 0.05,
+    "contamination_transform": "p=c+(1-c)*q",
+    "enabled": true,
+    "failed_width_result": "not_identified",
+    "headline_estimand": "primary_line_weighted_only",
+    "input_intervals": "identified_tier_bootstrap_intervals",
+    "maximum_headline_width": 0.3,
+    "method": "union_over_evidence_tiers_and_contamination_grid",
+    "tier_contamination_grids": {
+      "H1": [
+        0.0
+      ],
+      "H2": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2
+      ],
+      "H3": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25
+      ]
+    }
+  },
+  "prevalence_analysis_spec_sha256": "f894f3f53f33688d868f81d4de7714a66767e9c642088f4a980ca50e909d08b1",
+  "prevalence_analysis_spec_version": 1,
+  "protocol_sha256": "f1adba26c170aeeeba42c96b5975e88bcd0d17b91162c5ef0d9cc2481528e627",
+  "sourcegraph": {
+    "SCIP_used": false,
+    "precise_code_intelligence_used": false,
+    "target_measurement": "exact_blob_and_blame_at_pinned_revision"
+  },
+  "status": "frozen_before_target_outcome_extraction",
+  "target_plan_document_sha256": "dfbb9597446f5533abe616b0842cf93ccc1ff060c8dd0dd6bd1d04c5e0df284b",
+  "target_unit_plan_sha256": "f4167fe24599bd6bc9783f565faee6c65e5103119364b91720d75a94adde205e",
+  "uncertainty": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_unit": "repository",
+    "interval": "percentile_95"
+  }
+}

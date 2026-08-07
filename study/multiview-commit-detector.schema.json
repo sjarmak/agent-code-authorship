@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourcegraph.com/sg-evals/multiview-commit-detector.schema.json",
+  "title": "Multi-view agent-driven commit detector protocol",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "protocol_version",
+    "status",
+    "study_role",
+    "objective",
+    "evidence_views",
+    "label_taxonomy",
+    "outcome_taxonomy",
+    "leakage_controls",
+    "evaluation",
+    "missingness",
+    "sourcegraph_role"
+  ],
+  "properties": {
+    "$schema": {"type": "string"},
+    "protocol_version": {"const": 1},
+    "status": {"const": "frozen_before_multiview_scoring"},
+    "study_role": {"const": "exploratory"},
+    "objective": {"type": "string", "minLength": 20},
+    "evidence_views": {
+      "type": "object",
+      "required": ["provenance", "timing_process", "message", "code_stylometry"],
+      "additionalProperties": {
+        "type": "object",
+        "required": ["status", "role"],
+        "properties": {
+          "status": {"type": "string"},
+          "role": {"type": "string"},
+          "features": {
+            "type": "array",
+            "items": {"type": "string"},
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "label_taxonomy": {
+      "type": "object",
+      "minProperties": 4,
+      "additionalProperties": {"type": "string"}
+    },
+    "outcome_taxonomy": {
+      "type": "object",
+      "required": [
+        "verified_agent",
+        "likely_agent_driven",
+        "hybrid_or_assisted",
+        "unknown_or_human_control"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "verified_agent": {"type": "string"},
+        "likely_agent_driven": {"type": "string"},
+        "hybrid_or_assisted": {"type": "string"},
+        "unknown_or_human_control": {"type": "string"}
+      }
+    },
+    "leakage_controls": {
+      "type": "object",
+      "required": ["excluded_model_inputs", "identity_storage"],
+      "properties": {
+        "excluded_model_inputs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "identity_storage": {"type": "string"}
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "required": [
+        "primary_split",
+        "era_cutoff",
+        "views",
+        "classification_threshold",
+        "metrics"
+      ],
+      "properties": {
+        "primary_split": {"const": "leave_one_repository_out"},
+        "era_cutoff": {"type": "string", "format": "date-time"},
+        "views": {
+          "type": "array",
+          "items": {"enum": ["message", "timing_process", "combined"]},
+          "uniqueItems": true
+        },
+        "classification_threshold": {"const": 0.5},
+        "metrics": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        }
+      }
+    },
+    "missingness": {
+      "type": "object",
+      "required": ["unavailable_repository", "missing_gap"],
+      "additionalProperties": {"type": "string"}
+    },
+    "sourcegraph_role": {"type": "string"}
+  }
+}

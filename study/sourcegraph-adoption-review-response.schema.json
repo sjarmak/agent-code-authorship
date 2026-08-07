@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adoption-review-response.schema.json",
+  "title": "Sourcegraph repository-adoption review response",
+  "type": "object",
+  "required": [
+    "response_version",
+    "tranche_id",
+    "tranche_number",
+    "task_id",
+    "task_sha256",
+    "canonical_repository_id",
+    "event_id",
+    "reviewer_id",
+    "review_role",
+    "decision",
+    "default_branch_supported",
+    "evidence_tier",
+    "rationale",
+    "evidence_citations",
+    "outcomes_consulted",
+    "response_sha256"
+  ],
+  "properties": {
+    "response_version": {
+      "const": 3
+    },
+    "tranche_id": {
+      "$ref": "#/$defs/sha256"
+    },
+    "tranche_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "task_id": {
+      "$ref": "#/$defs/sha256"
+    },
+    "task_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "canonical_repository_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "event_id": {
+      "$ref": "#/$defs/sha256"
+    },
+    "reviewer_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review_role": {
+      "enum": [
+        "primary",
+        "secondary",
+        "resolver"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "accept_confirmed",
+        "accept_observed",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ]
+    },
+    "default_branch_supported": {
+      "type": "boolean"
+    },
+    "evidence_tier": {
+      "enum": [
+        "confirmed",
+        "observed",
+        "not_applicable"
+      ]
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_citations": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "response_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "const": "accept_confirmed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "default_branch_supported": {
+            "const": true
+          },
+          "evidence_tier": {
+            "const": "confirmed"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "const": "accept_observed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "default_branch_supported": {
+            "const": true
+          },
+          "evidence_tier": {
+            "const": "observed"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "enum": [
+              "ambiguous",
+              "insufficient",
+              "reject"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evidence_tier": {
+            "const": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "review_role": {
+            "const": "resolver"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "decision": {
+            "not": {
+              "const": "ambiguous"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

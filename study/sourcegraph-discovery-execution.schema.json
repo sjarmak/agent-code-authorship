@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-discovery-execution.schema.json",
+  "title": "Frozen Sourcegraph discovery execution manifest v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "execution_manifest_version",
+    "specification_sha256",
+    "index_manifest_sha256",
+    "index_audit_sha256",
+    "started_at",
+    "completed_at",
+    "status",
+    "unit_count",
+    "valid_unit_count",
+    "invalid_unit_count",
+    "executed_unit_count",
+    "reused_unit_count",
+    "outcomes_consulted",
+    "units",
+    "execution_manifest_sha256"
+  ],
+  "properties": {
+    "execution_manifest_version": {
+      "const": 3
+    },
+    "specification_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "index_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "index_audit_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "incomplete"
+      ]
+    },
+    "unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "valid_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "invalid_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "executed_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "reused_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unit"
+      }
+    },
+    "execution_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "resultId": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "unit_id",
+        "query_family_id",
+        "canonical_repository_id",
+        "sourcegraph_name",
+        "cutoff_commit",
+        "rendered_query",
+        "rendered_query_sha256",
+        "executed_at",
+        "sourcegraph_result_ids",
+        "result_count",
+        "limit_hit",
+        "valid",
+        "invalid_reasons",
+        "result_manifest_sha256",
+        "shard_path",
+        "reused"
+      ],
+      "properties": {
+        "unit_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "query_family_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "canonical_repository_id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "sourcegraph_name": {
+          "type": "string",
+          "pattern": "^github\\.com/"
+        },
+        "cutoff_commit": {
+          "$ref": "#/$defs/sha1"
+        },
+        "rendered_query": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rendered_query_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "executed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sourcegraph_result_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/resultId"
+          }
+        },
+        "result_count": {
+          "$ref": "#/$defs/count"
+        },
+        "limit_hit": {
+          "type": "boolean"
+        },
+        "valid": {
+          "type": "boolean"
+        },
+        "invalid_reasons": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "result_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "shard_path": {
+          "type": "string",
+          "pattern": "^shards/[a-z0-9_]+/[0-9a-f]{64}\\.json$"
+        },
+        "reused": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

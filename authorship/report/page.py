@@ -15,7 +15,6 @@ from __future__ import annotations
 import json
 import os
 import re
-import sys
 from pathlib import Path
 
 import numpy as np
@@ -306,7 +305,6 @@ def numbers(ident: dict, est: dict, evidence: dict, pops: dict, dist: dict,
     rust = signed["per_lang"].get("Rust", {})
     ts = next((s for s in signed["skipped"] if s.startswith("TS/JS")), "")
     ts_auc = re.search(r"AUC ([0-9.]+)", ts)
-    lines = fp_data.load_control()
     docs = {p: np.average([r["v"][NAMES.index("docstring_present")]
                            for r in fp_identify.of_lang(pops[p], "Python")],
                           weights=[r["lines"] for r in

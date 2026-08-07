@@ -1,0 +1,125 @@
+{
+  "$schema": "sourcegraph-ai-ban-review-worksheet.schema.json",
+  "ambiguous_resolution": "distinct_secondary_then_distinct_resolver",
+  "classifier_outcomes_consulted": false,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "case_index_file_sha256": "369145e65c6201e3782c8b35f42f667ca6fd122424babae24a5499596ed54cc4",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+    "control_evidence_file_sha256": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "prior_decision_ledger_sha256": "738eb5282f36738dc860efa34f4aa476f438db0422c95cf36df99b088452db21",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "review_version": 3,
+  "scip_required": false,
+  "semantic_policy_decisions_made": false,
+  "stopping_rule": "earliest_accepted_policy_event",
+  "survival_outcomes_consulted": false,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+  "task_count": 1,
+  "tasks": [
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 9,
+      "candidate_event": {
+        "commit_oid": "249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+        "observed_at": "2026-07-01T18:27:40Z"
+      },
+      "candidate_position": 9,
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "canonical_source_url": "https://github.com/yt-dlp/yt-dlp",
+      "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+      "event_id": "83114ed379b59b225b8de01614649ae780e5357852816bd4e88b9b5bdf615265",
+      "evidence": [
+        {
+          "packet_id": "0e7c7316053587ed822c98904b31f60852ec1f9b001a30fe45da669a6a0e4cc0",
+          "packet_sha256": "2900d8ae565a2592a86496cdbefe2c8f2b4d36c351035852ebd91043a8914414",
+          "query_family_id": "ai_ban_policy_introduction_diffs",
+          "raw_evidence": [
+            {
+              "commit_oid": "249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+              "kind": "diff_added",
+              "line": null,
+              "path": null,
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+              "value": "/dev/null .NO_AI/README.md\n@@ -0,0 +2,3 @@ \n+\n+This project strictly forbids the usage of LLMs, agents, or any other AI tools for any kind of contribution.\n+\nCONTRIBUTING.md CONTRIBUTING.md\n@@ -33,0 +34,3 @@ \n+\n+This project strictly forbids the usage of LLMs, agents, or any other AI tools for any kind of contribution.\n+\n"
+            }
+          ]
+        },
+        {
+          "packet_id": "77b9bbac0f6e89795930f56910c5780cddcdbbf5490095cdae986b41d1debe15",
+          "packet_sha256": "fd6af5fe900e6f0b4fe8fe0c15d9e28371726f3dd7e1630785cf7d470a5d3ae6",
+          "query_family_id": "ai_ban_policy_files",
+          "raw_evidence": [
+            {
+              "commit_oid": "249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+              "kind": "file_content",
+              "line": 2,
+              "path": ".NO_AI/README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/.NO_AI/README.md#L3",
+              "value": "This project strictly forbids the usage of LLMs, agents, or any other AI tools for any kind of contribution."
+            },
+            {
+              "commit_oid": "249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+              "kind": "blame",
+              "line": 2,
+              "path": ".NO_AI/README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+              "value": "cutoff blame attributes Sourcegraph line 2 to commit 249aa5d6e667308fbf95ae5cfb40eba8177a802c"
+            }
+          ]
+        },
+        {
+          "packet_id": "f4a70fce3425f623fc32fc64c8318b5a0a9a3e5db2da993e5ee78f824113b903",
+          "packet_sha256": "41ec0d30e530dfbc98502e92842aa9138000e3f00a70825c1e2c503e2d4c82af",
+          "query_family_id": "ai_ban_policy_files",
+          "raw_evidence": [
+            {
+              "commit_oid": "249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+              "kind": "file_content",
+              "line": 34,
+              "path": "CONTRIBUTING.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L35",
+              "value": "This project strictly forbids the usage of LLMs, agents, or any other AI tools for any kind of contribution."
+            },
+            {
+              "commit_oid": "249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+              "kind": "blame",
+              "line": 34,
+              "path": "CONTRIBUTING.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+              "value": "cutoff blame attributes Sourcegraph line 34 to commit 249aa5d6e667308fbf95ae5cfb40eba8177a802c"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "0e7c7316053587ed822c98904b31f60852ec1f9b001a30fe45da669a6a0e4cc0",
+        "77b9bbac0f6e89795930f56910c5780cddcdbbf5490095cdae986b41d1debe15",
+        "f4a70fce3425f623fc32fc64c8318b5a0a9a3e5db2da993e5ee78f824113b903"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_files",
+        "ai_ban_policy_introduction_diffs"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "bc33ba881912b6245de2f4d37b148a9a0ad854e52d93bdaf3d640148d78dd125",
+      "task_sha256": "faf00b3fbda559e1350a0860f5544498751d3d69a653869520ce0c0bb54dc21e"
+    }
+  ],
+  "worksheet_sha256": "8acc3345a298f7ef19ec4bcdcc0ca09c5185b2cd67829878342609e6fd1e32eb"
+}

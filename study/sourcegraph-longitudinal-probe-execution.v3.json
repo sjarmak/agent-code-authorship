@@ -1,0 +1,874 @@
+{
+  "completed_at": "2026-07-28T01:51:58.866794Z",
+  "executed_unit_count": 19,
+  "invalid_unit_count": 3,
+  "longitudinal_batch_plan_sha256": "ebf4b7701b4df51258e7b9e9a841b32fb6536091fd43346e0f4570073b6631bb",
+  "outcomes_consulted": false,
+  "probe_execution_sha256": "0c3b768af3fba6b915ae8d42d1b23679e051c0416c64ade1c14c366bfcfc1875",
+  "probe_execution_version": 3,
+  "reused_unit_count": 77,
+  "started_at": "2026-07-28T01:51:30.691827Z",
+  "status": "incomplete",
+  "unit_count": 96,
+  "units": [
+    {
+      "canonical_repository_id": "0x4d31/galah",
+      "hunk_count": 17,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/0x4d31__galah.json",
+      "probe_manifest_sha256": "54252173923a12117025551b539b56b88881cb0935ac0a524922fcfb63efe197",
+      "probe_unit_id": "ab06900fc744e69ae4cab71d04885d8861619c148f883ef328de936ef73fd78c",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "0xfurai/peekaping",
+      "hunk_count": 26,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/0xfurai__peekaping.json",
+      "probe_manifest_sha256": "f8258047e102a3c18fabf029ab3de25e31d864c92ca80dcef4f8cf49fdc23287",
+      "probe_unit_id": "2878f2054ec043c554f5a6707359ea02677c3887b79796a0f34ca8df53394ff0",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "a16z/halmos",
+      "hunk_count": 11,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/a16z__halmos.json",
+      "probe_manifest_sha256": "1dc923d6f07c735d7227fbfc8290c187c32d5ca80ea741ce07b80db9c29a320c",
+      "probe_unit_id": "4d5140f58a2a3ca93332329c0bcb3c89127ae31fefe58c590b6ec3adc7e58764",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "aftership/clickhouse-sql-parser",
+      "hunk_count": 13,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/aftership__clickhouse-sql-parser.json",
+      "probe_manifest_sha256": "befcc11c65ddc413726a21727a413355df11db31c3614ab925a1b1d7e9d137c4",
+      "probe_unit_id": "8f43f7f675e893d7fd1c32580c17816f28b96d08bbc382b65d4b8d44add151d7",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "airbytehq/airbyte",
+      "hunk_count": 52,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/airbytehq__airbyte.json",
+      "probe_manifest_sha256": "582119362a5f6fe59f45a4c6f4acb6d0a36faea8ebaf4fbe00ab3f8718ada523",
+      "probe_unit_id": "b823524b1ec156a592bedeb6af86ffc7fb0d2d9d778fd2066948c0bf6dbb24ef",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+      "hunk_count": 44,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/aldinokemal__go-whatsapp-web-multidevice.json",
+      "probe_manifest_sha256": "801e3ccfd1e2a16b2c16c0d8910fd26784a3df10582213cbcf0b98505781f0af",
+      "probe_unit_id": "4ab3213c2af10d5329a4bb5187d283446b637fa8f6f128f63f478d0bbe379ec2",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "alexanderjeurissen/ranger_devicons",
+      "hunk_count": 21,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/alexanderjeurissen__ranger_devicons.json",
+      "probe_manifest_sha256": "83b005872f5ef9213b8160267a42b9ce6dd4c496b87af17a8de055f76b73aa37",
+      "probe_unit_id": "ea46ab33baf6fcdb56b1451aabf02295d65625ef19c350feada07ff4f76234ad",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "alirezamika/autoscraper",
+      "hunk_count": 8,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/alirezamika__autoscraper.json",
+      "probe_manifest_sha256": "373861cb1942b24546621d22e718a0708c5f60101667daa8415f0eb871c12f9e",
+      "probe_unit_id": "d1ca3fbef20ccbd7d32c7d40c9cd272138989ac67013434ff054bf4470afd341",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "axinc-ai/ailia-models",
+      "error": "Sourcegraph blame repository does not match",
+      "probe_unit_id": "ba2e3cc7629a095bf90f976b55a9f6646b02fd7069d1ec56c462894d871d9d9a",
+      "reused": false,
+      "valid": false
+    },
+    {
+      "canonical_repository_id": "aztfmod/terraform-provider-azurecaf",
+      "hunk_count": 35,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/aztfmod__terraform-provider-azurecaf.json",
+      "probe_manifest_sha256": "f7956e329b674fdfa29fffd4c3cd57c3e6254b87062c2c7cf48e108244a8c942",
+      "probe_unit_id": "0bb6d7bfd13d34c07d8ec32db6e152d884acab15ebdad78f1bf90c5c4ee0cd65",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "hunk_count": 28,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/azure__azure-sdk-for-python.json",
+      "probe_manifest_sha256": "5be85c124058fbc0b11fb66b3d145b2d3328dc0ba6b250842c473c879a33cc70",
+      "probe_unit_id": "b72f45cdd533a2e32d65813f0d829dde0fefad3e7bfd12ada4dc722d45c35e20",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "azure/azure-storage-fuse",
+      "hunk_count": 7,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/azure__azure-storage-fuse.json",
+      "probe_manifest_sha256": "1dec1b769bd23d3fcc883b0bae6215853e27e84057f942b799fa4fd759905580",
+      "probe_unit_id": "bc6de03d9b2185fc12e6bf405219550521d434cc734f86d74ead8ff590f7be3d",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "badtuxx/girus-cli",
+      "hunk_count": 24,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/badtuxx__girus-cli.json",
+      "probe_manifest_sha256": "b53be3f9480cc0946e9a128ab0068e7feb7f2817f7747724b974a5808f73bec4",
+      "probe_unit_id": "260ab010e3785d3523e72201a47d4f936787b3c9f091f8cc589c9d0a92737dd6",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "bayesianbandits/bayesianbandits",
+      "hunk_count": 6,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/bayesianbandits__bayesianbandits.json",
+      "probe_manifest_sha256": "1f298b8b38f091010d42da6df40880f0619e30b7ea608046e3371cd80fad1ee5",
+      "probe_unit_id": "30a5d5ce36732780a1c75977aac0dac57a59ce6b071f95bc9fedd96c690fd2f3",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "beehiveinnovations/zen-mcp-server",
+      "hunk_count": 59,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/beehiveinnovations__zen-mcp-server.json",
+      "probe_manifest_sha256": "9c5507ebbe8159740241ab004f62b7ea22edfe7293588a9a56ed04c57f0eddec",
+      "probe_unit_id": "60018dc60c4f7351078a93a42202d4a25ebfb1fd72be59b927c48fd3f77d34f2",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "bespokelabsai/curator",
+      "hunk_count": 5,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/bespokelabsai__curator.json",
+      "probe_manifest_sha256": "7206201a62b38402a2fad297a2017046c18b8b1d25a4b11574839634ffef498c",
+      "probe_unit_id": "389db63c5876b639950612960a267697cfc8727c5e4c2970677090dfe42de849",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "brentyi/jaxls",
+      "hunk_count": 9,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/brentyi__jaxls.json",
+      "probe_manifest_sha256": "eb98793a7a3f5a45cc17d43e1e89608db94652b7440e5dfaaae653d2f5a0adc2",
+      "probe_unit_id": "f6c6011559825bdc75bf8ced7b3e4e070a821f978c32eead5dffedd20a5c3fa9",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "brevdev/brev-cli",
+      "hunk_count": 14,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/brevdev__brev-cli.json",
+      "probe_manifest_sha256": "65a8ab9f34a1cb2b610903d3cf0e85a503ffa3c9606d8456c56585fa7f4b40bd",
+      "probe_unit_id": "4d575b600239d6099157604a12cd73fbac0b788578c882ec2a3caad04506cb11",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "briangu/klongpy",
+      "hunk_count": 13,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/briangu__klongpy.json",
+      "probe_manifest_sha256": "6ad162101f87072f01e2eb71c0a8be87e8164273ecf7c5ea1b26288d255861f3",
+      "probe_unit_id": "8b2e9d644b5d4b2f8403bceed7b0acd7108a8ff94fcf88fe8845ec66aae4fdf5",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "busser/tfautomv",
+      "hunk_count": 6,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/busser__tfautomv.json",
+      "probe_manifest_sha256": "5c291e3485a994b4c58258ed99170d4ff270e60bac9e4fab06cbcbf3ae367730",
+      "probe_unit_id": "741de37e2b45eec2840831b9e616862856786de5bed9f331ae9157139f8147dc",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "celestiaorg/celestia-core",
+      "hunk_count": 39,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/celestiaorg__celestia-core.json",
+      "probe_manifest_sha256": "29790b8239a4bf415780d5d43836cc43c4720471bf96340f6067da2c7dbafe54",
+      "probe_unit_id": "cb6a7c04db31bdf973a761e5abc18b5980651b26539d011ea957ca80025ee976",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "coder/coder",
+      "hunk_count": 175,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/coder__coder.json",
+      "probe_manifest_sha256": "74738f0d3d3153484f92f22af07d7b3f2d57e02b5ca8e343d722712a40236616",
+      "probe_unit_id": "4ecfd654666d1cf7e36c87f9a0b5e65ce101e899a206000e0285b0cd66e52d83",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "commaai/opendbc",
+      "hunk_count": 20,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/commaai__opendbc.json",
+      "probe_manifest_sha256": "afebb2960ba01a428bfb0b4df9ee2175335e3b371448caab2b9ebc59922b7cf8",
+      "probe_unit_id": "6a66af420ea4451b9a5d7020064cb714b87f6db94cb575c5b7c0317f94310e7b",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "compiler-explorer/infra",
+      "hunk_count": 4,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/compiler-explorer__infra.json",
+      "probe_manifest_sha256": "29ae89501f23aff4fc8a698b7eb025bb16f98cd2d25b866a401e662e64ee3e52",
+      "probe_unit_id": "cf881c61d9049152cf1a5f113e850f6eadc3928c4864f51d8eef2c9755298774",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai",
+      "hunk_count": 99,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/crewaiinc__crewai.json",
+      "probe_manifest_sha256": "3ed1b388edb6dd62e655ae27d72e704eb925a28ea6f7ddf0faa804c96911009f",
+      "probe_unit_id": "1f923d462be84e2c6a6765df7ed7a4bd6258218dc73d5e9fdc76c71a841985d4",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai-tools",
+      "hunk_count": 5,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/crewaiinc__crewai-tools.json",
+      "probe_manifest_sha256": "1193601b65675068d3053d6895a8d42b5c83b31ff5c1bd1274670d0d3748b73d",
+      "probe_unit_id": "ecf39f98b6047d6606d1decaa88154a36bc267d9265f847c0d21c3c14c712b78",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "deepnoodle-ai/risor",
+      "hunk_count": 28,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/deepnoodle-ai__risor.json",
+      "probe_manifest_sha256": "d17f77978ff7ec360589fa44ab44e08a0cf32d10923458e41c48685a388fb75a",
+      "probe_unit_id": "32848d3c3720ea6eaa3c7fec865d7a210f4a8dc5b24f6fa222def28fb932fa20",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "disler/single-file-agents",
+      "error": "Sourcegraph blame repository does not match",
+      "probe_unit_id": "8afed878d337f56e2e4087ac9fd54abbda303e9b5ced03be98e2628cd3e3efe1",
+      "reused": false,
+      "valid": false
+    },
+    {
+      "canonical_repository_id": "elastic/terraform-provider-elasticstack",
+      "hunk_count": 6,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/elastic__terraform-provider-elasticstack.json",
+      "probe_manifest_sha256": "87412e56913ce2d6366c96d64927aa36e934dc377dc5a62effa335467753f174",
+      "probe_unit_id": "1b993452a82d3eb5ff10238c72f0f96926dd380ec872aa9508c133760fc49e72",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "equationzhao/g",
+      "hunk_count": 11,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/equationzhao__g.json",
+      "probe_manifest_sha256": "23ae5b726274c89e57cfa5e0f1485494ad354e293b12076317ddd03064ed6f9f",
+      "probe_unit_id": "450cf6c78b9b7610f8edef5bccd806ec81ecbbd4aaac4b5b3bab5b3918f3256e",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "exa-labs/exa-py",
+      "hunk_count": 4,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/exa-labs__exa-py.json",
+      "probe_manifest_sha256": "78266c6766585d1a339622084468c5b2e9286cc9ecff597506f88b7845e2a132",
+      "probe_unit_id": "99331c0b50c83f38cecf36abbfce87684a9b8c81d073b102ed00d507592ad69c",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "fatedier/fft",
+      "hunk_count": 33,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/fatedier__fft.json",
+      "probe_manifest_sha256": "d09bfbb0a6308fa07abf78a1d14df414bbf35e9cc927249e9261e4020db262eb",
+      "probe_unit_id": "8f65d511561729fa28ab1290636576e075b765352085e9b26d7750b65d61a20c",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "getsentry/sentry",
+      "hunk_count": 30,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/getsentry__sentry.json",
+      "probe_manifest_sha256": "afcda207fac27acc89f26b0d33acf730e95a583b9040cc42211de8b0c6bed4e4",
+      "probe_unit_id": "764e9d63edd5d88535315575dc43641011adc937314043edeaea555244417f7d",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "github/issue-metrics",
+      "hunk_count": 10,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/github__issue-metrics.json",
+      "probe_manifest_sha256": "0398257e2cbd622f89da8ee71762c43536447f92de937df757696b5db69b5511",
+      "probe_unit_id": "5dfde2b2a05466b83082e810ecc251aac39b3b77fae9ae9e70e82e11598714b4",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "hunk_count": 5,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/graphql-python__graphql-server.json",
+      "probe_manifest_sha256": "e822bc4fdeffa1bc46f50aff95c3f67820cbe066cb8f31cb5da67fe89cc240ef",
+      "probe_unit_id": "d9b979c51298c24959c50df1a4700f533d0cf2f4137fcaef8751049c146fda57",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "humansignal/label-studio-ml-backend",
+      "hunk_count": 4,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/humansignal__label-studio-ml-backend.json",
+      "probe_manifest_sha256": "9f85c0c837b55e247f6981963daf21a52159b95cf263383816a67cc89a174999",
+      "probe_unit_id": "ca3a958e7259ba324992f42b81c102f5aa73c41d41f8a14778dfcce11cb0ce58",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "ikamensh/flynt",
+      "hunk_count": 73,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/ikamensh__flynt.json",
+      "probe_manifest_sha256": "55d4b6044159e22beb842a7a1d79f8bd7a3727f73d9edd2e8dfe2f584f8a503c",
+      "probe_unit_id": "1ab6aaf9c3927d05487d839fe906e3626f6f6fe3255dc6f1bf476935fcf90c5c",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "incatools/ontology-access-kit",
+      "hunk_count": 4,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/incatools__ontology-access-kit.json",
+      "probe_manifest_sha256": "7f22e532bf34bf3ee64046a3f6ac321210f59292d083fda688550d8e6b80be26",
+      "probe_unit_id": "9e6ca4c9b52a82b2267ff068bf471b424b7b670d7620447988d4a68939b7e9c9",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "iterative/datachain",
+      "hunk_count": 11,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/iterative__datachain.json",
+      "probe_manifest_sha256": "79cdf26ee8b8a16df434840da0e68cb16bc4e18619009b13761940100d5937d2",
+      "probe_unit_id": "01717adbc57a6773af913b15dda17db075f99305af8c2438309c4f4d1ad3ac87",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "hunk_count": 35,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/jeroenterheerdt__hasmartirrigation.json",
+      "probe_manifest_sha256": "3f1335e72063f987823fab5af1c211ab506ac042efd717083e15235df86baee2",
+      "probe_unit_id": "6c09260546807de68138f9eec179c5b0dfbcd9ea66f79f8dd5fb69d330f30a8b",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "justtrackio/gosoline",
+      "hunk_count": 125,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/justtrackio__gosoline.json",
+      "probe_manifest_sha256": "0add2e885d6140a5b3134aa6216589828e77094132309d4663e07d063e5ffc5f",
+      "probe_unit_id": "a42ed2da5bb909cf632ab29fe1e10f783cec7f3465f4fc9e6f3e24f2c3abf3c7",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "jxxghp/moviepilot",
+      "hunk_count": 10,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/jxxghp__moviepilot.json",
+      "probe_manifest_sha256": "c0190c96b7a84f2a8a64b77659ff78f1ae9cce8d88f0f9411bad6355675c4086",
+      "probe_unit_id": "bf8991afb0acceab6ba0be66a563dd9a88fc4c836fa9f259312090e08d1122de",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "kanaries/pygwalker",
+      "hunk_count": 7,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/kanaries__pygwalker.json",
+      "probe_manifest_sha256": "d1566314d5f76d45b3d23b95269162e6e0a76501f494f0634b64854cd98a00b0",
+      "probe_unit_id": "607d6acc2bde862865d50752f9a06a26d1eb51396b629a2461117e2995c136ae",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "kanisterio/kanister",
+      "hunk_count": 63,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/kanisterio__kanister.json",
+      "probe_manifest_sha256": "ccdf1f4063185ca05a2b55f0e4d75cad3af6ea3bdf20892be2434274d1b1b404",
+      "probe_unit_id": "b1bcd2731f4523de531d5d0c8a413b7473222bf4f3f8cab5a070e6256ecfbed7",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "keephq/keep",
+      "hunk_count": 8,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/keephq__keep.json",
+      "probe_manifest_sha256": "c3ec4c68f9994eaa2b10e62a72c08a79d5322056a5467773f7293a4479ff58d8",
+      "probe_unit_id": "a4042540e0f4900d36db9eddd94ecddfc52063817dd5a0a84931a2224a7c0258",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "kubernetes-sigs/cloud-provider-azure",
+      "hunk_count": 13,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/kubernetes-sigs__cloud-provider-azure.json",
+      "probe_manifest_sha256": "97d3d1581f088f6a43e1019014430652e2061c956496e5031f2a5d4f8798b1a7",
+      "probe_unit_id": "7db4cbed01d13857eed15d869a71f03c229d230ab48526a947df9da11b423d26",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "langbot-app/langbot",
+      "hunk_count": 15,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/langbot-app__langbot.json",
+      "probe_manifest_sha256": "6996afcd537e98c59c7824fc60cb7d754ef2c779b04c954995a1abf43c2251f7",
+      "probe_unit_id": "aba1e9f67c99bbba5aba6b50b4e7e41ab9568ab8c6fcb7394eb62568b0c8e9ab",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "levigross/grequests",
+      "hunk_count": 26,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/levigross__grequests.json",
+      "probe_manifest_sha256": "f6f3b70c3e9aa6b8ddde61fad8e85bc283346692f62c19703b1a338926ac49da",
+      "probe_unit_id": "e0911e735ceb4382297b921aaca100a3a257e6f8a9e37c04ea1fe0694715f428",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "marimo-team/marimo",
+      "hunk_count": 69,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/marimo-team__marimo.json",
+      "probe_manifest_sha256": "980699eaf4f781c55267f1f39a30be82260962c363f536cd59e709a8b59fb510",
+      "probe_unit_id": "1a8b9d95736d5e00a9e344959227541a35a74204e4b031fabf82eb9aa9d1ca42",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/azuretre",
+      "hunk_count": 17,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__azuretre.json",
+      "probe_manifest_sha256": "35147470aca4acbd941a59ca7dcf67d3793b5bb678bf9e1e46b0bf4950b47629",
+      "probe_unit_id": "2d2e2ed6ca15ed0f69c419dfbcd4a3e1d5338768bb6ab523580fac6b129a2b04",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/debug-gym",
+      "hunk_count": 17,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__debug-gym.json",
+      "probe_manifest_sha256": "3f6a1ec9a1629fe59c683722335b223e3233d77fda93d6197a4083731e58bce3",
+      "probe_unit_id": "7f5ab0b06ee0df7d0b20b204c346edc516c4536857d26dc3dcc0cc03f77742d7",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/go-mssqldb",
+      "hunk_count": 10,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__go-mssqldb.json",
+      "probe_manifest_sha256": "0b6b98f927e138aa73926c54fd98467ef58120818d5da700882a62b4ff1ba18d",
+      "probe_unit_id": "9f7b7410fb686b49ebfce298d1af753eeafd827b7321a493ea0877463ba6b146",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/go-sqlcmd",
+      "hunk_count": 9,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__go-sqlcmd.json",
+      "probe_manifest_sha256": "f85a62ae7e9de6f06a6d3ad7f044a90590446cd75f0d941d8f8392ee39fe551e",
+      "probe_unit_id": "ee107deb49ad329de38320f57c061880be64aaa12c55ba0bf55d5941cee17f13",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/graphrag",
+      "hunk_count": 102,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__graphrag.json",
+      "probe_manifest_sha256": "6508892d032f5027020956563c809eda3f9294d69d782e192d0e30506ba84434",
+      "probe_unit_id": "b931ff0c45f1554edd04bf0518b12c80946743c37f30b18106eea4d4eacf63d8",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/lisa",
+      "hunk_count": 56,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__lisa.json",
+      "probe_manifest_sha256": "f75d1e5738f626405db17d25085604f88aa75f005db5429ab9ac55339728dd3b",
+      "probe_unit_id": "39752d21f4f87f8c004f8e857fcd75b05566d086377f4fe9b80e81b6bf9d13c2",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/olive",
+      "hunk_count": 10,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__olive.json",
+      "probe_manifest_sha256": "cf755deae388e1c05ea1900cfedc117106a0d152f710b385beba3928cb8b4c2f",
+      "probe_unit_id": "aa6afe4d1ed304cc4e1c88f233e85601d3c11f2b69034574142817d20774f644",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/qcodes",
+      "hunk_count": 20,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__qcodes.json",
+      "probe_manifest_sha256": "c964374f33edfcb20dce875b87cc51d62d74f62d9a19e5c6e9efcb32b7872101",
+      "probe_unit_id": "219cf1c08cc243334e367120c2a8de0dd2f083243d3878ada1d5a21fcb4481b3",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/retina",
+      "hunk_count": 8,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__retina.json",
+      "probe_manifest_sha256": "351462c85f10113ced19aa21ba030b752d6b1d7d4c5a9009d5591fe5cc7c4066",
+      "probe_unit_id": "e81f4835237f35f3e4cb51c4f7995f2c4db3e45b8f7d6ee4b5f312d17724a934",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "microsoft/typescript-go",
+      "hunk_count": 25,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__typescript-go.json",
+      "probe_manifest_sha256": "962a07b6fb5a27004990d81327ef1344fffffa70aca94dec7b98ca4843afe36b",
+      "probe_unit_id": "e30cca3325167412572f8084181c720c4709be8d6038177637b4f6b1c4293c7e",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "mochilang/mochi",
+      "hunk_count": 13330,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/mochilang__mochi.json",
+      "probe_manifest_sha256": "965866a6168435fbdfcf30f6b78dc82528505fc7538829808aea67a36db412e4",
+      "probe_unit_id": "40a2b2b11e9ef9a6ac146761bec81d3edfa24437dcafca626b609fcf648c848e",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "navidrome/navidrome",
+      "hunk_count": 10,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/navidrome__navidrome.json",
+      "probe_manifest_sha256": "28f946c6a78e6541ce8f20dc1488abf3e6ec47d27de339fa47e7fbb15aefbbed",
+      "probe_unit_id": "f69c93ad72faffa31654c97cb71a1d6d9d0213c081805394da2f12935acf9ecb",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "newfuture/ddns",
+      "hunk_count": 90,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/newfuture__ddns.json",
+      "probe_manifest_sha256": "7bb906cf25147a88586df2e21840dfd3d2bf841496a95dae196279eb1980f581",
+      "probe_unit_id": "32a33d8d76f0048dd61e8d8dd2f25f752d00801856c7fd4b681e07b7bf6e7238",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "noneback/go-taskflow",
+      "hunk_count": 2,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/noneback__go-taskflow.json",
+      "probe_manifest_sha256": "80e92c31ae16dbc2f00ec29e30e1966671e615c154f19db996523d2b87feda96",
+      "probe_unit_id": "a65090f0bd877157e72e69c19821834862e2a9ac35f1d59d63f008906b5d6932",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "nousresearch/atropos",
+      "hunk_count": 2,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/nousresearch__atropos.json",
+      "probe_manifest_sha256": "123d60b96572f88f6a32d1d3e65c2f623fe95cf1af9146e424a5989f5ba5a60a",
+      "probe_unit_id": "41a147d203c89fcc70f88183aed44ee196f8da17f4fe217a1050fdaf93d35673",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "numbagg/numbagg",
+      "hunk_count": 36,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/numbagg__numbagg.json",
+      "probe_manifest_sha256": "03d07a3c47e7214fccf6ad515eaf6b3fc01903d4e1c34295e000c975cf7c2157",
+      "probe_unit_id": "a1397f86b0a03653dedd27d90dc7294a59fb3fb5c84fda8a12f638fed428cb82",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "odigos-io/odigos",
+      "hunk_count": 6,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/odigos-io__odigos.json",
+      "probe_manifest_sha256": "6dda1c8d792509d8c99b593d027e33740ffa565a555d3a5fa15eddce0c7fca8e",
+      "probe_unit_id": "d2c87e45ffbcb3d05442366653e3dcde5fcb2a60612f85beaaf1475244c356a3",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "oevortex/webscout",
+      "hunk_count": 57,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/oevortex__webscout.json",
+      "probe_manifest_sha256": "65864055bcf7fbaf2c365e4071e124c4a1f65aaf44b4a061906fda2bf6c15f38",
+      "probe_unit_id": "19ed2917ca1544fb82c6a42bbff61079fd875993e9e903a2d0c26f231fa656a3",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "onyx-dot-app/onyx",
+      "hunk_count": 5,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/onyx-dot-app__onyx.json",
+      "probe_manifest_sha256": "a2f98b7ce6f9aafdff85110f79abab03439e29c756daa0423012894c088aa58d",
+      "probe_unit_id": "89076fbd8b75400a3d9604e5fed1088c57f2a4e795613f7fa9ce0254e64f1b6d",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "open5e/open5e-api",
+      "hunk_count": 1,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/open5e__open5e-api.json",
+      "probe_manifest_sha256": "619ca4015e2865ee02f73114a34dd002b609a192e47986e754ba74f03c6f1d62",
+      "probe_unit_id": "6764bc9e522f8e52347696f882b0f614d115cd0b6707a09da9783bd0a4af4dac",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "oraios/serena",
+      "hunk_count": 10,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/oraios__serena.json",
+      "probe_manifest_sha256": "510f0b0f2b48ec2fd68db0437deea13d616f45501607775e53d8a84ad02c9f91",
+      "probe_unit_id": "efe05bd8351e8a618992dc40e2c58f654d2a802458fce7e520151fe6994ae58d",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "prequel-dev/preq",
+      "hunk_count": 7,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/prequel-dev__preq.json",
+      "probe_manifest_sha256": "9b37bd3dfe69385f7c2701af5a71bac9f469b89ac4050059913a997508f2aea0",
+      "probe_unit_id": "6ace2b85348dea867ef513decbbc46614f4166ef682964715df194e8507802de",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "pythonnest/pynest",
+      "hunk_count": 5,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/pythonnest__pynest.json",
+      "probe_manifest_sha256": "56ea25da5049b27c639d5ff2c4d28202cc655003daccb58dffbef1dbcdb1a473",
+      "probe_unit_id": "39b5c39879f54270786cc5e364566bcfbaf6526562e7b83f2a21d3f93bcbfe7d",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "quantalogic/quantalogic",
+      "hunk_count": 2,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/quantalogic__quantalogic.json",
+      "probe_manifest_sha256": "814d80732756e4a0b1403f92e65388f27204dc76b96454b973152f07b687a9a5",
+      "probe_unit_id": "fa5db52eec26886dca7a4611c3179f3edfb542e42e76b2d7b8af46b8e4de5a59",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "reflex-dev/reflex",
+      "hunk_count": 25,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/reflex-dev__reflex.json",
+      "probe_manifest_sha256": "da76d8c27b422b1387924712ebdc9606887795c619c1d2b4e8d66eeba5afd74a",
+      "probe_unit_id": "a01dc71ba55c66da4a51f82673e71e197ef0f242cca1ab6b267621fdad953499",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "reflex-dev/reflex-web",
+      "error": "Sourcegraph blame repository does not match",
+      "probe_unit_id": "5832e5e52b5f195c2fd736d07cec4c9697af83221e262d62c580a481117da405",
+      "reused": false,
+      "valid": false
+    },
+    {
+      "canonical_repository_id": "rqlite/rqlite",
+      "hunk_count": 49,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/rqlite__rqlite.json",
+      "probe_manifest_sha256": "ad4f86f0db35f0b99218200ac18b54a737ca783597cdd44443578e34c7b7a4bf",
+      "probe_unit_id": "d025a44565c37f3d85fb1c95540ee3362e3d0df13c700faa95e74fd6af4e544b",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "safedep/vet",
+      "hunk_count": 5,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/safedep__vet.json",
+      "probe_manifest_sha256": "6ae39d0f486a378afcb7a338760684cceda6a2ee43813dae2f303965dc2617fc",
+      "probe_unit_id": "feee8be6e2f497c6fe8cdd554d7caa99d111d77f8248b322414aa0e82880b842",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "sashabaranov/go-openai",
+      "hunk_count": 14,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/sashabaranov__go-openai.json",
+      "probe_manifest_sha256": "728fab9a629115008f50b28c7ea7263fc0d35e633cd84c7979582871a5b928c6",
+      "probe_unit_id": "85474d1258cef1e4c94cf4b7dde85dd0f71076da18535e2ae6873f7b4ebc1716",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "savetherbtz/zstd-seekable-format-go",
+      "hunk_count": 18,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/savetherbtz__zstd-seekable-format-go.json",
+      "probe_manifest_sha256": "a352993d96c15dd2959c17efba2ee7544ad5379e8ca9746c5b2da113c8a833b0",
+      "probe_unit_id": "36ad6c9588d79559f5d98f2e069f5439622d9b7a9efd5a9b5c2c65ef3aa38a30",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "schemahero/schemahero",
+      "hunk_count": 18,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/schemahero__schemahero.json",
+      "probe_manifest_sha256": "c77a799221d7cf5fc54e8c870a632b4c2b3d7c7c22c6c16c94becece66a983c3",
+      "probe_unit_id": "772fc2a4306a451b2b53dbf4af8eb2587921257adb3c260da43f585c8453a75c",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "sirk123au/arrtools",
+      "hunk_count": 5,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/sirk123au__arrtools.json",
+      "probe_manifest_sha256": "e7b6098a8c29eac62e1fddd17d2d7c134ba4c2c0d6d01e44230cdafaf0dfb021",
+      "probe_unit_id": "0e0283dd84f2a83f3d14f4973f79a6d3dc15fb553c72e6e8fbefad5dae42e986",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "spacelift-io/spacectl",
+      "hunk_count": 90,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/spacelift-io__spacectl.json",
+      "probe_manifest_sha256": "207bb6d9d010123b084aa86076b5f2f800ce1c60dcc0e2fc5c09f1522ea565a1",
+      "probe_unit_id": "08f6fb68d650b99c3be72747d3a45b60762f84d9e173bf6b90eff5ed6eb9565c",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "spcl/dace",
+      "hunk_count": 11,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/spcl__dace.json",
+      "probe_manifest_sha256": "2579aa5afd38928405199638daac57000eb807e8442dd67efd7396fa5fe99e96",
+      "probe_unit_id": "9d13617a6c93b20a258f3c957ecfb41f9c3363c8b7a0fa61f729f599c4d24a58",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "spylang/spy",
+      "hunk_count": 7,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/spylang__spy.json",
+      "probe_manifest_sha256": "2f1d6b3ec52cbe718976a8e20d59c701c7e3043ae89e679757d19d94509aa13f",
+      "probe_unit_id": "adb79e743cf6737e7f308db91eb760f1ce0751ca0e9ce7dccf961df4cb695ccd",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "stanford-crfm/haliax",
+      "hunk_count": 36,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/stanford-crfm__haliax.json",
+      "probe_manifest_sha256": "802d96fe8b72aae65c80cda439ebe28a28a7b80f35fd977b65d1ab01cad00fbf",
+      "probe_unit_id": "c0aee86fd6ac51752b5c53f031d1b598fb0e49090d0bca58cefb259eb1c73772",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "teaxyz/chai",
+      "hunk_count": 33,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/teaxyz__chai.json",
+      "probe_manifest_sha256": "c9365a451a5d99bea8bed5b115946adb8daf9d9a3d38ad62570e904f3c795412",
+      "probe_unit_id": "7c68a7540df45b33bf50fefea5296d301a9d623eae5238ed484a232e924b4f80",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "tphakala/birdnet-go",
+      "hunk_count": 132,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/tphakala__birdnet-go.json",
+      "probe_manifest_sha256": "801f146b670f39b50d6dc6b9876236d0050fffcb43bf2c4829a55647931cc4bb",
+      "probe_unit_id": "1db2a6ba53e8375cff3fba6ce265bc68e888794762c23dfa4d6e48ebf1d9eac1",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "tracecathq/tracecat",
+      "hunk_count": 33,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/tracecathq__tracecat.json",
+      "probe_manifest_sha256": "97e9b7363d6a891be785f75480449ec35b713b7b44a79e7a24680db32da990a3",
+      "probe_unit_id": "432159dad7700699d112285f044bf025cfed11e237292a0fcdaea46fe8ea581a",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "ucbepic/docetl",
+      "hunk_count": 23,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/ucbepic__docetl.json",
+      "probe_manifest_sha256": "69ec6f03dd075f40e7c7bd1dc2ca763f1cf494d33247487a0694c56ee1f3a9ab",
+      "probe_unit_id": "e6dbc58d56b28f6b0e01c9bc45109b92d18a54a90940310cfd2a79dcb85e21b2",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "vdaas/vald",
+      "hunk_count": 242,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/vdaas__vald.json",
+      "probe_manifest_sha256": "683a1a6eacf673d51d218f391bc14abeea7d08cba93e0ef2dc5ccf78f2c6e55e",
+      "probe_unit_id": "bb607ca2426bfd8bd9d9268507bc5e001623367e566a3ef63d5e5df2ad424922",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "veloera/veloera",
+      "hunk_count": 19,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/veloera__veloera.json",
+      "probe_manifest_sha256": "bb3f1f038b2f9c8026510e3c9547d24e6470e25ed0d9befa92236fb3cb7d3765",
+      "probe_unit_id": "b0245e4c15d705690d269f448037e4c0775653fbde1bd8fd1ef4c1b8a7fbad1e",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "vladfi1/slippi-ai",
+      "hunk_count": 16,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/vladfi1__slippi-ai.json",
+      "probe_manifest_sha256": "d4bc62d4832a3d80dd95ad17943bbdae61c1ccd3d372768c875dedc9de4bfa2a",
+      "probe_unit_id": "6b6bfda1a1d8f37a4b3f510be49948a50f13ba59fd137d27563b50878f819e63",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "vlm-run/vlmrun-hub",
+      "hunk_count": 14,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/vlm-run__vlmrun-hub.json",
+      "probe_manifest_sha256": "41c6c92d91dc825c0d09f774a83095fa1a890753350afbf0ada5d39d8801a96b",
+      "probe_unit_id": "fa6890f495190096396067feb272d94eb1d269ffc113867902977978bc2a6a22",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "wandb/weave",
+      "hunk_count": 20,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/wandb__weave.json",
+      "probe_manifest_sha256": "8f8fbf98b2c27c527fc35914ba9ed739db82d247a36a677cbda7589e59af3ca6",
+      "probe_unit_id": "d5f6eb5c5803584f7cee082db99256d9d77f3f565bc76560c55c330193a7832c",
+      "reused": false,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "willccbb/verifiers",
+      "hunk_count": 2,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/willccbb__verifiers.json",
+      "probe_manifest_sha256": "ad9721ce2dceaa966aaa5273c540a02854029c2e7689d35ef850518d9a2bad17",
+      "probe_unit_id": "58b7b4cc4ca6fce28ac80abd860d90908db539b00177cda653926b8eeec3c3e2",
+      "reused": true,
+      "valid": true
+    },
+    {
+      "canonical_repository_id": "zfit/zfit",
+      "hunk_count": 39,
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/zfit__zfit.json",
+      "probe_manifest_sha256": "174be760e27befac52bb5dfff7a0444ebde50e08e0092b5646d03e57b708b6e6",
+      "probe_unit_id": "e516b3b25d383e3e19f2dd233012f3f3dff5095480cc4f48967063bed4344a79",
+      "reused": false,
+      "valid": true
+    }
+  ],
+  "valid_unit_count": 93
+}

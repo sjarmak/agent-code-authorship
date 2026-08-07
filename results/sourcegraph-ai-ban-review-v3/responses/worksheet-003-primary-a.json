@@ -1,0 +1,43 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "084ca4362081ec105b3f192157cebe8cf28fc479c538ebe0c8a7988752c47eb4",
+    "task_id": "d34f1ad33808ea4ec4b52c1e92bb0eb6c3eb28582ff615d4abd7236b0321e1d0",
+    "task_sha256": "3c290c772568ae88d6697cd455d6880498486e0f4db321de775ef245b42a93b0",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "95fa29a0338b42241a604f90572e28e5e46221269a1eb254c76e6dc8c03015cf",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The cited contributing guideline concerns accessing nested data and does not prohibit AI-generated or AI-authored contributions.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L376",
+      "https://github.com/yt-dlp/yt-dlp/commit/8aa0e7cd96a1e2f315d49744793ae07f6543ce4c"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "34b971c33c5b525d9f5c674fe53a4407f75354e2b18006559390a74016f721d8"
+  },
+  {
+    "response_version": 3,
+    "worksheet_sha256": "084ca4362081ec105b3f192157cebe8cf28fc479c538ebe0c8a7988752c47eb4",
+    "task_id": "74fa34b3dd53a4f6f46d0efd9c6a1a60f723f0bdd86a14923667f356b20709fb",
+    "task_sha256": "f9279cf5e3b1a7224b019d97fddd73400799b59fbe691d18d0ee4184a69e4b32",
+    "canonical_repository_id": "superseriousbusiness/gotosocial",
+    "event_id": "53212fe3b22962dd38d4fd056f27c71d1175e290fd0303605cbda16793fb5547",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "accept_policy",
+    "default_branch_supported": true,
+    "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+    "evidence_tier": "datable_default_branch_policy",
+    "rationale": "The dated default-branch code of conduct states that the project will not accept code or other changes created with the aid of AI tooling.",
+    "evidence_citations": [
+      "https://codeberg.org/superseriousbusiness/gotosocial"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "4ffe9e0b9e5fc43b34a735427d44f96f4dc8763638735d32ee78e1ee3ac862d0"
+  }
+]

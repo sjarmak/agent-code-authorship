@@ -5,7 +5,6 @@ import argparse
 import hashlib
 import json
 import os
-import subprocess
 import tempfile
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -221,17 +220,11 @@ def process_repository(
         repository, earliest_commit, git_inventory["cutoff_commit"]
     )
 
-    pr_metadata = {
-        (pr["merge_commit"], pr["number"]): pr
-        for pr in candidate["pull_requests"]
-        if (pr["merge_commit"], pr["number"]) in by_pr
-    }
     snapshots: dict[str, list[tuple[tuple[str, int], dict[str, Any]]]] = defaultdict(
         list
     )
     censored: list[tuple[tuple[str, int], dict[str, Any]]] = []
     for pr_key in sorted(by_pr):
-        pr = pr_metadata[pr_key]
         landing = landing_by_pr[pr_key]
         landing_date = history[positions[landing]][1]
         for days in HORIZONS:

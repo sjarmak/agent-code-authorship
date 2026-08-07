@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-ai-ban-decision-ledger.schema.json",
+  "title": "Cumulative fresh AI-ban decision ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "decision_ledger_version",
+    "target_manifest_sha256",
+    "worksheet_sha256",
+    "prior_decision_ledger_sha256",
+    "prior_decision_count",
+    "response_count",
+    "decision_count",
+    "decisions",
+    "outcomes_consulted",
+    "decision_ledger_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-ai-ban-decision-ledger.schema.json"
+    },
+    "decision_ledger_version": {
+      "const": 3
+    },
+    "target_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "worksheet_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "prior_decision_ledger_sha256": {
+      "$ref": "#/$defs/nullableSha256"
+    },
+    "prior_decision_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "response_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "decision_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "$ref": "sourcegraph-ai-ban-review-response.schema.json"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "decision_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "nullableSha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

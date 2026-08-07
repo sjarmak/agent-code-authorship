@@ -1,0 +1,176 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "3b9cd647daf5c4e91b760f29e17c5c2dadf69096122bec3f785b4f4941da4f2b",
+  "artifact_version": 1,
+  "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a"
+  ],
+  "cited_files": [
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": ".github/workflows/pytest.yml",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/pytest.yml"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": ".github/workflows/hacs.yml",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/hacs.yml"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": ".github/workflows/hassfest.yml",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/hassfest.yml"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": ".github/workflows/stale.yml",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/stale.yml"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": ".github/workflows/release-zip.yml",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/release-zip.yml"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/pyproject.toml"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "setup.cfg",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/setup.cfg"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": ".github/dependabot.yml",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/dependabot.yml"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": ".gitvote.yml",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.gitvote.yml"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/manifest.json",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/manifest.json"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "CLAUDE.md",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/CLAUDE.md"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "CONTRIBUTING.md",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/CONTRIBUTING.md"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "tests/test_watering_now_rebind.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_watering_now_rebind.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "tests/test_next_irrigation_trigger.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_next_irrigation_trigger.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/tests/test_migration_fix.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/tests/test_migration_fix.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "tests/test_store_migration.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_store_migration.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "test_datetime_fix_proof.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/test_datetime_fix_proof.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "test_weather_records_proof.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/test_weather_records_proof.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "test_latitude_error.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/test_latitude_error.py"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2010",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a.",
+  "prompt_family_id": "review_validation",
+  "prompt_sha256": "831545a962c94c734229104776696244933da88e22460ee73fcb8caf18b33607",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Here is a structured report of all observable code-review and validation mechanisms at revision `9ad5a7d90ac2c42288536a6264cdc8adbea39b6a`.\n\n---\n\n## Repository-Wide Validation Mechanisms\n\n### 1. CI Workflows (`.github/workflows/`)\n\n**`pytest.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/pytest.yml)\n\nTriggers on `push` and `pull_request` to `main`/`master`. Runs two separate jobs:\n\n- **`test`**: Python 3.13 only (no matrix sweep). Installs `requirements.test.txt`. Runs:\n  - `pytest tests/ -v --cov=... --ignore-glob=\"**/test_*.py.disabled\"` (unit tests, coverage to Codecov)\n  - `pytest custom_components/smart_irrigation/tests/test_helpers.py custom_components/smart_irrigation/tests/test_performance.py custom_components/smart_irrigation/tests/test_diagnostics.py` (integration tests, hardcoded file list)\n  - Uploads XML coverage to Codecov with `fail_ci_if_error: false` \u2014 coverage failures do not block the workflow.\n- **`lint`**: Runs `ruff check custom_components/smart_irrigation/ --output-format=github` then `black --check custom_components/smart_irrigation/`. Both are blocking steps. `isort` is installed but not invoked as a separate check step.\n\n**`hacs.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/hacs.yml)\n\nRuns on `push`, `pull_request`, and daily cron. Uses `hacs/action@main` to validate HACS integration metadata (`hacs.json`, file structure). No pinned action SHA.\n\n**`hassfest.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/hassfest.yml)\n\nRuns on `push`, `pull_request`, and daily cron. Uses `home-assistant/actions/hassfest@master` to validate `manifest.json`, service schemas, and HA integration conventions. No pinned action SHA.\n\n**`stale.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/stale.yml)\n\nDaily cron. Labels and closes stale issues and PRs. Issues labelled `do-not-auto-close` or `bug` are exempt.\n\n**`release-zip.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/release-zip.yml)\n\nTriggered on GitHub release publication or via `workflow_dispatch`. Packages `custom_components/smart_irrigation/` (excluding `tests/`, `__pycache__/`, `*.pyc`, `frontend/node_modules/`) into `smart_irrigation.zip` and attaches it to the release asset. `hacs.json` has `\"zip_release\": true` and `\"filename\": \"smart_irrigation.zip\"`, activating HACS zip download.\n\n---\n\n### 2. Linter Configuration (`pyproject.toml`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/pyproject.toml)\n\n`ruff` rule sets enabled: `E` (pycodestyle), `F` (pyflakes), `B` (bugbear), `I` (isort ordering), `UP` (pyupgrade), `SIM` (simplify). Explicitly ignored: `E501` (line length) and `SIM102` (nested `if`). `black` is used separately for formatting. There is no `mypy`, `pylint`, or type-checking step.\n\n---\n\n### 3. pytest Configuration (`setup.cfg`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/setup.cfg)\n\n```\ntestpaths = tests custom_components/smart_irrigation/tests\nasyncio_mode = auto\nasyncio_default_fixture_loop_scope = function\npython_files = test_*.py\npython_classes = Test*\npython_functions = test_*\naddopts = -v --tb=short\nfilterwarnings =\n    ignore::DeprecationWarning\n    ignore::PendingDeprecationWarning\n```\n\nBoth `tests/` and `custom_components/smart_irrigation/tests/` are declared as test roots. Asyncio mode is `auto` project-wide. Deprecation warnings are silenced globally.\n\n---\n\n### 4. Dependency Automation (`dependabot.yml`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/dependabot.yml)\n\nThree ecosystems configured, all targeting the `dev` branch (not `master`):\n\n| Ecosystem | Directory | Schedule | Grouping |\n|---|---|---|---|\n| `npm` (frontend TypeScript/Lit) | `/custom_components/smart_irrigation/frontend` | weekly | minor+patch grouped into one PR |\n| `pip` (Python dev/test deps) | `/` | weekly | none |\n| `github-actions` | `/` | weekly | none |\n\nMax 5 open PRs per ecosystem.\n\n---\n\n### 5. Voting Mechanism (`.gitvote.yml`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.gitvote.yml)\n\nGitVote is present but **automation is disabled** (`automation.enabled: false`, `rules: []`). The default profile requires 50% pass threshold over 1 week. No `allowed_voters` teams or users are listed, meaning all collaborators vote. The `/vote` command can still be invoked manually on PRs. A `profile1` variant is defined (75% threshold, 1 minute, `team1`) but `team1` is not defined in this repository, making it non-functional as configured.\n\n---\n\n### 6. Ownership (`manifest.json`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/manifest.json)\n\n`codeowners` is set to `[\"@altmenorg\", \"@jeroenterheerdt\"]`. There is no `CODEOWNERS` file in `.github/` or the repository root, so GitHub does not auto-assign reviewers via the CODEOWNERS mechanism; the `manifest.json` field is used by `hassfest` only.\n\n---\n\n### 7. Branch Workflow Convention (`CLAUDE.md`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/CLAUDE.md)\n\nDocumented policy (not enforced by branch protection rules that are inspectable here):\n- Work exclusively on `dev`. Do not commit directly to `master`.\n- Merge `dev` \u2192 `master` only via `git merge --ff-only dev` when a batch is validated.\n- HACS release cut only after validation actions pass green.\n- Version string must be bumped across three files: `manifest.json`, `const.py`, `frontend/src/const.ts`.\n\n---\n\n### 8. Pre-commit Hooks (`CONTRIBUTING.md`, `requirements-dev.txt`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/CONTRIBUTING.md)\n\n`pre-commit>=4.6.0` is listed in `requirements-dev.txt`. `CONTRIBUTING.md` instructs `pre-commit install`. However, there is no `.pre-commit-config.yaml` file in the repository at this revision, so hooks are not configured and `pre-commit install` would produce no hooks.\n\n---\n\n### 9. Disabled Tests\n\nSeveral test files are present but inert:\n\n| File | Location |\n|---|---|\n| `tests/test_continous_updates.py.disabled` | `tests/` |\n| `tests/test_continous_updates_edge.py.disabled` | `tests/` |\n| `tests/test_zone_calculation.py.disabled` | `tests/` |\n| `tests/test_zone_edge_cases.py.disabled` | `tests/` |\n\nThe CI `--ignore-glob=\"**/test_*.py.disabled\"` clause excludes these. The `.disabled` suffix is the observable naming convention used to park tests without deleting them.\n\n---\n\n## Evidence Tied to Specific Changes (Regression / Follow-up Tests)\n\nThe following tests embed issue references or \"proof\" language in their docstrings, indicating they were written in response to a specific defect rather than as general coverage:\n\n| File | Issue / Described Defect |\n|---|---|\n| [`tests/test_watering_now_rebind.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_watering_now_rebind.py) | Issue #768: `watering_now` binary sensor never tracked its linked valve if set after entity creation; docstring says \"rebinds on every zone config update.\" |\n| [`tests/test_next_irrigation_trigger.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_next_irrigation_trigger.py) | Issue #763: \"next irrigation\" display time always assumed sunrise finish; tests cover `_trigger_start_base_and_offset`. |\n| [`custom_components/smart_irrigation/tests/test_migration_fix.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/tests/test_migration_fix.py) | Storage `TypeError` during upgrade when unrecognized keys present in stored `Config`; tests the key-filtering fix. |\n| [`tests/test_store_migration.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_store_migration.py) | Backward compatibility for upstream v5 stores; includes `test_manual_coordinates_survive_reload` addressing a silent regression where manual coordinates reverted on restart. |\n| [`test_datetime_fix_proof.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/test_datetime_fix_proof.py) | Root-level standalone script (not picked up by CI `pytest tests/`) proving `_safe_parse_datetime` against datetime sorting failure. |\n| [`test_weather_records_proof.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/test_weather_records_proof.py) | Root-level standalone script (not CI-covered) proving weather record retrieval after the datetime fix. |\n| [`test_latitude_error.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/test_latitude_error.py) | Root-level standalone script to reproduce a latitude error in the coordinator. Uses `MagicMock`, not a `pytest` fixture suite. |\n\nThe root-level `test_*.py` files (seven total) are **not executed by CI**: `pytest.yml` runs `pytest tests/` plus the three hardcoded integration test files; `setup.cfg` declares `testpaths = tests custom_components/smart_irrigation/tests`, which does not include the repository root.\n\n---\n\n## Deterministic Verification Queries\n\nThe following observations can be re-verified mechanically against the cutoff SHA:\n\n1. **No `.pre-commit-config.yaml` exists**: `git ls-tree 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a --name-only | grep pre-commit`\n2. **No `CODEOWNERS` file exists**: `git ls-tree -r 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a --name-only | grep CODEOWNERS`\n3. **Root-level `test_*.py` are absent from CI `testpaths`**: compare `setup.cfg` `testpaths` value against `ls test_*.py` at repo root.\n4. **`fail_ci_if_error: false` on Codecov step**: `grep -A5 'codecov' .github/workflows/pytest.yml`\n5. **Disabled tests excluded via `--ignore-glob`**: `grep ignore-glob .github/workflows/pytest.yml`\n6. **`isort` not invoked in CI lint job**: `grep isort .github/workflows/pytest.yml` (only in `pip install`, not as a `run:` step).\n7. **`dependabot.yml` targets `dev`, not `master`**: `grep target-branch .github/dependabot.yml`\n8. **`hacs/action@main` and `hassfest@master` are unpinned**: `grep '@' .github/workflows/hacs.yml .github/workflows/hassfest.yml | grep -v 'actions/checkout'`\n9. **`manifest.json` codeowners vs absence of `CODEOWNERS` file**: confirm `codeowners` key only in `manifest.json`.\n10. **GitVote automation disabled**: `grep 'enabled' .gitvote.yml` \u2192 `enabled: false`.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:23:48Z",
+    "name": "users/476/conversations/2010",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Here is a structured report of all observable code-review and validation mechanisms at revision `9ad5a7d90ac2c42288536a6264cdc8adbea39b6a`.\n\n---\n\n## Repository-Wide Validation Mechanisms\n\n### 1. CI Workflows (`.github/workflows/`)\n\n**`pytest.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/pytest.yml)\n\nTriggers on `push` and `pull_request` to `main`/`master`. Runs two separate jobs:\n\n- **`test`**: Python 3.13 only (no matrix sweep). Installs `requirements.test.txt`. Runs:\n  - `pytest tests/ -v --cov=... --ignore-glob=\"**/test_*.py.disabled\"` (unit tests, coverage to Codecov)\n  - `pytest custom_components/smart_irrigation/tests/test_helpers.py custom_components/smart_irrigation/tests/test_performance.py custom_components/smart_irrigation/tests/test_diagnostics.py` (integration tests, hardcoded file list)\n  - Uploads XML coverage to Codecov with `fail_ci_if_error: false` \u2014 coverage failures do not block the workflow.\n- **`lint`**: Runs `ruff check custom_components/smart_irrigation/ --output-format=github` then `black --check custom_components/smart_irrigation/`. Both are blocking steps. `isort` is installed but not invoked as a separate check step.\n\n**`hacs.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/hacs.yml)\n\nRuns on `push`, `pull_request`, and daily cron. Uses `hacs/action@main` to validate HACS integration metadata (`hacs.json`, file structure). No pinned action SHA.\n\n**`hassfest.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/hassfest.yml)\n\nRuns on `push`, `pull_request`, and daily cron. Uses `home-assistant/actions/hassfest@master` to validate `manifest.json`, service schemas, and HA integration conventions. No pinned action SHA.\n\n**`stale.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/stale.yml)\n\nDaily cron. Labels and closes stale issues and PRs. Issues labelled `do-not-auto-close` or `bug` are exempt.\n\n**`release-zip.yml`** \u2014 [blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/workflows/release-zip.yml)\n\nTriggered on GitHub release publication or via `workflow_dispatch`. Packages `custom_components/smart_irrigation/` (excluding `tests/`, `__pycache__/`, `*.pyc`, `frontend/node_modules/`) into `smart_irrigation.zip` and attaches it to the release asset. `hacs.json` has `\"zip_release\": true` and `\"filename\": \"smart_irrigation.zip\"`, activating HACS zip download.\n\n---\n\n### 2. Linter Configuration (`pyproject.toml`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/pyproject.toml)\n\n`ruff` rule sets enabled: `E` (pycodestyle), `F` (pyflakes), `B` (bugbear), `I` (isort ordering), `UP` (pyupgrade), `SIM` (simplify). Explicitly ignored: `E501` (line length) and `SIM102` (nested `if`). `black` is used separately for formatting. There is no `mypy`, `pylint`, or type-checking step.\n\n---\n\n### 3. pytest Configuration (`setup.cfg`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/setup.cfg)\n\n```\ntestpaths = tests custom_components/smart_irrigation/tests\nasyncio_mode = auto\nasyncio_default_fixture_loop_scope = function\npython_files = test_*.py\npython_classes = Test*\npython_functions = test_*\naddopts = -v --tb=short\nfilterwarnings =\n    ignore::DeprecationWarning\n    ignore::PendingDeprecationWarning\n```\n\nBoth `tests/` and `custom_components/smart_irrigation/tests/` are declared as test roots. Asyncio mode is `auto` project-wide. Deprecation warnings are silenced globally.\n\n---\n\n### 4. Dependency Automation (`dependabot.yml`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.github/dependabot.yml)\n\nThree ecosystems configured, all targeting the `dev` branch (not `master`):\n\n| Ecosystem | Directory | Schedule | Grouping |\n|---|---|---|---|\n| `npm` (frontend TypeScript/Lit) | `/custom_components/smart_irrigation/frontend` | weekly | minor+patch grouped into one PR |\n| `pip` (Python dev/test deps) | `/` | weekly | none |\n| `github-actions` | `/` | weekly | none |\n\nMax 5 open PRs per ecosystem.\n\n---\n\n### 5. Voting Mechanism (`.gitvote.yml`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/.gitvote.yml)\n\nGitVote is present but **automation is disabled** (`automation.enabled: false`, `rules: []`). The default profile requires 50% pass threshold over 1 week. No `allowed_voters` teams or users are listed, meaning all collaborators vote. The `/vote` command can still be invoked manually on PRs. A `profile1` variant is defined (75% threshold, 1 minute, `team1`) but `team1` is not defined in this repository, making it non-functional as configured.\n\n---\n\n### 6. Ownership (`manifest.json`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/manifest.json)\n\n`codeowners` is set to `[\"@altmenorg\", \"@jeroenterheerdt\"]`. There is no `CODEOWNERS` file in `.github/` or the repository root, so GitHub does not auto-assign reviewers via the CODEOWNERS mechanism; the `manifest.json` field is used by `hassfest` only.\n\n---\n\n### 7. Branch Workflow Convention (`CLAUDE.md`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/CLAUDE.md)\n\nDocumented policy (not enforced by branch protection rules that are inspectable here):\n- Work exclusively on `dev`. Do not commit directly to `master`.\n- Merge `dev` \u2192 `master` only via `git merge --ff-only dev` when a batch is validated.\n- HACS release cut only after validation actions pass green.\n- Version string must be bumped across three files: `manifest.json`, `const.py`, `frontend/src/const.ts`.\n\n---\n\n### 8. Pre-commit Hooks (`CONTRIBUTING.md`, `requirements-dev.txt`)\n\n[blob link](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/CONTRIBUTING.md)\n\n`pre-commit>=4.6.0` is listed in `requirements-dev.txt`. `CONTRIBUTING.md` instructs `pre-commit install`. However, there is no `.pre-commit-config.yaml` file in the repository at this revision, so hooks are not configured and `pre-commit install` would produce no hooks.\n\n---\n\n### 9. Disabled Tests\n\nSeveral test files are present but inert:\n\n| File | Location |\n|---|---|\n| `tests/test_continous_updates.py.disabled` | `tests/` |\n| `tests/test_continous_updates_edge.py.disabled` | `tests/` |\n| `tests/test_zone_calculation.py.disabled` | `tests/` |\n| `tests/test_zone_edge_cases.py.disabled` | `tests/` |\n\nThe CI `--ignore-glob=\"**/test_*.py.disabled\"` clause excludes these. The `.disabled` suffix is the observable naming convention used to park tests without deleting them.\n\n---\n\n## Evidence Tied to Specific Changes (Regression / Follow-up Tests)\n\nThe following tests embed issue references or \"proof\" language in their docstrings, indicating they were written in response to a specific defect rather than as general coverage:\n\n| File | Issue / Described Defect |\n|---|---|\n| [`tests/test_watering_now_rebind.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_watering_now_rebind.py) | Issue #768: `watering_now` binary sensor never tracked its linked valve if set after entity creation; docstring says \"rebinds on every zone config update.\" |\n| [`tests/test_next_irrigation_trigger.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_next_irrigation_trigger.py) | Issue #763: \"next irrigation\" display time always assumed sunrise finish; tests cover `_trigger_start_base_and_offset`. |\n| [`custom_components/smart_irrigation/tests/test_migration_fix.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/tests/test_migration_fix.py) | Storage `TypeError` during upgrade when unrecognized keys present in stored `Config`; tests the key-filtering fix. |\n| [`tests/test_store_migration.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_store_migration.py) | Backward compatibility for upstream v5 stores; includes `test_manual_coordinates_survive_reload` addressing a silent regression where manual coordinates reverted on restart. |\n| [`test_datetime_fix_proof.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/test_datetime_fix_proof.py) | Root-level standalone script (not picked up by CI `pytest tests/`) proving `_safe_parse_datetime` against datetime sorting failure. |\n| [`test_weather_records_proof.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/test_weather_records_proof.py) | Root-level standalone script (not CI-covered) proving weather record retrieval after the datetime fix. |\n| [`test_latitude_error.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/test_latitude_error.py) | Root-level standalone script to reproduce a latitude error in the coordinator. Uses `MagicMock`, not a `pytest` fixture suite. |\n\nThe root-level `test_*.py` files (seven total) are **not executed by CI**: `pytest.yml` runs `pytest tests/` plus the three hardcoded integration test files; `setup.cfg` declares `testpaths = tests custom_components/smart_irrigation/tests`, which does not include the repository root.\n\n---\n\n## Deterministic Verification Queries\n\nThe following observations can be re-verified mechanically against the cutoff SHA:\n\n1. **No `.pre-commit-config.yaml` exists**: `git ls-tree 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a --name-only | grep pre-commit`\n2. **No `CODEOWNERS` file exists**: `git ls-tree -r 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a --name-only | grep CODEOWNERS`\n3. **Root-level `test_*.py` are absent from CI `testpaths`**: compare `setup.cfg` `testpaths` value against `ls test_*.py` at repo root.\n4. **`fail_ci_if_error: false` on Codecov step**: `grep -A5 'codecov' .github/workflows/pytest.yml`\n5. **Disabled tests excluded via `--ignore-glob`**: `grep ignore-glob .github/workflows/pytest.yml`\n6. **`isort` not invoked in CI lint job**: `grep isort .github/workflows/pytest.yml` (only in `pip install`, not as a `run:` step).\n7. **`dependabot.yml` targets `dev`, not `master`**: `grep target-branch .github/dependabot.yml`\n8. **`hacs/action@main` and `hassfest@master` are unpinned**: `grep '@' .github/workflows/hacs.yml .github/workflows/hassfest.yml | grep -v 'actions/checkout'`\n9. **`manifest.json` codeowners vs absence of `CODEOWNERS` file**: confirm `codeowners` key only in `manifest.json`.\n10. **GitVote automation disabled**: `grep 'enabled' .gitvote.yml` \u2192 `enabled: false`."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:23:48Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigate code review and CI mechanisms for substantive changes at a specific Git revision",
+    "updateTime": "2026-07-29T03:26:08Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/157c8c47-4996-4b84-9599-b8576b5d4d24"
+  },
+  "run_id": "sha256:281a4d8f56f901065df010d58c0f7a6628c29349f3b662e26cdc61be79cd0235",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "jeroenterheerdt/hasmartirrigation"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

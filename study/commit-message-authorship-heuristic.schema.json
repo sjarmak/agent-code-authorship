@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourcegraph.com/agent-code-authorship/commit-message-authorship-heuristic.schema.json",
+  "title": "Commit-message authorship heuristic protocol",
+  "type": "object",
+  "required": [
+    "protocol_version",
+    "status",
+    "study_role",
+    "proxy_assumption",
+    "eligibility",
+    "normalization",
+    "signals",
+    "decision_rule",
+    "repository_baseline",
+    "attribution",
+    "validation"
+  ],
+  "properties": {
+    "protocol_version": {"const": 1},
+    "status": {"const": "frozen_before_scoring"},
+    "study_role": {"const": "exploratory"},
+    "proxy_assumption": {"type": "string", "minLength": 1},
+    "eligibility": {"type": "object"},
+    "normalization": {"type": "object"},
+    "signals": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "required": ["id", "definition"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "definition": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "decision_rule": {
+      "type": "object",
+      "required": ["primary_threshold", "sensitivity_thresholds"],
+      "properties": {
+        "primary_threshold": {"const": 4},
+        "sensitivity_thresholds": {
+          "type": "array",
+          "prefixItems": [{"const": 3}, {"const": 5}],
+          "items": false
+        }
+      },
+      "additionalProperties": true
+    },
+    "repository_baseline": {"type": "object"},
+    "attribution": {"type": "object"},
+    "validation": {"type": "object"}
+  },
+  "additionalProperties": true
+}

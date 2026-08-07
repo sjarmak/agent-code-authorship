@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adjudication-bundle.schema.json",
+  "title": "Sourcegraph discovery adjudication bundle v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bundle_version",
+    "packet_id",
+    "packet_sha256",
+    "packet_type",
+    "reviews",
+    "bundle_sha256"
+  ],
+  "properties": {
+    "bundle_version": {
+      "const": 3
+    },
+    "packet_id": {
+      "$ref": "#/$defs/sha256"
+    },
+    "packet_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "packet_type": {
+      "enum": [
+        "adoption_event",
+        "ai_ban_policy"
+      ]
+    },
+    "reviews": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/review"
+      }
+    },
+    "bundle_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stage",
+        "reviewer_id",
+        "reviewer_kind",
+        "reviewer_version",
+        "decision",
+        "outcome_blind",
+        "peer_review_blind",
+        "rationale"
+      ],
+      "properties": {
+        "stage": {
+          "enum": [
+            "primary",
+            "resolution",
+            "agreement_audit"
+          ]
+        },
+        "reviewer_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewer_kind": {
+          "enum": [
+            "human",
+            "model"
+          ]
+        },
+        "reviewer_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "enum": [
+            "confirmed",
+            "observed",
+            "admissible",
+            "rejected",
+            "insufficient"
+          ]
+        },
+        "outcome_blind": {
+          "const": true
+        },
+        "peer_review_blind": {
+          "const": true
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provider": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prompt_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "reviewer_kind": {
+                "const": "model"
+              }
+            },
+            "required": [
+              "reviewer_kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "provider",
+              "model_id",
+              "model_version",
+              "prompt_sha256"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

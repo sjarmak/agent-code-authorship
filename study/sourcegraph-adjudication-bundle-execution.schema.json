@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adjudication-bundle-execution.schema.json",
+  "title": "Packet adjudication bundle execution v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bundle_execution_version",
+    "specification_sha256",
+    "packet_index_sha256",
+    "queue_manifest_sha256",
+    "review_response_sha256s",
+    "task_count",
+    "packet_count",
+    "disagreement_task_count",
+    "agreement_audit_task_count",
+    "configured_shard_count",
+    "emitted_shard_count",
+    "shards",
+    "outcomes_consulted",
+    "bundle_manifest_sha256"
+  ],
+  "properties": {
+    "bundle_execution_version": {
+      "const": 3
+    },
+    "specification_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "packet_index_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "queue_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "review_response_sha256s": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/sha256"
+      }
+    },
+    "task_count": {
+      "$ref": "#/$defs/count"
+    },
+    "packet_count": {
+      "$ref": "#/$defs/count"
+    },
+    "disagreement_task_count": {
+      "$ref": "#/$defs/count"
+    },
+    "agreement_audit_task_count": {
+      "$ref": "#/$defs/count"
+    },
+    "configured_shard_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4096
+    },
+    "emitted_shard_count": {
+      "$ref": "#/$defs/count"
+    },
+    "shards": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/shard"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "bundle_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "shard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "shard_id",
+        "shard_file",
+        "bundle_count",
+        "first_packet_id",
+        "last_packet_id",
+        "sha256"
+      ],
+      "properties": {
+        "shard_id": {
+          "type": "string",
+          "pattern": "^[0-9]+$"
+        },
+        "shard_file": {
+          "type": "string",
+          "pattern": "^shards/[0-9]+\\.jsonl$"
+        },
+        "bundle_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "first_packet_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "last_packet_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    }
+  }
+}

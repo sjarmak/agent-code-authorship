@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-longitudinal-batch-plan.schema.json",
+  "title": "Sourcegraph longitudinal pre-probe batch plan v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "longitudinal_batch_plan_version",
+    "candidate_frame_sha256",
+    "input_inventory_sha256s",
+    "horizons_days",
+    "repository_count",
+    "units",
+    "outcomes_consulted",
+    "longitudinal_batch_plan_sha256"
+  ],
+  "properties": {
+    "longitudinal_batch_plan_version": {
+      "const": 3
+    },
+    "candidate_frame_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "input_inventory_sha256s": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "git",
+        "cohort",
+        "lineage",
+        "sourcegraph_index"
+      ],
+      "properties": {
+        "git": {
+          "$ref": "#/$defs/sha256"
+        },
+        "cohort": {
+          "$ref": "#/$defs/sha256"
+        },
+        "lineage": {
+          "$ref": "#/$defs/sha256"
+        },
+        "sourcegraph_index": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "horizons_days": {
+      "const": [
+        30,
+        90,
+        180,
+        365
+      ]
+    },
+    "repository_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unit"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "longitudinal_batch_plan_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_repository_id",
+        "sourcegraph_name",
+        "cutoff_commit",
+        "cutoff_tree",
+        "bundle_sha256",
+        "cache_path"
+      ],
+      "properties": {
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "sourcegraph_name": {
+          "type": "string",
+          "pattern": "^github\\.com/sg-evals/[^/]+$"
+        },
+        "cutoff_commit": {
+          "$ref": "#/$defs/sha1"
+        },
+        "cutoff_tree": {
+          "$ref": "#/$defs/sha1"
+        },
+        "bundle_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "cache_path": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "probe_unit_id",
+        "repository",
+        "introduction_shard",
+        "transition_shard",
+        "probe_status",
+        "probe_manifest_path"
+      ],
+      "properties": {
+        "probe_unit_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "repository": {
+          "$ref": "#/$defs/repository"
+        },
+        "introduction_shard": {
+          "$ref": "#/$defs/reference"
+        },
+        "transition_shard": {
+          "$ref": "#/$defs/reference"
+        },
+        "probe_status": {
+          "const": "pending_sourcegraph"
+        },
+        "probe_manifest_path": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

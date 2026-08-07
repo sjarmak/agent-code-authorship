@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sg-evals.example/study/survival-event-shard-manifest.schema.json",
+  "title": "Exact survival event shard manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "repository_id",
+    "input_sha256s",
+    "cutoff",
+    "line_count",
+    "censoring_audit",
+    "event_shard_file",
+    "event_shard_sha256",
+    "outcomes_consulted",
+    "survival_event_shard_manifest_sha256"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": 3
+    },
+    "repository_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "input_sha256s": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "transitions",
+        "structural_events",
+        "git_inventory",
+        "lineage_validation"
+      ],
+      "properties": {
+        "transitions": {
+          "$ref": "#/$defs/sha256"
+        },
+        "structural_events": {
+          "$ref": "#/$defs/sha256"
+        },
+        "git_inventory": {
+          "$ref": "#/$defs/sha256"
+        },
+        "lineage_validation": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "cutoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "timestamp",
+        "commit",
+        "tree"
+      ],
+      "properties": {
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "commit": {
+          "$ref": "#/$defs/oid"
+        },
+        "tree": {
+          "$ref": "#/$defs/oid"
+        }
+      }
+    },
+    "line_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "censoring_audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "study_cutoff",
+        "lineage_loss",
+        "terminal_deletion"
+      ],
+      "properties": {
+        "study_cutoff": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "lineage_loss": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "terminal_deletion": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "event_shard_file": {
+      "type": "string",
+      "pattern": "^[^/]+\\.jsonl$"
+    },
+    "event_shard_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "survival_event_shard_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "oid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adjudication-followup-assignment.schema.json",
+  "title": "Peer-blind Sourcegraph adjudication follow-up assignment v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "followup_assignment_version",
+    "queue_manifest_sha256",
+    "primary_review_response_sha256s",
+    "resolution_task_count",
+    "resolution_tasks",
+    "agreement_audit_task_count",
+    "agreement_audit_tasks",
+    "primary_decisions_exposed",
+    "outcomes_consulted",
+    "followup_assignment_sha256"
+  ],
+  "properties": {
+    "followup_assignment_version": {
+      "const": 3
+    },
+    "queue_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "primary_review_response_sha256s": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/sha256"
+      }
+    },
+    "resolution_task_count": {
+      "$ref": "#/$defs/count"
+    },
+    "resolution_tasks": {
+      "$ref": "#/$defs/tasks"
+    },
+    "agreement_audit_task_count": {
+      "$ref": "#/$defs/count"
+    },
+    "agreement_audit_tasks": {
+      "$ref": "#/$defs/tasks"
+    },
+    "primary_decisions_exposed": {
+      "const": false
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "followup_assignment_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_id",
+        "task_sha256"
+      ],
+      "properties": {
+        "task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "task_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/task"
+      }
+    }
+  }
+}

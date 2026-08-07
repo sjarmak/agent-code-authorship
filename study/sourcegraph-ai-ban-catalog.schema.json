@@ -1,0 +1,692 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-ai-ban-catalog.schema.json",
+  "title": "Terminal Sourcegraph AI-ban negative-control catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "catalog_version",
+    "predecessors",
+    "repository_count",
+    "status_counts",
+    "repositories",
+    "review",
+    "audit",
+    "terminal",
+    "scope",
+    "outcomes_consulted",
+    "classifier_outcomes_consulted",
+    "survival_outcomes_consulted",
+    "scip_required",
+    "paid_api_used",
+    "openai_api_key_used",
+    "catalog_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-ai-ban-catalog.schema.json"
+    },
+    "catalog_version": {
+      "const": 3
+    },
+    "predecessors": {
+      "$ref": "#/$defs/predecessors"
+    },
+    "repository_count": {
+      "const": 17
+    },
+    "status_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dated_policy",
+        "no_admissible_policy",
+        "no_frozen_candidate"
+      ],
+      "properties": {
+        "dated_policy": {
+          "const": 12
+        },
+        "no_admissible_policy": {
+          "const": 2
+        },
+        "no_frozen_candidate": {
+          "const": 3
+        }
+      }
+    },
+    "repositories": {
+      "type": "array",
+      "minItems": 17,
+      "maxItems": 17,
+      "items": {
+        "$ref": "#/$defs/repository"
+      }
+    },
+    "review": {
+      "$ref": "#/$defs/review"
+    },
+    "audit": {
+      "$ref": "#/$defs/audit"
+    },
+    "terminal": {
+      "$ref": "#/$defs/terminal"
+    },
+    "scope": {
+      "const": "preregistered_ai_ban_negative_controls"
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "classifier_outcomes_consulted": {
+      "const": false
+    },
+    "survival_outcomes_consulted": {
+      "const": false
+    },
+    "scip_required": {
+      "const": false
+    },
+    "paid_api_used": {
+      "const": false
+    },
+    "openai_api_key_used": {
+      "const": false
+    },
+    "catalog_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "inputFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "input_id",
+        "file_sha256"
+      ],
+      "properties": {
+        "input_id": {
+          "type": "string",
+          "pattern": "^(target_manifest|language_inventory|worksheet_00[1-9]|worksheet_010_terminal|decision_ledger_00[1-9]|primary_responses_00[1-9]|audit_responses_00[1-9])$"
+        },
+        "file_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "predecessors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_manifest_sha256",
+        "language_inventory_sha256",
+        "terminal_worksheet_sha256",
+        "final_decision_ledger_sha256",
+        "files"
+      ],
+      "properties": {
+        "target_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "language_inventory_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "terminal_worksheet_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "final_decision_ledger_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "files": {
+          "type": "array",
+          "minItems": 39,
+          "maxItems": 39,
+          "items": {
+            "$ref": "#/$defs/inputFile"
+          }
+        }
+      }
+    },
+    "acceptedPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_id",
+        "observed_at",
+        "commit_oid",
+        "task_id",
+        "task_sha256",
+        "response_sha256",
+        "policy_scope",
+        "evidence_tier",
+        "evidence_citations",
+        "packet_ids",
+        "packet_sha256",
+        "query_family_ids"
+      ],
+      "properties": {
+        "event_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "commit_oid": {
+          "$ref": "#/$defs/sha1"
+        },
+        "task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "task_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "response_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "policy_scope": {
+          "const": "repository_wide_ai_generated_contribution_prohibition"
+        },
+        "evidence_tier": {
+          "const": "datable_default_branch_policy"
+        },
+        "evidence_citations": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "packet_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sha256"
+          }
+        },
+        "packet_sha256": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sha256"
+          }
+        },
+        "query_family_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "preregistered_repository_id",
+        "canonical_repository_id",
+        "canonical_source_url",
+        "sourcegraph_name",
+        "language",
+        "status",
+        "scope_eligible",
+        "scope_exclusion_reason",
+        "reviewed_event_count",
+        "target_evidence",
+        "review_evidence",
+        "accepted_policy"
+      ],
+      "properties": {
+        "preregistered_repository_id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "canonical_source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sourcegraph_name": {
+          "type": "string",
+          "pattern": "^github\\.com/sg-evals/"
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "dated_policy",
+            "no_admissible_policy",
+            "no_frozen_candidate"
+          ]
+        },
+        "scope_eligible": {
+          "type": "boolean"
+        },
+        "scope_exclusion_reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            null,
+            "no_admissible_policy",
+            "no_frozen_candidate"
+          ]
+        },
+        "reviewed_event_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "target_evidence": {
+          "$ref": "#/$defs/targetEvidence"
+        },
+        "review_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/reviewEvidence"
+          }
+        },
+        "accepted_policy": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/acceptedPolicy"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "dated_policy"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "scope_eligible": {
+                "const": true
+              },
+              "scope_exclusion_reason": {
+                "type": "null"
+              },
+              "accepted_policy": {
+                "$ref": "#/$defs/acceptedPolicy"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "scope_eligible": {
+                "const": false
+              },
+              "accepted_policy": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "targetEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_status",
+        "exclusion_reason",
+        "cutoff_commit",
+        "case_id",
+        "repository_case_sha256",
+        "candidate_count"
+      ],
+      "properties": {
+        "target_status": {
+          "enum": [
+            "eligible",
+            "excluded"
+          ]
+        },
+        "exclusion_reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            null,
+            "no_frozen_ai_ban_candidate"
+          ]
+        },
+        "cutoff_commit": {
+          "$ref": "#/$defs/sha1"
+        },
+        "case_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "repository_case_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "candidate_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "reviewEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_id",
+        "observed_at",
+        "commit_oid",
+        "task_id",
+        "task_sha256",
+        "response_sha256",
+        "decision",
+        "rationale",
+        "default_branch_supported",
+        "policy_scope",
+        "evidence_tier",
+        "evidence_citations",
+        "packet_ids",
+        "query_family_ids"
+      ],
+      "properties": {
+        "event_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "commit_oid": {
+          "$ref": "#/$defs/sha1"
+        },
+        "task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "task_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "response_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "decision": {
+          "enum": [
+            "accept_policy",
+            "reject"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "default_branch_supported": {
+          "type": "boolean"
+        },
+        "policy_scope": {
+          "enum": [
+            "repository_wide_ai_generated_contribution_prohibition",
+            "not_applicable"
+          ]
+        },
+        "evidence_tier": {
+          "enum": [
+            "datable_default_branch_policy",
+            "not_applicable"
+          ]
+        },
+        "evidence_citations": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "packet_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sha256"
+          }
+        },
+        "query_family_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reviewer_id",
+        "reviewed_event_count",
+        "decision_counts"
+      ],
+      "properties": {
+        "reviewer_id": {
+          "const": "ai-ban-primary-a"
+        },
+        "reviewed_event_count": {
+          "const": 25
+        },
+        "decision_counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "accept_policy",
+            "reject"
+          ],
+          "properties": {
+            "accept_policy": {
+              "const": 12
+            },
+            "reject": {
+              "const": 13
+            }
+          }
+        }
+      }
+    },
+    "auditCase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_repository_id",
+        "event_id",
+        "task_id",
+        "evidence_channel",
+        "primary_decision",
+        "audit_decision",
+        "exact_agreement",
+        "primary_response_sha256",
+        "audit_response_sha256",
+        "language"
+      ],
+      "properties": {
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "event_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "evidence_channel": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_decision": {
+          "enum": [
+            "accept_policy",
+            "reject"
+          ]
+        },
+        "audit_decision": {
+          "enum": [
+            "accept_policy",
+            "reject"
+          ]
+        },
+        "exact_agreement": {
+          "const": true
+        },
+        "primary_response_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "audit_response_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "auditStratum": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "language",
+        "evidence_channel",
+        "primary_decision",
+        "reviewed_event_count",
+        "audited_event_count",
+        "exact_agreement_count"
+      ],
+      "properties": {
+        "language": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_channel": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_decision": {
+          "enum": [
+            "accept_policy",
+            "reject"
+          ]
+        },
+        "reviewed_event_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "audited_event_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "exact_agreement_count": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "auditor_id",
+        "audited_event_count",
+        "exact_agreement_count",
+        "exact_agreement_rate",
+        "agreement_fields",
+        "strata",
+        "cases"
+      ],
+      "properties": {
+        "auditor_id": {
+          "const": "ai-ban-auditor-b"
+        },
+        "audited_event_count": {
+          "const": 25
+        },
+        "exact_agreement_count": {
+          "const": 25
+        },
+        "exact_agreement_rate": {
+          "const": 1.0
+        },
+        "agreement_fields": {
+          "const": [
+            "decision",
+            "default_branch_supported",
+            "policy_scope",
+            "evidence_tier"
+          ]
+        },
+        "strata": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/auditStratum"
+          }
+        },
+        "cases": {
+          "type": "array",
+          "minItems": 25,
+          "maxItems": 25,
+          "items": {
+            "$ref": "#/$defs/auditCase"
+          }
+        }
+      }
+    },
+    "terminal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "worksheet_sha256",
+        "final_decision_ledger_sha256",
+        "task_count"
+      ],
+      "properties": {
+        "worksheet_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "final_decision_ledger_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "task_count": {
+          "const": 0
+        }
+      }
+    }
+  }
+}

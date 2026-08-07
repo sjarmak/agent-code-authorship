@@ -21,9 +21,6 @@ Usage: python3 -m authorship.model
 from __future__ import annotations
 
 import json
-import sys
-from pathlib import Path
-
 import numpy as np
 
 from authorship import paths, data as fp_data, logreg as fp_logreg
@@ -94,7 +91,7 @@ def main() -> int:
     if not cohort:
         raise SystemExit("no cohort corpus — run python3 -m authorship.corpus.cohort")
     pops = fp_data.populations(cohort, own)
-    print(f"corpus: " + ", ".join(
+    print("corpus: " + ", ".join(
         f"{k} {len(v):,} hunks/{sum(r['lines'] for r in v):,} lines"
         for k, v in pops.items()))
 

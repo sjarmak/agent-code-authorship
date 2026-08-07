@@ -1,0 +1,266 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "b9e85d465016a2be9d8476da063913a2ff354425baa989601f75139098b87513",
+  "artifact_version": 1,
+  "canonical_repository_id": "sjarmak/scix-agent",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "dd618037f61035bd62f1e7a620029c6b4867ab6a"
+  ],
+  "cited_files": [
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/or_optimization_survey_2026-07.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/or_optimization_survey_2026-07.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_server.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_server_http.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server_http.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/mcp_tool_audit_2026-04.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_tool_audit_2026-04.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_tool_specs.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_tool_specs.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/citation_intent.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/citation_intent.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/citation_contexts_coverage.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/citation_contexts_coverage.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/graph_metrics.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/graph_metrics.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/pyproject.toml?L64-L67"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/citation_contexts_coverage.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/citation_contexts_coverage.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/section_parser.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/section_parser.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/section_linker.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/section_linker.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/section_role.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/section_role.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/entity_audit.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/entity_audit.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/AGENTS.md?L23"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/AGENTS.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_mcp_paper_tools.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_paper_tools.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_mcp_smoke.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_smoke.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_citation_intent.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_citation_intent.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/scix/citation_contexts_coverage.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/scix/citation_contexts_coverage.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_section_parser.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_section_parser.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_section_linker.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_section_linker.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_section_role.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_section_role.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_graph_metrics.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_graph_metrics.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": ".github/workflows/check.yml",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/.github/workflows/check.yml"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/mcp_tool_audit_2026-06.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_tool_audit_2026-06.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/citation_grounded.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/citation_grounded.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/paper_outline.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/paper_outline.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/agentic_memory_litreview_2026-06-02.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/agentic_memory_litreview_2026-06-02.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/gascity_lit_review_2026-05-29.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/gascity_lit_review_2026-05-29.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/full_text_coverage_analysis.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/full_text_coverage_analysis.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/mcp_dual_lane_contract.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_dual_lane_contract.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/ADR/013_dense_lane_qdrant.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/ADR/013_dense_lane_qdrant.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "docs/ADR/009_body_ai_oa_gate.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/ADR/009_body_ai_oa_gate.md"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1991",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/sjarmak-scix-agent at revision dd618037f61035bd62f1e7a620029c6b4867ab6a, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: sjarmak/scix-agent; stratum: agent_native; cutoff: dd618037f61035bd62f1e7a620029c6b4867ab6a.",
+  "prompt_family_id": "change_topology",
+  "prompt_sha256": "d9fb5a88701f4447d56500a5e638d6ad5388bfe93a01aaedcffd175325fc9dc0",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a comprehensive picture of the repository. Let me compile the complete semantic topology map.\n\n---\n\n## Semantic Topology Map \u2014 `dd618037f61035bd62f1e7a620029c6b4867ab6a`\n\n### Commit identity\n\nThe diff is a **pure addition**: `+101 / -0`, one file, no deletions. The change introduces a new survey document:\n\n> [`docs/or_optimization_survey_2026-07.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/or_optimization_survey_2026-07.md)\n\n**Verification step:** `git diff dd618037f61035bd62f1e7a620029c6b4867ab6a~1 dd618037f61035bd62f1e7a620029c6b4867ab6a --stat` \u2192 confirms `docs/or_optimization_survey_2026-07.md | 101 +++++` and nothing else.\n\n---\n\n### 1. Affected definitions\n\n**Precise (file-level diff, single-file addition):** No source-code symbol was defined or deleted. The change lands 101 lines of Markdown. The document defines eight prose claims (\"Headline findings\"), a four-layer \"reference architecture\" synthesis, and several sections on evaluation discipline and open problems \u2014 all textual definitions with no code-level counterpart at the cutoff.\n\n**No runtime types, functions, or schemas were created or modified in this commit.**\n\n---\n\n### 2. References from and to the changed file\n\n**Search-based navigation** (keyword search returned no results at the indexed rev due to stratum indexing constraints; analysis below is file-read-based, treated as search-based confidence):\n\nThe file cites external arXiv bibcodes as string tokens (e.g., `2019PASP..131f8003B`, `2021arXiv211111628C`) \u2014 these are cross-corpus references to the SciX/ADS corpus, not intra-repo references.\n\n**Intra-repo forward references in the survey text:**\n\n| Reference in survey | Intra-repo target |\n|---|---|\n| \"local MCP\" / \"hybrid INDUS+BM25 via the local MCP\" | [`src/scix/mcp_server.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py) and [`src/scix/mcp_server_http.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server_http.py) |\n| \"lit_review\" tool; \"flat search + arxiv_class filter\" | MCP tool surface described in [`docs/mcp_tool_audit_2026-04.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_tool_audit_2026-04.md) and [`src/scix/mcp_tool_specs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_tool_specs.py) |\n| \"facet_counts(field=`arxiv_class`)\" | [`src/scix/mcp_server.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py) \u2014 `facet_counts` is one of the 13 canonical MCP tools per `CHANGELOG.md` |\n| \"forward_citations intent annotation\" | [`src/scix/citation_intent.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/citation_intent.py) + [`src/scix/citation_contexts_coverage.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/citation_contexts_coverage.py) |\n| \"GLiNER software-entity lookup\" | [`src/scix/jit/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/src/scix/jit) (GLiNER NER pass; `ner_pass` extra in pyproject.toml `gliner>=0.2.26`) |\n| \"Leiden community detection\" | [`src/scix/graph_metrics.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/graph_metrics.py) + `graph` extra in [`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/pyproject.toml?L64-L67) (`python-igraph`, `leidenalg`) |\n\n**Confidence:** file-read-based (search indexing unavailable at this rev/stratum). Stated explicitly.\n\n---\n\n### 3. Implementations the survey documents or critiques\n\nThe survey's Section 6 (\"scix tooling observations\") documents **behavioral findings from production runs** of the following implemented modules. These are search-based inferences from the module names observed in the file listing:\n\n| Survey finding | Implementing module |\n|---|---|\n| \"`facet_counts` returned near-empty distribution\" | `facet_counts` handler in [`src/scix/mcp_server.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py) |\n| \"`forward_citations` intent annotation returned empty (~0.27% coverage)\" | [`src/scix/citation_intent.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/citation_intent.py); documented separately in [`docs/citation_contexts_coverage.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/citation_contexts_coverage.md) |\n| \"Section parsing unreliable on pre-2010 scanned papers\" | [`src/scix/section_parser.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/section_parser.py), [`src/scix/section_linker.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/section_linker.py), [`src/scix/section_role.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/section_role.py) |\n| \"GLiNER at ~0.61 precision band; solver names in full text (46% coverage)\" | [`src/scix/entity_audit.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/entity_audit.py), [`src/scix/jit/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/src/scix/jit) |\n| \"`citation_count` is astro-biased\" | [`src/scix/graph_metrics.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/graph_metrics.py) \u2014 the `citation_count` field is a stored graph metric |\n\n---\n\n### 4. Public API / tool surface relations\n\n**Precise (CHANGELOG.md line 29-33, read directly):**\n\nThe 13 canonical MCP tools at this cutoff are: `search`, `concept_search`, `get_paper`, `read_paper`, `citation_graph`, `citation_similarity`, `citation_chain`, `entity`, `entity_context`, `graph_context`, `find_gaps`, `temporal_evolution`, `facet_counts`.\n\nThe survey references three of these by functional role:\n- `search` (as \"flat search + arxiv_class filter\")\n- `facet_counts` (named directly in Section 6)\n- `citation_similarity` / `forward_citations` (as \"forward_citations intent annotation\")\n\nThe survey's Section 2 references the 15-tool cap and the `docs/prd/prd_v1_tool_consolidation.md` premortem constraint visible in [`AGENTS.md` line 23](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/AGENTS.md?L23). **The survey adds no new tool and does not modify the tool contract** (`src/scix/mcp_contract.py` untouched).\n\n---\n\n### 5. Callers\n\n**Not applicable (pure documentation).** No executable code path calls or imports the changed file. A search for callers is vacuous. Stated explicitly as unavailable metadata.\n\n---\n\n### 6. Dependency boundaries\n\n**Precise (pyproject.toml read directly):**\n\nThe survey mentions these solver/library names; their presence in `pyproject.toml` is:\n\n| Survey reference | In pyproject.toml? |\n|---|---|\n| Leiden (`leidenalg`) | Yes \u2014 `graph` extra, line 66 |\n| `python-igraph` | Yes \u2014 `graph` extra, line 65 |\n| GLiNER | Yes \u2014 `ner_pass` extra, line 77 |\n| Qdrant | Yes \u2014 `qdrant` extra, `qdrant-client==1.17.1` (pinned) |\n| Gurobi / HiGHS / SCIP (solver recommendations) | **Not in pyproject.toml** \u2014 the project does not depend on OR solvers; these are architectural proposals in the survey only |\n| JuMP / Pyomo / MathOptInterface | **Not in pyproject.toml** \u2014 same; conceptual recommendations only |\n\n**Boundary conclusion:** The survey proposes a four-layer OR-based architecture as a design recommendation. None of the OR solver dependencies (Gurobi, HiGHS, Pyomo, JuMP) exist in the codebase at this cutoff. The recommendation is **unimplemented whitespace** by the survey's own Section 5 (\"Whitespace worth claiming\").\n\n---\n\n### 7. CODEOWNERS domains\n\n**Unavailable metadata.** A `CODEOWNERS` file does not exist in the repository at this revision (search returned no results; directory listing of `.github/` shows only `workflows/check.yml` and `workflows/likec4-pages.yml`). **No CODEOWNERS file is present.** This is deterministically verifiable: `ls .github/` at this commit yields `workflows/` only.\n\nThe [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/AGENTS.md) scoping implies the project is single-operator (Stephanie Jarmak, per the `deploy/docker-compose.yml` reference to \"sjarmak's workstation\" in CHANGELOG line 77). No team-level ownership partitioning is encoded.\n\n---\n\n### 8. Test coverage\n\n**Precise (directory listing):**\n\nThere is **no test file corresponding to the changed document**. Tests in [`tests/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/tests) cover source modules, not survey documents.\n\nThe survey's behavioral findings about specific tools do have corresponding test coverage for the **implementing modules**:\n\n| Survey claim | Existing test |\n|---|---|\n| `facet_counts` behavior | [`tests/test_mcp_paper_tools.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_paper_tools.py), [`tests/test_mcp_smoke.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_smoke.py) |\n| Citation intent coverage | [`tests/test_citation_intent.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_citation_intent.py), [`tests/test_citation_contexts_coverage.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/scix/citation_contexts_coverage.py) (search-based inference) |\n| Section parsing | [`tests/test_section_parser.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_section_parser.py), [`tests/test_section_linker.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_section_linker.py), [`tests/test_section_role.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_section_role.py) |\n| Graph / Leiden metrics | [`tests/test_graph_metrics.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_graph_metrics.py) |\n\nThe CI gate ([`.github/workflows/check.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/.github/workflows/check.yml)) runs `make check-ci` with `-m \"not integration and not network\"`, meaning the data-dependent tests (which would validate survey claims like \"0.27% citation-context coverage\") are excluded from CI and require a live corpus.\n\n---\n\n### 9. Related documentation in the same stratum\n\n**Precise (directory listing of `docs/`):**\n\nThe survey explicitly relates to the following existing documents:\n\n| Survey topic | Existing doc |\n|---|---|\n| MCP tool surface, lit_review tool | [`docs/mcp_tool_audit_2026-04.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_tool_audit_2026-04.md), [`docs/mcp_tool_audit_2026-06.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_tool_audit_2026-06.md) |\n| Citation context coverage (0.27%) | [`docs/citation_contexts_coverage.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/citation_contexts_coverage.md), [`docs/citation_grounded.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/citation_grounded.md) |\n| Agent navigation layer | [`docs/paper_outline.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/paper_outline.md) (ADASS 2026 paper, describes same system) |\n| Agentic memory | [`docs/agentic_memory_litreview_2026-06-02.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/agentic_memory_litreview_2026-06-02.md) (a prior parallel survey with the same agent-driven method) |\n| Gascity lit review (previous survey in series) | [`docs/gascity_lit_review_2026-05-29.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/gascity_lit_review_2026-05-29.md) |\n| Full-text coverage | [`docs/full_text_coverage_analysis.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/full_text_coverage_analysis.md) |\n| MCP dual-lane contract | [`docs/mcp_dual_lane_contract.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_dual_lane_contract.md) |\n| ADR-013 (dense lane \u2192 Qdrant) | [`docs/ADR/013_dense_lane_qdrant.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/ADR/013_dense_lane_qdrant.md) |\n| ADR-009 (body-AI OA gate) | [`docs/ADR/009_body_ai_oa_gate.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/ADR/009_body_ai_oa_gate.md) |\n\nThe survey is the **third in a series** of agent-driven literature surveys over the SciX corpus using the same 6-parallel-agent method:\n1. `gascity_lit_review_2026-05-29.md` (May 2026)\n2. `agentic_memory_litreview_2026-06-02.md` (June 2026)\n3. `or_optimization_survey_2026-07.md` (July 2026, this commit)\n\n---\n\n### 10. Later fixes, refactors, and reverts\n\n**Unavailable metadata.** Commit search returned no results for this repository in the index at the time of query. The `git log` history is not accessible through the available tooling at this stratum cutoff. No later commits relative to `dd618037` can be identified. **Deterministic verification step:** `git log dd618037f61035bd62f1e7a620029c6b4867ab6a..HEAD -- docs/or_optimization_survey_2026-07.md` on the local clone would reveal any subsequent modifications to the survey file.\n\n---\n\n### Summary table\n\n| Relation | Content | Navigation method | Confidence |\n|---|---|---|---|\n| Changed file | `docs/or_optimization_survey_2026-07.md` (+101, pure add) | Precise (diff) | Definitive |\n| Definitions introduced | 8 headline findings, 4-layer reference architecture, evaluation findings \u2014 prose only, no code symbols | Precise (file read) | Definitive |\n| Callers | None (documentation, not executable) | Precise (structural) | Definitive |\n| CODEOWNERS | Not present in repo | Precise (directory listing) | Definitive |\n| MCP tool surface referenced | `search`, `facet_counts`, `forward_citations` (citation intent) | Search-based (file read + CHANGELOG cross-ref) | High |\n| Implementing modules referenced implicitly | `mcp_server.py`, `citation_intent.py`, `section_parser.py`, `graph_metrics.py`, `jit/` | Search-based (module-name inference) | Medium |\n| OR solver dependencies (Gurobi/Pyomo/JuMP) | Not in `pyproject.toml`; recommendations only | Precise (pyproject.toml read) | Definitive |\n| Predecessor survey docs in series | `gascity_lit_review_2026-05-29.md`, `agentic_memory_litreview_2026-06-02.md` | Search-based (filename pattern + date) | High |\n| Test coverage for changed file | None direct; implementing modules have tests | Precise (directory listing) | Definitive |\n| Later fixes/reverts | Unknown \u2014 commit index unavailable | Unavailable | Not determined |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:12:19Z",
+    "name": "users/476/conversations/1991",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a comprehensive picture of the repository. Let me compile the complete semantic topology map.\n\n---\n\n## Semantic Topology Map \u2014 `dd618037f61035bd62f1e7a620029c6b4867ab6a`\n\n### Commit identity\n\nThe diff is a **pure addition**: `+101 / -0`, one file, no deletions. The change introduces a new survey document:\n\n> [`docs/or_optimization_survey_2026-07.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/or_optimization_survey_2026-07.md)\n\n**Verification step:** `git diff dd618037f61035bd62f1e7a620029c6b4867ab6a~1 dd618037f61035bd62f1e7a620029c6b4867ab6a --stat` \u2192 confirms `docs/or_optimization_survey_2026-07.md | 101 +++++` and nothing else.\n\n---\n\n### 1. Affected definitions\n\n**Precise (file-level diff, single-file addition):** No source-code symbol was defined or deleted. The change lands 101 lines of Markdown. The document defines eight prose claims (\"Headline findings\"), a four-layer \"reference architecture\" synthesis, and several sections on evaluation discipline and open problems \u2014 all textual definitions with no code-level counterpart at the cutoff.\n\n**No runtime types, functions, or schemas were created or modified in this commit.**\n\n---\n\n### 2. References from and to the changed file\n\n**Search-based navigation** (keyword search returned no results at the indexed rev due to stratum indexing constraints; analysis below is file-read-based, treated as search-based confidence):\n\nThe file cites external arXiv bibcodes as string tokens (e.g., `2019PASP..131f8003B`, `2021arXiv211111628C`) \u2014 these are cross-corpus references to the SciX/ADS corpus, not intra-repo references.\n\n**Intra-repo forward references in the survey text:**\n\n| Reference in survey | Intra-repo target |\n|---|---|\n| \"local MCP\" / \"hybrid INDUS+BM25 via the local MCP\" | [`src/scix/mcp_server.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py) and [`src/scix/mcp_server_http.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server_http.py) |\n| \"lit_review\" tool; \"flat search + arxiv_class filter\" | MCP tool surface described in [`docs/mcp_tool_audit_2026-04.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_tool_audit_2026-04.md) and [`src/scix/mcp_tool_specs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_tool_specs.py) |\n| \"facet_counts(field=`arxiv_class`)\" | [`src/scix/mcp_server.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py) \u2014 `facet_counts` is one of the 13 canonical MCP tools per `CHANGELOG.md` |\n| \"forward_citations intent annotation\" | [`src/scix/citation_intent.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/citation_intent.py) + [`src/scix/citation_contexts_coverage.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/citation_contexts_coverage.py) |\n| \"GLiNER software-entity lookup\" | [`src/scix/jit/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/src/scix/jit) (GLiNER NER pass; `ner_pass` extra in pyproject.toml `gliner>=0.2.26`) |\n| \"Leiden community detection\" | [`src/scix/graph_metrics.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/graph_metrics.py) + `graph` extra in [`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/pyproject.toml?L64-L67) (`python-igraph`, `leidenalg`) |\n\n**Confidence:** file-read-based (search indexing unavailable at this rev/stratum). Stated explicitly.\n\n---\n\n### 3. Implementations the survey documents or critiques\n\nThe survey's Section 6 (\"scix tooling observations\") documents **behavioral findings from production runs** of the following implemented modules. These are search-based inferences from the module names observed in the file listing:\n\n| Survey finding | Implementing module |\n|---|---|\n| \"`facet_counts` returned near-empty distribution\" | `facet_counts` handler in [`src/scix/mcp_server.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py) |\n| \"`forward_citations` intent annotation returned empty (~0.27% coverage)\" | [`src/scix/citation_intent.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/citation_intent.py); documented separately in [`docs/citation_contexts_coverage.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/citation_contexts_coverage.md) |\n| \"Section parsing unreliable on pre-2010 scanned papers\" | [`src/scix/section_parser.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/section_parser.py), [`src/scix/section_linker.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/section_linker.py), [`src/scix/section_role.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/section_role.py) |\n| \"GLiNER at ~0.61 precision band; solver names in full text (46% coverage)\" | [`src/scix/entity_audit.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/entity_audit.py), [`src/scix/jit/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/src/scix/jit) |\n| \"`citation_count` is astro-biased\" | [`src/scix/graph_metrics.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/graph_metrics.py) \u2014 the `citation_count` field is a stored graph metric |\n\n---\n\n### 4. Public API / tool surface relations\n\n**Precise (CHANGELOG.md line 29-33, read directly):**\n\nThe 13 canonical MCP tools at this cutoff are: `search`, `concept_search`, `get_paper`, `read_paper`, `citation_graph`, `citation_similarity`, `citation_chain`, `entity`, `entity_context`, `graph_context`, `find_gaps`, `temporal_evolution`, `facet_counts`.\n\nThe survey references three of these by functional role:\n- `search` (as \"flat search + arxiv_class filter\")\n- `facet_counts` (named directly in Section 6)\n- `citation_similarity` / `forward_citations` (as \"forward_citations intent annotation\")\n\nThe survey's Section 2 references the 15-tool cap and the `docs/prd/prd_v1_tool_consolidation.md` premortem constraint visible in [`AGENTS.md` line 23](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/AGENTS.md?L23). **The survey adds no new tool and does not modify the tool contract** (`src/scix/mcp_contract.py` untouched).\n\n---\n\n### 5. Callers\n\n**Not applicable (pure documentation).** No executable code path calls or imports the changed file. A search for callers is vacuous. Stated explicitly as unavailable metadata.\n\n---\n\n### 6. Dependency boundaries\n\n**Precise (pyproject.toml read directly):**\n\nThe survey mentions these solver/library names; their presence in `pyproject.toml` is:\n\n| Survey reference | In pyproject.toml? |\n|---|---|\n| Leiden (`leidenalg`) | Yes \u2014 `graph` extra, line 66 |\n| `python-igraph` | Yes \u2014 `graph` extra, line 65 |\n| GLiNER | Yes \u2014 `ner_pass` extra, line 77 |\n| Qdrant | Yes \u2014 `qdrant` extra, `qdrant-client==1.17.1` (pinned) |\n| Gurobi / HiGHS / SCIP (solver recommendations) | **Not in pyproject.toml** \u2014 the project does not depend on OR solvers; these are architectural proposals in the survey only |\n| JuMP / Pyomo / MathOptInterface | **Not in pyproject.toml** \u2014 same; conceptual recommendations only |\n\n**Boundary conclusion:** The survey proposes a four-layer OR-based architecture as a design recommendation. None of the OR solver dependencies (Gurobi, HiGHS, Pyomo, JuMP) exist in the codebase at this cutoff. The recommendation is **unimplemented whitespace** by the survey's own Section 5 (\"Whitespace worth claiming\").\n\n---\n\n### 7. CODEOWNERS domains\n\n**Unavailable metadata.** A `CODEOWNERS` file does not exist in the repository at this revision (search returned no results; directory listing of `.github/` shows only `workflows/check.yml` and `workflows/likec4-pages.yml`). **No CODEOWNERS file is present.** This is deterministically verifiable: `ls .github/` at this commit yields `workflows/` only.\n\nThe [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/AGENTS.md) scoping implies the project is single-operator (Stephanie Jarmak, per the `deploy/docker-compose.yml` reference to \"sjarmak's workstation\" in CHANGELOG line 77). No team-level ownership partitioning is encoded.\n\n---\n\n### 8. Test coverage\n\n**Precise (directory listing):**\n\nThere is **no test file corresponding to the changed document**. Tests in [`tests/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/tests) cover source modules, not survey documents.\n\nThe survey's behavioral findings about specific tools do have corresponding test coverage for the **implementing modules**:\n\n| Survey claim | Existing test |\n|---|---|\n| `facet_counts` behavior | [`tests/test_mcp_paper_tools.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_paper_tools.py), [`tests/test_mcp_smoke.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_smoke.py) |\n| Citation intent coverage | [`tests/test_citation_intent.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_citation_intent.py), [`tests/test_citation_contexts_coverage.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/scix/citation_contexts_coverage.py) (search-based inference) |\n| Section parsing | [`tests/test_section_parser.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_section_parser.py), [`tests/test_section_linker.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_section_linker.py), [`tests/test_section_role.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_section_role.py) |\n| Graph / Leiden metrics | [`tests/test_graph_metrics.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_graph_metrics.py) |\n\nThe CI gate ([`.github/workflows/check.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/.github/workflows/check.yml)) runs `make check-ci` with `-m \"not integration and not network\"`, meaning the data-dependent tests (which would validate survey claims like \"0.27% citation-context coverage\") are excluded from CI and require a live corpus.\n\n---\n\n### 9. Related documentation in the same stratum\n\n**Precise (directory listing of `docs/`):**\n\nThe survey explicitly relates to the following existing documents:\n\n| Survey topic | Existing doc |\n|---|---|\n| MCP tool surface, lit_review tool | [`docs/mcp_tool_audit_2026-04.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_tool_audit_2026-04.md), [`docs/mcp_tool_audit_2026-06.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_tool_audit_2026-06.md) |\n| Citation context coverage (0.27%) | [`docs/citation_contexts_coverage.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/citation_contexts_coverage.md), [`docs/citation_grounded.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/citation_grounded.md) |\n| Agent navigation layer | [`docs/paper_outline.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/paper_outline.md) (ADASS 2026 paper, describes same system) |\n| Agentic memory | [`docs/agentic_memory_litreview_2026-06-02.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/agentic_memory_litreview_2026-06-02.md) (a prior parallel survey with the same agent-driven method) |\n| Gascity lit review (previous survey in series) | [`docs/gascity_lit_review_2026-05-29.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/gascity_lit_review_2026-05-29.md) |\n| Full-text coverage | [`docs/full_text_coverage_analysis.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/full_text_coverage_analysis.md) |\n| MCP dual-lane contract | [`docs/mcp_dual_lane_contract.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/mcp_dual_lane_contract.md) |\n| ADR-013 (dense lane \u2192 Qdrant) | [`docs/ADR/013_dense_lane_qdrant.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/ADR/013_dense_lane_qdrant.md) |\n| ADR-009 (body-AI OA gate) | [`docs/ADR/009_body_ai_oa_gate.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/docs/ADR/009_body_ai_oa_gate.md) |\n\nThe survey is the **third in a series** of agent-driven literature surveys over the SciX corpus using the same 6-parallel-agent method:\n1. `gascity_lit_review_2026-05-29.md` (May 2026)\n2. `agentic_memory_litreview_2026-06-02.md` (June 2026)\n3. `or_optimization_survey_2026-07.md` (July 2026, this commit)\n\n---\n\n### 10. Later fixes, refactors, and reverts\n\n**Unavailable metadata.** Commit search returned no results for this repository in the index at the time of query. The `git log` history is not accessible through the available tooling at this stratum cutoff. No later commits relative to `dd618037` can be identified. **Deterministic verification step:** `git log dd618037f61035bd62f1e7a620029c6b4867ab6a..HEAD -- docs/or_optimization_survey_2026-07.md` on the local clone would reveal any subsequent modifications to the survey file.\n\n---\n\n### Summary table\n\n| Relation | Content | Navigation method | Confidence |\n|---|---|---|---|\n| Changed file | `docs/or_optimization_survey_2026-07.md` (+101, pure add) | Precise (diff) | Definitive |\n| Definitions introduced | 8 headline findings, 4-layer reference architecture, evaluation findings \u2014 prose only, no code symbols | Precise (file read) | Definitive |\n| Callers | None (documentation, not executable) | Precise (structural) | Definitive |\n| CODEOWNERS | Not present in repo | Precise (directory listing) | Definitive |\n| MCP tool surface referenced | `search`, `facet_counts`, `forward_citations` (citation intent) | Search-based (file read + CHANGELOG cross-ref) | High |\n| Implementing modules referenced implicitly | `mcp_server.py`, `citation_intent.py`, `section_parser.py`, `graph_metrics.py`, `jit/` | Search-based (module-name inference) | Medium |\n| OR solver dependencies (Gurobi/Pyomo/JuMP) | Not in `pyproject.toml`; recommendations only | Precise (pyproject.toml read) | Definitive |\n| Predecessor survey docs in series | `gascity_lit_review_2026-05-29.md`, `agentic_memory_litreview_2026-06-02.md` | Search-based (filename pattern + date) | High |\n| Test coverage for changed file | None direct; implementing modules have tests | Precise (directory listing) | Definitive |\n| Later fixes/reverts | Unknown \u2014 commit index unavailable | Unavailable | Not determined |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:12:19Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/sjarmak-scix-agent at revision dd618037f61035bd62f1e7a620029c6b4867ab6a, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: sjarmak/scix-agent; stratum: agent_native; cutoff: dd618037f61035bd62f1e7a620029c6b4867ab6a."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Semantic topology mapping for sjarmak/scix-agent at specific revision",
+    "updateTime": "2026-07-29T03:14:35Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/d6e1ef25-f909-479b-941b-8583c5350181"
+  },
+  "run_id": "sha256:8a08f95b53400d173eb905dbaab8176883fc50ea19ab9d0068592e5018b7ee17",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "sjarmak/scix-agent"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

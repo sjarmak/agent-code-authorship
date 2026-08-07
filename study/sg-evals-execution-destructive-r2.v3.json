@@ -1,0 +1,44 @@
+{
+  "execution_version": 3,
+  "plan_sha256": "c65aca937b327f7694edd7d9c2849815c04476b13effdafa50c9b891eb5309da",
+  "approval_scope": "destructive",
+  "started_at": "2026-07-27T19:48:29.894920Z",
+  "updated_at": "2026-07-27T19:48:30.077756Z",
+  "status": "failed",
+  "selected_count": 2,
+  "selected_repository_ids": [
+    "kubernetes/kubernetes",
+    "nodejs/node"
+  ],
+  "current_action": null,
+  "results": [
+    {
+      "canonical_repository_id": "kubernetes/kubernetes",
+      "action": "replace_standalone_mirror",
+      "status": "failed",
+      "started_at": "2026-07-27T19:48:29.896972Z",
+      "completed_at": "2026-07-27T19:48:30.077756Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "sync",
+            "sg-evals/kubernetes-kubernetes",
+            "--source",
+            "kubernetes/kubernetes",
+            "--branch",
+            "master",
+            "--force"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "HTTP 404: Branch not found (https://api.github.com/repos/sg-evals/kubernetes-kubernetes/merge-upstream)\n"
+        }
+      ],
+      "error": "HTTP 404: Branch not found (https://api.github.com/repos/sg-evals/kubernetes-kubernetes/merge-upstream)"
+    }
+  ],
+  "journal_sha256": "f796a01de7cfbd403d66467bfdc4157f261cc9f7d66dcf03e0acd59a6921a79e"
+}

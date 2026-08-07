@@ -1,0 +1,553 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-agent-commit-catalog.schema.json",
+  "title": "Reviewed explicit-provenance agent commit catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "catalog_version",
+    "selection_rule",
+    "sequential_decision_ledger_sha256",
+    "sequential_tranche_sha256s",
+    "anchor_manifest_sha256",
+    "anchor_completion_ledger_sha256",
+    "language_inventory_sha256",
+    "compiled_audit_sha256",
+    "derived_adoption_catalog_sha256",
+    "reviewed_event_count",
+    "excluded_event_count",
+    "exclusion_counts",
+    "commit_count",
+    "repository_count",
+    "primary_scope_commit_count",
+    "source_counts",
+    "audit_sampled_commit_count",
+    "audit_exact_agreement_count",
+    "audit_disagreement_count",
+    "commits",
+    "outcomes_consulted",
+    "catalog_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-agent-commit-catalog.schema.json"
+    },
+    "catalog_version": {
+      "const": 1
+    },
+    "selection_rule": {
+      "$ref": "#/$defs/selectionRule"
+    },
+    "sequential_decision_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "sequential_tranche_sha256s": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/sha256"
+      }
+    },
+    "anchor_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "anchor_completion_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "language_inventory_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "compiled_audit_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "derived_adoption_catalog_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "reviewed_event_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "excluded_event_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "exclusion_counts": {
+      "$ref": "#/$defs/exclusionCounts"
+    },
+    "commit_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "repository_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "primary_scope_commit_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "source_counts": {
+      "$ref": "#/$defs/sourceCounts"
+    },
+    "audit_sampled_commit_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "audit_exact_agreement_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "audit_disagreement_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "commits": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/commit"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "catalog_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "commitOid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "selectionRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision",
+        "candidate_kinds",
+        "requires_concrete_commit_oid",
+        "label_interpretation"
+      ],
+      "properties": {
+        "decision": {
+          "const": "accept_confirmed"
+        },
+        "candidate_kinds": {
+          "const": [
+            "explicit_provenance_anchor",
+            "explicit_provenance_candidate"
+          ]
+        },
+        "requires_concrete_commit_oid": {
+          "const": true
+        },
+        "label_interpretation": {
+          "const": "reviewed_positive_commit_only_not_post_adoption_inference"
+        }
+      }
+    },
+    "exclusionCounts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision_not_accept_confirmed",
+        "confirmed_missing_commit_oid",
+        "confirmed_non_explicit_provenance"
+      ],
+      "properties": {
+        "decision_not_accept_confirmed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "confirmed_missing_commit_oid": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "confirmed_non_explicit_provenance": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "sourceCounts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "anchor_completion",
+        "sequential"
+      ],
+      "properties": {
+        "anchor_completion": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sequential": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "commit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository_id",
+        "sourcegraph_name",
+        "language",
+        "primary_scope_eligible",
+        "commit_oid",
+        "observed_at",
+        "event_id",
+        "candidate_kind",
+        "review_source",
+        "tranche_id",
+        "tranche_number",
+        "task_id",
+        "task_sha256",
+        "response_sha256",
+        "reviewer_id",
+        "review_role",
+        "decision",
+        "evidence_tier",
+        "review_rationale",
+        "evidence_citations",
+        "query_family_ids",
+        "packet_ids",
+        "cited_evidence",
+        "adoption_context",
+        "reliability_audit"
+      ],
+      "properties": {
+        "repository_id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "sourcegraph_name": {
+          "type": "string",
+          "minLength": 3
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_scope_eligible": {
+          "type": "boolean"
+        },
+        "commit_oid": {
+          "$ref": "#/$defs/commitOid"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "event_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "candidate_kind": {
+          "enum": [
+            "explicit_provenance_anchor",
+            "explicit_provenance_candidate"
+          ]
+        },
+        "review_source": {
+          "enum": [
+            "sequential",
+            "anchor_completion"
+          ]
+        },
+        "tranche_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "tranche_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "task_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "response_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "reviewer_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_role": {
+          "enum": [
+            "primary",
+            "secondary",
+            "resolver"
+          ]
+        },
+        "decision": {
+          "const": "accept_confirmed"
+        },
+        "evidence_tier": {
+          "const": "confirmed"
+        },
+        "review_rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_citations": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "query_family_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "packet_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sha256"
+          }
+        },
+        "cited_evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        },
+        "adoption_context": {
+          "$ref": "#/$defs/adoptionContext"
+        },
+        "reliability_audit": {
+          "$ref": "#/$defs/reliabilityAudit"
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "packet_id",
+        "packet_sha256",
+        "query_family_id",
+        "commit_oid",
+        "kind",
+        "line",
+        "path",
+        "source_url",
+        "value"
+      ],
+      "properties": {
+        "packet_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "packet_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "query_family_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commit_oid": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/commitOid"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "line": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "adoptionContext": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "adoption_event_id",
+        "adoption_observed_at",
+        "adoption_commit_oid",
+        "adoption_decision",
+        "evidence_tier",
+        "adoption_interpretation",
+        "clean_prehistory",
+        "unresolved_earlier_candidate_count"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "dated_explicit_anchor",
+            "dated_sequential"
+          ]
+        },
+        "adoption_event_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "adoption_observed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "adoption_commit_oid": {
+          "$ref": "#/$defs/commitOid"
+        },
+        "adoption_decision": {
+          "enum": [
+            "accept_confirmed",
+            "accept_observed"
+          ]
+        },
+        "evidence_tier": {
+          "enum": [
+            "confirmed",
+            "observed"
+          ]
+        },
+        "adoption_interpretation": {
+          "enum": [
+            "earliest_accepted_event_in_screened_frame",
+            "first_observed_explicit_use"
+          ]
+        },
+        "clean_prehistory": {
+          "type": "boolean"
+        },
+        "unresolved_earlier_candidate_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "reliabilityAudit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sampled",
+        "audit_task_id",
+        "response_sha256",
+        "reviewer_id",
+        "decision",
+        "exact_agreement"
+      ],
+      "properties": {
+        "sampled": {
+          "type": "boolean"
+        },
+        "audit_task_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/sha256"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "response_sha256": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/sha256"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reviewer_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "decision": {
+          "enum": [
+            "accept_confirmed",
+            "accept_observed",
+            "insufficient",
+            "reject",
+            "unresolved",
+            null
+          ]
+        },
+        "exact_agreement": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "sampled": {
+                "const": false
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "audit_task_id": {
+                "type": "null"
+              },
+              "response_sha256": {
+                "type": "null"
+              },
+              "reviewer_id": {
+                "type": "null"
+              },
+              "decision": {
+                "type": "null"
+              },
+              "exact_agreement": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

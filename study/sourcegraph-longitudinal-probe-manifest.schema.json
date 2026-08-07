@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-longitudinal-probe-manifest.schema.json",
+  "title": "Sourcegraph longitudinal probe manifest v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "probe_manifest_version",
+    "probe_unit_id",
+    "canonical_repository_id",
+    "sourcegraph_name",
+    "cutoff_commit",
+    "cutoff_tree",
+    "bundle_sha256",
+    "capabilities_used",
+    "precise_code_intelligence_used",
+    "scip_used",
+    "hunk_count",
+    "hunks",
+    "valid",
+    "outcomes_consulted",
+    "probe_manifest_sha256"
+  ],
+  "properties": {
+    "probe_manifest_version": {
+      "const": 3
+    },
+    "probe_unit_id": {
+      "$ref": "#/$defs/sha256"
+    },
+    "canonical_repository_id": {
+      "type": "string",
+      "pattern": "^[^/]+/[^/]+$"
+    },
+    "sourcegraph_name": {
+      "type": "string",
+      "pattern": "^github\\.com/sg-evals/[^/]+$"
+    },
+    "cutoff_commit": {
+      "$ref": "#/$defs/sha1"
+    },
+    "cutoff_tree": {
+      "$ref": "#/$defs/sha1"
+    },
+    "bundle_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "capabilities_used": {
+      "const": [
+        "blame",
+        "diff_search",
+        "revision_search"
+      ]
+    },
+    "precise_code_intelligence_used": {
+      "const": false
+    },
+    "scip_used": {
+      "const": false
+    },
+    "hunk_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "hunks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/hunk"
+      }
+    },
+    "valid": {
+      "const": true
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "probe_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "resultId": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "rawResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourcegraph_result_id",
+        "payload"
+      ],
+      "properties": {
+        "sourcegraph_result_id": {
+          "$ref": "#/$defs/resultId"
+        },
+        "payload": {
+          "type": "object"
+        }
+      }
+    },
+    "hunk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "hunk_id",
+        "introducing_commit_oid",
+        "path",
+        "rendered_diff_query",
+        "sourcegraph_result_ids",
+        "raw_diff_results",
+        "blame_commit_oids",
+        "raw_blame_response"
+      ],
+      "properties": {
+        "hunk_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "introducing_commit_oid": {
+          "$ref": "#/$defs/sha1"
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rendered_diff_query": {
+          "type": "string",
+          "allOf": [
+            {
+              "pattern": "type:diff"
+            },
+            {
+              "pattern": "select:commit\\.diff\\.added"
+            },
+            {
+              "pattern": "count:all"
+            }
+          ]
+        },
+        "sourcegraph_result_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/resultId"
+          }
+        },
+        "raw_diff_results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rawResult"
+          }
+        },
+        "blame_commit_oids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sha1"
+          }
+        },
+        "raw_blame_response": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1898 @@
+{
+  "$schema": "sourcegraph-ai-ban-catalog.schema.json",
+  "audit": {
+    "agreement_fields": [
+      "decision",
+      "default_branch_supported",
+      "policy_scope",
+      "evidence_tier"
+    ],
+    "audited_event_count": 25,
+    "auditor_id": "ai-ban-auditor-b",
+    "cases": [
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "e4c64b7cf0b74f98f114c79cb1f9c848c6f1d2bdf2c5d150ed1a60a3ca40e022",
+        "canonical_repository_id": "yt-dlp/yt-dlp",
+        "event_id": "57d6f21a90f98c1b9d7b42ba950fef920a71174cc810c306d68af73aa3709814",
+        "evidence_channel": "ai_ban_policy_files",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "reject",
+        "primary_response_sha256": "74f86390a7422fc4096d35b09ed3d5d028d3255332e966f7ca4857c0a337f04e",
+        "task_id": "0d46888853ac83d1ced201f07c7b178f85beb8c504ade181755cb246c4d446ee"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "4a3cb387ca4c4d6ca7d21df34f09d277338c05d02fa4e798687f3a4968d5ed9b",
+        "canonical_repository_id": "borgmatic-collective/borgmatic",
+        "event_id": "92a08b7ffb49377eb59cc8fdd945755886d818664dac7cadf28a60ba0baa45f2",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "0ba50972c7b6a766cb39a936a06484006bb897685e5d930ae4e7174db7d83d5d",
+        "task_id": "3717147ff4c4291cad67e7f0688dc1c0d5359e9d880fdd9f13cd72361489aa2b"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "be2d9f88c3b13e19d6c89e5b22bcb4eb9e0684352a61706f56a8cdecf7395e90",
+        "canonical_repository_id": "poezio/poezio",
+        "event_id": "9f5d07bbeba95f21c8cc3ebf71550feab127bcd164f9a448df17aa51e24a2263",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "479adbefc25f2398e2a6ff80dc7b2d1427fc79bd1ed6b2e6cfe41cf1f82e2acf",
+        "task_id": "c8d6271b962276d38dca7da685391d856596f30955ad381788779ab5656732be"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "d0246d2efa2fad71518666f5b9449c6f219c9a9750d8e178c194eb9493e0c39d",
+        "canonical_repository_id": "teamtype/teamtype",
+        "event_id": "6236f17219734fce35c4b29fc57da81bdbdad750fd163d821103ac18ca0d0290",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Rust",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "272fe4930b82bcd0b7e918435ca5dc4d66e1494d800f26e6e216e32721ece0cb",
+        "task_id": "9167aa987f620b88cf97720004531a0d281bcc301fe8807769c2a4470fc16930"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "eb40df480390ab60837cce6b9cd4bd8dd08ba8b0bf2adaf17ff9d8343087cd1f",
+        "canonical_repository_id": "typst/typst",
+        "event_id": "d152d8f2bfc5f5a1f0422f1a5b928376ddb471f7f8aea110f46f20ae3a867153",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Rust",
+        "primary_decision": "reject",
+        "primary_response_sha256": "5fabae46e70126c86c16ed62b65524132b52d0c0a7ac64c95d8027eebeddb038",
+        "task_id": "a1ca40c34c629faad3fec672a614079acdfe652e7afd438860d8e369952f0f44"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "389cc7d47828dabe843c2a099026199197b63bcfa5c46d26e00b5b93bdf267b8",
+        "canonical_repository_id": "bevyengine/bevy",
+        "event_id": "8d39ba5a7ae855155a55a16a9834862d85557668e09b4619dcecdff4a407431c",
+        "evidence_channel": "ai_ban_policy_files",
+        "exact_agreement": true,
+        "language": "Rust",
+        "primary_decision": "reject",
+        "primary_response_sha256": "dab9fd974d4a5860d3a97cd3760238b6fa3ff323ef14241aee52e222dacc7179",
+        "task_id": "b38d991bf3b0f3952a81b59fae4f0ce055f1ef247b77fe7b937cb79a85caae32"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "95881ff18700118d87a390f36cbe9701606f68ee53196e8be514ddcf53d5b0c8",
+        "canonical_repository_id": "twpayne/chezmoi",
+        "event_id": "be19923c01634dfab6f4ac62678be4bce95dbc38d4d7ad6f68b6fe456132ef12",
+        "evidence_channel": "ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Go",
+        "primary_decision": "reject",
+        "primary_response_sha256": "6c6a95da05a545a0c9f200eb29272866e219980f42ee72ddc107b7d68c5e43a2",
+        "task_id": "8298b8e855277838fdfac0f18c93c47195a1de0dca5ddd4231bd552caf3483b1"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "4fe6cb39c43635f6bd4cab52a472670595ea49e5e8a3f03c6921ed1390f32ae8",
+        "canonical_repository_id": "superseriousbusiness/gotosocial",
+        "event_id": "1a224ee15bf153a76f169d2545036d1a4dc75fef92ec4a96d85ef87d015d6eae",
+        "evidence_channel": "ai_ban_policy_files",
+        "exact_agreement": true,
+        "language": "Go",
+        "primary_decision": "reject",
+        "primary_response_sha256": "03971c8cdefcad5226cff4d0044a04ac806b1a7f267f6f431154f230ed6751cc",
+        "task_id": "8ebfaada506be3709f8e65760970f4ed12c4ebafb8594dabfbe432616844e96d"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "d12b4ae2668d114fccab54dd8a0499ef6396d8b4f89a3db9a8935222a2cfa92d",
+        "canonical_repository_id": "wafrn/wafrn",
+        "event_id": "b5cae5141a534d689bb7296e750d12c49e82a3b2ebe77add255f6ef6a90543f6",
+        "evidence_channel": "ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "JSON",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "0ecdcd75059649f22ae9633bb4dc3a793dc641af13992f17b8588c9784f77da1",
+        "task_id": "ce1fd9cefd03851cac69f76bb9e529f74af0251984ade0a67f79124ac2766ad6"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "9f1bb0bc2094aae15d860afc29e930b2e58ad979df22fc9087c2a65d3e7531d9",
+        "canonical_repository_id": "pouchdb/pouchdb",
+        "event_id": "c974fabbe24aa778cd64cf4c502aaafbd24581889be3227837645348582eaa37",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "JavaScript",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "acc0ecd772571b32f4a6b3a83144bddbfe0548a9a5c1322eb7f3e44d5bd47364",
+        "task_id": "cc3a1863090fe901876e4101d59cf67c8dc85a04954b616661396bb552d56a94"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "9514762b6e31f3fb9ebf50c861e4a3e25744ddda52f111b14c8c55fb5a7fba90",
+        "canonical_repository_id": "apache/couchdb",
+        "event_id": "2097ba918ac3ac3a3dafd225edc8844f61f61900cc073d5d99676b45481a28cf",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Erlang",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "cb822ffddfbfb3ae989ac606a66926a1e5356e9b3b54bd45274a59f238aecff0",
+        "task_id": "05b3b6d3dc7f7517ac67c444e84295947adf8c4e0b92addc69dc276accf34005"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "4adb740d923dba5b406f149f3dff7e92192a21c2d046f5bb7c2c5978c7939676",
+        "canonical_repository_id": "jhy/jsoup",
+        "event_id": "f7c95680a46361ccbbd59d2d86c9d46eac2f1407a97894cf252abed45c973072",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Java",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "ca7310fb0a6f93ff4498e9c43d0ed2328ced496679348786dd40aa2e46592fdf",
+        "task_id": "98d784478a0c9c0c80157327a966c27a7af815e99cfd43d42c77eb58ff691f2d"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "11606cfcbc4cb8fe96b6c654d3b75fa86bf26e61e2c2e77be985fbb504fd1f3f",
+        "canonical_repository_id": "endless-sky/endless-sky",
+        "event_id": "6f867ffd7480f8547eef09f7753410c84ffa9280a8c9eced4066f7c5d441437b",
+        "evidence_channel": "ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Text",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "9c63acbbfa1249a8080ac9a2415eb23c572bd73a43b165fef9a20544ec91e405",
+        "task_id": "8a6c4a95abca63aab4688a9fa5a44860c17900e90bcde3f951165881da6238e0"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "a73bc7810cc0f9072a858f38a48be024ef29c0becf155d931f8433fc0a176123",
+        "canonical_repository_id": "asahilinux/m1n1",
+        "event_id": "a57c36fb1e62b8ad89d1b18f9fcd09472872fa0ab32c7e1355cc82cbe2cb19e0",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "e5767f044ebeb1e6d8ac0ff5049185d9b9e323a2124a21102f79f27507b999ac",
+        "task_id": "f18eb0d259c72de94ac46619d1fae0700870293db274cf9e37948a44d83e67b6"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "e35831d2bf6334ba1ff19e30359321934a63b4f6f8fcc1aed04e841df803b185",
+        "canonical_repository_id": "yt-dlp/yt-dlp",
+        "event_id": "7eebc2d838133a78a64a871c5ce0ecf91463bdde1d4647882ff758e3c6252865",
+        "evidence_channel": "ai_ban_policy_files",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "reject",
+        "primary_response_sha256": "3976c6ad21fc5059bb9c8d7960f48381f7a07b87b25520dbf29ab5c903874347",
+        "task_id": "341ca312e552f64c29424d80cea341f16f07f5e648233880711638c6bcd9994b"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "8fd7f6691e58dba48d49eb701564938ef4839e4bdf490247435412bb12d32f09",
+        "canonical_repository_id": "twpayne/chezmoi",
+        "event_id": "f6de85a9787c7286f967e0699954fcde54a3134200c3cf9555dfb23d8031dcee",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Go",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "9956014f968d6499e5c1af7c3285e0a7a71db982e06c6d1edd8145a226628596",
+        "task_id": "e86a433f7f21edd715714eb25f220ff3f7852f5e9be7df1ab64551e9080abacf"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "3974d3df38a21630c41f22cf970674c066fb614925ad8537de1d70bb1d869f6a",
+        "canonical_repository_id": "superseriousbusiness/gotosocial",
+        "event_id": "ce46b34205853468555af8bfcf39bb8c663388979db7c15eb1c6065717f12f0a",
+        "evidence_channel": "ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Go",
+        "primary_decision": "reject",
+        "primary_response_sha256": "f3f92a40dd7bf20e13537cd36cabfe490448b377f59fa80dbe2f6c4b89c4422e",
+        "task_id": "d6d4312c7fba8cdfeb5ec14884b3a5f23ad65f734aec998f3b0603e4a31a0449"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "a13b15833dc366b6f9b3f05761c2b12b51cdaaf5317e4453c008c40f3caad7ec",
+        "canonical_repository_id": "yt-dlp/yt-dlp",
+        "event_id": "95fa29a0338b42241a604f90572e28e5e46221269a1eb254c76e6dc8c03015cf",
+        "evidence_channel": "ai_ban_policy_files",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "reject",
+        "primary_response_sha256": "34b971c33c5b525d9f5c674fe53a4407f75354e2b18006559390a74016f721d8",
+        "task_id": "d34f1ad33808ea4ec4b52c1e92bb0eb6c3eb28582ff615d4abd7236b0321e1d0"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "ea81170191b14a8b90cd1ed3d153dd2603f86288a97a047e079072490fa4e1c6",
+        "canonical_repository_id": "superseriousbusiness/gotosocial",
+        "event_id": "53212fe3b22962dd38d4fd056f27c71d1175e290fd0303605cbda16793fb5547",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Go",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "4ffe9e0b9e5fc43b34a735427d44f96f4dc8763638735d32ee78e1ee3ac862d0",
+        "task_id": "74fa34b3dd53a4f6f46d0efd9c6a1a60f723f0bdd86a14923667f356b20709fb"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "922593a1ef6ec6f07a7563d37214f03ff5c19a9de0f3857e7aa1450f5f235c51",
+        "canonical_repository_id": "yt-dlp/yt-dlp",
+        "event_id": "dc173eea5407670b2439655f0ea0bf7e7adf1869c3b16dce4c03decbc86ce15a",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "reject",
+        "primary_response_sha256": "384b85264f619bd6bdc97484c78ea98fe205f3a99e6f4000a02a69d2a8528f97",
+        "task_id": "3627767834d72bb43f5568ede274aacb4bb9e53681cb2ee247af1703eb0d1550"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "3e035234f1a9f5837942f3211efd2b755fea62fbac9746827d8003985ed378b4",
+        "canonical_repository_id": "yt-dlp/yt-dlp",
+        "event_id": "f9460b4d7909d78db066cb0b952c04abbe93b205fef0bc38735ea0a7e5088a5b",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "reject",
+        "primary_response_sha256": "c5e2e430f4a3273f54ba9d4628f17af48cd028b4382c97d85cdf84d56a3d2e23",
+        "task_id": "585473cb949cf6ee3a365c8a78dd2db9763199a0b1f4c6ce278d5f35de06cd13"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "dd0652c55509bde8e9c63a9bc85190f5452f3aaa1a52eac43ea182a3901bdd59",
+        "canonical_repository_id": "yt-dlp/yt-dlp",
+        "event_id": "0e783f7356921dc47eaa7d727d9d21888ca1e6de3e16406ed1cff077dd0fd082",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "reject",
+        "primary_response_sha256": "e9dd901a78bf0038c3896970d71393ef8db9224a65fd78447a240134d1d06ed2",
+        "task_id": "c5af9a3a262ddf7c2a9b9b9da798faeb1bd74be7802084ad9b9ff25e92a1f70f"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "7b8106bb5518b4e84c19fc492cebbf6b0be95d729da62ef8ce9f45ca3731b488",
+        "canonical_repository_id": "yt-dlp/yt-dlp",
+        "event_id": "e89c300c86dada80425afb36190f77c21561308a28e9edf0af462a7409a3503d",
+        "evidence_channel": "ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "reject",
+        "primary_response_sha256": "238bea1d8e6e8d594e4f7a9397840547b4563ff1ea1bfe78085b56a3f5124e8b",
+        "task_id": "ed1646051f8e1363c6471e7342037de6b732da1b007a02b82499ad07d3e75ae1"
+      },
+      {
+        "audit_decision": "reject",
+        "audit_response_sha256": "975fee786e6232ab92a6a7fbed12a38613dd5084174cd52d56e4b6e96e3f272e",
+        "canonical_repository_id": "yt-dlp/yt-dlp",
+        "event_id": "f1ae30bcd8657c2dd16e5c8a1db5fc299b2d4c3aa2a471c0abe288aca109a425",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "reject",
+        "primary_response_sha256": "c7982d99ca400d88789a95e61ecd4d60f3712d8d88fd95b8ecedf0d95cd161dd",
+        "task_id": "6aa8e8424648ee3272770c8bd9daf1860dd12cd275b53a86614754d6fff9192f"
+      },
+      {
+        "audit_decision": "accept_policy",
+        "audit_response_sha256": "387098c9e2cbfc94d53b69f30396d26685c6c49702d811f68e7a4e8a9aa2d5ee",
+        "canonical_repository_id": "yt-dlp/yt-dlp",
+        "event_id": "83114ed379b59b225b8de01614649ae780e5357852816bd4e88b9b5bdf615265",
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement": true,
+        "language": "Python",
+        "primary_decision": "accept_policy",
+        "primary_response_sha256": "2063f23be8a1cdd663d8861ad88b2f620289302daa12649ef071a1da81ea9d4e",
+        "task_id": "bc33ba881912b6245de2f4d37b148a9a0ad854e52d93bdaf3d640148d78dd125"
+      }
+    ],
+    "exact_agreement_count": 25,
+    "exact_agreement_rate": 1.0,
+    "strata": [
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 1,
+        "language": "Erlang",
+        "primary_decision": "accept_policy",
+        "reviewed_event_count": 1
+      },
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_files",
+        "exact_agreement_count": 1,
+        "language": "Go",
+        "primary_decision": "reject",
+        "reviewed_event_count": 1
+      },
+      {
+        "audited_event_count": 2,
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 2,
+        "language": "Go",
+        "primary_decision": "accept_policy",
+        "reviewed_event_count": 2
+      },
+      {
+        "audited_event_count": 2,
+        "evidence_channel": "ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 2,
+        "language": "Go",
+        "primary_decision": "reject",
+        "reviewed_event_count": 2
+      },
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 1,
+        "language": "JSON",
+        "primary_decision": "accept_policy",
+        "reviewed_event_count": 1
+      },
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 1,
+        "language": "Java",
+        "primary_decision": "accept_policy",
+        "reviewed_event_count": 1
+      },
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 1,
+        "language": "JavaScript",
+        "primary_decision": "accept_policy",
+        "reviewed_event_count": 1
+      },
+      {
+        "audited_event_count": 3,
+        "evidence_channel": "ai_ban_policy_files",
+        "exact_agreement_count": 3,
+        "language": "Python",
+        "primary_decision": "reject",
+        "reviewed_event_count": 3
+      },
+      {
+        "audited_event_count": 4,
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 4,
+        "language": "Python",
+        "primary_decision": "accept_policy",
+        "reviewed_event_count": 4
+      },
+      {
+        "audited_event_count": 4,
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 4,
+        "language": "Python",
+        "primary_decision": "reject",
+        "reviewed_event_count": 4
+      },
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 1,
+        "language": "Python",
+        "primary_decision": "reject",
+        "reviewed_event_count": 1
+      },
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_files",
+        "exact_agreement_count": 1,
+        "language": "Rust",
+        "primary_decision": "reject",
+        "reviewed_event_count": 1
+      },
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 1,
+        "language": "Rust",
+        "primary_decision": "accept_policy",
+        "reviewed_event_count": 1
+      },
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_files+ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 1,
+        "language": "Rust",
+        "primary_decision": "reject",
+        "reviewed_event_count": 1
+      },
+      {
+        "audited_event_count": 1,
+        "evidence_channel": "ai_ban_policy_introduction_diffs",
+        "exact_agreement_count": 1,
+        "language": "Text",
+        "primary_decision": "accept_policy",
+        "reviewed_event_count": 1
+      }
+    ]
+  },
+  "catalog_sha256": "cc4dc52b65c33496d9dbd5e1e4d972d1d375be73ac95604bd5a9ceb4739d23a3",
+  "catalog_version": 3,
+  "classifier_outcomes_consulted": false,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "files": [
+      {
+        "file_sha256": "5ed3c68e1ccd14a9ddeda044729060d760be86b1b794f8069db8276d3bf8f595",
+        "input_id": "target_manifest"
+      },
+      {
+        "file_sha256": "205f917333fee216d1f319ec733059f559941effc4f99c0ce70dc3be78d46641",
+        "input_id": "language_inventory"
+      },
+      {
+        "file_sha256": "fb55c454eaab9984ffb5468be7fc85b9e345db9e6cfc6d497d2459a8e6123033",
+        "input_id": "worksheet_001"
+      },
+      {
+        "file_sha256": "fa615eaba8b28475f99d0f05264afefa6a6e3551424ddc2b43f76b733d1d05e6",
+        "input_id": "worksheet_002"
+      },
+      {
+        "file_sha256": "1f24aa96e81056f09daaf6b621943e42f78adf7b053fa38a4eb2b7d04e15ed83",
+        "input_id": "worksheet_003"
+      },
+      {
+        "file_sha256": "73bb31d4b16c81e2d25a0d290f3fd03b2afa06cd5bddc45559095255ef2de2d6",
+        "input_id": "worksheet_004"
+      },
+      {
+        "file_sha256": "925a39866640cf468833a679995bb96e430d82e8d467b2f15a280cc02c51b527",
+        "input_id": "worksheet_005"
+      },
+      {
+        "file_sha256": "a529e7812e84908cd93c09a1c3fd0c33d43de9c42866d6d3efecb3c4d071ed76",
+        "input_id": "worksheet_006"
+      },
+      {
+        "file_sha256": "718ec68055c68bd3fc57b7b5f1ebded22df35d522c6eb08b01b7b7fbefd050be",
+        "input_id": "worksheet_007"
+      },
+      {
+        "file_sha256": "afd561c6c994b861e93718c717681d42192678b5ba882f1613f8664af9719ec9",
+        "input_id": "worksheet_008"
+      },
+      {
+        "file_sha256": "ae5ae4fe75a35bc0741fbe18d85a0efc233c78748e0490042ef4acbf9e80a363",
+        "input_id": "worksheet_009"
+      },
+      {
+        "file_sha256": "3e0558d694accf3c32726ae168581d2ab135d909c4736ce22745367d0f6c19b4",
+        "input_id": "worksheet_010_terminal"
+      },
+      {
+        "file_sha256": "107c68a814946f4c3cf85e1affe73657e6517f29b39b851d613caeb51445da2f",
+        "input_id": "decision_ledger_001"
+      },
+      {
+        "file_sha256": "97247abae105a1e20d7c6c0b9268987c2de4fe322482bbe12d539aed836a6ccd",
+        "input_id": "decision_ledger_002"
+      },
+      {
+        "file_sha256": "01a4871dfe1416a89db615bd12e344f786748f7d18b3529ee78eb84d86614a96",
+        "input_id": "decision_ledger_003"
+      },
+      {
+        "file_sha256": "4d891964ab84f2557f0dd1e60c46f79773e7515434cd16baeef4d85d01e96632",
+        "input_id": "decision_ledger_004"
+      },
+      {
+        "file_sha256": "392ca9edec9ca58a3cf2dceef35a9d8ab1ed503e44e25dfb1af1443e01252ec6",
+        "input_id": "decision_ledger_005"
+      },
+      {
+        "file_sha256": "bf676fc0601dd753d5d0990b6ccab1b095644572b47cc8bd47a4c76f6d314e2c",
+        "input_id": "decision_ledger_006"
+      },
+      {
+        "file_sha256": "9162bbb2db2af1ca77f0a6fe90ce495d7a0f419002a4b74d80467e64a24a49d8",
+        "input_id": "decision_ledger_007"
+      },
+      {
+        "file_sha256": "34793a7841f2be0180d3f2980bdd78a15fffbb901b705f96ab6e7216c00cbc38",
+        "input_id": "decision_ledger_008"
+      },
+      {
+        "file_sha256": "75d5ea6158f3ddf038d4ffe324986947a0ef1650a42fa2d29b694c775a64ea8d",
+        "input_id": "decision_ledger_009"
+      },
+      {
+        "file_sha256": "90b4b0c9295317c48e6a67af454d97c62189f07157b41001bddf967c9c41ca97",
+        "input_id": "primary_responses_001"
+      },
+      {
+        "file_sha256": "a287f4c91ad873fdd081eb6c2edffc02eec9a45c8c2c07b6fbe9d2a06c7b7df9",
+        "input_id": "primary_responses_002"
+      },
+      {
+        "file_sha256": "0ee914a51b0057ae89ce817c7c8d3e9399d7effedb6be6f4a805a0ad72800cae",
+        "input_id": "primary_responses_003"
+      },
+      {
+        "file_sha256": "0ba90506b47bf0d0cc6fd618a807dae8247a51b5c88e10cf2f8d7ee1ad10a0a6",
+        "input_id": "primary_responses_004"
+      },
+      {
+        "file_sha256": "df939bcb9495d75fbaf138fbf016ad52a9596bfec4e2705a6157fd1361f3bc01",
+        "input_id": "primary_responses_005"
+      },
+      {
+        "file_sha256": "aa914e95ae1d66dd25c778036adcf8ae424fa17f25f65105414a611f674772d4",
+        "input_id": "primary_responses_006"
+      },
+      {
+        "file_sha256": "a3fd11120705b13920f9cc544b3682051c11f876320ab57cb7c7650ae111ff00",
+        "input_id": "primary_responses_007"
+      },
+      {
+        "file_sha256": "b1d06e6bb4f94c35d1d77e10b502c2b67809a877b56be1f03c5565e0e9487b68",
+        "input_id": "primary_responses_008"
+      },
+      {
+        "file_sha256": "37e299c12c7ff9351301e29c3e1d625c5134f010537902645863574fe855a410",
+        "input_id": "primary_responses_009"
+      },
+      {
+        "file_sha256": "4286889ccd5f74bd677538d25f7ebe8990f4e58efc5405b847e8f2656b0837ab",
+        "input_id": "audit_responses_001"
+      },
+      {
+        "file_sha256": "66a3dd23ee9b7e7cf0e1094a54efc409ce35444370edfac8e16c39213969928a",
+        "input_id": "audit_responses_002"
+      },
+      {
+        "file_sha256": "0477d03dfcf18172d188e488740cba92ee9c3c071c1f67231263d34641461f9c",
+        "input_id": "audit_responses_003"
+      },
+      {
+        "file_sha256": "4c1ad9f0687a9c02ada3c06d25be26556656b5d0a9a55c58f3a0c05b05904c74",
+        "input_id": "audit_responses_004"
+      },
+      {
+        "file_sha256": "676f598a1da8e54490f362c7438cfe95e339c12ecf35b774124312173c7ae654",
+        "input_id": "audit_responses_005"
+      },
+      {
+        "file_sha256": "c1dd7dde02e5bb309509a66a33f14e84fb235d4af502585c20cd04d8b1bd8cf3",
+        "input_id": "audit_responses_006"
+      },
+      {
+        "file_sha256": "285a25aa06f441235da59adbec45777a2578dfadec64a2db01baa63e01ae5272",
+        "input_id": "audit_responses_007"
+      },
+      {
+        "file_sha256": "5933da9f99be67d19355077e16355a226d77a306b9569a8eb0f33d44789bbc34",
+        "input_id": "audit_responses_008"
+      },
+      {
+        "file_sha256": "7ea2857ac78d5c3bf995d3945aff628157fd2e62d7ff62be0351e09cf135585f",
+        "input_id": "audit_responses_009"
+      }
+    ],
+    "final_decision_ledger_sha256": "be21c14b0b1bcac7e5bc14a5dd64dc780e391da49fc7b2dc5ec276255232017d",
+    "language_inventory_sha256": "1ea01099959cc761d79efc2cc1b240a8c7d9aab3c6bf73d717933fa09746a656",
+    "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+    "terminal_worksheet_sha256": "91aebb4e0fdd1cdd74fdfcd660b545c5475f89039e7284d27d0545a105f36e4d"
+  },
+  "repositories": [
+    {
+      "accepted_policy": {
+        "commit_oid": "249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+        "event_id": "83114ed379b59b225b8de01614649ae780e5357852816bd4e88b9b5bdf615265",
+        "evidence_citations": [
+          "https://github.com/yt-dlp/yt-dlp/commit/249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+          "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/.NO_AI/README.md#L3",
+          "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L35"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2026-07-01T18:27:40Z",
+        "packet_ids": [
+          "0e7c7316053587ed822c98904b31f60852ec1f9b001a30fe45da669a6a0e4cc0",
+          "77b9bbac0f6e89795930f56910c5780cddcdbbf5490095cdae986b41d1debe15",
+          "f4a70fce3425f623fc32fc64c8318b5a0a9a3e5db2da993e5ee78f824113b903"
+        ],
+        "packet_sha256": [
+          "2900d8ae565a2592a86496cdbefe2c8f2b4d36c351035852ebd91043a8914414",
+          "fd6af5fe900e6f0b4fe8fe0c15d9e28371726f3dd7e1630785cf7d470a5d3ae6",
+          "41ec0d30e530dfbc98502e92842aa9138000e3f00a70825c1e2c503e2d4c82af"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "2063f23be8a1cdd663d8861ad88b2f620289302daa12649ef071a1da81ea9d4e",
+        "task_id": "bc33ba881912b6245de2f4d37b148a9a0ad854e52d93bdaf3d640148d78dd125",
+        "task_sha256": "faf00b3fbda559e1350a0860f5544498751d3d69a653869520ce0c0bb54dc21e"
+      },
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "canonical_source_url": "https://github.com/yt-dlp/yt-dlp",
+      "language": "Python",
+      "preregistered_repository_id": "yt-dlp/yt-dlp",
+      "review_evidence": [
+        {
+          "commit_oid": "ae6a1b95857c7ba1392e37be99b9ee2b66b14b1d",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "57d6f21a90f98c1b9d7b42ba950fef920a71174cc810c306d68af73aa3709814",
+          "evidence_citations": [
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/README.md#L1541",
+            "https://github.com/yt-dlp/yt-dlp/commit/ae6a1b95857c7ba1392e37be99b9ee2b66b14b1d"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2022-03-24T02:00:25Z",
+          "packet_ids": [
+            "54b26234953b90d50c5b2d6093fb005e250da31c90df979c6c2ac2036e9acb7e"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ],
+          "rationale": "The cited README text concerns media format selection and does not prohibit AI-generated or AI-authored contributions.",
+          "response_sha256": "74f86390a7422fc4096d35b09ed3d5d028d3255332e966f7ca4857c0a337f04e",
+          "task_id": "0d46888853ac83d1ced201f07c7b178f85beb8c504ade181755cb246c4d446ee",
+          "task_sha256": "27e33ab63d8ce66be9dfc4b5fda10276aa6efa4319de890f962d2cb14b3cc06d"
+        },
+        {
+          "commit_oid": "2dd5a2e3a1c0fad8441f8e9c7eb77315afcb075b",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "7eebc2d838133a78a64a871c5ce0ecf91463bdde1d4647882ff758e3c6252865",
+          "evidence_citations": [
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/README.md#L612",
+            "https://github.com/yt-dlp/yt-dlp/commit/2dd5a2e3a1c0fad8441f8e9c7eb77315afcb075b"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2022-05-19T14:35:17Z",
+          "packet_ids": [
+            "c52fb43653dd2129c19646ec772c2e6319960ef888456f9c67cd7ade973e0643"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ],
+          "rationale": "The cited README line documents an HLS container option and does not establish any prohibition on AI-generated or AI-authored contributions.",
+          "response_sha256": "3976c6ad21fc5059bb9c8d7960f48381f7a07b87b25520dbf29ab5c903874347",
+          "task_id": "341ca312e552f64c29424d80cea341f16f07f5e648233880711638c6bcd9994b",
+          "task_sha256": "5ba1eb94c9eb05c1f94ca7746823dd1970352751353ae8aab3c7cbd985c55212"
+        },
+        {
+          "commit_oid": "8aa0e7cd96a1e2f315d49744793ae07f6543ce4c",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "95fa29a0338b42241a604f90572e28e5e46221269a1eb254c76e6dc8c03015cf",
+          "evidence_citations": [
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L376",
+            "https://github.com/yt-dlp/yt-dlp/commit/8aa0e7cd96a1e2f315d49744793ae07f6543ce4c"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2022-06-20T05:18:29Z",
+          "packet_ids": [
+            "64454c6772a0074fc027453286df03c45f0d98d934a44b675fb43ec2f10f694f"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ],
+          "rationale": "The cited contributing guideline concerns accessing nested data and does not prohibit AI-generated or AI-authored contributions.",
+          "response_sha256": "34b971c33c5b525d9f5c674fe53a4407f75354e2b18006559390a74016f721d8",
+          "task_id": "d34f1ad33808ea4ec4b52c1e92bb0eb6c3eb28582ff615d4abd7236b0321e1d0",
+          "task_sha256": "3c290c772568ae88d6697cd455d6880498486e0f4db321de775ef245b42a93b0"
+        },
+        {
+          "commit_oid": "47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "dc173eea5407670b2439655f0ea0bf7e7adf1869c3b16dce4c03decbc86ce15a",
+          "evidence_citations": [
+            "https://github.com/yt-dlp/yt-dlp/commit/47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L215"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2024-03-10T19:18:47Z",
+          "packet_ids": [
+            "b676af05ad33fe0159b51acf4980b20ab77017b7ed68e52460afe6a9e7d4c222",
+            "be0f286e018035cae43bc09a321f5efe8c60ead9c37f532e47aa9ce2ef43d218"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated change only corrects a typo in the feature-proposal instructions and contains no prohibition on AI-generated or AI-authored contributions.",
+          "response_sha256": "384b85264f619bd6bdc97484c78ea98fe205f3a99e6f4000a02a69d2a8528f97",
+          "task_id": "3627767834d72bb43f5568ede274aacb4bb9e53681cb2ee247af1703eb0d1550",
+          "task_sha256": "7930906f2dfb07a994f3d46922da3da04fb2b1ed9c603a35868db18ba83e4440"
+        },
+        {
+          "commit_oid": "2685654a37141cca63eda3a92da0e2706e23ccfd",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "f9460b4d7909d78db066cb0b952c04abbe93b205fef0bc38735ea0a7e5088a5b",
+          "evidence_citations": [
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/pot/README.md#L95",
+            "https://github.com/yt-dlp/yt-dlp/commit/2685654a37141cca63eda3a92da0e2706e23ccfd",
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/pot/README.md#L97"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2025-05-18T01:45:26Z",
+          "packet_ids": [
+            "0ebe29c1a604247f800a297f08c7d0a5d7f348d104189cacf7fa64b515c30afc",
+            "1cc0f2f7f8841f77b8772a1fbe2a837ac743693d0f3f0cb69865629ef0edfe7f"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The evidence documents rejection of unsupported authenticated token-provider requests, not rejection of AI-generated or AI-authored repository contributions.",
+          "response_sha256": "c5e2e430f4a3273f54ba9d4628f17af48cd028b4382c97d85cdf84d56a3d2e23",
+          "task_id": "585473cb949cf6ee3a365c8a78dd2db9763199a0b1f4c6ce278d5f35de06cd13",
+          "task_sha256": "cf93a9789aa75373d0117e17c48924e7bfccce8eb2e02e968b4eca47b0962b82"
+        },
+        {
+          "commit_oid": "6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "0e783f7356921dc47eaa7d727d9d21888ca1e6de3e16406ed1cff077dd0fd082",
+          "evidence_citations": [
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/jsc/README.md#L70",
+            "https://github.com/yt-dlp/yt-dlp/commit/6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/jsc/README.md#L72"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2025-10-31T22:13:04Z",
+          "packet_ids": [
+            "5d96c4e2786a6cfda79be36b9b9ee30a5e957b667949f1e559e9101c8f716286",
+            "824e85a9712e9ac348a1d39ff08dfc5a5cd7a97ae1af77a250b3fa215c730b8f"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The evidence documents rejection of unsupported JavaScript challenge-provider requests, not a prohibition on AI-generated or AI-authored repository contributions.",
+          "response_sha256": "e9dd901a78bf0038c3896970d71393ef8db9224a65fd78447a240134d1d06ed2",
+          "task_id": "c5af9a3a262ddf7c2a9b9b9da798faeb1bd74be7802084ad9b9ff25e92a1f70f",
+          "task_sha256": "86497a7b2dca91ca56ef60f82331fd1c9b9591debacbdfd0d49ca99511d8bcae"
+        },
+        {
+          "commit_oid": "f7acf3c1f42cc474927ecc452205d7877af36731",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "e89c300c86dada80425afb36190f77c21561308a28e9edf0af462a7409a3503d",
+          "evidence_citations": [
+            "https://github.com/yt-dlp/yt-dlp/commit/f7acf3c1f42cc474927ecc452205d7877af36731"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2025-12-03T23:26:20Z",
+          "packet_ids": [
+            "bce5445ec397d2396fd3ce782c251150dedd6d270e776fe7e8b7c81562703655"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The evidence warns against using a playback option with premium cookies; it does not prohibit AI-generated or AI-authored repository contributions.",
+          "response_sha256": "238bea1d8e6e8d594e4f7a9397840547b4563ff1ea1bfe78085b56a3f5124e8b",
+          "task_id": "ed1646051f8e1363c6471e7342037de6b732da1b007a02b82499ad07d3e75ae1",
+          "task_sha256": "7ac4fb9a2f2e0c8d6cdc734aad3d8ed87101911a53cece682014ce753eccec51"
+        },
+        {
+          "commit_oid": "7e145ac1cae8f891e18c9375fa23097f1dfa0b19",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "f1ae30bcd8657c2dd16e5c8a1db5fc299b2d4c3aa2a471c0abe288aca109a425",
+          "evidence_citations": [
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/README.md#L1883",
+            "https://github.com/yt-dlp/yt-dlp/commit/7e145ac1cae8f891e18c9375fa23097f1dfa0b19"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2026-03-10T23:24:03Z",
+          "packet_ids": [
+            "4d89b8093a61348185eb8df0550dfa7800789a0ddcd56470e0cc99121f5ae6f7",
+            "92a553512ba1af9b2745690696ae750349c8596d0c732252beb98ee52f743f8d"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The evidence narrows which player clients support a playback option and repeats a premium-cookie warning; it does not prohibit AI-authored contributions.",
+          "response_sha256": "c7982d99ca400d88789a95e61ecd4d60f3712d8d88fd95b8ecedf0d95cd161dd",
+          "task_id": "6aa8e8424648ee3272770c8bd9daf1860dd12cd275b53a86614754d6fff9192f",
+          "task_sha256": "bf03fbd359d584af5477ce0c0b10033b35c896ce3130b4724ad2a2c7747dbdaa"
+        },
+        {
+          "commit_oid": "249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "83114ed379b59b225b8de01614649ae780e5357852816bd4e88b9b5bdf615265",
+          "evidence_citations": [
+            "https://github.com/yt-dlp/yt-dlp/commit/249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/.NO_AI/README.md#L3",
+            "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L35"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2026-07-01T18:27:40Z",
+          "packet_ids": [
+            "0e7c7316053587ed822c98904b31f60852ec1f9b001a30fe45da669a6a0e4cc0",
+            "77b9bbac0f6e89795930f56910c5780cddcdbbf5490095cdae986b41d1debe15",
+            "f4a70fce3425f623fc32fc64c8318b5a0a9a3e5db2da993e5ee78f824113b903"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated default-branch change adds the same explicit rule to CONTRIBUTING.md and .NO_AI/README.md, strictly forbidding LLMs, agents, or other AI tools for any kind of contribution.",
+          "response_sha256": "2063f23be8a1cdd663d8861ad88b2f620289302daa12649ef071a1da81ea9d4e",
+          "task_id": "bc33ba881912b6245de2f4d37b148a9a0ad854e52d93bdaf3d640148d78dd125",
+          "task_sha256": "faf00b3fbda559e1350a0860f5544498751d3d69a653869520ce0c0bb54dc21e"
+        }
+      ],
+      "reviewed_event_count": 9,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 9,
+        "case_id": "c83eeeb61f7e449364e8ad7b9628e88da394a873bc37f43a5cd53d3f5d628049",
+        "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+        "exclusion_reason": null,
+        "repository_case_sha256": "803521410dd226f512acd15305e26440fb482b0db94b916b9a85693f3a72c03d",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "67eb48e6433beaab5b7472ceb190219d5b724149",
+        "event_id": "92a08b7ffb49377eb59cc8fdd945755886d818664dac7cadf28a60ba0baa45f2",
+        "evidence_citations": [
+          "https://projects.torsion.org/borgmatic-collective/borgmatic"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2026-02-19T19:11:57Z",
+        "packet_ids": [
+          "7713d0c2cbc87e3a86f8db1ed09e5f897688998835d03d75b9202bd7fca10e34",
+          "d2c08d5ecb68a417a80b6555bf1d05dc3411a6767b8870a9a9453d6d6db944bf"
+        ],
+        "packet_sha256": [
+          "70e306e338a1377766e674847b42a755554866bcd51a69e5b3963d2c1a1d4384",
+          "bfb7a533be261d9213640c344cda72e3ee9b2ee4ed83d058f669066f656212d5"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "0ba50972c7b6a766cb39a936a06484006bb897685e5d930ae4e7174db7d83d5d",
+        "task_id": "3717147ff4c4291cad67e7f0688dc1c0d5359e9d880fdd9f13cd72361489aa2b",
+        "task_sha256": "1ef05708726bd61b8034a40bdaa823d06e60688710692a95968c554bdb961ba4"
+      },
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "canonical_source_url": "https://projects.torsion.org/borgmatic-collective/borgmatic",
+      "language": "Python",
+      "preregistered_repository_id": "borgmatic-collective/borgmatic",
+      "review_evidence": [
+        {
+          "commit_oid": "67eb48e6433beaab5b7472ceb190219d5b724149",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "92a08b7ffb49377eb59cc8fdd945755886d818664dac7cadf28a60ba0baa45f2",
+          "evidence_citations": [
+            "https://projects.torsion.org/borgmatic-collective/borgmatic"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2026-02-19T19:11:57Z",
+          "packet_ids": [
+            "7713d0c2cbc87e3a86f8db1ed09e5f897688998835d03d75b9202bd7fca10e34",
+            "d2c08d5ecb68a417a80b6555bf1d05dc3411a6767b8870a9a9453d6d6db944bf"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated AGENTS.md addition instructs contributors not to use AI agents to modify the codebase, establishing a repository-wide prohibition on agent-authored modifications.",
+          "response_sha256": "0ba50972c7b6a766cb39a936a06484006bb897685e5d930ae4e7174db7d83d5d",
+          "task_id": "3717147ff4c4291cad67e7f0688dc1c0d5359e9d880fdd9f13cd72361489aa2b",
+          "task_sha256": "1ef05708726bd61b8034a40bdaa823d06e60688710692a95968c554bdb961ba4"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 1,
+        "case_id": "b274b5767a2531fa9496f435e6925e5453a095ff125e5ec3f82e3f2c644691a4",
+        "cutoff_commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+        "exclusion_reason": null,
+        "repository_case_sha256": "515a57e84c2c54826d89223026ecffcfdb9bfef453dbd40b3d58613be8a6e261",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "c41effcbc6e91ad800be15bd83f1f9ea58cff275",
+        "event_id": "9f5d07bbeba95f21c8cc3ebf71550feab127bcd164f9a448df17aa51e24a2263",
+        "evidence_citations": [
+          "https://codeberg.org/poezio/poezio"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2026-03-22T18:38:08Z",
+        "packet_ids": [
+          "aa775fca45913495a1e5a44278c4bd6cca2f7d5ce207a5970696e0847939ab80",
+          "ebe1105034b76362ffff54476c55b7e4d705d862489f0c4bd70e3f5fbc619742"
+        ],
+        "packet_sha256": [
+          "7e65815d4cbd2c56d16660c22dede06e8de58c9b6d0c2119fed33e55c3778e18",
+          "70f7e8dd01aa8e3d38418c72a32713b13c88fa5f7b2aae93ccc4b3c869a351f4"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "479adbefc25f2398e2a6ff80dc7b2d1427fc79bd1ed6b2e6cfe41cf1f82e2acf",
+        "task_id": "c8d6271b962276d38dca7da685391d856596f30955ad381788779ab5656732be",
+        "task_sha256": "a41b6b53e77581df4aacfacc4109279b2fae24caba9417e1ef3ad78c4232462e"
+      },
+      "canonical_repository_id": "poezio/poezio",
+      "canonical_source_url": "https://codeberg.org/poezio/poezio",
+      "language": "Python",
+      "preregistered_repository_id": "poezio/poezio",
+      "review_evidence": [
+        {
+          "commit_oid": "c41effcbc6e91ad800be15bd83f1f9ea58cff275",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "9f5d07bbeba95f21c8cc3ebf71550feab127bcd164f9a448df17aa51e24a2263",
+          "evidence_citations": [
+            "https://codeberg.org/poezio/poezio"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2026-03-22T18:38:08Z",
+          "packet_ids": [
+            "aa775fca45913495a1e5a44278c4bd6cca2f7d5ce207a5970696e0847939ab80",
+            "ebe1105034b76362ffff54476c55b7e4d705d862489f0c4bd70e3f5fbc619742"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated README addition disallows LLM- and chatbot-generated contributions and expressly applies the ban to all project areas, including code and documentation.",
+          "response_sha256": "479adbefc25f2398e2a6ff80dc7b2d1427fc79bd1ed6b2e6cfe41cf1f82e2acf",
+          "task_id": "c8d6271b962276d38dca7da685391d856596f30955ad381788779ab5656732be",
+          "task_sha256": "a41b6b53e77581df4aacfacc4109279b2fae24caba9417e1ef3ad78c4232462e"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/poezio-poezio",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 1,
+        "case_id": "fee9dc27633a2732163b80e28f2a38e19c3df051c4e35de78829e376ef8aa22b",
+        "cutoff_commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+        "exclusion_reason": null,
+        "repository_case_sha256": "51d8b3386f9488e8f2f710fb796edad536be80c88d4f04eca88fe281c8e58649",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "b14f1eb8663fb6406512770fae1897a2f7528a91",
+        "event_id": "6236f17219734fce35c4b29fc57da81bdbdad750fd163d821103ac18ca0d0290",
+        "evidence_citations": [
+          "https://github.com/teamtype/teamtype/blob/b92b68dc1d66b1da327be50040225a52723ad337/CONTRIBUTING.md#L38",
+          "https://github.com/teamtype/teamtype/commit/b14f1eb8663fb6406512770fae1897a2f7528a91"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2026-04-22T08:35:56Z",
+        "packet_ids": [
+          "71bb84b7b3dbf5f317c4a558339dfe0ae16019c1cafa8b7e36e48466712f0555",
+          "a3ceb8d1d1035d30260d945e042b85f9bb8a779e434483798becfe06f69d45e8"
+        ],
+        "packet_sha256": [
+          "8f527bd683b655d7382e936045fa9eab44a49b7ed3e4814fdd9f15f043c7c8ba",
+          "ac76b82b2ab1d99daf399b0226cafcc237f59547bca49b53aedd2d734754c08d"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "272fe4930b82bcd0b7e918435ca5dc4d66e1494d800f26e6e216e32721ece0cb",
+        "task_id": "9167aa987f620b88cf97720004531a0d281bcc301fe8807769c2a4470fc16930",
+        "task_sha256": "990ff0bd095f08b8ce3e73f7e84179099c5f4cfe2ad11d866db8f2b15d64ff74"
+      },
+      "canonical_repository_id": "teamtype/teamtype",
+      "canonical_source_url": "https://github.com/teamtype/teamtype",
+      "language": "Rust",
+      "preregistered_repository_id": "teamtype/teamtype",
+      "review_evidence": [
+        {
+          "commit_oid": "b14f1eb8663fb6406512770fae1897a2f7528a91",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "6236f17219734fce35c4b29fc57da81bdbdad750fd163d821103ac18ca0d0290",
+          "evidence_citations": [
+            "https://github.com/teamtype/teamtype/blob/b92b68dc1d66b1da327be50040225a52723ad337/CONTRIBUTING.md#L38",
+            "https://github.com/teamtype/teamtype/commit/b14f1eb8663fb6406512770fae1897a2f7528a91"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2026-04-22T08:35:56Z",
+          "packet_ids": [
+            "71bb84b7b3dbf5f317c4a558339dfe0ae16019c1cafa8b7e36e48466712f0555",
+            "a3ceb8d1d1035d30260d945e042b85f9bb8a779e434483798becfe06f69d45e8"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated CONTRIBUTING.md change states that no contribution may contain LLM-generated content, covering the repository contribution surface.",
+          "response_sha256": "272fe4930b82bcd0b7e918435ca5dc4d66e1494d800f26e6e216e32721ece0cb",
+          "task_id": "9167aa987f620b88cf97720004531a0d281bcc301fe8807769c2a4470fc16930",
+          "task_sha256": "990ff0bd095f08b8ce3e73f7e84179099c5f4cfe2ad11d866db8f2b15d64ff74"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/teamtype-teamtype",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 2,
+        "case_id": "fcdc2f9a36c7a23230e66490b9d03523e6b898a76a97e96d9f02bac22d5d5145",
+        "cutoff_commit": "b92b68dc1d66b1da327be50040225a52723ad337",
+        "exclusion_reason": null,
+        "repository_case_sha256": "e8eb4761b230f6d1cf1b0a60ce1e89f49311d8b27f42ad862ce4638333bc2ee5",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": null,
+      "canonical_repository_id": "typst/typst",
+      "canonical_source_url": "https://github.com/typst/typst",
+      "language": "Rust",
+      "preregistered_repository_id": "typst/typst",
+      "review_evidence": [
+        {
+          "commit_oid": "4c245355d7fc4a548427e4a5dea98e50ef2524fc",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "d152d8f2bfc5f5a1f0422f1a5b928376ddb471f7f8aea110f46f20ae3a867153",
+          "evidence_citations": [
+            "https://github.com/typst/typst/blob/b212e34147986d8cfecb553bbaae2a4825f53e07/CONTRIBUTING.md#L44",
+            "https://github.com/typst/typst/commit/4c245355d7fc4a548427e4a5dea98e50ef2524fc"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2026-01-23T10:52:01Z",
+          "packet_ids": [
+            "18e1fb6cf69f4865081439c4761abdff34cd8e6ec612d7e571b219b7bef7824c",
+            "8cc57408e9b395703d345162ccda65d509ebe788c00060cf972657d9d3086f54"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The evidence prohibits AI only for writing a feature description; it does not prohibit AI-generated or AI-authored code contributions repository-wide.",
+          "response_sha256": "5fabae46e70126c86c16ed62b65524132b52d0c0a7ac64c95d8027eebeddb038",
+          "task_id": "a1ca40c34c629faad3fec672a614079acdfe652e7afd438860d8e369952f0f44",
+          "task_sha256": "43c61dc085f877b97a12e3c267ab205e982e2761bd9fbe8c4419887eac45f684"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": false,
+      "scope_exclusion_reason": "no_admissible_policy",
+      "sourcegraph_name": "github.com/sg-evals/typst-typst",
+      "status": "no_admissible_policy",
+      "target_evidence": {
+        "candidate_count": 1,
+        "case_id": "0734713794b4f394055e1a8ebb77466b61e75b43a07164f19780139a3d2096c3",
+        "cutoff_commit": "b212e34147986d8cfecb553bbaae2a4825f53e07",
+        "exclusion_reason": null,
+        "repository_case_sha256": "370d7f88a7ede1486561ddee74fcc4024cff0c1e318d7e26553edecf7be820a0",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": null,
+      "canonical_repository_id": "bevyengine/bevy",
+      "canonical_source_url": "https://github.com/bevyengine/bevy",
+      "language": "Rust",
+      "preregistered_repository_id": "bevyengine/bevy",
+      "review_evidence": [
+        {
+          "commit_oid": "1f7cdbd4ceed98a97419620ebd9608487f9f5256",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "8d39ba5a7ae855155a55a16a9834862d85557668e09b4619dcecdff4a407431c",
+          "evidence_citations": [
+            "https://github.com/bevyengine/bevy/blob/17ca59b4dab18a8d494412b70b842961f102c573/CODE_OF_CONDUCT.md#L31",
+            "https://github.com/bevyengine/bevy/commit/1f7cdbd4ceed98a97419620ebd9608487f9f5256",
+            "https://github.com/bevyengine/bevy/blob/17ca59b4dab18a8d494412b70b842961f102c573/CODE_OF_CONDUCT.md#L35",
+            "https://github.com/bevyengine/bevy/blob/17ca59b4dab18a8d494412b70b842961f102c573/CODE_OF_CONDUCT.md#L36"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2020-08-19T19:25:58Z",
+          "packet_ids": [
+            "fb00398345ad041258839db4988f3de197e08a2ce77f566e7e65446eccfe6694"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ],
+          "rationale": "The cited code-of-conduct provisions concern inappropriate remarks and user bans, not AI-generated or AI-authored contributions.",
+          "response_sha256": "dab9fd974d4a5860d3a97cd3760238b6fa3ff323ef14241aee52e222dacc7179",
+          "task_id": "b38d991bf3b0f3952a81b59fae4f0ce055f1ef247b77fe7b937cb79a85caae32",
+          "task_sha256": "f29592e1548e9bf893224bc3629b4b089b34a4580774df8caffc3b102ed74bf2"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": false,
+      "scope_exclusion_reason": "no_admissible_policy",
+      "sourcegraph_name": "github.com/sg-evals/bevyengine-bevy",
+      "status": "no_admissible_policy",
+      "target_evidence": {
+        "candidate_count": 1,
+        "case_id": "b23c9e1bb51ba856d1296e705b7aeb4ba87b2e4e346d8dfe06af2f204096491d",
+        "cutoff_commit": "17ca59b4dab18a8d494412b70b842961f102c573",
+        "exclusion_reason": null,
+        "repository_case_sha256": "3af2d5c1a31fb0d810e5d46e54c6c7a9906ce72e8eb91eeb723b5bc07c0a0f73",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": null,
+      "canonical_repository_id": "alacritty/alacritty",
+      "canonical_source_url": "https://github.com/alacritty/alacritty",
+      "language": "Rust",
+      "preregistered_repository_id": "alacritty/alacritty",
+      "review_evidence": [],
+      "reviewed_event_count": 0,
+      "scope_eligible": false,
+      "scope_exclusion_reason": "no_frozen_candidate",
+      "sourcegraph_name": "github.com/sg-evals/alacritty-alacritty",
+      "status": "no_frozen_candidate",
+      "target_evidence": {
+        "candidate_count": 0,
+        "case_id": "97cd8ef4fa6bd38a1d07ef7b40f0b3c2c248739b71ab2e57f8fe9d040d3726d9",
+        "cutoff_commit": "852e971cddfabe222d2d5bcda466e130f53af207",
+        "exclusion_reason": "no_frozen_ai_ban_candidate",
+        "repository_case_sha256": "151a8b01d481b489d16aecb0363319fa36653fd8697e175177aa9e6dce382bd2",
+        "target_status": "excluded"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+        "event_id": "f6de85a9787c7286f967e0699954fcde54a3134200c3cf9555dfb23d8031dcee",
+        "evidence_citations": [
+          "https://github.com/twpayne/chezmoi/commit/7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+          "https://github.com/twpayne/chezmoi/blob/c7f235ea5217f1fa201cf70f48eec021058538dd/.github/CODE_OF_CONDUCT.md#L7"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2025-10-19T22:52:56Z",
+        "packet_ids": [
+          "5a396a0b41840845e04916e4f6e49cf7e2f03f72dcf08e25e788b05846e8083a",
+          "7259db02c64452689df8c17539097af37aad69de1e04bfd7717a2d1d9f1d8774"
+        ],
+        "packet_sha256": [
+          "7b53847bce7e4c16cfc21840c8c27e10d24d6994ea27ecf03995155035311b81",
+          "4b6cd44acb6d61a7d47b561e3fd044121328070c19c3819f7876ff476e6ebcae"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "9956014f968d6499e5c1af7c3285e0a7a71db982e06c6d1edd8145a226628596",
+        "task_id": "e86a433f7f21edd715714eb25f220ff3f7852f5e9be7df1ab64551e9080abacf",
+        "task_sha256": "9a95f3d7617560dd407cebf93d30ae03c66d517ec2a3a24a2afa6528135ac618"
+      },
+      "canonical_repository_id": "twpayne/chezmoi",
+      "canonical_source_url": "https://github.com/twpayne/chezmoi",
+      "language": "Go",
+      "preregistered_repository_id": "twpayne/chezmoi",
+      "review_evidence": [
+        {
+          "commit_oid": "bddbf7f0f0ca295af2140938143b40a2af9b7690",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "be19923c01634dfab6f4ac62678be4bce95dbc38d4d7ad6f68b6fe456132ef12",
+          "evidence_citations": [
+            "https://github.com/twpayne/chezmoi/commit/bddbf7f0f0ca295af2140938143b40a2af9b7690"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2024-12-11T23:25:20Z",
+          "packet_ids": [
+            "bc23872da933d05aa054a6b60353017c16bcd2be875cbb8781868dc0152561c0"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The rule penalizes undisclosed, unreviewed LLM-generated content but does not prohibit reviewed or disclosed AI-generated contributions repository-wide.",
+          "response_sha256": "6c6a95da05a545a0c9f200eb29272866e219980f42ee72ddc107b7d68c5e43a2",
+          "task_id": "8298b8e855277838fdfac0f18c93c47195a1de0dca5ddd4231bd552caf3483b1",
+          "task_sha256": "d90599589487ce562f8a4c2f7cf0d653035f7e33912d0ccd44d369d857561ec1"
+        },
+        {
+          "commit_oid": "7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "f6de85a9787c7286f967e0699954fcde54a3134200c3cf9555dfb23d8031dcee",
+          "evidence_citations": [
+            "https://github.com/twpayne/chezmoi/commit/7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+            "https://github.com/twpayne/chezmoi/blob/c7f235ea5217f1fa201cf70f48eec021058538dd/.github/CODE_OF_CONDUCT.md#L7"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2025-10-19T22:52:56Z",
+          "packet_ids": [
+            "5a396a0b41840845e04916e4f6e49cf7e2f03f72dcf08e25e788b05846e8083a",
+            "7259db02c64452689df8c17539097af37aad69de1e04bfd7717a2d1d9f1d8774"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated code-of-conduct change states that any contribution containing any LLM-generated content will be rejected, establishing a repository-wide contribution prohibition.",
+          "response_sha256": "9956014f968d6499e5c1af7c3285e0a7a71db982e06c6d1edd8145a226628596",
+          "task_id": "e86a433f7f21edd715714eb25f220ff3f7852f5e9be7df1ab64551e9080abacf",
+          "task_sha256": "9a95f3d7617560dd407cebf93d30ae03c66d517ec2a3a24a2afa6528135ac618"
+        }
+      ],
+      "reviewed_event_count": 2,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 2,
+        "case_id": "06f6ef2781c1f175ce2b8f03b6207e8bc5169fde6f6786bd431e1383134b84da",
+        "cutoff_commit": "c7f235ea5217f1fa201cf70f48eec021058538dd",
+        "exclusion_reason": null,
+        "repository_case_sha256": "2d606eac3a0074bd66603e09026c9f4f8f3a4cb19cf58403ff76328edc26e73c",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24",
+        "event_id": "53212fe3b22962dd38d4fd056f27c71d1175e290fd0303605cbda16793fb5547",
+        "evidence_citations": [
+          "https://codeberg.org/superseriousbusiness/gotosocial"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2023-08-09T13:47:03Z",
+        "packet_ids": [
+          "13c63a79e808e0cb5cc24526d869055a5fb2b3b5011002cd0d32bf49f764abca",
+          "9c01e70d8001e2d32b4049057418a1f1ba2d6154e8e958d2c2e4b4ff6f010e75"
+        ],
+        "packet_sha256": [
+          "4b0fdd323a01dd31d10dff31e0378857d7e7181c4161880c247d4644c86145b8",
+          "162623c37504316b2e25f4968bed9c78965ede27e6193990f28c4feae652e004"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "4ffe9e0b9e5fc43b34a735427d44f96f4dc8763638735d32ee78e1ee3ac862d0",
+        "task_id": "74fa34b3dd53a4f6f46d0efd9c6a1a60f723f0bdd86a14923667f356b20709fb",
+        "task_sha256": "f9279cf5e3b1a7224b019d97fddd73400799b59fbe691d18d0ee4184a69e4b32"
+      },
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "canonical_source_url": "https://codeberg.org/superseriousbusiness/gotosocial",
+      "language": "Go",
+      "preregistered_repository_id": "superseriousbusiness/gotosocial",
+      "review_evidence": [
+        {
+          "commit_oid": "bee8458a2d12bdd42079fcb2c4ca88ebeafe305b",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "1a224ee15bf153a76f169d2545036d1a4dc75fef92ec4a96d85ef87d015d6eae",
+          "evidence_citations": [
+            "https://codeberg.org/superseriousbusiness/gotosocial"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2022-08-31T10:06:14Z",
+          "packet_ids": [
+            "42c4657ecf8c978f83ee02b555bb53ea8b7f862a028dd79729fca47ff7c9caaa"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ],
+          "rationale": "The cited vendored README limits new-functionality proposals for an upstream package and contains no AI-contribution prohibition for this repository.",
+          "response_sha256": "03971c8cdefcad5226cff4d0044a04ac806b1a7f267f6f431154f230ed6751cc",
+          "task_id": "8ebfaada506be3709f8e65760970f4ed12c4ebafb8594dabfbe432616844e96d",
+          "task_sha256": "5d2b8c7b5b0a74ebea65cd1adc23e94718f155f70f0c965945d19e966cc97203"
+        },
+        {
+          "commit_oid": "acc333c40bcf45fb78a0701596a99e93800fe566",
+          "decision": "reject",
+          "default_branch_supported": false,
+          "event_id": "ce46b34205853468555af8bfcf39bb8c663388979db7c15eb1c6065717f12f0a",
+          "evidence_citations": [
+            "https://codeberg.org/superseriousbusiness/gotosocial"
+          ],
+          "evidence_tier": "not_applicable",
+          "observed_at": "2023-01-17T20:59:04Z",
+          "packet_ids": [
+            "052a3997d841a31182f1d1b08db3cf806a0a87ad4aac4e912b421c339d5bec07"
+          ],
+          "policy_scope": "not_applicable",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The cited vendored code of conduct grants generic moderation authority and contains no prohibition on AI-generated or AI-authored contributions to this repository.",
+          "response_sha256": "f3f92a40dd7bf20e13537cd36cabfe490448b377f59fa80dbe2f6c4b89c4422e",
+          "task_id": "d6d4312c7fba8cdfeb5ec14884b3a5f23ad65f734aec998f3b0603e4a31a0449",
+          "task_sha256": "c30b7a4e1238e1ef5865ac88bf9fdc75790850fc23812031e7b70d6da186e1c9"
+        },
+        {
+          "commit_oid": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "53212fe3b22962dd38d4fd056f27c71d1175e290fd0303605cbda16793fb5547",
+          "evidence_citations": [
+            "https://codeberg.org/superseriousbusiness/gotosocial"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2023-08-09T13:47:03Z",
+          "packet_ids": [
+            "13c63a79e808e0cb5cc24526d869055a5fb2b3b5011002cd0d32bf49f764abca",
+            "9c01e70d8001e2d32b4049057418a1f1ba2d6154e8e958d2c2e4b4ff6f010e75"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated default-branch code of conduct states that the project will not accept code or other changes created with the aid of AI tooling.",
+          "response_sha256": "4ffe9e0b9e5fc43b34a735427d44f96f4dc8763638735d32ee78e1ee3ac862d0",
+          "task_id": "74fa34b3dd53a4f6f46d0efd9c6a1a60f723f0bdd86a14923667f356b20709fb",
+          "task_sha256": "f9279cf5e3b1a7224b019d97fddd73400799b59fbe691d18d0ee4184a69e4b32"
+        }
+      ],
+      "reviewed_event_count": 3,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 8,
+        "case_id": "0bbf30ef055a8553b2ccdcca649080d1f431eb26f1176c4cca2c2159cd9bf483",
+        "cutoff_commit": "3722d124433d2087a97f68689fea934610703783",
+        "exclusion_reason": null,
+        "repository_case_sha256": "1a79991b24ac14e415f36bdffbba47eba46c885c50462904e85dbffa95ddbe60",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "c00646bcd55788a359d58ca9d74d9f4a21f01610",
+        "event_id": "b5cae5141a534d689bb7296e750d12c49e82a3b2ebe77add255f6ef6a90543f6",
+        "evidence_citations": [
+          "https://codeberg.org/wafrn/wafrn"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2025-04-20T19:10:34Z",
+        "packet_ids": [
+          "7d1def50878354ab97e99e6e981256d5d68119f3ee5f65c459d375539ea58f88"
+        ],
+        "packet_sha256": [
+          "fb430d2b18dc36c02d0e07e1f7b7a8ca4b80af138249513309fd4cdbb9f33ab5"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "0ecdcd75059649f22ae9633bb4dc3a793dc641af13992f17b8588c9784f77da1",
+        "task_id": "ce1fd9cefd03851cac69f76bb9e529f74af0251984ade0a67f79124ac2766ad6",
+        "task_sha256": "3c974e58938629dc9fa5d841f085bbf5b3b9cc75e6dd2d183ede4b3dc36c79bd"
+      },
+      "canonical_repository_id": "wafrn/wafrn",
+      "canonical_source_url": "https://codeberg.org/wafrn/wafrn",
+      "language": "JSON",
+      "preregistered_repository_id": "wafrn/wafrn",
+      "review_evidence": [
+        {
+          "commit_oid": "c00646bcd55788a359d58ca9d74d9f4a21f01610",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "b5cae5141a534d689bb7296e750d12c49e82a3b2ebe77add255f6ef6a90543f6",
+          "evidence_citations": [
+            "https://codeberg.org/wafrn/wafrn"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2025-04-20T19:10:34Z",
+          "packet_ids": [
+            "7d1def50878354ab97e99e6e981256d5d68119f3ee5f65c459d375539ea58f88"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated CONTRIBUTING.md addition rejects contributions involving AI at any step and specifically asks contributors not to submit code made with such tools.",
+          "response_sha256": "0ecdcd75059649f22ae9633bb4dc3a793dc641af13992f17b8588c9784f77da1",
+          "task_id": "ce1fd9cefd03851cac69f76bb9e529f74af0251984ade0a67f79124ac2766ad6",
+          "task_sha256": "3c974e58938629dc9fa5d841f085bbf5b3b9cc75e6dd2d183ede4b3dc36c79bd"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/wafrn-wafrn",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 2,
+        "case_id": "8b4884f80d5126099aed2a4c217cc7484f3b19e19ea25a2616f7d1294d1fc958",
+        "cutoff_commit": "08d8aa115e65629c367f56ea5eefd1ab5634c2b8",
+        "exclusion_reason": null,
+        "repository_case_sha256": "c195c1af29631944be5ee4985d161b32c7bfaaf01f26478e0d58692d527b80e7",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "ac9166fa9cb4c20e40a331ce74f21994700ae0a7",
+        "event_id": "c974fabbe24aa778cd64cf4c502aaafbd24581889be3227837645348582eaa37",
+        "evidence_citations": [
+          "https://github.com/pouchdb/pouchdb/commit/ac9166fa9cb4c20e40a331ce74f21994700ae0a7",
+          "https://github.com/pouchdb/pouchdb/blob/70b9de3c2072fa97e4b5b97cb74faa712ac184e0/CONTRIBUTING.md#L177"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2026-03-05T10:45:45Z",
+        "packet_ids": [
+          "1e171d949cfd9155b4b8618477961332f2462679c06e42e46757371652c1118e",
+          "81682577df934925b2cdd693c35e681c99b462726750bc370347cc58325645ed"
+        ],
+        "packet_sha256": [
+          "fee57b853882c62ded9389faaf180e26955df5ee15fe95d7574f09e5544d9802",
+          "b0f7ff9dd0b0d5d44728c68024f856871e8548848ff22a6b07043710b7942042"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "acc0ecd772571b32f4a6b3a83144bddbfe0548a9a5c1322eb7f3e44d5bd47364",
+        "task_id": "cc3a1863090fe901876e4101d59cf67c8dc85a04954b616661396bb552d56a94",
+        "task_sha256": "9b6987da3323674f95f60cde75d6727295a73be8c1c751af2c87e4ec9d7340b1"
+      },
+      "canonical_repository_id": "pouchdb/pouchdb",
+      "canonical_source_url": "https://github.com/pouchdb/pouchdb",
+      "language": "JavaScript",
+      "preregistered_repository_id": "pouchdb/pouchdb",
+      "review_evidence": [
+        {
+          "commit_oid": "ac9166fa9cb4c20e40a331ce74f21994700ae0a7",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "c974fabbe24aa778cd64cf4c502aaafbd24581889be3227837645348582eaa37",
+          "evidence_citations": [
+            "https://github.com/pouchdb/pouchdb/commit/ac9166fa9cb4c20e40a331ce74f21994700ae0a7",
+            "https://github.com/pouchdb/pouchdb/blob/70b9de3c2072fa97e4b5b97cb74faa712ac184e0/CONTRIBUTING.md#L177"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2026-03-05T10:45:45Z",
+          "packet_ids": [
+            "1e171d949cfd9155b4b8618477961332f2462679c06e42e46757371652c1118e",
+            "81682577df934925b2cdd693c35e681c99b462726750bc370347cc58325645ed"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated CONTRIBUTING.md addition expressly forbids AI- and LLM-generated material from being contributed to the PouchDB project.",
+          "response_sha256": "acc0ecd772571b32f4a6b3a83144bddbfe0548a9a5c1322eb7f3e44d5bd47364",
+          "task_id": "cc3a1863090fe901876e4101d59cf67c8dc85a04954b616661396bb552d56a94",
+          "task_sha256": "9b6987da3323674f95f60cde75d6727295a73be8c1c751af2c87e4ec9d7340b1"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/pouchdb-pouchdb",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 1,
+        "case_id": "8912a111b061448b4889579d7e534b10d4b0e04469a918d343dc31354ce9185c",
+        "cutoff_commit": "70b9de3c2072fa97e4b5b97cb74faa712ac184e0",
+        "exclusion_reason": null,
+        "repository_case_sha256": "17188fc15552e9a896d6e869a94cb76f28db986ebc0ec57083b912522b06965e",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "1c33ad50fcf55824b129454da2017a3037732ff5",
+        "event_id": "2097ba918ac3ac3a3dafd225edc8844f61f61900cc073d5d99676b45481a28cf",
+        "evidence_citations": [
+          "https://github.com/apache/couchdb/commit/1c33ad50fcf55824b129454da2017a3037732ff5",
+          "https://github.com/apache/couchdb/blob/a2eedd4af19f40d9f92de3fd52ab3e922668748a/CONTRIBUTING.md#L313"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2025-06-13T10:27:52Z",
+        "packet_ids": [
+          "d0efa881b9445dfadcb6639e6dd0357e5b89192a907093dbad081aa24942c4bb",
+          "fb7fae23d0b4dc2ab09234dfc1981f731584c0f9381d905b22670ddde2435ab3"
+        ],
+        "packet_sha256": [
+          "c156755b38d536587b6cfa2eb4844e494ca6196faaa25cf3c1a551bfd203ef93",
+          "37022e3479517dca8876cf8247255d2ec2703e99c64fec26b0bb27116ea49c7c"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "cb822ffddfbfb3ae989ac606a66926a1e5356e9b3b54bd45274a59f238aecff0",
+        "task_id": "05b3b6d3dc7f7517ac67c444e84295947adf8c4e0b92addc69dc276accf34005",
+        "task_sha256": "4591785c4c0b2a7de834f3961ea7a4b1be8bdeddf81dfabdb5de6d0db6743d51"
+      },
+      "canonical_repository_id": "apache/couchdb",
+      "canonical_source_url": "https://github.com/apache/couchdb",
+      "language": "Erlang",
+      "preregistered_repository_id": "apache/couchdb",
+      "review_evidence": [
+        {
+          "commit_oid": "1c33ad50fcf55824b129454da2017a3037732ff5",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "2097ba918ac3ac3a3dafd225edc8844f61f61900cc073d5d99676b45481a28cf",
+          "evidence_citations": [
+            "https://github.com/apache/couchdb/commit/1c33ad50fcf55824b129454da2017a3037732ff5",
+            "https://github.com/apache/couchdb/blob/a2eedd4af19f40d9f92de3fd52ab3e922668748a/CONTRIBUTING.md#L313"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2025-06-13T10:27:52Z",
+          "packet_ids": [
+            "d0efa881b9445dfadcb6639e6dd0357e5b89192a907093dbad081aa24942c4bb",
+            "fb7fae23d0b4dc2ab09234dfc1981f731584c0f9381d905b22670ddde2435ab3"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated CONTRIBUTING.md addition expressly forbids AI- and LLM-generated material from being contributed to the CouchDB project.",
+          "response_sha256": "cb822ffddfbfb3ae989ac606a66926a1e5356e9b3b54bd45274a59f238aecff0",
+          "task_id": "05b3b6d3dc7f7517ac67c444e84295947adf8c4e0b92addc69dc276accf34005",
+          "task_sha256": "4591785c4c0b2a7de834f3961ea7a4b1be8bdeddf81dfabdb5de6d0db6743d51"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/apache-couchdb",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 1,
+        "case_id": "4671303bfaa51dd8e606733c00dda7657e5ae4f69463924af6baea4e932aa767",
+        "cutoff_commit": "a2eedd4af19f40d9f92de3fd52ab3e922668748a",
+        "exclusion_reason": null,
+        "repository_case_sha256": "98ce5cf6f3e73661b332595616c4731ad433304f2bd156e9aee4f98bb6b813a4",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "06fa52d15a22003b67dfdb3f8220cc025d493a43",
+        "event_id": "f7c95680a46361ccbbd59d2d86c9d46eac2f1407a97894cf252abed45c973072",
+        "evidence_citations": [
+          "https://github.com/jhy/jsoup/commit/06fa52d15a22003b67dfdb3f8220cc025d493a43",
+          "https://github.com/jhy/jsoup/blob/d8c49e5ec72a08ca1ac4e08740e70dc0f47ad911/.github/CONTRIBUTING.md#L17"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2026-04-17T05:09:12Z",
+        "packet_ids": [
+          "748de0c7a193b137d58cc6977279733badb4171f23b55c81c091012e2be561be",
+          "ff22c6ec1a0f259cea47d8727864df7799acfe56f448ae9c1f1bb6dfd2d02a08"
+        ],
+        "packet_sha256": [
+          "271cf0e409ab95be041390e14611ce0dfcba053d44a791330cd9fd15435c122e",
+          "5ceebbe40b54acd835cc2246bfee36116278ad49b49e899ea9a2dd6ce1ede1a9"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "ca7310fb0a6f93ff4498e9c43d0ed2328ced496679348786dd40aa2e46592fdf",
+        "task_id": "98d784478a0c9c0c80157327a966c27a7af815e99cfd43d42c77eb58ff691f2d",
+        "task_sha256": "0d501b03fddf54b00f9eca8a463a290135e4606de84c790b22bb3498ffc0443a"
+      },
+      "canonical_repository_id": "jhy/jsoup",
+      "canonical_source_url": "https://github.com/jhy/jsoup",
+      "language": "Java",
+      "preregistered_repository_id": "jhy/jsoup",
+      "review_evidence": [
+        {
+          "commit_oid": "06fa52d15a22003b67dfdb3f8220cc025d493a43",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "f7c95680a46361ccbbd59d2d86c9d46eac2f1407a97894cf252abed45c973072",
+          "evidence_citations": [
+            "https://github.com/jhy/jsoup/commit/06fa52d15a22003b67dfdb3f8220cc025d493a43",
+            "https://github.com/jhy/jsoup/blob/d8c49e5ec72a08ca1ac4e08740e70dc0f47ad911/.github/CONTRIBUTING.md#L17"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2026-04-17T05:09:12Z",
+          "packet_ids": [
+            "748de0c7a193b137d58cc6977279733badb4171f23b55c81c091012e2be561be",
+            "ff22c6ec1a0f259cea47d8727864df7799acfe56f448ae9c1f1bb6dfd2d02a08"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated project-wide contributing policy rejects code generated in whole or in part by AI or LLMs.",
+          "response_sha256": "ca7310fb0a6f93ff4498e9c43d0ed2328ced496679348786dd40aa2e46592fdf",
+          "task_id": "98d784478a0c9c0c80157327a966c27a7af815e99cfd43d42c77eb58ff691f2d",
+          "task_sha256": "0d501b03fddf54b00f9eca8a463a290135e4606de84c790b22bb3498ffc0443a"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/jhy-jsoup",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 1,
+        "case_id": "8c9d4a58e0128426ff2339a87d6f13b7141c3827a3c472029eb1b456e5d171e8",
+        "cutoff_commit": "d8c49e5ec72a08ca1ac4e08740e70dc0f47ad911",
+        "exclusion_reason": null,
+        "repository_case_sha256": "017c9e96bd35e42ea2af866363329d643914c0661e49501eda0564f51c6b0bd3",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": null,
+      "canonical_repository_id": "openttd/openttd",
+      "canonical_source_url": "https://github.com/OpenTTD/OpenTTD",
+      "language": "Text",
+      "preregistered_repository_id": "OpenTTD/OpenTTD",
+      "review_evidence": [],
+      "reviewed_event_count": 0,
+      "scope_eligible": false,
+      "scope_exclusion_reason": "no_frozen_candidate",
+      "sourcegraph_name": "github.com/sg-evals/openttd-openttd",
+      "status": "no_frozen_candidate",
+      "target_evidence": {
+        "candidate_count": 0,
+        "case_id": "d3e2c7a2ad92c1497423c918ed74e077160f15479c61f7ead4fe7a215dd4b215",
+        "cutoff_commit": "7f1946f996fefa35894527c0e5944c00fe527872",
+        "exclusion_reason": "no_frozen_ai_ban_candidate",
+        "repository_case_sha256": "3e00af6a546ef9dc867223e61c6552657a287235a1c60bb95b98dad48ae3314a",
+        "target_status": "excluded"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "b5c201444b9a5f4dc1f8716d4f77728f7e2a68b2",
+        "event_id": "6f867ffd7480f8547eef09f7753410c84ffa9280a8c9eced4066f7c5d441437b",
+        "evidence_citations": [
+          "https://github.com/endless-sky/endless-sky/commit/b5c201444b9a5f4dc1f8716d4f77728f7e2a68b2"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2025-03-01T22:49:28Z",
+        "packet_ids": [
+          "590f75ad2b2d6da98ace895b4c0f8338119297521fc57e19d1622334ce316d1b"
+        ],
+        "packet_sha256": [
+          "10ee1fbacfe2146ea9e0340c5249beba80daf2d4dee172e030ccbdc22b540891"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "9c63acbbfa1249a8080ac9a2415eb23c572bd73a43b165fef9a20544ec91e405",
+        "task_id": "8a6c4a95abca63aab4688a9fa5a44860c17900e90bcde3f951165881da6238e0",
+        "task_sha256": "5f15c1a1821e426ab2b0bedc4a9b12aca7968c6297a157e4b0983f20f70623b6"
+      },
+      "canonical_repository_id": "endless-sky/endless-sky",
+      "canonical_source_url": "https://github.com/endless-sky/endless-sky",
+      "language": "Text",
+      "preregistered_repository_id": "endless-sky/endless-sky",
+      "review_evidence": [
+        {
+          "commit_oid": "b5c201444b9a5f4dc1f8716d4f77728f7e2a68b2",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "6f867ffd7480f8547eef09f7753410c84ffa9280a8c9eced4066f7c5d441437b",
+          "evidence_citations": [
+            "https://github.com/endless-sky/endless-sky/commit/b5c201444b9a5f4dc1f8716d4f77728f7e2a68b2"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2025-03-01T22:49:28Z",
+          "packet_ids": [
+            "590f75ad2b2d6da98ace895b4c0f8338119297521fc57e19d1622334ce316d1b"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated CONTRIBUTING.md addition states that AI-generated or AI-assisted content is forbidden in Endless Sky development.",
+          "response_sha256": "9c63acbbfa1249a8080ac9a2415eb23c572bd73a43b165fef9a20544ec91e405",
+          "task_id": "8a6c4a95abca63aab4688a9fa5a44860c17900e90bcde3f951165881da6238e0",
+          "task_sha256": "5f15c1a1821e426ab2b0bedc4a9b12aca7968c6297a157e4b0983f20f70623b6"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/endless-sky-endless-sky",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 2,
+        "case_id": "ff81d3243c15814708e843aae7405c28117b331bb6885299ad6662875eca59df",
+        "cutoff_commit": "d08eaf4fc4d5413639bb388113f1a676d859bef2",
+        "exclusion_reason": null,
+        "repository_case_sha256": "fab310655485abf12b8a46b1a5e42cfd81d15e7563469aaa71934e3e6f5150f7",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": {
+        "commit_oid": "c9a03479bc2b0d1d97f77f61f6a0f8b277789cc3",
+        "event_id": "a57c36fb1e62b8ad89d1b18f9fcd09472872fa0ab32c7e1355cc82cbe2cb19e0",
+        "evidence_citations": [
+          "https://github.com/AsahiLinux/m1n1/commit/c9a03479bc2b0d1d97f77f61f6a0f8b277789cc3",
+          "https://github.com/AsahiLinux/m1n1/blob/7c7716b6a196c7e601f9f22bb8af335c1b8173ce/AGENTS.md#L1"
+        ],
+        "evidence_tier": "datable_default_branch_policy",
+        "observed_at": "2026-07-21T18:22:44Z",
+        "packet_ids": [
+          "8cc81a65441e0e76db1894607a0ba881d9ac62a8e148e5ff2b2305aea0d938cc",
+          "96117a017a7d5d07ba682d42aabeb9bf948a7016bf53b4bfd6bd6b9e2bda81be"
+        ],
+        "packet_sha256": [
+          "7feb23fe9aba45819305d9294ff990999042189119a57124ac33fde605ce3109",
+          "fd865adeb9855323dc498c30197f0d558ead6e0b72abf2858a307e55bdef0986"
+        ],
+        "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+        "query_family_ids": [
+          "ai_ban_policy_files",
+          "ai_ban_policy_introduction_diffs"
+        ],
+        "response_sha256": "e5767f044ebeb1e6d8ac0ff5049185d9b9e323a2124a21102f79f27507b999ac",
+        "task_id": "f18eb0d259c72de94ac46619d1fae0700870293db274cf9e37948a44d83e67b6",
+        "task_sha256": "16c45c929e3b677920de4019aed073b39ab45d897ef530563c8ecaf6fbf4239f"
+      },
+      "canonical_repository_id": "asahilinux/m1n1",
+      "canonical_source_url": "https://github.com/AsahiLinux/m1n1",
+      "language": "Python",
+      "preregistered_repository_id": "AsahiLinux/m1n1",
+      "review_evidence": [
+        {
+          "commit_oid": "c9a03479bc2b0d1d97f77f61f6a0f8b277789cc3",
+          "decision": "accept_policy",
+          "default_branch_supported": true,
+          "event_id": "a57c36fb1e62b8ad89d1b18f9fcd09472872fa0ab32c7e1355cc82cbe2cb19e0",
+          "evidence_citations": [
+            "https://github.com/AsahiLinux/m1n1/commit/c9a03479bc2b0d1d97f77f61f6a0f8b277789cc3",
+            "https://github.com/AsahiLinux/m1n1/blob/7c7716b6a196c7e601f9f22bb8af335c1b8173ce/AGENTS.md#L1"
+          ],
+          "evidence_tier": "datable_default_branch_policy",
+          "observed_at": "2026-07-21T18:22:44Z",
+          "packet_ids": [
+            "8cc81a65441e0e76db1894607a0ba881d9ac62a8e148e5ff2b2305aea0d938cc",
+            "96117a017a7d5d07ba682d42aabeb9bf948a7016bf53b4bfd6bd6b9e2bda81be"
+          ],
+          "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ],
+          "rationale": "The dated repository-root AGENTS.md policy forbids any use of AI or LLM tools in this project, which includes AI-authored code modifications.",
+          "response_sha256": "e5767f044ebeb1e6d8ac0ff5049185d9b9e323a2124a21102f79f27507b999ac",
+          "task_id": "f18eb0d259c72de94ac46619d1fae0700870293db274cf9e37948a44d83e67b6",
+          "task_sha256": "16c45c929e3b677920de4019aed073b39ab45d897ef530563c8ecaf6fbf4239f"
+        }
+      ],
+      "reviewed_event_count": 1,
+      "scope_eligible": true,
+      "scope_exclusion_reason": null,
+      "sourcegraph_name": "github.com/sg-evals/asahilinux-m1n1",
+      "status": "dated_policy",
+      "target_evidence": {
+        "candidate_count": 1,
+        "case_id": "a6f7bda625d246dea6670d6a2a2571524286a12b3f76f0de380ac78a7a509cfd",
+        "cutoff_commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+        "exclusion_reason": null,
+        "repository_case_sha256": "ff25f4fa66037c0312fa310a6c2f585017655913a5d6455cfadac19a11ad2edd",
+        "target_status": "eligible"
+      }
+    },
+    {
+      "accepted_policy": null,
+      "canonical_repository_id": "pkgconf/pkgconf",
+      "canonical_source_url": "https://github.com/pkgconf/pkgconf",
+      "language": "C",
+      "preregistered_repository_id": "pkgconf/pkgconf",
+      "review_evidence": [],
+      "reviewed_event_count": 0,
+      "scope_eligible": false,
+      "scope_exclusion_reason": "no_frozen_candidate",
+      "sourcegraph_name": "github.com/sg-evals/pkgconf-pkgconf",
+      "status": "no_frozen_candidate",
+      "target_evidence": {
+        "candidate_count": 0,
+        "case_id": "408316d9e70bb745bc694f052961888c8b23903f6236cf1b59da973b5b135d8c",
+        "cutoff_commit": "3f138a4e366eb0a917c228970aa151e92c57fa8e",
+        "exclusion_reason": "no_frozen_ai_ban_candidate",
+        "repository_case_sha256": "4b9d3571291815c02dc041f6be8859a75c6696be772d3d91c7460b410d3bf6c9",
+        "target_status": "excluded"
+      }
+    }
+  ],
+  "repository_count": 17,
+  "review": {
+    "decision_counts": {
+      "accept_policy": 12,
+      "reject": 13
+    },
+    "reviewed_event_count": 25,
+    "reviewer_id": "ai-ban-primary-a"
+  },
+  "scip_required": false,
+  "scope": "preregistered_ai_ban_negative_controls",
+  "status_counts": {
+    "dated_policy": 12,
+    "no_admissible_policy": 2,
+    "no_frozen_candidate": 3
+  },
+  "survival_outcomes_consulted": false,
+  "terminal": {
+    "final_decision_ledger_sha256": "be21c14b0b1bcac7e5bc14a5dd64dc780e391da49fc7b2dc5ec276255232017d",
+    "task_count": 0,
+    "worksheet_sha256": "91aebb4e0fdd1cdd74fdfcd660b545c5475f89039e7284d27d0545a105f36e4d"
+  }
+}

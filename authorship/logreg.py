@@ -7,6 +7,7 @@ the reported coefficients are reproducible from these files alone.
 
 Everything is functional: fit() returns a new model dict, nothing mutates.
 """
+
 from __future__ import annotations
 
 import numpy as np
@@ -22,8 +23,13 @@ def apply_std(std: dict, x: np.ndarray) -> np.ndarray:
     return (x - std["mu"]) / std["sd"]
 
 
-def fit(x: np.ndarray, y: np.ndarray, weight: np.ndarray | None = None,
-        ridge: float = 1.0, iters: int = 40) -> dict:
+def fit(
+    x: np.ndarray,
+    y: np.ndarray,
+    weight: np.ndarray | None = None,
+    ridge: float = 1.0,
+    iters: int = 40,
+) -> dict:
     """Fit y ~ sigmoid(b0 + x.beta). Features are standardized internally."""
     std = standardizer(x)
     z = np.hstack([np.ones((len(x), 1)), apply_std(std, x)])
@@ -58,26 +64,29 @@ def auc(y: np.ndarray, score: np.ndarray, weight: np.ndarray | None = None) -> f
     w = np.ones(len(y)) if weight is None else weight.astype(float)
     order = np.argsort(score, kind="mergesort")
     s, y_s, w_s = score[order], y[order], w[order]
-    ranks = np.empty(len(s))
+    pos, neg = w_s[y_s == 1].sum(), w_s[y_s == 0].sum()
+    if pos == 0 or neg == 0:
+        return float("nan")
+    numerator = 0.0
+    negative_below = 0.0
     i = 0
     while i < len(s):
         j = i
         while j + 1 < len(s) and s[j + 1] == s[i]:
             j += 1
-        # mid-rank over the tie block, in weighted rank space
-        below = w_s[:i].sum()
-        block = w_s[i:j + 1].sum()
-        ranks[i:j + 1] = below + (block + w_s[i:j + 1]) / 2.0
+        block_labels = y_s[i : j + 1]
+        block_weights = w_s[i : j + 1]
+        positive_block = block_weights[block_labels == 1].sum()
+        negative_block = block_weights[block_labels == 0].sum()
+        numerator += positive_block * (negative_below + 0.5 * negative_block)
+        negative_below += negative_block
         i = j + 1
-    pos, neg = w_s[y_s == 1].sum(), w_s[y_s == 0].sum()
-    if pos == 0 or neg == 0:
-        return float("nan")
-    return float((np.sum(ranks[y_s == 1] * w_s[y_s == 1]) / pos
-                  - (pos + 1) / 2.0) / neg)
+    return float(numerator / (pos * neg))
 
 
-def rates_at(y: np.ndarray, score: np.ndarray, thr: float,
-             weight: np.ndarray | None = None) -> tuple[float, float]:
+def rates_at(
+    y: np.ndarray, score: np.ndarray, thr: float, weight: np.ndarray | None = None
+) -> tuple[float, float]:
     """(tpr, fpr) at a score threshold, line-weighted if weights given."""
     w = np.ones(len(y)) if weight is None else weight.astype(float)
     pred = score >= thr
@@ -87,12 +96,15 @@ def rates_at(y: np.ndarray, score: np.ndarray, thr: float,
     return float(tpr), float(fpr)
 
 
-def best_threshold(y: np.ndarray, score: np.ndarray,
-                   weight: np.ndarray | None = None) -> float:
+def best_threshold(
+    y: np.ndarray, score: np.ndarray, weight: np.ndarray | None = None
+) -> float:
     """Threshold maximizing Youden's J over a coarse grid (stable, not overfit)."""
     grid = np.quantile(score, np.linspace(0.02, 0.98, 49))
-    js = [(rates_at(y, score, t, weight)[0] - rates_at(y, score, t, weight)[1], t)
-          for t in grid]
+    js = [
+        (rates_at(y, score, t, weight)[0] - rates_at(y, score, t, weight)[1], t)
+        for t in grid
+    ]
     return float(max(js)[1])
 
 

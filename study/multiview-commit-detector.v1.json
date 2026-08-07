@@ -1,0 +1,108 @@
+{
+  "$schema": "./multiview-commit-detector.schema.json",
+  "protocol_version": 1,
+  "status": "frozen_before_multiview_scoring",
+  "study_role": "exploratory",
+  "objective": "Measure whether Git timing and diff-process evidence adds repository-held-out signal beyond the frozen commit-message proxy without leaking explicit provenance, labels, or identities into model inputs.",
+  "evidence_views": {
+    "provenance": {
+      "status": "available",
+      "role": "label_and_verified_outcome_only",
+      "features": [
+        "explicit_agent_provenance",
+        "agent_account_or_app",
+        "signed_agent_commit",
+        "session_log_url",
+        "maintainer_attestation"
+      ]
+    },
+    "timing_process": {
+      "status": "available_from_pinned_git",
+      "role": "model_input",
+      "features": [
+        "absolute_author_committer_delta",
+        "repository_previous_gap",
+        "same_author_previous_gap",
+        "same_author_prior_15m_count",
+        "author_local_hour",
+        "author_weekday",
+        "author_utc_offset",
+        "parent_count",
+        "files_changed",
+        "lines_added",
+        "lines_deleted",
+        "binary_file_count",
+        "rename_entry_count"
+      ]
+    },
+    "message": {
+      "status": "available_frozen_v1",
+      "role": "model_input",
+      "features": [
+        "message_score",
+        "body_word_count",
+        "bullet_count",
+        "paragraph_count",
+        "sentence_count",
+        "sentence_line_rate",
+        "structure_count",
+        "explicit_validation"
+      ]
+    },
+    "code_stylometry": {
+      "status": "planned_separate_version",
+      "role": "not_scored_in_v1",
+      "features": []
+    }
+  },
+  "label_taxonomy": {
+    "verified_agent_provenance": "The commit contains independently inspectable agent provenance; this evidence is never a model input.",
+    "agent_reference": "The commit lies in a maintainer-attested agent reference window.",
+    "policy_human_reference": "The commit lies in a separately adjudicated AI-ban control window; contamination remains possible.",
+    "unlabeled": "No admissible reference label is assigned."
+  },
+  "outcome_taxonomy": {
+    "verified_agent": "Externally inspectable provenance supports direct agent involvement.",
+    "likely_agent_driven": "Multiple non-provenance evidence views support agent involvement after held-repository validation.",
+    "hybrid_or_assisted": "Evidence supports mixed human and agent involvement or does not justify full-code attribution.",
+    "unknown_or_human_control": "Evidence is insufficient for an agent outcome, or the commit belongs to a separately labeled human-control window."
+  },
+  "leakage_controls": {
+    "excluded_model_inputs": [
+      "explicit_agent_provenance",
+      "reference_label",
+      "repository_id",
+      "commit",
+      "author_identity_sha256",
+      "committer_identity_sha256",
+      "raw_author_name",
+      "raw_author_email",
+      "raw_committer_name",
+      "raw_committer_email",
+      "raw_commit_message"
+    ],
+    "identity_storage": "Author and committer identities are lowercased, repository-scoped, and SHA-256 hashed for audit joins only."
+  },
+  "evaluation": {
+    "primary_split": "leave_one_repository_out",
+    "era_cutoff": "2025-01-01T00:00:00Z",
+    "views": [
+      "message",
+      "timing_process",
+      "combined"
+    ],
+    "classification_threshold": 0.5,
+    "metrics": [
+      "precision_at_0_5",
+      "recall_at_0_5",
+      "average_precision",
+      "roc_auc",
+      "brier_score"
+    ]
+  },
+  "missingness": {
+    "unavailable_repository": "Record the repository ID and exclude it from fitted evaluation.",
+    "missing_gap": "Encode a separate missingness indicator and a zero transformed value; do not impute from class labels."
+  },
+  "sourcegraph_role": "Sourcegraph supplies the frozen sg-evals frame, cutoff-accessible repository mapping, cross-repository candidate discovery, historical commit and diff search, and blame links. Exact full-history timing is mechanically extracted from the corresponding pinned Git object graph; SCIP is not required."
+}

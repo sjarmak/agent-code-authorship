@@ -151,7 +151,10 @@ class TemporalDiagnosticsTests(unittest.TestCase):
                 ["x", "y"],
             )
         groups = np.concatenate(
-            [np.repeat([f"h{i}" for i in range(5)], 2), np.repeat([f"c{i}" for i in range(5)], 2)]
+            [
+                np.repeat([f"h{i}" for i in range(5)], 2),
+                np.repeat([f"c{i}" for i in range(5)], 2),
+            ]
         )
         with self.assertRaisesRegex(TemporalDiagnosticError, "feature names"):
             era_diagnostics(

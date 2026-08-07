@@ -1,0 +1,19 @@
+{
+  "audit_sha256": "1d4b1e27574334171cbbe54471aabbd6ea4031d309ea4e34b0fcf326777073d4",
+  "audit_version": 1,
+  "errors": [],
+  "passes": true,
+  "requirements_checked": {
+    "deep_search_terminal_count": 100,
+    "investigation_count": 100,
+    "repository_count": 20,
+    "semantic_record_count": 492,
+    "stratum_counts": {
+      "agent_native": 5,
+      "attributable_agent": 5,
+      "policy_control": 5,
+      "pre_2023_context": 5
+    },
+    "utility_gate_pass_count": 1
+  }
+}

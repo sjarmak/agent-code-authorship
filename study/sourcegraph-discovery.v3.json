@@ -1,0 +1,333 @@
+{
+  "$schema": "sourcegraph-discovery.schema.json",
+  "specification_version": 3,
+  "status": "frozen_before_discovery_execution",
+  "cutoff": "2026-07-24T23:59:59Z",
+  "outcomes_consulted": false,
+  "protocol_sha256": "26b860df1b8b9b5f91ad575fcbb8af572262e7ea52d66a2fa4ff79d8500e2f84",
+  "index_manifest_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+  "sourcegraph": {
+    "endpoint_role": "controlled_index_and_primary_longitudinal_discovery_asset",
+    "indexed_namespace": "github.com/sg-evals/",
+    "repository_scope_source": "study/sourcegraph-index-manifest.v3.json",
+    "required_transport_status": [
+      "ready_direct",
+      "ready_mirror"
+    ],
+    "allowed_capabilities": [
+      "indexed_search",
+      "revision_search",
+      "commit_search",
+      "diff_search",
+      "blame",
+      "structural_search",
+      "repository_metadata"
+    ],
+    "precise_code_intelligence_required": false,
+    "scip_required": false,
+    "forks_and_archives_explicit": true,
+    "documentation": [
+      {
+        "url": "https://sourcegraph.com/docs/code-search/queries",
+        "use": "query syntax, commit and diff filters, repository revisions"
+      },
+      {
+        "url": "https://sourcegraph.com/docs/code-search/working/saved-searches",
+        "use": "saved searches require an explicit patternType"
+      },
+      {
+        "url": "https://sourcegraph.com/docs/code-search/types/structural",
+        "use": "structural search is optional because it is disabled by default and unsupported in saved searches"
+      }
+    ],
+    "structural_search": {
+      "required": false,
+      "saved_search_dependency": false,
+      "role": "optional supplemental candidate generation only if already enabled",
+      "reason": "The study cannot depend on an instance feature that is disabled by default or cannot be frozen as a saved search."
+    }
+  },
+  "execution": {
+    "unit": "one rendered query per canonical repository and frozen cutoff commit",
+    "candidate_only": true,
+    "semantic_label_from_query_match": false,
+    "default_branch_history_only": true,
+    "history_start": "2023-01-01T00:00:00Z",
+    "before_exclusive": "2026-07-25T00:00:00Z",
+    "repository_exclusions": {
+      "source_artifact": "study/sg-evals-action-plan.v3.json",
+      "source_artifact_sha256": "d283b93bd76d34bb9d372b8ed8a0cbb44e89aa9a93410614bbfdf440f7ca211d",
+      "repositories": [
+        {
+          "canonical_repository_id": "anthropics/claude-code",
+          "disposition": "hold_redistribution",
+          "reason": "license evidence does not authorize routine mirroring"
+        },
+        {
+          "canonical_repository_id": "axinc-ai/ailia-models",
+          "disposition": "hold_redistribution",
+          "reason": "license evidence does not authorize routine mirroring"
+        },
+        {
+          "canonical_repository_id": "calganaygun/mdcat",
+          "disposition": "hold_redistribution",
+          "reason": "license evidence does not authorize routine mirroring"
+        },
+        {
+          "canonical_repository_id": "disler/single-file-agents",
+          "disposition": "hold_redistribution",
+          "reason": "license evidence does not authorize routine mirroring"
+        },
+        {
+          "canonical_repository_id": "reflex-dev/reflex-web",
+          "disposition": "hold_redistribution",
+          "reason": "license evidence does not authorize routine mirroring"
+        },
+        {
+          "canonical_repository_id": "sjarmak/sg_benchmark",
+          "disposition": "hold_private",
+          "reason": "private source requires an explicit visibility decision"
+        }
+      ]
+    },
+    "query_result_freeze": {
+      "required_fields": [
+        "query_family_id",
+        "canonical_repository_id",
+        "sourcegraph_name",
+        "cutoff_commit",
+        "rendered_query",
+        "rendered_query_sha256",
+        "executed_at",
+        "sourcegraph_result_ids",
+        "result_count",
+        "limit_hit",
+        "result_manifest_sha256"
+      ],
+      "limit_hit_behavior": "invalidate_and_partition_query_before_adjudication",
+      "zero_result_behavior": "retain_signed_zero_result_record"
+    },
+    "cutoff_behavior": {
+      "content_queries": "render rev:{cutoff_commit}",
+      "commit_and_diff_queries": "search commits reachable from cutoff_commit and exclude dates after cutoff",
+      "unavailable_revision": "block_repository_and_return_to_indexing_workflow"
+    }
+  },
+  "query_families": [
+    {
+      "id": "agent_trailer_commits",
+      "purpose": "Find explicit agent or co-author trailers in commit messages.",
+      "packet_types": [
+        "adoption_event"
+      ],
+      "evidence_channels": [
+        "trailer",
+        "commit",
+        "revision_history"
+      ],
+      "result_type": "commit",
+      "saved_search_eligible": true,
+      "required_capabilities": [
+        "commit_search",
+        "revision_search"
+      ],
+      "query_template": "repo:^{sourcegraph_repo_regex}$@{cutoff_commit} type:commit (Co-authored-by:.*(Claude|Copilot|Codex|Devin|Cursor)|Assisted-by:.*(Claude|Copilot|Codex|Devin|Cursor)|Generated-by:.*|AI-Generated:.*|Agent:.*) after:\"2023-01-01\" before:\"2026-07-25\" fork:yes archived:yes count:all timeout:1m patternType:regexp"
+    },
+    {
+      "id": "recognized_agent_identity_commits",
+      "purpose": "Find commits authored or committed by recognized agent accounts; identity matches remain candidates.",
+      "packet_types": [
+        "adoption_event"
+      ],
+      "evidence_channels": [
+        "agent_identity",
+        "commit",
+        "revision_history"
+      ],
+      "result_type": "commit",
+      "saved_search_eligible": true,
+      "required_capabilities": [
+        "commit_search",
+        "revision_search"
+      ],
+      "query_template": "repo:^{sourcegraph_repo_regex}$@{cutoff_commit} type:commit (author:(devin-ai|copilot|cursor|codex|claude) OR committer:(devin-ai|copilot|cursor|codex|claude)) after:\"2023-01-01\" before:\"2026-07-25\" fork:yes archived:yes count:all timeout:1m patternType:regexp"
+    },
+    {
+      "id": "generated_code_disclosure_diffs",
+      "purpose": "Find added disclosures that explicitly describe generated or agent-authored code.",
+      "packet_types": [
+        "adoption_event"
+      ],
+      "evidence_channels": [
+        "generated_code_disclosure",
+        "diff",
+        "revision_history"
+      ],
+      "result_type": "diff",
+      "saved_search_eligible": true,
+      "required_capabilities": [
+        "diff_search",
+        "revision_search"
+      ],
+      "query_template": "repo:^{sourcegraph_repo_regex}$@{cutoff_commit} type:diff select:commit.diff.added (generated|authored|implemented).{0,80}(Claude|Copilot|Codex|Devin|Cursor|agent) after:\"2023-01-01\" before:\"2026-07-25\" fork:yes archived:yes count:all timeout:1m patternType:regexp"
+    },
+    {
+      "id": "adoption_announcement_files",
+      "purpose": "Find repository-local announcements or instructions describing agent adoption.",
+      "packet_types": [
+        "adoption_event"
+      ],
+      "evidence_channels": [
+        "adoption_announcement"
+      ],
+      "result_type": "file",
+      "saved_search_eligible": true,
+      "required_capabilities": [
+        "indexed_search",
+        "revision_search"
+      ],
+      "query_template": "repo:^{sourcegraph_repo_regex}$ rev:{cutoff_commit} file:(README|CHANGELOG|CONTRIBUTING|AGENTS|CLAUDE|copilot-instructions|\\.cursor) (adopted|using|migrated|generated|agent) fork:yes archived:yes count:all timeout:1m patternType:regexp"
+    },
+    {
+      "id": "ai_ban_policy_files",
+      "purpose": "Find repository-local policies that may prohibit AI-generated code contributions.",
+      "packet_types": [
+        "ai_ban_policy"
+      ],
+      "evidence_channels": [
+        "policy"
+      ],
+      "result_type": "file",
+      "saved_search_eligible": true,
+      "required_capabilities": [
+        "indexed_search",
+        "revision_search"
+      ],
+      "query_template": "repo:^{sourcegraph_repo_regex}$ rev:{cutoff_commit} file:(CONTRIBUTING|CODE_OF_CONDUCT|README|POLICY|AGENTS|NO_AI) ((AI|LLM|generative).{0,240}(prohibit|forbid|ban|reject|not.accept|do.not.use|not.allowed)|(prohibit|forbid|ban|reject|not.accept|do.not.use|not.allowed).{0,240}(AI|LLM|generative)) fork:yes archived:yes count:all timeout:1m patternType:regexp"
+    },
+    {
+      "id": "ai_ban_policy_introduction_diffs",
+      "purpose": "Date the default-branch commit that introduced or materially changed a candidate AI-ban policy.",
+      "packet_types": [
+        "ai_ban_policy"
+      ],
+      "evidence_channels": [
+        "policy",
+        "diff",
+        "revision_history"
+      ],
+      "result_type": "diff",
+      "saved_search_eligible": true,
+      "required_capabilities": [
+        "diff_search",
+        "revision_search"
+      ],
+      "query_template": "repo:^{sourcegraph_repo_regex}$@{cutoff_commit} type:diff select:commit.diff.added file:(CONTRIBUTING|CODE_OF_CONDUCT|README|POLICY|AGENTS|NO_AI) ((AI|LLM|generative).{0,240}(prohibit|forbid|ban|reject|not.accept|do.not.use|not.allowed)|(prohibit|forbid|ban|reject|not.accept|do.not.use|not.allowed).{0,240}(AI|LLM|generative)) after:\"2023-01-01\" before:\"2026-07-25\" fork:yes archived:yes count:all timeout:1m patternType:regexp"
+    }
+  ],
+  "evidence_packets": {
+    "schema": "study/sourcegraph-evidence-packet.schema.json",
+    "content_addressing": "sha256 of canonical JSON excluding packet_sha256",
+    "raw_facts_only": true,
+    "required_context_enrichment": [
+      "indexed cutoff revision verification",
+      "default-branch reachability",
+      "commit metadata",
+      "matching diff or file excerpt",
+      "blame when the evidence is file content",
+      "canonical source URL"
+    ],
+    "candidate_event_order": "earliest observed timestamp first, commit OID as deterministic tiebreaker",
+    "deduplication_key": [
+      "canonical_repository_id",
+      "packet_type",
+      "candidate_event.commit_oid",
+      "query_family_id",
+      "sourcegraph_result_ids"
+    ]
+  },
+  "adjudication": {
+    "outcome_blind": true,
+    "peer_review_blind": true,
+    "independent_primary_reviews": 2,
+    "reviewer_record": {
+      "required_fields": [
+        "reviewer_id",
+        "reviewer_kind",
+        "reviewer_version",
+        "decision",
+        "rationale",
+        "outcome_blind",
+        "peer_review_blind"
+      ],
+      "reviewer_kinds": [
+        "human",
+        "model"
+      ],
+      "model_review_additional_fields": [
+        "provider",
+        "model_id",
+        "model_version",
+        "prompt_sha256"
+      ]
+    },
+    "decision_sets": {
+      "adoption_event": [
+        "confirmed",
+        "observed",
+        "rejected",
+        "insufficient"
+      ],
+      "ai_ban_policy": [
+        "admissible",
+        "rejected",
+        "insufficient"
+      ]
+    },
+    "rubrics": {
+      "adoption_event": {
+        "confirmed": "A default-branch commit has independently verifiable agent-generation provenance and a datable scope.",
+        "observed": "A recognized agent account, agent trailer, or adoption announcement is datable but generation scope is not independently confirmed.",
+        "rejected": "The evidence is unrelated, not on default-branch history, post-cutoff, or affirmatively contradicts adoption.",
+        "insufficient": "The candidate cannot be resolved without inference beyond the frozen evidence."
+      },
+      "ai_ban_policy": {
+        "admissible": "Repository-local policy text explicitly applies to AI or LLM generated code contributions and has a datable default-branch effective commit.",
+        "rejected": "The text is advisory, unrelated, off-repository only, not applicable to code contributions, or post-cutoff.",
+        "insufficient": "Policy scope or effective date cannot be established from the frozen evidence."
+      }
+    },
+    "disagreement_resolution": {
+      "reviewers": 1,
+      "reviewer_must_be_distinct": true,
+      "blind_to_primary_decisions": true,
+      "final_rule": "resolution reviewer decision"
+    },
+    "agreement_audit": {
+      "sample_basis_points": 1000,
+      "deterministic": true,
+      "seed": "sourcegraph-discovery-v3-agreement-audit",
+      "strata": [
+        "packet_type",
+        "primary_decision"
+      ],
+      "selection": "sha256(seed + NUL + packet_sha256) modulo 10000 below sample_basis_points",
+      "reviewers": 1,
+      "reviewer_must_be_distinct": true,
+      "blind_to_primary_decisions": true,
+      "effect": "report agreement-audit error separately; do not silently relabel the unsampled agreements"
+    }
+  },
+  "freeze_outputs": [
+    "rendered query manifest",
+    "signed zero-result records",
+    "raw Sourcegraph result manifest",
+    "checksummed evidence packets",
+    "independent review records",
+    "disagreement resolutions",
+    "agreement-audit sample and results",
+    "adoption event catalog",
+    "AI-ban policy catalog"
+  ],
+  "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d"
+}

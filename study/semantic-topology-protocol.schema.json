@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic-topology-protocol.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "protocol_version",
+    "status",
+    "cutoff",
+    "purpose",
+    "outcomes_consulted",
+    "input_artifacts",
+    "input_sha256",
+    "selection",
+    "deep_search",
+    "analytic_admission_routes",
+    "missingness",
+    "leakage_controls",
+    "utility_gates",
+    "failed_utility_result",
+    "prompt_families",
+    "protocol_sha256"
+  ],
+  "properties": {
+    "$schema": {"const": "semantic-topology-protocol.schema.json"},
+    "protocol_version": {"const": 1},
+    "status": {"const": "preregistered"},
+    "cutoff": {"const": "2026-07-24T23:59:59Z"},
+    "purpose": {"type": "string", "minLength": 1},
+    "outcomes_consulted": {"const": false},
+    "input_artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repository_evidence", "attributable_events", "sourcegraph_index", "contextual_frame", "contextual_revisions"],
+      "properties": {
+        "repository_evidence": {"type": "string"},
+        "attributable_events": {"type": "string"},
+        "sourcegraph_index": {"type": "string"},
+        "contextual_frame": {"type": "string"},
+        "contextual_revisions": {"type": "string"}
+      }
+    },
+    "input_sha256": {
+      "type": "object",
+      "minProperties": 5,
+      "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+    },
+    "selection": {"type": "object"},
+    "deep_search": {"type": "object"},
+    "analytic_admission_routes": {
+      "const": ["blinded_human_adjudication", "deterministic_sourcegraph", "pinned_git"]
+    },
+    "missingness": {"type": "object"},
+    "leakage_controls": {"type": "object"},
+    "utility_gates": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["id", "criterion"],
+        "properties": {
+          "id": {"type": "string"},
+          "criterion": {"type": "string"}
+        }
+      }
+    },
+    "failed_utility_result": {"const": "not_identified"},
+    "prompt_families": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "version", "template"],
+        "properties": {
+          "id": {"type": "string"},
+          "version": {"const": 1},
+          "template": {"type": "string", "minLength": 100}
+        }
+      }
+    },
+    "protocol_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

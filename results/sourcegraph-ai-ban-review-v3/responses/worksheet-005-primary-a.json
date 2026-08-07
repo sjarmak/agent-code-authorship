@@ -1,0 +1,24 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "34260b9abb83d783548f3a05efbc2011e6c85602e6dbdd66c5edd98d3855d3bb",
+    "task_id": "585473cb949cf6ee3a365c8a78dd2db9763199a0b1f4c6ce278d5f35de06cd13",
+    "task_sha256": "cf93a9789aa75373d0117e17c48924e7bfccce8eb2e02e968b4eca47b0962b82",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "f9460b4d7909d78db066cb0b952c04abbe93b205fef0bc38735ea0a7e5088a5b",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The evidence documents rejection of unsupported authenticated token-provider requests, not rejection of AI-generated or AI-authored repository contributions.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/pot/README.md#L95",
+      "https://github.com/yt-dlp/yt-dlp/commit/2685654a37141cca63eda3a92da0e2706e23ccfd",
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/pot/README.md#L97"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "c5e2e430f4a3273f54ba9d4628f17af48cd028b4382c97d85cdf84d56a3d2e23"
+  }
+]

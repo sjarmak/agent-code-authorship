@@ -1,0 +1,23 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "cbf925b94daeb144d70626143b5922c0bc4a00ac131bcce2878357acb3642c9b",
+    "task_id": "6aa8e8424648ee3272770c8bd9daf1860dd12cd275b53a86614754d6fff9192f",
+    "task_sha256": "bf03fbd359d584af5477ce0c0b10033b35c896ce3130b4724ad2a2c7747dbdaa",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "f1ae30bcd8657c2dd16e5c8a1db5fc299b2d4c3aa2a471c0abe288aca109a425",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The evidence narrows which player clients support a playback option and repeats a premium-cookie warning; it does not prohibit AI-authored contributions.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/README.md#L1883",
+      "https://github.com/yt-dlp/yt-dlp/commit/7e145ac1cae8f891e18c9375fa23097f1dfa0b19"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "c7982d99ca400d88789a95e61ecd4d60f3712d8d88fd95b8ecedf0d95cd161dd"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sg-evals.local/schemas/sg-evals-execution-preview.v3.json",
+  "title": "Frozen approval-scoped sg-evals execution preview v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "execution_version",
+    "status",
+    "outcomes_consulted",
+    "plan_sha256",
+    "approval_scopes",
+    "safety_invariants",
+    "manifest_sha256"
+  ],
+  "properties": {
+    "execution_version": {
+      "const": 3
+    },
+    "status": {
+      "const": "external_approval_required"
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "plan_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "approval_scopes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "routine",
+        "destructive"
+      ],
+      "properties": {
+        "routine": {
+          "$ref": "#/$defs/scope"
+        },
+        "destructive": {
+          "$ref": "#/$defs/scope"
+        }
+      }
+    },
+    "safety_invariants": {
+      "type": "array",
+      "minItems": 6,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "selected_count",
+        "action_counts",
+        "canonical_repository_ids"
+      ],
+      "properties": {
+        "selected_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "action_counts": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "canonical_repository_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      }
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

@@ -1,4 +1,5 @@
 """Reconstruct attributable source lines from merged Git diffs."""
+
 from __future__ import annotations
 
 import hashlib
@@ -10,7 +11,6 @@ from typing import Any
 
 from authorship.languages import SKIP_PATH, lang_of
 from authorship.survival_git import git
-
 
 HUNK = re.compile(r"^@@ -\d+(?:,\d+)? \+(\d+)(?:,\d+)? @@")
 
@@ -50,10 +50,10 @@ def extract_added_lines(
         head,
         "--",
     )
-    return _parse_added_patch(patch, language)
+    return parse_added_patch(patch, language)
 
 
-def _parse_added_patch(patch: str, language: str) -> list[dict[str, Any]]:
+def parse_added_patch(patch: str, language: str) -> list[dict[str, Any]]:
     path: str | None = None
     new_line: int | None = None
     records = []
@@ -126,19 +126,17 @@ def extract_first_parent_many(
     for line in result.stdout.splitlines():
         if line.startswith("__COMMIT__"):
             if current is not None:
-                output[current] = _parse_added_patch("\n".join(parts), language)
+                output[current] = parse_added_patch("\n".join(parts), language)
             current = line.removeprefix("__COMMIT__")
             parts = []
         else:
             parts.append(line)
     if current is not None:
-        output[current] = _parse_added_patch("\n".join(parts), language)
+        output[current] = parse_added_patch("\n".join(parts), language)
     return output
 
 
-def commit_parents_many(
-    repository: Path, commits: list[str]
-) -> dict[str, list[str]]:
+def commit_parents_many(repository: Path, commits: list[str]) -> dict[str, list[str]]:
     if not commits:
         return {}
     result = subprocess.run(

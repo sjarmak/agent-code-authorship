@@ -1,0 +1,552 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sg-evals.example/study/survival-estimate-artifact.schema.json",
+  "title": "Censoring-correct stratified survival estimates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "source",
+    "horizons_days",
+    "bootstrap",
+    "strata_definition",
+    "counts",
+    "strata",
+    "invariants",
+    "selection_outcomes_consulted",
+    "survival_estimate_artifact_sha256"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": 1
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_inventory_file",
+        "event_inventory_sha256"
+      ],
+      "properties": {
+        "event_inventory_file": {
+          "const": "survival-event-inventory.v1.json"
+        },
+        "event_inventory_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "horizons_days": {
+      "const": [
+        30,
+        90,
+        180,
+        365
+      ]
+    },
+    "bootstrap": {
+      "$ref": "#/$defs/bootstrap_config"
+    },
+    "strata_definition": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/stratum_spec"
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repositories",
+        "lines",
+        "strata",
+        "identified_strata",
+        "not_identified_strata",
+        "empty_strata"
+      ],
+      "properties": {
+        "repositories": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "lines": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "strata": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "identified_strata": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "not_identified_strata": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "empty_strata": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "strata": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/stratum_result"
+      }
+    },
+    "invariants": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "all_kaplan_meier_curves_monotone",
+        "all_aalen_johansen_masses_conserved",
+        "all_risk_sets_explicit",
+        "cursor_365_rise_absent"
+      ],
+      "properties": {
+        "all_kaplan_meier_curves_monotone": {
+          "const": true
+        },
+        "all_aalen_johansen_masses_conserved": {
+          "const": true
+        },
+        "all_risk_sets_explicit": {
+          "const": true
+        },
+        "cursor_365_rise_absent": {
+          "enum": [true, null]
+        }
+      }
+    },
+    "selection_outcomes_consulted": {
+      "const": false
+    },
+    "survival_estimate_artifact_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "probability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "agent_family": {
+          "enum": [
+            "Claude_Code",
+            "Copilot",
+            "Cursor",
+            "Devin",
+            "OpenAI_Codex"
+          ]
+        },
+        "language": {
+          "enum": [
+            "Go",
+            "Python"
+          ]
+        },
+        "evidence_tier": {
+          "enum": [
+            "tier_1",
+            "tier_2"
+          ]
+        }
+      }
+    },
+    "stratum_spec": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stratum_id",
+        "dimensions"
+      ],
+      "properties": {
+        "stratum_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dimensions": {
+          "$ref": "#/$defs/dimensions"
+        }
+      }
+    },
+    "bootstrap_config": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "unit",
+        "replicates",
+        "seed",
+        "confidence_level"
+      ],
+      "properties": {
+        "unit": {
+          "const": "repository"
+        },
+        "replicates": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "confidence_level": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "exclusiveMaximum": 1
+        }
+      }
+    },
+    "risk_set": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "weight",
+        "lines"
+      ],
+      "properties": {
+        "weight": {
+          "type": "number",
+          "minimum": 0
+        },
+        "lines": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "km_point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "horizon_days",
+        "survival",
+        "risk_set_weight",
+        "risk_set_lines"
+      ],
+      "properties": {
+        "horizon_days": {
+          "type": "number"
+        },
+        "survival": {
+          "$ref": "#/$defs/probability"
+        },
+        "risk_set_weight": {
+          "type": "number",
+          "minimum": 0
+        },
+        "risk_set_lines": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "aj_point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "horizon_days",
+        "state_occupancy",
+        "risk_set_by_state"
+      ],
+      "properties": {
+        "horizon_days": {
+          "type": "number"
+        },
+        "state_occupancy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "unchanged",
+            "modified",
+            "deleted"
+          ],
+          "properties": {
+            "unchanged": {
+              "$ref": "#/$defs/probability"
+            },
+            "modified": {
+              "$ref": "#/$defs/probability"
+            },
+            "deleted": {
+              "$ref": "#/$defs/probability"
+            }
+          }
+        },
+        "risk_set_by_state": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "unchanged",
+            "modified"
+          ],
+          "properties": {
+            "unchanged": {
+              "$ref": "#/$defs/risk_set"
+            },
+            "modified": {
+              "$ref": "#/$defs/risk_set"
+            }
+          }
+        }
+      }
+    },
+    "weighted_estimate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "weighting",
+        "kaplan_meier",
+        "aalen_johansen"
+      ],
+      "properties": {
+        "weighting": {
+          "enum": [
+            "repository",
+            "line"
+          ]
+        },
+        "kaplan_meier": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/km_point"
+          }
+        },
+        "aalen_johansen": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/aj_point"
+          }
+        }
+      }
+    },
+    "interval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lower",
+        "upper"
+      ],
+      "properties": {
+        "lower": {
+          "$ref": "#/$defs/probability"
+        },
+        "upper": {
+          "$ref": "#/$defs/probability"
+        }
+      }
+    },
+    "bootstrap_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kaplan_meier",
+        "aalen_johansen"
+      ],
+      "properties": {
+        "kaplan_meier": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "horizon_days",
+              "lower",
+              "upper"
+            ],
+            "properties": {
+              "horizon_days": {
+                "type": "number"
+              },
+              "lower": {
+                "$ref": "#/$defs/probability"
+              },
+              "upper": {
+                "$ref": "#/$defs/probability"
+              }
+            }
+          }
+        },
+        "aalen_johansen": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "horizon_days",
+              "states"
+            ],
+            "properties": {
+              "horizon_days": {
+                "type": "number"
+              },
+              "states": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "unchanged",
+                  "modified",
+                  "deleted"
+                ],
+                "properties": {
+                  "unchanged": {
+                    "$ref": "#/$defs/interval"
+                  },
+                  "modified": {
+                    "$ref": "#/$defs/interval"
+                  },
+                  "deleted": {
+                    "$ref": "#/$defs/interval"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "estimate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "estimator_version",
+        "repository_count",
+        "line_count",
+        "horizons_days",
+        "primary",
+        "secondary",
+        "bootstrap"
+      ],
+      "properties": {
+        "estimator_version": {
+          "const": 2
+        },
+        "repository_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "line_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "horizons_days": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "number"
+          }
+        },
+        "primary": {
+          "$ref": "#/$defs/weighted_estimate"
+        },
+        "secondary": {
+          "$ref": "#/$defs/weighted_estimate"
+        },
+        "bootstrap": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "unit",
+            "replicates",
+            "seed",
+            "confidence_level",
+            "primary",
+            "secondary"
+          ],
+          "properties": {
+            "unit": {
+              "const": "repository"
+            },
+            "replicates": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "seed": {
+              "type": "integer"
+            },
+            "confidence_level": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "exclusiveMaximum": 1
+            },
+            "primary": {
+              "$ref": "#/$defs/bootstrap_summary"
+            },
+            "secondary": {
+              "$ref": "#/$defs/bootstrap_summary"
+            }
+          }
+        }
+      }
+    },
+    "stratum_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stratum_id",
+        "dimensions",
+        "line_count",
+        "repository_count",
+        "status",
+        "estimate"
+      ],
+      "properties": {
+        "stratum_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dimensions": {
+          "$ref": "#/$defs/dimensions"
+        },
+        "line_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "repository_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "status": {
+          "enum": [
+            "identified",
+            "not_identified",
+            "empty"
+          ]
+        },
+        "estimate": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/estimate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

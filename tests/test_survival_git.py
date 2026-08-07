@@ -4,7 +4,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from authorship.survival_git import clone_or_fetch, git as survival_git, inspect_repository
+from authorship.survival_git import (
+    clone_or_fetch,
+    git as survival_git,
+    git_with_stdin,
+    inspect_repository,
+)
 
 
 def git(repo: Path, *args: str, env=None) -> str:
@@ -19,6 +24,29 @@ def git(repo: Path, *args: str, env=None) -> str:
 
 
 class SurvivalGitTests(unittest.TestCase):
+    def test_git_with_stdin_resolves_many_revisions_in_one_process(self):
+        with tempfile.TemporaryDirectory() as directory:
+            repo = Path(directory)
+            git(repo, "init", "-q", "-b", "main")
+            git(repo, "config", "user.name", "Test")
+            git(repo, "config", "user.email", "test@example.com")
+            first = self._commit(repo, "first", "2025-01-01T00:00:00Z")
+            second = self._commit(repo, "second", "2025-02-01T00:00:00Z")
+
+            output = git_with_stdin(
+                repo,
+                f"{first}\n{second}\n",
+                "log",
+                "--no-walk",
+                "--format=%H%x00%cI",
+                "--stdin",
+            )
+
+            assert {line.split("\0")[0] for line in output.splitlines()} == {
+                first,
+                second,
+            }
+
     def test_git_replaces_invalid_utf8_in_historical_content(self):
         with tempfile.TemporaryDirectory() as temporary:
             repo = Path(temporary)

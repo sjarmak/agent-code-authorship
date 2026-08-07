@@ -1,0 +1,27 @@
+{
+  "$schema": "sourcegraph-ai-ban-review-worksheet.schema.json",
+  "ambiguous_resolution": "distinct_secondary_then_distinct_resolver",
+  "classifier_outcomes_consulted": false,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "case_index_file_sha256": "369145e65c6201e3782c8b35f42f667ca6fd122424babae24a5499596ed54cc4",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+    "control_evidence_file_sha256": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "prior_decision_ledger_sha256": "be21c14b0b1bcac7e5bc14a5dd64dc780e391da49fc7b2dc5ec276255232017d",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "review_version": 3,
+  "scip_required": false,
+  "semantic_policy_decisions_made": false,
+  "stopping_rule": "earliest_accepted_policy_event",
+  "survival_outcomes_consulted": false,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+  "task_count": 0,
+  "tasks": [],
+  "worksheet_sha256": "91aebb4e0fdd1cdd74fdfcd660b545c5475f89039e7284d27d0545a105f36e4d"
+}

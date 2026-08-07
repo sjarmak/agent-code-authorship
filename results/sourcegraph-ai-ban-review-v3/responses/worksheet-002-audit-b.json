@@ -1,0 +1,62 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "d4a70f6854b5bc4750cbf1f400b81e477a21de69865ec53aacb027f10a50bf7e",
+    "task_id": "341ca312e552f64c29424d80cea341f16f07f5e648233880711638c6bcd9994b",
+    "task_sha256": "5ba1eb94c9eb05c1f94ca7746823dd1970352751353ae8aab3c7cbd985c55212",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "7eebc2d838133a78a64a871c5ce0ecf91463bdde1d4647882ff758e3c6252865",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-auditor-b",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The frozen line documents an HLS container command-line option; “Do not use” refers to MPEG-TS and does not establish any AI-contribution policy.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/README.md#L612"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "e35831d2bf6334ba1ff19e30359321934a63b4f6f8fcc1aed04e841df803b185"
+  },
+  {
+    "response_version": 3,
+    "worksheet_sha256": "d4a70f6854b5bc4750cbf1f400b81e477a21de69865ec53aacb027f10a50bf7e",
+    "task_id": "e86a433f7f21edd715714eb25f220ff3f7852f5e9be7df1ab64551e9080abacf",
+    "task_sha256": "9a95f3d7617560dd407cebf93d30ae03c66d517ec2a3a24a2afa6528135ac618",
+    "canonical_repository_id": "twpayne/chezmoi",
+    "event_id": "f6de85a9787c7286f967e0699954fcde54a3134200c3cf9555dfb23d8031dcee",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-auditor-b",
+    "decision": "accept_policy",
+    "default_branch_supported": true,
+    "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+    "evidence_tier": "datable_default_branch_policy",
+    "rationale": "The dated default-branch code-of-conduct change makes the rule unconditional: any contribution containing LLM-generated content will be rejected, establishing a repository-wide prohibition.",
+    "evidence_citations": [
+      "https://github.com/twpayne/chezmoi/commit/7938c65ca55aaeaf6fc56d37b0b32073d2e5c461"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "8fd7f6691e58dba48d49eb701564938ef4839e4bdf490247435412bb12d32f09"
+  },
+  {
+    "response_version": 3,
+    "worksheet_sha256": "d4a70f6854b5bc4750cbf1f400b81e477a21de69865ec53aacb027f10a50bf7e",
+    "task_id": "d6d4312c7fba8cdfeb5ec14884b3a5f23ad65f734aec998f3b0603e4a31a0449",
+    "task_sha256": "c30b7a4e1238e1ef5865ac88bf9fdc75790850fc23812031e7b70d6da186e1c9",
+    "canonical_repository_id": "superseriousbusiness/gotosocial",
+    "event_id": "ce46b34205853468555af8bfcf39bb8c663388979db7c15eb1c6065717f12f0a",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-auditor-b",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The frozen vendored code-of-conduct addition grants general moderation authority and contains no prohibition on AI-generated or AI-authored contributions.",
+    "evidence_citations": [
+      "https://codeberg.org/superseriousbusiness/gotosocial"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "3974d3df38a21630c41f22cf970674c066fb614925ad8537de1d70bb1d869f6a"
+  }
+]

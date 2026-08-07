@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adjudication-review-response.schema.json",
+  "title": "Blinded Sourcegraph event review response v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "review_response_version",
+    "queue_manifest_sha256",
+    "stage",
+    "reviewer_id",
+    "reviewer_kind",
+    "reviewer_version",
+    "decision_count",
+    "decisions",
+    "outcome_blind",
+    "peer_review_blind",
+    "review_response_sha256"
+  ],
+  "properties": {
+    "review_response_version": {
+      "const": 3
+    },
+    "queue_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "stage": {
+      "enum": [
+        "primary",
+        "resolution",
+        "agreement_audit"
+      ]
+    },
+    "reviewer_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewer_kind": {
+      "enum": [
+        "human",
+        "model"
+      ]
+    },
+    "reviewer_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/decision"
+      }
+    },
+    "outcome_blind": {
+      "const": true
+    },
+    "peer_review_blind": {
+      "const": true
+    },
+    "review_response_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prompt_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "reviewer_kind": {
+            "const": "model"
+          }
+        },
+        "required": [
+          "reviewer_kind"
+        ]
+      },
+      "then": {
+        "required": [
+          "provider",
+          "model_id",
+          "model_version",
+          "prompt_sha256"
+        ]
+      }
+    }
+  ],
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_id",
+        "task_sha256",
+        "decision",
+        "rationale"
+      ],
+      "properties": {
+        "task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "task_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "decision": {
+          "enum": [
+            "confirmed",
+            "observed",
+            "admissible",
+            "rejected",
+            "insufficient"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

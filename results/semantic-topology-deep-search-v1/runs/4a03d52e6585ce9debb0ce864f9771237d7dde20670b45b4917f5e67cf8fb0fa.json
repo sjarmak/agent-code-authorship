@@ -1,0 +1,98 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "8b0a8eaa00fa063927aec8158491558d4acd78788630963365c0668a8981b271",
+  "artifact_version": 1,
+  "canonical_repository_id": "borgmatic-collective/borgmatic",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b"
+  ],
+  "cited_files": [
+    {
+      "commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/AGENTS.md"
+    },
+    {
+      "commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "path": "docs/how-to/develop-on-borgmatic.md",
+      "repository": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/docs/how-to/develop-on-borgmatic.md?L242-L253"
+    },
+    {
+      "commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "path": ".forgejo/workflows/build.yaml",
+      "repository": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/workflows/build.yaml"
+    },
+    {
+      "commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "path": ".forgejo/issue_template/bug_template.yaml",
+      "repository": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/issue_template/bug_template.yaml"
+    },
+    {
+      "commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "path": ".forgejo/issue_template/feature_template.yaml",
+      "repository": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/issue_template/feature_template.yaml"
+    },
+    {
+      "commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "path": ".forgejo/pull_request_template.md",
+      "repository": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/pull_request_template.md"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2028",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/borgmatic-collective-borgmatic at revision dbc3fc356ce58a1a8a37422b387ca22f7b3a651b, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum policy_control; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: borgmatic-collective/borgmatic; study cutoff: dbc3fc356ce58a1a8a37422b387ca22f7b3a651b.",
+  "prompt_family_id": "adoption_configuration",
+  "prompt_sha256": "6666371677a9269051802071f43522805b9e54a2ed6cd49763c236777238af34",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "No additional AI-specific tool config files exist. Here is the complete cited analysis:\n\n---\n\n## AI/Coding-Agent Configuration Findings\n\n### Observation 1 \u2014 `AGENTS.md`: Explicit agent instruction file prohibiting code modification\n\n**File:** [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/AGENTS.md)\n\nThe repository contains a top-level `AGENTS.md`, a filename conventionally read by coding agents (e.g., OpenAI Codex, Devin, agentic IDEs) as a prompt/instruction manifest. Its full content is:\n\n> *\"Please do not use AI agents to modify this codebase. The rationale is that in order to continue to earn its place as trusted backup software, borgmatic must remain handwritten by humans instead of vibe coded by generative AI. Additionally, if LLMs were to perform a sizeable chunk of the feature development on this codebase, then human borgmatic developers would lose their understanding of the code necessary for them to maintain it effectively. Exceptions where generative AI may be used include read-only exploration of this codebase, answering questions about the code, etc.\"*\n\nKey signals:\n- **Constraint type:** Total prohibition on code-modifying use of AI agents; read-only AI use (exploration, Q&A) explicitly permitted.\n- **No agent is configured or invoked** \u2014 the file is purely a policy constraint injected into the agent's context window.\n- **No allowlist, no bot identity, no toolchain-specific config** (no `CLAUDE.md`, `.cursorrules`, `.github/copilot-instructions.md`, etc. were found).\n- The file also provides architecture pointers (`borgmatic.commands.borgmatic:main`, `borgmatic/config/`, etc.) \u2014 standard `AGENTS.md` boilerplate to orient an agent if it does read the file despite the prohibition.\n\n---\n\n### Observation 2 \u2014 `docs/how-to/develop-on-borgmatic.md`: Human-facing disclosure mirroring the prohibition\n\n**File:** [`docs/how-to/develop-on-borgmatic.md`, lines 242\u2013253](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/docs/how-to/develop-on-borgmatic.md?L242-L253)\n\nThe developer documentation contains a section titled **\"Use of generative AI\"** with text identical to `AGENTS.md`'s prohibition paragraph. This is a public-facing disclosure to human contributors rather than a machine-readable constraint. It signals that the policy is intentional and documented for contributor awareness, not merely a hidden instruction.\n\n---\n\n### Observation 3 \u2014 No CI/CD AI-invocation steps in `.forgejo/workflows/build.yaml`\n\n**File:** [`.forgejo/workflows/build.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/workflows/build.yaml)\n\nThe single workflow runs only `scripts/run-end-to-end-tests` and a Podman-based docs build. No AI/LLM API calls, no code-review bots, no auto-labeling steps, and no Dependabot/Renovate configurations are present. The platform is Forgejo (self-hosted Gitea fork), not GitHub Actions, so GitHub-specific bot integrations (Copilot, CodeRabbit, etc.) do not apply.\n\n---\n\n### Observation 4 \u2014 No additional AI-tool config files detected\n\nA search across the revision for filenames and content associated with common agent frameworks (`CLAUDE.md`, `.cursorrules`, `.github/copilot-instructions.md`, `copilot`, `chatgpt`, `claude`, `openai`, `cursor`, `codex`) returned no matches beyond the two files above. The `.gitignore` contains only standard Python/build artifacts and no AI tool cache directories (e.g., `.aider`, `.continue`, `.codeium`).\n\n---\n\n### Observation 5 \u2014 Issue templates contain no AI-disclosure field\n\n**Files:** [`.forgejo/issue_template/bug_template.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/issue_template/bug_template.yaml), [`.forgejo/issue_template/feature_template.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/issue_template/feature_template.yaml)\n\nNeither issue template includes a field asking contributors to disclose AI involvement in generated content. The PR template ([`.forgejo/pull_request_template.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/pull_request_template.md)) is essentially blank. No generated-work disclosure checkbox is required.\n\n---\n\n## Proposed Deterministic Sourcegraph Queries\n\nEach query is scoped to test the corresponding observation across the corpus (all repositories, not just this one).\n\n**O1 \u2014 Presence of `AGENTS.md` files (agent instruction manifests):**\n```\nfile:^AGENTS\\.md$ repo:.*\n```\n\n**O1b \u2014 `AGENTS.md` files containing AI-prohibition language specifically:**\n```\nfile:^AGENTS\\.md$ \"do not use AI agents\" OR \"handwritten by humans\" OR \"vibe cod\"\n```\n\n**O2 \u2014 Developer documentation sections disclosing generative AI policy:**\n```\nfile:.*\\.md$ \"Use of generative AI\" OR \"generative AI\" \"do not use AI agents\"\n```\n\n**O2b \u2014 Any documentation-level AI prohibition (broader pattern):**\n```\nfile:.*\\.md$ \"vibe cod\" OR \"handwritten by humans\" OR \"remain handwritten\"\n```\n\n**O3 \u2014 CI workflow files that invoke LLM/AI APIs (positive detection across corpus):**\n```\nfile:^\\.forgejo/workflows/.*\\.ya?ml$ OR file:^\\.github/workflows/.*\\.ya?ml$ openai OR anthropic OR \"llm\" OR \"copilot\"\n```\n\n**O4 \u2014 Presence of common agent-tool config files across the corpus:**\n```\nfile:^CLAUDE\\.md$ OR file:^\\.cursorrules$ OR file:^\\.github/copilot-instructions\\.md$\n```\n\n**O4b \u2014 AI tool cache or session artifact directories in `.gitignore`:**\n```\nfile:^\\.gitignore$ \".aider\" OR \".continue\" OR \".codeium\" OR \".copilot\"\n```\n\n**O5 \u2014 PR/issue templates with AI disclosure fields (positive detection):**\n```\nfile:^\\.github/pull_request_template\\.md$ OR file:^\\.forgejo/pull_request_template\\.md$ \"AI\" OR \"generated\" OR \"LLM\" OR \"copilot\"\n```\n\n---\n\n### Summary\n\nThe repository contains **one deliberate AI governance artifact** (`AGENTS.md`) that functions as an agent-readable prohibition \u2014 constraining code modification while permitting read-only exploration \u2014 and mirrors this policy in its human-facing developer documentation. No AI tooling is configured, invoked, or disclosed in the CI pipeline, issue/PR templates, or ignore files. No bot identities or third-party AI review services are present. The platform (Forgejo) precludes GitHub-native AI integrations.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:35:23Z",
+    "name": "users/476/conversations/2028",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "No additional AI-specific tool config files exist. Here is the complete cited analysis:\n\n---\n\n## AI/Coding-Agent Configuration Findings\n\n### Observation 1 \u2014 `AGENTS.md`: Explicit agent instruction file prohibiting code modification\n\n**File:** [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/AGENTS.md)\n\nThe repository contains a top-level `AGENTS.md`, a filename conventionally read by coding agents (e.g., OpenAI Codex, Devin, agentic IDEs) as a prompt/instruction manifest. Its full content is:\n\n> *\"Please do not use AI agents to modify this codebase. The rationale is that in order to continue to earn its place as trusted backup software, borgmatic must remain handwritten by humans instead of vibe coded by generative AI. Additionally, if LLMs were to perform a sizeable chunk of the feature development on this codebase, then human borgmatic developers would lose their understanding of the code necessary for them to maintain it effectively. Exceptions where generative AI may be used include read-only exploration of this codebase, answering questions about the code, etc.\"*\n\nKey signals:\n- **Constraint type:** Total prohibition on code-modifying use of AI agents; read-only AI use (exploration, Q&A) explicitly permitted.\n- **No agent is configured or invoked** \u2014 the file is purely a policy constraint injected into the agent's context window.\n- **No allowlist, no bot identity, no toolchain-specific config** (no `CLAUDE.md`, `.cursorrules`, `.github/copilot-instructions.md`, etc. were found).\n- The file also provides architecture pointers (`borgmatic.commands.borgmatic:main`, `borgmatic/config/`, etc.) \u2014 standard `AGENTS.md` boilerplate to orient an agent if it does read the file despite the prohibition.\n\n---\n\n### Observation 2 \u2014 `docs/how-to/develop-on-borgmatic.md`: Human-facing disclosure mirroring the prohibition\n\n**File:** [`docs/how-to/develop-on-borgmatic.md`, lines 242\u2013253](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/docs/how-to/develop-on-borgmatic.md?L242-L253)\n\nThe developer documentation contains a section titled **\"Use of generative AI\"** with text identical to `AGENTS.md`'s prohibition paragraph. This is a public-facing disclosure to human contributors rather than a machine-readable constraint. It signals that the policy is intentional and documented for contributor awareness, not merely a hidden instruction.\n\n---\n\n### Observation 3 \u2014 No CI/CD AI-invocation steps in `.forgejo/workflows/build.yaml`\n\n**File:** [`.forgejo/workflows/build.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/workflows/build.yaml)\n\nThe single workflow runs only `scripts/run-end-to-end-tests` and a Podman-based docs build. No AI/LLM API calls, no code-review bots, no auto-labeling steps, and no Dependabot/Renovate configurations are present. The platform is Forgejo (self-hosted Gitea fork), not GitHub Actions, so GitHub-specific bot integrations (Copilot, CodeRabbit, etc.) do not apply.\n\n---\n\n### Observation 4 \u2014 No additional AI-tool config files detected\n\nA search across the revision for filenames and content associated with common agent frameworks (`CLAUDE.md`, `.cursorrules`, `.github/copilot-instructions.md`, `copilot`, `chatgpt`, `claude`, `openai`, `cursor`, `codex`) returned no matches beyond the two files above. The `.gitignore` contains only standard Python/build artifacts and no AI tool cache directories (e.g., `.aider`, `.continue`, `.codeium`).\n\n---\n\n### Observation 5 \u2014 Issue templates contain no AI-disclosure field\n\n**Files:** [`.forgejo/issue_template/bug_template.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/issue_template/bug_template.yaml), [`.forgejo/issue_template/feature_template.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/issue_template/feature_template.yaml)\n\nNeither issue template includes a field asking contributors to disclose AI involvement in generated content. The PR template ([`.forgejo/pull_request_template.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/borgmatic-collective-borgmatic@dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/-/blob/.forgejo/pull_request_template.md)) is essentially blank. No generated-work disclosure checkbox is required.\n\n---\n\n## Proposed Deterministic Sourcegraph Queries\n\nEach query is scoped to test the corresponding observation across the corpus (all repositories, not just this one).\n\n**O1 \u2014 Presence of `AGENTS.md` files (agent instruction manifests):**\n```\nfile:^AGENTS\\.md$ repo:.*\n```\n\n**O1b \u2014 `AGENTS.md` files containing AI-prohibition language specifically:**\n```\nfile:^AGENTS\\.md$ \"do not use AI agents\" OR \"handwritten by humans\" OR \"vibe cod\"\n```\n\n**O2 \u2014 Developer documentation sections disclosing generative AI policy:**\n```\nfile:.*\\.md$ \"Use of generative AI\" OR \"generative AI\" \"do not use AI agents\"\n```\n\n**O2b \u2014 Any documentation-level AI prohibition (broader pattern):**\n```\nfile:.*\\.md$ \"vibe cod\" OR \"handwritten by humans\" OR \"remain handwritten\"\n```\n\n**O3 \u2014 CI workflow files that invoke LLM/AI APIs (positive detection across corpus):**\n```\nfile:^\\.forgejo/workflows/.*\\.ya?ml$ OR file:^\\.github/workflows/.*\\.ya?ml$ openai OR anthropic OR \"llm\" OR \"copilot\"\n```\n\n**O4 \u2014 Presence of common agent-tool config files across the corpus:**\n```\nfile:^CLAUDE\\.md$ OR file:^\\.cursorrules$ OR file:^\\.github/copilot-instructions\\.md$\n```\n\n**O4b \u2014 AI tool cache or session artifact directories in `.gitignore`:**\n```\nfile:^\\.gitignore$ \".aider\" OR \".continue\" OR \".codeium\" OR \".copilot\"\n```\n\n**O5 \u2014 PR/issue templates with AI disclosure fields (positive detection):**\n```\nfile:^\\.github/pull_request_template\\.md$ OR file:^\\.forgejo/pull_request_template\\.md$ \"AI\" OR \"generated\" OR \"LLM\" OR \"copilot\"\n```\n\n---\n\n### Summary\n\nThe repository contains **one deliberate AI governance artifact** (`AGENTS.md`) that functions as an agent-readable prohibition \u2014 constraining code modification while permitting read-only exploration \u2014 and mirrors this policy in its human-facing developer documentation. No AI tooling is configured, invoked, or disclosed in the CI pipeline, issue/PR templates, or ignore files. No bot identities or third-party AI review services are present. The platform (Forgejo) precludes GitHub-native AI integrations."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:35:23Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/borgmatic-collective-borgmatic at revision dbc3fc356ce58a1a8a37422b387ca22f7b3a651b, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum policy_control; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: borgmatic-collective/borgmatic; study cutoff: dbc3fc356ce58a1a8a37422b387ca22f7b3a651b."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigating coding agent or generative AI configuration in borgmatic repository",
+    "updateTime": "2026-07-29T03:36:45Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/1fe5b02b-db98-4efe-9f5b-39fb29ba9b09"
+  },
+  "run_id": "sha256:4a03d52e6585ce9debb0ce864f9771237d7dde20670b45b4917f5e67cf8fb0fa",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "borgmatic-collective/borgmatic"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

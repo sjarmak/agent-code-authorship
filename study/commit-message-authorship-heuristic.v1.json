@@ -1,0 +1,125 @@
+{
+  "$schema": "commit-message-authorship-heuristic.schema.json",
+  "protocol_version": 1,
+  "status": "frozen_before_scoring",
+  "frozen_at": "2026-07-28T00:00:00Z",
+  "execution_amendments_before_final_scoring": [
+    {
+      "scope": "eligible revision walk",
+      "change": "replace first-parent traversal with all non-merge commits reachable from the pinned cutoff",
+      "reason": "first-parent traversal omitted authored commits inside merged pull requests",
+      "outcomes_available_when_amended": true,
+      "outcome_informed": false,
+      "classifier_rule_changed": false
+    },
+    {
+      "scope": "added-line attribution",
+      "change": "enable Git rename detection and resolve renamed destination paths",
+      "reason": "pure file renames are not newly introduced source code",
+      "outcomes_available_when_amended": true,
+      "outcome_informed": false,
+      "classifier_rule_changed": false
+    }
+  ],
+  "study_role": "exploratory",
+  "confirmatory_boundary": "This protocol does not modify the frozen v3 code-feature classifier, estimand, or primary outcomes.",
+  "proxy_assumption": "For this exploratory analysis, a commit detected as agent-written from the normalized writing style and content of its commit message is treated as agent-authored code: all eligible code lines introduced by that commit are attributed to an agent. Message authorship and code authorship are not independently verified.",
+  "eligibility": {
+    "start_at": "2023-01-01T00:00:00Z",
+    "end_at": "the repository-specific pinned cutoff",
+    "revision_walk": "all non-merge commits reachable from the pinned cutoff",
+    "excluded_commits": [
+      "merge commits",
+      "commits with empty normalized messages"
+    ],
+    "eligible_code": "non-binary added lines in source-code files; generated, vendored, lock, fixture, and minified paths are excluded"
+  },
+  "normalization": {
+    "purpose": "prevent direct provenance leakage into the writing-style score",
+    "removed": [
+      "recognized provenance and sign-off trailer lines",
+      "agent and model identity names",
+      "email addresses",
+      "URLs",
+      "GitHub handles",
+      "issue and pull-request numbers",
+      "hexadecimal revision identifiers"
+    ],
+    "preserved": [
+      "subject/body boundary",
+      "paragraphs",
+      "list structure",
+      "sentence punctuation",
+      "non-provenance technical prose"
+    ]
+  },
+  "signals": [
+    {
+      "id": "verbose_body",
+      "definition": "normalized body contains at least 80 words"
+    },
+    {
+      "id": "structured_body",
+      "definition": "normalized body has at least four nonblank lines and at least two paragraphs"
+    },
+    {
+      "id": "enumerated_detail",
+      "definition": "normalized body has at least three bullet or numbered-list lines"
+    },
+    {
+      "id": "sentence_form",
+      "definition": "normalized body has at least four terminally punctuated sentences and at least half of nonblank prose lines end in sentence punctuation"
+    },
+    {
+      "id": "explicit_validation",
+      "definition": "normalized body explicitly reports running or passing tests, checks, lint, type checking, or a build using the frozen lexical patterns"
+    },
+    {
+      "id": "local_length_outlier",
+      "definition": "body word count is strictly above the repository's pre-adoption 90th percentile"
+    },
+    {
+      "id": "local_structure_outlier",
+      "definition": "paragraph plus bullet plus sentence count is strictly above the repository's pre-adoption 90th percentile"
+    }
+  ],
+  "decision_rule": {
+    "score": "one point per true signal; no learned weights or fitted parameters",
+    "primary_threshold": 4,
+    "sensitivity_thresholds": [3, 5],
+    "classification": "agent-detected when score is greater than or equal to the threshold"
+  },
+  "repository_baseline": {
+    "window_start": "2023-01-01T00:00:00Z",
+    "window_end": "strictly before the datable adoption point",
+    "adoption_point_priority": [
+      "maintainer-attested first agent commit",
+      "first explicit agent provenance trailer",
+      "first repository-local agent adoption announcement"
+    ],
+    "minimum_commits": 30,
+    "quantile": 0.9,
+    "insufficient_baseline_behavior": "record baseline_status=unavailable and assign no local-outlier points",
+    "no_supervised_fit": true
+  },
+  "attribution": {
+    "unit": "commit and eligible added source-code line",
+    "rule": "attribute every eligible added source-code line in an agent-detected commit to agent code",
+    "reported_estimands": [
+      "agent-detected share of eligible commits",
+      "agent-attributed share of eligible added source-code lines"
+    ]
+  },
+  "validation": {
+    "positive_reference": "maintainer-attested agent repositories and explicit provenance commits",
+    "negative_reference": "commits made while a repository-local AI contribution ban was in force",
+    "label_use": "post hoc validation only; labels are not used to choose features, weights, or thresholds",
+    "report": [
+      "confusion counts by threshold",
+      "precision and recall where reference labels exist",
+      "repository-level results",
+      "baseline availability",
+      "direct-marker leakage checks"
+    ]
+  }
+}

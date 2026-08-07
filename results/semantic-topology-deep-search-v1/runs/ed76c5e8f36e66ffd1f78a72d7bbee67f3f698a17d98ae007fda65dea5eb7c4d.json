@@ -1,0 +1,206 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "9c678c75abcd6c005a9d2b8e837b6a8fcf7baef032907b8e3242f2b32961bd9f",
+  "artifact_version": 1,
+  "canonical_repository_id": "0xfurai/peekaping",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "742a60d94fdaacc977c09444b651f7cf1c1aab9e"
+  ],
+  "cited_files": [
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/test.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/playwright.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/playwright.yml"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/playwright-reusable.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/playwright-reusable.yml"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/release-candidate.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/release-candidate.yml"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/docker-release.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/deploy-demo.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/deploy-demo.yml"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/web/eslint.config.js",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/eslint.config.js"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/test.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml?L57-59"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/test.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml?L78"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/server/internal/modules/auth/jwt_test.go",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/auth/jwt_test.go"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/server/internal/modules/monitor/monitor.service_test.go",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.service_test.go"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/server/internal/modules/monitor/monitor.sql.repository_test.go",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.sql.repository_test.go"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/server/internal/modules/healthcheck/executor/executor_test.go",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/healthcheck/executor/executor_test.go"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/server/internal/modules/healthcheck/executor/http_test.go",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/healthcheck/executor/http_test.go"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/test.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml?L80-85"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "e2e/auth.spec.ts",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/e2e/auth.spec.ts"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "e2e/monitor-crud.spec.ts",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/e2e/monitor-crud.spec.ts"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "playwright.config.ts",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/playwright.config.ts"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/server/go.mod",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/go.mod?L16"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/server/internal/modules/monitor/monitor.validations.go",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.validations.go"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/docker-release.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L123-127"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/docker-release.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L117-121"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/docker-release.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L587-596"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/release-candidate.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/release-candidate.yml?L36-43"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2017",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/0xfurai-peekaping at revision 742a60d94fdaacc977c09444b651f7cf1c1aab9e, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: 0xfurai/peekaping; stratum: attributable_agent; cutoff: 742a60d94fdaacc977c09444b651f7cf1c1aab9e.",
+  "prompt_family_id": "review_validation",
+  "prompt_sha256": "67c784a460e7e9682c45b72ad0e7ea9f396ca5ad4084a0444832756b966dc5d9",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a thorough picture of all validation and review mechanisms. Here is the complete report.\n\n---\n\n## Code Review and Validation Mechanisms \u2014 `0xfurai/peekaping` @ `742a60d`\n\n### 1. CI Workflows (Repository-Wide)\n\n**Six workflows** are present under [`.github/workflows/`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/.github/workflows):\n\n| Workflow file | Trigger | Purpose |\n|---|---|---|\n| [`test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml) | PR + push to `main`/`master`, `v*` tags | Web lint, web build, Go unit tests with coverage upload to Codecov |\n| [`playwright.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/playwright.yml) | PR + push to `main`/`master` | E2E Playwright tests across 6 matrix combinations (`postgres`/`mongo`/`sqlite` \u00d7 `dev`/`bundle`) |\n| [`playwright-reusable.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/playwright-reusable.yml) | `workflow_call` | Reusable E2E runner used by release and RC workflows; tests prod and bundle containers across all 3 databases |\n| [`release-candidate.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/release-candidate.yml) | `workflow_dispatch` / `workflow_call` | RC version format validation \u2192 unit tests \u2192 image builds \u2192 Playwright E2E \u2192 pre-release tag |\n| [`docker-release.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml) | `workflow_dispatch` | Full release: image builds \u2192 multi-arch manifests \u2192 Playwright E2E gate \u2192 GitHub Release creation \u2192 demo deploy |\n| [`deploy-demo.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/deploy-demo.yml) | Called by `docker-release.yml` | Post-release demo deployment |\n\n**Exclusion paths** in `test.yml` and `playwright.yml`: `apps/docs/**`, `*.md`, `README.md`, `CHANGELOG.md`, `LICENSE` \u2014 documentation-only changes bypass CI entirely.\n\n---\n\n### 2. Linting\n\n**Web (frontend):** ESLint is configured via [`apps/web/eslint.config.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/eslint.config.js). The ruleset is:\n- `@eslint/js` recommended\n- `typescript-eslint` recommended\n- `eslint-plugin-react-hooks` recommended\n- `react-refresh` plugin is imported but its `only-export-components` rule is commented out\n- `src/api` is in the `ignores` list (generated client code excluded from linting)\n\nThe lint step runs in CI at [`test.yml` L57\u201359](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml?L57-59): `pnpm lint` in `apps/web`.\n\n**Server (Go):** No `golangci-lint` configuration file is present in the repository at this revision. The Go server CI step runs only `go test`, not `go vet` or any linter.\n\n**TypeScript type checking:** `tsc -b` runs as part of `pnpm build` for the web app but is not a standalone `check-types` CI step. `turbo.json` defines a `check-types` task but it is not invoked in the CI workflow.\n\n---\n\n### 3. Go Unit Tests\n\n**Test scope:** `go test -v -coverprofile=coverage.txt ./internal/...` ([`test.yml` L78](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml?L78)).\n\n**Test files present at this revision:**\n\n| File | Package | What is tested |\n|---|---|---|\n| [`apps/server/internal/modules/auth/jwt_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/auth/jwt_test.go) | `auth` | `TokenMaker`: `CreateAccessToken`, `CreateRefreshToken`, `VerifyToken` \u2014 covers success, missing/invalid setting, expiry, wrong secret, wrong type, wrong signing method (20+ test functions) |\n| [`apps/server/internal/modules/monitor/monitor.service_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.service_test.go) | `monitor` | `MonitorService`: Create, FindByID, UpdateFull, UpdatePartial, Delete (with cleanup error tolerance), ValidateMonitorConfig, GetHeartbeats, GetStatPoints, GetUptimeStats, ResetMonitorData, FindAll, FindActive, FindByIDs, RemoveProxyReference, FindByProxyId, FindOneByPushToken |\n| [`apps/server/internal/modules/monitor/monitor.sql.repository_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.sql.repository_test.go) | `monitor` | `SQLRepositoryImpl.FindAll`: specifically tests JOIN ambiguity on `created_at` with tag filtering and ordering correctness; uses in-memory SQLite |\n| [`apps/server/internal/modules/healthcheck/executor/executor_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/healthcheck/executor/executor_test.go) | `executor` | `ExecutorRegistry.GetExecutor` |\n| [`apps/server/internal/modules/healthcheck/executor/http_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/healthcheck/executor/http_test.go) | `executor` | `HTTPExecutor.Validate` (table-driven) |\n| `executor/common_test.go`, `dns_test.go`, `docker_test.go`, `grpc_test.go`, `mongodb_test.go`, `mysql_test.go`, `postgres_test.go`, `push_test.go`, `redis_test.go`, `snmp_test.go`, `sqlserver_test.go` | `executor` | Per-executor validate/execute tests |\n\nNotable: `kafka_producer.go`, `mqtt.go`, `rabbitmq.go` have no corresponding `_test.go` at this revision.\n\n**Test dependencies:** `github.com/stretchr/testify` v1.10.0 (assert, require, mock), `github.com/uptrace/bun/driver/sqliteshim` for SQLite in-memory repository tests.\n\n**Coverage upload:** `codecov/codecov-action@v5` uploads `apps/server/coverage.txt` to Codecov with slug `0xfurai/peekaping` ([`test.yml` L80\u201385](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml?L80-85)).\n\n---\n\n### 4. E2E Tests (Playwright)\n\n**Spec files** ([`e2e/`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/e2e)):\n- [`auth.spec.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/e2e/auth.spec.ts): registration flow, password visibility toggle, redirect to `/monitors`. Runs first and persists `storageState.json` for authenticated downstream tests.\n- [`monitor-crud.spec.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/e2e/monitor-crud.spec.ts): CRUD (create/verify/edit/delete) for HTTP, TCP, Ping, DNS, Push, Docker, MySQL, PostgreSQL, MongoDB, Redis, SNMP monitor types.\n\n**Skipped tests** (`test.skip`): SQL Server, GRPC-Keyword, MQTT, RabbitMQ, Kafka Producer \u2014 these monitors have no live infrastructure available in the test matrix.\n\n**Playwright configuration** ([`playwright.config.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/playwright.config.ts)):\n- `forbidOnly: !!process.env.CI` \u2014 blocks `test.only` from landing on CI\n- `retries: process.env.CI ? 2 : 0` \u2014 two retries on CI\n- `workers: process.env.CI ? 1 : undefined` \u2014 serialized on CI\n- Only Chromium is active; Firefox and Safari are commented out\n- Base URL defaults to `http://localhost:8383`, overridable via `PLAYWRIGHT_BASE_URL`\n\n---\n\n### 5. Validation Mechanisms (Runtime)\n\n**DTO validation** uses [`github.com/go-playground/validator/v10`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/go.mod?L16) with a custom struct-level validator:\n\n[`monitor.validations.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.validations.go): rejects configurations where `timeout * 0.8 >= interval` (timeout must be materially less than the check interval).\n\n**Monitor config validation:** `ExecutorRegistry.ValidateConfig(monitorType, configJSON)` is called in the service layer; each executor type implements its own `Validate` method. This is exercised directly in `TestMonitorService_ValidateMonitorConfig` (with nil-registry guard test) and extensively in per-executor unit tests.\n\n**JWT validation:** `TokenMaker.VerifyToken` checks signing method, secret key, token type claim (`access` vs `refresh`), expiry \u2014 all branch-covered in `jwt_test.go`.\n\n**Web form validation:** Zod (`zod` v3.24.4) is listed in `apps/web/package.json` as a runtime dependency used with `react-hook-form` and `@hookform/resolvers`.\n\n---\n\n### 6. Generated Code\n\n- [`apps/web/src/api`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/apps/web/src) is generated from OpenAPI spec via `pnpm gen` (`openapi-ts`). It is excluded from ESLint (in `ignores`) and from TypeScript strict checking implicitly.\n- [`apps/web/src/version.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L123-127) is auto-generated by the release workflow: `echo \"// This file is auto-generated by the release workflow\"`.\n- [`apps/server/internal/version/version.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L117-121) version string is mutated in-place via `sed` during release.\n- Swagger docs under [`apps/server/docs/`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/apps/server/docs) are generated by `swaggo/swag`; no CI step regenerates or validates them.\n\n---\n\n### 7. Release Validation Gate\n\nIn `docker-release.yml`, the release step is ordered: **build \u2192 manifests \u2192 Playwright E2E (reusable) \u2192 GitHub Release creation** ([lines 587\u2013596](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L587-596)). The GitHub Release is only created if E2E tests pass (`needs: playwright-tests`).\n\nThe RC workflow additionally validates the version string format with a regex `^[0-9]+\\.[0-9]+\\.[0-9]+-rc\\.[0-9]+$` before any build runs ([`release-candidate.yml` L36\u201343](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/release-candidate.yml?L36-43)).\n\n---\n\n### 8. Ownership and Process Controls\n\n- **No `CODEOWNERS` file** is present in the repository at this revision.\n- **No branch protection rules** are detectable from the source tree.\n- **Issue templates** exist at [`.github/ISSUE_TEMPLATE/`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/.github/ISSUE_TEMPLATE): bug report, chore, feature request, documentation improvement \u2014 but these are process guides, not enforcement.\n\n---\n\n### 9. Revert / Fix / Refactor Evidence\n\nCommit history search is not indexable for this eval-scoped fork via available tools. The following queries can be run directly against the upstream repo (`0xfurai/peekaping`) to retrieve this data deterministically:\n\n```bash\n# Revert commits\ngit log --oneline --grep=\"^[Rr]evert\" 742a60d\n\n# Fix/hotfix commits\ngit log --oneline --grep=\"fix\" 742a60d\n\n# Chore/refactor commits\ngit log --oneline --grep=\"chore\\|refactor\" 742a60d\n\n# All commits on default branch up to cutoff\ngit log --oneline 742a60d94fdaacc977c09444b651f7cf1c1aab9e\n```\n\nOne structural signal of a targeted fix is the existence of [`monitor.sql.repository_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.sql.repository_test.go): its test is explicitly named `TestSQLRepositoryImpl_FindAll_JoinAmbiguityFix` and its comment reads `// This should not fail with \"ambiguous column name: created_at\" error`. This is a test added to prevent regression of a specific SQL JOIN bug.\n\n---\n\n### Summary Table\n\n| Mechanism | Scope | Enforced in CI |\n|---|---|---|\n| ESLint (TypeScript/React) | Web app | Yes \u2014 `pnpm lint` in `test.yml` |\n| Go unit tests with coverage | Server `./internal/...` | Yes \u2014 `go test` in `test.yml` |\n| Playwright E2E (6-matrix) | Full stack (all DBs \u00d7 configs) | Yes \u2014 on PR/push and as release gate |\n| OpenAPI client generation | Web `src/api` | No \u2014 manual (`pnpm gen`) |\n| DTO validation (go-playground) | Server request layer | Runtime only |\n| Executor config validation | Per monitor type | Runtime + unit tested |\n| RC version regex gate | Release pipeline | Yes \u2014 `release-candidate.yml` |\n| CODEOWNERS / branch protection | Repository | Not present at this revision |\n| Go linter (golangci-lint) | Server | Not present |\n| Frontend unit tests (Vitest/Jest) | Web app | Not present |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:29:39Z",
+    "name": "users/476/conversations/2017",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a thorough picture of all validation and review mechanisms. Here is the complete report.\n\n---\n\n## Code Review and Validation Mechanisms \u2014 `0xfurai/peekaping` @ `742a60d`\n\n### 1. CI Workflows (Repository-Wide)\n\n**Six workflows** are present under [`.github/workflows/`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/.github/workflows):\n\n| Workflow file | Trigger | Purpose |\n|---|---|---|\n| [`test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml) | PR + push to `main`/`master`, `v*` tags | Web lint, web build, Go unit tests with coverage upload to Codecov |\n| [`playwright.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/playwright.yml) | PR + push to `main`/`master` | E2E Playwright tests across 6 matrix combinations (`postgres`/`mongo`/`sqlite` \u00d7 `dev`/`bundle`) |\n| [`playwright-reusable.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/playwright-reusable.yml) | `workflow_call` | Reusable E2E runner used by release and RC workflows; tests prod and bundle containers across all 3 databases |\n| [`release-candidate.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/release-candidate.yml) | `workflow_dispatch` / `workflow_call` | RC version format validation \u2192 unit tests \u2192 image builds \u2192 Playwright E2E \u2192 pre-release tag |\n| [`docker-release.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml) | `workflow_dispatch` | Full release: image builds \u2192 multi-arch manifests \u2192 Playwright E2E gate \u2192 GitHub Release creation \u2192 demo deploy |\n| [`deploy-demo.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/deploy-demo.yml) | Called by `docker-release.yml` | Post-release demo deployment |\n\n**Exclusion paths** in `test.yml` and `playwright.yml`: `apps/docs/**`, `*.md`, `README.md`, `CHANGELOG.md`, `LICENSE` \u2014 documentation-only changes bypass CI entirely.\n\n---\n\n### 2. Linting\n\n**Web (frontend):** ESLint is configured via [`apps/web/eslint.config.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/eslint.config.js). The ruleset is:\n- `@eslint/js` recommended\n- `typescript-eslint` recommended\n- `eslint-plugin-react-hooks` recommended\n- `react-refresh` plugin is imported but its `only-export-components` rule is commented out\n- `src/api` is in the `ignores` list (generated client code excluded from linting)\n\nThe lint step runs in CI at [`test.yml` L57\u201359](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml?L57-59): `pnpm lint` in `apps/web`.\n\n**Server (Go):** No `golangci-lint` configuration file is present in the repository at this revision. The Go server CI step runs only `go test`, not `go vet` or any linter.\n\n**TypeScript type checking:** `tsc -b` runs as part of `pnpm build` for the web app but is not a standalone `check-types` CI step. `turbo.json` defines a `check-types` task but it is not invoked in the CI workflow.\n\n---\n\n### 3. Go Unit Tests\n\n**Test scope:** `go test -v -coverprofile=coverage.txt ./internal/...` ([`test.yml` L78](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml?L78)).\n\n**Test files present at this revision:**\n\n| File | Package | What is tested |\n|---|---|---|\n| [`apps/server/internal/modules/auth/jwt_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/auth/jwt_test.go) | `auth` | `TokenMaker`: `CreateAccessToken`, `CreateRefreshToken`, `VerifyToken` \u2014 covers success, missing/invalid setting, expiry, wrong secret, wrong type, wrong signing method (20+ test functions) |\n| [`apps/server/internal/modules/monitor/monitor.service_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.service_test.go) | `monitor` | `MonitorService`: Create, FindByID, UpdateFull, UpdatePartial, Delete (with cleanup error tolerance), ValidateMonitorConfig, GetHeartbeats, GetStatPoints, GetUptimeStats, ResetMonitorData, FindAll, FindActive, FindByIDs, RemoveProxyReference, FindByProxyId, FindOneByPushToken |\n| [`apps/server/internal/modules/monitor/monitor.sql.repository_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.sql.repository_test.go) | `monitor` | `SQLRepositoryImpl.FindAll`: specifically tests JOIN ambiguity on `created_at` with tag filtering and ordering correctness; uses in-memory SQLite |\n| [`apps/server/internal/modules/healthcheck/executor/executor_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/healthcheck/executor/executor_test.go) | `executor` | `ExecutorRegistry.GetExecutor` |\n| [`apps/server/internal/modules/healthcheck/executor/http_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/healthcheck/executor/http_test.go) | `executor` | `HTTPExecutor.Validate` (table-driven) |\n| `executor/common_test.go`, `dns_test.go`, `docker_test.go`, `grpc_test.go`, `mongodb_test.go`, `mysql_test.go`, `postgres_test.go`, `push_test.go`, `redis_test.go`, `snmp_test.go`, `sqlserver_test.go` | `executor` | Per-executor validate/execute tests |\n\nNotable: `kafka_producer.go`, `mqtt.go`, `rabbitmq.go` have no corresponding `_test.go` at this revision.\n\n**Test dependencies:** `github.com/stretchr/testify` v1.10.0 (assert, require, mock), `github.com/uptrace/bun/driver/sqliteshim` for SQLite in-memory repository tests.\n\n**Coverage upload:** `codecov/codecov-action@v5` uploads `apps/server/coverage.txt` to Codecov with slug `0xfurai/peekaping` ([`test.yml` L80\u201385](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/test.yml?L80-85)).\n\n---\n\n### 4. E2E Tests (Playwright)\n\n**Spec files** ([`e2e/`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/e2e)):\n- [`auth.spec.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/e2e/auth.spec.ts): registration flow, password visibility toggle, redirect to `/monitors`. Runs first and persists `storageState.json` for authenticated downstream tests.\n- [`monitor-crud.spec.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/e2e/monitor-crud.spec.ts): CRUD (create/verify/edit/delete) for HTTP, TCP, Ping, DNS, Push, Docker, MySQL, PostgreSQL, MongoDB, Redis, SNMP monitor types.\n\n**Skipped tests** (`test.skip`): SQL Server, GRPC-Keyword, MQTT, RabbitMQ, Kafka Producer \u2014 these monitors have no live infrastructure available in the test matrix.\n\n**Playwright configuration** ([`playwright.config.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/playwright.config.ts)):\n- `forbidOnly: !!process.env.CI` \u2014 blocks `test.only` from landing on CI\n- `retries: process.env.CI ? 2 : 0` \u2014 two retries on CI\n- `workers: process.env.CI ? 1 : undefined` \u2014 serialized on CI\n- Only Chromium is active; Firefox and Safari are commented out\n- Base URL defaults to `http://localhost:8383`, overridable via `PLAYWRIGHT_BASE_URL`\n\n---\n\n### 5. Validation Mechanisms (Runtime)\n\n**DTO validation** uses [`github.com/go-playground/validator/v10`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/go.mod?L16) with a custom struct-level validator:\n\n[`monitor.validations.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.validations.go): rejects configurations where `timeout * 0.8 >= interval` (timeout must be materially less than the check interval).\n\n**Monitor config validation:** `ExecutorRegistry.ValidateConfig(monitorType, configJSON)` is called in the service layer; each executor type implements its own `Validate` method. This is exercised directly in `TestMonitorService_ValidateMonitorConfig` (with nil-registry guard test) and extensively in per-executor unit tests.\n\n**JWT validation:** `TokenMaker.VerifyToken` checks signing method, secret key, token type claim (`access` vs `refresh`), expiry \u2014 all branch-covered in `jwt_test.go`.\n\n**Web form validation:** Zod (`zod` v3.24.4) is listed in `apps/web/package.json` as a runtime dependency used with `react-hook-form` and `@hookform/resolvers`.\n\n---\n\n### 6. Generated Code\n\n- [`apps/web/src/api`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/apps/web/src) is generated from OpenAPI spec via `pnpm gen` (`openapi-ts`). It is excluded from ESLint (in `ignores`) and from TypeScript strict checking implicitly.\n- [`apps/web/src/version.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L123-127) is auto-generated by the release workflow: `echo \"// This file is auto-generated by the release workflow\"`.\n- [`apps/server/internal/version/version.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L117-121) version string is mutated in-place via `sed` during release.\n- Swagger docs under [`apps/server/docs/`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/apps/server/docs) are generated by `swaggo/swag`; no CI step regenerates or validates them.\n\n---\n\n### 7. Release Validation Gate\n\nIn `docker-release.yml`, the release step is ordered: **build \u2192 manifests \u2192 Playwright E2E (reusable) \u2192 GitHub Release creation** ([lines 587\u2013596](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L587-596)). The GitHub Release is only created if E2E tests pass (`needs: playwright-tests`).\n\nThe RC workflow additionally validates the version string format with a regex `^[0-9]+\\.[0-9]+\\.[0-9]+-rc\\.[0-9]+$` before any build runs ([`release-candidate.yml` L36\u201343](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/release-candidate.yml?L36-43)).\n\n---\n\n### 8. Ownership and Process Controls\n\n- **No `CODEOWNERS` file** is present in the repository at this revision.\n- **No branch protection rules** are detectable from the source tree.\n- **Issue templates** exist at [`.github/ISSUE_TEMPLATE/`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/tree/.github/ISSUE_TEMPLATE): bug report, chore, feature request, documentation improvement \u2014 but these are process guides, not enforcement.\n\n---\n\n### 9. Revert / Fix / Refactor Evidence\n\nCommit history search is not indexable for this eval-scoped fork via available tools. The following queries can be run directly against the upstream repo (`0xfurai/peekaping`) to retrieve this data deterministically:\n\n```bash\n# Revert commits\ngit log --oneline --grep=\"^[Rr]evert\" 742a60d\n\n# Fix/hotfix commits\ngit log --oneline --grep=\"fix\" 742a60d\n\n# Chore/refactor commits\ngit log --oneline --grep=\"chore\\|refactor\" 742a60d\n\n# All commits on default branch up to cutoff\ngit log --oneline 742a60d94fdaacc977c09444b651f7cf1c1aab9e\n```\n\nOne structural signal of a targeted fix is the existence of [`monitor.sql.repository_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/internal/modules/monitor/monitor.sql.repository_test.go): its test is explicitly named `TestSQLRepositoryImpl_FindAll_JoinAmbiguityFix` and its comment reads `// This should not fail with \"ambiguous column name: created_at\" error`. This is a test added to prevent regression of a specific SQL JOIN bug.\n\n---\n\n### Summary Table\n\n| Mechanism | Scope | Enforced in CI |\n|---|---|---|\n| ESLint (TypeScript/React) | Web app | Yes \u2014 `pnpm lint` in `test.yml` |\n| Go unit tests with coverage | Server `./internal/...` | Yes \u2014 `go test` in `test.yml` |\n| Playwright E2E (6-matrix) | Full stack (all DBs \u00d7 configs) | Yes \u2014 on PR/push and as release gate |\n| OpenAPI client generation | Web `src/api` | No \u2014 manual (`pnpm gen`) |\n| DTO validation (go-playground) | Server request layer | Runtime only |\n| Executor config validation | Per monitor type | Runtime + unit tested |\n| RC version regex gate | Release pipeline | Yes \u2014 `release-candidate.yml` |\n| CODEOWNERS / branch protection | Repository | Not present at this revision |\n| Go linter (golangci-lint) | Server | Not present |\n| Frontend unit tests (Vitest/Jest) | Web app | Not present |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:29:39Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/0xfurai-peekaping at revision 742a60d94fdaacc977c09444b651f7cf1c1aab9e, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: 0xfurai/peekaping; stratum: attributable_agent; cutoff: 742a60d94fdaacc977c09444b651f7cf1c1aab9e."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Reviewing CI, tests, and validation for a specific GitHub commit",
+    "updateTime": "2026-07-29T03:32:20Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/1674861a-e8a5-4504-ac5c-9a307c7e5833"
+  },
+  "run_id": "sha256:ed76c5e8f36e66ffd1f78a72d7bbee67f3f698a17d98ae007fda65dea5eb7c4d",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "0xfurai/peekaping"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

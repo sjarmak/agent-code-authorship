@@ -1,0 +1,11 @@
+{
+  "candidate_inventory_sha256": "b4b267db15d87c82cdc2e758e9889f72ff87d346ff665ee9135b4619355063f3",
+  "inventory_sha256": "43434302528a118087dcc928a60c7ac4e2a6acad39141abe6f511bb360abb925",
+  "inventory_version": 1,
+  "outcomes_consulted": false,
+  "pending_reason_count": 0,
+  "record_count": 492,
+  "record_file": "semantic-change-records.enriched.v1.jsonl",
+  "record_file_sha256": "17a5a6fb3cdc656e306831638b74499cd01cf1d7e5b4f787dd2cab6c3ed6a6b3",
+  "schema_validated_record_count": 492
+}

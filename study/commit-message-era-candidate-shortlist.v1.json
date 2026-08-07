@@ -1,0 +1,182 @@
+{
+  "artifact_id": "commit-message-era-candidate-shortlist",
+  "version": "1.0.0",
+  "status": "discovery_candidates_not_adjudicated",
+  "generated_at": "2026-07-28",
+  "purpose": "Prioritize already indexed sg-evals repositories for adjudication and full-history extraction in the within-repository era-adjusted commit-message authorship study.",
+  "selection": {
+    "source_families": [
+      "agent_trailer_commits",
+      "recognized_agent_identity_commits",
+      "generated_code_disclosure_diffs"
+    ],
+    "candidate_window": {
+      "start_inclusive": "2023-01-01T00:00:00Z",
+      "end_exclusive": "2025-01-01T00:00:00Z"
+    },
+    "rule": "Select late-2024 candidates first to maximize observable contemporary pre-adoption history. Prefer explicit agent trailers or recognized agent identities; treat generated-code disclosures as a separate, stricter-adjudication tier.",
+    "sourcegraph_manifest": "study/sourcegraph-index-manifest.v3.json",
+    "sourcegraph_discovery_root": "results/sourcegraph-discovery-v3/shards",
+    "requires_reindexing": false,
+    "requires_scip": false
+  },
+  "caveat": "A Sourcegraph discovery hit is candidate evidence, not an adjudicated repository adoption point. Each event must be checked on the default branch, and the repository must have at least 30 eligible messages from 2023 onward before the adjudicated event to enter the era-adjusted analysis.",
+  "candidates": [
+    {
+      "priority_tier": "A",
+      "canonical_repository_id": "microsoft/lisa",
+      "sourcegraph_repository": "github.com/sg-evals/microsoft-lisa",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "ba9762595b01388291ca3c073b2bbe862da9bdbe",
+      "candidate_event_at": "2024-03-20T01:29:07Z",
+      "candidate_commit_oid": "54026cf6ce78c118dfcd82f781880f3528610411",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "B",
+      "canonical_repository_id": "nationalsecurityagency/ghidra",
+      "sourcegraph_repository": "github.com/sg-evals/NationalSecurityAgency-ghidra",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "817766af27129d6e88aa4d895ce55c9f1526faec",
+      "candidate_event_at": "2024-04-27T03:34:30Z",
+      "candidate_commit_oid": "fc17ca970cf0780876478090b6567aa7f1dd5036",
+      "candidate_source_family": "generated_code_disclosure_diffs",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "A",
+      "canonical_repository_id": "microsoft/retina",
+      "sourcegraph_repository": "github.com/sg-evals/microsoft-retina",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "4909dbc3f38ed95466c2f148cf930dd265c4c1bb",
+      "candidate_event_at": "2024-04-30T18:10:32Z",
+      "candidate_commit_oid": "9996707a907e0425dc0d2d1d3385fd0d46f9a3d2",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "A",
+      "canonical_repository_id": "rustdesk/rustdesk",
+      "sourcegraph_repository": "github.com/sg-evals/rustdesk-rustdesk",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "b4af82157bc5b44b62e66c1e7b50cc945bc42532",
+      "candidate_event_at": "2024-08-21T01:28:02Z",
+      "candidate_commit_oid": "e3cce2824d19cd74107f69f6f9e7428b93d189f6",
+      "candidate_source_family": "recognized_agent_identity_commits",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "A",
+      "canonical_repository_id": "stirling-tools/stirling-pdf",
+      "sourcegraph_repository": "github.com/sg-evals/Stirling-Tools-Stirling-PDF",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "3813ca360ea0e146379c477c6d13b48f689773c6",
+      "candidate_event_at": "2024-10-30T12:46:44Z",
+      "candidate_commit_oid": "27d2681a97088ae9147f42f87067e7c9239b3144",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "A",
+      "canonical_repository_id": "supabase/supabase",
+      "sourcegraph_repository": "github.com/sg-evals/supabase-supabase",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "2b27ed0ab17ec74f17bfa2e4e54175e3a1f5b444",
+      "candidate_event_at": "2024-11-05T05:49:38Z",
+      "candidate_commit_oid": "04e918cd28ad405c317c4c481d3e577c63221b10",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "A",
+      "canonical_repository_id": "open-webui/open-webui",
+      "sourcegraph_repository": "github.com/sg-evals/open-webui-open-webui",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "ecd48e2f718220a6400ecf49eafd4867a38feb10",
+      "candidate_event_at": "2024-11-05T23:10:16Z",
+      "candidate_commit_oid": "1f36cad9ef6992733d0c19b9de5bb20f490358cb",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "B",
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "sourcegraph_repository": "github.com/sg-evals/azure-azure-sdk-for-python",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+      "candidate_event_at": "2024-11-14T15:54:43Z",
+      "candidate_commit_oid": "9ebd895496b0bf4148152e30db197cb95b029c75",
+      "candidate_source_family": "generated_code_disclosure_diffs",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "A",
+      "canonical_repository_id": "getsentry/sentry",
+      "sourcegraph_repository": "github.com/sg-evals/getsentry-sentry",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "dde7031206d75f30f3d2b146a3c9437a673c2aab",
+      "candidate_event_at": "2024-12-02T14:17:35Z",
+      "candidate_commit_oid": "0458514d5584f6cc75b0df28e31474dc27b756a7",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "A",
+      "canonical_repository_id": "marimo-team/marimo",
+      "sourcegraph_repository": "github.com/sg-evals/marimo-team-marimo",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "f514eddcf62a5d48b1bc6fab8d32d8418c60fff3",
+      "candidate_event_at": "2024-12-11T14:59:03Z",
+      "candidate_commit_oid": "08e234f028528db329ba19e7671f81c01e5b54d5",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "B",
+      "canonical_repository_id": "home-assistant/core",
+      "sourcegraph_repository": "github.com/sg-evals/home-assistant-core",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "702a9cb7289e535927f5279190bcad6ffc5d3fd0",
+      "candidate_event_at": "2024-12-11T20:49:34Z",
+      "candidate_commit_oid": "8e991fc92fe095079f74c46b3bf1be897bd881ef",
+      "candidate_source_family": "generated_code_disclosure_diffs",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    },
+    {
+      "priority_tier": "A",
+      "canonical_repository_id": "langflow-ai/langflow",
+      "sourcegraph_repository": "github.com/sg-evals/langflow-ai-langflow",
+      "sourcegraph_transport_status": "ready_mirror",
+      "cutoff_commit": "ce17f022bed0eac943a723b9b6c74a023e819b60",
+      "candidate_event_at": "2024-12-12T12:01:05Z",
+      "candidate_commit_oid": "d1821cb466eb80d7ad343820fa55b8c347699bc2",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "pending",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "pending_full_history_extraction"
+    }
+  ]
+}

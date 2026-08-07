@@ -1,0 +1,128 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "e52e49a88684c1bd470b66f9932b8b51dcca7f31cb3e6f3134958e05d8b66ffa",
+  "artifact_version": 1,
+  "canonical_repository_id": "poezio/poezio",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5"
+  ],
+  "cited_files": [
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": ".woodpecker/lint.yml",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.woodpecker/lint.yml"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L127"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": ".woodpecker/test.yml",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.woodpecker/test.yml"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": ".woodpecker/container.yaml",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.woodpecker/container.yaml"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L80-L85"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L87-L93"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L96-L654"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": "typos.toml",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/typos.toml"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": "Makefile",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/Makefile"
+    },
+    {
+      "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "path": ".github/copilot-instructions.md",
+      "repository": "github.com/sg-evals/poezio-poezio",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.github/copilot-instructions.md"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2030",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/poezio-poezio at revision 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: poezio/poezio; stratum: policy_control; cutoff: 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5.",
+  "prompt_family_id": "review_validation",
+  "prompt_sha256": "72ed25c5b8f7d282c0d13ab519bcf8f9dc9d105bf47ee4769afd4031631c8a29",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Here are the cited observations organized by scope:\n\n---\n\n## Repository-Wide Validation Mechanisms\n\n### CI System: Woodpecker CI\n\nThe project uses [Woodpecker CI](https://woodpecker-ci.org/) (not GitHub Actions) with three pipeline definitions under [`.woodpecker/`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/tree/.woodpecker):\n\n#### 1. Lint pipeline \u2014 [`.woodpecker/lint.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.woodpecker/lint.yml)\n\nTriggers on `push`, `tag`, `release`, `manual`. Runs four tools sequentially against `./poezio` and `./plugins`:\n\n| Tool | Purpose |\n|---|---|\n| `flake8` | Style/syntax lint (PEP 8 subset) |\n| `typos` | Spell-checking of source text |\n| `mypy --ignore-missing-imports` | Static type checking |\n| `pylint -E` | Error-only pylint (fatal errors only) |\n\nThe `-E` flag on pylint means only error-category messages (not warnings or conventions) block the pipeline. Full pylint score threshold is `fail-under = 9` ([`pyproject.toml` L127](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L127)).\n\n#### 2. Test pipeline \u2014 [`.woodpecker/test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.woodpecker/test.yml)\n\nTriggers on `push`, `tag`, `release`, `manual`. Runs `py.test -v test/` in a **matrix** across Python versions: `3.11`, `3.12`, `3.13`, `3.14`. Uses `uv` for environment management and installs slixmpp from Codeberg HEAD (`git+https://codeberg.org/poezio/slixmpp.git`), meaning the test matrix tracks upstream slixmpp's current state, not a pinned release.\n\n#### 3. Container pipeline \u2014 [`.woodpecker/container.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.woodpecker/container.yaml)\n\nTriggers on `push`/`tag`/`release` to `main` branch only, with a path filter (`Dockerfile`, `poezio/**/*`, `plugins/*`, `.woodpecker/*`). Also runs on a cron schedule named `container`. Builds and pushes a multi-arch (`linux/amd64`, `linux/arm64`) Docker image to `codeberg.org/poezio/poezio:latest`.\n\n---\n\n### Linter Configuration\n\nAll linter configs are co-located in [`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml):\n\n- **flake8** ([L80-L85](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L80-L85)): Ignores `E501` (line length) and `E266` (block comment format) globally. Per-file ignores: `hsluv.py` (E741 ambiguous variable name) and `theming.py` (E241 whitespace after comma).\n- **mypy** ([L87-L93](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L87-L93)): `strict = true` with selective relaxations: `warn_return_any = false`, `disallow_untyped_calls = false`, `disallow_untyped_defs = false`, `disallow_subclassing_any = false`.\n- **pylint** ([L96-L654](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L96-L654)): Extensive config. Notable settings: `max-args = 5`, `max-attributes = 7`, `max-line-length = 100`, `py-version = \"3.14\"`, `bad-names = [\"foo\", \"bar\", \"baz\", \"toto\", \"tutu\", \"tata\"]`, `notes = [\"FIXME\", \"XXX\", \"TODO\"]`.\n- **typos** ([`typos.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/typos.toml)): XMPP/French domain-specific word allowlist (e.g., `muc`, `allo`, `toi`).\n\n---\n\n### Test Suite\n\nThirteen test files exist under [`test/`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/tree/test):\n\n```\ntest/test_common.py\ntest/test_completion.py\ntest/test_config.py\ntest/test_events.py\ntest/test_logger.py\ntest/test_poopt.py\ntest/test_tabs.py\ntest/test_text_buffer.py\ntest/test_theming.py\ntest/test_user.py\ntest/test_windows.py\ntest/test_xhtml.py\ntest/test_ui/test_funcs.py\ntest/test_ui/test_render.py\ntest/test_ui/test_types.py\n```\n\nCoverage spans: config parsing, event system, logger, tab behavior, text buffer, theming, user model, XHTML rendering, UI types and rendering, and poopt (C extension).\n\n---\n\n### Local Developer Targets\n\n[`Makefile`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/Makefile) mirrors CI steps:\n- `make lint` \u2014 runs `flake8`, `typos`, `mypy`, `pylint -E`\n- `make test` \u2014 runs `py.test test/`\n- `make release` \u2014 clones, checks out tag, builds docs, produces `.tar.xz` and `.tar.gz` archives\n\n---\n\n### Anomaly: `.github/copilot-instructions.md`\n\n[`.github/copilot-instructions.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.github/copilot-instructions.md) is the only file under `.github/`. It does not define any GitHub Actions workflows, CODEOWNERS, branch protection rules, PR templates, or issue templates. The file contains persona instructions for an AI coding assistant and is unrelated to CI or code-review enforcement. No GitHub Actions workflows exist in this repository at this revision.\n\n---\n\n### Change-Level Evidence (commit history)\n\n**Reverts** visible in default-branch history:\n- `6deb6ff` \u2014 Revert of bookmark typing commit (cited Python 3.7 breakage)\n- `fe9992e` \u2014 Merge of that revert via MR !140\n- `92f32c9` \u2014 Revert of \"Properly pass JID to config.get_by_tabname\" (\"breaks stuff\")\n- `80d18e6` \u2014 Revert of PEP 639 license classifier (setuptools compatibility)\n- `0b89168` \u2014 Revert of `update/launch.sh` uv requirement change\n- `4edf690` \u2014 Double-revert of privatetab MUC-PM marker\n- `68c0c3e` \u2014 Revert of bash strict mode in `update.sh`\n\n**Follow-up fixes explicitly tied to prior commits:**\n- `0442290` \u2014 \"fix typo introduced in previous commit / thanks, type checking\" ([link](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/commit/0442290310303d9d1053bd9c451ffc7f9deded45)) \u2014 type checker caught a regression introduced one commit earlier\n- `82c2914` \u2014 \"embed: fix /embed's compat with /upload / broken in 85a0a2c21\" ([link](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/commit/82c29143528cbbdaa0b82c3de098a3c5fc7f3ef9))\n- `4548e0a` \u2014 \"fix: remove extra blank line / Thanks flake8!\" ([link](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/commit/4548e0adc427ee31c10e71ecd319bfd95f21b5b3)) \u2014 flake8 credited directly\n- `5c19327` \u2014 \"tests: fix parse_message test with the __dict__ removal\" \u2014 test was broken by a separate refactor\n\n**Merge request workflow** (pre-2021 period): Multiple commits reference GitLab MR numbers (`!139`, `!140`, `!145\u2013!155`), indicating a code-review merge-request workflow was in use at that time via the upstream Codeberg/GitLab instance. Recent commits (2021\u20132026) do not carry MR references, suggesting direct push to main.\n\n---\n\n## Deterministic Verification Queries\n\nTo verify the above mechanically at this revision:\n\n```text\n# Confirm Woodpecker pipeline files and exact trigger conditions\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 file:^\\.woodpecker/\n\n# Confirm no GitHub Actions workflows exist\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 file:^\\.github/workflows/\n\n# Confirm complete test file list\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 file:^test/\n\n# Confirm pylint score threshold\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 \"fail-under = 9\"\n\n# Confirm mypy strict mode with relaxations\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 \"[tool.mypy]\"\n\n# Enumerate all revert commits\nrepo:^github.com/sg-evals/poezio-poezio$ type:commit message:Revert\n\n# Enumerate all commits crediting a tool (\"thanks, type checking\", \"Thanks flake8\")\nrepo:^github.com/sg-evals/poezio-poezio$ type:commit message:\"thanks\"\n\n# Confirm Python version matrix in test pipeline\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 file:^\\.woodpecker/test\\.yml \"matrix\"\n\n# Confirm slixmpp installed from HEAD (unpinned)\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 \"codeberg.org/poezio/slixmpp.git\"\n```",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:36:36Z",
+    "name": "users/476/conversations/2030",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Here are the cited observations organized by scope:\n\n---\n\n## Repository-Wide Validation Mechanisms\n\n### CI System: Woodpecker CI\n\nThe project uses [Woodpecker CI](https://woodpecker-ci.org/) (not GitHub Actions) with three pipeline definitions under [`.woodpecker/`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/tree/.woodpecker):\n\n#### 1. Lint pipeline \u2014 [`.woodpecker/lint.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.woodpecker/lint.yml)\n\nTriggers on `push`, `tag`, `release`, `manual`. Runs four tools sequentially against `./poezio` and `./plugins`:\n\n| Tool | Purpose |\n|---|---|\n| `flake8` | Style/syntax lint (PEP 8 subset) |\n| `typos` | Spell-checking of source text |\n| `mypy --ignore-missing-imports` | Static type checking |\n| `pylint -E` | Error-only pylint (fatal errors only) |\n\nThe `-E` flag on pylint means only error-category messages (not warnings or conventions) block the pipeline. Full pylint score threshold is `fail-under = 9` ([`pyproject.toml` L127](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L127)).\n\n#### 2. Test pipeline \u2014 [`.woodpecker/test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.woodpecker/test.yml)\n\nTriggers on `push`, `tag`, `release`, `manual`. Runs `py.test -v test/` in a **matrix** across Python versions: `3.11`, `3.12`, `3.13`, `3.14`. Uses `uv` for environment management and installs slixmpp from Codeberg HEAD (`git+https://codeberg.org/poezio/slixmpp.git`), meaning the test matrix tracks upstream slixmpp's current state, not a pinned release.\n\n#### 3. Container pipeline \u2014 [`.woodpecker/container.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.woodpecker/container.yaml)\n\nTriggers on `push`/`tag`/`release` to `main` branch only, with a path filter (`Dockerfile`, `poezio/**/*`, `plugins/*`, `.woodpecker/*`). Also runs on a cron schedule named `container`. Builds and pushes a multi-arch (`linux/amd64`, `linux/arm64`) Docker image to `codeberg.org/poezio/poezio:latest`.\n\n---\n\n### Linter Configuration\n\nAll linter configs are co-located in [`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml):\n\n- **flake8** ([L80-L85](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L80-L85)): Ignores `E501` (line length) and `E266` (block comment format) globally. Per-file ignores: `hsluv.py` (E741 ambiguous variable name) and `theming.py` (E241 whitespace after comma).\n- **mypy** ([L87-L93](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L87-L93)): `strict = true` with selective relaxations: `warn_return_any = false`, `disallow_untyped_calls = false`, `disallow_untyped_defs = false`, `disallow_subclassing_any = false`.\n- **pylint** ([L96-L654](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/pyproject.toml?L96-L654)): Extensive config. Notable settings: `max-args = 5`, `max-attributes = 7`, `max-line-length = 100`, `py-version = \"3.14\"`, `bad-names = [\"foo\", \"bar\", \"baz\", \"toto\", \"tutu\", \"tata\"]`, `notes = [\"FIXME\", \"XXX\", \"TODO\"]`.\n- **typos** ([`typos.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/typos.toml)): XMPP/French domain-specific word allowlist (e.g., `muc`, `allo`, `toi`).\n\n---\n\n### Test Suite\n\nThirteen test files exist under [`test/`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/tree/test):\n\n```\ntest/test_common.py\ntest/test_completion.py\ntest/test_config.py\ntest/test_events.py\ntest/test_logger.py\ntest/test_poopt.py\ntest/test_tabs.py\ntest/test_text_buffer.py\ntest/test_theming.py\ntest/test_user.py\ntest/test_windows.py\ntest/test_xhtml.py\ntest/test_ui/test_funcs.py\ntest/test_ui/test_render.py\ntest/test_ui/test_types.py\n```\n\nCoverage spans: config parsing, event system, logger, tab behavior, text buffer, theming, user model, XHTML rendering, UI types and rendering, and poopt (C extension).\n\n---\n\n### Local Developer Targets\n\n[`Makefile`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/Makefile) mirrors CI steps:\n- `make lint` \u2014 runs `flake8`, `typos`, `mypy`, `pylint -E`\n- `make test` \u2014 runs `py.test test/`\n- `make release` \u2014 clones, checks out tag, builds docs, produces `.tar.xz` and `.tar.gz` archives\n\n---\n\n### Anomaly: `.github/copilot-instructions.md`\n\n[`.github/copilot-instructions.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/blob/.github/copilot-instructions.md) is the only file under `.github/`. It does not define any GitHub Actions workflows, CODEOWNERS, branch protection rules, PR templates, or issue templates. The file contains persona instructions for an AI coding assistant and is unrelated to CI or code-review enforcement. No GitHub Actions workflows exist in this repository at this revision.\n\n---\n\n### Change-Level Evidence (commit history)\n\n**Reverts** visible in default-branch history:\n- `6deb6ff` \u2014 Revert of bookmark typing commit (cited Python 3.7 breakage)\n- `fe9992e` \u2014 Merge of that revert via MR !140\n- `92f32c9` \u2014 Revert of \"Properly pass JID to config.get_by_tabname\" (\"breaks stuff\")\n- `80d18e6` \u2014 Revert of PEP 639 license classifier (setuptools compatibility)\n- `0b89168` \u2014 Revert of `update/launch.sh` uv requirement change\n- `4edf690` \u2014 Double-revert of privatetab MUC-PM marker\n- `68c0c3e` \u2014 Revert of bash strict mode in `update.sh`\n\n**Follow-up fixes explicitly tied to prior commits:**\n- `0442290` \u2014 \"fix typo introduced in previous commit / thanks, type checking\" ([link](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/commit/0442290310303d9d1053bd9c451ffc7f9deded45)) \u2014 type checker caught a regression introduced one commit earlier\n- `82c2914` \u2014 \"embed: fix /embed's compat with /upload / broken in 85a0a2c21\" ([link](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/commit/82c29143528cbbdaa0b82c3de098a3c5fc7f3ef9))\n- `4548e0a` \u2014 \"fix: remove extra blank line / Thanks flake8!\" ([link](https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/-/commit/4548e0adc427ee31c10e71ecd319bfd95f21b5b3)) \u2014 flake8 credited directly\n- `5c19327` \u2014 \"tests: fix parse_message test with the __dict__ removal\" \u2014 test was broken by a separate refactor\n\n**Merge request workflow** (pre-2021 period): Multiple commits reference GitLab MR numbers (`!139`, `!140`, `!145\u2013!155`), indicating a code-review merge-request workflow was in use at that time via the upstream Codeberg/GitLab instance. Recent commits (2021\u20132026) do not carry MR references, suggesting direct push to main.\n\n---\n\n## Deterministic Verification Queries\n\nTo verify the above mechanically at this revision:\n\n```text\n# Confirm Woodpecker pipeline files and exact trigger conditions\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 file:^\\.woodpecker/\n\n# Confirm no GitHub Actions workflows exist\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 file:^\\.github/workflows/\n\n# Confirm complete test file list\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 file:^test/\n\n# Confirm pylint score threshold\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 \"fail-under = 9\"\n\n# Confirm mypy strict mode with relaxations\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 \"[tool.mypy]\"\n\n# Enumerate all revert commits\nrepo:^github.com/sg-evals/poezio-poezio$ type:commit message:Revert\n\n# Enumerate all commits crediting a tool (\"thanks, type checking\", \"Thanks flake8\")\nrepo:^github.com/sg-evals/poezio-poezio$ type:commit message:\"thanks\"\n\n# Confirm Python version matrix in test pipeline\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 file:^\\.woodpecker/test\\.yml \"matrix\"\n\n# Confirm slixmpp installed from HEAD (unpinned)\nrepo:^github.com/sg-evals/poezio-poezio$ rev:9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 \"codeberg.org/poezio/slixmpp.git\"\n```"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:36:36Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/poezio-poezio at revision 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: poezio/poezio; stratum: policy_control; cutoff: 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigate CI, tests, and code-review validation for substantive changes in poezio",
+    "updateTime": "2026-07-29T03:37:57Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/94f20666-1a77-4e85-97fa-74452976ddae"
+  },
+  "run_id": "sha256:7ffae92e99aeef0e24c995074605edbe94b49f25723a990c969834779af8c9c2",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "poezio/poezio"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

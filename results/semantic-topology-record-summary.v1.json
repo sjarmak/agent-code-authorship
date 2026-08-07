@@ -1,0 +1,28 @@
+{
+  "distinct_followup_author_count_distribution": {
+    "0": 37,
+    "1": 322,
+    "10": 1,
+    "11": 28,
+    "2": 19,
+    "22": 1,
+    "24": 1,
+    "3": 2,
+    "4": 8,
+    "5": 26,
+    "6": 27,
+    "9": 20
+  },
+  "first_followup_author_differs_count": 371,
+  "outcomes_consulted": false,
+  "path_class_counts": {
+    "documentation": 25,
+    "source": 418,
+    "test": 49
+  },
+  "record_count": 492,
+  "repository_count": 5,
+  "subsequent_change_present_count": 455,
+  "summary_sha256": "ffb75a5e118ea01244209a65dbf12349b1a2e5721230fcb65a11ebf9f5088e0f",
+  "summary_version": 1
+}

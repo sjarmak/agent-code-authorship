@@ -1,0 +1,31 @@
+{
+  "$schema": "sourcegraph-adoption-review-protocol.schema.json",
+  "protocol_version": 3,
+  "case_index": {
+    "path": "study/sourcegraph-repository-case-index.v3.json",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15"
+  },
+  "workflow": {
+    "path": "study/sourcegraph-adjudication-workflow.v3.json",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "packet_index": {
+    "path": "results/sourcegraph-evidence-packets.v3.json",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff"
+  },
+  "decision_chain": {
+    "responses_bind_tranche_id_and_number": true,
+    "later_events_require_a_higher_tranche_number": true,
+    "peer_roles_require_distinct_reviewers": true,
+    "prior_ledger_checksum_required": true,
+    "naked_decision_arrays_forbidden": true
+  },
+  "review_execution": {
+    "local_or_subagent_only": true,
+    "paid_batch_api": false,
+    "user_openai_api_key": false,
+    "semantic_auto_labeling": false
+  },
+  "outcomes_consulted": false,
+  "protocol_sha256": "b34685b4ff4aad32b68dec77d2015a96de59e5787f6109fb136e64b914a9d225"
+}

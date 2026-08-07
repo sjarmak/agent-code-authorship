@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adoption-review-protocol.schema.json",
+  "type": "object",
+  "required": [
+    "$schema",
+    "protocol_version",
+    "case_index",
+    "workflow",
+    "packet_index",
+    "decision_chain",
+    "review_execution",
+    "outcomes_consulted",
+    "protocol_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-adoption-review-protocol.schema.json"
+    },
+    "protocol_version": {
+      "const": 3
+    },
+    "case_index": {
+      "$ref": "#/$defs/binding"
+    },
+    "workflow": {
+      "$ref": "#/$defs/workflowBinding"
+    },
+    "packet_index": {
+      "$ref": "#/$defs/packetBinding"
+    },
+    "decision_chain": {
+      "type": "object",
+      "required": [
+        "responses_bind_tranche_id_and_number",
+        "later_events_require_a_higher_tranche_number",
+        "peer_roles_require_distinct_reviewers",
+        "prior_ledger_checksum_required",
+        "naked_decision_arrays_forbidden"
+      ],
+      "properties": {
+        "responses_bind_tranche_id_and_number": {
+          "const": true
+        },
+        "later_events_require_a_higher_tranche_number": {
+          "const": true
+        },
+        "peer_roles_require_distinct_reviewers": {
+          "const": true
+        },
+        "prior_ledger_checksum_required": {
+          "const": true
+        },
+        "naked_decision_arrays_forbidden": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "review_execution": {
+      "type": "object",
+      "required": [
+        "local_or_subagent_only",
+        "paid_batch_api",
+        "user_openai_api_key",
+        "semantic_auto_labeling"
+      ],
+      "properties": {
+        "local_or_subagent_only": {
+          "const": true
+        },
+        "paid_batch_api": {
+          "const": false
+        },
+        "user_openai_api_key": {
+          "const": false
+        },
+        "semantic_auto_labeling": {
+          "const": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "protocol_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "binding": {
+      "type": "object",
+      "required": [
+        "path",
+        "case_index_sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "case_index_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      },
+      "additionalProperties": false
+    },
+    "workflowBinding": {
+      "type": "object",
+      "required": [
+        "path",
+        "workflow_sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "workflow_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      },
+      "additionalProperties": false
+    },
+    "packetBinding": {
+      "type": "object",
+      "required": [
+        "path",
+        "packet_index_sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "packet_index_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

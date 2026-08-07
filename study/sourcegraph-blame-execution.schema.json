@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sourcegraph cutoff-pinned blame execution v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "blame_execution_version",
+    "blame_plan_sha256",
+    "packet_index_sha256",
+    "status",
+    "group_count",
+    "valid_group_count",
+    "invalid_group_count",
+    "enrichment_count",
+    "precise_code_intelligence_used",
+    "scip_used",
+    "outcomes_consulted",
+    "groups",
+    "blame_execution_sha256"
+  ],
+  "properties": {
+    "blame_execution_version": {"const": 3},
+    "blame_plan_sha256": {"$ref": "#/$defs/sha256"},
+    "packet_index_sha256": {"$ref": "#/$defs/sha256"},
+    "status": {"enum": ["complete", "incomplete"]},
+    "group_count": {"type": "integer", "minimum": 0},
+    "valid_group_count": {"type": "integer", "minimum": 0},
+    "invalid_group_count": {"type": "integer", "minimum": 0},
+    "enrichment_count": {"type": "integer", "minimum": 0},
+    "precise_code_intelligence_used": {"const": false},
+    "scip_used": {"const": false},
+    "outcomes_consulted": {"const": false},
+    "groups": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/summary"}
+    },
+    "blame_execution_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "group_id",
+        "blame_shard_sha256",
+        "valid",
+        "error",
+        "enrichment_count",
+        "shard_path"
+      ],
+      "properties": {
+        "group_id": {"$ref": "#/$defs/sha256"},
+        "blame_shard_sha256": {"$ref": "#/$defs/sha256"},
+        "valid": {"type": "boolean"},
+        "error": {
+          "oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]
+        },
+        "enrichment_count": {"type": "integer", "minimum": 0},
+        "shard_path": {
+          "type": "string",
+          "pattern": "^blame-shards/[0-9a-f]{2}/[0-9a-f]{64}\\.json$"
+        }
+      }
+    }
+  }
+}

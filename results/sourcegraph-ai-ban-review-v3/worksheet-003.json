@@ -1,0 +1,157 @@
+{
+  "$schema": "sourcegraph-ai-ban-review-worksheet.schema.json",
+  "ambiguous_resolution": "distinct_secondary_then_distinct_resolver",
+  "classifier_outcomes_consulted": false,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "case_index_file_sha256": "369145e65c6201e3782c8b35f42f667ca6fd122424babae24a5499596ed54cc4",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+    "control_evidence_file_sha256": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "prior_decision_ledger_sha256": "f7d3135a7f7cf60069e97896bcba9e9f33f0699648f4c90b14fddd3fbcb6c710",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "review_version": 3,
+  "scip_required": false,
+  "semantic_policy_decisions_made": false,
+  "stopping_rule": "earliest_accepted_policy_event",
+  "survival_outcomes_consulted": false,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+  "task_count": 2,
+  "tasks": [
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 9,
+      "candidate_event": {
+        "commit_oid": "8aa0e7cd96a1e2f315d49744793ae07f6543ce4c",
+        "observed_at": "2022-06-20T05:18:29Z"
+      },
+      "candidate_position": 3,
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "canonical_source_url": "https://github.com/yt-dlp/yt-dlp",
+      "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+      "event_id": "95fa29a0338b42241a604f90572e28e5e46221269a1eb254c76e6dc8c03015cf",
+      "evidence": [
+        {
+          "packet_id": "64454c6772a0074fc027453286df03c45f0d98d934a44b675fb43ec2f10f694f",
+          "packet_sha256": "fe36c9e3b3c01d61dae7403dab870866eb1a8a46fbad3e73b37a77ec18a41429",
+          "query_family_id": "ai_ban_policy_files",
+          "raw_evidence": [
+            {
+              "commit_oid": "8aa0e7cd96a1e2f315d49744793ae07f6543ce4c",
+              "kind": "file_content",
+              "line": 375,
+              "path": "CONTRIBUTING.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L376",
+              "value": "If the data is nested, do not use `.get` chains, but instead make use of `traverse_obj`."
+            },
+            {
+              "commit_oid": "8aa0e7cd96a1e2f315d49744793ae07f6543ce4c",
+              "kind": "blame",
+              "line": 375,
+              "path": "CONTRIBUTING.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/8aa0e7cd96a1e2f315d49744793ae07f6543ce4c",
+              "value": "cutoff blame attributes Sourcegraph line 375 to commit 8aa0e7cd96a1e2f315d49744793ae07f6543ce4c"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "64454c6772a0074fc027453286df03c45f0d98d934a44b675fb43ec2f10f694f"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_files"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "d34f1ad33808ea4ec4b52c1e92bb0eb6c3eb28582ff615d4abd7236b0321e1d0",
+      "task_sha256": "3c290c772568ae88d6697cd455d6880498486e0f4db321de775ef245b42a93b0"
+    },
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 8,
+      "candidate_event": {
+        "commit_oid": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24",
+        "observed_at": "2023-08-09T13:47:03Z"
+      },
+      "candidate_position": 3,
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "canonical_source_url": "https://codeberg.org/superseriousbusiness/gotosocial",
+      "cutoff_commit": "3722d124433d2087a97f68689fea934610703783",
+      "event_id": "53212fe3b22962dd38d4fd056f27c71d1175e290fd0303605cbda16793fb5547",
+      "evidence": [
+        {
+          "packet_id": "13c63a79e808e0cb5cc24526d869055a5fb2b3b5011002cd0d32bf49f764abca",
+          "packet_sha256": "4b0fdd323a01dd31d10dff31e0378857d7e7181c4161880c247d4644c86145b8",
+          "query_family_id": "ai_ban_policy_files",
+          "raw_evidence": [
+            {
+              "commit_oid": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24",
+              "kind": "file_content",
+              "line": 7,
+              "path": "CODE_OF_CONDUCT.md",
+              "source_url": "https://codeberg.org/superseriousbusiness/gotosocial",
+              "value": "2. We will not accept changes (code or otherwise) created with the aid of \"AI\" tooling. \"AI\" models are trained at the expense of underpaid workers filtering inputs of abhorrent content, and does not respect the owners of input content. Ethically, it sucks."
+            },
+            {
+              "commit_oid": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24",
+              "kind": "blame",
+              "line": 7,
+              "path": "CODE_OF_CONDUCT.md",
+              "source_url": "https://codeberg.org/superseriousbusiness/gotosocial",
+              "value": "cutoff blame attributes Sourcegraph line 7 to commit 31a215849e301f9e98a4735fd95a0fb0b7fc6f24"
+            }
+          ]
+        },
+        {
+          "packet_id": "9c01e70d8001e2d32b4049057418a1f1ba2d6154e8e958d2c2e4b4ff6f010e75",
+          "packet_sha256": "162623c37504316b2e25f4968bed9c78965ede27e6193990f28c4feae652e004",
+          "query_family_id": "ai_ban_policy_introduction_diffs",
+          "raw_evidence": [
+            {
+              "commit_oid": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24",
+              "kind": "diff_added",
+              "line": null,
+              "path": null,
+              "source_url": "https://codeberg.org/superseriousbusiness/gotosocial",
+              "value": "CODE_OF_CONDUCT.md CODE_OF_CONDUCT.md\n@@ -10,0 +7,3 @@ This document is currently a stub.\n+1. We are not interested in input from right-wingers, nazis, fascists, transphobes, homophobes, racists, harassers, abusers, white-supremacists, misogynists or capitalists. This list is NOT exhaustive. Input includes PRs, issues, and any other communication. Be gone!\n+2. We will not accept changes (code or otherwise) created with the aid of \"AI\" tooling. \"AI\" models are trained at the expense of underpaid workers filtering inputs of abhorrent content, and does not respect the owners of input content. Ethically, it sucks.\n+3. We will not accept changes (code or otherwise) that move GoToSocial toward enterprise / surveillance / other toxic capitalist pursuits.\n"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "13c63a79e808e0cb5cc24526d869055a5fb2b3b5011002cd0d32bf49f764abca",
+        "9c01e70d8001e2d32b4049057418a1f1ba2d6154e8e958d2c2e4b4ff6f010e75"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_files",
+        "ai_ban_policy_introduction_diffs"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "74fa34b3dd53a4f6f46d0efd9c6a1a60f723f0bdd86a14923667f356b20709fb",
+      "task_sha256": "f9279cf5e3b1a7224b019d97fddd73400799b59fbe691d18d0ee4184a69e4b32"
+    }
+  ],
+  "worksheet_sha256": "084ca4362081ec105b3f192157cebe8cf28fc479c538ebe0c8a7988752c47eb4"
+}

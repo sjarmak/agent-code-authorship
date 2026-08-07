@@ -17,40 +17,48 @@ class BuildReportFiguresTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.estimates = json.loads(
-            Path("results/survival-estimates.v1.json").read_text()
+            Path("results/survival-estimates.v2.json").read_text()
         )
         cls.comparison = json.loads(
             Path("results/contextual-comparison.v1.json").read_text()
         )
 
-    def test_survival_is_unchanged_plus_modified(self):
+    def test_survival_uses_repository_balanced_kaplan_meier(self):
         rows = survival_points(self.estimates)
-        first_source = self.estimates["strata"][0]["horizons"]["30"]
-        values = first_source["point_estimates"]["repository_weighted"][
-            "conditional_on_observable_lineage"
-        ]
+        first_source = next(
+            stratum
+            for stratum in self.estimates["strata"]
+            if stratum["dimensions"]
+            == {"agent_family": "Claude_Code", "language": "Go"}
+        )
+        values = first_source["estimate"]["primary"]["kaplan_meier"]
 
-        self.assertAlmostEqual(
-            rows[0]["survival"], values["unchanged"] + values["modified"]
+        self.assertEqual(
+            [row["survival"] for row in rows[:4]],
+            [value["survival"] for value in values],
+        )
+        self.assertTrue(
+            all(row["estimand"] == "repository_balanced_kaplan_meier" for row in rows)
         )
 
-    def test_survival_preserves_gate_failures(self):
+    def test_cursor_survival_is_monotone_after_censoring_correction(self):
         rows = survival_points(self.estimates)
         cursor = [
             row
             for row in rows
-            if row["language"] == "Go" and row["agent"] == "Cursor"
+            if row["language"] == "Python" and row["agent"] == "Cursor"
         ]
 
         self.assertEqual(len(cursor), 4)
-        self.assertTrue(all(row["status"] == "not_identified" for row in cursor))
-        self.assertTrue(all(row["survival"] is None for row in cursor))
+        self.assertTrue(all(row["status"] == "identified" for row in cursor))
+        values = [row["survival"] for row in cursor]
+        self.assertEqual(values, sorted(values, reverse=True))
 
     def test_contextual_effects_preserve_bootstrap_interval(self):
         rows = contextual_effects(self.comparison)
-        source = self.comparison["languages"][0]["horizons"]["30"][
-            "paired_estimate"
-        ]["repository_weighted_primary"]
+        source = self.comparison["languages"][0]["horizons"]["30"]["paired_estimate"][
+            "repository_weighted_primary"
+        ]
 
         self.assertEqual(rows[0]["point"], source["point"])
         self.assertEqual(rows[0]["lower"], source["bootstrap_95_ci"][0])
@@ -60,9 +68,7 @@ class BuildReportFiguresTests(unittest.TestCase):
         svg = render_contextual_effects(contextual_effects(self.comparison))
 
         self.assertTrue(inert_svg(svg))
-        self.assertIn(
-            "agent minus non-agent-attributed survival", svg.lower()
-        )
+        self.assertIn("agent minus non-agent-attributed survival", svg.lower())
         self.assertIn("Go · 30d", svg)
         self.assertNotIn("<script", svg.lower())
         self.assertNotIn("<foreignObject", svg)
@@ -94,13 +100,13 @@ class BuildReportFiguresTests(unittest.TestCase):
                 "import sys\n"
                 "from pathlib import Path\n"
                 "out = sys.argv[sys.argv.index('--out') + 1]\n"
-                "Path(out).write_text('<svg xmlns=\"http://www.w3.org/2000/svg\">"
+                'Path(out).write_text(\'<svg xmlns="http://www.w3.org/2000/svg">'
                 "<text>small multiples</text></svg>')\n"
             )
             output = root / "figures"
 
             build(
-                Path("results/survival-estimates.v1.json"),
+                Path("results/survival-estimates.v2.json"),
                 Path("results/contextual-comparison.v1.json"),
                 output,
                 skill_root,
@@ -115,10 +121,9 @@ class BuildReportFiguresTests(unittest.TestCase):
                 "tier2-survival-points.v1.json",
                 "tier2-survival-small-multiples.svg",
             }
-            self.assertEqual(
-                {path.name for path in output.iterdir()}, expected
-            )
+            self.assertEqual({path.name for path in output.iterdir()}, expected)
             manifest = json.loads((output / "manifest.v1.json").read_text())
+            self.assertEqual(manifest["method"]["renderer"], "tufte-chart")
             self.assertEqual(
                 set(manifest["figures"]),
                 {
@@ -128,6 +133,25 @@ class BuildReportFiguresTests(unittest.TestCase):
                     "tier2-survival-small-multiples.svg",
                 },
             )
+
+    def test_build_falls_back_when_tufte_renderer_is_unavailable(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "figures"
+
+            build(
+                Path("results/survival-estimates.v2.json"),
+                Path("results/contextual-comparison.v1.json"),
+                output,
+                Path(directory) / "missing-skill",
+            )
+
+            svg = (output / "tier2-survival-small-multiples.svg").read_text()
+            self.assertTrue(inert_svg(svg))
+            self.assertIn("Tier 2 agent-attributed code survival", svg)
+            self.assertIn("Python · Cursor", svg)
+            manifest = json.loads((output / "manifest.v1.json").read_text())
+            self.assertEqual(manifest["method"]["renderer"], "internal_inert_svg")
+            self.assertNotIn("source", manifest["method"])
 
 
 if __name__ == "__main__":

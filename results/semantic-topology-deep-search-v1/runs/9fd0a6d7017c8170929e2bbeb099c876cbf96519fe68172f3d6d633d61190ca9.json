@@ -1,0 +1,560 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "fd3425a1c604743dc5ccc4494ce5236180f94991560f0a05b142634b5389e4de",
+  "artifact_version": 1,
+  "canonical_repository_id": "qemu-project/qemu",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "300438ffbb8d9430cac2fcc15cba6f482b2c0587"
+  ],
+  "cited_files": [
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/uefi/var-service-auth.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-auth.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/uefi/var-service-policy.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-policy.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/uefi/var-service-siglist.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-siglist.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/uefi/var-service-vars.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-vars.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/uefi/var-service-core.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-core.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/virtio-gpu.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/virtio-gpu-virgl.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu-virgl.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/virtio-gpu-rutabaga.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu-rutabaga.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "contrib/vhost-user-gpu/virgl.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/vhost-user-gpu/virgl.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/vmware_vga.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/qxl-render.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/qxl-render.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/qxl.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/qxl.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/scsi/scsi-disk.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/scsi/scsi-disk.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/usb/hcd-xhci.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/usb/hcd-xhci-sysbus.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci-sysbus.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/usb/redirect.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/redirect.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/vfio-user/device.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio-user/device.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/vfio/pci.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio/pci.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/ide/core.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/core.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/dma/omap_dma.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/omap_dma.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/dma/soc_dma.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/soc_dma.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/misc/applesmc.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/misc/applesmc.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/misc/ivshmem-pci.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/misc/ivshmem-pci.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/net/cadence_gem.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/net/cadence_gem.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/net/xilinx_axienet.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/net/xilinx_axienet.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/char/imx_serial.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/char/imx_serial.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/arm/tcg/gicv5-cpuif.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/arm/tcg/gicv5-cpuif.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/arm/tcg/mte_helper.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/arm/tcg/mte_helper.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/arm/tcg/cpu32.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/arm/tcg/cpu32.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/hexagon/translate.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/translate.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/hexagon/genptr.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/genptr.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/i386/tcg/seg_helper.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/i386/tcg/seg_helper.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "linux-user/sparc/signal.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/linux-user/sparc/signal.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/usb/hcd-xhci-pci.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci-pci.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "migration/postcopy-ram.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/migration/postcopy-ram.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "ui/input-barrier.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/input-barrier.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "ui/vnc.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/vnc.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "block/curl.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/sd/sd.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/sd/sd.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/virtio-gpu-udmabuf.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu-udmabuf.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/audio/intel-hda.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/audio/intel-hda.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/vfio/igd.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio/igd.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/qemu-iotests/108",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qemu-iotests/108"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "contrib/plugins/execlog.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/plugins/execlog.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/hyperv/vmbus.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/docker/docker.py",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/docker/docker.py"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "configure",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/configure"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "ui/gtk-egl.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/gtk-egl.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "ui/gtk-gl-area.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/gtk-gl-area.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/tcg/hexagon/unaligned_data.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/tcg/hexagon/unaligned_data.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/functional/hexagon/test_arch_tests.py",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/functional/hexagon/test_arch_tests.py"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/qtest/usb-hcd-xhci-test.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/usb-hcd-xhci-test.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/unit/test-util-filemonitor.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/unit/test-util-filemonitor.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "linux-user/hexagon/cpu_loop.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/linux-user/hexagon/cpu_loop.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/hexagon/cpu.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/cpu.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "scripts/get_maintainer.pl",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/scripts/get_maintainer.pl"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "docs/devel/ssi.rst",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/devel/ssi.rst"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "docs/devel/index-internals.rst",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/devel/index-internals.rst"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "docs/about/emulation.rst",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/about/emulation.rst"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "docs/about/removed-features.rst",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/about/removed-features.rst"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "MAINTAINERS",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/MAINTAINERS"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": ".gitlab-map-auto",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-map-auto"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": ".gitlab-map-manual",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-map-manual"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "scripts/gitlab-map-check",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/scripts/gitlab-map-check"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "scripts/gitlab-map-update",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/scripts/gitlab-map-update"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": ".gitlab-ci.d/buildtest.yml",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-ci.d/buildtest.yml"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": ".gitlab-ci.d/macos.yml",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-ci.d/macos.yml"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "docs/meson.build",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/meson.build"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "contrib/plugins/dlcall.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/plugins/dlcall.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/tcg/multiarch/test-plugin-syscall-filter.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/tcg/multiarch/test-plugin-syscall-filter.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "VERSION",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/VERSION"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/vm/freebsd",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/vm/freebsd"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "crypto/cipher.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/crypto/cipher.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "crypto/meson.build",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/crypto/meson.build"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "meson.build",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/meson.build"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/docker/dockerfiles/debian-hexagon-cross.docker",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/docker/dockerfiles/debian-hexagon-cross.docker"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/ppc/mem_helper.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/ppc/mem_helper.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/vfio/listener.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio/listener.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/i386/tcg/emit.c.inc",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/i386/tcg/emit.c.inc"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "target/hexagon/idef-parser/parser-helpers.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/idef-parser/parser-helpers.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "chardev/char-win-stdio.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-win-stdio.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "include/hw/dma/soc_dma.h",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/dma/soc_dma.h"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2034",
+  "error": {
+    "code": "ERROR_INTERNAL",
+    "message": "This response exceeded the maximum output length. Ask a follow-up question like \"continue\" to see more."
+  },
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/qemu-project-qemu at revision 300438ffbb8d9430cac2fcc15cba6f482b2c0587, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: qemu-project/qemu; stratum: policy_control; cutoff: 300438ffbb8d9430cac2fcc15cba6f482b2c0587.",
+  "prompt_family_id": "delegated_task_intent",
+  "prompt_sha256": "18a897e93bdd1bcb5bc8eeb6b35444bc0355a5dd2cae5bb5201207c4a0949fb6",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a comprehensive view of the codebase at this revision. Let me compile the taxonomy analysis.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `qemu-project/qemu` @ `300438f`\n\nStratum: `policy_control` | Cutoff: `300438ffbb8d9430cac2fcc15cba6f482b2c0587`\n\n---\n\n### 1. Localized Bug Fix\n\nThe dominant task shape across this revision window. These are targeted, narrowly scoped repairs to broken or incorrect behavior with clear `Fixes:` or `Resolves:` annotations.\n\n**Security / guest-triggerable bugs (highest density):**\n\n| File / Symbol | Commit | Description |\n|---|---|---|\n| [`hw/uefi/var-service-auth.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-auth.c) | `7022166` | `hw/uefi`: buffer length check before reading size field \u2014 CVE-2026-58581 |\n| [`hw/uefi/var-service-policy.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-policy.c) | `bd9b3c5` | `SetupMode` made read-only \u2014 CVE-2026-16288 |\n| [`hw/uefi/var-service-siglist.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-siglist.c) | `647ba95` | Zero-length signature list endless-loop prevention \u2014 CVE-2026-61406 |\n| [`hw/uefi/var-service-policy.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-policy.c) | `8e0ddb4` | Policy entry memory footprint limit \u2014 CVE-2026-61405 |\n| [`hw/uefi/var-service-vars.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-vars.c) | `acba2d7` | Post-load migration sanity checks \u2014 CVE-2026-61404 |\n| [`hw/uefi/var-service-core.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-core.c) | `ff5a9eb` | Removed unreachable debug function \u2014 CVE-2026-58582 |\n| [`hw/display/virtio-gpu.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu.c) | `f1af81b` | `pixman_image_create_bits()` NULL-return dereference; stride bounds checks |\n| [`hw/display/virtio-gpu.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu.c) | same | `g_new` \u2192 `g_try_new` with OOM handling in `virtio_gpu_load`/`virtio_gpu_blob_load` |\n| [`hw/display/virtio-gpu-virgl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu-virgl.c), [`virtio-gpu-rutabaga.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu-rutabaga.c), [`contrib/vhost-user-gpu/virgl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/vhost-user-gpu/virgl.c) | multiple | `VIRTIO_GPU_MAX_CMD_SUBMIT_SIZE` cap on `cs.size` to prevent guest-triggered OOM |\n| [`hw/display/vmware_vga.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c) | `f604b80` | Integer overflow in `SVGA_CMD_DEFINE_ALPHA_CURSOR` allowing long-running host loop; `args--` unsigned underflow |\n| [`hw/display/qxl-render.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/qxl-render.c) | (in diff) | `qxl_unpack_chunks`: TOCTOU on `chunk->data_size`; `qxl_cursor` passes pre-read `chunk_data_size` |\n| [`hw/display/qxl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/qxl.c) | (in diff) | `qxl_spice_monitors_config_async`: `sizeof(QXLHead)` missing from size passed to `qxl_phys2virt` |\n| [`hw/scsi/scsi-disk.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/scsi/scsi-disk.c) | `d149a11` | MODE SELECT truncated page read beyond valid `inbuf[]` |\n| [`hw/scsi/scsi-disk.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/scsi/scsi-disk.c) | `e2da3d9` | Off-by-one in `mode_sense_page` assertion |\n| [`hw/usb/hcd-xhci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci.c) | `4daeaa2` | Guest-triggerable `assert()` in `xhci_find_stream()` \u2192 `qemu_log_mask` |\n| [`hw/usb/hcd-xhci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci.c) | `12d8ee9` | UB shift on guest-controlled interval exponent in `xhci_init_epctx` |\n| [`hw/usb/hcd-xhci-sysbus.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci-sysbus.c) | `cc479aa` | OOB `s->irq[n]` access in `xhci_sysbus_intr_raise()` |\n| [`hw/usb/redirect.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/redirect.c) | `a002485` | Infinite loop and SIGFPE from zero `max_packet_size` in usbredir |\n| [`hw/usb/redirect.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/redirect.c) | `9bf52d0` | Use-after-free in buffered bulk packet overflow |\n| [`hw/vfio-user/device.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio-user/device.c) | `f6a321c`,`3966a42`,`152f7dd`,`6a51aab`,`5f0cbed`,`bf10c11`,`761ac96`,`20b3a36`,`aef1e7c` | Cluster of vfio-user hardening: buffer overflows, excessive malloc prevention, capability check fix |\n| [`hw/vfio/pci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio/pci.c) | `dff5286`,`86abb10` | Failed config read not narrowed to plausible byte; invalid `PCI_INTERRUPT_PIN` rejection |\n| [`hw/ide/core.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/core.c) | `443e024` | `prepare_buf()` assert replaced with proper error path in `ide_dma_cb()` |\n| [`hw/dma/omap_dma.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/omap_dma.c) | `efbf01e` | Integer overflow in element/frame arithmetic with `int` variables |\n| [`hw/dma/soc_dma.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/soc_dma.c) | `3162318` | Raw pointer memcpy without bounds checking \u2192 `physical_memory_map()` |\n| [`hw/misc/applesmc.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/misc/applesmc.c) | (in diff) | Incorrect `\"\\0\"` and `\"\\0x3\"` string literals \u2192 `\"\\x00\"` / `\"\\x03\"` |\n| [`hw/misc/ivshmem-pci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/misc/ivshmem-pci.c) | (in diff) | Missing handler teardown and NULL sentinel before `migrate_del_blocker`; dangling `peers` pointer |\n| [`hw/net/cadence_gem.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/net/cadence_gem.c) | (in diff) | Missing `rx_desc_addr`/`tx_desc_addr` reset on device reset; missing read-back cases |\n| [`hw/net/xilinx_axienet.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/net/xilinx_axienet.c) | `8392734` | PHY register 17 link-status bit fixed |\n| [`hw/char/imx_serial.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/char/imx_serial.c) | `8833ff9` | Missing `ucr2` in VMState, version bump |\n| [`target/arm/tcg/gicv5-cpuif.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/arm/tcg/gicv5-cpuif.c) | `4ef00a9`,`2a98478` | GICv5: `ppibit` width wrong (uint32_t \u2192 uint64_t); ICC_APR_EL1 write not triggering IRQ/FIQ update |\n| [`target/arm/tcg/mte_helper.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/arm/tcg/mte_helper.c) | `1f8aa4b` | `raw_mte_check`: MTX tested as boolean instead of bit pair |\n| [`target/arm/tcg/cpu32.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/arm/tcg/cpu32.c) | `b693da6` (revert) | A-profile 32-bit CPU types lost from `qemu-arm` binary after bad refactor |\n| [`target/hexagon/translate.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/translate.c) | `94a5b3f`,`c4066c8`,`44d1829` | Hexagon: PC not advancing for non-COF TB-ending packets; deferred sreg-write reads uninitialized temp; `get_phys_addr_debug` page-aligned instead of byte-accurate |\n| [`target/hexagon/genptr.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/genptr.c) | `93cf730`,`84b9a53` | Unaligned scalar loads/stores silently succeeded; `MO_ALIGN` added |\n| [`target/i386/tcg/seg_helper.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/i386/tcg/seg_helper.c) | `51aa3f3` | `SYSRETQ` canonicality check missing on Intel CPU emulation |\n| [`linux-user/sparc/signal.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/linux-user/sparc/signal.c) | `c0e3704` | `block_signals()` return unchecked in `sparc64_set_context()` |\n| [`hw/usb/hcd-xhci-pci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci-pci.c) | `054ef33` | xHCI PCI host-link refcount cycle preventing `device_finalize()` on unplug |\n| [`migration/postcopy-ram.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/migration/postcopy-ram.c) | `c923ae7` | Post-increment checked before overflow, `vcpu_faults_current[]` wraps silently |\n| [`ui/input-barrier.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/input-barrier.c) | (in diff) | Off-by-one `<=` \u2192 `<` in `input_barrier_to_linux` |\n| [`ui/vnc.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/vnc.c) | (in diff) | Pixel format shift/max bounds checks; `vnc_refresh_lossy_rect` reads past display height |\n| [`block/curl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c) | `68dd698` | Missing `User-Agent` header causing 403 from certain HTTP servers |\n| [`hw/sd/sd.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/sd/sd.c) | (in diff) | `READ_MULTIPLE_BLOCK` out-of-range sets dummy byte correctly and returns |\n| [`hw/display/virtio-gpu-udmabuf.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu-udmabuf.c) | (in diff) | `virtio_gpu_destroy_udmabuf` missing before early return on failed remap |\n| [`hw/audio/intel-hda.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/audio/intel-hda.c) | (in diff) | `MEMTXATTRS_UNSPECIFIED` \u2192 `{ .memory = true }` in CORB/BDL DMA reads |\n| [`hw/vfio/igd.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio/igd.c) | `256229e` | IGD legacy VBIOS BDSM save-on-first-access prevents garbled BIOS POST |\n| [`tests/qemu-iotests/108`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qemu-iotests/108) | `94bd029` | FUSE mount leak on cleanup ordering |\n\n---\n\n### 2. Refactor\n\nStructural code changes without behavior change (or with equivalent behavior under a different implementation model).\n\n| File / Symbol | Commit | Description |\n|---|---|---|\n| [`hw/dma/soc_dma.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/soc_dma.c) | `02cfe21`,`f00bef3`,`68f788e`,`f5541f5` | Remove `soc_dma_port_fifo` support entirely; simplify `soc_dma_ch_update()`; remove union from `memmap_entry_s`; drop raw host-pointer `paddr` fields |\n| [`contrib/plugins/execlog.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/plugins/execlog.c) | (in diff) | Replace `GArray + GRWLock` for per-vCPU state with `qemu_plugin_scoreboard`; eliminate manual lock/unlock and array growth |\n| [`hw/hyperv/vmbus.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c) | `d915f9d` | Replace manual `qemu_mutex_lock/unlock + goto out` with `QEMU_LOCK_GUARD()` |\n| [`ui/vnc.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/vnc.c) | (in diff) | Function signatures tightened from `int` to typed wire widths (`uint8_t`, `uint16_t`, `uint32_t`); forward declarations removed |\n| [`tests/docker/docker.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/docker/docker.py), [`configure`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/configure) | `43bf3a0` | Replace `--engine TYPE / EngineEnum` with `--command CMD`; engine autodetect moved to probe, no longer a global |\n| [`ui/gtk-egl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/gtk-egl.c), [`ui/gtk-gl-area.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/gtk-gl-area.c) | (in diff) | DMA-BUF GL block/submit sequencing changed; workaround comment removed |\n\n---\n\n### 3. Test Generation\n\nNew test cases added to validate specific behaviors.\n\n| File / Symbol | Commit | Description |\n|---|---|---|\n| [`tests/tcg/hexagon/unaligned_data.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/tcg/hexagon/unaligned_data.c) | `430261a` | TCG test: SIGBUS on unaligned `memh`/`memw`/`memd` loads and stores |\n| [`tests/functional/hexagon/test_arch_tests.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/functional/hexagon/test_arch_tests.py) | `260d15c` | Functional test: Hexagon exception delivery and guest-mode entry/exit via UART |\n| [`tests/qtest/usb-hcd-xhci-test.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/usb-hcd-xhci-test.c) | `ba54d7e` | `test_xhci_unplug_finalize`: regression test for xHCI refcount cycle |\n| [`tests/unit/test-util-filemonitor.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/unit/test-util-filemonitor.c) | `7430c34` | FreeBSD 15 native inotify semantics adaptation in filemonitor test |\n\n---\n\n### 4. Feature\n\nNew capabilities observable at the interface level (user, guest, or API).\n\n| File / Symbol | Commit | Description |\n|---|---|---|\n| [`linux-user/hexagon/cpu_loop.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/linux-user/hexagon/cpu_loop.c) | `d7a6df7` | Hexagon: `HEX_CAUSE_MISALIGNED_LOAD/_STORE` \u2192 SIGBUS in `cpu_loop` |\n| [`target/hexagon/cpu.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/cpu.c) | `13eb268` | `hexagon_cpu_do_unaligned_access()` \u2014 alignment fault delivery in sysemu |\n| [`contrib/plugins/execlog.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/plugins/execlog.c) | (in diff) | `vcpu_exit` callback: flushes final cached instruction on thread-exit syscall (previously silently dropped) |\n| [`scripts/get_maintainer.pl`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/scripts/get_maintainer.pl) | `84a6c5f` | `get_maintainer.pl` now reports GitLab handle alongside name/email |\n\n> **Ambiguity note:** `vcpu_exit` in execlog and the Hexagon alignment handlers sit on the boundary between bug fix and feature. They are new code paths that correct missing behavior: classifying as **feature** (new observable contract) is defensible, but **localized bug fix** (missing implementation) is equally valid.\n\n---\n\n### 5. Documentation / Configuration\n\nChanges to docs, CI/build configuration, and metadata files without code logic changes.\n\n| File | Commit | Description |\n|---|---|---|\n| [`docs/devel/ssi.rst`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/devel/ssi.rst) | (new file) | 132-line SSI/SPI flash interface boundary document |\n| [`docs/devel/index-internals.rst`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/devel/index-internals.rst) | (in diff) | Index entry for new ssi.rst |\n| [`docs/about/emulation.rst`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/about/emulation.rst) | `533c98e` | Clarify `dlcall` guest data model requirement; `syscall_num=` usage |\n| [`docs/about/removed-features.rst`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/about/removed-features.rst) | `1667cf6` | Typo fix: `happend` \u2192 `happened` |\n| [`MAINTAINERS`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/MAINTAINERS) | `fcebaea` | `soc_dma` added to OMAP section; `ssi.rst` to SSI section; hexagon functional test path |\n| [`.gitlab-map-auto`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-map-auto), [`.gitlab-map-manual`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-map-manual) | `4f76157` | New GitLab handle\u2192real-name mapping files |\n| [`scripts/gitlab-map-check`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/scripts/gitlab-map-check), [`scripts/gitlab-map-update`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/scripts/gitlab-map-update) | `4f76157` | Supporting scripts for map maintenance |\n| [`.gitlab-ci.d/buildtest.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-ci.d/buildtest.yml) | `e872e09` | Add `hexagon-softmmu` to CI build targets |\n| [`.gitlab-ci.d/macos.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-ci.d/macos.yml) | `ad14439` | Remove `gdb` from macOS CI jobs (hung on GitLab runners) |\n| [`docs/meson.build`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/meson.build) | `c366258` | Remove `-j auto` from Sphinx args to fix multiprocess EOFError |\n| [`contrib/plugins/dlcall.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/plugins/dlcall.c) | `bc5b22b` | Comment corrected: MIPS O32 and arm32 ABI syscall number bounds described |\n| [`tests/tcg/multiarch/test-plugin-syscall-filter.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/tcg/multiarch/test-plugin-syscall-filter.c) | `99916cd` | Comment corrected: syscall 4096 is safe due to filter argument check, not uniqueness |\n| [`VERSION`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/VERSION) | `cbd42e2` | `11.0.90` \u2192 `11.0.91` (rc1 version bump) |\n| [`tests/vm/freebsd`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/vm/freebsd) | `1b03da3` | Update FreeBSD CI image to 14.4 |\n\n---\n\n### 6. Dependency Migration\n\nChanges to build system wiring between third-party libraries.\n\n| File | Commit | Description |\n|---|---|---|\n| [`crypto/cipher.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/crypto/cipher.c), [`crypto/meson.build`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/crypto/meson.build) | `15ebb1e` | `CONFIG_GNUTLS` \u2192 `CONFIG_GNUTLS_CRYPTO` to restore `--enable-nettle`/`--enable-gcrypt` options broken by earlier gnutls bump |\n| [`meson.build`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/meson.build) | `0e48aaa` | Propagate `qemu_ldflags` to Rust link step (sanitizer flags missing) |\n| [`tests/docker/dockerfiles/debian-hexagon-cross.docker`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/docker/dockerfiles/debian-hexagon-cross.docker) | `390bf4f` | Replace tarball extraction with Debian package installation; add LLVM 22 APT repo |\n\n---\n\n### 7. Cleanup\n\nDead-code removal, warning elimination, and minor mechanical hygiene.\n\n| File | Commit | Description |\n|---|---|---|\n| [`target/ppc/mem_helper.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/ppc/mem_helper.c) | `a148ca7` | Remove unused `helper_lscbx()` (left from PPC 601 removal in 2022) |\n| [`hw/vfio/listener.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio/listener.c) | `d06edc8` | Remove unnecessary `linux/kvm.h` include breaking sparc/sparc64 build |\n| [`target/i386/tcg/emit.c.inc`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/i386/tcg/emit.c.inc) | `21069e6` | Remove stale `FIXME` comment |\n| [`target/hexagon/idef-parser/parser-helpers.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/idef-parser/parser-helpers.c) | `8aea63e` | Rename `HALF` local \u2192 `tmp_half` to avoid `-Wshadow=local` on GCC 14 |\n| [`chardev/char-win-stdio.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-win-stdio.c) | `dacbde0` | Typo fix: `win_stiod_chr_set_echo` \u2192 `win_stdio_chr_set_echo` (3 sites) |\n| [`migration/postcopy-ram.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/migration/postcopy-ram.c) | `60f2281` | Remove redundant `memset` after `g_new0`; normalize HMP label to singular \"Latency\" |\n| [`hw/dma/omap_dma.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/omap_dma.c) | (in diff) | Remove stale TODO about dirty-bit update for IMIF/EMIFF destinations |\n| [`include/hw/dma/soc_dma.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/dma/soc_dma.h) | (in diff) | Remove `paddr`, `io_fn`, `io_opaque` from `soc_dma_ch_s`;",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:37:58Z",
+    "name": "users/476/conversations/2034",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a comprehensive view of the codebase at this revision. Let me compile the taxonomy analysis.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `qemu-project/qemu` @ `300438f`\n\nStratum: `policy_control` | Cutoff: `300438ffbb8d9430cac2fcc15cba6f482b2c0587`\n\n---\n\n### 1. Localized Bug Fix\n\nThe dominant task shape across this revision window. These are targeted, narrowly scoped repairs to broken or incorrect behavior with clear `Fixes:` or `Resolves:` annotations.\n\n**Security / guest-triggerable bugs (highest density):**\n\n| File / Symbol | Commit | Description |\n|---|---|---|\n| [`hw/uefi/var-service-auth.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-auth.c) | `7022166` | `hw/uefi`: buffer length check before reading size field \u2014 CVE-2026-58581 |\n| [`hw/uefi/var-service-policy.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-policy.c) | `bd9b3c5` | `SetupMode` made read-only \u2014 CVE-2026-16288 |\n| [`hw/uefi/var-service-siglist.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-siglist.c) | `647ba95` | Zero-length signature list endless-loop prevention \u2014 CVE-2026-61406 |\n| [`hw/uefi/var-service-policy.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-policy.c) | `8e0ddb4` | Policy entry memory footprint limit \u2014 CVE-2026-61405 |\n| [`hw/uefi/var-service-vars.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-vars.c) | `acba2d7` | Post-load migration sanity checks \u2014 CVE-2026-61404 |\n| [`hw/uefi/var-service-core.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/uefi/var-service-core.c) | `ff5a9eb` | Removed unreachable debug function \u2014 CVE-2026-58582 |\n| [`hw/display/virtio-gpu.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu.c) | `f1af81b` | `pixman_image_create_bits()` NULL-return dereference; stride bounds checks |\n| [`hw/display/virtio-gpu.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu.c) | same | `g_new` \u2192 `g_try_new` with OOM handling in `virtio_gpu_load`/`virtio_gpu_blob_load` |\n| [`hw/display/virtio-gpu-virgl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu-virgl.c), [`virtio-gpu-rutabaga.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu-rutabaga.c), [`contrib/vhost-user-gpu/virgl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/vhost-user-gpu/virgl.c) | multiple | `VIRTIO_GPU_MAX_CMD_SUBMIT_SIZE` cap on `cs.size` to prevent guest-triggered OOM |\n| [`hw/display/vmware_vga.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c) | `f604b80` | Integer overflow in `SVGA_CMD_DEFINE_ALPHA_CURSOR` allowing long-running host loop; `args--` unsigned underflow |\n| [`hw/display/qxl-render.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/qxl-render.c) | (in diff) | `qxl_unpack_chunks`: TOCTOU on `chunk->data_size`; `qxl_cursor` passes pre-read `chunk_data_size` |\n| [`hw/display/qxl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/qxl.c) | (in diff) | `qxl_spice_monitors_config_async`: `sizeof(QXLHead)` missing from size passed to `qxl_phys2virt` |\n| [`hw/scsi/scsi-disk.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/scsi/scsi-disk.c) | `d149a11` | MODE SELECT truncated page read beyond valid `inbuf[]` |\n| [`hw/scsi/scsi-disk.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/scsi/scsi-disk.c) | `e2da3d9` | Off-by-one in `mode_sense_page` assertion |\n| [`hw/usb/hcd-xhci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci.c) | `4daeaa2` | Guest-triggerable `assert()` in `xhci_find_stream()` \u2192 `qemu_log_mask` |\n| [`hw/usb/hcd-xhci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci.c) | `12d8ee9` | UB shift on guest-controlled interval exponent in `xhci_init_epctx` |\n| [`hw/usb/hcd-xhci-sysbus.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci-sysbus.c) | `cc479aa` | OOB `s->irq[n]` access in `xhci_sysbus_intr_raise()` |\n| [`hw/usb/redirect.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/redirect.c) | `a002485` | Infinite loop and SIGFPE from zero `max_packet_size` in usbredir |\n| [`hw/usb/redirect.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/redirect.c) | `9bf52d0` | Use-after-free in buffered bulk packet overflow |\n| [`hw/vfio-user/device.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio-user/device.c) | `f6a321c`,`3966a42`,`152f7dd`,`6a51aab`,`5f0cbed`,`bf10c11`,`761ac96`,`20b3a36`,`aef1e7c` | Cluster of vfio-user hardening: buffer overflows, excessive malloc prevention, capability check fix |\n| [`hw/vfio/pci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio/pci.c) | `dff5286`,`86abb10` | Failed config read not narrowed to plausible byte; invalid `PCI_INTERRUPT_PIN` rejection |\n| [`hw/ide/core.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/core.c) | `443e024` | `prepare_buf()` assert replaced with proper error path in `ide_dma_cb()` |\n| [`hw/dma/omap_dma.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/omap_dma.c) | `efbf01e` | Integer overflow in element/frame arithmetic with `int` variables |\n| [`hw/dma/soc_dma.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/soc_dma.c) | `3162318` | Raw pointer memcpy without bounds checking \u2192 `physical_memory_map()` |\n| [`hw/misc/applesmc.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/misc/applesmc.c) | (in diff) | Incorrect `\"\\0\"` and `\"\\0x3\"` string literals \u2192 `\"\\x00\"` / `\"\\x03\"` |\n| [`hw/misc/ivshmem-pci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/misc/ivshmem-pci.c) | (in diff) | Missing handler teardown and NULL sentinel before `migrate_del_blocker`; dangling `peers` pointer |\n| [`hw/net/cadence_gem.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/net/cadence_gem.c) | (in diff) | Missing `rx_desc_addr`/`tx_desc_addr` reset on device reset; missing read-back cases |\n| [`hw/net/xilinx_axienet.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/net/xilinx_axienet.c) | `8392734` | PHY register 17 link-status bit fixed |\n| [`hw/char/imx_serial.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/char/imx_serial.c) | `8833ff9` | Missing `ucr2` in VMState, version bump |\n| [`target/arm/tcg/gicv5-cpuif.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/arm/tcg/gicv5-cpuif.c) | `4ef00a9`,`2a98478` | GICv5: `ppibit` width wrong (uint32_t \u2192 uint64_t); ICC_APR_EL1 write not triggering IRQ/FIQ update |\n| [`target/arm/tcg/mte_helper.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/arm/tcg/mte_helper.c) | `1f8aa4b` | `raw_mte_check`: MTX tested as boolean instead of bit pair |\n| [`target/arm/tcg/cpu32.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/arm/tcg/cpu32.c) | `b693da6` (revert) | A-profile 32-bit CPU types lost from `qemu-arm` binary after bad refactor |\n| [`target/hexagon/translate.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/translate.c) | `94a5b3f`,`c4066c8`,`44d1829` | Hexagon: PC not advancing for non-COF TB-ending packets; deferred sreg-write reads uninitialized temp; `get_phys_addr_debug` page-aligned instead of byte-accurate |\n| [`target/hexagon/genptr.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/genptr.c) | `93cf730`,`84b9a53` | Unaligned scalar loads/stores silently succeeded; `MO_ALIGN` added |\n| [`target/i386/tcg/seg_helper.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/i386/tcg/seg_helper.c) | `51aa3f3` | `SYSRETQ` canonicality check missing on Intel CPU emulation |\n| [`linux-user/sparc/signal.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/linux-user/sparc/signal.c) | `c0e3704` | `block_signals()` return unchecked in `sparc64_set_context()` |\n| [`hw/usb/hcd-xhci-pci.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/hcd-xhci-pci.c) | `054ef33` | xHCI PCI host-link refcount cycle preventing `device_finalize()` on unplug |\n| [`migration/postcopy-ram.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/migration/postcopy-ram.c) | `c923ae7` | Post-increment checked before overflow, `vcpu_faults_current[]` wraps silently |\n| [`ui/input-barrier.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/input-barrier.c) | (in diff) | Off-by-one `<=` \u2192 `<` in `input_barrier_to_linux` |\n| [`ui/vnc.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/vnc.c) | (in diff) | Pixel format shift/max bounds checks; `vnc_refresh_lossy_rect` reads past display height |\n| [`block/curl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c) | `68dd698` | Missing `User-Agent` header causing 403 from certain HTTP servers |\n| [`hw/sd/sd.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/sd/sd.c) | (in diff) | `READ_MULTIPLE_BLOCK` out-of-range sets dummy byte correctly and returns |\n| [`hw/display/virtio-gpu-udmabuf.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/virtio-gpu-udmabuf.c) | (in diff) | `virtio_gpu_destroy_udmabuf` missing before early return on failed remap |\n| [`hw/audio/intel-hda.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/audio/intel-hda.c) | (in diff) | `MEMTXATTRS_UNSPECIFIED` \u2192 `{ .memory = true }` in CORB/BDL DMA reads |\n| [`hw/vfio/igd.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio/igd.c) | `256229e` | IGD legacy VBIOS BDSM save-on-first-access prevents garbled BIOS POST |\n| [`tests/qemu-iotests/108`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qemu-iotests/108) | `94bd029` | FUSE mount leak on cleanup ordering |\n\n---\n\n### 2. Refactor\n\nStructural code changes without behavior change (or with equivalent behavior under a different implementation model).\n\n| File / Symbol | Commit | Description |\n|---|---|---|\n| [`hw/dma/soc_dma.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/soc_dma.c) | `02cfe21`,`f00bef3`,`68f788e`,`f5541f5` | Remove `soc_dma_port_fifo` support entirely; simplify `soc_dma_ch_update()`; remove union from `memmap_entry_s`; drop raw host-pointer `paddr` fields |\n| [`contrib/plugins/execlog.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/plugins/execlog.c) | (in diff) | Replace `GArray + GRWLock` for per-vCPU state with `qemu_plugin_scoreboard`; eliminate manual lock/unlock and array growth |\n| [`hw/hyperv/vmbus.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c) | `d915f9d` | Replace manual `qemu_mutex_lock/unlock + goto out` with `QEMU_LOCK_GUARD()` |\n| [`ui/vnc.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/vnc.c) | (in diff) | Function signatures tightened from `int` to typed wire widths (`uint8_t`, `uint16_t`, `uint32_t`); forward declarations removed |\n| [`tests/docker/docker.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/docker/docker.py), [`configure`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/configure) | `43bf3a0` | Replace `--engine TYPE / EngineEnum` with `--command CMD`; engine autodetect moved to probe, no longer a global |\n| [`ui/gtk-egl.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/gtk-egl.c), [`ui/gtk-gl-area.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/gtk-gl-area.c) | (in diff) | DMA-BUF GL block/submit sequencing changed; workaround comment removed |\n\n---\n\n### 3. Test Generation\n\nNew test cases added to validate specific behaviors.\n\n| File / Symbol | Commit | Description |\n|---|---|---|\n| [`tests/tcg/hexagon/unaligned_data.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/tcg/hexagon/unaligned_data.c) | `430261a` | TCG test: SIGBUS on unaligned `memh`/`memw`/`memd` loads and stores |\n| [`tests/functional/hexagon/test_arch_tests.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/functional/hexagon/test_arch_tests.py) | `260d15c` | Functional test: Hexagon exception delivery and guest-mode entry/exit via UART |\n| [`tests/qtest/usb-hcd-xhci-test.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/usb-hcd-xhci-test.c) | `ba54d7e` | `test_xhci_unplug_finalize`: regression test for xHCI refcount cycle |\n| [`tests/unit/test-util-filemonitor.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/unit/test-util-filemonitor.c) | `7430c34` | FreeBSD 15 native inotify semantics adaptation in filemonitor test |\n\n---\n\n### 4. Feature\n\nNew capabilities observable at the interface level (user, guest, or API).\n\n| File / Symbol | Commit | Description |\n|---|---|---|\n| [`linux-user/hexagon/cpu_loop.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/linux-user/hexagon/cpu_loop.c) | `d7a6df7` | Hexagon: `HEX_CAUSE_MISALIGNED_LOAD/_STORE` \u2192 SIGBUS in `cpu_loop` |\n| [`target/hexagon/cpu.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/cpu.c) | `13eb268` | `hexagon_cpu_do_unaligned_access()` \u2014 alignment fault delivery in sysemu |\n| [`contrib/plugins/execlog.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/plugins/execlog.c) | (in diff) | `vcpu_exit` callback: flushes final cached instruction on thread-exit syscall (previously silently dropped) |\n| [`scripts/get_maintainer.pl`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/scripts/get_maintainer.pl) | `84a6c5f` | `get_maintainer.pl` now reports GitLab handle alongside name/email |\n\n> **Ambiguity note:** `vcpu_exit` in execlog and the Hexagon alignment handlers sit on the boundary between bug fix and feature. They are new code paths that correct missing behavior: classifying as **feature** (new observable contract) is defensible, but **localized bug fix** (missing implementation) is equally valid.\n\n---\n\n### 5. Documentation / Configuration\n\nChanges to docs, CI/build configuration, and metadata files without code logic changes.\n\n| File | Commit | Description |\n|---|---|---|\n| [`docs/devel/ssi.rst`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/devel/ssi.rst) | (new file) | 132-line SSI/SPI flash interface boundary document |\n| [`docs/devel/index-internals.rst`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/devel/index-internals.rst) | (in diff) | Index entry for new ssi.rst |\n| [`docs/about/emulation.rst`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/about/emulation.rst) | `533c98e` | Clarify `dlcall` guest data model requirement; `syscall_num=` usage |\n| [`docs/about/removed-features.rst`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/about/removed-features.rst) | `1667cf6` | Typo fix: `happend` \u2192 `happened` |\n| [`MAINTAINERS`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/MAINTAINERS) | `fcebaea` | `soc_dma` added to OMAP section; `ssi.rst` to SSI section; hexagon functional test path |\n| [`.gitlab-map-auto`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-map-auto), [`.gitlab-map-manual`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-map-manual) | `4f76157` | New GitLab handle\u2192real-name mapping files |\n| [`scripts/gitlab-map-check`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/scripts/gitlab-map-check), [`scripts/gitlab-map-update`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/scripts/gitlab-map-update) | `4f76157` | Supporting scripts for map maintenance |\n| [`.gitlab-ci.d/buildtest.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-ci.d/buildtest.yml) | `e872e09` | Add `hexagon-softmmu` to CI build targets |\n| [`.gitlab-ci.d/macos.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/.gitlab-ci.d/macos.yml) | `ad14439` | Remove `gdb` from macOS CI jobs (hung on GitLab runners) |\n| [`docs/meson.build`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/meson.build) | `c366258` | Remove `-j auto` from Sphinx args to fix multiprocess EOFError |\n| [`contrib/plugins/dlcall.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/contrib/plugins/dlcall.c) | `bc5b22b` | Comment corrected: MIPS O32 and arm32 ABI syscall number bounds described |\n| [`tests/tcg/multiarch/test-plugin-syscall-filter.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/tcg/multiarch/test-plugin-syscall-filter.c) | `99916cd` | Comment corrected: syscall 4096 is safe due to filter argument check, not uniqueness |\n| [`VERSION`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/VERSION) | `cbd42e2` | `11.0.90` \u2192 `11.0.91` (rc1 version bump) |\n| [`tests/vm/freebsd`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/vm/freebsd) | `1b03da3` | Update FreeBSD CI image to 14.4 |\n\n---\n\n### 6. Dependency Migration\n\nChanges to build system wiring between third-party libraries.\n\n| File | Commit | Description |\n|---|---|---|\n| [`crypto/cipher.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/crypto/cipher.c), [`crypto/meson.build`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/crypto/meson.build) | `15ebb1e` | `CONFIG_GNUTLS` \u2192 `CONFIG_GNUTLS_CRYPTO` to restore `--enable-nettle`/`--enable-gcrypt` options broken by earlier gnutls bump |\n| [`meson.build`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/meson.build) | `0e48aaa` | Propagate `qemu_ldflags` to Rust link step (sanitizer flags missing) |\n| [`tests/docker/dockerfiles/debian-hexagon-cross.docker`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/docker/dockerfiles/debian-hexagon-cross.docker) | `390bf4f` | Replace tarball extraction with Debian package installation; add LLVM 22 APT repo |\n\n---\n\n### 7. Cleanup\n\nDead-code removal, warning elimination, and minor mechanical hygiene.\n\n| File | Commit | Description |\n|---|---|---|\n| [`target/ppc/mem_helper.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/ppc/mem_helper.c) | `a148ca7` | Remove unused `helper_lscbx()` (left from PPC 601 removal in 2022) |\n| [`hw/vfio/listener.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/vfio/listener.c) | `d06edc8` | Remove unnecessary `linux/kvm.h` include breaking sparc/sparc64 build |\n| [`target/i386/tcg/emit.c.inc`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/i386/tcg/emit.c.inc) | `21069e6` | Remove stale `FIXME` comment |\n| [`target/hexagon/idef-parser/parser-helpers.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/target/hexagon/idef-parser/parser-helpers.c) | `8aea63e` | Rename `HALF` local \u2192 `tmp_half` to avoid `-Wshadow=local` on GCC 14 |\n| [`chardev/char-win-stdio.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-win-stdio.c) | `dacbde0` | Typo fix: `win_stiod_chr_set_echo` \u2192 `win_stdio_chr_set_echo` (3 sites) |\n| [`migration/postcopy-ram.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/migration/postcopy-ram.c) | `60f2281` | Remove redundant `memset` after `g_new0`; normalize HMP label to singular \"Latency\" |\n| [`hw/dma/omap_dma.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/dma/omap_dma.c) | (in diff) | Remove stale TODO about dirty-bit update for IMIF/EMIFF destinations |\n| [`include/hw/dma/soc_dma.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/dma/soc_dma.h) | (in diff) | Remove `paddr`, `io_fn`, `io_opaque` from `soc_dma_ch_s`;"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:37:58Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/qemu-project-qemu at revision 300438ffbb8d9430cac2fcc15cba6f482b2c0587, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: qemu-project/qemu; stratum: policy_control; cutoff: 300438ffbb8d9430cac2fcc15cba6f482b2c0587."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "error": {
+        "code": "ERROR_INTERNAL",
+        "message": "This response exceeded the maximum output length. Ask a follow-up question like \"continue\" to see more."
+      }
+    },
+    "title": "Identify engineering task types from QEMU history and implementation",
+    "updateTime": "2026-07-29T03:40:36Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/3bf2ee7a-5f92-4846-b314-aa64bade3ddb"
+  },
+  "run_id": "sha256:9fd0a6d7017c8170929e2bbeb099c876cbf96519fe68172f3d6d633d61190ca9",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "qemu-project/qemu"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "error"
+}

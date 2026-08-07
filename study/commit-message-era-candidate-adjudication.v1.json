@@ -1,0 +1,260 @@
+{
+  "$schema": "./commit-message-era-candidate-adjudication.schema.json",
+  "artifact_id": "commit-message-era-candidate-adjudication",
+  "version": "1.0.0",
+  "status": "sourcegraph_evidence_adjudicated_for_expansion",
+  "generated_at": "2026-07-28",
+  "sourcegraph_endpoint": "https://demo.sourcegraph.com",
+  "source_shortlist": {
+    "path": "study/commit-message-era-candidate-shortlist.v1.json",
+    "sha256": "edeef668553ce2fd99e8e68a6357f39b260b9ee9bb98b4f1b21011304a185da1"
+  },
+  "adjudication_method": {
+    "reviewer_count": 1,
+    "outcome_blind": true,
+    "independent_primary_review": false,
+    "scope": "Expansion eligibility only. Decisions use frozen Sourcegraph commit or diff evidence and pinned Git ancestry/timestamps without consulting classifier or survival outcomes.",
+    "accepted_event_rule": "Accept a direct recognized agent commit as confirmed, or an explicit agent trailer/autofix co-author as an observed adoption signal. Keep confirmed and observed tiers separate.",
+    "rejection_rule": "Reject query matches caused by regex or domain-language polysemy, missing agent evidence at the candidate commit, or generated-code wording that describes the repository domain rather than code authorship.",
+    "pre_adoption_message_rule": "Count non-merge commits with a nonempty normalized message from 2023-01-01 up to, but excluding, the pinned event landing time. Require at least 30."
+  },
+  "summary": {
+    "candidate_count": 12,
+    "confirmed_count": 2,
+    "observed_count": 4,
+    "rejected_count": 6,
+    "era_eligible_count": 6,
+    "requires_reindexing": false,
+    "requires_scip": false
+  },
+  "candidates": [
+    {
+      "canonical_repository_id": "microsoft/lisa",
+      "sourcegraph_repository": "github.com/sg-evals/microsoft-lisa",
+      "cutoff_commit": "ba9762595b01388291ca3c073b2bbe862da9bdbe",
+      "candidate_event_at": "2024-03-20T01:29:07Z",
+      "candidate_commit_oid": "54026cf6ce78c118dfcd82f781880f3528610411",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "rejected",
+      "event_evidence_tier": "none",
+      "adjudication_reason": "candidate_commit_has_no_agent_trailer",
+      "next_valid_signal_at": "2025-02-25T19:31:56Z",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "ineligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/agent_trailer_commits/b2887a68f24fffd929904ca053df7d7bdc8e1512fbf14816828f3a2f85235eb6.json",
+        "shard_sha256": "6acd96590600b05b50e0d66feed56ecee82c966274d952d18db79e75d7313e1c",
+        "result_id": "sha256:79e02cbd2fa4c4a536ef54d92bc844bc2a42999a98d7dc3b44601fcc8e9db7b8"
+      }
+    },
+    {
+      "canonical_repository_id": "nationalsecurityagency/ghidra",
+      "sourcegraph_repository": "github.com/sg-evals/NationalSecurityAgency-ghidra",
+      "cutoff_commit": "817766af27129d6e88aa4d895ce55c9f1526faec",
+      "candidate_event_at": "2024-04-27T03:34:30Z",
+      "candidate_commit_oid": "fc17ca970cf0780876478090b6567aa7f1dd5036",
+      "candidate_source_family": "generated_code_disclosure_diffs",
+      "adoption_adjudication_status": "rejected",
+      "event_evidence_tier": "none",
+      "adjudication_reason": "generated_code_query_matched_project_documentation_not_authorship",
+      "next_valid_signal_at": null,
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "ineligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/generated_code_disclosure_diffs/1ecb534ae629425ef8d69f2cabd4ba732dc0871f3c97aa5bcf114940cfca0520.json",
+        "shard_sha256": "b442613bc357c77f39782ae40711ad26d3f4f149562fd9c9396ea683e1765710",
+        "result_id": "sha256:b9f167224ab5196135c65d65bc3ee3deab465969a18131eb7b8bfffafcb884fe"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/retina",
+      "sourcegraph_repository": "github.com/sg-evals/microsoft-retina",
+      "cutoff_commit": "4909dbc3f38ed95466c2f148cf930dd265c4c1bb",
+      "candidate_event_at": "2024-04-30T18:10:32Z",
+      "candidate_commit_oid": "9996707a907e0425dc0d2d1d3385fd0d46f9a3d2",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "rejected",
+      "event_evidence_tier": "none",
+      "adjudication_reason": "candidate_commit_has_no_agent_trailer",
+      "next_valid_signal_at": "2025-08-11T07:58:58Z",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "ineligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/agent_trailer_commits/734ca363179d84243d4b607f8b9d50a3911a7e40f7f6745ccecd1b6a7f9bbd9b.json",
+        "shard_sha256": "8bab3172b575a3f42edb0eb72ce8f6d7b79843e5e29a9e2ff0f592cc1b9da5bf",
+        "result_id": "sha256:99da21813003460e522ffcc2ae786e3c62ebf376690c329c90a9ed3a5b1d3300"
+      }
+    },
+    {
+      "canonical_repository_id": "rustdesk/rustdesk",
+      "sourcegraph_repository": "github.com/sg-evals/rustdesk-rustdesk",
+      "cutoff_commit": "b4af82157bc5b44b62e66c1e7b50cc945bc42532",
+      "candidate_event_at": "2024-08-21T01:28:02Z",
+      "candidate_commit_oid": "e3cce2824d19cd74107f69f6f9e7428b93d189f6",
+      "candidate_source_family": "recognized_agent_identity_commits",
+      "adoption_adjudication_status": "rejected",
+      "event_evidence_tier": "none",
+      "adjudication_reason": "identity_regex_polysemy_codext_email_matched_codex",
+      "next_valid_signal_at": "2026-01-31T08:37:45Z",
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "ineligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/recognized_agent_identity_commits/699808b41a1ac11a396ecc2df7ebb830f2735924e1892182ad34a5f12396e16a.json",
+        "shard_sha256": "02f44572eaf9cffea58f90eab951a07e1b42f2d6b11c701cb520101876014b89",
+        "result_id": "sha256:2f532533e8f19022abbfa55470a26e32d85e4ffee38c8660a2d6781dd3565c71"
+      }
+    },
+    {
+      "canonical_repository_id": "stirling-tools/stirling-pdf",
+      "sourcegraph_repository": "github.com/sg-evals/Stirling-Tools-Stirling-PDF",
+      "cutoff_commit": "3813ca360ea0e146379c477c6d13b48f689773c6",
+      "candidate_event_at": "2024-10-30T12:46:44Z",
+      "candidate_commit_oid": "27d2681a97088ae9147f42f87067e7c9239b3144",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "observed",
+      "event_evidence_tier": "observed_agent_trailer",
+      "adjudication_reason": "copilot_autofix_coauthor_trailer",
+      "next_valid_signal_at": null,
+      "eligible_pre_adoption_message_count": 1877,
+      "era_adjustment_eligibility": "eligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/agent_trailer_commits/4412a45b6e7831827720056e9057e7b760cb66b88bfb98ffc3aa9da3d91104f9.json",
+        "shard_sha256": "0e4a52332e1ba864515a7d71ebd107e2399da87a567ed56f52f1b25d428dfbc6",
+        "result_id": "sha256:bd06e73ee55a5dac6f4cc53676807942f1280301372e832d34161f821655f3cc"
+      }
+    },
+    {
+      "canonical_repository_id": "supabase/supabase",
+      "sourcegraph_repository": "github.com/sg-evals/supabase-supabase",
+      "cutoff_commit": "2b27ed0ab17ec74f17bfa2e4e54175e3a1f5b444",
+      "candidate_event_at": "2024-11-05T05:49:38Z",
+      "candidate_commit_oid": "04e918cd28ad405c317c4c481d3e577c63221b10",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "confirmed",
+      "event_evidence_tier": "confirmed_agent_commit",
+      "adjudication_reason": "devin_bot_is_author_and_coauthor",
+      "next_valid_signal_at": null,
+      "eligible_pre_adoption_message_count": 11679,
+      "era_adjustment_eligibility": "eligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/agent_trailer_commits/945af935264780de87757538878df06bad331f443bd5a232bfacff79d24fbced.json",
+        "shard_sha256": "042c7bc80040ca00781426df6c7d210435813b800ff4d9543d58a610fa79bd24",
+        "result_id": "sha256:17098747202c45c6ad4c4dec211283ccc93740561c36494aa461c81a9b08a521"
+      }
+    },
+    {
+      "canonical_repository_id": "open-webui/open-webui",
+      "sourcegraph_repository": "github.com/sg-evals/open-webui-open-webui",
+      "cutoff_commit": "ecd48e2f718220a6400ecf49eafd4867a38feb10",
+      "candidate_event_at": "2024-11-05T23:10:16Z",
+      "candidate_commit_oid": "1f36cad9ef6992733d0c19b9de5bb20f490358cb",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "observed",
+      "event_evidence_tier": "observed_agent_trailer",
+      "adjudication_reason": "copilot_autofix_coauthor_trailer",
+      "next_valid_signal_at": null,
+      "eligible_pre_adoption_message_count": 5343,
+      "era_adjustment_eligibility": "eligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/agent_trailer_commits/97fa47ff5d73af9d494bdea561ec5e9d99c578ba7124abb2d821cd5d7039c022.json",
+        "shard_sha256": "ba5422b3bb05f452e7990ec876682cf087fabd6c972f02f6e8d80d66604da691",
+        "result_id": "sha256:df3d4a0d543b8fb3649facda46e7b4b0b44c6a56fbb7ace948faf2e9bb51b93e"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "sourcegraph_repository": "github.com/sg-evals/azure-azure-sdk-for-python",
+      "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+      "candidate_event_at": "2024-11-14T15:54:43Z",
+      "candidate_commit_oid": "9ebd895496b0bf4148152e30db197cb95b029c75",
+      "candidate_source_family": "generated_code_disclosure_diffs",
+      "adoption_adjudication_status": "rejected",
+      "event_evidence_tier": "none",
+      "adjudication_reason": "generated_code_query_matched_sdk_agent_domain_not_authorship",
+      "next_valid_signal_at": null,
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "ineligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/generated_code_disclosure_diffs/48d12fccf6a5a889dad8d06aeb5961fe30946331282e7d5f0592fb1880f4bb38.json",
+        "shard_sha256": "11aa7efe159d9c5dac7fed9b78bf7e150e788f690935140e40f0e78a9617e9e1",
+        "result_id": "sha256:7a418793043e780c0310beaf33fb47b3caf3bbc2090a33096ec0bc10323073e0"
+      }
+    },
+    {
+      "canonical_repository_id": "getsentry/sentry",
+      "sourcegraph_repository": "github.com/sg-evals/getsentry-sentry",
+      "cutoff_commit": "dde7031206d75f30f3d2b146a3c9437a673c2aab",
+      "candidate_event_at": "2024-12-02T14:17:35Z",
+      "candidate_commit_oid": "0458514d5584f6cc75b0df28e31474dc27b756a7",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "observed",
+      "event_evidence_tier": "observed_agent_trailer",
+      "adjudication_reason": "copilot_autofix_coauthor_trailer",
+      "next_valid_signal_at": null,
+      "eligible_pre_adoption_message_count": 27337,
+      "era_adjustment_eligibility": "eligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/agent_trailer_commits/a2c6f09ff60a1115193cd7246a5d61ffa4a50f802cfc187c73d969b26483d741.json",
+        "shard_sha256": "3a92c1f85c67761af9dd5cee4db4fb8ddd457156e67093cb84c06a18f4fab42a",
+        "result_id": "sha256:3348a76e26661cf1be0288a11ab5b6c59d0911a5d0b95870c99557a648ac9e6d"
+      }
+    },
+    {
+      "canonical_repository_id": "marimo-team/marimo",
+      "sourcegraph_repository": "github.com/sg-evals/marimo-team-marimo",
+      "cutoff_commit": "f514eddcf62a5d48b1bc6fab8d32d8418c60fff3",
+      "candidate_event_at": "2024-12-11T14:59:03Z",
+      "candidate_commit_oid": "08e234f028528db329ba19e7671f81c01e5b54d5",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "confirmed",
+      "event_evidence_tier": "confirmed_agent_commit",
+      "adjudication_reason": "devin_bot_is_author_with_session_link_and_coauthor_trailer",
+      "next_valid_signal_at": null,
+      "eligible_pre_adoption_message_count": 2222,
+      "era_adjustment_eligibility": "eligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/agent_trailer_commits/2c3495fdf962072bee0130edbee129a7e1527f6c0a105be6b7c322bf3aa6fbdb.json",
+        "shard_sha256": "27477faa3aefe32fa3756ba1a4628c400b27e9ae974410daaba724f34e9ccdcc",
+        "result_id": "sha256:48ff483723d0440fd3a8b0ebe85f6614822533c8ec47388656056eb54103b3e9"
+      }
+    },
+    {
+      "canonical_repository_id": "home-assistant/core",
+      "sourcegraph_repository": "github.com/sg-evals/home-assistant-core",
+      "cutoff_commit": "702a9cb7289e535927f5279190bcad6ffc5d3fd0",
+      "candidate_event_at": "2024-12-11T20:49:34Z",
+      "candidate_commit_oid": "8e991fc92fe095079f74c46b3bf1be897bd881ef",
+      "candidate_source_family": "generated_code_disclosure_diffs",
+      "adoption_adjudication_status": "rejected",
+      "event_evidence_tier": "none",
+      "adjudication_reason": "generated_code_query_matched_backup_agent_domain_not_authorship",
+      "next_valid_signal_at": null,
+      "eligible_pre_adoption_message_count": null,
+      "era_adjustment_eligibility": "ineligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/generated_code_disclosure_diffs/e4a1041b4f91dbd77abb415fd0ec9499dfe99da1f8869a67765eb28eff6674b1.json",
+        "shard_sha256": "dec3e09b4baac53b4796d0ea6997036d7fefc47003671c640da8af4491dfd14c",
+        "result_id": "sha256:94078e876dd1935c3d630c81cbc9438bed3bb307253a966c2e460cc6dd02811b"
+      }
+    },
+    {
+      "canonical_repository_id": "langflow-ai/langflow",
+      "sourcegraph_repository": "github.com/sg-evals/langflow-ai-langflow",
+      "cutoff_commit": "ce17f022bed0eac943a723b9b6c74a023e819b60",
+      "candidate_event_at": "2024-12-12T12:01:05Z",
+      "candidate_commit_oid": "d1821cb466eb80d7ad343820fa55b8c347699bc2",
+      "candidate_source_family": "agent_trailer_commits",
+      "adoption_adjudication_status": "observed",
+      "event_evidence_tier": "observed_agent_trailer",
+      "adjudication_reason": "copilot_coauthor_trailer",
+      "next_valid_signal_at": null,
+      "eligible_pre_adoption_message_count": 12793,
+      "era_adjustment_eligibility": "eligible",
+      "sourcegraph_evidence": {
+        "shard_path": "results/sourcegraph-discovery-v3/shards/agent_trailer_commits/83ace86bc633ac4f5c61923aeda211d1a24e0df7621c6c8148f3386f79ac34f7.json",
+        "shard_sha256": "69e66f2cd493a25795382e226d4d148d2e26a12ba3ebfc99aaceac816a6f19de",
+        "result_id": "sha256:f43aea11d24aac716a4283c6d4c557f1e25139a9e50699de70824ea80e3a4a21"
+      }
+    }
+  ]
+}

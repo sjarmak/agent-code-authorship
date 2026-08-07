@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sg-evals.local/schemas/repository-license-audit.v3.json",
+  "title": "Repository license and redistribution audit v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "audit_version",
+    "kind",
+    "observed_at",
+    "outcomes_consulted",
+    "repository_count",
+    "redistribution_counts",
+    "records",
+    "audit_sha256"
+  ],
+  "properties": {
+    "audit_version": {
+      "const": 3
+    },
+    "kind": {
+      "const": "repository_license_redistribution_evidence"
+    },
+    "observed_at": {
+      "type": "string"
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "repository_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "redistribution_counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    },
+    "audit_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "$defs": {
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_repository_id",
+        "manifest_license_status",
+        "spdx_id",
+        "redistribution_class",
+        "license_expression",
+        "override_applied",
+        "mirror_transport_url",
+        "mirror_transport_cutoff_oid",
+        "evidence"
+      ],
+      "properties": {
+        "canonical_repository_id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "manifest_license_status": {
+          "enum": [
+            "declared",
+            "not_declared",
+            "not_recorded_in_frozen_source"
+          ]
+        },
+        "spdx_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "redistribution_class": {
+          "enum": [
+            "open_source",
+            "no_declared_license",
+            "proprietary"
+          ]
+        },
+        "license_expression": {
+          "type": "string",
+          "minLength": 1
+        },
+        "override_applied": {
+          "type": "boolean"
+        },
+        "mirror_transport_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mirror_transport_cutoff_oid": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{40}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "url",
+        "sha256",
+        "summary"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

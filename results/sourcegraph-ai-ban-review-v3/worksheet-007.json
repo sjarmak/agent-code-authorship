@@ -1,0 +1,76 @@
+{
+  "$schema": "sourcegraph-ai-ban-review-worksheet.schema.json",
+  "ambiguous_resolution": "distinct_secondary_then_distinct_resolver",
+  "classifier_outcomes_consulted": false,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "case_index_file_sha256": "369145e65c6201e3782c8b35f42f667ca6fd122424babae24a5499596ed54cc4",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+    "control_evidence_file_sha256": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "prior_decision_ledger_sha256": "71d1041a4e35c38125d6ff9d7b1b9aba995ed42b519c9bf10dbc904b002f788a",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "review_version": 3,
+  "scip_required": false,
+  "semantic_policy_decisions_made": false,
+  "stopping_rule": "earliest_accepted_policy_event",
+  "survival_outcomes_consulted": false,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+  "task_count": 1,
+  "tasks": [
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 9,
+      "candidate_event": {
+        "commit_oid": "f7acf3c1f42cc474927ecc452205d7877af36731",
+        "observed_at": "2025-12-03T23:26:20Z"
+      },
+      "candidate_position": 7,
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "canonical_source_url": "https://github.com/yt-dlp/yt-dlp",
+      "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+      "event_id": "e89c300c86dada80425afb36190f77c21561308a28e9edf0af462a7409a3503d",
+      "evidence": [
+        {
+          "packet_id": "bce5445ec397d2396fd3ce782c251150dedd6d270e776fe7e8b7c81562703655",
+          "packet_sha256": "8ec3bfcb0d83535c907e3a53d0731cba5d92d971389d85d2fb2cf1029eac5105",
+          "query_family_id": "ai_ban_policy_introduction_diffs",
+          "raw_evidence": [
+            {
+              "commit_oid": "f7acf3c1f42cc474927ecc452205d7877af36731",
+              "kind": "diff_added",
+              "line": null,
+              "path": null,
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/f7acf3c1f42cc474927ecc452205d7877af36731",
+              "value": "README.md README.md\n@@ -1873,2 +1873,3 @@ The following extractors use this feature:\n * `jsc_trace`: Enable debug logging for JS Challenge fetching. Either `true` or `false` (default)\n+* `use_ad_playback_context`: Skip preroll ads to eliminate the mandatory wait period before download. Do NOT use this when passing premium account cookies to yt-dlp, as it will result in a loss of premium formats. Only effective with the `web`, `web_safari`, `web_music` and `mweb` player clients. Either `true` or `false` (default)\n \n"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "bce5445ec397d2396fd3ce782c251150dedd6d270e776fe7e8b7c81562703655"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_introduction_diffs"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "ed1646051f8e1363c6471e7342037de6b732da1b007a02b82499ad07d3e75ae1",
+      "task_sha256": "7ac4fb9a2f2e0c8d6cdc734aad3d8ed87101911a53cece682014ce753eccec51"
+    }
+  ],
+  "worksheet_sha256": "5f8f3961bd0d32d7518f4f4f009b6212083229a37ac22acd5eb8c43f250ab38d"
+}

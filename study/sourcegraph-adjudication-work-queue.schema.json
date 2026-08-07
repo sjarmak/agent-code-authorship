@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adjudication-work-queue.schema.json",
+  "title": "Sourcegraph adjudication work queue manifest v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "work_queue_version",
+    "specification_sha256",
+    "packet_index_sha256",
+    "packet_count",
+    "task_count",
+    "configured_shard_count",
+    "emitted_shard_count",
+    "shards",
+    "outcomes_consulted",
+    "queue_manifest_sha256"
+  ],
+  "properties": {
+    "work_queue_version": {
+      "const": 3
+    },
+    "specification_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "packet_index_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "packet_count": {
+      "$ref": "#/$defs/count"
+    },
+    "task_count": {
+      "$ref": "#/$defs/count"
+    },
+    "configured_shard_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4096
+    },
+    "emitted_shard_count": {
+      "$ref": "#/$defs/count"
+    },
+    "shards": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/shard"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "queue_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "shard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "shard_id",
+        "shard_file",
+        "task_count",
+        "packet_count",
+        "first_task_id",
+        "last_task_id",
+        "sha256"
+      ],
+      "properties": {
+        "shard_id": {
+          "type": "string",
+          "pattern": "^[0-9]+$"
+        },
+        "shard_file": {
+          "type": "string",
+          "pattern": "^shards/[0-9]+\\.jsonl$"
+        },
+        "task_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "packet_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "first_task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "last_task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    }
+  }
+}

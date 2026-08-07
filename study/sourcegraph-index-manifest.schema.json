@@ -1,0 +1,377 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-index-manifest.schema.json",
+  "title": "Sourcegraph study indexing manifest v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest_version",
+    "cutoff",
+    "observed_at",
+    "outcomes_consulted",
+    "canonical_identity",
+    "mirror_identity_role",
+    "repository_count",
+    "coverage",
+    "sourcegraph_coverage",
+    "duplicate_checks",
+    "repositories"
+  ],
+  "properties": {
+    "manifest_version": {
+      "const": 3
+    },
+    "cutoff": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "canonical_identity": {
+      "const": "original_source_owner_and_name"
+    },
+    "mirror_identity_role": {
+      "const": "transport_only"
+    },
+    "repository_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "coverage": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "$ref": "#/$defs/frameCoverage"
+      }
+    },
+    "sourcegraph_coverage": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "duplicate_checks": {
+      "$ref": "#/$defs/duplicateChecks"
+    },
+    "repositories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/repository"
+      }
+    }
+  },
+  "$defs": {
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "nullableSha1": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/sha1"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "frameCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "expected",
+        "included",
+        "missing_repository_ids"
+      ],
+      "properties": {
+        "expected": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "included": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "missing_repository_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "duplicateChecks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_identity_duplicates",
+        "method",
+        "content_overlap_scope",
+        "whole_tree_exact_matches"
+      ],
+      "properties": {
+        "canonical_identity_duplicates": {
+          "const": 0
+        },
+        "method": {
+          "type": "string"
+        },
+        "content_overlap_scope": {
+          "const": "whole_repository_tree_exact"
+        },
+        "whole_tree_exact_matches": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "git_tree_sha1",
+              "repository_ids"
+            ],
+            "properties": {
+              "git_tree_sha1": {
+                "$ref": "#/$defs/sha1"
+              },
+              "repository_ids": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sourceFrame": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "roles",
+        "source_url",
+        "cutoff_commit",
+        "cutoff_tree"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "roles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_url": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "cutoff_commit": {
+          "$ref": "#/$defs/nullableSha1"
+        },
+        "cutoff_tree": {
+          "$ref": "#/$defs/nullableSha1"
+        }
+      }
+    },
+    "license": {
+      "type": "object",
+      "required": [
+        "status",
+        "spdx_id"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "declared",
+            "not_declared",
+            "not_recorded_in_frozen_source",
+            "unreachable"
+          ]
+        },
+        "spdx_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "name": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "url": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "access": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "archived",
+        "default_branch"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "public",
+            "private",
+            "public_at_frozen_snapshot",
+            "unreachable"
+          ]
+        },
+        "archived": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "default_branch": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "indexEndpoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "state",
+        "head_oid",
+        "cutoff_state",
+        "cutoff_oid"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "state": {
+          "enum": [
+            "indexed",
+            "not_indexed",
+            "present_not_cloned"
+          ]
+        },
+        "head_oid": {
+          "$ref": "#/$defs/nullableSha1"
+        },
+        "cutoff_state": {
+          "enum": [
+            "accessible",
+            "not_accessible"
+          ]
+        },
+        "cutoff_oid": {
+          "$ref": "#/$defs/nullableSha1"
+        }
+      }
+    },
+    "sourcegraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "audit_status",
+        "direct",
+        "mirror",
+        "transport_status",
+        "selected_name",
+        "required_action"
+      ],
+      "properties": {
+        "audit_status": {
+          "const": "complete"
+        },
+        "direct": {
+          "$ref": "#/$defs/indexEndpoint"
+        },
+        "mirror": {
+          "$ref": "#/$defs/indexEndpoint"
+        },
+        "transport_status": {
+          "enum": [
+            "ready_direct",
+            "ready_mirror",
+            "mirror_revision_sync_required",
+            "mirror_creation_required"
+          ]
+        },
+        "selected_name": {
+          "type": "string"
+        },
+        "required_action": {
+          "enum": [
+            "none",
+            "sync_mirror_to_cutoff",
+            "create_and_index_mirror"
+          ]
+        }
+      }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_repository_id",
+        "canonical_source_url",
+        "roles",
+        "source_frames",
+        "cutoff_commit",
+        "cutoff_tree",
+        "license",
+        "access",
+        "sourcegraph"
+      ],
+      "properties": {
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "canonical_source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "roles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_frames": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceFrame"
+          }
+        },
+        "cutoff_commit": {
+          "$ref": "#/$defs/sha1"
+        },
+        "cutoff_tree": {
+          "$ref": "#/$defs/sha1"
+        },
+        "license": {
+          "$ref": "#/$defs/license"
+        },
+        "access": {
+          "$ref": "#/$defs/access"
+        },
+        "sourcegraph": {
+          "$ref": "#/$defs/sourcegraph"
+        }
+      }
+    }
+  }
+}

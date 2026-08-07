@@ -1,0 +1,274 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adoption-audit-worksheet.schema.json",
+  "title": "Blind Sourcegraph adoption reliability-audit worksheet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "audit_version",
+    "seed",
+    "sampling_policy",
+    "predecessors",
+    "population_count",
+    "joint_stratum_count",
+    "sample_count",
+    "repository_repeat_exception_count",
+    "repository_repeat_exceptions",
+    "tasks",
+    "scip_required",
+    "model_or_api_calls",
+    "outcomes_consulted",
+    "worksheet_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-adoption-audit-worksheet.schema.json"
+    },
+    "audit_version": {
+      "const": 1
+    },
+    "seed": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sampling_policy": {
+      "$ref": "#/$defs/samplingPolicy"
+    },
+    "predecessors": {
+      "$ref": "#/$defs/predecessors"
+    },
+    "population_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "joint_stratum_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "sample_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "repository_repeat_exception_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "repository_repeat_exceptions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/repeatException"
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/task"
+      }
+    },
+    "scip_required": {
+      "const": false
+    },
+    "model_or_api_calls": {
+      "const": false
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "worksheet_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "predecessors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision_ledger_sha256",
+        "tranche_sha256s",
+        "tranche_set_sha256",
+        "language_inventory_sha256",
+        "case_index_sha256",
+        "workflow_sha256"
+      ],
+      "properties": {
+        "decision_ledger_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "tranche_sha256s": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sha256"
+          }
+        },
+        "tranche_set_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "language_inventory_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "case_index_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "workflow_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "samplingPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fraction",
+        "rounding",
+        "minimum_per_joint_stratum",
+        "maximum_per_joint_stratum",
+        "repository_event_limit",
+        "repository_repeat_exception",
+        "evidence_channel_collapse"
+      ],
+      "properties": {
+        "fraction": {
+          "const": "0.10"
+        },
+        "rounding": {
+          "const": "ceiling"
+        },
+        "minimum_per_joint_stratum": {
+          "const": 1
+        },
+        "maximum_per_joint_stratum": {
+          "const": 3
+        },
+        "repository_event_limit": {
+          "const": 1
+        },
+        "repository_repeat_exception": {
+          "const": "joint_stratum_target_would_be_unmet"
+        },
+        "evidence_channel_collapse": {
+          "const": "sorted unique query_family_ids joined with '+'; no semantic grouping"
+        }
+      }
+    },
+    "repeatException": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_repository_id",
+        "stratum_id",
+        "reason"
+      ],
+      "properties": {
+        "canonical_repository_id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "stratum_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "reason": {
+          "const": "joint_stratum_target_would_be_unmet"
+        }
+      }
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "audit_task_id",
+        "task_id",
+        "task_sha256",
+        "canonical_repository_id",
+        "sourcegraph_name",
+        "event_id",
+        "candidate_event",
+        "candidate_kind",
+        "query_family_ids",
+        "packet_ids",
+        "evidence",
+        "review_question",
+        "allowed_decisions",
+        "outcomes_consulted"
+      ],
+      "properties": {
+        "audit_task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "task_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "canonical_repository_id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "sourcegraph_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "candidate_event": {
+          "type": "object",
+          "minProperties": 2
+        },
+        "candidate_kind": {
+          "enum": [
+            "adoption_challenge",
+            "explicit_provenance_anchor"
+          ]
+        },
+        "query_family_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "packet_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sha256"
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object"
+          }
+        },
+        "review_question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "allowed_decisions": {
+          "const": [
+            "accept_confirmed",
+            "accept_observed",
+            "insufficient",
+            "reject",
+            "unresolved"
+          ]
+        },
+        "outcomes_consulted": {
+          "const": false
+        }
+      }
+    }
+  }
+}

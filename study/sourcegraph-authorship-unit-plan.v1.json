@@ -1,0 +1,1865 @@
+{
+  "agent_catalog_sha256": "9662cdcc716c9b4391ec2bc1d0440ac47b14fbad25b69aaf5f16dd9bd40259c3",
+  "agent_commits": [
+    {
+      "authorship_role": "agent",
+      "commit_oid": "3aac6dcf857362a8a4f1b4f723267b62352026bb",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-13T15:40:17Z",
+      "repository_id": "0xfurai/peekaping",
+      "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "8d82adc4bfbb68ee6f5d7b78f2dac0bc9f4a6f46",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-03T07:21:10Z",
+      "repository_id": "aftership/clickhouse-sql-parser",
+      "sourcegraph_name": "github.com/sg-evals/aftership-clickhouse-sql-parser"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "b37c4aa65dc416d51baac6fea689474b3a08b249",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-04-11T13:17:11Z",
+      "repository_id": "ai-shifu/ai-shifu",
+      "sourcegraph_name": "github.com/sg-evals/ai-shifu-ai-shifu"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "da77b94dbdaa3c3692b1d026e57234dd99fa3859",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-01-28T17:49:30Z",
+      "repository_id": "airbytehq/pyairbyte",
+      "sourcegraph_name": "github.com/sg-evals/airbytehq-pyairbyte"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "fa509a6c15316bb8783643f5a8803cd0f4d26108",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-05T11:29:20Z",
+      "repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+      "sourcegraph_name": "github.com/sg-evals/aldinokemal-go-whatsapp-web-multidevice"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "71fa9586de0e995100e14aed05548f58d6a4f24f",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-22T02:00:33Z",
+      "repository_id": "aztfmod/terraform-provider-azurecaf",
+      "sourcegraph_name": "github.com/sg-evals/aztfmod-terraform-provider-azurecaf"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "d5fcedfdf160f1fb3f267e5ca7732277dde59d11",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-21T08:20:12Z",
+      "repository_id": "azure/azure-kusto-python",
+      "sourcegraph_name": "github.com/sg-evals/azure-azure-kusto-python"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "c7d89782b11ec821070ffe4d10f4d119243d5da8",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-30T09:59:40Z",
+      "repository_id": "azure/azure-storage-fuse",
+      "sourcegraph_name": "github.com/sg-evals/azure-azure-storage-fuse"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "1c8676c7599826bf865725b269b2465632da2604",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-20T07:37:18Z",
+      "repository_id": "badtuxx/girus-cli",
+      "sourcegraph_name": "github.com/sg-evals/badtuxx-girus-cli"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "18c5ec913d744d6ccf88527615e7096c59346687",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-08T15:39:06Z",
+      "repository_id": "beehiveinnovations/zen-mcp-server",
+      "sourcegraph_name": "github.com/sg-evals/beehiveinnovations-zen-mcp-server"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "98edbbeab20d7cc1f59d91f6b762c383b86ba22f",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2024-12-10T21:00:56Z",
+      "repository_id": "bespokelabsai/curator",
+      "sourcegraph_name": "github.com/sg-evals/bespokelabsai-curator"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "046874e814db7efbef7129a1c8b363dd2e6a3493",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-04-21T21:39:50Z",
+      "repository_id": "brentyi/jaxls",
+      "sourcegraph_name": "github.com/sg-evals/brentyi-jaxls"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "53896a95daac7f146ce6888c99d08eb6a420e691",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-19T03:06:44Z",
+      "repository_id": "brevdev/brev-cli",
+      "sourcegraph_name": "github.com/sg-evals/brevdev-brev-cli"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "43e774a165596cab58eacded811ec74642976441",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-06T09:41:18Z",
+      "repository_id": "busser/tfautomv",
+      "sourcegraph_name": "github.com/sg-evals/busser-tfautomv"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "4217868fff4a7ee5d8ac6dfeb700051e589c6929",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-02-10T22:30:17Z",
+      "repository_id": "cedar-policy/cedar-go",
+      "sourcegraph_name": "github.com/sg-evals/cedar-policy-cedar-go"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "8864b9b20099f2d73fcd1d34ac1ac87d94114408",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-03-30T21:51:23Z",
+      "repository_id": "commaai/opendbc",
+      "sourcegraph_name": "github.com/sg-evals/commaai-opendbc"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "6f6adc10a83aa5ab775a2b0aaebb7ab4396f4268",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-03T04:29:05Z",
+      "repository_id": "commaai/openpilot",
+      "sourcegraph_name": "github.com/sg-evals/commaai-openpilot"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "53a35f71cca5603e1377afc27850cbcb61913159",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-04-26T23:15:57Z",
+      "repository_id": "compiler-explorer/infra",
+      "sourcegraph_name": "github.com/sg-evals/compiler-explorer-infra"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "cfcf12a91bce3cb2377fc60bc28e3dd2f66861ee",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-09T20:18:50Z",
+      "repository_id": "cschleiden/go-workflows",
+      "sourcegraph_name": "github.com/sg-evals/cschleiden-go-workflows"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "eba5f0c5873a27a82ee1c083284e72083b213900",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-06T01:17:36Z",
+      "repository_id": "deepnoodle-ai/risor",
+      "sourcegraph_name": "github.com/sg-evals/deepnoodle-ai-risor"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "7fbf9faff1fd58d2d9fd7e1bbc1e45727db7d649",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-17T20:10:16Z",
+      "repository_id": "elastic/terraform-provider-elasticstack",
+      "sourcegraph_name": "github.com/sg-evals/elastic-terraform-provider-elasticstack"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "af1dab8c1f9e5daa049d67e53b02955e7cdc96df",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-03T16:44:22Z",
+      "repository_id": "equationzhao/g",
+      "sourcegraph_name": "github.com/sg-evals/equationzhao-g"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "418a4dd55d22d24f015c998b4a8607b887b0db52",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-23T19:37:38Z",
+      "repository_id": "exa-labs/exa-py",
+      "sourcegraph_name": "github.com/sg-evals/exa-labs-exa-py"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "f85124773e3dc4a0ac9326e2529c684f531191eb",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-27T12:28:11Z",
+      "repository_id": "fatedier/fft",
+      "sourcegraph_name": "github.com/sg-evals/fatedier-fft"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "15afb5ad1704c9b90dd26783c2baf7a860c500fe",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-10-12T08:17:50Z",
+      "repository_id": "gastownhall/beads",
+      "sourcegraph_name": "github.com/sg-evals/gastownhall-beads"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "fdae4025dded34aa83d1e6212a7a9532f602ffb3",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-02-22T01:39:32Z",
+      "repository_id": "gastownhall/gascity",
+      "sourcegraph_name": "github.com/sg-evals/gastownhall-gascity"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "0458514d5584f6cc75b0df28e31474dc27b756a7",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2024-12-02T14:17:35Z",
+      "repository_id": "getsentry/sentry",
+      "sourcegraph_name": "github.com/sg-evals/getsentry-sentry"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "d4a37472e1cf0905e422ad0fcbf24e101b7d2e1b",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-16T13:45:11Z",
+      "repository_id": "github/issue-metrics",
+      "sourcegraph_name": "github.com/sg-evals/github-issue-metrics"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "91d4eba542b98cbd4413f4ebe119a22aa47c98bf",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-28T03:05:37Z",
+      "repository_id": "haasonsaas/ocode",
+      "sourcegraph_name": "github.com/sg-evals/haasonsaas-ocode"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "e811ceecd0e77951c109357e0c8d7a840791faf9",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-13T11:44:38Z",
+      "repository_id": "humansignal/label-studio-ml-backend",
+      "sourcegraph_name": "github.com/sg-evals/humansignal-label-studio-ml-backend"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "9a74f6f17b320cc62f3943e59403df7f3d03360e",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-03-27T15:12:55Z",
+      "repository_id": "ikamensh/flynt",
+      "sourcegraph_name": "github.com/sg-evals/ikamensh-flynt"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "02479f01d0810ef45d6c698614cf6c998084ce8f",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-11T00:23:31Z",
+      "repository_id": "iterative/datachain",
+      "sourcegraph_name": "github.com/sg-evals/iterative-datachain"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "e9dc21c1092259cae2d67137392aa38c15703773",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-12T15:13:14Z",
+      "repository_id": "jeroenterheerdt/hasmartirrigation",
+      "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "1569ac15b9d3173b9c71694c56a93beacf1eb839",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-08T13:07:04Z",
+      "repository_id": "justtrackio/gosoline",
+      "sourcegraph_name": "github.com/sg-evals/justtrackio-gosoline"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "d8249d4e3881f1e02f0c09c132c59fcdfc53b665",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-05T07:19:53Z",
+      "repository_id": "jxxghp/moviepilot",
+      "sourcegraph_name": "github.com/sg-evals/jxxghp-moviepilot"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "40fbfbb152cbd145d9548417bc025261cb616d30",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-02-24T23:45:52Z",
+      "repository_id": "kanaries/pygwalker",
+      "sourcegraph_name": "github.com/sg-evals/kanaries-pygwalker"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "9def206cfc510699b253c357c5cd806d99f82be4",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-04T18:51:35Z",
+      "repository_id": "kanisterio/kanister",
+      "sourcegraph_name": "github.com/sg-evals/kanisterio-kanister"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "3f52e0545720054e5b152d987770b815dccccfb8",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-03-11T07:47:47Z",
+      "repository_id": "kubernetes-sigs/cloud-provider-azure",
+      "sourcegraph_name": "github.com/sg-evals/kubernetes-sigs-cloud-provider-azure"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "8799f86ea4a714f2ea9d6235bb69ea8e95f22b4f",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-03-31T05:48:37Z",
+      "repository_id": "langbot-app/langbot",
+      "sourcegraph_name": "github.com/sg-evals/langbot-app-langbot"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "08e234f028528db329ba19e7671f81c01e5b54d5",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2024-12-11T14:59:03Z",
+      "repository_id": "marimo-team/marimo",
+      "sourcegraph_name": "github.com/sg-evals/marimo-team-marimo"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "97debdc23783e76ce04d6bd230e54713b2fa1f72",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-01-07T18:43:09Z",
+      "repository_id": "microsoft/azuretre",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-azuretre"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "d3c6336130a77a3d167e7d163ac9d036402087b0",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-28T04:21:24Z",
+      "repository_id": "microsoft/go-mssqldb",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-go-mssqldb"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "34ab42698fa24abc9173ec8878800b23423b9732",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-28T13:31:41Z",
+      "repository_id": "microsoft/go-sqlcmd",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-go-sqlcmd"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "f5a472ab1426f98150ddf405902ffdde11f4bc9b",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-20T22:34:28Z",
+      "repository_id": "microsoft/graphrag",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-graphrag"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "1105987c6550476981d9178d0bede312acd7e562",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-12T21:41:38Z",
+      "repository_id": "microsoft/olive",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-olive"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "c8e827996858574db1a8b363bc8c97d53b0a3bc1",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-15T09:27:42Z",
+      "repository_id": "microsoft/qcodes",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-qcodes"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "b9e35798ae13b025520f8127f3e35926408a9a75",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-02-11T01:25:17Z",
+      "repository_id": "microsoft/typescript-go",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-typescript-go"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "6b22cf09b376ed94c772c69951a2d125e495b26b",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-04T13:26:48Z",
+      "repository_id": "modelcontextprotocol/registry",
+      "sourcegraph_name": "github.com/sg-evals/modelcontextprotocol-registry"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "992c78376c9c0827fdaea93dda46d873fb42ba7e",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-23T00:50:15Z",
+      "repository_id": "navidrome/navidrome",
+      "sourcegraph_name": "github.com/sg-evals/navidrome-navidrome"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "4f82472c540523c5ff69db83013fdcf503366ce5",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-28T17:13:13Z",
+      "repository_id": "newfuture/ddns",
+      "sourcegraph_name": "github.com/sg-evals/newfuture-ddns"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "87571e883a0f40b44bbc83b87632c29d937df292",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-24T13:09:09Z",
+      "repository_id": "nikolaydubina/go-instrument",
+      "sourcegraph_name": "github.com/sg-evals/nikolaydubina-go-instrument"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "5205f66475d3db5334a2dad1cacc95ad12111ce7",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-09T13:04:42Z",
+      "repository_id": "noneback/go-taskflow",
+      "sourcegraph_name": "github.com/sg-evals/noneback-go-taskflow"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "d22a89ab498ab280eb4cd4e7198023745c9738c8",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-17T16:01:43Z",
+      "repository_id": "numbagg/numbagg",
+      "sourcegraph_name": "github.com/sg-evals/numbagg-numbagg"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "3fcdf4a35cb34d86ca52e12a99178f113326fb8b",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-02T04:34:22Z",
+      "repository_id": "oevortex/webscout",
+      "sourcegraph_name": "github.com/sg-evals/oevortex-webscout"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "7214e6f589c31bb21d35649668ba2b0bb3a57089",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-03T21:54:18Z",
+      "repository_id": "onflow/flow-go",
+      "sourcegraph_name": "github.com/sg-evals/onflow-flow-go"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "94e820742ea3f9716a62d486611e46c61355d7f5",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-04-29T17:54:34Z",
+      "repository_id": "onnx/onnx",
+      "sourcegraph_name": "github.com/sg-evals/onnx-onnx"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "f27979ef7fe8bba37c64a6623c82783fae28900b",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-01-19T22:26:39Z",
+      "repository_id": "onyx-dot-app/onyx",
+      "sourcegraph_name": "github.com/sg-evals/onyx-dot-app-onyx"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "52217736be63ffaf7780cbd36daadc0b2a7215cf",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-04-16T04:39:31Z",
+      "repository_id": "open5e/open5e-api",
+      "sourcegraph_name": "github.com/sg-evals/open5e-open5e-api"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "33153583a6144d7fde547afd145132436c63bd55",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-04-01T15:06:55Z",
+      "repository_id": "openfga/openfga",
+      "sourcegraph_name": "github.com/sg-evals/openfga-openfga"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "dfd8b1e42e799617d9222b7833fc53914b23737c",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-03-18T08:30:27Z",
+      "repository_id": "oras-project/oras",
+      "sourcegraph_name": "github.com/sg-evals/oras-project-oras"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "497cbac1f4d4bb21521a8cd128568a2a178d964f",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-01-15T05:31:25Z",
+      "repository_id": "patched-codes/patchwork",
+      "sourcegraph_name": "github.com/sg-evals/patched-codes-patchwork"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "f0b90b65d118df041f87a78d0bb0d6d66126a2e6",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-05-07T19:03:51Z",
+      "repository_id": "pythonnest/pynest",
+      "sourcegraph_name": "github.com/sg-evals/pythonnest-pynest"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "6dc83e7fd433994b2ebe129092953342db5a7179",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-19T14:10:52Z",
+      "repository_id": "quantalogic/quantalogic",
+      "sourcegraph_name": "github.com/sg-evals/quantalogic-quantalogic"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "fdc58775d48d07cd6fdd7af644d1f2b83d877604",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-13T20:44:14Z",
+      "repository_id": "radius-project/radius",
+      "sourcegraph_name": "github.com/sg-evals/radius-project-radius"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "6eec8e36ae37f4ab8abdb2d345526211d0ab4cbf",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-01T19:58:16Z",
+      "repository_id": "reflex-dev/reflex",
+      "sourcegraph_name": "github.com/sg-evals/reflex-dev-reflex"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "46f124fb1f688375b348c438c8a186f10b063a4e",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-05-10T12:54:20Z",
+      "repository_id": "roeniss/dhlottery-api",
+      "sourcegraph_name": "github.com/sg-evals/roeniss-dhlottery-api"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "61197576f315674e9ec846633fbf293bf547073b",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-27T17:29:58Z",
+      "repository_id": "rqlite/rqlite",
+      "sourcegraph_name": "github.com/sg-evals/rqlite-rqlite"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "e0bb4a78363fc70cf29f47b7cde05d62cd8ab945",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-03-19T04:06:27Z",
+      "repository_id": "safedep/vet",
+      "sourcegraph_name": "github.com/sg-evals/safedep-vet"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "a0c185f3628cd616fb9d1648700fc51c40c42dda",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-11T11:17:33Z",
+      "repository_id": "sashabaranov/go-openai",
+      "sourcegraph_name": "github.com/sg-evals/sashabaranov-go-openai"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "622374af1820c61a96dc77409bdf99d1158e90e5",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-01T14:19:11Z",
+      "repository_id": "schemahero/schemahero",
+      "sourcegraph_name": "github.com/sg-evals/schemahero-schemahero"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "77f340d5c9e21929ee2494eccb41ba463aec99e8",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-04-04T18:49:15Z",
+      "repository_id": "sjarmak/agent-diagnostics",
+      "sourcegraph_name": "github.com/sg-evals/sjarmak-agent-diagnostics"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "d2b3977f25b2ca43fb7d877e7fd383dc350c01cc",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-03-31T00:38:52Z",
+      "repository_id": "sjarmak/codeprobe",
+      "sourcegraph_name": "github.com/sg-evals/sjarmak-codeprobe"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "c47dc9fe92b376d58beb07c8bb257ed9e9e52b7c",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-04-02T02:40:39Z",
+      "repository_id": "sjarmak/livedocs",
+      "sourcegraph_name": "github.com/sg-evals/sjarmak-livedocs"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "3d9743073d356b9cd8aee8d2dbb8b92c67d83c26",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-01-21T14:12:33Z",
+      "repository_id": "sjarmak/nls-finetune-scix",
+      "sourcegraph_name": "github.com/sg-evals/sjarmak-nls-finetune-scix"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "1a80b2000ceebe222d9c2e531191fd373d253ce7",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2026-04-02T11:58:05Z",
+      "repository_id": "sjarmak/scix-agent",
+      "sourcegraph_name": "github.com/sg-evals/sjarmak-scix-agent"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "81232da5ae52cb6f99293a58da91f88018fc981e",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-21T12:00:58Z",
+      "repository_id": "spacelift-io/spacectl",
+      "sourcegraph_name": "github.com/sg-evals/spacelift-io-spacectl"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "4acf33d6f6c9ea04b70b050e239d3953882a6f83",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-27T20:11:37Z",
+      "repository_id": "spcl/dace",
+      "sourcegraph_name": "github.com/sg-evals/spcl-dace"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "8d5ddaeaa1c819c924eed336b480cd2d8f52a3d2",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-03-06T23:19:46Z",
+      "repository_id": "spylang/spy",
+      "sourcegraph_name": "github.com/sg-evals/spylang-spy"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "b971330e48d4672b04e85b95b4b56f3f0ff5bf01",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-22T19:41:56Z",
+      "repository_id": "teaxyz/chai",
+      "sourcegraph_name": "github.com/sg-evals/teaxyz-chai"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "54e2bbf367d8f947d215727ebcbab9762dd82f7c",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-06-21T01:46:57Z",
+      "repository_id": "tracecathq/tracecat",
+      "sourcegraph_name": "github.com/sg-evals/tracecathq-tracecat"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "59f19859b6381a601ec36a67abc556c3c7b88c18",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-08-03T13:40:21Z",
+      "repository_id": "twpayne/chezmoi",
+      "sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "4cee4d7817b61317fda9b79f67ba5e957cd3843f",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-07-04T05:15:33Z",
+      "repository_id": "ucbepic/docetl",
+      "sourcegraph_name": "github.com/sg-evals/ucbepic-docetl"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "232dbf92d2b04ab6e125be90acbbb37fda9b0e39",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-01-04T21:10:00Z",
+      "repository_id": "vlm-run/vlmrun-hub",
+      "sourcegraph_name": "github.com/sg-evals/vlm-run-vlmrun-hub"
+    },
+    {
+      "authorship_role": "agent",
+      "commit_oid": "637159506c76350821237c6192fb5d6e310fa97b",
+      "evidence_tier": "confirmed_agent_commit",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "observed_at": "2025-05-08T10:17:12Z",
+      "repository_id": "zfit/zfit",
+      "sourcegraph_name": "github.com/sg-evals/zfit-zfit"
+    }
+  ],
+  "authorship_unit_plan_sha256": "cf390da27fe7c5954952ec5094796887a79713e8ea6329bd1a25338370aecc4e",
+  "authorship_unit_plan_version": 1,
+  "cohort_freeze_sha256": "945a012805e159f386f32d7e10901dd6b5279040838fa1dacf850e21b676b12f",
+  "counts": {
+    "agent_commits": 84,
+    "excluded_target_overlap_repositories": 72,
+    "h2_repositories": 4,
+    "h3_pairs": 41
+  },
+  "exclusions": {
+    "target_overlap_repository_ids": [
+      "2dust/v2rayn",
+      "anomalyco/opencode",
+      "ant-design/ant-design",
+      "anuraghazra/github-readme-stats",
+      "apache/superset",
+      "axios/axios",
+      "browser-use/browser-use",
+      "chatgptnextweb/nextchat",
+      "clash-verge-rev/clash-verge-rev",
+      "comfy-org/comfyui",
+      "danielmiessler/seclists",
+      "egonex-ai/understand-anything",
+      "elastic/elasticsearch",
+      "electron/electron",
+      "eugeny/tabby",
+      "excalidraw/excalidraw",
+      "farion1231/cc-switch",
+      "fastapi/fastapi",
+      "fatedier/frp",
+      "firecrawl/firecrawl",
+      "gin-gonic/gin",
+      "github/spec-kit",
+      "gohugoio/hugo",
+      "golang/go",
+      "google-gemini/gemini-cli",
+      "graphify-labs/graphify",
+      "hacksider/deep-live-cam",
+      "harry0703/moneyprinterturbo",
+      "hiyouga/llamafactory",
+      "immich-app/immich",
+      "iptv-org/iptv",
+      "junegunn/fzf",
+      "kubernetes/kubernetes",
+      "louislam/uptime-kuma",
+      "mermaid-js/mermaid",
+      "microsoft/powertoys",
+      "microsoft/terminal",
+      "microsoft/typescript",
+      "modelcontextprotocol/servers",
+      "mrdoob/three.js",
+      "msitarzewski/agency-agents",
+      "mui/material-ui",
+      "n8n-io/n8n",
+      "nestjs/nest",
+      "nextlevelbuilder/ui-ux-pro-max-skill",
+      "nodejs/node",
+      "nvm-sh/nvm",
+      "ohmyzsh/ohmyzsh",
+      "open-webui/open-webui",
+      "openai/whisper",
+      "openclaw/openclaw",
+      "paperclipai/paperclip",
+      "pewdiepie-archdaemon/odysseus",
+      "python/cpython",
+      "realworld-apps/realworld",
+      "redis/redis",
+      "rtk-ai/rtk",
+      "shadcn-ui/ui",
+      "sherlock-project/sherlock",
+      "stirling-tools/stirling-pdf",
+      "storybookjs/storybook",
+      "strapi/strapi",
+      "supabase/supabase",
+      "sveltejs/svelte",
+      "swiftlang/swift",
+      "tauri-apps/tauri",
+      "toeverything/affine",
+      "typicode/json-server",
+      "vercel/next.js",
+      "vllm-project/vllm",
+      "yt-dlp/yt-dlp",
+      "zed-industries/zed"
+    ]
+  },
+  "h2_windows": [
+    {
+      "authorship_role": "human",
+      "end_exclusive": "2026-07-24T23:59:59Z",
+      "evidence_tier": "H2_policy_human",
+      "head_oid": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "languages": [
+        "Python"
+      ],
+      "policy_commit_oid": "c9a03479bc2b0d1d97f77f61f6a0f8b277789cc3",
+      "repository_id": "asahilinux/m1n1",
+      "sourcegraph_name": "github.com/sg-evals/asahilinux-m1n1",
+      "start_inclusive": "2026-07-21T18:22:44Z"
+    },
+    {
+      "authorship_role": "human",
+      "end_exclusive": "2026-07-24T23:59:59Z",
+      "evidence_tier": "H2_policy_human",
+      "head_oid": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "languages": [
+        "Python"
+      ],
+      "policy_commit_oid": "67eb48e6433beaab5b7472ceb190219d5b724149",
+      "repository_id": "borgmatic-collective/borgmatic",
+      "sourcegraph_name": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "start_inclusive": "2026-02-19T19:11:57Z"
+    },
+    {
+      "authorship_role": "human",
+      "end_exclusive": "2026-07-24T23:59:59Z",
+      "evidence_tier": "H2_policy_human",
+      "head_oid": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "languages": [
+        "Python"
+      ],
+      "policy_commit_oid": "c41effcbc6e91ad800be15bd83f1f9ea58cff275",
+      "repository_id": "poezio/poezio",
+      "sourcegraph_name": "github.com/sg-evals/poezio-poezio",
+      "start_inclusive": "2026-03-22T18:38:08Z"
+    },
+    {
+      "authorship_role": "human",
+      "end_exclusive": "2026-07-24T23:59:59Z",
+      "evidence_tier": "H2_policy_human",
+      "head_oid": "3722d124433d2087a97f68689fea934610703783",
+      "languages": [
+        "Go"
+      ],
+      "policy_commit_oid": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24",
+      "repository_id": "superseriousbusiness/gotosocial",
+      "sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "start_inclusive": "2026-01-25T23:59:59Z"
+    }
+  ],
+  "h3_pairs": [
+    {
+      "agent_commit_oid": "8d82adc4bfbb68ee6f5d7b78f2dac0bc9f4a6f46",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-03T07:21:10Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "aftership/clickhouse-sql-parser",
+      "sourcegraph_name": "github.com/sg-evals/aftership-clickhouse-sql-parser",
+      "start_inclusive": "2025-01-04T07:21:10Z"
+    },
+    {
+      "agent_commit_oid": "b37c4aa65dc416d51baac6fea689474b3a08b249",
+      "authorship_role": "human",
+      "end_exclusive": "2025-04-11T13:17:11Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "ai-shifu/ai-shifu",
+      "sourcegraph_name": "github.com/sg-evals/ai-shifu-ai-shifu",
+      "start_inclusive": "2024-10-13T13:17:11Z"
+    },
+    {
+      "agent_commit_oid": "da77b94dbdaa3c3692b1d026e57234dd99fa3859",
+      "authorship_role": "human",
+      "end_exclusive": "2025-01-28T17:49:30Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "airbytehq/pyairbyte",
+      "sourcegraph_name": "github.com/sg-evals/airbytehq-pyairbyte",
+      "start_inclusive": "2024-08-01T17:49:30Z"
+    },
+    {
+      "agent_commit_oid": "fa509a6c15316bb8783643f5a8803cd0f4d26108",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-05T11:29:20Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+      "sourcegraph_name": "github.com/sg-evals/aldinokemal-go-whatsapp-web-multidevice",
+      "start_inclusive": "2025-01-06T11:29:20Z"
+    },
+    {
+      "agent_commit_oid": "71fa9586de0e995100e14aed05548f58d6a4f24f",
+      "authorship_role": "human",
+      "end_exclusive": "2025-05-22T02:00:33Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "aztfmod/terraform-provider-azurecaf",
+      "sourcegraph_name": "github.com/sg-evals/aztfmod-terraform-provider-azurecaf",
+      "start_inclusive": "2024-11-23T02:00:33Z"
+    },
+    {
+      "agent_commit_oid": "18c5ec913d744d6ccf88527615e7096c59346687",
+      "authorship_role": "human",
+      "end_exclusive": "2025-06-08T15:39:06Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "beehiveinnovations/zen-mcp-server",
+      "sourcegraph_name": "github.com/sg-evals/beehiveinnovations-zen-mcp-server",
+      "start_inclusive": "2024-12-10T15:39:06Z"
+    },
+    {
+      "agent_commit_oid": "53896a95daac7f146ce6888c99d08eb6a420e691",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-19T03:06:44Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "brevdev/brev-cli",
+      "sourcegraph_name": "github.com/sg-evals/brevdev-brev-cli",
+      "start_inclusive": "2025-01-20T03:06:44Z"
+    },
+    {
+      "agent_commit_oid": "43e774a165596cab58eacded811ec74642976441",
+      "authorship_role": "human",
+      "end_exclusive": "2025-06-06T09:41:18Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "busser/tfautomv",
+      "sourcegraph_name": "github.com/sg-evals/busser-tfautomv",
+      "start_inclusive": "2024-12-08T09:41:18Z"
+    },
+    {
+      "agent_commit_oid": "8864b9b20099f2d73fcd1d34ac1ac87d94114408",
+      "authorship_role": "human",
+      "end_exclusive": "2025-03-30T21:51:23Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "commaai/opendbc",
+      "sourcegraph_name": "github.com/sg-evals/commaai-opendbc",
+      "start_inclusive": "2024-10-01T21:51:23Z"
+    },
+    {
+      "agent_commit_oid": "cfcf12a91bce3cb2377fc60bc28e3dd2f66861ee",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-09T20:18:50Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "cschleiden/go-workflows",
+      "sourcegraph_name": "github.com/sg-evals/cschleiden-go-workflows",
+      "start_inclusive": "2025-01-10T20:18:50Z"
+    },
+    {
+      "agent_commit_oid": "eba5f0c5873a27a82ee1c083284e72083b213900",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-06T01:17:36Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "deepnoodle-ai/risor",
+      "sourcegraph_name": "github.com/sg-evals/deepnoodle-ai-risor",
+      "start_inclusive": "2025-01-07T01:17:36Z"
+    },
+    {
+      "agent_commit_oid": "7fbf9faff1fd58d2d9fd7e1bbc1e45727db7d649",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-17T20:10:16Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "elastic/terraform-provider-elasticstack",
+      "sourcegraph_name": "github.com/sg-evals/elastic-terraform-provider-elasticstack",
+      "start_inclusive": "2025-01-18T20:10:16Z"
+    },
+    {
+      "agent_commit_oid": "af1dab8c1f9e5daa049d67e53b02955e7cdc96df",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-03T16:44:22Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "equationzhao/g",
+      "sourcegraph_name": "github.com/sg-evals/equationzhao-g",
+      "start_inclusive": "2025-01-04T16:44:22Z"
+    },
+    {
+      "agent_commit_oid": "418a4dd55d22d24f015c998b4a8607b887b0db52",
+      "authorship_role": "human",
+      "end_exclusive": "2025-06-23T19:37:38Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "exa-labs/exa-py",
+      "sourcegraph_name": "github.com/sg-evals/exa-labs-exa-py",
+      "start_inclusive": "2024-12-25T19:37:38Z"
+    },
+    {
+      "agent_commit_oid": "f85124773e3dc4a0ac9326e2529c684f531191eb",
+      "authorship_role": "human",
+      "end_exclusive": "2025-05-27T12:28:11Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "fatedier/fft",
+      "sourcegraph_name": "github.com/sg-evals/fatedier-fft",
+      "start_inclusive": "2024-11-28T12:28:11Z"
+    },
+    {
+      "agent_commit_oid": "15afb5ad1704c9b90dd26783c2baf7a860c500fe",
+      "authorship_role": "human",
+      "end_exclusive": "2025-10-12T08:17:50Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "gastownhall/beads",
+      "sourcegraph_name": "github.com/sg-evals/gastownhall-beads",
+      "start_inclusive": "2025-04-15T08:17:50Z"
+    },
+    {
+      "agent_commit_oid": "d4a37472e1cf0905e422ad0fcbf24e101b7d2e1b",
+      "authorship_role": "human",
+      "end_exclusive": "2025-06-16T13:45:11Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "github/issue-metrics",
+      "sourcegraph_name": "github.com/sg-evals/github-issue-metrics",
+      "start_inclusive": "2024-12-18T13:45:11Z"
+    },
+    {
+      "agent_commit_oid": "91d4eba542b98cbd4413f4ebe119a22aa47c98bf",
+      "authorship_role": "human",
+      "end_exclusive": "2025-05-28T03:05:37Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "haasonsaas/ocode",
+      "sourcegraph_name": "github.com/sg-evals/haasonsaas-ocode",
+      "start_inclusive": "2024-11-29T03:05:37Z"
+    },
+    {
+      "agent_commit_oid": "02479f01d0810ef45d6c698614cf6c998084ce8f",
+      "authorship_role": "human",
+      "end_exclusive": "2025-06-11T00:23:31Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "iterative/datachain",
+      "sourcegraph_name": "github.com/sg-evals/iterative-datachain",
+      "start_inclusive": "2024-12-13T00:23:31Z"
+    },
+    {
+      "agent_commit_oid": "e9dc21c1092259cae2d67137392aa38c15703773",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-12T15:13:14Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "jeroenterheerdt/hasmartirrigation",
+      "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "start_inclusive": "2025-01-13T15:13:14Z"
+    },
+    {
+      "agent_commit_oid": "1569ac15b9d3173b9c71694c56a93beacf1eb839",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-08T13:07:04Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "justtrackio/gosoline",
+      "sourcegraph_name": "github.com/sg-evals/justtrackio-gosoline",
+      "start_inclusive": "2025-01-09T13:07:04Z"
+    },
+    {
+      "agent_commit_oid": "d8249d4e3881f1e02f0c09c132c59fcdfc53b665",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-05T07:19:53Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "jxxghp/moviepilot",
+      "sourcegraph_name": "github.com/sg-evals/jxxghp-moviepilot",
+      "start_inclusive": "2025-01-06T07:19:53Z"
+    },
+    {
+      "agent_commit_oid": "8799f86ea4a714f2ea9d6235bb69ea8e95f22b4f",
+      "authorship_role": "human",
+      "end_exclusive": "2025-03-31T05:48:37Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "langbot-app/langbot",
+      "sourcegraph_name": "github.com/sg-evals/langbot-app-langbot",
+      "start_inclusive": "2024-10-02T05:48:37Z"
+    },
+    {
+      "agent_commit_oid": "f5a472ab1426f98150ddf405902ffdde11f4bc9b",
+      "authorship_role": "human",
+      "end_exclusive": "2025-05-20T22:34:28Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "microsoft/graphrag",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-graphrag",
+      "start_inclusive": "2024-11-21T22:34:28Z"
+    },
+    {
+      "agent_commit_oid": "1105987c6550476981d9178d0bede312acd7e562",
+      "authorship_role": "human",
+      "end_exclusive": "2025-06-12T21:41:38Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "microsoft/olive",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-olive",
+      "start_inclusive": "2024-12-14T21:41:38Z"
+    },
+    {
+      "agent_commit_oid": "b9e35798ae13b025520f8127f3e35926408a9a75",
+      "authorship_role": "human",
+      "end_exclusive": "2025-02-11T01:25:17Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "microsoft/typescript-go",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-typescript-go",
+      "start_inclusive": "2024-08-15T01:25:17Z"
+    },
+    {
+      "agent_commit_oid": "6b22cf09b376ed94c772c69951a2d125e495b26b",
+      "authorship_role": "human",
+      "end_exclusive": "2025-06-04T13:26:48Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "modelcontextprotocol/registry",
+      "sourcegraph_name": "github.com/sg-evals/modelcontextprotocol-registry",
+      "start_inclusive": "2024-12-06T13:26:48Z"
+    },
+    {
+      "agent_commit_oid": "4f82472c540523c5ff69db83013fdcf503366ce5",
+      "authorship_role": "human",
+      "end_exclusive": "2025-05-28T17:13:13Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "newfuture/ddns",
+      "sourcegraph_name": "github.com/sg-evals/newfuture-ddns",
+      "start_inclusive": "2024-11-29T17:13:13Z"
+    },
+    {
+      "agent_commit_oid": "87571e883a0f40b44bbc83b87632c29d937df292",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-24T13:09:09Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "nikolaydubina/go-instrument",
+      "sourcegraph_name": "github.com/sg-evals/nikolaydubina-go-instrument",
+      "start_inclusive": "2025-01-25T13:09:09Z"
+    },
+    {
+      "agent_commit_oid": "5205f66475d3db5334a2dad1cacc95ad12111ce7",
+      "authorship_role": "human",
+      "end_exclusive": "2025-05-09T13:04:42Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "noneback/go-taskflow",
+      "sourcegraph_name": "github.com/sg-evals/noneback-go-taskflow",
+      "start_inclusive": "2024-11-10T13:04:42Z"
+    },
+    {
+      "agent_commit_oid": "d22a89ab498ab280eb4cd4e7198023745c9738c8",
+      "authorship_role": "human",
+      "end_exclusive": "2025-06-17T16:01:43Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "numbagg/numbagg",
+      "sourcegraph_name": "github.com/sg-evals/numbagg-numbagg",
+      "start_inclusive": "2024-12-19T16:01:43Z"
+    },
+    {
+      "agent_commit_oid": "f27979ef7fe8bba37c64a6623c82783fae28900b",
+      "authorship_role": "human",
+      "end_exclusive": "2025-01-19T22:26:39Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "onyx-dot-app/onyx",
+      "sourcegraph_name": "github.com/sg-evals/onyx-dot-app-onyx",
+      "start_inclusive": "2024-07-23T22:26:39Z"
+    },
+    {
+      "agent_commit_oid": "dfd8b1e42e799617d9222b7833fc53914b23737c",
+      "authorship_role": "human",
+      "end_exclusive": "2025-03-18T08:30:27Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "oras-project/oras",
+      "sourcegraph_name": "github.com/sg-evals/oras-project-oras",
+      "start_inclusive": "2024-09-19T08:30:27Z"
+    },
+    {
+      "agent_commit_oid": "6eec8e36ae37f4ab8abdb2d345526211d0ab4cbf",
+      "authorship_role": "human",
+      "end_exclusive": "2025-05-01T19:58:16Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "reflex-dev/reflex",
+      "sourcegraph_name": "github.com/sg-evals/reflex-dev-reflex",
+      "start_inclusive": "2024-11-02T19:58:16Z"
+    },
+    {
+      "agent_commit_oid": "622374af1820c61a96dc77409bdf99d1158e90e5",
+      "authorship_role": "human",
+      "end_exclusive": "2025-05-01T14:19:11Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "schemahero/schemahero",
+      "sourcegraph_name": "github.com/sg-evals/schemahero-schemahero",
+      "start_inclusive": "2024-11-02T14:19:11Z"
+    },
+    {
+      "agent_commit_oid": "8d5ddaeaa1c819c924eed336b480cd2d8f52a3d2",
+      "authorship_role": "human",
+      "end_exclusive": "2025-03-06T23:19:46Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "spylang/spy",
+      "sourcegraph_name": "github.com/sg-evals/spylang-spy",
+      "start_inclusive": "2024-09-07T23:19:46Z"
+    },
+    {
+      "agent_commit_oid": "b971330e48d4672b04e85b95b4b56f3f0ff5bf01",
+      "authorship_role": "human",
+      "end_exclusive": "2025-05-22T19:41:56Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "teaxyz/chai",
+      "sourcegraph_name": "github.com/sg-evals/teaxyz-chai",
+      "start_inclusive": "2024-11-23T19:41:56Z"
+    },
+    {
+      "agent_commit_oid": "54e2bbf367d8f947d215727ebcbab9762dd82f7c",
+      "authorship_role": "human",
+      "end_exclusive": "2025-06-21T01:46:57Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "tracecathq/tracecat",
+      "sourcegraph_name": "github.com/sg-evals/tracecathq-tracecat",
+      "start_inclusive": "2024-12-23T01:46:57Z"
+    },
+    {
+      "agent_commit_oid": "59f19859b6381a601ec36a67abc556c3c7b88c18",
+      "authorship_role": "human",
+      "end_exclusive": "2025-08-03T13:40:21Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "twpayne/chezmoi",
+      "sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi",
+      "start_inclusive": "2025-02-04T13:40:21Z"
+    },
+    {
+      "agent_commit_oid": "4cee4d7817b61317fda9b79f67ba5e957cd3843f",
+      "authorship_role": "human",
+      "end_exclusive": "2025-07-04T05:15:33Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "ucbepic/docetl",
+      "sourcegraph_name": "github.com/sg-evals/ucbepic-docetl",
+      "start_inclusive": "2025-01-05T05:15:33Z"
+    },
+    {
+      "agent_commit_oid": "232dbf92d2b04ab6e125be90acbbb37fda9b0e39",
+      "authorship_role": "human",
+      "end_exclusive": "2025-01-04T21:10:00Z",
+      "evidence_tier": "H3_contemporary_pre_adoption",
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "repository_id": "vlm-run/vlmrun-hub",
+      "sourcegraph_name": "github.com/sg-evals/vlm-run-vlmrun-hub",
+      "start_inclusive": "2024-07-08T21:10:00Z"
+    }
+  ],
+  "index_manifest_content_sha256": "32e71e28543fa7763279a2f49b816640ae15a8f34bf97011c70dac7e26d8f311",
+  "materialization_rules": {
+    "H2_policy_human": "all_eligible_hunks_in_frozen_window",
+    "H3_contemporary_pre_adoption": {
+      "candidate_order": "reverse_chronological_from_adoption",
+      "exact_strata": [
+        "language",
+        "path_type",
+        "code_age_days"
+      ],
+      "insufficient_capacity": "retain_unmatched_and_fail_identification_gate",
+      "introduced_hunk_code_age_days": 0,
+      "scan_stop": "each_agent_stratum_has_equal_human_hunk_capacity_or_window_exhausted",
+      "within_stratum_order": [
+        "calendar_time",
+        "change_size"
+      ],
+      "without_replacement": true
+    },
+    "agent": "all_eligible_hunks_in_each_confirmed_commit"
+  },
+  "outcomes_consulted": false,
+  "protocol_sha256": "f1adba26c170aeeeba42c96b5975e88bcd0d17b91162c5ef0d9cc2481528e627",
+  "status": "frozen_before_outcome_extraction",
+  "target_manifest_content_sha256": "cef57c2bfba9a02b13cbdedb0e8d4822859e2739dd3b23ede0388fc25ad16dd7",
+  "target_repository_ids": [
+    "2dust/v2rayn",
+    "3b1b/manim",
+    "addyosmani/agent-skills",
+    "affaan-m/ecc",
+    "angular/angular",
+    "anomalyco/opencode",
+    "ansible/ansible",
+    "ant-design/ant-design",
+    "anthropics/claude-code",
+    "anuraghazra/github-readme-stats",
+    "apache/superset",
+    "appflowy-io/appflowy",
+    "astral-sh/uv",
+    "axios/axios",
+    "binary-husky/gpt_academic",
+    "bitcoin/bitcoin",
+    "browser-use/browser-use",
+    "bytedance/deer-flow",
+    "caddyserver/caddy",
+    "chatgptnextweb/nextchat",
+    "clash-verge-rev/clash-verge-rev",
+    "coder/code-server",
+    "comfy-org/comfyui",
+    "d3/d3",
+    "danielmiessler/seclists",
+    "denoland/deno",
+    "django/django",
+    "doocs/advanced-java",
+    "earendil-works/pi",
+    "egonex-ai/understand-anything",
+    "elastic/elasticsearch",
+    "electron/electron",
+    "eugeny/tabby",
+    "excalidraw/excalidraw",
+    "farion1231/cc-switch",
+    "fastapi/fastapi",
+    "fatedier/frp",
+    "firecrawl/firecrawl",
+    "flutter/flutter",
+    "foundationagents/metagpt",
+    "genymobile/scrcpy",
+    "ggml-org/llama.cpp",
+    "gin-gonic/gin",
+    "github/spec-kit",
+    "godotengine/godot",
+    "gohugoio/hugo",
+    "golang/go",
+    "google-gemini/gemini-cli",
+    "grafana/grafana",
+    "graphify-labs/graphify",
+    "hacksider/deep-live-cam",
+    "hakimel/reveal.js",
+    "harry0703/moneyprinterturbo",
+    "hiyouga/llamafactory",
+    "home-assistant/core",
+    "hoppscotch/hoppscotch",
+    "immich-app/immich",
+    "infiniflow/ragflow",
+    "iptv-org/iptv",
+    "jesseduffield/lazygit",
+    "juliangarnier/anime",
+    "junegunn/fzf",
+    "kubernetes/kubernetes",
+    "langchain-ai/langchain",
+    "langflow-ai/langflow",
+    "langgenius/dify",
+    "laravel/laravel",
+    "lobehub/lobehub",
+    "localsend/localsend",
+    "louislam/uptime-kuma",
+    "mermaid-js/mermaid",
+    "microsoft/markitdown",
+    "microsoft/playwright",
+    "microsoft/powertoys",
+    "microsoft/terminal",
+    "microsoft/typescript",
+    "microsoft/vscode",
+    "moby/moby",
+    "modelcontextprotocol/servers",
+    "mrdoob/three.js",
+    "msitarzewski/agency-agents",
+    "mui/material-ui",
+    "n8n-io/n8n",
+    "nationalsecurityagency/ghidra",
+    "nektos/act",
+    "neovim/neovim",
+    "nestjs/nest",
+    "nextlevelbuilder/ui-ux-pro-max-skill",
+    "nexu-io/open-design",
+    "nodejs/node",
+    "nousresearch/hermes-agent",
+    "nvm-sh/nvm",
+    "obra/superpowers",
+    "obsproject/obs-studio",
+    "ocornut/imgui",
+    "ohmyzsh/ohmyzsh",
+    "ollama/ollama",
+    "open-webui/open-webui",
+    "openai/codex",
+    "openai/openai-cookbook",
+    "openai/whisper",
+    "openclaw/openclaw",
+    "opendatalab/mineru",
+    "openhands/openhands",
+    "oven-sh/bun",
+    "paddlepaddle/paddleocr",
+    "pallets/flask",
+    "paperclipai/paperclip",
+    "pewdiepie-archdaemon/odysseus",
+    "protocolbuffers/protobuf",
+    "public-apis/public-apis",
+    "puppeteer/puppeteer",
+    "python/cpython",
+    "react/react",
+    "react/react-native",
+    "realworld-apps/realworld",
+    "redis/redis",
+    "rtk-ai/rtk",
+    "rust-lang/rust",
+    "rustdesk/rustdesk",
+    "shadcn-ui/ui",
+    "sherlock-project/sherlock",
+    "significant-gravitas/autogpt",
+    "spring-projects/spring-boot",
+    "stirling-tools/stirling-pdf",
+    "storybookjs/storybook",
+    "strapi/strapi",
+    "supabase/supabase",
+    "sveltejs/svelte",
+    "swiftlang/swift",
+    "syncthing/syncthing",
+    "tailwindlabs/tailwindcss",
+    "tauri-apps/tauri",
+    "tensorflow/models",
+    "thedaviddias/front-end-checklist",
+    "thedotmack/claude-mem",
+    "toeverything/affine",
+    "tonsky/firacode",
+    "twbs/bootstrap",
+    "typicode/json-server",
+    "unclecode/crawl4ai",
+    "unionlabs/union",
+    "ventoy/ventoy",
+    "vercel/next.js",
+    "vitejs/vite",
+    "vllm-project/vllm",
+    "yt-dlp/yt-dlp",
+    "ytdl-org/youtube-dl",
+    "z4nzu/hackingtool",
+    "zed-industries/zed"
+  ],
+  "window_days": 180
+}

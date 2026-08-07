@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adoption-anchor-completion.schema.json",
+  "title": "Sourcegraph explicit-anchor completion manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "anchor_completion_version",
+    "amendment_sha256",
+    "source_decision_ledger_sha256",
+    "case_index_sha256",
+    "workflow_sha256",
+    "tranche_id",
+    "tranche_number",
+    "selection_mode",
+    "eligible_repository_count",
+    "completed_repository_count",
+    "exhausted_repository_count",
+    "task_count",
+    "tasks",
+    "prehistory",
+    "outcomes_consulted",
+    "manifest_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-adoption-anchor-completion.schema.json"
+    },
+    "anchor_completion_version": {
+      "const": 1
+    },
+    "amendment_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "source_decision_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "case_index_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "workflow_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "tranche_id": {
+      "$ref": "#/$defs/sha256"
+    },
+    "tranche_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "selection_mode": {
+      "const": "explicit_anchor_completion"
+    },
+    "eligible_repository_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "completed_repository_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "exhausted_repository_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "task_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "$ref": "sourcegraph-adoption-review-tranche.schema.json#/$defs/task"
+      }
+    },
+    "prehistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "task_id",
+          "earliest_unresolved_position",
+          "unresolved_earlier_candidate_count",
+          "clean_prehistory"
+        ],
+        "properties": {
+          "task_id": {
+            "$ref": "#/$defs/sha256"
+          },
+          "earliest_unresolved_position": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "unresolved_earlier_candidate_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "clean_prehistory": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "8134e687a25eb2c4e5bd72bfa74a086475b6638f8ab33cdcfaa381b527f29e32",
+  "artifact_version": 1,
+  "canonical_repository_id": "vdaas/vald",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "d50c5e731dedf7bc9dbe389bd9057c959198ac97"
+  ],
+  "cited_files": [
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L6"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L17-L20"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L37-L43"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L23-L28"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L8-L11"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L55-L115"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L17"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L19-L21"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L21"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L31-L37"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L63-L126"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L39-L62"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L176-L183"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L175"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L142-L173"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/chatops.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/chatops_commands.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_commands.md"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/chatops_permissions.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_permissions.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/chatops.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L45"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/chatops_commands.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_commands.md?L3"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/chatops.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L181-L290"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/chatops.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L291-L418"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/format.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/format.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/chatops.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L386"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/format.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/format.yaml?L103-L105"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/update-pull-request-and-issue-template.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/update-pull-request-and-issue-template.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/update-pull-request-and-issue-template.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/update-pull-request-and-issue-template.yaml?L71"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".commit_template",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.commit_template?L35"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/chatops-help.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops-help.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".deepsource.toml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".deepsource.toml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml?L37-L38"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".deepsource.toml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml?L18-L21"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".devcontainer/devcontainer.json",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.devcontainer/devcontainer.json"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L129"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".devcontainer/devcontainer.json",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.devcontainer/devcontainer.json?L3"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".devcontainer/devcontainer.json",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.devcontainer/devcontainer.json?L29"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2000",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: vdaas/vald; study cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97.",
+  "prompt_family_id": "adoption_configuration",
+  "prompt_sha256": "a598160d92f9de17ed0874e15849f1d6791f916346b341ce05c094c317e9940b",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a thorough picture of all the relevant artifacts. Let me compile the findings.\n\n---\n\n## Cited Candidate Observations: AI/Agent Configuration in `vdaas/vald` @ `d50c5e7`\n\n---\n\n### OBS-1: `AGENTS.md` \u2014 Explicit Coding-Agent System Prompt / Instruction File\n\n**File:** [AGENTS.md](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md)\n\nThis is the most direct evidence of coding-agent configuration. The file is titled \"Vald AI Co-Worker Development Guide\" and opens with a `PRIME DIRECTIVE` addressed to an agent, not a human:\n\n> **\"You are not just a contributor; you are the guardian of `AGENTS.md`.\"** ([line 6](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L6))\n\nKey observations within the file:\n\n- **Agent Identity / Role Persona** ([lines 17\u201320](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L17-L20)): Assigns the agent an explicit role: *\"Senior Cloud-Native Distributed Systems Engineer & Polyglot Expert (Go/Rust/K8s), Core Maintainer of Vald project\"* with a named \"Mental Model\": Zero-Diff, Performance, Stability.\n- **Behavioral Constraints / Hard Prohibitions** ([lines 37\u201343](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L37-L43)): Structured `STRICT PROHIBITIONS` and `MANDATORY PATTERNS` sections \u2014 explicit agent guardrails (no direct `go build`, no `panic!`, no secrets, regenerate code via `make`).\n- **Workflow Prescription** ([lines 23\u201328](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L23-L28)): Explicit agentic loop: *\"Plan \u2192 Execute \u2192 Show \u2192 Propose\"*, *\"Minimal Diffs\"*, *\"Discovery First\"*, *\"Cluster Safety: Discover \u2192 Preview/Dry-run \u2192 Apply \u2192 Verify\"*.\n- **Self-Evolution Directive** ([lines 8\u201311](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L8-L11)): Instructs the agent to update the file itself (\"mutable knowledge base\") when it discovers new patterns.\n- **Technology Stack Guidelines for agents** ([lines 55\u2013115](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L55-L115)): Detailed per-language operational rules (Go, Rust, K8s, Docker, Makefiles, GitHub Actions) written as imperatives to an agent runtime.\n\n**Proposed corpus query:**\n```\nfile:AGENTS.md \"PRIME DIRECTIVE\" OR \"You are\" OR \"agent identity\" OR \"operational protocol\"\n```\n```\nfile:AGENTS.md\n```\n\n---\n\n### OBS-2: `.coderabbit.yaml` \u2014 AI Code Review Bot Configuration\n\n**File:** [.coderabbit.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml)\n\nThe project uses [CodeRabbit](https://coderabbit.ai), an AI-powered automated code review service. The configuration is extensive:\n\n- **Schema declaration** ([line 17](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L17)): `yaml-language-server: $schema=https://docs.coderabbit.ai/schema/schema.v2.json`\n- **Tone / Persona instructions** ([lines 19\u201321](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L19-L21)): `tone_instructions` field with explicit style guidance matching `AGENTS.md` verbatim: *\"Use professional tone for experienced engineer. Focus on architecture, performance, and maintainability. Avoid vague feedback \u2014 give clear reasons.\"*\n- **`early_access: true`** ([line 21](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L21)): Opts into pre-release CodeRabbit features.\n- **Auto-review policy** ([lines 31\u201337](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L31-L37)): `auto_review.enabled: true`, targeting `main` branch; draft PRs excluded; WIP/draft keyword suppression.\n- **Path-level AI review instructions** ([lines 63\u2013126](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L63-L126)): Per-path natural-language prompts for Go, Rust, Helm, K8s, Makefile, Markdown, GitHub Actions, and Dockerfiles.\n- **Path filters for generated files** ([lines 39\u201362](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L39-L62)): Excludes `.pb.go`, `_vtproto.pb.go`, `.tonic.rs`, `.serde.rs`, etc. \u2014 i.e., generated code is excluded from AI review.\n- **Knowledge base configuration** ([lines 176\u2013183](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L176-L183)): CodeRabbit is pointed at `**/AGENTS.md`, `**/CONTRIBUTING.md`, and `**/README.md` as its code-guidelines knowledge base, making `AGENTS.md` the agent's operational context for PR reviews.\n- **`chat.auto_reply: true`** ([line 175](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L175)): Bot auto-replies to PR comments.\n- **Integrated security/analysis tools** ([lines 142\u2013173](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L142-L173)): `gitleaks`, `semgrep`, `checkov`, `trivy`, `actionlint`, `checkmake` are all enabled within the CodeRabbit AI review pipeline.\n\n**Proposed corpus queries:**\n```\nfile:.coderabbit.yaml\n```\n```\nfile:.coderabbit.yaml \"tone_instructions\" OR \"early_access\" OR \"auto_reply\"\n```\n```\nfile:.coderabbit.yaml knowledge_base filePatterns AGENTS.md\n```\n\n---\n\n### OBS-3: `chatops.yaml` + `chatops_commands.md` + `chatops_permissions.yaml` \u2014 Bot-Triggered Automation Identity\n\n**Files:**\n- [.github/workflows/chatops.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml)\n- [.github/chatops_commands.md](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_commands.md)\n- [.github/chatops_permissions.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_permissions.yaml)\n\nThe ChatOps system reflects bot identity and agent invocation constraints:\n\n- **Bot identity exclusion list** ([line 45](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L45)): The `dump-contexts-to-log` gate explicitly excludes bot identities from triggering workflows:\n  ```yaml\n  if: ${{ !contains(fromJSON('[\"cloudflare-workers-and-pages\", \"coderabbitai\", \"vdaas-ci\", \"all-contributors\"]'), github.event.comment.user.login) }}\n  ```\n  This names `coderabbitai` (AI review bot), `vdaas-ci` (automation CI bot), `all-contributors` (contributor bot), and `cloudflare-workers-and-pages` as recognized non-human actors on the repository.\n\n- **`/gen-test` command** ([chatops_commands.md line 3](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_commands.md?L3), [chatops.yaml lines 181\u2013290](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L181-L290)): A slash command that runs `make gotests/gen` and commits with message `\":robot: Add automatically generated tests\"`. This is a human-triggered but bot-executed automated code generation operation using the robot emoji as a disclosure marker.\n\n- **`/format` command** ([chatops.yaml lines 291\u2013418](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L291-L418)): Commits with `\":robot: Update license headers / Format go codes and yaml files\"` \u2014 same robot emoji disclosure pattern.\n\n- **Permission model for agents** ([chatops_permissions.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_permissions.yaml)): RBAC system with named human users (`kpango`, `vankichi`, etc.) controlling which bot actions can be triggered. The `gen-test` policy requires at minimum the `sig-core` or `sig-lead` role.\n\n**Proposed corpus queries:**\n```\nfile:.github/workflows/chatops.yaml \"coderabbitai\" OR \"vdaas-ci\" OR \"all-contributors\"\n```\n```\nfile:.github/workflows/*.yaml \":robot:\" OR \"generated tests\" OR \"automatically\"\n```\n```\nfile:.github/chatops_permissions.yaml \"gen-test\"\n```\n\n---\n\n### OBS-4: `format.yaml` Workflow \u2014 Automated Bot Commits with Robot Emoji Disclosure\n\n**File:** [.github/workflows/format.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/format.yaml)\n\nThe format workflow runs autonomously on `push` to `main` and opens PRs using `peter-evans/create-pull-request`. Bot-authored commits use the robot emoji as a structured disclosure:\n\n- Commit message: `\":robot: Update license headers / Format go codes and yaml files\"` ([line 386 in chatops.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L386))\n- PR author set to `${{ secrets.DISPATCH_USER }} <vald@vdaas.org>` ([format.yaml line 103](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/format.yaml?L103-L105)) \u2014 `DISPATCH_USER` is the automated service account, not a human committer.\n\n**Proposed corpus queries:**\n```\nfile:.github/workflows/*.yaml \":robot:\"\n```\n```\nfile:.github/workflows/*.yaml \"DISPATCH_USER\" \"DISPATCH_TOKEN\"\n```\n\n---\n\n### OBS-5: `update-pull-request-and-issue-template.yaml` \u2014 Automated Bot Commit with Robot Emoji\n\n**File:** [.github/workflows/update-pull-request-and-issue-template.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/update-pull-request-and-issue-template.yaml)\n\nA separate automation commits template updates with:\n> `\":robot: Automatically update PULL_REQUEST_TEMPLATE and ISSUE_TEMPLATE\"` ([line 71](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/update-pull-request-and-issue-template.yaml?L71))\n\nThe robot emoji (`\ud83e\udd16`) is used consistently across all automated commit messages as a project-wide convention for disclosing non-human authorship.\n\n**Proposed corpus query:**\n```\n\":robot: Automatically\" OR \":robot: Add automatically\" OR \":robot: Update\"\n```\n\n---\n\n### OBS-6: `.coderabbit.yaml` Knowledge Base \u2014 `AGENTS.md` as AI Context Source\n\n**File:** [.coderabbit.yaml lines 176\u2013183](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L176-L183)\n\n```yaml\nknowledge_base:\n  code_guidelines:\n    enabled: true\n    filePatterns:\n      - \"**/AGENTS.md\"\n      - \"**/CONTRIBUTING.md\"\n      - \"**/README.md\"\n      - \"**/docs/contributing/*.md\"\n```\n\nThis is an explicit configuration linking the `AGENTS.md` system-prompt file into the CodeRabbit AI reviewer's knowledge base. The AI reviewer will use `AGENTS.md` as its behavioral context when generating PR review comments. This creates a feedback loop: `AGENTS.md` governs both the coding agent and the review agent.\n\n**Proposed corpus query:**\n```\nfile:.coderabbit.yaml knowledge_base filePatterns\n```\n\n---\n\n### OBS-7: `.commit_template` \u2014 Commit Convention Includes Robot Identity Glyph\n\n**File:** [.commit_template line 35](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.commit_template?L35)\n\nThe repository's shared commit template includes:\n> `# \ud83e\udd16 :robot: Fixing something on Android.`\n\nWhile intended as a gitmoji for \"Android fixes\", the `:robot:` emoji is repurposed in all automated workflows as the non-human authorship marker, suggesting the project has normalized using that glyph to signal bot-authored commits.\n\n**Proposed corpus query:**\n```\nfile:.commit_template \":robot:\"\n```\n\n---\n\n### OBS-8: `chatops-help.yaml` \u2014 Bot Auto-Posts Command Menu on Every New PR\n\n**File:** [.github/workflows/chatops-help.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops-help.yaml)\n\nOn every `pull_request: opened` event, a bot automatically posts the full ChatOps command menu as a PR comment. This includes the `/gen-test` command (bot code generation) and `/format` (bot formatting). This is both a disclosure mechanism and an agent invocation interface surfaced at the PR level.\n\n**Proposed corpus query:**\n```\nfile:.github/workflows/chatops-help.yaml \"CHATOPS:HELP\" OR \"pull_request\" \"opened\"\n```\n\n---\n\n### OBS-9: `.deepsource.toml` \u2014 Static Analysis Bot with Secrets Scanning\n\n**File:** [.deepsource.toml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml)\n\nDeepSource is configured as an automated code analysis bot with:\n- `secrets` analyzer enabled ([line 37\u201338](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml?L37-L38)) \u2014 detects hardcoded credentials.\n- Exclude patterns for generated protobuf files ([lines 18\u201321](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml?L18-L21)): consistent with the project-wide policy of not scanning AI/tool-generated artifacts.\n\n**Proposed corpus query:**\n```\nfile:.deepsource.toml\n```\n\n---\n\n### OBS-10: `.devcontainer/devcontainer.json` \u2014 Reproducible Agent Execution Environment\n\n**File:** [.devcontainer/devcontainer.json](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.devcontainer/devcontainer.json)\n\nThe `AGENTS.md` instructs agents to use `make init` before any work ([AGENTS.md line 129](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L129)). The devcontainer provides the corresponding reproducible environment:\n- Image: `vdaas/vald-dev-container:nightly` ([line 3](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.devcontainer/devcontainer.json?L3))\n- `postAttachCommand` runs a setup script ([line 29](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.devcontainer/devcontainer.json?L29))\n\nThis is the containerized execution environment for both human developers and any agent using the dev container spec (e.g., GitHub Copilot Workspace, Codespaces, or cloud coding agents).\n\n**Proposed corpus query:**\n```\nfile:.devcontainer/devcontainer.json \"vald-dev-container\"\n```\n\n---\n\n## Summary Table\n\n| # | Artifact | Category | Signal |\n|---|----------|----------|--------|\n| OBS-1 | `AGENTS.md` | Agent instruction file / system prompt | Explicit persona, behavioral constraints, workflow for coding agent |\n| OBS-2 | `.coderabbit.yaml` | AI review bot configuration | CodeRabbit AI reviewer with per-path prompts, knowledge base, tone |\n| OBS-3 | `chatops.yaml` / `chatops_commands.md` / `chatops_permissions.yaml` | Bot invocation + identity governance | Named bot identities (`coderabbitai`, `vdaas-ci`), RBAC for gen-test |\n| OBS-4 | `format.yaml` | Automated bot commits | Robot emoji disclosure on bot-authored commits |\n| OBS-5 | `update-pull-request-and-issue-template.yaml` | Automated bot commits | Same robot emoji disclosure convention |\n| OBS-6 | `.coderabbit.yaml` knowledge\\_base | AI context configuration | `AGENTS.md` fed into AI reviewer as code-guidelines source |\n| OBS-7 | `.commit_template` | Commit convention | `:robot:` glyph normalized as bot-authorship marker |\n| OBS-8 | `chatops-help.yaml` | Agent interface disclosure | Bot posts command menu (incl. `/gen-test`) on every new PR |\n| OBS-9 | `.deepsource.toml` | Analysis bot configuration | Secrets + code analysis bot, generated files excluded |\n| OBS-10 | `.devcontainer/devcontainer.json` | Agent execution environment | Dev container spec usable by cloud coding agents |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:17:06Z",
+    "name": "users/476/conversations/2000",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a thorough picture of all the relevant artifacts. Let me compile the findings.\n\n---\n\n## Cited Candidate Observations: AI/Agent Configuration in `vdaas/vald` @ `d50c5e7`\n\n---\n\n### OBS-1: `AGENTS.md` \u2014 Explicit Coding-Agent System Prompt / Instruction File\n\n**File:** [AGENTS.md](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md)\n\nThis is the most direct evidence of coding-agent configuration. The file is titled \"Vald AI Co-Worker Development Guide\" and opens with a `PRIME DIRECTIVE` addressed to an agent, not a human:\n\n> **\"You are not just a contributor; you are the guardian of `AGENTS.md`.\"** ([line 6](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L6))\n\nKey observations within the file:\n\n- **Agent Identity / Role Persona** ([lines 17\u201320](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L17-L20)): Assigns the agent an explicit role: *\"Senior Cloud-Native Distributed Systems Engineer & Polyglot Expert (Go/Rust/K8s), Core Maintainer of Vald project\"* with a named \"Mental Model\": Zero-Diff, Performance, Stability.\n- **Behavioral Constraints / Hard Prohibitions** ([lines 37\u201343](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L37-L43)): Structured `STRICT PROHIBITIONS` and `MANDATORY PATTERNS` sections \u2014 explicit agent guardrails (no direct `go build`, no `panic!`, no secrets, regenerate code via `make`).\n- **Workflow Prescription** ([lines 23\u201328](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L23-L28)): Explicit agentic loop: *\"Plan \u2192 Execute \u2192 Show \u2192 Propose\"*, *\"Minimal Diffs\"*, *\"Discovery First\"*, *\"Cluster Safety: Discover \u2192 Preview/Dry-run \u2192 Apply \u2192 Verify\"*.\n- **Self-Evolution Directive** ([lines 8\u201311](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L8-L11)): Instructs the agent to update the file itself (\"mutable knowledge base\") when it discovers new patterns.\n- **Technology Stack Guidelines for agents** ([lines 55\u2013115](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L55-L115)): Detailed per-language operational rules (Go, Rust, K8s, Docker, Makefiles, GitHub Actions) written as imperatives to an agent runtime.\n\n**Proposed corpus query:**\n```\nfile:AGENTS.md \"PRIME DIRECTIVE\" OR \"You are\" OR \"agent identity\" OR \"operational protocol\"\n```\n```\nfile:AGENTS.md\n```\n\n---\n\n### OBS-2: `.coderabbit.yaml` \u2014 AI Code Review Bot Configuration\n\n**File:** [.coderabbit.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml)\n\nThe project uses [CodeRabbit](https://coderabbit.ai), an AI-powered automated code review service. The configuration is extensive:\n\n- **Schema declaration** ([line 17](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L17)): `yaml-language-server: $schema=https://docs.coderabbit.ai/schema/schema.v2.json`\n- **Tone / Persona instructions** ([lines 19\u201321](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L19-L21)): `tone_instructions` field with explicit style guidance matching `AGENTS.md` verbatim: *\"Use professional tone for experienced engineer. Focus on architecture, performance, and maintainability. Avoid vague feedback \u2014 give clear reasons.\"*\n- **`early_access: true`** ([line 21](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L21)): Opts into pre-release CodeRabbit features.\n- **Auto-review policy** ([lines 31\u201337](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L31-L37)): `auto_review.enabled: true`, targeting `main` branch; draft PRs excluded; WIP/draft keyword suppression.\n- **Path-level AI review instructions** ([lines 63\u2013126](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L63-L126)): Per-path natural-language prompts for Go, Rust, Helm, K8s, Makefile, Markdown, GitHub Actions, and Dockerfiles.\n- **Path filters for generated files** ([lines 39\u201362](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L39-L62)): Excludes `.pb.go`, `_vtproto.pb.go`, `.tonic.rs`, `.serde.rs`, etc. \u2014 i.e., generated code is excluded from AI review.\n- **Knowledge base configuration** ([lines 176\u2013183](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L176-L183)): CodeRabbit is pointed at `**/AGENTS.md`, `**/CONTRIBUTING.md`, and `**/README.md` as its code-guidelines knowledge base, making `AGENTS.md` the agent's operational context for PR reviews.\n- **`chat.auto_reply: true`** ([line 175](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L175)): Bot auto-replies to PR comments.\n- **Integrated security/analysis tools** ([lines 142\u2013173](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L142-L173)): `gitleaks`, `semgrep`, `checkov`, `trivy`, `actionlint`, `checkmake` are all enabled within the CodeRabbit AI review pipeline.\n\n**Proposed corpus queries:**\n```\nfile:.coderabbit.yaml\n```\n```\nfile:.coderabbit.yaml \"tone_instructions\" OR \"early_access\" OR \"auto_reply\"\n```\n```\nfile:.coderabbit.yaml knowledge_base filePatterns AGENTS.md\n```\n\n---\n\n### OBS-3: `chatops.yaml` + `chatops_commands.md` + `chatops_permissions.yaml` \u2014 Bot-Triggered Automation Identity\n\n**Files:**\n- [.github/workflows/chatops.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml)\n- [.github/chatops_commands.md](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_commands.md)\n- [.github/chatops_permissions.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_permissions.yaml)\n\nThe ChatOps system reflects bot identity and agent invocation constraints:\n\n- **Bot identity exclusion list** ([line 45](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L45)): The `dump-contexts-to-log` gate explicitly excludes bot identities from triggering workflows:\n  ```yaml\n  if: ${{ !contains(fromJSON('[\"cloudflare-workers-and-pages\", \"coderabbitai\", \"vdaas-ci\", \"all-contributors\"]'), github.event.comment.user.login) }}\n  ```\n  This names `coderabbitai` (AI review bot), `vdaas-ci` (automation CI bot), `all-contributors` (contributor bot), and `cloudflare-workers-and-pages` as recognized non-human actors on the repository.\n\n- **`/gen-test` command** ([chatops_commands.md line 3](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_commands.md?L3), [chatops.yaml lines 181\u2013290](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L181-L290)): A slash command that runs `make gotests/gen` and commits with message `\":robot: Add automatically generated tests\"`. This is a human-triggered but bot-executed automated code generation operation using the robot emoji as a disclosure marker.\n\n- **`/format` command** ([chatops.yaml lines 291\u2013418](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L291-L418)): Commits with `\":robot: Update license headers / Format go codes and yaml files\"` \u2014 same robot emoji disclosure pattern.\n\n- **Permission model for agents** ([chatops_permissions.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_permissions.yaml)): RBAC system with named human users (`kpango`, `vankichi`, etc.) controlling which bot actions can be triggered. The `gen-test` policy requires at minimum the `sig-core` or `sig-lead` role.\n\n**Proposed corpus queries:**\n```\nfile:.github/workflows/chatops.yaml \"coderabbitai\" OR \"vdaas-ci\" OR \"all-contributors\"\n```\n```\nfile:.github/workflows/*.yaml \":robot:\" OR \"generated tests\" OR \"automatically\"\n```\n```\nfile:.github/chatops_permissions.yaml \"gen-test\"\n```\n\n---\n\n### OBS-4: `format.yaml` Workflow \u2014 Automated Bot Commits with Robot Emoji Disclosure\n\n**File:** [.github/workflows/format.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/format.yaml)\n\nThe format workflow runs autonomously on `push` to `main` and opens PRs using `peter-evans/create-pull-request`. Bot-authored commits use the robot emoji as a structured disclosure:\n\n- Commit message: `\":robot: Update license headers / Format go codes and yaml files\"` ([line 386 in chatops.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml?L386))\n- PR author set to `${{ secrets.DISPATCH_USER }} <vald@vdaas.org>` ([format.yaml line 103](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/format.yaml?L103-L105)) \u2014 `DISPATCH_USER` is the automated service account, not a human committer.\n\n**Proposed corpus queries:**\n```\nfile:.github/workflows/*.yaml \":robot:\"\n```\n```\nfile:.github/workflows/*.yaml \"DISPATCH_USER\" \"DISPATCH_TOKEN\"\n```\n\n---\n\n### OBS-5: `update-pull-request-and-issue-template.yaml` \u2014 Automated Bot Commit with Robot Emoji\n\n**File:** [.github/workflows/update-pull-request-and-issue-template.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/update-pull-request-and-issue-template.yaml)\n\nA separate automation commits template updates with:\n> `\":robot: Automatically update PULL_REQUEST_TEMPLATE and ISSUE_TEMPLATE\"` ([line 71](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/update-pull-request-and-issue-template.yaml?L71))\n\nThe robot emoji (`\ud83e\udd16`) is used consistently across all automated commit messages as a project-wide convention for disclosing non-human authorship.\n\n**Proposed corpus query:**\n```\n\":robot: Automatically\" OR \":robot: Add automatically\" OR \":robot: Update\"\n```\n\n---\n\n### OBS-6: `.coderabbit.yaml` Knowledge Base \u2014 `AGENTS.md` as AI Context Source\n\n**File:** [.coderabbit.yaml lines 176\u2013183](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml?L176-L183)\n\n```yaml\nknowledge_base:\n  code_guidelines:\n    enabled: true\n    filePatterns:\n      - \"**/AGENTS.md\"\n      - \"**/CONTRIBUTING.md\"\n      - \"**/README.md\"\n      - \"**/docs/contributing/*.md\"\n```\n\nThis is an explicit configuration linking the `AGENTS.md` system-prompt file into the CodeRabbit AI reviewer's knowledge base. The AI reviewer will use `AGENTS.md` as its behavioral context when generating PR review comments. This creates a feedback loop: `AGENTS.md` governs both the coding agent and the review agent.\n\n**Proposed corpus query:**\n```\nfile:.coderabbit.yaml knowledge_base filePatterns\n```\n\n---\n\n### OBS-7: `.commit_template` \u2014 Commit Convention Includes Robot Identity Glyph\n\n**File:** [.commit_template line 35](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.commit_template?L35)\n\nThe repository's shared commit template includes:\n> `# \ud83e\udd16 :robot: Fixing something on Android.`\n\nWhile intended as a gitmoji for \"Android fixes\", the `:robot:` emoji is repurposed in all automated workflows as the non-human authorship marker, suggesting the project has normalized using that glyph to signal bot-authored commits.\n\n**Proposed corpus query:**\n```\nfile:.commit_template \":robot:\"\n```\n\n---\n\n### OBS-8: `chatops-help.yaml` \u2014 Bot Auto-Posts Command Menu on Every New PR\n\n**File:** [.github/workflows/chatops-help.yaml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops-help.yaml)\n\nOn every `pull_request: opened` event, a bot automatically posts the full ChatOps command menu as a PR comment. This includes the `/gen-test` command (bot code generation) and `/format` (bot formatting). This is both a disclosure mechanism and an agent invocation interface surfaced at the PR level.\n\n**Proposed corpus query:**\n```\nfile:.github/workflows/chatops-help.yaml \"CHATOPS:HELP\" OR \"pull_request\" \"opened\"\n```\n\n---\n\n### OBS-9: `.deepsource.toml` \u2014 Static Analysis Bot with Secrets Scanning\n\n**File:** [.deepsource.toml](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml)\n\nDeepSource is configured as an automated code analysis bot with:\n- `secrets` analyzer enabled ([line 37\u201338](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml?L37-L38)) \u2014 detects hardcoded credentials.\n- Exclude patterns for generated protobuf files ([lines 18\u201321](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml?L18-L21)): consistent with the project-wide policy of not scanning AI/tool-generated artifacts.\n\n**Proposed corpus query:**\n```\nfile:.deepsource.toml\n```\n\n---\n\n### OBS-10: `.devcontainer/devcontainer.json` \u2014 Reproducible Agent Execution Environment\n\n**File:** [.devcontainer/devcontainer.json](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.devcontainer/devcontainer.json)\n\nThe `AGENTS.md` instructs agents to use `make init` before any work ([AGENTS.md line 129](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/AGENTS.md?L129)). The devcontainer provides the corresponding reproducible environment:\n- Image: `vdaas/vald-dev-container:nightly` ([line 3](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.devcontainer/devcontainer.json?L3))\n- `postAttachCommand` runs a setup script ([line 29](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.devcontainer/devcontainer.json?L29))\n\nThis is the containerized execution environment for both human developers and any agent using the dev container spec (e.g., GitHub Copilot Workspace, Codespaces, or cloud coding agents).\n\n**Proposed corpus query:**\n```\nfile:.devcontainer/devcontainer.json \"vald-dev-container\"\n```\n\n---\n\n## Summary Table\n\n| # | Artifact | Category | Signal |\n|---|----------|----------|--------|\n| OBS-1 | `AGENTS.md` | Agent instruction file / system prompt | Explicit persona, behavioral constraints, workflow for coding agent |\n| OBS-2 | `.coderabbit.yaml` | AI review bot configuration | CodeRabbit AI reviewer with per-path prompts, knowledge base, tone |\n| OBS-3 | `chatops.yaml` / `chatops_commands.md` / `chatops_permissions.yaml` | Bot invocation + identity governance | Named bot identities (`coderabbitai`, `vdaas-ci`), RBAC for gen-test |\n| OBS-4 | `format.yaml` | Automated bot commits | Robot emoji disclosure on bot-authored commits |\n| OBS-5 | `update-pull-request-and-issue-template.yaml` | Automated bot commits | Same robot emoji disclosure convention |\n| OBS-6 | `.coderabbit.yaml` knowledge\\_base | AI context configuration | `AGENTS.md` fed into AI reviewer as code-guidelines source |\n| OBS-7 | `.commit_template` | Commit convention | `:robot:` glyph normalized as bot-authorship marker |\n| OBS-8 | `chatops-help.yaml` | Agent interface disclosure | Bot posts command menu (incl. `/gen-test`) on every new PR |\n| OBS-9 | `.deepsource.toml` | Analysis bot configuration | Secrets + code analysis bot, generated files excluded |\n| OBS-10 | `.devcontainer/devcontainer.json` | Agent execution environment | Dev container spec usable by cloud coding agents |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:17:06Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: vdaas/vald; study cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigate coding agent and generative AI artifacts in vdaas/vald at a specific revision",
+    "updateTime": "2026-07-29T03:19:22Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/156ba0ca-238a-46d4-916c-2dca99628d75"
+  },
+  "run_id": "sha256:1dca8f81736a7bf2a1581f9bc003fe0e2eee11540661ed7d714c8c525a34c3ba",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "vdaas/vald"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

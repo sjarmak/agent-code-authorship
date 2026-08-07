@@ -2,7 +2,7 @@
 
 ## Tier 2 survival alternatives
 
-Context: publication figures comparing repository-weighted survival across
+Context: publication figures comparing repository-balanced Kaplan–Meier survival across
 language, agent family, and four follow-up horizons.
 
 ### Scores
@@ -15,12 +15,12 @@ language, agent family, and four follow-up horizons.
 - Data-ink ratio — 9/10 — no grid, box, shadow, gradient, or decoration.
 - Redundant ink — 9/10 — position and a thin line carry the values; labels
   identify facets directly.
-- Data density — 8/10 — 35 identified estimates occupy nine compact panels.
+- Data density — 8/10 — 40 identified estimates occupy ten compact panels.
 - Integration — 9/10 — agent, language, and repository counts appear on the
   panels; no remote legend is required.
-- Context — 8/10 — horizon, estimand, weighting, and gated-cell behavior are
-  stated; joint uncertainty is intentionally absent because the frozen artifact
-  does not contain a valid interval for the summed estimand.
+- Context — 9/10 — horizon, censoring-correct estimand, repository weighting,
+  and gated-cell behavior are stated; whole-repository bootstrap intervals
+  remain available in the frozen artifact.
 - Clarity — 9/10 — shared scales make panel comparisons legitimate.
 - Typography — 9/10 — restrained serif type, horizontal labels, and modest
   hierarchy.
@@ -60,9 +60,8 @@ non-identification.
 ### Fixes
 
 1. No integrity correction required.
-2. If the estimator is extended, retain each bootstrap draw of
-   `unchanged + modified` and add a thin uncertainty band; do not sum marginal
-   interval endpoints.
+2. A later figure revision may add the frozen Kaplan–Meier bootstrap intervals
+   as thin uncertainty bands if the additional ink remains legible.
 
 ## Matched contextual effects
 

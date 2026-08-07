@@ -1,0 +1,16 @@
+{
+  "execution_version": 3,
+  "plan_sha256": "194cfc0a38eb3312575f4abeba460ee615c4f186d206fa1b2f7ca573068d46fe",
+  "approval_scope": "destructive",
+  "started_at": "2026-07-27T19:50:25.181316Z",
+  "updated_at": "2026-07-27T19:50:25.183432Z",
+  "status": "running",
+  "selected_count": 2,
+  "selected_repository_ids": [
+    "kubernetes/kubernetes",
+    "nodejs/node"
+  ],
+  "current_action": "kubernetes/kubernetes",
+  "results": [],
+  "journal_sha256": "7444243412bd1f657faad7718fa4e93726c4acdc13019dab06c4a872c0628ec2"
+}

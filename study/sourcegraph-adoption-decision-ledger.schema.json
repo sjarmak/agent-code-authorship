@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adoption-decision-ledger.schema.json",
+  "title": "Cumulative Sourcegraph adoption-review decision ledger",
+  "type": "object",
+  "required": [
+    "decision_ledger_version",
+    "tranche_id",
+    "tranche_sha256",
+    "case_index_sha256",
+    "workflow_sha256",
+    "prior_decision_ledger_sha256",
+    "prior_decision_count",
+    "response_count",
+    "decision_count",
+    "decisions",
+    "outcomes_consulted",
+    "decision_ledger_sha256"
+  ],
+  "properties": {
+    "decision_ledger_version": {
+      "const": 3
+    },
+    "tranche_id": {
+      "$ref": "#/$defs/sha256"
+    },
+    "tranche_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "case_index_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "workflow_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "prior_decision_ledger_sha256": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/sha256"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "prior_decision_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "response_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "decision_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "$ref": "sourcegraph-adoption-review-response.schema.json"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "decision_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

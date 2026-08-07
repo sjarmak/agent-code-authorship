@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agent-code-authorship.local/study/sourcegraph-repository-case.schema.json",
+  "title": "Sourcegraph repository-event adjudication case",
+  "type": "object",
+  "required": [
+    "case_version",
+    "case_id",
+    "canonical_repository_id",
+    "canonical_source_url",
+    "sourcegraph_name",
+    "cutoff_commit",
+    "packet_count",
+    "event_count",
+    "events",
+    "queues",
+    "workflow",
+    "outcomes_consulted",
+    "repository_case_sha256"
+  ],
+  "properties": {
+    "case_version": {"const": 3},
+    "case_id": {"$ref": "#/$defs/sha256"},
+    "canonical_repository_id": {"type": "string", "minLength": 3},
+    "canonical_source_url": {"type": "string", "format": "uri"},
+    "sourcegraph_name": {"type": "string", "minLength": 1},
+    "cutoff_commit": {"$ref": "#/$defs/gitOid"},
+    "packet_count": {"type": "integer", "minimum": 1},
+    "event_count": {"type": "integer", "minimum": 1},
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/event"}
+    },
+    "queues": {
+      "type": "object",
+      "required": [
+        "explicit_provenance_candidates",
+        "adoption_anchor_candidates",
+        "adoption_challenge_candidates",
+        "ai_ban_candidates"
+      ],
+      "properties": {
+        "explicit_provenance_candidates": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/event"}
+        },
+        "adoption_anchor_candidates": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/event"}
+        },
+        "adoption_challenge_candidates": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/event"}
+        },
+        "ai_ban_candidates": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/event"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "workflow": {
+      "type": "object",
+      "required": [
+        "adoption_stop_rule",
+        "ai_ban_stop_rule",
+        "post_adoption_implies_agent",
+        "ambiguous_case_review"
+      ],
+      "properties": {
+        "adoption_stop_rule": {"type": "string", "minLength": 1},
+        "ai_ban_stop_rule": {"type": "string", "minLength": 1},
+        "post_adoption_implies_agent": {"const": false},
+        "ambiguous_case_review": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "outcomes_consulted": {"const": false},
+    "repository_case_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "gitOid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40,64}$"
+    },
+    "event": {
+      "type": "object",
+      "required": [
+        "event_id",
+        "packet_type",
+        "candidate_event",
+        "query_family_ids",
+        "packet_ids",
+        "packet_count"
+      ],
+      "properties": {
+        "event_id": {"$ref": "#/$defs/sha256"},
+        "packet_type": {"enum": ["adoption_event", "ai_ban_policy"]},
+        "candidate_event": {
+          "type": "object",
+          "required": ["commit_oid", "observed_at"],
+          "properties": {
+            "commit_oid": {"$ref": "#/$defs/gitOid"},
+            "observed_at": {"type": "string", "format": "date-time"}
+          },
+          "additionalProperties": false
+        },
+        "query_family_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "packet_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/sha256"}
+        },
+        "packet_count": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    }
+  }
+}

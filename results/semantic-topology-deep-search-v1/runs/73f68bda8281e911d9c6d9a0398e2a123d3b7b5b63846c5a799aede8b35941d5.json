@@ -1,0 +1,134 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "2f15dd459a78b3bf0f4e0019a10094304cb2a1483576ee740436728bc52513cc",
+  "artifact_version": 1,
+  "canonical_repository_id": "3b1b/manim",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a"
+  ],
+  "cited_files": [
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".github/workflows/docs.yml",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/docs.yml"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".github/workflows/publish.yml",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/publish.yml"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/PULL_REQUEST_TEMPLATE.md"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "manimlib/typing.py",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/typing.py"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "manimlib/config.py",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L1"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "requirements.txt",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/requirements.txt"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "setup.cfg",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/setup.cfg?L31-L54"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/pyproject.toml"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "manimlib/extract_scene.py",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/extract_scene.py?L63-L80"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "manimlib/config.py",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L312-L318"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "manimlib/config.py",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L456-L462"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "manimlib/config.py",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L183-L185"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2045",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/3b1b-manim at revision a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: 3b1b/manim; stratum: pre_2023_context; cutoff: 6199a00d4c1b1127ebe45cb629c3f22538b10e13.",
+  "prompt_family_id": "review_validation",
+  "prompt_sha256": "d5f1c73fdc5d60967fa9b67fa1809530459ebe89e58a6b8cbe954a89e4c5965c",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a comprehensive picture of all the validation and review mechanisms in the repository. Here is the full analysis:\n\n---\n\n## Code-Review and Validation Mechanisms \u2014 `3b1b/manim` @ `a31c4ae`\n\n### 1. Automated CI Workflows (Repository-Wide)\n\nTwo GitHub Actions workflows are defined under [`.github/workflows/`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/tree/.github/workflows):\n\n#### `docs.yml` \u2014 Documentation build check\n[`.github/workflows/docs.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/docs.yml)\n\n- **Triggers:** `push` or `pull_request` where changed paths match `docs/**`\n- **Validation performed:** Installs `docs/requirements.txt` + `requirements.txt`, then runs `make html` via Sphinx. A Sphinx build failure will fail the job.\n- **Deployment:** Only on `push` events (not PRs) \u2014 deploys to `gh-pages` via `JamesIves/github-pages-deploy-action@3.7.1`.\n- **Scope:** Narrowly scoped to documentation changes. No source code linting or test runner is invoked.\n\n#### `publish.yml` \u2014 PyPI release packaging\n[`.github/workflows/publish.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/publish.yml)\n\n- **Triggers:** `release` event with type `created` only. Not triggered by PRs or pushes.\n- **Validation performed:** Builds wheel artifacts (`python setup.py bdist_wheel`) for four Python tags (`py37`, `py38`, `py39`, `py310`) using a matrix. Uploads to PyPI via `twine upload`.\n- **`fail-fast: false`** on the matrix \u2014 a failure on one Python version does not cancel the others.\n- **No test step** is present in this workflow; it is purely a build-and-publish pipeline.\n\n**Observation:** There is **no CI workflow that runs any test suite, linter, type-checker, or import-validation step on pull requests to source code**. The only PR-triggered check is the docs build, and only when `docs/**` files change.\n\n---\n\n### 2. Pull Request Template (Repository-Wide)\n\n[`.github/PULL_REQUEST_TEMPLATE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/PULL_REQUEST_TEMPLATE.md)\n\nThe template defines three required sections:\n- **Motivation** \u2014 prose explanation of why the change improves the library\n- **Proposed changes** \u2014 bullet-point list of what was changed\n- **Test** \u2014 a `Code:` field for the test code and a `Result:` field for the observed output\n\nThe test section is **free-form prose/screenshots in markdown**; it is not linked to any automated runner. Filling it out is a social convention, not an enforced gate.\n\n---\n\n### 3. Issue Templates (Repository-Wide)\n\n[`.github/ISSUE_TEMPLATE/`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/tree/.github/ISSUE_TEMPLATE)\n\n- **`bug_report.md`** \u2014 prompts for repro code, wrong display/traceback, and additional context; labels issues `bug` automatically.\n- **`error-when-using.md`** \u2014 prompts for code, error traceback, OS, manim version (`master`), and Python version.\n- **`config.yml`** \u2014 redirects questions to GitHub Discussions Q&A; `blank_issues_enabled: true`.\n\nNo CODEOWNERS file is present. No ownership rules are enforced.\n\n---\n\n### 4. Test Infrastructure\n\n**No test directory, test files, or test runner configuration** (`pytest.ini`, `tox.ini`, `setup.cfg [tool:pytest]`, etc.) exist at this revision. Searching the entire file tree reveals no `test_*.py` or `*_test.py` files anywhere in `manimlib/` or at the root.\n\nThe `.gitignore` (lines 47\u201359) does enumerate pytest/coverage artifact paths (`.pytest_cache/`, `htmlcov/`, `.coverage`, etc.), indicating awareness of the pytest ecosystem, but no actual tests are present.\n\n---\n\n### 5. Linting and Static Analysis\n\nNo linter configuration files are present: no `.flake8`, `.pylintrc`, `mypy.ini`, `.ruff.toml`, or equivalent. No linting step appears in any workflow.\n\n**Type annotations** are used throughout the source:\n- [`manimlib/typing.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/typing.py) defines custom type aliases (`ManimColor`, `Vect3`, `Span`, etc.) exclusively under `TYPE_CHECKING`, so they are **not evaluated at runtime**.\n- The comment at lines 26\u201329 of `typing.py` explicitly states: *\"at the moment nothing actually uses them, and the names are here primarily to enhance readability\"*.\n- `from __future__ import annotations` appears in [`config.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L1) and other modules, enabling PEP 563 deferred evaluation.\n\nNo `mypy` or `pyright` invocation is present in any CI job.\n\n---\n\n### 6. Dependency Pinning and Build Validation\n\n[`requirements.txt`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/requirements.txt) and [`setup.cfg` `install_requires`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/setup.cfg?L31-L54) are the only dependency declarations. Most dependencies are **unpinned** (e.g., `numpy`, `scipy`, `moderngl`). The only pinned constraint is `manimpango>=0.4.0.post0,<0.5.0` and `svgelements>=1.8.1`. No lockfile (`poetry.lock`, `Pipfile.lock`) is present.\n\n[`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/pyproject.toml) contains only the build-system table (`setuptools`, `wheel`); no tool configuration sections.\n\n---\n\n### 7. Runtime Validation Mechanisms (In-Source)\n\nThe codebase contains some runtime-level guards that function as self-validation:\n\n- **`compute_total_frames`** in [`extract_scene.py` L63\u201380](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/extract_scene.py?L63-L80): When writing to file, a \"pre-run\" of the scene with `skip_animations=True` is performed first. Its docstring states: *\"also allows runtime errors to be exposed preemptively for long running scenes.\"* This is a form of smoke-validation but is not a test harness.\n- **Config validation** in [`config.py` L312\u2013318](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L312-L318): A check on `temporary_storage` config key for Windows emits a `log.warning`.\n- **Color validation** in [`config.py` L456\u2013462](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L456-L462): Wraps `colour.Color(bg_color)` in a `try/except ValueError`, logs an error and calls `sys.exit(2)` on bad color input.\n- **CLI error handling** in [`config.py` L183\u2013185](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L183-L185): Catches `argparse.ArgumentError` and exits with code `2`.\n\n---\n\n### 8. Revert, Fix, and Refactor History\n\nCommit history is not accessible through this tool for the sg-evals mirror. The cutoff SHA `6199a00d4c1b1127ebe45cb629c3f22538b10e13` and the target revision `a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a` can be used to verify ancestry deterministically.\n\n---\n\n### Deterministic Verification Queries\n\nThe following can be verified exactly against the pinned revision:\n\n| Claim | Verification method |\n|---|---|\n| No test files exist | `find . -name 'test_*.py' -o -name '*_test.py'` from repo root at `a31c4ae` |\n| No linter config exists | Check for `.flake8`, `.pylintrc`, `mypy.ini`, `.ruff.toml`, `[tool.mypy]` in `pyproject.toml` |\n| No CI step runs tests on PRs | Read all files under `.github/workflows/`; neither `docs.yml` nor `publish.yml` invokes `pytest` or any test runner |\n| PR template \"Test\" section is unenforced | The template is markdown prose only; GitHub does not block merge on unfilled template fields |\n| `manimpango` is the only upper-bounded dependency | `grep -E '(<|!=|~=)' requirements.txt setup.cfg` |\n| `compute_total_frames` is a pre-run smoke check, not a unit test | Read `extract_scene.py` L63\u201380 |\n| `typing.py` annotations are not runtime-checked | `TYPE_CHECKING` guard at line 3; confirmed in comment at lines 26\u201329 |\n| Ancestry of cutoff within target revision | `check_ancestry` with `ancestor=6199a00d4c1b1127ebe45cb629c3f22538b10e13`, `descendant=a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a` |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:45:24Z",
+    "name": "users/476/conversations/2045",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a comprehensive picture of all the validation and review mechanisms in the repository. Here is the full analysis:\n\n---\n\n## Code-Review and Validation Mechanisms \u2014 `3b1b/manim` @ `a31c4ae`\n\n### 1. Automated CI Workflows (Repository-Wide)\n\nTwo GitHub Actions workflows are defined under [`.github/workflows/`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/tree/.github/workflows):\n\n#### `docs.yml` \u2014 Documentation build check\n[`.github/workflows/docs.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/docs.yml)\n\n- **Triggers:** `push` or `pull_request` where changed paths match `docs/**`\n- **Validation performed:** Installs `docs/requirements.txt` + `requirements.txt`, then runs `make html` via Sphinx. A Sphinx build failure will fail the job.\n- **Deployment:** Only on `push` events (not PRs) \u2014 deploys to `gh-pages` via `JamesIves/github-pages-deploy-action@3.7.1`.\n- **Scope:** Narrowly scoped to documentation changes. No source code linting or test runner is invoked.\n\n#### `publish.yml` \u2014 PyPI release packaging\n[`.github/workflows/publish.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/publish.yml)\n\n- **Triggers:** `release` event with type `created` only. Not triggered by PRs or pushes.\n- **Validation performed:** Builds wheel artifacts (`python setup.py bdist_wheel`) for four Python tags (`py37`, `py38`, `py39`, `py310`) using a matrix. Uploads to PyPI via `twine upload`.\n- **`fail-fast: false`** on the matrix \u2014 a failure on one Python version does not cancel the others.\n- **No test step** is present in this workflow; it is purely a build-and-publish pipeline.\n\n**Observation:** There is **no CI workflow that runs any test suite, linter, type-checker, or import-validation step on pull requests to source code**. The only PR-triggered check is the docs build, and only when `docs/**` files change.\n\n---\n\n### 2. Pull Request Template (Repository-Wide)\n\n[`.github/PULL_REQUEST_TEMPLATE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/PULL_REQUEST_TEMPLATE.md)\n\nThe template defines three required sections:\n- **Motivation** \u2014 prose explanation of why the change improves the library\n- **Proposed changes** \u2014 bullet-point list of what was changed\n- **Test** \u2014 a `Code:` field for the test code and a `Result:` field for the observed output\n\nThe test section is **free-form prose/screenshots in markdown**; it is not linked to any automated runner. Filling it out is a social convention, not an enforced gate.\n\n---\n\n### 3. Issue Templates (Repository-Wide)\n\n[`.github/ISSUE_TEMPLATE/`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/tree/.github/ISSUE_TEMPLATE)\n\n- **`bug_report.md`** \u2014 prompts for repro code, wrong display/traceback, and additional context; labels issues `bug` automatically.\n- **`error-when-using.md`** \u2014 prompts for code, error traceback, OS, manim version (`master`), and Python version.\n- **`config.yml`** \u2014 redirects questions to GitHub Discussions Q&A; `blank_issues_enabled: true`.\n\nNo CODEOWNERS file is present. No ownership rules are enforced.\n\n---\n\n### 4. Test Infrastructure\n\n**No test directory, test files, or test runner configuration** (`pytest.ini`, `tox.ini`, `setup.cfg [tool:pytest]`, etc.) exist at this revision. Searching the entire file tree reveals no `test_*.py` or `*_test.py` files anywhere in `manimlib/` or at the root.\n\nThe `.gitignore` (lines 47\u201359) does enumerate pytest/coverage artifact paths (`.pytest_cache/`, `htmlcov/`, `.coverage`, etc.), indicating awareness of the pytest ecosystem, but no actual tests are present.\n\n---\n\n### 5. Linting and Static Analysis\n\nNo linter configuration files are present: no `.flake8`, `.pylintrc`, `mypy.ini`, `.ruff.toml`, or equivalent. No linting step appears in any workflow.\n\n**Type annotations** are used throughout the source:\n- [`manimlib/typing.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/typing.py) defines custom type aliases (`ManimColor`, `Vect3`, `Span`, etc.) exclusively under `TYPE_CHECKING`, so they are **not evaluated at runtime**.\n- The comment at lines 26\u201329 of `typing.py` explicitly states: *\"at the moment nothing actually uses them, and the names are here primarily to enhance readability\"*.\n- `from __future__ import annotations` appears in [`config.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L1) and other modules, enabling PEP 563 deferred evaluation.\n\nNo `mypy` or `pyright` invocation is present in any CI job.\n\n---\n\n### 6. Dependency Pinning and Build Validation\n\n[`requirements.txt`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/requirements.txt) and [`setup.cfg` `install_requires`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/setup.cfg?L31-L54) are the only dependency declarations. Most dependencies are **unpinned** (e.g., `numpy`, `scipy`, `moderngl`). The only pinned constraint is `manimpango>=0.4.0.post0,<0.5.0` and `svgelements>=1.8.1`. No lockfile (`poetry.lock`, `Pipfile.lock`) is present.\n\n[`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/pyproject.toml) contains only the build-system table (`setuptools`, `wheel`); no tool configuration sections.\n\n---\n\n### 7. Runtime Validation Mechanisms (In-Source)\n\nThe codebase contains some runtime-level guards that function as self-validation:\n\n- **`compute_total_frames`** in [`extract_scene.py` L63\u201380](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/extract_scene.py?L63-L80): When writing to file, a \"pre-run\" of the scene with `skip_animations=True` is performed first. Its docstring states: *\"also allows runtime errors to be exposed preemptively for long running scenes.\"* This is a form of smoke-validation but is not a test harness.\n- **Config validation** in [`config.py` L312\u2013318](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L312-L318): A check on `temporary_storage` config key for Windows emits a `log.warning`.\n- **Color validation** in [`config.py` L456\u2013462](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L456-L462): Wraps `colour.Color(bg_color)` in a `try/except ValueError`, logs an error and calls `sys.exit(2)` on bad color input.\n- **CLI error handling** in [`config.py` L183\u2013185](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/manimlib/config.py?L183-L185): Catches `argparse.ArgumentError` and exits with code `2`.\n\n---\n\n### 8. Revert, Fix, and Refactor History\n\nCommit history is not accessible through this tool for the sg-evals mirror. The cutoff SHA `6199a00d4c1b1127ebe45cb629c3f22538b10e13` and the target revision `a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a` can be used to verify ancestry deterministically.\n\n---\n\n### Deterministic Verification Queries\n\nThe following can be verified exactly against the pinned revision:\n\n| Claim | Verification method |\n|---|---|\n| No test files exist | `find . -name 'test_*.py' -o -name '*_test.py'` from repo root at `a31c4ae` |\n| No linter config exists | Check for `.flake8`, `.pylintrc`, `mypy.ini`, `.ruff.toml`, `[tool.mypy]` in `pyproject.toml` |\n| No CI step runs tests on PRs | Read all files under `.github/workflows/`; neither `docs.yml` nor `publish.yml` invokes `pytest` or any test runner |\n| PR template \"Test\" section is unenforced | The template is markdown prose only; GitHub does not block merge on unfilled template fields |\n| `manimpango` is the only upper-bounded dependency | `grep -E '(<|!=|~=)' requirements.txt setup.cfg` |\n| `compute_total_frames` is a pre-run smoke check, not a unit test | Read `extract_scene.py` L63\u201380 |\n| `typing.py` annotations are not runtime-checked | `TYPE_CHECKING` guard at line 3; confirmed in comment at lines 26\u201329 |\n| Ancestry of cutoff within target revision | `check_ancestry` with `ancestor=6199a00d4c1b1127ebe45cb629c3f22538b10e13`, `descendant=a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a` |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:45:24Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/3b1b-manim at revision a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: 3b1b/manim; stratum: pre_2023_context; cutoff: 6199a00d4c1b1127ebe45cb629c3f22538b10e13."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Audit code-review and validation mechanisms for a GitHub repository revision",
+    "updateTime": "2026-07-29T03:46:59Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/3a006fd6-9d3a-4802-971c-b400d200555b"
+  },
+  "run_id": "sha256:73f68bda8281e911d9c6d9a0398e2a123d3b7b5b63846c5a799aede8b35941d5",
+  "search_context": {
+    "context_revision_kind": "last_default_branch_commit_before_2023",
+    "repository": "3b1b/manim"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

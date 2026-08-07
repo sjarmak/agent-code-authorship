@@ -1,0 +1,129 @@
+{
+  "$schema": "sourcegraph-ai-ban-language-inventory.schema.json",
+  "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+  "inventory_sha256": "1ea01099959cc761d79efc2cc1b240a8c7d9aab3c6bf73d717933fa09746a656",
+  "inventory_version": 1,
+  "language_counts": {
+    "C": 1,
+    "Erlang": 1,
+    "Go": 2,
+    "JSON": 1,
+    "Java": 1,
+    "JavaScript": 1,
+    "Python": 4,
+    "Rust": 4,
+    "Text": 2
+  },
+  "observed_at": "2026-07-29T21:02:00Z",
+  "outcomes_consulted": false,
+  "repositories": [
+    {
+      "canonical_repository_id": "alacritty/alacritty",
+      "language": "Rust",
+      "language_sourcegraph_name": "github.com/sg-evals/alacritty-alacritty",
+      "review_sourcegraph_name": "github.com/sg-evals/alacritty-alacritty"
+    },
+    {
+      "canonical_repository_id": "apache/couchdb",
+      "language": "Erlang",
+      "language_sourcegraph_name": "github.com/sg-evals/apache-couchdb",
+      "review_sourcegraph_name": "github.com/sg-evals/apache-couchdb"
+    },
+    {
+      "canonical_repository_id": "asahilinux/m1n1",
+      "language": "Python",
+      "language_sourcegraph_name": "github.com/sg-evals/asahilinux-m1n1",
+      "review_sourcegraph_name": "github.com/sg-evals/asahilinux-m1n1"
+    },
+    {
+      "canonical_repository_id": "bevyengine/bevy",
+      "language": "Rust",
+      "language_sourcegraph_name": "github.com/sg-evals/bevyengine-bevy",
+      "review_sourcegraph_name": "github.com/sg-evals/bevyengine-bevy"
+    },
+    {
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "language": "Python",
+      "language_sourcegraph_name": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "review_sourcegraph_name": "github.com/sg-evals/borgmatic-collective-borgmatic"
+    },
+    {
+      "canonical_repository_id": "endless-sky/endless-sky",
+      "language": "Text",
+      "language_sourcegraph_name": "github.com/sg-evals/endless-sky-endless-sky",
+      "review_sourcegraph_name": "github.com/sg-evals/endless-sky-endless-sky"
+    },
+    {
+      "canonical_repository_id": "jhy/jsoup",
+      "language": "Java",
+      "language_sourcegraph_name": "github.com/sg-evals/jhy-jsoup",
+      "review_sourcegraph_name": "github.com/sg-evals/jhy-jsoup"
+    },
+    {
+      "canonical_repository_id": "openttd/openttd",
+      "language": "Text",
+      "language_sourcegraph_name": "github.com/sg-evals/openttd-openttd",
+      "review_sourcegraph_name": "github.com/sg-evals/openttd-openttd"
+    },
+    {
+      "canonical_repository_id": "pkgconf/pkgconf",
+      "language": "C",
+      "language_sourcegraph_name": "github.com/sg-evals/pkgconf-pkgconf",
+      "review_sourcegraph_name": "github.com/sg-evals/pkgconf-pkgconf"
+    },
+    {
+      "canonical_repository_id": "poezio/poezio",
+      "language": "Python",
+      "language_sourcegraph_name": "github.com/sg-evals/poezio-poezio",
+      "review_sourcegraph_name": "github.com/sg-evals/poezio-poezio"
+    },
+    {
+      "canonical_repository_id": "pouchdb/pouchdb",
+      "language": "JavaScript",
+      "language_sourcegraph_name": "github.com/sg-evals/pouchdb-pouchdb",
+      "review_sourcegraph_name": "github.com/sg-evals/pouchdb-pouchdb"
+    },
+    {
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "language": "Go",
+      "language_sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "review_sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial"
+    },
+    {
+      "canonical_repository_id": "teamtype/teamtype",
+      "language": "Rust",
+      "language_sourcegraph_name": "github.com/sg-evals/teamtype-teamtype",
+      "review_sourcegraph_name": "github.com/sg-evals/teamtype-teamtype"
+    },
+    {
+      "canonical_repository_id": "twpayne/chezmoi",
+      "language": "Go",
+      "language_sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi",
+      "review_sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi"
+    },
+    {
+      "canonical_repository_id": "typst/typst",
+      "language": "Rust",
+      "language_sourcegraph_name": "github.com/sg-evals/typst-typst",
+      "review_sourcegraph_name": "github.com/sg-evals/typst-typst"
+    },
+    {
+      "canonical_repository_id": "wafrn/wafrn",
+      "language": "JSON",
+      "language_sourcegraph_name": "github.com/sg-evals/wafrn-wafrn",
+      "review_sourcegraph_name": "github.com/sg-evals/wafrn-wafrn"
+    },
+    {
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "language": "Python",
+      "language_sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "review_sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp"
+    }
+  ],
+  "repository_count": 17,
+  "repository_name_map_sha256": "206f82c9ccd8114f03bdae7cf2a24b7a4447208a058c41cbf754ca22def3bf39",
+  "scip_required": false,
+  "sourcegraph_capability": "Repository.language",
+  "sourcegraph_scope": "github.com/sg-evals/*",
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b"
+}

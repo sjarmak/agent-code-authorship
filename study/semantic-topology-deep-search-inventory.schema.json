@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic-topology-deep-search-inventory.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "inventory_version",
+    "plan_sha256",
+    "protocol_sha256",
+    "planned_run_count",
+    "materialized_run_count",
+    "counts",
+    "runs",
+    "inventory_sha256"
+  ],
+  "properties": {
+    "$schema": {"const": "semantic-topology-deep-search-inventory.schema.json"},
+    "inventory_version": {"const": 1},
+    "plan_sha256": {"$ref": "#/$defs/sha256"},
+    "protocol_sha256": {"$ref": "#/$defs/sha256"},
+    "planned_run_count": {"type": "integer", "minimum": 0},
+    "materialized_run_count": {"type": "integer", "minimum": 0},
+    "counts": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    },
+    "runs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "run_id",
+          "artifact_path",
+          "artifact_sha256",
+          "terminal_status"
+        ],
+        "properties": {
+          "run_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+          "artifact_path": {"type": "string"},
+          "artifact_sha256": {"$ref": "#/$defs/sha256"},
+          "terminal_status": {
+            "enum": ["completed", "error", "canceled", "unavailable"]
+          }
+        }
+      }
+    },
+    "inventory_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

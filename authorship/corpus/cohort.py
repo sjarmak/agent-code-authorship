@@ -23,10 +23,8 @@ from __future__ import annotations
 
 import argparse
 import json
-import sys
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from pathlib import Path
 
 from authorship import paths, sg
 from authorship.trailers import match_agents

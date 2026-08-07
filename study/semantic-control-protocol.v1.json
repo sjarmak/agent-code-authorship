@@ -1,0 +1,127 @@
+{
+  "covariates": [
+    "repository",
+    "path_class",
+    "task_class",
+    "language",
+    "log1p_added_lines",
+    "log1p_deleted_lines",
+    "file_age_days",
+    "prior_path_commit_count_180d",
+    "repository_commit_count_30d",
+    "calendar_distance_days"
+  ],
+  "eligibility": {
+    "admissible_path_classes": [
+      "source",
+      "test",
+      "documentation"
+    ],
+    "commit_window_days": 180,
+    "exclude_known_agent_commits": true,
+    "exclude_merges": true,
+    "first_parent_only": true,
+    "minimum_followup_days": 0,
+    "primary_scope": "same_repository",
+    "require_ancestor_of_cutoff": true
+  },
+  "estimands": [
+    "risk_difference_subsequent_change_by_180d",
+    "restricted_mean_time_to_first_followup_difference_180d",
+    "risk_difference_first_followup_author_differs",
+    "mean_difference_distinct_followup_author_count_180d"
+  ],
+  "exposure": {
+    "control": "not_in_frozen_agent_commit_exclusion_set",
+    "interpretation": "non_agent_attributed_not_proven_human",
+    "treated": "confirmed_agent_attributed_introducing_commit"
+  },
+  "identification_gates": {
+    "failure_result": "not_identified",
+    "maximum_absolute_smd": 0.1,
+    "minimum_effective_sample_size": 100,
+    "minimum_matched_fraction": 0.7,
+    "minimum_repositories": 3,
+    "require_all_exact_strata_overlap": false
+  },
+  "input_artifacts": [
+    "study/semantic-topology-pilot-plan.v1.json",
+    "study/survival-candidates.v1.json"
+  ],
+  "input_sha256": {
+    "study/semantic-topology-pilot-plan.v1.json": "a6dd56a2af4dfbed3e937c135b9056d5d2bae717c1a35751891cf57f6645a108",
+    "study/survival-candidates.v1.json": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837"
+  },
+  "matching": {
+    "caliper": 2.5,
+    "exact": [
+      "repository",
+      "path_class",
+      "task_class"
+    ],
+    "fallback_exact": [
+      "repository",
+      "path_class"
+    ],
+    "method": "exact_plus_robust_scaled_euclidean_nearest_neighbor",
+    "ratio": 1,
+    "replacement": false,
+    "seed": 20260729,
+    "sensitivity_calipers": [
+      1.5,
+      2.0,
+      3.0
+    ],
+    "tie_breaker": "sha256_candidate_id"
+  },
+  "observation": {
+    "censoring": "right_censored_at_common_cutoff_or_180_days",
+    "cutoff_rule": "treated_repository_frozen_cutoff",
+    "horizon_days": 180,
+    "minimum_followup_days": 0,
+    "time_estimand": "restricted_mean_time_to_first_followup"
+  },
+  "outcome_blindness": {
+    "forbidden_match_inputs": [
+      "subsequent_change_present",
+      "time_to_first_followup_days",
+      "first_followup_author_differs",
+      "distinct_followup_author_count"
+    ],
+    "outcomes_unsealed_after": "matched_cohort_sha256_is_written",
+    "selection_stage_may_read_followup_history": false
+  },
+  "protocol_sha256": "3746ba27b4e0b6abbd48f0dc9b284bf543b0ac0dd891f90304229b264e80fd43",
+  "protocol_version": 1,
+  "purpose": "Outcome-blind within-repository task-matched controls for semantic topology",
+  "sensitivity": {
+    "alternate_calipers": true,
+    "fallback_task_match_reported_separately": true,
+    "leave_one_repository_out": true
+  },
+  "task_classification": {
+    "classes": [
+      "bug_fix",
+      "documentation",
+      "test",
+      "refactor",
+      "feature",
+      "maintenance",
+      "other"
+    ],
+    "fallback": "other",
+    "method": "deterministic_commit_subject_and_path_rules"
+  },
+  "treated_identity_construction": {
+    "expected_count_is_not_a_selection_constraint": true,
+    "followup_artifacts_read": false,
+    "method": "recompute_hunks_from_frozen_introducing_commit_and_parent"
+  },
+  "uncertainty": {
+    "confidence": 0.95,
+    "method": "repository_cluster_bootstrap",
+    "replicates": 2000,
+    "seed": 20260729
+  },
+  "unit": "introduced_diff_hunk"
+}

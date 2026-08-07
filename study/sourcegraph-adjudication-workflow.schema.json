@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agent-code-authorship.local/study/sourcegraph-adjudication-workflow.schema.json",
+  "title": "Repository-event Sourcegraph adjudication workflow",
+  "type": "object",
+  "required": [
+    "$schema",
+    "workflow_version",
+    "status",
+    "preregistered_at",
+    "outcomes_consulted",
+    "protocol_amendment",
+    "discovery_specification",
+    "packet_index",
+    "repository_frame",
+    "review_design",
+    "execution_order",
+    "stopping_and_sampling",
+    "model_execution",
+    "required_outputs",
+    "workflow_sha256"
+  ],
+  "properties": {
+    "$schema": {"const": "sourcegraph-adjudication-workflow.schema.json"},
+    "workflow_version": {"const": 3},
+    "status": {"const": "preregistered"},
+    "preregistered_at": {"type": "string", "format": "date-time"},
+    "outcomes_consulted": {"const": false},
+    "protocol_amendment": {"$ref": "#/$defs/pathHash"},
+    "discovery_specification": {
+      "type": "object",
+      "required": ["path", "specification_sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "specification_sha256": {"$ref": "#/$defs/sha256"}
+      },
+      "additionalProperties": false
+    },
+    "packet_index": {
+      "type": "object",
+      "required": ["path", "packet_index_sha256", "packet_count", "role"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "packet_index_sha256": {"$ref": "#/$defs/sha256"},
+        "packet_count": {"type": "integer", "minimum": 0},
+        "role": {"const": "immutable_raw_provenance"}
+      },
+      "additionalProperties": false
+    },
+    "repository_frame": {
+      "type": "object",
+      "required": [
+        "indexed_namespace",
+        "index_manifest_path",
+        "index_manifest_file_sha256",
+        "candidate_repository_count",
+        "indexed_and_cutoff_ready",
+        "rights_or_access_holds",
+        "remaining_admissible_repositories_to_index",
+        "additional_repository_rule"
+      ],
+      "properties": {
+        "indexed_namespace": {"const": "github.com/sg-evals/"},
+        "index_manifest_path": {"type": "string", "minLength": 1},
+        "index_manifest_file_sha256": {"$ref": "#/$defs/sha256"},
+        "candidate_repository_count": {"type": "integer", "minimum": 1},
+        "indexed_and_cutoff_ready": {"type": "integer", "minimum": 0},
+        "rights_or_access_holds": {"type": "integer", "minimum": 0},
+        "remaining_admissible_repositories_to_index": {"const": 0},
+        "additional_repository_rule": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "review_design": {
+      "type": "object",
+      "required": [
+        "review_unit",
+        "packet_level_exhaustive_review",
+        "raw_packet_coverage",
+        "explicit_provenance_families",
+        "adoption_challenge_families",
+        "ai_ban_families",
+        "adoption_stop_rule",
+        "ai_ban_stop_rule",
+        "post_adoption_implies_agent",
+        "ambiguous_case_review",
+        "clear_case_review",
+        "audit_strata"
+      ],
+      "properties": {
+        "review_unit": {"const": "repository_event"},
+        "packet_level_exhaustive_review": {"const": false},
+        "raw_packet_coverage": {"type": "string", "minLength": 1},
+        "explicit_provenance_families": {"$ref": "#/$defs/nonemptyStrings"},
+        "adoption_challenge_families": {"$ref": "#/$defs/nonemptyStrings"},
+        "ai_ban_families": {"$ref": "#/$defs/nonemptyStrings"},
+        "adoption_stop_rule": {"type": "string", "minLength": 1},
+        "ai_ban_stop_rule": {"type": "string", "minLength": 1},
+        "post_adoption_implies_agent": {"const": false},
+        "ambiguous_case_review": {"type": "string", "minLength": 1},
+        "clear_case_review": {"type": "string", "minLength": 1},
+        "audit_strata": {"$ref": "#/$defs/nonemptyStrings"}
+      },
+      "additionalProperties": false
+    },
+    "execution_order": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "stopping_and_sampling": {
+      "type": "object",
+      "required": [
+        "adoption_review",
+        "exposure_review",
+        "sample_order",
+        "power_unit",
+        "minimum_repository_gate_source",
+        "outcomes_forbidden_until_freezes_complete"
+      ],
+      "properties": {
+        "adoption_review": {"type": "string", "minLength": 1},
+        "exposure_review": {"const": "power_driven_sample_not_census"},
+        "sample_order": {"type": "string", "minLength": 1},
+        "power_unit": {"const": "repository"},
+        "minimum_repository_gate_source": {"const": "prospective_simulation"},
+        "outcomes_forbidden_until_freezes_complete": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "model_execution": {
+      "type": "object",
+      "required": [
+        "paid_batch_api",
+        "user_openai_api_key",
+        "local_or_subagent_review",
+        "semantic_decisions_delegated_to_reviewers",
+        "application_code_role"
+      ],
+      "properties": {
+        "paid_batch_api": {"const": false},
+        "user_openai_api_key": {"const": false},
+        "local_or_subagent_review": {"const": true},
+        "semantic_decisions_delegated_to_reviewers": {"const": true},
+        "application_code_role": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "required_outputs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "workflow_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "pathHash": {
+      "type": "object",
+      "required": ["path", "amendment_sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "amendment_sha256": {"$ref": "#/$defs/sha256"}
+      },
+      "additionalProperties": false
+    },
+    "nonemptyStrings": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    }
+  }
+}

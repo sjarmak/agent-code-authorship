@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-longitudinal-materialization.schema.json",
+  "title": "Longitudinal shard materialization execution v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "materialization_version",
+    "longitudinal_batch_plan_sha256",
+    "probe_execution_sha256",
+    "started_at",
+    "completed_at",
+    "status",
+    "unit_count",
+    "materialized_unit_count",
+    "invalid_unit_count",
+    "attempted_unit_count",
+    "reused_unit_count",
+    "skipped_probe_unit_count",
+    "outcomes_consulted",
+    "units",
+    "materialization_sha256"
+  ],
+  "properties": {
+    "materialization_version": {
+      "const": 3
+    },
+    "longitudinal_batch_plan_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "probe_execution_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "incomplete"
+      ]
+    },
+    "unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "materialized_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "invalid_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "attempted_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "reused_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "skipped_probe_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/validUnit"
+          },
+          {
+            "$ref": "#/$defs/invalidUnit"
+          }
+        ]
+      }
+    },
+    "materialization_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "repositoryId": {
+      "type": "string",
+      "pattern": "^[^/]+/[^/]+$"
+    },
+    "baseUnit": {
+      "type": "object",
+      "required": [
+        "probe_unit_id",
+        "canonical_repository_id",
+        "valid",
+        "reused"
+      ],
+      "properties": {
+        "probe_unit_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "canonical_repository_id": {
+          "$ref": "#/$defs/repositoryId"
+        },
+        "valid": {
+          "type": "boolean"
+        },
+        "reused": {
+          "type": "boolean"
+        }
+      }
+    },
+    "validUnit": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/baseUnit"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "probe_unit_id",
+            "canonical_repository_id",
+            "valid",
+            "execution_unit_id",
+            "shard_path",
+            "longitudinal_shard_sha256",
+            "hunk_count",
+            "excluded_hunk_count",
+            "sourcegraph_verification_status",
+            "reused"
+          ],
+          "properties": {
+            "probe_unit_id": {
+              "$ref": "#/$defs/sha256"
+            },
+            "canonical_repository_id": {
+              "$ref": "#/$defs/repositoryId"
+            },
+            "valid": {
+              "const": true
+            },
+            "execution_unit_id": {
+              "$ref": "#/$defs/sha256"
+            },
+            "shard_path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "longitudinal_shard_sha256": {
+              "$ref": "#/$defs/sha256"
+            },
+            "hunk_count": {
+              "$ref": "#/$defs/count"
+            },
+            "excluded_hunk_count": {
+              "$ref": "#/$defs/count"
+            },
+            "sourcegraph_verification_status": {
+              "enum": [
+                "verified",
+                "disagreement",
+                "incomplete",
+                "no_included_hunks"
+              ]
+            },
+            "reused": {
+              "type": "boolean"
+            }
+          }
+        }
+      ]
+    },
+    "invalidUnit": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/baseUnit"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "probe_unit_id",
+            "canonical_repository_id",
+            "valid",
+            "reused",
+            "failure_stage",
+            "error"
+          ],
+          "properties": {
+            "probe_unit_id": {
+              "$ref": "#/$defs/sha256"
+            },
+            "canonical_repository_id": {
+              "$ref": "#/$defs/repositoryId"
+            },
+            "valid": {
+              "const": false
+            },
+            "reused": {
+              "const": false
+            },
+            "failure_stage": {
+              "enum": [
+                "sourcegraph_probe",
+                "longitudinal_materialization"
+              ]
+            },
+            "error": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 500
+            }
+          }
+        }
+      ]
+    }
+  }
+}

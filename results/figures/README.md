@@ -11,12 +11,11 @@ These figures are generated from the frozen final study artifacts:
 - `contextual-effects.svg` — repository-weighted matched differences with 95%
   paired-repository bootstrap intervals.
 
-The survival estimand is `unchanged + modified` conditional on observable
-lineage. Its figure reports point estimates only: the frozen estimates contain
-separate percentile intervals for component states, not the joint bootstrap
-distribution of their sum, so combining interval endpoints would be invalid.
-The contextual figure includes uncertainty because its frozen artifact directly
-reports the bootstrap interval for the plotted difference.
+The survival estimand is repository-balanced Kaplan–Meier time to deletion.
+Lineage loss is right-censored at its last observation; the risk set is reported
+at every horizon. The figure currently plots point estimates for legibility,
+while the frozen v2 artifact retains whole-repository bootstrap intervals.
+The contextual figure includes its paired-repository bootstrap interval.
 
 Install the rendering skills:
 

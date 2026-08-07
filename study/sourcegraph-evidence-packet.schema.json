@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-evidence-packet.schema.json",
+  "title": "Sourcegraph discovery evidence packet v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "packet_version",
+    "packet_id",
+    "packet_type",
+    "canonical_repository_id",
+    "canonical_source_url",
+    "sourcegraph_name",
+    "cutoff_commit",
+    "indexed_revision_oid",
+    "query_family_id",
+    "rendered_query",
+    "rendered_query_sha256",
+    "sourcegraph_result_ids",
+    "candidate_event",
+    "raw_evidence",
+    "outcomes_consulted",
+    "packet_sha256"
+  ],
+  "properties": {
+    "packet_version": {
+      "const": 3
+    },
+    "packet_id": {
+      "$ref": "#/$defs/sha256"
+    },
+    "packet_type": {
+      "enum": [
+        "adoption_event",
+        "ai_ban_policy"
+      ]
+    },
+    "canonical_repository_id": {
+      "type": "string",
+      "pattern": "^[^/]+/[^/]+$"
+    },
+    "canonical_source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "sourcegraph_name": {
+      "type": "string"
+    },
+    "cutoff_commit": {
+      "$ref": "#/$defs/sha1"
+    },
+    "indexed_revision_oid": {
+      "$ref": "#/$defs/sha1"
+    },
+    "query_family_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "rendered_query": {
+      "type": "string",
+      "pattern": "patternType:"
+    },
+    "rendered_query_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "sourcegraph_result_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "candidate_event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commit_oid",
+        "observed_at"
+      ],
+      "properties": {
+        "commit_oid": {
+          "$ref": "#/$defs/sha1"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "raw_evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/rawEvidence"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "packet_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "nullableInteger": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "rawEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "commit_oid",
+        "path",
+        "line",
+        "value",
+        "source_url"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "commit_message",
+            "commit_identity",
+            "diff_added",
+            "file_content",
+            "blame"
+          ]
+        },
+        "commit_oid": {
+          "$ref": "#/$defs/sha1"
+        },
+        "path": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "line": {
+          "$ref": "#/$defs/nullableInteger"
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  }
+}

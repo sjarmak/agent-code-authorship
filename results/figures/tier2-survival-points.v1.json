@@ -1,372 +1,490 @@
 [
   {
     "agent": "Claude_Code",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 30,
     "language": "Go",
     "repository_count": 5,
+    "risk_set_lines": 16369,
+    "risk_set_weight": 4.8859037037102775,
     "status": "identified",
-    "survival": 0.9953417282598779
+    "survival": 0.9953779658027964
   },
   {
     "agent": "Claude_Code",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 90,
     "language": "Go",
     "repository_count": 5,
+    "risk_set_lines": 16171,
+    "risk_set_weight": 4.744512377479529,
     "status": "identified",
-    "survival": 0.9948650195915649
+    "survival": 0.9949457581994551
   },
   {
     "agent": "Claude_Code",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 180,
     "language": "Go",
     "repository_count": 5,
+    "risk_set_lines": 13699,
+    "risk_set_weight": 4.535084931994417,
     "status": "identified",
-    "survival": 0.984130821278283
+    "survival": 0.9849942390211621
   },
   {
     "agent": "Claude_Code",
-    "gate_reasons": [
-      "lineage_coverage_below_0.80"
-    ],
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
     "horizon_days": 365,
     "language": "Go",
     "repository_count": 5,
-    "status": "not_identified",
-    "survival": null
+    "risk_set_lines": 8399,
+    "risk_set_weight": 4.134900369605224,
+    "status": "identified",
+    "survival": 0.9703482641367543
+  },
+  {
+    "agent": "Claude_Code",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Python",
+    "repository_count": 8,
+    "risk_set_lines": 19936,
+    "risk_set_weight": 7.419387897308558,
+    "status": "identified",
+    "survival": 0.9585585957917846
+  },
+  {
+    "agent": "Claude_Code",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Python",
+    "repository_count": 8,
+    "risk_set_lines": 18562,
+    "risk_set_weight": 6.947147638863149,
+    "status": "identified",
+    "survival": 0.9409307079172452
+  },
+  {
+    "agent": "Claude_Code",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Python",
+    "repository_count": 8,
+    "risk_set_lines": 17507,
+    "risk_set_weight": 6.303109320550182,
+    "status": "identified",
+    "survival": 0.9211209436070725
+  },
+  {
+    "agent": "Claude_Code",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Python",
+    "repository_count": 8,
+    "risk_set_lines": 17165,
+    "risk_set_weight": 5.625603798551745,
+    "status": "identified",
+    "survival": 0.8548149056908059
   },
   {
     "agent": "Copilot",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 30,
     "language": "Go",
     "repository_count": 15,
+    "risk_set_lines": 11016,
+    "risk_set_weight": 14.645624759254174,
     "status": "identified",
-    "survival": 0.9902385190058851
+    "survival": 0.9901984811889377
   },
   {
     "agent": "Copilot",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 90,
     "language": "Go",
     "repository_count": 15,
+    "risk_set_lines": 10758,
+    "risk_set_weight": 14.263482391625004,
     "status": "identified",
-    "survival": 0.9712876002397681
+    "survival": 0.9714667725997645
   },
   {
     "agent": "Copilot",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 180,
     "language": "Go",
     "repository_count": 15,
+    "risk_set_lines": 10673,
+    "risk_set_weight": 14.127075651239139,
     "status": "identified",
-    "survival": 0.9679214932256072
+    "survival": 0.9691793489275408
   },
   {
     "agent": "Copilot",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 365,
     "language": "Go",
     "repository_count": 15,
+    "risk_set_lines": 9652,
+    "risk_set_weight": 11.97416575178211,
     "status": "identified",
-    "survival": 0.9045426442192708
+    "survival": 0.9083034424174209
+  },
+  {
+    "agent": "Copilot",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Python",
+    "repository_count": 14,
+    "risk_set_lines": 13269,
+    "risk_set_weight": 12.993764970061292,
+    "status": "identified",
+    "survival": 0.9800815721114433
+  },
+  {
+    "agent": "Copilot",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Python",
+    "repository_count": 14,
+    "risk_set_lines": 12710,
+    "risk_set_weight": 12.448569105390979,
+    "status": "identified",
+    "survival": 0.9743352750231418
+  },
+  {
+    "agent": "Copilot",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Python",
+    "repository_count": 14,
+    "risk_set_lines": 12632,
+    "risk_set_weight": 12.314271008444964,
+    "status": "identified",
+    "survival": 0.9743352750231418
+  },
+  {
+    "agent": "Copilot",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Python",
+    "repository_count": 14,
+    "risk_set_lines": 11726,
+    "risk_set_weight": 11.506735621833473,
+    "status": "identified",
+    "survival": 0.9570933177598779
   },
   {
     "agent": "Cursor",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [
-      "fewer_than_5_repositories"
+      "not_identified"
     ],
     "horizon_days": 30,
     "language": "Go",
     "repository_count": 4,
+    "risk_set_lines": null,
+    "risk_set_weight": null,
     "status": "not_identified",
     "survival": null
   },
   {
     "agent": "Cursor",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [
-      "fewer_than_5_repositories"
+      "not_identified"
     ],
     "horizon_days": 90,
     "language": "Go",
     "repository_count": 4,
+    "risk_set_lines": null,
+    "risk_set_weight": null,
     "status": "not_identified",
     "survival": null
   },
   {
     "agent": "Cursor",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [
-      "fewer_than_5_repositories"
+      "not_identified"
     ],
     "horizon_days": 180,
     "language": "Go",
     "repository_count": 4,
+    "risk_set_lines": null,
+    "risk_set_weight": null,
     "status": "not_identified",
     "survival": null
   },
   {
     "agent": "Cursor",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [
-      "fewer_than_5_repositories"
+      "not_identified"
     ],
     "horizon_days": 365,
     "language": "Go",
     "repository_count": 4,
+    "risk_set_lines": null,
+    "risk_set_weight": null,
     "status": "not_identified",
     "survival": null
+  },
+  {
+    "agent": "Cursor",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Python",
+    "repository_count": 8,
+    "risk_set_lines": 8339,
+    "risk_set_weight": 6.236750351178941,
+    "status": "identified",
+    "survival": 0.8395292502185808
+  },
+  {
+    "agent": "Cursor",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Python",
+    "repository_count": 8,
+    "risk_set_lines": 8244,
+    "risk_set_weight": 6.067942535136658,
+    "status": "identified",
+    "survival": 0.8331695176589283
+  },
+  {
+    "agent": "Cursor",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Python",
+    "repository_count": 8,
+    "risk_set_lines": 7530,
+    "risk_set_weight": 5.248486350049333,
+    "status": "identified",
+    "survival": 0.7610309179662224
+  },
+  {
+    "agent": "Cursor",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Python",
+    "repository_count": 8,
+    "risk_set_lines": 7153,
+    "risk_set_weight": 4.688211290359602,
+    "status": "identified",
+    "survival": 0.701074220392519
   },
   {
     "agent": "Devin",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 30,
     "language": "Go",
     "repository_count": 5,
+    "risk_set_lines": 7332,
+    "risk_set_weight": 4.798751248751149,
     "status": "identified",
     "survival": 1.0
   },
   {
     "agent": "Devin",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 90,
     "language": "Go",
     "repository_count": 5,
+    "risk_set_lines": 7324,
+    "risk_set_weight": 4.786574688629383,
     "status": "identified",
     "survival": 1.0
   },
   {
     "agent": "Devin",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 180,
     "language": "Go",
     "repository_count": 5,
+    "risk_set_lines": 7280,
+    "risk_set_weight": 4.7196036079596695,
     "status": "identified",
-    "survival": 0.9896551724137931
+    "survival": 0.9894729440272961
   },
   {
     "agent": "Devin",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 365,
     "language": "Go",
     "repository_count": 5,
+    "risk_set_lines": 7176,
+    "risk_set_weight": 4.5960860810746675,
     "status": "identified",
-    "survival": 0.9878333587516032
-  },
-  {
-    "agent": "OpenAI_Codex",
-    "gate_reasons": [],
-    "horizon_days": 30,
-    "language": "Go",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.9942697365762546
-  },
-  {
-    "agent": "OpenAI_Codex",
-    "gate_reasons": [],
-    "horizon_days": 90,
-    "language": "Go",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.9942604722490179
-  },
-  {
-    "agent": "OpenAI_Codex",
-    "gate_reasons": [],
-    "horizon_days": 180,
-    "language": "Go",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.9942604722490179
-  },
-  {
-    "agent": "OpenAI_Codex",
-    "gate_reasons": [],
-    "horizon_days": 365,
-    "language": "Go",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.9833550204056554
-  },
-  {
-    "agent": "Claude_Code",
-    "gate_reasons": [],
-    "horizon_days": 30,
-    "language": "Python",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.9548173841235346
-  },
-  {
-    "agent": "Claude_Code",
-    "gate_reasons": [],
-    "horizon_days": 90,
-    "language": "Python",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.9319825800795482
-  },
-  {
-    "agent": "Claude_Code",
-    "gate_reasons": [],
-    "horizon_days": 180,
-    "language": "Python",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.9031073708448687
-  },
-  {
-    "agent": "Claude_Code",
-    "gate_reasons": [],
-    "horizon_days": 365,
-    "language": "Python",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.8325430373061055
-  },
-  {
-    "agent": "Copilot",
-    "gate_reasons": [],
-    "horizon_days": 30,
-    "language": "Python",
-    "repository_count": 14,
-    "status": "identified",
-    "survival": 0.9805917415839169
-  },
-  {
-    "agent": "Copilot",
-    "gate_reasons": [],
-    "horizon_days": 90,
-    "language": "Python",
-    "repository_count": 14,
-    "status": "identified",
-    "survival": 0.97460983647028
-  },
-  {
-    "agent": "Copilot",
-    "gate_reasons": [],
-    "horizon_days": 180,
-    "language": "Python",
-    "repository_count": 14,
-    "status": "identified",
-    "survival": 0.9720942685189415
-  },
-  {
-    "agent": "Copilot",
-    "gate_reasons": [],
-    "horizon_days": 365,
-    "language": "Python",
-    "repository_count": 14,
-    "status": "identified",
-    "survival": 0.950033400678609
-  },
-  {
-    "agent": "Cursor",
-    "gate_reasons": [],
-    "horizon_days": 30,
-    "language": "Python",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.8268576437912346
-  },
-  {
-    "agent": "Cursor",
-    "gate_reasons": [],
-    "horizon_days": 90,
-    "language": "Python",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.8135944029888151
-  },
-  {
-    "agent": "Cursor",
-    "gate_reasons": [],
-    "horizon_days": 180,
-    "language": "Python",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.735806801684439
-  },
-  {
-    "agent": "Cursor",
-    "gate_reasons": [],
-    "horizon_days": 365,
-    "language": "Python",
-    "repository_count": 8,
-    "status": "identified",
-    "survival": 0.7734368674681379
+    "survival": 0.9876911784539394
   },
   {
     "agent": "Devin",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 30,
     "language": "Python",
     "repository_count": 13,
+    "risk_set_lines": 21588,
+    "risk_set_weight": 11.053381433801137,
     "status": "identified",
-    "survival": 0.9770081365731332
+    "survival": 0.9770790784375787
   },
   {
     "agent": "Devin",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 90,
     "language": "Python",
     "repository_count": 13,
+    "risk_set_lines": 21111,
+    "risk_set_weight": 10.737568199405152,
     "status": "identified",
-    "survival": 0.9767401937004039
+    "survival": 0.9770790784375787
   },
   {
     "agent": "Devin",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 180,
     "language": "Python",
     "repository_count": 13,
+    "risk_set_lines": 20226,
+    "risk_set_weight": 9.417450614130628,
     "status": "identified",
-    "survival": 0.917382406458324
+    "survival": 0.9215065057307074
   },
   {
     "agent": "Devin",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 365,
     "language": "Python",
     "repository_count": 13,
+    "risk_set_lines": 18512,
+    "risk_set_weight": 8.679694805179585,
     "status": "identified",
-    "survival": 0.8945935061486529
+    "survival": 0.902013562595974
   },
   {
     "agent": "OpenAI_Codex",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 30,
+    "language": "Go",
+    "repository_count": 8,
+    "risk_set_lines": 428432,
+    "risk_set_weight": 7.775815542461777,
+    "status": "identified",
+    "survival": 0.9951000086487055
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 90,
+    "language": "Go",
+    "repository_count": 8,
+    "risk_set_lines": 427712,
+    "risk_set_weight": 7.772485543645115,
+    "status": "identified",
+    "survival": 0.9951000086487055
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 180,
+    "language": "Go",
+    "repository_count": 8,
+    "risk_set_lines": 427712,
+    "risk_set_weight": 7.772485543645115,
+    "status": "identified",
+    "survival": 0.9951000086487055
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "estimand": "repository_balanced_kaplan_meier",
+    "gate_reasons": [],
+    "horizon_days": 365,
+    "language": "Go",
+    "repository_count": 8,
+    "risk_set_lines": 375410,
+    "risk_set_weight": 7.395800324740581,
+    "status": "identified",
+    "survival": 0.9834614533739787
+  },
+  {
+    "agent": "OpenAI_Codex",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 30,
     "language": "Python",
     "repository_count": 16,
+    "risk_set_lines": 8398,
+    "risk_set_weight": 15.004232885326656,
     "status": "identified",
-    "survival": 0.9645876873333744
+    "survival": 0.9686447276610428
   },
   {
     "agent": "OpenAI_Codex",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 90,
     "language": "Python",
     "repository_count": 16,
+    "risk_set_lines": 8017,
+    "risk_set_weight": 14.681410448813498,
     "status": "identified",
-    "survival": 0.9554308487073214
+    "survival": 0.968484503406487
   },
   {
     "agent": "OpenAI_Codex",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 180,
     "language": "Python",
     "repository_count": 16,
+    "risk_set_lines": 7959,
+    "risk_set_weight": 14.521841017778586,
     "status": "identified",
-    "survival": 0.9553240064174995
+    "survival": 0.968484503406487
   },
   {
     "agent": "OpenAI_Codex",
+    "estimand": "repository_balanced_kaplan_meier",
     "gate_reasons": [],
     "horizon_days": 365,
     "language": "Python",
     "repository_count": 16,
+    "risk_set_lines": 6752,
+    "risk_set_weight": 12.900030970519818,
     "status": "identified",
-    "survival": 0.9243796871442006
+    "survival": 0.8905364049226476
   }
 ]

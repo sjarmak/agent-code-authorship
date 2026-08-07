@@ -1,0 +1,86 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "25203c2cc636eb532c0e957745158cc25c8ec3d2efe00e105d4dbdfb9fb375dc",
+  "artifact_version": 1,
+  "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a"
+  ],
+  "cited_files": [
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/triggers.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/skip_conditions.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/skip_conditions.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/scheduler.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/scheduler.py"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2006",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Using @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a.",
+  "prompt_family_id": "semantic_controls",
+  "prompt_sha256": "1029bff7cc67b9533973e55fe49d473ce73bb862143251e49b7440c2036bafb2",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "The corpus-wide searches confirm there are no other repositories in the active study search context that contain Home Assistant integration code, the HA event-tracking API surface, or any of the specific symbols from the reference implementation.\n\n---\n\n## Findings: No Functionally Comparable Implementations Found\n\nAfter fully characterizing the reference commit and exhaustively searching the active study context, **no candidate matches exist**.\n\n### Reference Characterization (cutoff `9ad5a7d`)\n\nThe commit at `9ad5a7d90ac2c42288536a6264cdc8adbea39b6a` in [`jeroenterheerdt/hasmartirrigation`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/) introduces three extracted Python modules:\n\n| File | Engineering Role |\n|---|---|\n| [`triggers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py) | `TriggersMixin` \u2014 solar-event trigger registration (sunrise/sunset/azimuth) via HA `async_track_sunrise`, `async_track_sunset`, `async_track_point_in_utc_time`; once-per-day watering decision gate; `@callback` fire logic |\n| [`skip_conditions.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/skip_conditions.py) | `SkipConditionsMixin` \u2014 precipitation forecast check, days-between-irrigation counter with async HA Store persistence |\n| [`scheduler.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/scheduler.py) | `RecurringScheduleManager` + `SeasonalAdjustmentManager` \u2014 CRUD for daily/weekly/monthly/interval schedules backed by `async_track_time_change` / `async_track_time_interval`; seasonal multiplier/threshold adjustment with month-range logic |\n\n**Qualifying dimensions used for matching:**\n\n1. **Language**: Python\n2. **Framework/API context**: Home Assistant custom component (`homeassistant.helpers.event`, `homeassistant.helpers.storage.Store`, HA coordinator/mixin pattern, HACS `manifest.json`)\n3. **Engineering intent**: Mixin-based coordinator decomposition; solar-event scheduling; skip-condition decision gate; persistent schedule CRUD with typed tracker lifecycle (register \u2192 cancel \u2192 re-register)\n4. **Change size**: ~900 new lines across 3 purpose-built modules extracted from a monolith\n\n### Deterministic Eligibility Checks\n\n**Step 1 \u2014 Language filter.** The active context contains Python repos (`borgmatic`, `poezio`, `django`, `flask`, `fastapi`, `ansible`, `qutebrowser`, `wagtail`, etc.) and non-Python repos (Go, Rust, Java, TypeScript, C/C++). Non-Python repos are eliminated immediately on the language criterion.\n\n**Step 2 \u2014 Framework/API filter.** A corpus-wide search for `async_track_sunrise`, `async_track_sunset`, `homeassistant.helpers.event`, `hacs.json`, and `custom_components` returned **zero results** outside the reference repository itself. No other repo in the context uses the Home Assistant integration API surface.\n\n**Step 3 \u2014 Engineering intent filter.** The only Python repos with scheduling logic are `borgmatic` (backup job scheduling via cron-like intervals, no async HA coordinator) and `poezio` (XMPP ping scheduler, unrelated domain). Neither implements solar-event triggers, precipitation skip conditions, or HA-style persistent coordinator state \u2014 all three are disqualifying differences on intent.\n\n**Step 4 \u2014 Exclusion rules.** No repo in the context is vendored, generated, a tutorial, a fixture, or a copy of `hasmartirrigation`.\n\n### Conclusion\n\nThe study search context contains no repository that is functionally comparable to the reference implementation on all four axes simultaneously (Python + Home Assistant custom component API + irrigation/solar scheduling coordinator + ~900-line refactor extraction). The reference implementation is unique within the corpus.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:21:36Z",
+    "name": "users/476/conversations/2006",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "The corpus-wide searches confirm there are no other repositories in the active study search context that contain Home Assistant integration code, the HA event-tracking API surface, or any of the specific symbols from the reference implementation.\n\n---\n\n## Findings: No Functionally Comparable Implementations Found\n\nAfter fully characterizing the reference commit and exhaustively searching the active study context, **no candidate matches exist**.\n\n### Reference Characterization (cutoff `9ad5a7d`)\n\nThe commit at `9ad5a7d90ac2c42288536a6264cdc8adbea39b6a` in [`jeroenterheerdt/hasmartirrigation`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/) introduces three extracted Python modules:\n\n| File | Engineering Role |\n|---|---|\n| [`triggers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py) | `TriggersMixin` \u2014 solar-event trigger registration (sunrise/sunset/azimuth) via HA `async_track_sunrise`, `async_track_sunset`, `async_track_point_in_utc_time`; once-per-day watering decision gate; `@callback` fire logic |\n| [`skip_conditions.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/skip_conditions.py) | `SkipConditionsMixin` \u2014 precipitation forecast check, days-between-irrigation counter with async HA Store persistence |\n| [`scheduler.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/scheduler.py) | `RecurringScheduleManager` + `SeasonalAdjustmentManager` \u2014 CRUD for daily/weekly/monthly/interval schedules backed by `async_track_time_change` / `async_track_time_interval`; seasonal multiplier/threshold adjustment with month-range logic |\n\n**Qualifying dimensions used for matching:**\n\n1. **Language**: Python\n2. **Framework/API context**: Home Assistant custom component (`homeassistant.helpers.event`, `homeassistant.helpers.storage.Store`, HA coordinator/mixin pattern, HACS `manifest.json`)\n3. **Engineering intent**: Mixin-based coordinator decomposition; solar-event scheduling; skip-condition decision gate; persistent schedule CRUD with typed tracker lifecycle (register \u2192 cancel \u2192 re-register)\n4. **Change size**: ~900 new lines across 3 purpose-built modules extracted from a monolith\n\n### Deterministic Eligibility Checks\n\n**Step 1 \u2014 Language filter.** The active context contains Python repos (`borgmatic`, `poezio`, `django`, `flask`, `fastapi`, `ansible`, `qutebrowser`, `wagtail`, etc.) and non-Python repos (Go, Rust, Java, TypeScript, C/C++). Non-Python repos are eliminated immediately on the language criterion.\n\n**Step 2 \u2014 Framework/API filter.** A corpus-wide search for `async_track_sunrise`, `async_track_sunset`, `homeassistant.helpers.event`, `hacs.json`, and `custom_components` returned **zero results** outside the reference repository itself. No other repo in the context uses the Home Assistant integration API surface.\n\n**Step 3 \u2014 Engineering intent filter.** The only Python repos with scheduling logic are `borgmatic` (backup job scheduling via cron-like intervals, no async HA coordinator) and `poezio` (XMPP ping scheduler, unrelated domain). Neither implements solar-event triggers, precipitation skip conditions, or HA-style persistent coordinator state \u2014 all three are disqualifying differences on intent.\n\n**Step 4 \u2014 Exclusion rules.** No repo in the context is vendored, generated, a tutorial, a fixture, or a copy of `hasmartirrigation`.\n\n### Conclusion\n\nThe study search context contains no repository that is functionally comparable to the reference implementation on all four axes simultaneously (Python + Home Assistant custom component API + irrigation/solar scheduling coordinator + ~900-line refactor extraction). The reference implementation is unique within the corpus."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:21:36Z",
+        "input": [
+          {
+            "question": {
+              "text": "Using @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Find functionally comparable implementations across repositories for hasmartirrigation",
+    "updateTime": "2026-07-29T03:22:54Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/948c0d0a-717e-4a35-a0a2-c909396ac128"
+  },
+  "run_id": "sha256:c56ed303f68738ad668c457353e193c4f5a9fbbf3565a3e25c99dcd7096d6198",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "jeroenterheerdt/hasmartirrigation"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "sourcegraph-adoption-anchor-amendment.schema.json",
+  "amendment_version": 1,
+  "effective_after_tranche": 7,
+  "source_chain_sha256": "4fbbfcd94e970112425a38d75160c4b5fc103d301f36ed618fd3e03909d4553d",
+  "source_decision_ledger_sha256": "7fe62e758a02196bba0c14fd6daee3fae2b7d794093906b2b5d2ae8a64553196",
+  "trigger": {
+    "active_repositories_at_tranche_7": 111,
+    "remaining_event_reviews_before_tranche_7": 4282,
+    "maximum_single_repository_remaining_events": 675,
+    "reason": "One-event tranches spend most review effort rejecting generic challenge hits and do not change the requested first-explicit-use adoption estimand."
+  },
+  "selection_rule": {
+    "eligible_state": "still active after the tranche-7 ledger with no open peer review",
+    "event": "first explicit-provenance anchor in the frozen repository sequence",
+    "earlier_accepted_event_precedence": true,
+    "anchor_review_is_semantic": true,
+    "automatic_acceptance_forbidden": true,
+    "unresolved_earlier_candidate_count_retained": true,
+    "clean_prehistory_requires_zero_unresolved_earlier_candidates": true
+  },
+  "interpretation": {
+    "accepted_anchor_date": "first observed explicit coding-agent use in the frozen Sourcegraph frame",
+    "not_claimed": "earliest actual repository adoption",
+    "pre_anchor_code": "contemporary within-repository comparison code with possible earlier-agent contamination when clean_prehistory is false",
+    "causal_interpretation": false
+  },
+  "sensitivity": {
+    "primary": "all accepted first-observed explicit anchors with prehistory status disclosed",
+    "clean_prehistory": "restrict to repositories whose earlier challenge frame was fully resolved",
+    "accepted_earlier_challenge": "use the earlier accepted observed or confirmed date instead of the anchor",
+    "unclean_prehistory_bias": "treat possible pre-anchor agent contamination as bias toward smaller human-agent differences"
+  },
+  "review_execution": {
+    "local_or_subagent_only": true,
+    "paid_batch_api": false,
+    "user_openai_api_key": false,
+    "scip_required": false,
+    "classifier_or_survival_outcomes_hidden": true
+  },
+  "adjudication_decisions_available": true,
+  "outcomes_consulted": false,
+  "amendment_sha256": "d4f2daef1b9e15bcdf5bec1ffbe7450be2adbcfbb106d537c9ab990a296a1cc1"
+}

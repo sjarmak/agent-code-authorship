@@ -1,0 +1,12 @@
+{
+  "failure_count": 0,
+  "failures": [],
+  "inventory_sha256": "3926e2148821ca0d5868c06ca25918c0204bde58a08bcce86a4e30a80d39f692",
+  "inventory_version": 1,
+  "outcomes_consulted": false,
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "record_count": 492,
+  "record_file": "semantic-change-records.v1.jsonl",
+  "record_file_sha256": "6a5cd389c046ba439ca6967f3e5e8d0b3177603477f592db7c3d5cdc1f0359dc"
+}

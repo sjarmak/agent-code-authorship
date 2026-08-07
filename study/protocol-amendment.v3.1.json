@@ -1,0 +1,131 @@
+{
+  "$schema": "protocol-amendment-v3.1.schema.json",
+  "amendment_version": "3.1",
+  "status": "preregistered",
+  "preregistered_at": "2026-07-29T17:38:30Z",
+  "outcomes_consulted": false,
+  "parent_protocol": {
+    "path": "study/protocol.v3.json",
+    "protocol_sha256": "f1adba26c170aeeeba42c96b5975e88bcd0d17b91162c5ef0d9cc2481528e627"
+  },
+  "primary_question": "Does explicitly agent-attributed code survive differently from contemporary human-authored code within the same repositories?",
+  "study_role": {
+    "sourcegraph": "enabling_longitudinal_data_asset",
+    "primary_estimate": "within_repository_agent_vs_contemporary_human_line_survival",
+    "prevalence": "secondary_estimand",
+    "claim_type": "associational"
+  },
+  "exposure": {
+    "primary_definition": "explicit_provenance",
+    "qualifying_evidence": [
+      "recognized_agent_or_bot_identity",
+      "agent_specific_commit_trailer",
+      "linked_agent_generated_pull_request",
+      "repository_local_generated_code_disclosure"
+    ],
+    "attribution_unit": "commit",
+    "code_unit": "lines_introduced_by_qualifying_commit",
+    "disclosed_assumption": "For an accepted explicit-provenance commit, its introduced code lines are attributed to the agent.",
+    "commit_message_style_role": "secondary_sensitivity_only",
+    "timing_and_multiview_role": "secondary_sensitivity_only",
+    "all_post_adoption_commits_are_agent": false
+  },
+  "adoption": {
+    "repository_eligibility_requires_datable_point": true,
+    "point_definition": "earliest_credible_default_branch_agent_adoption_event",
+    "roles": [
+      "define_repository_pre_and_post_eras",
+      "establish_contemporary_human_control_window",
+      "stratify_sampling"
+    ],
+    "authorship_label_role": "none",
+    "clean_prehistory_days": 365
+  },
+  "human_comparator": {
+    "primary": "same_repository_contemporary_pre_adoption_human_commits",
+    "primary_calendar_floor": "2023-01-01T00:00:00Z",
+    "match_on": [
+      "repository",
+      "language",
+      "path_type",
+      "change_type",
+      "change_size",
+      "calendar_time"
+    ],
+    "confident_post_adoption_human_role": "secondary",
+    "pre_2023_human_role": "era_adjusted_sensitivity",
+    "pre_2023_code_is_admissible": true
+  },
+  "survival": {
+    "observation_unit": "introduced_line",
+    "primary_event": "first_modification_or_deletion_of_introduced_line",
+    "right_censoring": "repository_specific_last_observable_revision",
+    "primary_estimator": "repository_balanced_kaplan_meier",
+    "secondary_estimators": [
+      "aalen_johansen_unchanged_modified_deleted_state_occupancy",
+      "matched_repository_stratified_cox_model"
+    ],
+    "horizons_days": [
+      30,
+      90,
+      180,
+      365
+    ],
+    "required_invariant": "survival_probability_is_monotone_nonincreasing"
+  },
+  "era_adjustment": {
+    "primary_design": "within_repository_before_after_adoption_control",
+    "contemporary_window": "repository_specific_2023_to_adoption",
+    "historical_human_code": "retained_only_in_era_adjusted_sensitivity",
+    "negative_controls": [
+      "datable_ai_ban_repositories",
+      "not_yet_adopting_repositories"
+    ],
+    "required_diagnostics": [
+      "parallel_pre_trends",
+      "placebo_adoption_dates",
+      "calendar_time_balance",
+      "repository_held_out_era_prediction",
+      "historical_anchor_sensitivity"
+    ]
+  },
+  "ai_ban_repositories": {
+    "admissible": true,
+    "primary_role": "negative_control",
+    "uses": [
+      "false_positive_measurement",
+      "secular_trend_check",
+      "classifier_sensitivity"
+    ],
+    "excluded_from_primary_exposed_cohort": true
+  },
+  "claims": {
+    "causal": false,
+    "permitted": "Agent-attributed and contemporary human-attributed code have different observed survival.",
+    "forbidden": "Agent authorship causes the observed survival difference."
+  },
+  "sourcegraph": {
+    "indexed_namespace": "github.com/sg-evals/",
+    "corpus_boundary": "repositories_available_in_the_indexed_sg_evals_namespace",
+    "unique_assets": [
+      "cutoff_pinned_indexed_search",
+      "commit_and_diff_search",
+      "revision_search",
+      "cross_repository_discovery",
+      "blame",
+      "repository_metadata",
+      "reproducible_saved_queries"
+    ],
+    "scip_or_precise_required": false,
+    "authoritative_lineage_source": "pinned_git_history"
+  },
+  "sampling": {
+    "exhaustive_packet_review_required": false,
+    "primary_sampling_frame": "explicit_provenance_commit_candidates_in_repositories_with_datable_adoption",
+    "selection": "deterministic_hash_sampling_within_repository_language_time_strata",
+    "target_counts": "set_by_prospective_repository_clustered_power_simulation_before_survival_outcomes",
+    "ambiguous_cases": "two_independent_reviews_plus_distinct_resolution",
+    "reliability_audit": "deterministic_stratified_sample_of_accepts_and_rejects_by_channel_language_and_repository"
+  },
+  "amendment_sha256": "379e14457dd3c33099a9c5273e8994c26579e11df2afda0dab7e51b71223de6f"
+}

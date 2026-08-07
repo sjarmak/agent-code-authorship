@@ -1,0 +1,97 @@
+{
+  "execution_version": 3,
+  "plan_sha256": "8cc0375ed1a72830499f575972e9ccc14be06743405870988e0d7a3f695d1c18",
+  "approval_scope": "destructive",
+  "started_at": "2026-07-27T19:51:56.339321Z",
+  "updated_at": "2026-07-27T20:01:54.835906Z",
+  "status": "complete",
+  "selected_count": 2,
+  "selected_repository_ids": [
+    "kubernetes/kubernetes",
+    "nodejs/node"
+  ],
+  "current_action": null,
+  "results": [
+    {
+      "canonical_repository_id": "kubernetes/kubernetes",
+      "action": "replace_standalone_mirror",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:51:56.341585Z",
+      "completed_at": "2026-07-27T19:55:51.143563Z",
+      "commands": [
+        {
+          "argv": [
+            "git",
+            "clone",
+            "--bare",
+            "--single-branch",
+            "--branch",
+            "master",
+            "https://github.com/kubernetes/kubernetes",
+            "/tmp/sg-evals-replace-m4vs44vw/kubernetes-kubernetes.git"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Cloning into bare repository '/tmp/sg-evals-replace-m4vs44vw/kubernetes-kubernetes.git'...\n"
+        },
+        {
+          "argv": [
+            "git",
+            "-C",
+            "/tmp/sg-evals-replace-m4vs44vw/kubernetes-kubernetes.git",
+            "push",
+            "https://github.com/sg-evals/kubernetes-kubernetes.git",
+            "+refs/heads/master:refs/heads/main"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "remote: warning: See https://gh.io/lfs for more information.        \nremote: warning: File test/images/sample-device-plugin/sampledeviceplugin is 64.11 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        \nremote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        \nTo https://github.com/sg-evals/kubernetes-kubernetes.git\n + cc415b71c5f...42850664fd9 master -> main (forced update)\n"
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "nodejs/node",
+      "action": "replace_standalone_mirror",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:58:19.853812Z",
+      "completed_at": "2026-07-27T20:01:54.830083Z",
+      "commands": [
+        {
+          "argv": [
+            "git",
+            "clone",
+            "--bare",
+            "--single-branch",
+            "--branch",
+            "main",
+            "https://github.com/nodejs/node",
+            "/tmp/sg-evals-replace-sbwaps23/nodejs-node.git"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Cloning into bare repository '/tmp/sg-evals-replace-sbwaps23/nodejs-node.git'...\n"
+        },
+        {
+          "argv": [
+            "git",
+            "-C",
+            "/tmp/sg-evals-replace-sbwaps23/nodejs-node.git",
+            "push",
+            "https://github.com/sg-evals/nodejs-node.git",
+            "+refs/heads/main:refs/heads/main"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "To https://github.com/sg-evals/nodejs-node.git\n + 42ad0da0b0...6a3d80fb49 main -> main (forced update)\n"
+        }
+      ],
+      "error": null
+    }
+  ],
+  "journal_sha256": "77fe7e9398661bd63279625f60e5c1e350d3f8eab69c73ff562b5196b7c3763a"
+}

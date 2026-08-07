@@ -1,4 +1,5 @@
 """Pre-2023 diagnostics kept structurally separate from authorship labels."""
+
 from __future__ import annotations
 
 import numpy as np
@@ -41,6 +42,78 @@ def _weighted_mean_variance(
     return mean, variance
 
 
+def _validate_era_design(
+    era: np.ndarray,
+    groups: np.ndarray,
+    feature_names,
+    feature_count: int,
+) -> None:
+    if set(np.unique(era)) != {0.0, 1.0}:
+        raise TemporalDiagnosticError("era labels must contain historical and modern")
+    if len(feature_names) != feature_count:
+        raise TemporalDiagnosticError("feature names must align with columns")
+    if any(len(set(groups[era == label].tolist())) < 5 for label in (0.0, 1.0)):
+        raise TemporalDiagnosticError(
+            "era diagnostic requires five repository groups per period"
+        )
+
+
+def _cross_fitted_era_scores(
+    x: np.ndarray,
+    era: np.ndarray,
+    weights: np.ndarray,
+    groups: np.ndarray,
+    folds: int,
+    ridge: float,
+) -> tuple[np.ndarray, list[dict]]:
+    scores = np.full(len(era), np.nan)
+    fold_rows = []
+    all_indices = np.arange(len(era))
+    for fold, test in enumerate(logreg.group_folds(groups, folds)):
+        if not len(test):
+            continue
+        train = np.setdiff1d(all_indices, test)
+        if set(np.unique(era[train])) != {0.0, 1.0}:
+            raise TemporalDiagnosticError("era fold lacks both periods")
+        model = logreg.fit(x[train], era[train], weight=weights[train], ridge=ridge)
+        scores[test] = logreg.predict(model, x[test])
+        fold_rows.append(
+            {
+                "fold": fold,
+                "train_groups": sorted(set(groups[train].tolist())),
+                "test_groups": sorted(set(groups[test].tolist())),
+            }
+        )
+    if np.any(~np.isfinite(scores)):
+        raise TemporalDiagnosticError("era cross-fitting did not cover all records")
+    return scores, fold_rows
+
+
+def _feature_shifts(
+    x: np.ndarray,
+    era: np.ndarray,
+    weights: np.ndarray,
+    feature_names,
+) -> list[dict]:
+    historical = era == 0
+    contemporary = era == 1
+    old_mean, old_variance = _weighted_mean_variance(x[historical], weights[historical])
+    new_mean, new_variance = _weighted_mean_variance(
+        x[contemporary], weights[contemporary]
+    )
+    pooled_sd = np.sqrt((old_variance + new_variance) / 2)
+    standardized = (new_mean - old_mean) / np.maximum(pooled_sd, 1e-12)
+    return [
+        {
+            "feature": str(name),
+            "historical_mean": float(old_mean[index]),
+            "contemporary_mean": float(new_mean[index]),
+            "standardized_mean_shift": float(standardized[index]),
+        }
+        for index, name in enumerate(feature_names)
+    ]
+
+
 def era_diagnostics(
     x,
     era,
@@ -53,63 +126,15 @@ def era_diagnostics(
 ) -> dict:
     """Measure how readily frozen features distinguish historical from modern."""
     x, era, weights, groups = _arrays(x, era, weights, groups)
-    if set(np.unique(era)) != {0.0, 1.0}:
-        raise TemporalDiagnosticError("era labels must contain historical and modern")
-    if len(feature_names) != x.shape[1]:
-        raise TemporalDiagnosticError("feature names must align with columns")
-    for label in (0.0, 1.0):
-        if len(set(groups[era == label].tolist())) < 5:
-            raise TemporalDiagnosticError(
-                "era diagnostic requires five repository groups per period"
-            )
-    scores = np.full(len(era), np.nan)
-    fold_rows = []
-    all_indices = np.arange(len(era))
-    for fold, test in enumerate(logreg.group_folds(groups, folds)):
-        if not len(test):
-            continue
-        train = np.setdiff1d(all_indices, test)
-        if set(np.unique(era[train])) != {0.0, 1.0}:
-            raise TemporalDiagnosticError("era fold lacks both periods")
-        model = logreg.fit(
-            x[train], era[train], weight=weights[train], ridge=ridge
-        )
-        scores[test] = logreg.predict(model, x[test])
-        fold_rows.append(
-            {
-                "fold": fold,
-                "train_groups": sorted(set(groups[train].tolist())),
-                "test_groups": sorted(set(groups[test].tolist())),
-            }
-        )
-    if np.any(~np.isfinite(scores)):
-        raise TemporalDiagnosticError("era cross-fitting did not cover all records")
-    historical = era == 0
-    contemporary = era == 1
-    old_mean, old_variance = _weighted_mean_variance(
-        x[historical], weights[historical]
-    )
-    new_mean, new_variance = _weighted_mean_variance(
-        x[contemporary], weights[contemporary]
-    )
-    pooled_sd = np.sqrt((old_variance + new_variance) / 2)
-    standardized = (new_mean - old_mean) / np.maximum(pooled_sd, 1e-12)
-    shifts = [
-        {
-            "feature": str(name),
-            "historical_mean": float(old_mean[index]),
-            "contemporary_mean": float(new_mean[index]),
-            "standardized_mean_shift": float(standardized[index]),
-        }
-        for index, name in enumerate(feature_names)
-    ]
+    _validate_era_design(era, groups, feature_names, x.shape[1])
+    scores, fold_rows = _cross_fitted_era_scores(x, era, weights, groups, folds, ridge)
     return {
         "role": "diagnostic_only",
         "repository_held_out_auc": logreg.auc(era, scores, weights),
         "records": len(era),
         "repository_groups": len(set(groups.tolist())),
         "folds": fold_rows,
-        "feature_shifts": shifts,
+        "feature_shifts": _feature_shifts(x, era, weights, feature_names),
     }
 
 

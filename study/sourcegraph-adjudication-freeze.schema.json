@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adjudication-freeze.schema.json",
+  "title": "Sourcegraph discovery adjudication freeze v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "adjudication_freeze_version",
+    "specification_sha256",
+    "packet_index_sha256",
+    "packet_count",
+    "bundle_sha256s",
+    "catalogs",
+    "agreement_audit",
+    "outcomes_consulted",
+    "adjudication_freeze_sha256"
+  ],
+  "properties": {
+    "adjudication_freeze_version": {
+      "const": 3
+    },
+    "specification_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "packet_index_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "packet_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "bundle_sha256s": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/sha256"
+      }
+    },
+    "catalogs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adoption_events",
+        "ai_ban_policies"
+      ],
+      "properties": {
+        "adoption_events": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/catalog"
+            },
+            {
+              "properties": {
+                "catalog_type": {
+                  "const": "adoption_events"
+                }
+              }
+            }
+          ]
+        },
+        "ai_ban_policies": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/catalog"
+            },
+            {
+              "properties": {
+                "catalog_type": {
+                  "const": "ai_ban_policies"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "agreement_audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary_agreement_count",
+        "resolution_count",
+        "selected_agreement_audit_count",
+        "decision_mismatch_count"
+      ],
+      "properties": {
+        "primary_agreement_count": {
+          "$ref": "#/$defs/count"
+        },
+        "resolution_count": {
+          "$ref": "#/$defs/count"
+        },
+        "selected_agreement_audit_count": {
+          "$ref": "#/$defs/count"
+        },
+        "decision_mismatch_count": {
+          "$ref": "#/$defs/count"
+        }
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "adjudication_freeze_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "catalog": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "catalog_type",
+        "record_count",
+        "primary_analysis_included_count",
+        "sensitivity_analysis_included_count",
+        "records",
+        "catalog_sha256"
+      ],
+      "properties": {
+        "catalog_type": {
+          "type": "string"
+        },
+        "record_count": {
+          "$ref": "#/$defs/count"
+        },
+        "primary_analysis_included_count": {
+          "$ref": "#/$defs/count"
+        },
+        "sensitivity_analysis_included_count": {
+          "$ref": "#/$defs/count"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/catalogRecord"
+          }
+        },
+        "catalog_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "catalogRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "packet_id",
+        "packet_sha256",
+        "bundle_sha256",
+        "packet_type",
+        "canonical_repository_id",
+        "canonical_source_url",
+        "query_family_id",
+        "candidate_event",
+        "final_decision",
+        "final_basis",
+        "primary_analysis_included",
+        "sensitivity_analysis_included",
+        "agreement_audit_decision",
+        "agreement_audit_matches_final"
+      ],
+      "properties": {
+        "packet_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "packet_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "bundle_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "packet_type": {
+          "enum": [
+            "adoption_event",
+            "ai_ban_policy"
+          ]
+        },
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "canonical_source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "query_family_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "candidate_event": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "commit_oid",
+            "observed_at"
+          ],
+          "properties": {
+            "commit_oid": {
+              "$ref": "#/$defs/sha1"
+            },
+            "observed_at": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "final_decision": {
+          "enum": [
+            "confirmed",
+            "observed",
+            "admissible",
+            "rejected",
+            "insufficient"
+          ]
+        },
+        "final_basis": {
+          "enum": [
+            "primary_agreement",
+            "resolution"
+          ]
+        },
+        "primary_analysis_included": {
+          "type": "boolean"
+        },
+        "sensitivity_analysis_included": {
+          "type": "boolean"
+        },
+        "agreement_audit_decision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "agreement_audit_matches_final": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

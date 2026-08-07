@@ -1,0 +1,24 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "0897fef7783c481735d5cd1de8faef030ddec40521f41878604d392e3a189c13",
+    "task_id": "c5af9a3a262ddf7c2a9b9b9da798faeb1bd74be7802084ad9b9ff25e92a1f70f",
+    "task_sha256": "86497a7b2dca91ca56ef60f82331fd1c9b9591debacbdfd0d49ca99511d8bcae",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "0e783f7356921dc47eaa7d727d9d21888ca1e6de3e16406ed1cff077dd0fd082",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The evidence documents rejection of unsupported JavaScript challenge-provider requests, not a prohibition on AI-generated or AI-authored repository contributions.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/jsc/README.md#L70",
+      "https://github.com/yt-dlp/yt-dlp/commit/6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/jsc/README.md#L72"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "e9dd901a78bf0038c3896970d71393ef8db9224a65fd78447a240134d1d06ed2"
+  }
+]

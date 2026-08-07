@@ -1,0 +1,206 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "62a286fe072a77d623663ec290fdb0e695b106d6a7af29b19e86c72c1e94a27e",
+  "artifact_version": 1,
+  "canonical_repository_id": "asahilinux/m1n1",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "7c7716b6a196c7e601f9f22bb8af335c1b8173ce"
+  ],
+  "cited_files": [
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "CODEOWNERS",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/CODEOWNERS"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": ".github/workflows/main.yml",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/main.yml"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": ".github/workflows/build.yml",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/build.yml"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": ".github/workflows/test.yml",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/test.yml"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "pytest.ini",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/pytest.ini"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": ".github/workflows/installer.yml",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/installer.yml"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": ".github/dependabot.yml",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/dependabot.yml"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": ".clang-format",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.clang-format"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "Makefile",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L207-L214"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "Makefile",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L59-L66"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "Makefile",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L211-L214"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": ".editorconfig",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.editorconfig"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "tests/python/test_proxyclient/test_m1n1/test_toolchain.py",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/test_toolchain.py"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "tests/python/test_proxyclient/test_m1n1/test_asm.py",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/test_asm.py"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "tests/python/test_proxyclient/test_m1n1/test_loadobjs.py",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/test_loadobjs.py"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "tests/python/test_proxyclient/test_m1n1/conftest.py",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/conftest.py"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "requirements.txt",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/requirements.txt"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "requirements.ini",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/requirements.ini"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "rust/Cargo.toml",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/rust/Cargo.toml"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "version.sh",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/version.sh"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "Makefile",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L273-L283"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/AGENTS.md"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "CLAUDE.md",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/CLAUDE.md"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "GEMINI.md",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/GEMINI.md"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2018",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/asahilinux-m1n1 at revision 7c7716b6a196c7e601f9f22bb8af335c1b8173ce, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: asahilinux/m1n1; stratum: policy_control; cutoff: 7c7716b6a196c7e601f9f22bb8af335c1b8173ce.",
+  "prompt_family_id": "review_validation",
+  "prompt_sha256": "c41f21044353465846a8d184e49f66a528827c2774f0d118b6f28c90eebad354",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Here is a structured inventory of all code-review and validation mechanisms observable at revision `7c7716b6a196c7e601f9f22bb8af335c1b8173ce`.\n\n---\n\n## 1. Ownership Rules (Repository-Wide)\n\n**File:** [CODEOWNERS](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/CODEOWNERS)\n\n```text\n* @svenpeter42 @jannau\nrust/ @jannau @WhatAmISupposedToPutHere\n```\n\n- All files require review from `@svenpeter42` or `@jannau`.\n- The `rust/` subtree has a distinct, additional ownership group: `@jannau` and `@WhatAmISupposedToPutHere`.\n- This is enforced at the GitHub PR level when the CODEOWNERS file is respected by branch protection rules (branch protection configuration is not visible in-tree; its existence can only be confirmed via the GitHub API or repository settings).\n\n**Deterministic verification query:** `git log --diff-filter=A --follow -- CODEOWNERS` to determine when ownership was established.\n\n---\n\n## 2. CI Workflows (Repository-Wide)\n\nFour GitHub Actions workflows are defined under [`.github/workflows/`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/tree/.github/workflows):\n\n### 2a. Format Check \u2014 [`main.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/main.yml)\n\n- **Trigger:** push/PR targeting `main`.\n- **Steps:**\n  1. Installs `clang-format-20` from the LLVM apt snapshot.\n  2. Installs nightly Rust with `rustfmt` and `clippy` components.\n  3. Runs `make format CLANG_FORMAT=clang-format-20` (applies formatting in-place), then `git diff` (displays any drift), then `git reset --hard` (resets workspace).\n  4. Runs `make format-check CLANG_FORMAT=clang-format-20` (dry-run, fails on any diff via `--Werror`).\n  5. Runs `make rustfmt-check` (equivalent: `cargo fmt --check`).\n- **Observed gap:** `clippy` is installed but there is no `make clippy` or `cargo clippy` invocation in this workflow.\n\n### 2b. Build \u2014 [`build.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/build.yml)\n\n- **Trigger:** push/PR targeting `main`.\n- **Steps:**\n  1. Installs `gcc-aarch64-linux-gnu` cross-compiler.\n  2. Installs Rust target `aarch64-unknown-none-softfloat`.\n  3. Runs `make -k -j2 ARCH=aarch64-linux-gnu- CHAINLOADING=1`.\n  4. Uploads `build/m1n1.macho` and `build/m1n1.bin` as artifacts.\n- `-k` (keep-going on error) means the build continues past individual failures and does not immediately fail fast.\n\n### 2c. Test \u2014 [`test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/test.yml)\n\n- **Trigger:** push/PR targeting `main`.\n- **Matrix:** 4 configurations:\n  - `ubuntu-latest` + `gcc`\n  - `ubuntu-latest` + `llvm`\n  - `macos-14` + `llvm-brew`\n  - `macos-15` + `llvm-brew`\n- Runs `pytest` (with `USE_CLANG=1` for the `llvm` variant). Test root is `tests/python` per [`pytest.ini`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/pytest.ini).\n\n### 2d. Installer \u2014 [`installer.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/installer.yml)\n\n- **Trigger:** push to `main` or `releases/**`, tags matching `v*`, or PRs targeting `main` **only if `installer.yml` itself is changed** (`paths: [.github/workflows/installer.yml]`). This is deliberately narrower than the other workflows.\n- Checks out external repositories (`AsahiLinux/linux` at branch `asahi`, `AsahiLinux/u-boot` at branch `asahi-releng`), builds m1n1 in `RELEASE=1` mode, assembles a `boot.bin`, and uploads a dated artifact zip.\n\n---\n\n## 3. Dependency Automation (Repository-Wide)\n\n**File:** [`.github/dependabot.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/dependabot.yml)\n\n- Monitors `github-actions` ecosystem only (no `cargo` or `pip` ecosystems configured).\n- Groups all Actions updates into a single weekly PR.\n\n**Deterministic verification query:** Check whether `package-ecosystem: cargo` or `package-ecosystem: pip` appears anywhere in the file \u2014 they do not at this revision.\n\n---\n\n## 4. Formatting / Linting Infrastructure (Repository-Wide)\n\n### C/Assembly\n\n- **Config:** [`.clang-format`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.clang-format) \u2014 `BasedOnStyle: LLVM`, 4-space indent, 100-column limit, custom `IncludeCategories` ordering (config/build artifacts, system headers, m1n1 headers, third-party, generated).\n- **Make targets** ([`Makefile` lines 207\u2013214](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L207-L214)):\n  - `format`: applies formatting in-place to `src/*.c`, `src/chickens/*.c`, `src/dcp/*.c`, `src/math/*.c`, and all `.h` files in `src/`, `src/dcp/`, `src/math/`, `sysinc/`.\n  - `format-check`: dry-run (`--dry-run --Werror`) over the same file set.\n- **Compiler warning flags** ([`Makefile` lines 59\u201366](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L59-L66)):\n  - `-Wall`, `-Wundef`, `-Wsign-compare`, `-Wunused-parameter`\n  - Hard errors: `-Werror=strict-prototypes`, `-Werror=implicit-function-declaration`, `-Werror=implicit-int`\n  - GCC-only additional flag: `-Wstack-usage=2048`\n\n### Rust\n\n- **Make targets** ([`Makefile` lines 211\u2013214](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L211-L214)):\n  - `rustfmt`: `cd rust && cargo fmt`\n  - `rustfmt-check`: `cd rust && cargo fmt --check`\n- Nightly Rust is required (enforced via `RUSTC_BOOTSTRAP=1` in the Makefile and nightly toolchain installation in CI).\n\n### Editor\n\n- [`.editorconfig`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.editorconfig): 4-space indent, 100-column limit, UTF-8, final newline, trim trailing whitespace; tabs for Makefiles.\n\n---\n\n## 5. Test Infrastructure (Repository-Wide)\n\n**Location:** [`tests/python/test_proxyclient/test_m1n1/`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/tree/tests/python/test_proxyclient/test_m1n1)\n\n**Framework:** pytest, configured in [`pytest.ini`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/pytest.ini) (`testpaths = tests/python`).\n\n**Test files and coverage:**\n\n| File | Subject | Key behaviors tested |\n|------|---------|----------------------|\n| [`test_toolchain.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/test_toolchain.py) | `proxyclient.m1n1.toolchain` \u2014 `LLVMResolver`, `BrewLLVMResolver`, `Toolchain` | Parametrized over 6 OS/arch combinations (`Darwin/arm64`, `Darwin/x86_64`, `Linux/x86_64`, `Linux/aarch64`, `OpenBSD/arm64`, `OpenBSD/amd64`). Tests skip automatically if the host does not match the expected OS/arch, or if `USE_CLANG` contradicts the fixture. |\n| [`test_asm.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/test_asm.py) | `proxyclient.m1n1.asm.ARMAsm` | Compilation of inline AArch64 assembly; `objdump` output against expected strings (clang vs. gcc variants). |\n| [`test_loadobjs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/test_loadobjs.py) | `proxyclient.m1n1.loadobjs` \u2014 `run_tool`, `tool_output_lines` | `nm` invocation, error propagation (exit status 1 raises exception), silent mode suppresses stdout. |\n| [`conftest.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/conftest.py) | Shared fixtures | Pre-baked expected disassembly/NM output for both clang and gcc toolchains; `ARMAsm` and `Toolchain` object fixtures. |\n\n**Observed scope:** Tests cover only the `proxyclient` Python library. There are no C unit tests, no hardware-in-the-loop tests, and no fuzzing infrastructure visible in the tree. The `tests/python/.gitkeep` file indicates the `tests/python/` directory itself was deliberately created empty initially.\n\n---\n\n## 6. Generated Artifacts and Pinning\n\n- [`requirements.txt`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/requirements.txt): auto-generated by `pip-compile` from [`requirements.ini`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/requirements.ini); pins `construct==2.10.70` and `pyserial==3.5`. No CI step verifies that `requirements.txt` is in sync with `requirements.ini`.\n- [`rust/Cargo.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/rust/Cargo.toml): pins the `fatfs` git dependency to an exact commit (`4eccb50d011146fbed20e133d33b22f3c27292e7`).\n- A `Cargo.lock` file is referenced by the Makefile's Rust build rule but is not directly read here.\n- Build-tag and build-cfg headers (`build/build_tag.h`, `build/build_cfg.h`) are generated at build time via [`version.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/version.sh) and Makefile stanzas ([lines 273\u2013283](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L273-L283)); a `cmp -s` guard prevents unnecessary regeneration.\n\n---\n\n## 7. AI-Agent Guardrails\n\n- [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/AGENTS.md): contains a single directive forbidding AI/LLM tool usage.\n- [`CLAUDE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/CLAUDE.md) and [`GEMINI.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/GEMINI.md): both contain only `AGENTS.md` (a redirect/include pattern for agent-specific instruction files).\n\n---\n\n## 8. Mechanisms Not Present at This Revision\n\nThe following are absent from the tree and cannot be inferred to exist:\n\n- No `clippy` invocation in any CI workflow (toolchain is installed but unused in CI).\n- No `cargo audit` or supply-chain vulnerability scanning.\n- No branch protection configuration (not visible in-tree; requires GitHub API).\n- No `PULL_REQUEST_TEMPLATE.md` or issue templates under `.github/`.\n- No `CHANGELOG` or structured release notes generation.\n- No C-level unit test framework (no `Unity`, `cmocka`, or similar).\n- No Dependabot for `cargo` or `pip` ecosystems.\n- No `pre-commit` configuration file.\n\n---\n\n## 9. Deterministic Verification Queries\n\n| Claim | Verification command |\n|-------|----------------------|\n| CODEOWNERS covers all files | `cat CODEOWNERS` at revision |\n| `clippy` is never invoked in CI | `grep -r clippy .github/workflows/` \u2014 expected: 0 matches for actual run invocations |\n| `rustfmt-check` is the only Rust check in CI | `grep -A5 \"rustfmt\" .github/workflows/main.yml` |\n| Test matrix covers 4 OS/compiler combos | `grep -A20 \"matrix:\" .github/workflows/test.yml` |\n| `installer.yml` path-scoped to PRs | `grep -A5 \"pull_request:\" .github/workflows/installer.yml` |\n| `requirements.txt` is pip-compile generated | First 3 lines of `requirements.txt` |\n| No C unit tests exist | `find tests/ -name \"*.c\"` \u2014 expected: empty |\n| `fatfs` dependency pinned to exact git commit | `grep \"rev=\" rust/Cargo.toml` |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:29:39Z",
+    "name": "users/476/conversations/2018",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Here is a structured inventory of all code-review and validation mechanisms observable at revision `7c7716b6a196c7e601f9f22bb8af335c1b8173ce`.\n\n---\n\n## 1. Ownership Rules (Repository-Wide)\n\n**File:** [CODEOWNERS](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/CODEOWNERS)\n\n```text\n* @svenpeter42 @jannau\nrust/ @jannau @WhatAmISupposedToPutHere\n```\n\n- All files require review from `@svenpeter42` or `@jannau`.\n- The `rust/` subtree has a distinct, additional ownership group: `@jannau` and `@WhatAmISupposedToPutHere`.\n- This is enforced at the GitHub PR level when the CODEOWNERS file is respected by branch protection rules (branch protection configuration is not visible in-tree; its existence can only be confirmed via the GitHub API or repository settings).\n\n**Deterministic verification query:** `git log --diff-filter=A --follow -- CODEOWNERS` to determine when ownership was established.\n\n---\n\n## 2. CI Workflows (Repository-Wide)\n\nFour GitHub Actions workflows are defined under [`.github/workflows/`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/tree/.github/workflows):\n\n### 2a. Format Check \u2014 [`main.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/main.yml)\n\n- **Trigger:** push/PR targeting `main`.\n- **Steps:**\n  1. Installs `clang-format-20` from the LLVM apt snapshot.\n  2. Installs nightly Rust with `rustfmt` and `clippy` components.\n  3. Runs `make format CLANG_FORMAT=clang-format-20` (applies formatting in-place), then `git diff` (displays any drift), then `git reset --hard` (resets workspace).\n  4. Runs `make format-check CLANG_FORMAT=clang-format-20` (dry-run, fails on any diff via `--Werror`).\n  5. Runs `make rustfmt-check` (equivalent: `cargo fmt --check`).\n- **Observed gap:** `clippy` is installed but there is no `make clippy` or `cargo clippy` invocation in this workflow.\n\n### 2b. Build \u2014 [`build.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/build.yml)\n\n- **Trigger:** push/PR targeting `main`.\n- **Steps:**\n  1. Installs `gcc-aarch64-linux-gnu` cross-compiler.\n  2. Installs Rust target `aarch64-unknown-none-softfloat`.\n  3. Runs `make -k -j2 ARCH=aarch64-linux-gnu- CHAINLOADING=1`.\n  4. Uploads `build/m1n1.macho` and `build/m1n1.bin` as artifacts.\n- `-k` (keep-going on error) means the build continues past individual failures and does not immediately fail fast.\n\n### 2c. Test \u2014 [`test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/test.yml)\n\n- **Trigger:** push/PR targeting `main`.\n- **Matrix:** 4 configurations:\n  - `ubuntu-latest` + `gcc`\n  - `ubuntu-latest` + `llvm`\n  - `macos-14` + `llvm-brew`\n  - `macos-15` + `llvm-brew`\n- Runs `pytest` (with `USE_CLANG=1` for the `llvm` variant). Test root is `tests/python` per [`pytest.ini`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/pytest.ini).\n\n### 2d. Installer \u2014 [`installer.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/workflows/installer.yml)\n\n- **Trigger:** push to `main` or `releases/**`, tags matching `v*`, or PRs targeting `main` **only if `installer.yml` itself is changed** (`paths: [.github/workflows/installer.yml]`). This is deliberately narrower than the other workflows.\n- Checks out external repositories (`AsahiLinux/linux` at branch `asahi`, `AsahiLinux/u-boot` at branch `asahi-releng`), builds m1n1 in `RELEASE=1` mode, assembles a `boot.bin`, and uploads a dated artifact zip.\n\n---\n\n## 3. Dependency Automation (Repository-Wide)\n\n**File:** [`.github/dependabot.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.github/dependabot.yml)\n\n- Monitors `github-actions` ecosystem only (no `cargo` or `pip` ecosystems configured).\n- Groups all Actions updates into a single weekly PR.\n\n**Deterministic verification query:** Check whether `package-ecosystem: cargo` or `package-ecosystem: pip` appears anywhere in the file \u2014 they do not at this revision.\n\n---\n\n## 4. Formatting / Linting Infrastructure (Repository-Wide)\n\n### C/Assembly\n\n- **Config:** [`.clang-format`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.clang-format) \u2014 `BasedOnStyle: LLVM`, 4-space indent, 100-column limit, custom `IncludeCategories` ordering (config/build artifacts, system headers, m1n1 headers, third-party, generated).\n- **Make targets** ([`Makefile` lines 207\u2013214](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L207-L214)):\n  - `format`: applies formatting in-place to `src/*.c`, `src/chickens/*.c`, `src/dcp/*.c`, `src/math/*.c`, and all `.h` files in `src/`, `src/dcp/`, `src/math/`, `sysinc/`.\n  - `format-check`: dry-run (`--dry-run --Werror`) over the same file set.\n- **Compiler warning flags** ([`Makefile` lines 59\u201366](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L59-L66)):\n  - `-Wall`, `-Wundef`, `-Wsign-compare`, `-Wunused-parameter`\n  - Hard errors: `-Werror=strict-prototypes`, `-Werror=implicit-function-declaration`, `-Werror=implicit-int`\n  - GCC-only additional flag: `-Wstack-usage=2048`\n\n### Rust\n\n- **Make targets** ([`Makefile` lines 211\u2013214](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L211-L214)):\n  - `rustfmt`: `cd rust && cargo fmt`\n  - `rustfmt-check`: `cd rust && cargo fmt --check`\n- Nightly Rust is required (enforced via `RUSTC_BOOTSTRAP=1` in the Makefile and nightly toolchain installation in CI).\n\n### Editor\n\n- [`.editorconfig`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/.editorconfig): 4-space indent, 100-column limit, UTF-8, final newline, trim trailing whitespace; tabs for Makefiles.\n\n---\n\n## 5. Test Infrastructure (Repository-Wide)\n\n**Location:** [`tests/python/test_proxyclient/test_m1n1/`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/tree/tests/python/test_proxyclient/test_m1n1)\n\n**Framework:** pytest, configured in [`pytest.ini`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/pytest.ini) (`testpaths = tests/python`).\n\n**Test files and coverage:**\n\n| File | Subject | Key behaviors tested |\n|------|---------|----------------------|\n| [`test_toolchain.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/test_toolchain.py) | `proxyclient.m1n1.toolchain` \u2014 `LLVMResolver`, `BrewLLVMResolver`, `Toolchain` | Parametrized over 6 OS/arch combinations (`Darwin/arm64`, `Darwin/x86_64`, `Linux/x86_64`, `Linux/aarch64`, `OpenBSD/arm64`, `OpenBSD/amd64`). Tests skip automatically if the host does not match the expected OS/arch, or if `USE_CLANG` contradicts the fixture. |\n| [`test_asm.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/test_asm.py) | `proxyclient.m1n1.asm.ARMAsm` | Compilation of inline AArch64 assembly; `objdump` output against expected strings (clang vs. gcc variants). |\n| [`test_loadobjs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/test_loadobjs.py) | `proxyclient.m1n1.loadobjs` \u2014 `run_tool`, `tool_output_lines` | `nm` invocation, error propagation (exit status 1 raises exception), silent mode suppresses stdout. |\n| [`conftest.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/tests/python/test_proxyclient/test_m1n1/conftest.py) | Shared fixtures | Pre-baked expected disassembly/NM output for both clang and gcc toolchains; `ARMAsm` and `Toolchain` object fixtures. |\n\n**Observed scope:** Tests cover only the `proxyclient` Python library. There are no C unit tests, no hardware-in-the-loop tests, and no fuzzing infrastructure visible in the tree. The `tests/python/.gitkeep` file indicates the `tests/python/` directory itself was deliberately created empty initially.\n\n---\n\n## 6. Generated Artifacts and Pinning\n\n- [`requirements.txt`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/requirements.txt): auto-generated by `pip-compile` from [`requirements.ini`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/requirements.ini); pins `construct==2.10.70` and `pyserial==3.5`. No CI step verifies that `requirements.txt` is in sync with `requirements.ini`.\n- [`rust/Cargo.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/rust/Cargo.toml): pins the `fatfs` git dependency to an exact commit (`4eccb50d011146fbed20e133d33b22f3c27292e7`).\n- A `Cargo.lock` file is referenced by the Makefile's Rust build rule but is not directly read here.\n- Build-tag and build-cfg headers (`build/build_tag.h`, `build/build_cfg.h`) are generated at build time via [`version.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/version.sh) and Makefile stanzas ([lines 273\u2013283](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/Makefile?L273-L283)); a `cmp -s` guard prevents unnecessary regeneration.\n\n---\n\n## 7. AI-Agent Guardrails\n\n- [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/AGENTS.md): contains a single directive forbidding AI/LLM tool usage.\n- [`CLAUDE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/CLAUDE.md) and [`GEMINI.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/GEMINI.md): both contain only `AGENTS.md` (a redirect/include pattern for agent-specific instruction files).\n\n---\n\n## 8. Mechanisms Not Present at This Revision\n\nThe following are absent from the tree and cannot be inferred to exist:\n\n- No `clippy` invocation in any CI workflow (toolchain is installed but unused in CI).\n- No `cargo audit` or supply-chain vulnerability scanning.\n- No branch protection configuration (not visible in-tree; requires GitHub API).\n- No `PULL_REQUEST_TEMPLATE.md` or issue templates under `.github/`.\n- No `CHANGELOG` or structured release notes generation.\n- No C-level unit test framework (no `Unity`, `cmocka`, or similar).\n- No Dependabot for `cargo` or `pip` ecosystems.\n- No `pre-commit` configuration file.\n\n---\n\n## 9. Deterministic Verification Queries\n\n| Claim | Verification command |\n|-------|----------------------|\n| CODEOWNERS covers all files | `cat CODEOWNERS` at revision |\n| `clippy` is never invoked in CI | `grep -r clippy .github/workflows/` \u2014 expected: 0 matches for actual run invocations |\n| `rustfmt-check` is the only Rust check in CI | `grep -A5 \"rustfmt\" .github/workflows/main.yml` |\n| Test matrix covers 4 OS/compiler combos | `grep -A20 \"matrix:\" .github/workflows/test.yml` |\n| `installer.yml` path-scoped to PRs | `grep -A5 \"pull_request:\" .github/workflows/installer.yml` |\n| `requirements.txt` is pip-compile generated | First 3 lines of `requirements.txt` |\n| No C unit tests exist | `find tests/ -name \"*.c\"` \u2014 expected: empty |\n| `fatfs` dependency pinned to exact git commit | `grep \"rev=\" rust/Cargo.toml` |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:29:39Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/asahilinux-m1n1 at revision 7c7716b6a196c7e601f9f22bb8af335c1b8173ce, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: asahilinux/m1n1; stratum: policy_control; cutoff: 7c7716b6a196c7e601f9f22bb8af335c1b8173ce."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Review and validation mechanisms at a specific asahilinux/m1n1 commit",
+    "updateTime": "2026-07-29T03:31:35Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/e198dd4c-8747-4654-9124-6811c79f0639"
+  },
+  "run_id": "sha256:f7a551fedf034226952e9af4508b706e8ac8d1c10eeb64ada2a4816cbf78b4d5",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "asahilinux/m1n1"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

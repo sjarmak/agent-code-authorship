@@ -1,0 +1,1068 @@
+{
+  "reviewer_id": "local-anchor-primary-a",
+  "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+  "task_start": 0,
+  "task_end": 52,
+  "responses": [
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "c4c423d4ca9ba115e49f1815222ba2d311eb3f89e59a95df14ceccf721365fd7",
+      "task_sha256": "636a98c8d181a2dd2d916d73a360d1f849c36474625a8338368ce7953e503cf6",
+      "canonical_repository_id": "angular/angular",
+      "event_id": "43b3cd1869c4bfa1094218e5374a5c9a0127235243b3a0253b7fa33add6917d2",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_observed",
+      "default_branch_supported": true,
+      "evidence_tier": "observed",
+      "rationale": "The repository adds an AI-agent PR-review skill governing agent-authored comments and AGENT prefixes. This is configuration for AI review-agent use, but not an agent-authored code change.",
+      "evidence_citations": [
+        "https://github.com/angular/angular/commit/2e3492464769b468b7471ee0b7d17a56f253344b"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "97f638f17ffe3327d739bf408ac839eab3d16fcb62d7ae1c36a5530f912e25e9"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "6bff7dd07a31d59a62270a5f21b0f46de965da8b5eafd98b58539b3e6e6e898e",
+      "task_sha256": "3b40cbe643997bd54b1aba31900e5cfa647448515d0e738736b789000e69d467",
+      "canonical_repository_id": "anuraghazra/github-readme-stats",
+      "event_id": "8cbd4034f3d094770ed4a137215738e7b1d804b3ab46279551ce4a0cf937314b",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit credits GitHub Copilot as co-author of the translation change, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/anuraghazra/github-readme-stats/commit/e4d4e9e28478b14cb1430c98c481fb85375e317e"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "4eb06c330fcabc1f5c0e766c437915afcf365a6941c970dbcd660a2e520dbb66"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "6929598865cdb5291fb3d27502050d6f3440f6f9d5acfafd59115fc0133d6a0e",
+      "task_sha256": "7d4ce2c91f772748f23929c12161ce1a5f71e0a933809e8219f4743e9cbdcd4e",
+      "canonical_repository_id": "apache/superset",
+      "event_id": "d17803cab09cd3b3a50d43aa0968325e9daeb6109d47d16475733a8fceecd21a",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The AI-development context-guide commit credits Claude as co-author, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/apache/superset/commit/09c4afc894b261cf6abd76f242631c1365c3ad81"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "e1e98111aa5001e581711d5830080d41a813c82edbbfbf4d65eee6236b9390dd"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "bf87ba78cea5f74fd10d3c7b40224be0b834e85cccad91b2bb35e14b7aa30e89",
+      "task_sha256": "3d3dd866e8fa9d5fb4d243a161baaf23de42f2acdcee7695a464956ef44196c8",
+      "canonical_repository_id": "axios/axios",
+      "event_id": "0fab0d7fb6d850fd3214da6812f1602543b8540f0bf29a94605648744dc02aa8",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The implementation and tests repeatedly credit GitHub Copilot as co-author, establishing coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/axios/axios/commit/a9f47afbf3224d2ca987dbd8188789c7ea853c5d"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "be67e1f44453948340bf622ea7bef2c9633b00ce3f13faaa945306005e025c5b"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "92e6995658a8ae9274a4b88c0b157077d69c6bfb492a2fff277e88ee577634e2",
+      "task_sha256": "8c971b45e029aa2c25c267a64265d6e2c1b850a85c33139cdfe7cf4f2678237f",
+      "canonical_repository_id": "azure/azure-dev",
+      "event_id": "2a7e9e792a2f8e3a2a92c54f6828d861881e1e415a0240a3a61c72bd8ddd9509",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "insufficient",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The message onboards an @azure agent for user-agent detection, but does not identify it as an AI coding agent or show agent-authored code; adoption is not established.",
+      "evidence_citations": [
+        "https://github.com/Azure/azure-dev/commit/3b09bce6920a4cf680e24543e955fd093fb56be6"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "923c82581a3acbba34e7a4a1bd8035989fa1455e17c10a97bede43b8a37a451a"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "327c194c0776bd4b6468e6e63a5330f207a9d960b1bcb447f88552dfd289c56d",
+      "task_sha256": "78b79a916c7b982a16d2fcf2f7d3e268f92b5d913f49e5824f0953fc151067fe",
+      "canonical_repository_id": "azure/azure-kusto-python",
+      "event_id": "58af494fe3a5990021c694477ea61d099bab69f252b0fa9f5acdec2a4d3e2be8",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The identity names Copilot as author and the message credits copilot-swe-agent[bot] for implementation and tests, establishing direct coding-agent authorship.",
+      "evidence_citations": [
+        "https://github.com/Azure/azure-kusto-python/commit/d5fcedfdf160f1fb3f267e5ca7732277dde59d11"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "8ddecfe912f6df412361b9efa7855c60a455030a5dcecdba4b31ea1952bb04af"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "63efe3acfe4585a528fd90849ebd11c1c19eecd49c63db0c680bef37bf6d92d8",
+      "task_sha256": "f5b2b80a10b53dc8e6bc93e7c851241ed14fe6d68a8997ae5c61a7e7cf7e0648",
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "event_id": "c344854b49466706daa02ee132fe5f7b9ddb0abc953bfb42ca5525d4c70a2056",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The generated Azure AI Projects SDK docs and models describe runtime-agent messages, not a coding agent used to develop this repository.",
+      "evidence_citations": [
+        "https://github.com/Azure/azure-sdk-for-python/commit/9ebd895496b0bf4148152e30db197cb95b029c75"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "5924d03f098e988bcca3d72cc27612a467c15cad71cd9e436fb0e5e39967140a"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "6c79354e6100f0b1a58878ba93c6af18328c5ddf4ab03532b86c7ddb9e8c950f",
+      "task_sha256": "89a6b10c31ed9f53c1172af61ec7c99b4bdc290233891ec82fced95c1c9ca362",
+      "canonical_repository_id": "azure/azure-storage-fuse",
+      "event_id": "d2a7d35d402d0373326a40e9976ca0e03831479ef917816f76c32155b1b89a24",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit author identity is Copilot, directly establishing a coding-agent-authored event.",
+      "evidence_citations": [
+        "https://github.com/Azure/azure-storage-fuse/commit/c7d89782b11ec821070ffe4d10f4d119243d5da8"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "6089f487ef4b85809da9305febfcb16e59f777ff0cbd410b9215a5a9e117b7ae"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "4a3c12a8896d5090129b805188a2f5cc8786af4d5a0535c9fc1dda62bba2849e",
+      "task_sha256": "558d4e51dffffd8e62941839ba296d530c66c984be06404f2070ae2f5c45e9b0",
+      "canonical_repository_id": "bevyengine/bevy",
+      "event_id": "3ea6b7e12b1c45f451821338a9917d6b12eeef9274009f6ac3ebf8fddc525816",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The message concerns a robots.txt User-Agent directive, with no AI coding-agent provenance.",
+      "evidence_citations": [
+        "https://github.com/bevyengine/bevy/commit/293e91564b20dc2971e47c79e727f7db2349024c"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "9f7b8827d75d6e81db513515d328d2d3cb109b01b670b0b0129549473971e845"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "0d193d52d43ca1638c2be221c3c62060c32d086045539289964451c0037a536b",
+      "task_sha256": "df85d6a7c4467106e75d9a96807199bdf36ac938faea120f1f546817d4b68cff",
+      "canonical_repository_id": "bitcoin/bitcoin",
+      "event_id": "22e63effa136357b3dee17d850f9c978ae67d5cf01a4596ddc929d77f6b71ca1",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The message analyzes Bitcoin network User Agent strings, not AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/bitcoin/bitcoin/commit/9890058b37b8dc2d6271a94be5db33010e18e13d"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "20bcae8603fdb059c0be6c89ee9d3fddf8d48072ce88b9eb7a38987eb1ec9883"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "3f2a8a2d2161d40cba4bef9c12abdf61a2299f7bbe77216bb52ba5ebfbfd2f00",
+      "task_sha256": "a7329b1f40d03e8282ce259dc63ad81dde121d8f04ab36a53d98d68e5a85df58",
+      "canonical_repository_id": "celestiaorg/celestia-core",
+      "event_id": "fb73225e4bc9371bff415c5a2e2395ad3d7196910a8b76f07d06c7ef62167055",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The diff moves documentation about client-side push subscriptions and contains no AI coding-agent provenance.",
+      "evidence_citations": [
+        "https://github.com/celestiaorg/celestia-core/commit/b66b3cbc5ba1df80db62d90a37f363f5d9e25350"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "7af359e0603f42eee612eb3b492575ae017ed911eaa32dc493b68925e7b1e92a"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "87642dfbd227c349a52967102da63ce1a7db1e7dda8a1270ae7e4f7408f34911",
+      "task_sha256": "f5b0f918e7b5bda023785dc9f6ed5cd414181c5da98338d4f47e653e2ca66ee4",
+      "canonical_repository_id": "coder/coder",
+      "event_id": "fc51b0fe25d20628b0516ebeb28c8464defb32706fffe42ff8196e4a52acc170",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The golden test log refers to Coder workspace and network agents, which are product/runtime agents rather than AI coding authors.",
+      "evidence_citations": [
+        "https://github.com/coder/coder/commit/d9d44c11883b486f3fbf4eabd8232d54a253562c"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "2e4f29891a635e0c4f019c82121890ed4557501b119d8f0f716d5f1dcb7b8aa9"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "27fc30ca5689c61d83c77b649bd7e2577c3077ef5c290c71c6f83bc7f72715f3",
+      "task_sha256": "e6b2e833f4ec23d025d0fd9b6ff7d45af1458db88df033c70e30f4cf07ab87ce",
+      "canonical_repository_id": "comfy-org/comfyui",
+      "event_id": "42b4a54c506591c23b5e99b78044bf0a719464c0ec437fe619cdb42cb371578d",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit says a Copilot suggestion was applied and credits Copilot as co-author of workflow code, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/Comfy-Org/ComfyUI/commit/4993411fd9a43d642971925272c3748d9e058131"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "d5f07a52fd1eaf037b860a96289712f3f5ffaa9e770a8a2d94dab5d82b705b33"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "e8178bb186b6f1f818ad51f924100476cf53bbfdbbc32dc0b204fd482d90fd91",
+      "task_sha256": "588a3c3aba65492f81648f56fe26233d5228cd086d16f20a880b8d0b89054d6f",
+      "canonical_repository_id": "commaai/openpilot",
+      "event_id": "f6f5991ca7d2a7365df44d22996b94426f5c9e55c7a90cc453ec9167f0f9b7a9",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The code change credits GitHub Copilot as co-author, establishing coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/commaai/openpilot/commit/6f6adc10a83aa5ab775a2b0aaebb7ab4396f4268"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "518dbd77623b3ecfa10adc8cac6ddc40fccbaff13e4b9156fb57dddc8743a385"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "4f345333a24ef4c720c81880951a6c359e38954e93618eee3007c1d3cc220dad",
+      "task_sha256": "62ea89dba3f419978f65bd7ded58e6fdf43ebec7ca361e284d11cead1abd8adf",
+      "canonical_repository_id": "crewaiinc/crewai-tools",
+      "event_id": "8700688c6a332d74c7467a68e80395335040e84bbe570a90b4f8417a8891d31c",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The documentation describes a CrewAI runtime agent generating and executing Python; it documents product behavior, not repository authorship by a coding agent.",
+      "evidence_citations": [
+        "https://github.com/crewAIInc/crewAI-tools/commit/caba8f600e0e900c1c5f35d9f043317801293803"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "4c2af32b083b7cd36c43616026dda94400665c44f617ca7966e9e4502a5c6645"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "1c347fa9ff46f415c3054b388bc6e273e4cd313bf691510bab04b30b5959d88c",
+      "task_sha256": "487a269c83663e1a31225398c676847182e0d86300c32d6eb16738980fe31030",
+      "canonical_repository_id": "dagster-io/dagster",
+      "event_id": "f4624da5607ab6cecd0f373879d3a74ef6072c3afceedba9b18ff16cd79ebcc0",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The comment says an application daemon generated evaluations and requests; this is runtime behavior with no AI coding-agent provenance.",
+      "evidence_citations": [
+        "https://github.com/dagster-io/dagster/commit/d4877c4453aa9c6c04249bddcd79ea14e6deb9de"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "b485005ec75cfca384591236fb7dbec205faa2e013e112d7586d51ba694d1c77"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "10f99006e7139d00c1d1ffae6585de6aff229199502f30577dfec3168e1324c3",
+      "task_sha256": "5e14d57aa2caf9fcfca7d760808fe6a00a41ed3aef0653415179a037d31d459f",
+      "canonical_repository_id": "danielmiessler/seclists",
+      "event_id": "b60d0c02e83705255b0db9380d56d54899e02cd1813d92b57c0c6df270dba14a",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The repository commit credits Claude Opus 4.5 as co-author of the documentation change, establishing coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/danielmiessler/SecLists/commit/093564b74766745b81ab5cb2da67e040248744bf"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "57042d8875cc940efb8d6ea4c7b2264bbf4822932148ef076c5ff545ebd33fb2"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "d84d3275d0eb1e7b76b62bcee6635a19b1d424a040ea559dcf7d27d1eea0c5c6",
+      "task_sha256": "b3a8d253bc9e42696a454e5ed7daa84ae4fa40a2d7a1887186ba802def1ee723",
+      "canonical_repository_id": "datadog/dd-trace-go",
+      "event_id": "b618e1b84b62207b81c5091b5bf7926b778e418215d133b6880b44407c0a627e",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The commit has only human co-author identities and no AI coding-agent adoption evidence.",
+      "evidence_citations": [
+        "https://github.com/DataDog/dd-trace-go/commit/6c31a076d0b2982542ec88bcedc3e6afd1a9b030"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "ddc44aaab5c1bbf263d37b04d9a73b0438e6ab11c370db35bf0dd19532d5290b"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "e2a846c89d7c1cbf2ea63352172b4a95db075fd3b55c0dab33a1ac9551a73bc6",
+      "task_sha256": "5e69bfc3b3315292823fa7008bffe9acc4ad06554a78f66ddf773e152fb2ce8a",
+      "canonical_repository_id": "denoland/deno",
+      "event_id": "544bd74674da9a76f9342d04996e7e714aa1d274ba3de6e5c847611e8ab472e2",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The benchmark includes an HTTP User-Agent header for wrk, unrelated to AI coding agents.",
+      "evidence_citations": [
+        "https://github.com/denoland/deno/commit/f843a1fdfff8bc335f48b49e5136f39237d7677c"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "7c7a5912a0c3682ca7ad58700e51fad97419d5497e8b8240053a12cd52782e3e"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "4a88d0ec90acb5ac42cd57456145707a99b28c390d0c574c28e1d1a7bbe3a39d",
+      "task_sha256": "8b503885c7f57b60cb487517e0819c6b218b0da6a61f1fd4133d2e963798a422",
+      "canonical_repository_id": "django/django",
+      "event_id": "73e4edd0dad680734b803c3695b017ba0973fbc0945f4972ac416f96b738aea9",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The identity is the human contributor Claude Paroz, not an AI coding agent.",
+      "evidence_citations": [
+        "https://github.com/django/django/commit/2a14b8df39b573124ea42dec0ce96147c8e767d4"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "14608fb58d3480168f5b9b82d27ac8d43789c0667047f27621402765bdd1946d"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "c3b96fa55a0b0f9b5bd6fc3311fe334e6b2da7f6060e9759c33b9dcf2d249dd7",
+      "task_sha256": "4af1ed68b3f98435787c59b6510367c1e2f40bd304fc69f8b71571c789bc895b",
+      "canonical_repository_id": "elastic/elasticsearch",
+      "event_id": "2d8b07befed612a10b55e04965872616dbcaf3273eecda32d1348a9527f0bc41",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The implementation and test updates credit GitHub Copilot as co-author, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/elastic/elasticsearch/commit/cc461afa0a1130d474ff23ac42c4c8030f90f09d"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "abcf33c82bbcd8e7c6f922cb9cf8b1b4c667ea6db50a8069ad396af9c5bb7c8b"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "6b710dcafeb437a6e5a3667f84ead943ebc7747615534a2722eb0a9e5e21d010",
+      "task_sha256": "7928a9aac84780e2454d23c0f20faee15de251628850823d88a603d78f86c2d4",
+      "canonical_repository_id": "electron/electron",
+      "event_id": "8c6cb59676cad3f9597ad9b4160bcd26721f861174df0a780946b55d4eda34be",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The CI workflow commit credits Claude as co-author, establishing coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/electron/electron/commit/6b50b5e81648814367ffa4583bbaff2b6c7c25fa"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "21c75279a8b6345779048b632e3408127f7e40beee45ca9d91dc9008ba8312d0"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "7bf35148c8e68034187a59e0478c6397e65224ccf60a2a7523f75fe312731e0a",
+      "task_sha256": "8782332ebf467f9797aaa6e1705d02b9e6ad07cbf5ed93eccf47a35460d0ecf6",
+      "canonical_repository_id": "ethyca/fides",
+      "event_id": "3821910d0c270ea1ecfbb6f2f7c5401e513e3012fc002ae6fb6f9b380a4e5b7f",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The Fides-generated column descriptions and user_agent schema fields do not indicate AI coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/ethyca/fides/commit/0aa8613154a1ad22860bd91d5b8913e285ab3e15"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "b07b3f2ee52c1b1deed73eb7bce20172375ffa8c7b53f57704aa159d040fec6f"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "08394b2a0d1fefd6efff4c69370fd42a1e18e98b774d1d7703c0d72218b9b6d8",
+      "task_sha256": "56120e87b575e58bace1216698012879200a7f7e90d9482aa87450a738ad1650",
+      "canonical_repository_id": "eugeny/tabby",
+      "event_id": "86a48a3d7af68c4212cfcf3950cef022a20376963cc989606b2921cb14a97760",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The SSH configuration fix credits GitHub Copilot as co-author, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/Eugeny/tabby/commit/bbcb026433177fff61c90018b026f7a144867d83"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "da0346787fba61a506bf8e57f6054659fcf1eef1fb14065f6b9750473e1c207c"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "7603ed5bc52baf86c70d8f5bc6c9b1e857d3a1148c1670fa719f9588395f009d",
+      "task_sha256": "8cf73132acd9c00d7c6de5ca83b020b29416b0914f52c0860a86ec1d68ec3479",
+      "canonical_repository_id": "excalidraw/excalidraw",
+      "event_id": "a2cbc4a5636cf9dc72b0cd8c66b85faadb64b91ec592eb154222a42337ec5197",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The arrow-restoration fixes repeatedly credit GitHub Copilot as co-author, establishing coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/excalidraw/excalidraw/commit/2e1a529c6781b1534d27ca79198dccd40b97ec7b"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "f5426386fcbef747b87fbb0435481726baed545ada64b5de6dba2cdc846694d6"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "ae293c630b30f44c4ad3a820f615177107b56217d4ea0817e4d92ce52937c66c",
+      "task_sha256": "d400654bce983c78e078410527be5f1cd65d6d18c46aed5f4383470c8a1de3e9",
+      "canonical_repository_id": "fatedier/frp",
+      "event_id": "009fe1be4b476974034729a61ee0a25510ec29d7a46075f5010e3f62dddef807",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The dependency/API migration credits Devin AI as co-author, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/fatedier/frp/commit/61330d4d794180c38d1f8ff7e9024b7f0f69d717"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "46c53c16ae5bee6c126096f0ccccb6768b06ac8ca87110c2780fd0ee9d2f7c85"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "07303dd76c2af34423dd4e4b23b099b9ef900b3d5816c33cad86c542e2c87ab7",
+      "task_sha256": "cecebca7b4ff4bfa524b19f721b95b0c67e00f8c28901b32d5a86a80a15ce0cc",
+      "canonical_repository_id": "firecrawl/firecrawl",
+      "event_id": "b551c32fb52fca9743c2858d4955266bfa4408967e7dba34b33173278f38a9b1",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit author identity is devin-ai-integration[bot], directly establishing a coding-agent-authored event.",
+      "evidence_citations": [
+        "https://github.com/firecrawl/firecrawl/commit/8c801ed95672e75501dae03f64b9d7e11f5ca1cb"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "874595b2804424365e840c8a3f4b29fa950b94b05066f45451b492220c1aa69f"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "3e57c92f9f2403c007f7b005e65716eb926c377be0ce248c3449efbd819d548c",
+      "task_sha256": "6280441a344d9005f1628619c66f15c722515e90a6c733a9ebfe47015479de16",
+      "canonical_repository_id": "flutter/flutter",
+      "event_id": "1a7d5368f117980942e6d0633daa4a5557c8982b8ba796236c80a9223cb94f75",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_observed",
+      "default_branch_supported": true,
+      "evidence_tier": "observed",
+      "rationale": "The contribution policy governs PRs prepared with AI tools, including AI-generated code and agent output. This establishes repository adoption policy, though not a specific agent-authored change.",
+      "evidence_citations": [
+        "https://github.com/flutter/flutter/commit/063707c37baca5f714cf40917eef6a0007c2c3ad"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "7483555dd903fc46b04396dab6e6be570bf999332da0ddd62c753a591df70137"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "0188da7d1237c86a06a70eb4263e0999651c89ebc1ce6a3d062ca4ae0c432fe9",
+      "task_sha256": "66013593a2df099ec23dac678c28084801ed15781843d2030c21586046e7186b",
+      "canonical_repository_id": "foundationagents/metagpt",
+      "event_id": "3b107d44c14b3fd0623d2917113f8d7f7e0d61f52a4b0f6367178d0ef97e1e99",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The diff describes a MetaGPT multi-agent debate runtime, not use of a coding agent to author this repository.",
+      "evidence_citations": [
+        "https://github.com/FoundationAgents/MetaGPT/commit/8a241054c72812fd29d5007cd2f5a9c39b31f7cc"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "fcf342faef32dd9cd2de73f3147cf09d5abb539cae9f62c83ce174bf2916912c"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "817fd9c482192275f7ca98b7bd0ce1723e84cb09681e187ca6091b7bbf2f130f",
+      "task_sha256": "17fbeec5822b605e41337de68f457f370d55c81e9ee1de299ce50481183d7986",
+      "canonical_repository_id": "getsentry/sentry",
+      "event_id": "0f3859b704909a73bd41a85384f51f406c443b892d8d76dda0b1a3478264cbc3",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The change credits Copilot Autofix powered by AI as co-author, establishing agent-authored code.",
+      "evidence_citations": [
+        "https://github.com/getsentry/sentry/commit/0458514d5584f6cc75b0df28e31474dc27b756a7"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "2008c91cba34d9ea4cb63ced9aac81a9a4c07daa6d5e975ed5b36ccf257dcdd6"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "55ab95a19f06f273ce77d3a6c4801ea82319c39d08636e90169ac256a203a31a",
+      "task_sha256": "947d5e04d9cdb947a572f7226e6293c8f31069ecc7b8573cc4ee559b2e83317c",
+      "canonical_repository_id": "ggml-org/llama.cpp",
+      "event_id": "75fbecd9d391f2344275b5f9d6f27e50fe51dfe407f3915c38f2e73113b5d2a0",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The text is an unimplemented cursor callback in a vendored audio header, with no AI coding-agent provenance.",
+      "evidence_citations": [
+        "https://github.com/ggml-org/llama.cpp/commit/797990c4bca0dca5be295c63e3fb2800dc0a69c2"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "42c65df079ccd512b13efa5e378b5f65361ba89befc8717d4b9b1499e16b71b0"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "bfff9b2e90a8f095de32d88d6fbb4c11076387d1dbde29640958f4c5b3ec8d34",
+      "task_sha256": "7f387197a44b6772e17e1c66844589ab835e975456c696cb598ace92f4a787dc",
+      "canonical_repository_id": "godotengine/godot",
+      "event_id": "ca3c3cb9121f54ed6d102e182b1566d1d3977e20be4b1c29738e0bd6dc4d2350",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The header is mechanically generated by configure, not by an AI coding agent.",
+      "evidence_citations": [
+        "https://github.com/godotengine/godot/commit/5c4fe6339bcb4d5539e39cc84f075461b9156ddc"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "97766fc0e26c11a383c85c60083d9df61b202ec432c6f49de59c7e6926d0c0ec"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "8e09851c051060560f97e5198ac90c23a34bdcb2576fc1c8e1711c1be55f974e",
+      "task_sha256": "bfb77aad98023d3b8b2e387fbff4a8ffb23a6975955ef63694192e375566bf42",
+      "canonical_repository_id": "golang/go",
+      "event_id": "6a3be4804330c4765f84aa872b17c408288586cb9960739fdb57d77312267c5d",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The Go documentation change credits Claude Opus 4.5 as co-author, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/golang/go/commit/b8be5de81ee78f51fbd600498093b542e75a710e"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "0e4e359cd15032193c5b5b2cc8adc62511e1c85c10634fc5641909d6018ec552"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "17fdef34b3aca1592db6ff8f712d8ae5b6e273ab4fcb29ec75d5ecac1568b62f",
+      "task_sha256": "3eed3b88b3b3bfe3767b8db28df56257fc4b38959f5da74e8ec6a8e302f1c7f3",
+      "canonical_repository_id": "grafana/grafana",
+      "event_id": "ffa3d2d1dd4e429161ed6b8b5125395a655354bbdc291969be1b9402e173d7c7",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The comment refers to a UI mouse cursor and incomplete RadioButton implementation, not an AI coding agent.",
+      "evidence_citations": [
+        "https://github.com/grafana/grafana/commit/b4366db1f13271a58f09f02a08c2150ef123017b"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "148007a916c609e9bee255bf05529d7121d403617363e5f533586e01ce1eda4c"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "e39f5033acb9b84553755191286b7e9107a50a4f92a964226526dff9fc68ec47",
+      "task_sha256": "ea3bb6e4be49642c2d7ccb36322caa073bf63335e5213fb5a633e0ef1fddc4d2",
+      "canonical_repository_id": "hiyouga/llamafactory",
+      "event_id": "0e2422fcedea1c8b398dcdf7b604588e2605e7b0a67380c71d62549d8a0edff9",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit is authored by Copilot and credits copilot-swe-agent[bot] for repository Copilot instructions, establishing direct coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/hiyouga/LlamaFactory/commit/a882e2d5fc6d077de8838423bb05a537049ba6f9"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "beadf323492458095c656d5c2b2306e54fc6604c8a0028f20ae12e18d2930949"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "fe4d1142661872dc928a9172ba2d303d878404660b345c65e593925e0986c027",
+      "task_sha256": "2113d0548f43b4fe1b9b9fa6303938642a1a1bea786f7916b66b24701480a541",
+      "canonical_repository_id": "humansignal/label-studio-ml-backend",
+      "event_id": "ae4d353d05aaf64163788af688c7dd88d1ea5384e12cbd0a301e9e37f2e49a16",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit credits Copilot Autofix powered by AI as co-author of the backend example, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/HumanSignal/label-studio-ml-backend/commit/e811ceecd0e77951c109357e0c8d7a840791faf9"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "98bf3bdcb3a15d1dcc81fdfd7e62c579513c6c374b30dbdc62ca67cf8fc76504"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "65742d4cbc7ad3bd3f5a9704759f87efb46a949bdf25e5d54e14a1b6a598f489",
+      "task_sha256": "13ebdb94664861edf7b8a7830505b8a31201515563dec55c79385c7361e4b25e",
+      "canonical_repository_id": "immich-app/immich",
+      "event_id": "3ac8027c9747cbf722c47190c07adc4512ee0fe95b9f506eac1e1fbdcc872e01",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The refactor and security fix credit Copilot Autofix powered by AI, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/immich-app/immich/commit/e2ffc9d5a10cb7b7c085ff88051f7c8b1f9d3e20"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "fa71d6a0e85ad30e04d6b1b0947e3580dc483ac736a3be0673ec0f6a9fd161b8"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "452d19516fbb7f53e9cc364c8c197857bc6aee86a2781c9ac238a28bd68e7f50",
+      "task_sha256": "e4594fcf28cd0b9a264d062aa1b832f6a99b82664ee43dab6c3e5a134b20191b",
+      "canonical_repository_id": "jesseduffield/lazygit",
+      "event_id": "9995ad8f1abbf878a67e31ba0d926f66a6ea6d4791fba1d7bcbd9ae280287258",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "This Dependabot dependency update mentions ssh/agent and automated rebasing, but provides no AI coding-agent provenance.",
+      "evidence_citations": [
+        "https://github.com/jesseduffield/lazygit/commit/9d24963ea06368dad8b64262560757b5ccfcb0be"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "51f71354e571c2761ce9d9ad165c4af26b2cc3bc12605963b7b8c1092b1a2673"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "13d00f6af255fa93f3429842e1fbc1195ca0eb78356fe402bf00258958484496",
+      "task_sha256": "bde9ba01ec512d1ad0037e5a79b3e844894c7904565c58c0a7e5166c17333225",
+      "canonical_repository_id": "junegunn/fzf",
+      "event_id": "afea13e55316cd54552dae9b1beb493709a265e832cbd7b8cf2daff8690f5e0d",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit credits Copilot Autofix powered by AI as co-author, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/junegunn/fzf/commit/290b18d9fe1f63f5ed7ab5639bad034563991146"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "487bf344c4ad926fbc2eb55de3d2a99f2acffc83cf87319608c15c60dc65d569"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "137713ece12055c42980fba385e3b63e5e854fc8f512f56a2753feefab5e9c6d",
+      "task_sha256": "e048175bd00d5b79fc00ae32304fefaacc61bb73a0759befaddb44e375220d26",
+      "canonical_repository_id": "kanaries/pygwalker",
+      "event_id": "e51b3db2d809bd80b69a2bcf3980bc5d298c52d70045b8eef7063390edef7595",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The dependency replacement and tests credit Claude as co-author, establishing coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/Kanaries/pygwalker/commit/40fbfbb152cbd145d9548417bc025261cb616d30"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "b245a9f67d164e352683a57ec7be2bc6cd3412af4aea5bec370f7cf261b35004"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "25720572e3d903057331e32df64974e04726815bbe8c750bec149f5b01752cb4",
+      "task_sha256": "9faba06c0e8936395274a408599b1c0e0bb9aef365d652ca55e49ae0f6e7fafe",
+      "canonical_repository_id": "kanisterio/kanister",
+      "event_id": "509b8b5bebeea3e7cb2d5f357ee3b6230a51695150fcbe944b883ae463dcc84f",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit author identity is Copilot, directly establishing a coding-agent-authored event.",
+      "evidence_citations": [
+        "https://github.com/kanisterio/kanister/commit/9def206cfc510699b253c357c5cd806d99f82be4"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "fc281e643e7dd9d3bbcd78926312d4bd0ead1aa1648b771dc5995dcf7052fc72"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "ea301705949355f0a4bfe764c58d62d0315a253f822d3bc155dde0323eff1933",
+      "task_sha256": "529e0ef184bc9c6d0d5894884ad3520faae52f9666bdadb323f328a2ede30c8b",
+      "canonical_repository_id": "keephq/keep",
+      "event_id": "dfb7868bad7dca1beacd7d04c99694ff6b7b7aab4f542797835a806b28fa1ca8",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The change documents an Anthropic API key for a Claude provider used by the Keep product, not coding-agent repository authorship.",
+      "evidence_citations": [
+        "https://github.com/keephq/keep/commit/4952cc7a1e22e0c9f0f7cbc65d210ab5e17b8084"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "7cd9ed06214c7f4e10e5eb0e491977e4cdbe8d3cc505db328c9803562d458134"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "f775b2bee166f5aba7d01df7aefbc8733552aa4de69f48bb676f493368c93e7f",
+      "task_sha256": "ba28274702dd657387ef480819fd91edf8d1fe72af0ed8b372f36be6125cde31",
+      "canonical_repository_id": "kubernetes-sigs/cloud-provider-azure",
+      "event_id": "1dc2f2c57ebb8e723f02dfac053f9e4a65beffb39ff02d90e906b525dfadd14b",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The security fix credits Copilot Autofix powered by AI as co-author, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/kubernetes-sigs/cloud-provider-azure/commit/3f52e0545720054e5b152d987770b815dccccfb8"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "562182d683c3342d5f8433e536af21bcef96a24e30d05b7d3d6c8c2b2904cf1d"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "53a3171b0c796b09a8ce34a4fd90e70ebf0474f7a8cd0a20c73d96da900b8bbc",
+      "task_sha256": "b366f0ad2a0c6fa8c5fcbb53c67b2d7ae50fa415f22d7b892151505a198784cc",
+      "canonical_repository_id": "kubernetes/kubernetes",
+      "event_id": "e196157142c98874b5ba27caf6670ed07e4460e6dab5c2ef877cc728c0308ef0",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit says it was generated with Claude Code and credits Claude as co-author, directly establishing coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/kubernetes/kubernetes/commit/4a597f50b4b30aa847d3954133e9dfd9fb658d11"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "827bd8b760b5ba01eaadb0c6635ec0ca09f05062c61a72e8d474e9acbab734c3"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "9dd091e2bbf614e6612e834df4f8adf59839451636069113e2ef007e8563c304",
+      "task_sha256": "b6fc3b69ee7e1bc4acbf790cbd711059f362039aca09cbc02ce668e155870430",
+      "canonical_repository_id": "langchain-ai/langchain",
+      "event_id": "db07b08f199669eedba8f8c37faf801128fd35f1fb013ddf2ef8433cc2f356d5",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The notebook describes prompts for LangChain runtime agents, not coding-agent use in repository development.",
+      "evidence_citations": [
+        "https://github.com/langchain-ai/langchain/commit/95720adff5cd45321fa5de42f303d0b51f218253"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "517b013d85bdbe8be475add4a29ef7f0f80063f0847afe193bcdc09efcb83b3e"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "04ef8fa069e76ab4fe3eacb083984aa217ef7e42c6044e2f27a93fe769fd500c",
+      "task_sha256": "09cd7d2f818fea94cca27b2f1efc775091664c150c80ecd0cc8d1ff36dbee681",
+      "canonical_repository_id": "lobehub/lobehub",
+      "event_id": "6f1e5d2516593f6fd3a9499c4bdbf69de3598b6635e168368ed61a627c0366f5",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The documentation discusses filenames generated by a migration script, which is ordinary deterministic generation rather than AI coding-agent provenance.",
+      "evidence_citations": [
+        "https://github.com/lobehub/lobehub/commit/9097aba9e3ab2084f53b8d9040d427f754c78651"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "0e5b01b4b4fbc9868cb220de058ef558377b4af7ca67c938d45b4a2a0b46e664"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "80bf5cc08ed5fa163e4b8563159210071a74de2928950c1443603dd693f32b63",
+      "task_sha256": "ba76c9abdc1df4022e179fbfbe6631a684cf401e90304b7ebc3c37b410d106b0",
+      "canonical_repository_id": "marimo-team/marimo",
+      "event_id": "07461223b0434fcb243573739402bbaf663562906e00d28d2f02a353542047e4",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit links a Devin run, credits Devin AI as co-author, and records Devin as author, establishing direct coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/marimo-team/marimo/commit/08e234f028528db329ba19e7671f81c01e5b54d5"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "27371e619de80597fdd5cb4eef04c8b5f62aa5821af994cc3614ce55033f4ebb"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "a60ade045748f06e4b451fa8a303affef3036bbb4c2cb09665982b1364eb3c36",
+      "task_sha256": "3dd6c29cf9cf75fc609fe519f3b15d8295c1bbe3dd5c2d10d61d42c01d0fb994",
+      "canonical_repository_id": "mermaid-js/mermaid",
+      "event_id": "5d662efa267e16cbb290a86213a14a2225588e52407d9a9e62a91be116976a56",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The example update credits GitHub Copilot as co-author, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/mermaid-js/mermaid/commit/2e5d955e77520b63a3b5ae2a960389d64de6a6bc"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "17f3e102471b27ebc3012a37984672c9bd9773a40bbf0e33792afff351e8eed6"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "fb9e706ef2a7a8e82631ff1b6a53487b928b61d8ee5fd3ee759c156a73018ff2",
+      "task_sha256": "610284974a80bac5cf4d3e5465cd1b581e4b38f77534d0ecc63317643577d896",
+      "canonical_repository_id": "microsoft/azuretre",
+      "event_id": "c90f385cd0027fbac432269828a2f00e35ea123cd5280df3cd7940c56c70d1fb",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The feature and documentation changes credit GitHub Copilot as co-author, establishing coding-agent contribution.",
+      "evidence_citations": [
+        "https://github.com/microsoft/AzureTRE/commit/97debdc23783e76ce04d6bd230e54713b2fa1f72"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "9e7637753478acd5dfd8711ae4b4928301ccb5e1f47d9fc9de1ce6609f50ded2"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "d3ab4b6b8d988b8f09fcd01daae022822262f36cc62ea0e89bbe2e67eb2d9114",
+      "task_sha256": "64b3da2c72723b23aa327932c7cf0dfa73b5fd828911141e3491b65a659eb06e",
+      "canonical_repository_id": "microsoft/debug-gym",
+      "event_id": "a57a46bef0cbd612aa72ed9324b6a14f9520edef3cee7971f5255bd479fcfc5d",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The README describes logs from agents evaluated in DebugGym; this is research/runtime output, not evidence of coding-agent repository authorship.",
+      "evidence_citations": [
+        "https://github.com/microsoft/debug-gym/blob/cc3fe3ef4ce08919e522eb00ea1bea5689f3b53e/README.md#L310"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "c62d55c2472796a3953213cf955094d902a540baea7d3301ff4e95aac4dacd3a"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "5d37a074aea95ea41c8f96f4691a9498fdcebda0177fc254b7ff17b4a79ceca2",
+      "task_sha256": "e9f3ce194fce00bee327b64727ce08d91c155eafda251aa3579281aa2726be90",
+      "canonical_repository_id": "microsoft/go-mssqldb",
+      "event_id": "a337d454887e1d1726f755586139a57101d73e42883cf96d36e23f9d549a10e0",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The identity is Copilot and the message credits copilot-swe-agent[bot] for implementation and a test, establishing direct coding-agent authorship.",
+      "evidence_citations": [
+        "https://github.com/microsoft/go-mssqldb/commit/d3c6336130a77a3d167e7d163ac9d036402087b0"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "87b1cbd30de5db5965714807a96d3fbbecf835c00ad897ff8c1da3b17fc7a434"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "8e863f7941ed88f2c60a6d0abf582942b58001e728e30a0ca30efd0dfe75422d",
+      "task_sha256": "ece150fa57301d6909ef1385784a548cccd7df935cf0fd6df19361159d2d5b37",
+      "canonical_repository_id": "microsoft/go-sqlcmd",
+      "event_id": "d39e86e3486716628650a621d497766205c64a14b7bc710db32b91734f3fe999",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The identity is Copilot and the message credits copilot-swe-agent[bot] for the stdin prompt fix, establishing direct coding-agent authorship.",
+      "evidence_citations": [
+        "https://github.com/microsoft/go-sqlcmd/commit/34ab42698fa24abc9173ec8878800b23423b9732"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "c26404a1d48bfa408c3fa13e7e53f37f0331dd7e0ce0a64b38a01e7e52cc3940"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "144e639d48ef943dfa5545c38299fd10b2b500dd83c9ccd022abcf15733b46eb",
+      "tranche_number": 8,
+      "task_id": "39e5fc53d081470d7b9612469ebebac303fc7dd7fb14efedf987b6329fdffec6",
+      "task_sha256": "f08eb36baffcd1df65edba7cb4eaa1a9f69e6400a5c4e2dfaead62ea065cf700",
+      "canonical_repository_id": "microsoft/qcodes",
+      "event_id": "5b70892c1008d2d200438c3fb069f0913bccf1fe21ed5f3015fbb49e432fa141",
+      "reviewer_id": "local-anchor-primary-a",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit author identity is copilot-swe-agent[bot], directly establishing a coding-agent-authored event.",
+      "evidence_citations": [
+        "https://github.com/microsoft/Qcodes/commit/c8e827996858574db1a8b363bc8c97d53b0a3bc1"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "3069f72afbd3c60dfff1d413c8b35f6d49ed9c9e46e7c094b909d6a6037f27db"
+    }
+  ]
+}

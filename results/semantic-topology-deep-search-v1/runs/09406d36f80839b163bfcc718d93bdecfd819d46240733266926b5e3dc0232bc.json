@@ -1,0 +1,164 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "4b7838c5b1bcb72359fe27a69af4298aee18d996b085708f840864721f0466c3",
+  "artifact_version": 1,
+  "canonical_repository_id": "sjarmak/agent-diagnostics",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "e973e4ec1d4a325b5d739562ce87586127c973ed"
+  ],
+  "cited_files": [
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/site/check-links.mjs",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/site/check-links.mjs",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs?L12-L21"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/site/check-links.mjs",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs?L24"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/site/check-links.mjs",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs?L39-L49"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": ".github/workflows/likec4-pages.yml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/likec4-pages.yml?L22-L23"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": ".github/workflows/likec4-pages.yml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/likec4-pages.yml?L4-L5"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/site/build-page.mjs",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/build-page.mjs"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/site/styles.css",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/styles.css"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/site/favicon.svg",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/favicon.svg"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/model.c4",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/model.c4"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/deployment.c4",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/deployment.c4"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/spec.c4",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/spec.c4"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/views.c4",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/views.c4"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": ".github/workflows/likec4-pages.yml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/likec4-pages.yml?L19-L21"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": ".github/workflows/ci.yml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/ci.yml"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "tests/test_schema_docs.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_schema_docs.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/README.md",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/README.md"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1983",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed.",
+  "prompt_family_id": "change_topology",
+  "prompt_sha256": "e29cc7305f22500ea5abcb4bf816b500beb459d43a48bcd9455d8861e4cd080d",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a complete picture. Let me compile the full semantic topology report.\n\n---\n\n## Semantic Topology: `e973e4ec1d4a325b5d739562ce87586127c973ed`\n\n### 1. Substantive Change: What Changed\n\n**Single file modified:** [`architecture/site/check-links.mjs`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs) (+9 / -5)\n\nThe diff converts the drift guard from a **hard-blocking gate** to a **non-blocking warning emitter**:\n\n| Dimension | Before (`e3c58b79`) | After (`e973e4ec`) |\n|---|---|---|\n| Dead links found | `process.exit(1)` \u2014 CI fails | `::warning::` annotations emitted; `process.exit(0)` \u2014 CI passes |\n| Output channel | `console.error` | `console.log` with GitHub Actions annotation prefix |\n| Success path | Always printed | Added explicit `else` branch |\n| Comment rationale | None | Explains working-tree vs. published-branch divergence |\n\nPrecise navigation: diff retrieved via `compare_revisions` with `e973e4ec~1..e973e4ec`.\n\n---\n\n### 2. Definitions Affected\n\n**`check-links.mjs` \u2014 the sole changed definition unit.** It is a self-contained ESM script with no exports; its logic is:\n\n- [`walk(dir)`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs?L12-L21) \u2014 recursive `.c4` file finder (unchanged)\n- [`linkRe`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs?L24) \u2014 regex for extracting `link` targets (unchanged)\n- [`missing`-branch block](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs?L39-L49) \u2014 **changed**: exit semantics, output channel, added `else` branch\n\nNo module-level symbols are exported; no other file imports or `require`s this script. Navigation: search-based (keyword scan for `check-links` across the repo returned only the workflow reference).\n\n---\n\n### 3. References / Callers\n\n**Precisely one caller:** [`.github/workflows/likec4-pages.yml` line 23](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/likec4-pages.yml?L22-L23):\n\n```yaml\n- name: Check model source links resolve (drift guard)\n  run: node architecture/site/check-links.mjs\n```\n\nThis workflow triggers on `push` to `main` or changes to `architecture/**` or the workflow file itself ([lines 4\u20135](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/likec4-pages.yml?L4-L5)). The `check-links.mjs` step runs **before** the LikeC4 build and Pages deploy steps.\n\n**Behavioral consequence of the change:** Previously, a dead `link` in any `.c4` file would cause the `build` job to exit non-zero, blocking the `deploy` job (which `needs: build`). After this commit, the `build` job always exits 0; the `deploy` job proceeds unconditionally. Dead links now appear only as GitHub Actions `::warning::` annotations on the run summary.\n\nNavigation: precise \u2014 `likec4-pages.yml` read directly; no other callers found.\n\n---\n\n### 4. Implementations / Sibling Scripts\n\nThe `architecture/site/` directory contains these sibling files (all unchanged at this revision):\n\n| File | Role |\n|---|---|\n| [`build-page.mjs`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/build-page.mjs) | Assembles the HTML landing page for GitHub Pages |\n| [`styles.css`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/styles.css) | Page stylesheet |\n| [`favicon.svg`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/favicon.svg) | Site favicon |\n| `fonts/` | Font assets |\n\n`check-links.mjs` has no imports from these siblings; they share only the workflow invocation context.\n\n---\n\n### 5. Public API / Boundary Impact\n\n`check-links.mjs` is **not a public API**. It is an internal CI script. Its only contract is:\n\n- **Input:** the filesystem (`.c4` files reachable from CWD `.`)\n- **Output (changed):** exit code always `0`; GitHub Actions warning annotations when `missing.length > 0`\n- **Consumers:** the `likec4-pages.yml` workflow job\n\nThe `.c4` model files it reads ([`model.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/model.c4), [`deployment.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/deployment.c4), [`spec.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/spec.c4), [`views.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/views.c4)) are unmodified at this revision.\n\n---\n\n### 6. Dependency Boundaries\n\n```\ncheck-links.mjs\n  \u2190 node:fs   (readdirSync, readFileSync, existsSync)\n  \u2190 node:path (join, dirname)\n```\n\nNo npm dependencies; no lockfile or `package.json` in `architecture/site/`. Node 20 is pinned by the workflow's `setup-node` step ([line 19\u201321](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/likec4-pages.yml?L19-L21)).\n\nThe second workflow ([`ci.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/ci.yml)) \u2014 which runs lint and pytest over the Python package \u2014 has **no dependency on** `check-links.mjs` and is unaffected.\n\n---\n\n### 7. CODEOWNERS Domains\n\n**Unavailable metadata.** There is no `CODEOWNERS` file in the repository at this revision. `list_files` at root and `.github/` returned no such file; ownership domains cannot be determined from repository content alone.\n\n---\n\n### 8. Tests and Documentation\n\n**No test file covers `check-links.mjs` directly.** The test suite ([`tests/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/tree/tests)) is entirely Python (`pytest`), targeting the `agent_diagnostics` package. The 40+ test files cover signals, annotations, classifiers, calibration, store, CLI, and pipeline \u2014 none cover the CI script. Navigation: search-based (directory listing; no `check-links` mention found in any test file).\n\nThe [`tests/test_schema_docs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_schema_docs.py) is the closest conceptual analog (it verifies generated schema docs match committed files), but it does not touch `check-links.mjs`.\n\n**Documentation:** [`architecture/README.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/README.md) is present. The top-of-file comment in `check-links.mjs` itself (lines 1\u20137) is the primary documentation for the script; the comment was **not updated** at this commit (the header still says \"Exits non-zero if any link is dead\" \u2014 now inaccurate for the dead-link path). Navigation: precise file read.\n\n---\n\n### 9. Later Fixes / Refactors / Reverts\n\n**Unavailable metadata.** `commit_search` returned no results for this repository (the index does not contain commit history for `github.com/sg-evals/sjarmak-agent-diagnostics`). No later commit touching `check-links.mjs` can be confirmed or denied from available data.\n\n---\n\n### 10. Deterministic Verification Steps\n\nTo independently verify each claim:\n\n```bash\n# 1. Confirm single file changed\ngit -C <repo> diff --stat e973e4ec1d4a325b5d739562ce87586127c973ed~1 e973e4ec1d4a325b5d739562ce87586127c973ed\n# Expected: 1 file changed, 9 insertions(+), 5 deletions(-)\n\n# 2. Confirm exit-code change\ngit -C <repo> show e973e4ec:architecture/site/check-links.mjs | grep \"process.exit\"\n# Expected: process.exit(0)   [only]\n\n# 3. Confirm sole caller\ngrep -r \"check-links\" .github/ architecture/ --include=\"*.yml\" --include=\"*.mjs\"\n# Expected: .github/workflows/likec4-pages.yml:  run: node architecture/site/check-links.mjs\n\n# 4. Confirm no CODEOWNERS\nls -la CODEOWNERS .github/CODEOWNERS 2>&1\n# Expected: No such file\n\n# 5. Confirm no test coverage\ngrep -r \"check-links\\|check_links\" tests/\n# Expected: no output\n\n# 6. Confirm stale header comment (documentation drift introduced by this commit)\ngit -C <repo> show e973e4ec:architecture/site/check-links.mjs | grep \"Exits non-zero\"\n# Expected: \"Exits non-zero if any link is dead\" \u2014 now inaccurate for the missing-links branch\n```\n\n---\n\n### Metadata Availability Summary\n\n| Category | Available | Source precision |\n|---|---|---|\n| Diff content | Yes | Precise (`compare_revisions`) |\n| Caller (workflow) | Yes | Precise (file read) |\n| Sibling scripts | Yes | Precise (directory list) |\n| `.c4` model files | Yes | Precise (file read) |\n| Dependency graph | Yes | Precise (file read, stdlib only) |\n| Test coverage | Yes (none found) | Search-based |\n| CODEOWNERS | **No** \u2014 file absent | N/A |\n| Commit history / ancestry | **No** \u2014 index unavailable | N/A |\n| Later fixes/reverts | **No** \u2014 index unavailable | N/A |\n| PR/issue metadata | **No** \u2014 not in index | N/A |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:07:01Z",
+    "name": "users/476/conversations/1983",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a complete picture. Let me compile the full semantic topology report.\n\n---\n\n## Semantic Topology: `e973e4ec1d4a325b5d739562ce87586127c973ed`\n\n### 1. Substantive Change: What Changed\n\n**Single file modified:** [`architecture/site/check-links.mjs`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs) (+9 / -5)\n\nThe diff converts the drift guard from a **hard-blocking gate** to a **non-blocking warning emitter**:\n\n| Dimension | Before (`e3c58b79`) | After (`e973e4ec`) |\n|---|---|---|\n| Dead links found | `process.exit(1)` \u2014 CI fails | `::warning::` annotations emitted; `process.exit(0)` \u2014 CI passes |\n| Output channel | `console.error` | `console.log` with GitHub Actions annotation prefix |\n| Success path | Always printed | Added explicit `else` branch |\n| Comment rationale | None | Explains working-tree vs. published-branch divergence |\n\nPrecise navigation: diff retrieved via `compare_revisions` with `e973e4ec~1..e973e4ec`.\n\n---\n\n### 2. Definitions Affected\n\n**`check-links.mjs` \u2014 the sole changed definition unit.** It is a self-contained ESM script with no exports; its logic is:\n\n- [`walk(dir)`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs?L12-L21) \u2014 recursive `.c4` file finder (unchanged)\n- [`linkRe`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs?L24) \u2014 regex for extracting `link` targets (unchanged)\n- [`missing`-branch block](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/check-links.mjs?L39-L49) \u2014 **changed**: exit semantics, output channel, added `else` branch\n\nNo module-level symbols are exported; no other file imports or `require`s this script. Navigation: search-based (keyword scan for `check-links` across the repo returned only the workflow reference).\n\n---\n\n### 3. References / Callers\n\n**Precisely one caller:** [`.github/workflows/likec4-pages.yml` line 23](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/likec4-pages.yml?L22-L23):\n\n```yaml\n- name: Check model source links resolve (drift guard)\n  run: node architecture/site/check-links.mjs\n```\n\nThis workflow triggers on `push` to `main` or changes to `architecture/**` or the workflow file itself ([lines 4\u20135](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/likec4-pages.yml?L4-L5)). The `check-links.mjs` step runs **before** the LikeC4 build and Pages deploy steps.\n\n**Behavioral consequence of the change:** Previously, a dead `link` in any `.c4` file would cause the `build` job to exit non-zero, blocking the `deploy` job (which `needs: build`). After this commit, the `build` job always exits 0; the `deploy` job proceeds unconditionally. Dead links now appear only as GitHub Actions `::warning::` annotations on the run summary.\n\nNavigation: precise \u2014 `likec4-pages.yml` read directly; no other callers found.\n\n---\n\n### 4. Implementations / Sibling Scripts\n\nThe `architecture/site/` directory contains these sibling files (all unchanged at this revision):\n\n| File | Role |\n|---|---|\n| [`build-page.mjs`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/build-page.mjs) | Assembles the HTML landing page for GitHub Pages |\n| [`styles.css`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/styles.css) | Page stylesheet |\n| [`favicon.svg`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/site/favicon.svg) | Site favicon |\n| `fonts/` | Font assets |\n\n`check-links.mjs` has no imports from these siblings; they share only the workflow invocation context.\n\n---\n\n### 5. Public API / Boundary Impact\n\n`check-links.mjs` is **not a public API**. It is an internal CI script. Its only contract is:\n\n- **Input:** the filesystem (`.c4` files reachable from CWD `.`)\n- **Output (changed):** exit code always `0`; GitHub Actions warning annotations when `missing.length > 0`\n- **Consumers:** the `likec4-pages.yml` workflow job\n\nThe `.c4` model files it reads ([`model.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/model.c4), [`deployment.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/deployment.c4), [`spec.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/spec.c4), [`views.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/views.c4)) are unmodified at this revision.\n\n---\n\n### 6. Dependency Boundaries\n\n```\ncheck-links.mjs\n  \u2190 node:fs   (readdirSync, readFileSync, existsSync)\n  \u2190 node:path (join, dirname)\n```\n\nNo npm dependencies; no lockfile or `package.json` in `architecture/site/`. Node 20 is pinned by the workflow's `setup-node` step ([line 19\u201321](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/likec4-pages.yml?L19-L21)).\n\nThe second workflow ([`ci.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/.github/workflows/ci.yml)) \u2014 which runs lint and pytest over the Python package \u2014 has **no dependency on** `check-links.mjs` and is unaffected.\n\n---\n\n### 7. CODEOWNERS Domains\n\n**Unavailable metadata.** There is no `CODEOWNERS` file in the repository at this revision. `list_files` at root and `.github/` returned no such file; ownership domains cannot be determined from repository content alone.\n\n---\n\n### 8. Tests and Documentation\n\n**No test file covers `check-links.mjs` directly.** The test suite ([`tests/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/tree/tests)) is entirely Python (`pytest`), targeting the `agent_diagnostics` package. The 40+ test files cover signals, annotations, classifiers, calibration, store, CLI, and pipeline \u2014 none cover the CI script. Navigation: search-based (directory listing; no `check-links` mention found in any test file).\n\nThe [`tests/test_schema_docs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_schema_docs.py) is the closest conceptual analog (it verifies generated schema docs match committed files), but it does not touch `check-links.mjs`.\n\n**Documentation:** [`architecture/README.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/README.md) is present. The top-of-file comment in `check-links.mjs` itself (lines 1\u20137) is the primary documentation for the script; the comment was **not updated** at this commit (the header still says \"Exits non-zero if any link is dead\" \u2014 now inaccurate for the dead-link path). Navigation: precise file read.\n\n---\n\n### 9. Later Fixes / Refactors / Reverts\n\n**Unavailable metadata.** `commit_search` returned no results for this repository (the index does not contain commit history for `github.com/sg-evals/sjarmak-agent-diagnostics`). No later commit touching `check-links.mjs` can be confirmed or denied from available data.\n\n---\n\n### 10. Deterministic Verification Steps\n\nTo independently verify each claim:\n\n```bash\n# 1. Confirm single file changed\ngit -C <repo> diff --stat e973e4ec1d4a325b5d739562ce87586127c973ed~1 e973e4ec1d4a325b5d739562ce87586127c973ed\n# Expected: 1 file changed, 9 insertions(+), 5 deletions(-)\n\n# 2. Confirm exit-code change\ngit -C <repo> show e973e4ec:architecture/site/check-links.mjs | grep \"process.exit\"\n# Expected: process.exit(0)   [only]\n\n# 3. Confirm sole caller\ngrep -r \"check-links\" .github/ architecture/ --include=\"*.yml\" --include=\"*.mjs\"\n# Expected: .github/workflows/likec4-pages.yml:  run: node architecture/site/check-links.mjs\n\n# 4. Confirm no CODEOWNERS\nls -la CODEOWNERS .github/CODEOWNERS 2>&1\n# Expected: No such file\n\n# 5. Confirm no test coverage\ngrep -r \"check-links\\|check_links\" tests/\n# Expected: no output\n\n# 6. Confirm stale header comment (documentation drift introduced by this commit)\ngit -C <repo> show e973e4ec:architecture/site/check-links.mjs | grep \"Exits non-zero\"\n# Expected: \"Exits non-zero if any link is dead\" \u2014 now inaccurate for the missing-links branch\n```\n\n---\n\n### Metadata Availability Summary\n\n| Category | Available | Source precision |\n|---|---|---|\n| Diff content | Yes | Precise (`compare_revisions`) |\n| Caller (workflow) | Yes | Precise (file read) |\n| Sibling scripts | Yes | Precise (directory list) |\n| `.c4` model files | Yes | Precise (file read) |\n| Dependency graph | Yes | Precise (file read, stdlib only) |\n| Test coverage | Yes (none found) | Search-based |\n| CODEOWNERS | **No** \u2014 file absent | N/A |\n| Commit history / ancestry | **No** \u2014 index unavailable | N/A |\n| Later fixes/reverts | **No** \u2014 index unavailable | N/A |\n| PR/issue metadata | **No** \u2014 not in index | N/A |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:07:01Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Analyze semantic topology and change impacts in sjarmak agent-diagnostics (e973e4e)",
+    "updateTime": "2026-07-29T03:08:23Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/2fa12db6-2cc9-4e27-a51b-931901cd4a57"
+  },
+  "run_id": "sha256:09406d36f80839b163bfcc718d93bdecfd819d46240733266926b5e3dc0232bc",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "sjarmak/agent-diagnostics"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

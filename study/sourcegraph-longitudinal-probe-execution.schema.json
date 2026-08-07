@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-longitudinal-probe-execution.schema.json",
+  "title": "Sourcegraph longitudinal probe execution v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "probe_execution_version",
+    "longitudinal_batch_plan_sha256",
+    "started_at",
+    "completed_at",
+    "status",
+    "unit_count",
+    "valid_unit_count",
+    "invalid_unit_count",
+    "executed_unit_count",
+    "reused_unit_count",
+    "outcomes_consulted",
+    "units",
+    "probe_execution_sha256"
+  ],
+  "properties": {
+    "probe_execution_version": {
+      "const": 3
+    },
+    "longitudinal_batch_plan_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "incomplete"
+      ]
+    },
+    "unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "valid_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "invalid_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "executed_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "reused_unit_count": {
+      "$ref": "#/$defs/count"
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unit"
+      }
+    },
+    "probe_execution_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "unit": {
+      "type": "object",
+      "required": [
+        "probe_unit_id",
+        "canonical_repository_id",
+        "valid",
+        "reused"
+      ],
+      "properties": {
+        "probe_unit_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "valid": {
+          "type": "boolean"
+        },
+        "reused": {
+          "type": "boolean"
+        },
+        "probe_manifest_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "probe_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "hunk_count": {
+          "$ref": "#/$defs/count"
+        },
+        "error": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "valid": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "probe_manifest_path",
+              "probe_manifest_sha256",
+              "hunk_count"
+            ]
+          },
+          "else": {
+            "required": [
+              "error"
+            ]
+          }
+        }
+      ],
+      "additionalProperties": false
+    }
+  }
+}

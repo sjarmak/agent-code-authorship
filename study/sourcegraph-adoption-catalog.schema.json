@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adoption-catalog.schema.json",
+  "title": "Sourcegraph repository adoption catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "catalog_version",
+    "sequential_decision_ledger_sha256",
+    "anchor_completion_ledger_sha256",
+    "language_inventory_sha256",
+    "repository_count",
+    "dated_repository_count",
+    "primary_scope_eligible_count",
+    "status_counts",
+    "repositories",
+    "outcomes_consulted",
+    "catalog_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-adoption-catalog.schema.json"
+    },
+    "catalog_version": {
+      "const": 1
+    },
+    "sequential_decision_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "anchor_completion_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "language_inventory_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "repository_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "dated_repository_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "primary_scope_eligible_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "status_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dated_explicit_anchor",
+        "dated_sequential",
+        "no_credible_event"
+      ],
+      "properties": {
+        "dated_explicit_anchor": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "dated_sequential": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "no_credible_event": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "repositories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/repository"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "catalog_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository_id",
+        "language",
+        "status",
+        "primary_scope_eligible",
+        "scope_exclusion_reason",
+        "adoption_event_id",
+        "adoption_observed_at",
+        "adoption_commit_oid",
+        "adoption_decision",
+        "evidence_tier",
+        "adoption_interpretation",
+        "clean_prehistory",
+        "unresolved_earlier_candidate_count"
+      ],
+      "properties": {
+        "repository_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "dated_explicit_anchor",
+            "dated_sequential",
+            "no_credible_event"
+          ]
+        },
+        "primary_scope_eligible": {
+          "type": "boolean"
+        },
+        "scope_exclusion_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "adoption_event_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/sha256"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "adoption_observed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "adoption_commit_oid": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "adoption_decision": {
+          "enum": [
+            "accept_confirmed",
+            "accept_observed",
+            null
+          ]
+        },
+        "evidence_tier": {
+          "enum": [
+            "confirmed",
+            "observed",
+            null
+          ]
+        },
+        "adoption_interpretation": {
+          "enum": [
+            "earliest_accepted_event_in_screened_frame",
+            "first_observed_explicit_use",
+            null
+          ]
+        },
+        "clean_prehistory": {
+          "type": "boolean"
+        },
+        "unresolved_earlier_candidate_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

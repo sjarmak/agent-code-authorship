@@ -1,0 +1,284 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "19452b6963032609f1597d736f8832fab4a388a964ca0fe8e03f71fcc9905f88",
+  "artifact_version": 1,
+  "canonical_repository_id": "sjarmak/scix-agent",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "dd618037f61035bd62f1e7a620029c6b4867ab6a"
+  ],
+  "cited_files": [
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_server_http.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server_http.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/claim_blame.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/claim_blame.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/synthesize.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/synthesize.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/llm_cost_ceiling.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/llm_cost_ceiling.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_contract.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_contract.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/oa_gate.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/oa_gate.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/circuit_breaker.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/circuit_breaker.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "migrations/023_logged_embeddings.sql",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/023_logged_embeddings.sql"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_server.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L156-L172"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_server.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L389-L390"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_runtime.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_runtime.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_tool_specs.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_tool_specs.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_mcp_tool_consolidation.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_tool_consolidation.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_mcp_contract_conformance.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_contract_conformance.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_mcp_search_unscoped_guard.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_search_unscoped_guard.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_halfvec_migration.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_halfvec_migration.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_body_adr006_guard.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_body_adr006_guard.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/test_audit_schema_migrations.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_audit_schema_migrations.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "migrations/053_paper_embeddings_halfvec.sql",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/053_paper_embeddings_halfvec.sql"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "migrations/054_paper_embeddings_halfvec_index.sql",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/054_paper_embeddings_halfvec_index.sql"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "migrations/005_pgvector_upgrade.sql",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/005_pgvector_upgrade.sql"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/pyproject.toml?L48-L56"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "migrations/071_drop_paper_embeddings_indus_indexes.sql",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/071_drop_paper_embeddings_indus_indexes.sql"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "CHANGELOG.md",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/CHANGELOG.md"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "config/publisher_suppress_list.yaml",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/config/publisher_suppress_list.yaml"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "contract/scix_mcp_v1.json",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/contract/scix_mcp_v1.json"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_server.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L1218-L1270"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_errors.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_errors.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_server.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L640-L780"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_server.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L625-L637"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/conftest.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/conftest.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "tests/helpers.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/helpers.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "migrations/019_schema_migrations.sql",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/019_schema_migrations.sql"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/jit/router.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/jit/router.py"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "src/scix/mcp_server.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L1233"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "migrations/069_drop_papers_raw.sql",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/069_drop_papers_raw.sql"
+    },
+    {
+      "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "path": "eval/build_gold_standard.py",
+      "repository": "github.com/sg-evals/sjarmak-scix-agent",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/eval/build_gold_standard.py"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1992",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/sjarmak-scix-agent at revision dd618037f61035bd62f1e7a620029c6b4867ab6a, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: sjarmak/scix-agent; stratum: agent_native; cutoff: dd618037f61035bd62f1e7a620029c6b4867ab6a.",
+  "prompt_family_id": "delegated_task_intent",
+  "prompt_sha256": "52c6683a76c2dba0ef543668a0852efb09efce340ef51e7695f72407b97aaab8",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "I now have sufficient evidence to produce the full taxonomy analysis. Here is the assessment:\n\n---\n\n## Engineering Task Shape Analysis \u2014 `sjarmak/scix-agent` @ `dd61803`\n\nThe repository is a single-tenant Python monorepo for a NASA SciX MCP server and its supporting data pipeline. Commit history is inaccessible through the search index, so all evidence below is derived from source text: inline comments, bead identifiers, PRD/ADR references, docstrings, and test naming. Ambiguity is marked explicitly.\n\n---\n\n### 1. Feature\n\nNew, user-visible (or agent-visible) capability added from scratch.\n\n**Primary evidence:**\n\n| Symbol / file | Description |\n|---|---|\n| [`src/scix/mcp_server_http.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server_http.py) | HTTP transport with ASGI bearer-token auth (`_AuthWrap`) and token-bucket rate limiter (`_RateLimitWrap`) \u2014 clearly a net-new transport layer, not present in the stdio server |\n| [`src/scix/claim_blame.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/claim_blame.py) | MH-4 Deep Search v1 tool: chronological claim-origin walk with retraction handling |\n| [`src/scix/synthesize.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/synthesize.py) | `synthesize_findings` tool (bead cfh9): three-tier binning of working-set bibcodes into a section outline \u2014 pure new reasoning layer |\n| [`src/scix/llm_cost_ceiling.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/llm_cost_ceiling.py) | Postgres-backed per-day/per-query USD ledger (PRD \u00a7D3c) for LLM cost gating |\n| [`src/scix/jit/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/src/scix/jit) \u2014 `bulkhead.py`, `router.py`, `local_ner.py`, `disambiguator.py`, `cache.py` | JIT NER lane (PRD \u00a7M11): async bulkhead, 5% canary, local-NER fallback, static-core sentinel \u2014 a complete new subsystem |\n| [`src/scix/mcp_contract.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_contract.py) | Externally-pinnable, self-describing contract artifact generator (bead x2dp) |\n| [`src/scix/oa_gate.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/oa_gate.py) | Publisher-agreement OA/preprint gate \u2014 Python mirror of the SQL predicate |\n| [`src/scix/circuit_breaker.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/circuit_breaker.py) | Wall-clock time-budget FSM (PRD \u00a7M10/u13) for the incremental sync pipeline |\n| Migrations 055\u2013071 (`agent_entity_context_rewrite`, `correction_events`, `embedding_outbox`, etc.) | New data surfaces required by new features; each corresponds to a named PRD milestone |\n\n---\n\n### 2. Localized Bug Fix\n\nTargeted repairs to broken or incorrect existing behavior, with narrow scope.\n\n**Primary evidence:**\n\n| Symbol / file | Description |\n|---|---|\n| [`migrations/023_logged_embeddings.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/023_logged_embeddings.sql) | Converts `paper_embeddings` from `UNLOGGED` \u2192 `LOGGED`; comment states this directly: \"A PostgreSQL crash wiped all 32M embeddings because UNLOGGED tables are truncated on recovery.\" \u2014 classic localized bug fix recorded as a schema migration |\n| [`mcp_server.py` L156\u2013172](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L156-L172) | `_SESSION_STATEMENT_TIMEOUT_MS` / `_CONN_OPTIONS` block \u2014 added after a third Postgres OOM on 2026-06-12 (bead 82j0); the comment is explicit that this is a safety net for a real production failure mode |\n| [`mcp_server.py` L389\u2013390](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L389-L390) | Pool `max_size` bumped from 10\u219220 with the comment \"prevent pool exhaustion under concurrent hybrid search load \u2026 See premortem M9\" \u2014 a targeted fix to an observed outage |\n\n---\n\n### 3. Refactor\n\nStructural reorganization without net-new behavior; existing semantics preserved.\n\n**Primary evidence:**\n\n| Symbol / file | Description |\n|---|---|\n| [`src/scix/mcp_runtime.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_runtime.py) | Extraction of pure stateless helpers out of `mcp_server.py` into a neutral layer (bead 2qx3); docstring explicitly says \"extracted from `scix.mcp_server`.\" The re-export block at mcp_server.py L80\u2013113 is the shim that preserves backward-compat |\n| [`src/scix/mcp_handlers/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/src/scix/mcp_handlers) \u2014 `search.py`, `citation.py`, `entity.py`, `paper.py`, `claim.py`, `sections.py`, `synthesis.py` | Tool handler logic split out of `mcp_server.py` into a subpackage (bead pebe); the lazy `_build_handler_registry()` / `__getattr__` PEP 562 mechanism exists specifically to avoid the load-order cycle the extraction created |\n| [`src/scix/mcp_tool_specs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_tool_specs.py) | ~1.2k lines of inline `inputSchema` JSON extracted from `mcp_server.py` into a pure-data module (bead pebe/oahz) |\n| `_ALIAS_TRANSFORMS` dict (mcp_server.py L1042\u20131073) | Replacement of a \"24-branch if-chain\" and a parallel `_DEPRECATED_ALIASES` map with a single declarative data table (docstring: \"Replaces both the former 24-branch if-chain and the parallel `_DEPRECATED_ALIASES` map\") |\n\n---\n\n### 4. Test Generation\n\nTests written specifically to guard existing behavior or newly introduced functionality.\n\n**Primary evidence \u2014 the `tests/` directory contains 260+ test files covering essentially every source module.** Representative task-shape examples:\n\n| File | Character |\n|---|---|\n| [`tests/test_mcp_tool_consolidation.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_tool_consolidation.py) | Comprehensive acceptance-criterion suite (AC1\u2013AC6, bead zjt9, bead 9afa, bead 4c5v, bead unmm) \u2014 test-generation against a refactor that was already committed |\n| [`tests/test_mcp_contract_conformance.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_contract_conformance.py) | Source-scan (AST-level) + artifact drift-gate tests that explicitly reference \"would have caught both drifts the 2026-06-15 deep audit found\" \u2014 retroactively filling a coverage gap |\n| [`tests/test_mcp_search_unscoped_guard.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_search_unscoped_guard.py) | Tests for an existing guard (bead uerc); the guard fires before DB \u2014 tests prove early-return ordering |\n| [`tests/test_halfvec_migration.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_halfvec_migration.py) | Two-layer test (unit + integration) for a schema migration; the unit layer tests SQL query routing, the integration layer runs actual DDL |\n| [`tests/test_body_adr006_guard.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_body_adr006_guard.py) | Guard tests described as \"defense-in-depth\" for ADR-006; the code path being tested is preemptive, not reactive |\n| [`tests/test_audit_schema_migrations.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_audit_schema_migrations.py) | Tests for the migration audit script's SQL parser \u2014 meta-testing of tooling |\n\nA significant fraction of the test files (e.g. `test_bench_pgvectorscale*.py`, `test_eval_*.py`, `test_m4_eval.py`) are **ambiguous between test-generation and evaluation/benchmark tooling** \u2014 they generate evaluation data or run benchmarks rather than asserting production behavior. These could be classified as a separate category (see \u00a78 below).\n\n---\n\n### 5. Dependency Migration\n\nSwapping or upgrading a library/system dependency with potentially breaking surface changes.\n\n**Primary evidence:**\n\n| File | Description |\n|---|---|\n| [`migrations/053_paper_embeddings_halfvec.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/053_paper_embeddings_halfvec.sql) + [`migrations/054_paper_embeddings_halfvec_index.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/054_paper_embeddings_halfvec_index.sql) | Shadow-column strategy for migrating `paper_embeddings` from `vector(768)` float32 to `halfvec(768)` float16 without a locking rewrite; explicitly a two-migration online-DDL sequence tied to pgvector 0.7+ halfvec support |\n| [`migrations/005_pgvector_upgrade.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/005_pgvector_upgrade.sql) | pgvector upgrade to 0.8.2 (CHANGELOG confirms: \"Iterative scan + parallel HNSW builds enabled via pgvector 0.8.2\") |\n| [`pyproject.toml` L48\u201356](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/pyproject.toml?L48-L56) | `qdrant-client==1.17.1` exact pin with a documented bump procedure tied to ADR-013/014 \u2014 dependency-management discipline visible in code |\n| [`migrations/071_drop_paper_embeddings_indus_indexes.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/071_drop_paper_embeddings_indus_indexes.sql) | Drop of old float32 HNSW index as the terminal step of the halfvec migration |\n\n---\n\n### 6. Documentation / Configuration\n\nWork whose primary artifact is documentation, configuration, or schema that does not encode new algorithmic logic.\n\n**Primary evidence:**\n\n| File | Description |\n|---|---|\n| [`CHANGELOG.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/CHANGELOG.md) | Full v0.1.0 release changelog with known-gaps section |\n| [`config/publisher_suppress_list.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/config/publisher_suppress_list.yaml) | Static configuration list gating publisher-content visibility |\n| `.pre-commit-config.yaml` | Pinned linter/formatter configuration (black 25.1.0, ruff 0.15.8) |\n| [`contract/scix_mcp_v1.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/contract/scix_mcp_v1.json) | Generated, committed contract artifact \u2014 documentation/configuration boundary |\n| `docs/` tree (DEPLOYMENT.md, ADS_INTEGRATION.md, mcp_tool_audit_2026-04.md, mcp_tool_audit_2026-06.md, UPGRADING.md) | Operator runbooks, integration guides, ADR documents |\n| `AGENTS.md` | Agent behavior policy file |\n\n---\n\n### 7. Architectural Scaffolding\n\nSetup of structural foundations that gate further work: runtime skeletons, plugin registries, abstract interfaces, test infrastructure wiring.\n\n**Primary evidence:**\n\n| Symbol / file | Description |\n|---|---|\n| `create_server()` + `_build_handler_registry()` + `_HANDLER_REGISTRY_CACHE` in [`mcp_server.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L1218-L1270) | The lazy registry with PEP 562 `__getattr__` is an explicit extensibility scaffold; every new tool is just a new entry in the registry |\n| [`src/scix/mcp_errors.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_errors.py) | Closed error-code catalog (`ErrorCode` class + `CATALOG` frozenset) \u2014 pure structural foundation that the conformance tests enforce |\n| `startup_self_test()` ([mcp_server.py L640\u2013780](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L640-L780)) | Server self-test harness that validates tool count, schema shape, and smoke-calls new tools; the mechanism gates safe server startup |\n| `VISIBLE_TOOL_CAP = 15` import-time assert ([mcp_server.py L625\u2013637](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L625-L637)) | ADR-pinned hard cap enforced at import time so surface drift fails loudly |\n| [`tests/conftest.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/conftest.py) + [`tests/helpers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/helpers.py) | Cross-test fixture / helper scaffolding |\n| [`migrations/019_schema_migrations.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/019_schema_migrations.sql) | Migration runner's own tracking table \u2014 infrastructure for infrastructure |\n| [`src/scix/jit/router.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/jit/router.py) `call_live_jit()` stub | Explicitly labeled \"Stub live_jit call. Production swaps this for a real Haiku call. Tests monkey-patch the module-level reference.\" \u2014 a deliberate scaffolding placeholder |\n\n---\n\n### 8. Cleanup\n\nRemoval of dead code, retired surface, redundant mappings, or obsolete state.\n\n**Primary evidence:**\n\n| Symbol | Description |\n|---|---|\n| `find_similar_by_examples` hard-removal ([mcp_server.py L1233](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L1233), `test_mcp_tool_consolidation.py` AC5) | Tool retired on 2026-04-25 with a `tool_removed` error stub; not an alias, not a no-op \u2014 hard removal with a dated tombstone |\n| `_DEPRECATED_ALIASES` map retirement | The docstring for `_ALIAS_TRANSFORMS` explicitly states it replaces a hand-synced parallel map that \"had to be hand-synced with this table\" \u2014 cleanup of a duplication |\n| [`migrations/069_drop_papers_raw.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/069_drop_papers_raw.sql) | DROP of a `papers_raw` column/table \u2014 schema cleanup |\n| [`migrations/071_drop_paper_embeddings_indus_indexes.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/071_drop_paper_embeddings_indus_indexes.sql) | Drop of old float32 HNSW indexes after halfvec cutover |\n\n---\n\n### 9. Taxonomy Refinement Proposal\n\nThe existing eight categories cover the code well with one exception: the `tests/eval/`, `tests/test_eval_*.py`, `tests/test_bench_*.py`, and the `eval/` directory contain files that are **neither production tests nor benchmarks in the traditional sense** \u2014 they are empirical evaluation harnesses (gold-standard generation, nDCG@10 runs, judge calibration, extraction quality scoring). These sit ambiguously between \"test generation\" and \"feature\" (they encode new analytical methodology). If the taxonomy needs to distinguish them:\n\n> **Proposed addition: `evaluation_harness`** \u2014 code whose primary output is a metric or quality signal rather than a correctness assertion or user-facing capability. Evidenced by [`eval/build_gold_standard.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/eval/build_gold_standard.py), `tests/test_eval_retrieval_50q.py`, `tests/test_bench_pgvectorscale*.py`, `tests/test_calibrate_judge.py`, etc.\n\nThis is a genuine gap in the existing taxonomy for ML/AI-native repositories where eval infrastructure is first-class engineering work. All other code in this repository maps cleanly to the eight existing categories.\n\n---\n\n### Summary Table\n\n| Task Shape | Density | Canonical Files |\n|---|---|---|\n| Feature | High | `mcp_server_http.py`, `claim_blame.py`, `synthesize.py`, `llm_cost_ceiling.py`, `jit/`, migrations 055\u2013071 |\n| Localized Bug Fix | Low | `migrations/023`, session timeout block, pool max-size bump |\n| Refactor | Medium | `mcp_runtime.py`, `mcp_handlers/`, `mcp_tool_specs.py`, `_ALIAS_TRANSFORMS` |\n| Test Generation | Very High | 260+ test files; `test_mcp_tool_consolidation.py`, `test_mcp_contract_conformance.py` exemplary |\n| Dependency Migration | Low | migrations 053\u2013054, 005, 071; `pyproject.toml` qdrant pin |\n| Documentation / Configuration | Medium | `CHANGELOG.md`, `docs/`, `contract/`, `config/`, `.pre-commit-config.yaml` |\n| Architectural Scaffolding | Medium | Handler registry, error catalog, startup self-test, `VISIBLE_TOOL_CAP` guard, `call_live_jit` stub |\n| Cleanup | Low | `find_similar_by_examples` removal, `_DEPRECATED_ALIASES` consolidation, migrations 069/071 |\n| **evaluation_harness** *(proposed)* | Medium | `eval/`, `tests/test_eval_*.py`, `tests/test_bench_*.py` |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:12:24Z",
+    "name": "users/476/conversations/1992",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "I now have sufficient evidence to produce the full taxonomy analysis. Here is the assessment:\n\n---\n\n## Engineering Task Shape Analysis \u2014 `sjarmak/scix-agent` @ `dd61803`\n\nThe repository is a single-tenant Python monorepo for a NASA SciX MCP server and its supporting data pipeline. Commit history is inaccessible through the search index, so all evidence below is derived from source text: inline comments, bead identifiers, PRD/ADR references, docstrings, and test naming. Ambiguity is marked explicitly.\n\n---\n\n### 1. Feature\n\nNew, user-visible (or agent-visible) capability added from scratch.\n\n**Primary evidence:**\n\n| Symbol / file | Description |\n|---|---|\n| [`src/scix/mcp_server_http.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server_http.py) | HTTP transport with ASGI bearer-token auth (`_AuthWrap`) and token-bucket rate limiter (`_RateLimitWrap`) \u2014 clearly a net-new transport layer, not present in the stdio server |\n| [`src/scix/claim_blame.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/claim_blame.py) | MH-4 Deep Search v1 tool: chronological claim-origin walk with retraction handling |\n| [`src/scix/synthesize.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/synthesize.py) | `synthesize_findings` tool (bead cfh9): three-tier binning of working-set bibcodes into a section outline \u2014 pure new reasoning layer |\n| [`src/scix/llm_cost_ceiling.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/llm_cost_ceiling.py) | Postgres-backed per-day/per-query USD ledger (PRD \u00a7D3c) for LLM cost gating |\n| [`src/scix/jit/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/src/scix/jit) \u2014 `bulkhead.py`, `router.py`, `local_ner.py`, `disambiguator.py`, `cache.py` | JIT NER lane (PRD \u00a7M11): async bulkhead, 5% canary, local-NER fallback, static-core sentinel \u2014 a complete new subsystem |\n| [`src/scix/mcp_contract.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_contract.py) | Externally-pinnable, self-describing contract artifact generator (bead x2dp) |\n| [`src/scix/oa_gate.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/oa_gate.py) | Publisher-agreement OA/preprint gate \u2014 Python mirror of the SQL predicate |\n| [`src/scix/circuit_breaker.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/circuit_breaker.py) | Wall-clock time-budget FSM (PRD \u00a7M10/u13) for the incremental sync pipeline |\n| Migrations 055\u2013071 (`agent_entity_context_rewrite`, `correction_events`, `embedding_outbox`, etc.) | New data surfaces required by new features; each corresponds to a named PRD milestone |\n\n---\n\n### 2. Localized Bug Fix\n\nTargeted repairs to broken or incorrect existing behavior, with narrow scope.\n\n**Primary evidence:**\n\n| Symbol / file | Description |\n|---|---|\n| [`migrations/023_logged_embeddings.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/023_logged_embeddings.sql) | Converts `paper_embeddings` from `UNLOGGED` \u2192 `LOGGED`; comment states this directly: \"A PostgreSQL crash wiped all 32M embeddings because UNLOGGED tables are truncated on recovery.\" \u2014 classic localized bug fix recorded as a schema migration |\n| [`mcp_server.py` L156\u2013172](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L156-L172) | `_SESSION_STATEMENT_TIMEOUT_MS` / `_CONN_OPTIONS` block \u2014 added after a third Postgres OOM on 2026-06-12 (bead 82j0); the comment is explicit that this is a safety net for a real production failure mode |\n| [`mcp_server.py` L389\u2013390](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L389-L390) | Pool `max_size` bumped from 10\u219220 with the comment \"prevent pool exhaustion under concurrent hybrid search load \u2026 See premortem M9\" \u2014 a targeted fix to an observed outage |\n\n---\n\n### 3. Refactor\n\nStructural reorganization without net-new behavior; existing semantics preserved.\n\n**Primary evidence:**\n\n| Symbol / file | Description |\n|---|---|\n| [`src/scix/mcp_runtime.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_runtime.py) | Extraction of pure stateless helpers out of `mcp_server.py` into a neutral layer (bead 2qx3); docstring explicitly says \"extracted from `scix.mcp_server`.\" The re-export block at mcp_server.py L80\u2013113 is the shim that preserves backward-compat |\n| [`src/scix/mcp_handlers/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/tree/src/scix/mcp_handlers) \u2014 `search.py`, `citation.py`, `entity.py`, `paper.py`, `claim.py`, `sections.py`, `synthesis.py` | Tool handler logic split out of `mcp_server.py` into a subpackage (bead pebe); the lazy `_build_handler_registry()` / `__getattr__` PEP 562 mechanism exists specifically to avoid the load-order cycle the extraction created |\n| [`src/scix/mcp_tool_specs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_tool_specs.py) | ~1.2k lines of inline `inputSchema` JSON extracted from `mcp_server.py` into a pure-data module (bead pebe/oahz) |\n| `_ALIAS_TRANSFORMS` dict (mcp_server.py L1042\u20131073) | Replacement of a \"24-branch if-chain\" and a parallel `_DEPRECATED_ALIASES` map with a single declarative data table (docstring: \"Replaces both the former 24-branch if-chain and the parallel `_DEPRECATED_ALIASES` map\") |\n\n---\n\n### 4. Test Generation\n\nTests written specifically to guard existing behavior or newly introduced functionality.\n\n**Primary evidence \u2014 the `tests/` directory contains 260+ test files covering essentially every source module.** Representative task-shape examples:\n\n| File | Character |\n|---|---|\n| [`tests/test_mcp_tool_consolidation.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_tool_consolidation.py) | Comprehensive acceptance-criterion suite (AC1\u2013AC6, bead zjt9, bead 9afa, bead 4c5v, bead unmm) \u2014 test-generation against a refactor that was already committed |\n| [`tests/test_mcp_contract_conformance.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_contract_conformance.py) | Source-scan (AST-level) + artifact drift-gate tests that explicitly reference \"would have caught both drifts the 2026-06-15 deep audit found\" \u2014 retroactively filling a coverage gap |\n| [`tests/test_mcp_search_unscoped_guard.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_mcp_search_unscoped_guard.py) | Tests for an existing guard (bead uerc); the guard fires before DB \u2014 tests prove early-return ordering |\n| [`tests/test_halfvec_migration.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_halfvec_migration.py) | Two-layer test (unit + integration) for a schema migration; the unit layer tests SQL query routing, the integration layer runs actual DDL |\n| [`tests/test_body_adr006_guard.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_body_adr006_guard.py) | Guard tests described as \"defense-in-depth\" for ADR-006; the code path being tested is preemptive, not reactive |\n| [`tests/test_audit_schema_migrations.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/test_audit_schema_migrations.py) | Tests for the migration audit script's SQL parser \u2014 meta-testing of tooling |\n\nA significant fraction of the test files (e.g. `test_bench_pgvectorscale*.py`, `test_eval_*.py`, `test_m4_eval.py`) are **ambiguous between test-generation and evaluation/benchmark tooling** \u2014 they generate evaluation data or run benchmarks rather than asserting production behavior. These could be classified as a separate category (see \u00a78 below).\n\n---\n\n### 5. Dependency Migration\n\nSwapping or upgrading a library/system dependency with potentially breaking surface changes.\n\n**Primary evidence:**\n\n| File | Description |\n|---|---|\n| [`migrations/053_paper_embeddings_halfvec.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/053_paper_embeddings_halfvec.sql) + [`migrations/054_paper_embeddings_halfvec_index.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/054_paper_embeddings_halfvec_index.sql) | Shadow-column strategy for migrating `paper_embeddings` from `vector(768)` float32 to `halfvec(768)` float16 without a locking rewrite; explicitly a two-migration online-DDL sequence tied to pgvector 0.7+ halfvec support |\n| [`migrations/005_pgvector_upgrade.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/005_pgvector_upgrade.sql) | pgvector upgrade to 0.8.2 (CHANGELOG confirms: \"Iterative scan + parallel HNSW builds enabled via pgvector 0.8.2\") |\n| [`pyproject.toml` L48\u201356](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/pyproject.toml?L48-L56) | `qdrant-client==1.17.1` exact pin with a documented bump procedure tied to ADR-013/014 \u2014 dependency-management discipline visible in code |\n| [`migrations/071_drop_paper_embeddings_indus_indexes.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/071_drop_paper_embeddings_indus_indexes.sql) | Drop of old float32 HNSW index as the terminal step of the halfvec migration |\n\n---\n\n### 6. Documentation / Configuration\n\nWork whose primary artifact is documentation, configuration, or schema that does not encode new algorithmic logic.\n\n**Primary evidence:**\n\n| File | Description |\n|---|---|\n| [`CHANGELOG.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/CHANGELOG.md) | Full v0.1.0 release changelog with known-gaps section |\n| [`config/publisher_suppress_list.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/config/publisher_suppress_list.yaml) | Static configuration list gating publisher-content visibility |\n| `.pre-commit-config.yaml` | Pinned linter/formatter configuration (black 25.1.0, ruff 0.15.8) |\n| [`contract/scix_mcp_v1.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/contract/scix_mcp_v1.json) | Generated, committed contract artifact \u2014 documentation/configuration boundary |\n| `docs/` tree (DEPLOYMENT.md, ADS_INTEGRATION.md, mcp_tool_audit_2026-04.md, mcp_tool_audit_2026-06.md, UPGRADING.md) | Operator runbooks, integration guides, ADR documents |\n| `AGENTS.md` | Agent behavior policy file |\n\n---\n\n### 7. Architectural Scaffolding\n\nSetup of structural foundations that gate further work: runtime skeletons, plugin registries, abstract interfaces, test infrastructure wiring.\n\n**Primary evidence:**\n\n| Symbol / file | Description |\n|---|---|\n| `create_server()` + `_build_handler_registry()` + `_HANDLER_REGISTRY_CACHE` in [`mcp_server.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L1218-L1270) | The lazy registry with PEP 562 `__getattr__` is an explicit extensibility scaffold; every new tool is just a new entry in the registry |\n| [`src/scix/mcp_errors.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_errors.py) | Closed error-code catalog (`ErrorCode` class + `CATALOG` frozenset) \u2014 pure structural foundation that the conformance tests enforce |\n| `startup_self_test()` ([mcp_server.py L640\u2013780](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L640-L780)) | Server self-test harness that validates tool count, schema shape, and smoke-calls new tools; the mechanism gates safe server startup |\n| `VISIBLE_TOOL_CAP = 15` import-time assert ([mcp_server.py L625\u2013637](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L625-L637)) | ADR-pinned hard cap enforced at import time so surface drift fails loudly |\n| [`tests/conftest.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/conftest.py) + [`tests/helpers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/tests/helpers.py) | Cross-test fixture / helper scaffolding |\n| [`migrations/019_schema_migrations.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/019_schema_migrations.sql) | Migration runner's own tracking table \u2014 infrastructure for infrastructure |\n| [`src/scix/jit/router.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/jit/router.py) `call_live_jit()` stub | Explicitly labeled \"Stub live_jit call. Production swaps this for a real Haiku call. Tests monkey-patch the module-level reference.\" \u2014 a deliberate scaffolding placeholder |\n\n---\n\n### 8. Cleanup\n\nRemoval of dead code, retired surface, redundant mappings, or obsolete state.\n\n**Primary evidence:**\n\n| Symbol | Description |\n|---|---|\n| `find_similar_by_examples` hard-removal ([mcp_server.py L1233](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/src/scix/mcp_server.py?L1233), `test_mcp_tool_consolidation.py` AC5) | Tool retired on 2026-04-25 with a `tool_removed` error stub; not an alias, not a no-op \u2014 hard removal with a dated tombstone |\n| `_DEPRECATED_ALIASES` map retirement | The docstring for `_ALIAS_TRANSFORMS` explicitly states it replaces a hand-synced parallel map that \"had to be hand-synced with this table\" \u2014 cleanup of a duplication |\n| [`migrations/069_drop_papers_raw.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/069_drop_papers_raw.sql) | DROP of a `papers_raw` column/table \u2014 schema cleanup |\n| [`migrations/071_drop_paper_embeddings_indus_indexes.sql`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/migrations/071_drop_paper_embeddings_indus_indexes.sql) | Drop of old float32 HNSW indexes after halfvec cutover |\n\n---\n\n### 9. Taxonomy Refinement Proposal\n\nThe existing eight categories cover the code well with one exception: the `tests/eval/`, `tests/test_eval_*.py`, `tests/test_bench_*.py`, and the `eval/` directory contain files that are **neither production tests nor benchmarks in the traditional sense** \u2014 they are empirical evaluation harnesses (gold-standard generation, nDCG@10 runs, judge calibration, extraction quality scoring). These sit ambiguously between \"test generation\" and \"feature\" (they encode new analytical methodology). If the taxonomy needs to distinguish them:\n\n> **Proposed addition: `evaluation_harness`** \u2014 code whose primary output is a metric or quality signal rather than a correctness assertion or user-facing capability. Evidenced by [`eval/build_gold_standard.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-scix-agent@dd618037f61035bd62f1e7a620029c6b4867ab6a/-/blob/eval/build_gold_standard.py), `tests/test_eval_retrieval_50q.py`, `tests/test_bench_pgvectorscale*.py`, `tests/test_calibrate_judge.py`, etc.\n\nThis is a genuine gap in the existing taxonomy for ML/AI-native repositories where eval infrastructure is first-class engineering work. All other code in this repository maps cleanly to the eight existing categories.\n\n---\n\n### Summary Table\n\n| Task Shape | Density | Canonical Files |\n|---|---|---|\n| Feature | High | `mcp_server_http.py`, `claim_blame.py`, `synthesize.py`, `llm_cost_ceiling.py`, `jit/`, migrations 055\u2013071 |\n| Localized Bug Fix | Low | `migrations/023`, session timeout block, pool max-size bump |\n| Refactor | Medium | `mcp_runtime.py`, `mcp_handlers/`, `mcp_tool_specs.py`, `_ALIAS_TRANSFORMS` |\n| Test Generation | Very High | 260+ test files; `test_mcp_tool_consolidation.py`, `test_mcp_contract_conformance.py` exemplary |\n| Dependency Migration | Low | migrations 053\u2013054, 005, 071; `pyproject.toml` qdrant pin |\n| Documentation / Configuration | Medium | `CHANGELOG.md`, `docs/`, `contract/`, `config/`, `.pre-commit-config.yaml` |\n| Architectural Scaffolding | Medium | Handler registry, error catalog, startup self-test, `VISIBLE_TOOL_CAP` guard, `call_live_jit` stub |\n| Cleanup | Low | `find_similar_by_examples` removal, `_DEPRECATED_ALIASES` consolidation, migrations 069/071 |\n| **evaluation_harness** *(proposed)* | Medium | `eval/`, `tests/test_eval_*.py`, `tests/test_bench_*.py` |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:12:24Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/sjarmak-scix-agent at revision dd618037f61035bd62f1e7a620029c6b4867ab6a, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: sjarmak/scix-agent; stratum: agent_native; cutoff: dd618037f61035bd62f1e7a620029c6b4867ab6a."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Classify engineering task shapes from GitHub repo history",
+    "updateTime": "2026-07-29T03:15:18Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/99ef6433-2908-429f-acae-a1fb32b2022e"
+  },
+  "run_id": "sha256:97ffd71daed673a5beb9903613935a421bcda0c7424a16e0b4abfcee76ded8e1",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "sjarmak/scix-agent"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

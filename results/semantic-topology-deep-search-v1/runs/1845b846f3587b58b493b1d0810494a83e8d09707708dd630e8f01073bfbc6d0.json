@@ -1,0 +1,266 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "4826a51f1c03bfb1177fa38de5e9368ff67017cee1932c46944ee167bc8030c9",
+  "artifact_version": 1,
+  "canonical_repository_id": "asahilinux/m1n1",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "7c7716b6a196c7e601f9f22bb8af335c1b8173ce"
+  ],
+  "cited_files": [
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L63"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L69"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L82"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L178-L194"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L196-L215"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L217-L241"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L308-L366"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L368-L373"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L375-L386"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L388-L392"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L417"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L478-L519"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L459"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L445-L448"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/mcc.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/mcc.c"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L206"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L219"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/utils.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/utils.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/adt.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/adt.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/assert.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/assert.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/cpu_regs.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/cpu_regs.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/fb.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/fb.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/gxf.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/gxf.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/malloc.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/malloc.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/mcc.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/mcc.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/smp.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/smp.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/string.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/string.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/xnuboot.h",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/xnuboot.h"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/hv_vm.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/hv_vm.c?L1-80"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L209"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "CODEOWNERS",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/CODEOWNERS"
+    },
+    {
+      "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "path": "src/memory.c",
+      "repository": "github.com/sg-evals/asahilinux-m1n1",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L86-L98"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2020",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/asahilinux-m1n1 at revision 7c7716b6a196c7e601f9f22bb8af335c1b8173ce, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: asahilinux/m1n1; stratum: policy_control; cutoff: 7c7716b6a196c7e601f9f22bb8af335c1b8173ce.",
+  "prompt_family_id": "change_topology",
+  "prompt_sha256": "e0afb1ea490ef81eb2a171d7ea11c7ef148082a3c83c1c12fd0697391ac9b500",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a thorough picture of the commit. Let me compile the full semantic topology report.\n\n---\n\n## Semantic Topology Map \u2014 Commit `7c7716b6a196c7e601f9f22bb8af335c1b8173ce`\n\n**Repository:** `asahilinux/m1n1` (mirror: `github.com/sg-evals/asahilinux-m1n1`)  \n**Sole file changed:** [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c) \u2014 +93 / \u221263\n\n---\n\n### 1. Change Summary\n\nThe commit rewrites the two-level (L0\u2192L1\u2192L2\u2192L3) MMU page-table management in `src/memory.c` to support both **4K paging** (A7/A8/A8X) and **16K paging** (all Apple Silicon Macs), rather than assuming 16K only. The structural changes are:\n\n| Aspect | Before | After |\n|--------|--------|-------|\n| L0\u2192L1 wiring | Statically pre-wired at init using a double-size concatenated L1 table and a loop in `mmu_init_pagetables` | Fully lazy/dynamic: `mmu_pt_get_l1()` allocates L1 tables on demand |\n| L1 blocks (4K only) | Not supported | New `mmu_pt_map_l1()` + `mmu_pt_get_l1()` for 4K L1-block mappings |\n| `mmu_map` logic | Linear L3\u2192L2 only | Conditional `!is_16k()` branch adds L2\u2192L1 alignment phase |\n| `VADDR_L1_INDEX_BITS` | Had `_ACTUAL` split for concatenated trick | Collapsed to single `VADDR_L1_INDEX_BITS` (11 or 9 depending on page size) |\n| `VADDR_L0_OFFSET_BITS` | Absent | Added (`47` for 16K, `39` for 4K) |\n| Block macros removed | `L1_IS_BLOCK`, `L2_IS_BLOCK`, `L3_IS_BLOCK` | Removed \u2014 callers now test `PTE_TYPE` directly or inline |\n| `mmu_make_table_pte` | Existed as static helper | Removed entirely; folded into callers |\n| Static `mmu_pt_L1` pointer | Global | Removed \u2014 L1 tables are now heap-allocated per L0 entry |\n| `mmu_pt_get_l2` | Assumed block-empty L1 | Now promotes a pre-existing L1 block into an L2 table (split-down path) |\n| Comment/doc | Described only 16K layout | Updated to describe both 4K and 16K layouts |\n\n---\n\n### 2. Affected Definitions (Precise \u2014 source read)\n\nAll definitions are in [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c):\n\n#### Macros redefined\n- [`VADDR_L1_INDEX_BITS`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L63) \u2014 removed `_ACTUAL` variant; now always `is_16k() ? 11 : 9`\n- [`VADDR_L0_OFFSET_BITS`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L69) \u2014 **new**; `is_16k() ? 47 : 39`\n- `ENTRIES_PER_L1_TABLE` \u2014 removed `_ACTUAL` variant\n- `L0_IS_TABLE` \u2014 **new** macro at [L82](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L82)\n- `L1_IS_BLOCK`, `L2_IS_BLOCK`, `L3_IS_BLOCK` \u2014 **removed**\n\n#### Functions added\n- [`mmu_pt_get_l1(u64 from)`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L178-L194) \u2014 lazy allocate/lookup L1 table from L0 index; uses `VADDR_L0_OFFSET_BITS`\n- [`mmu_pt_map_l1(u64 from, u64 to, u64 size)`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L196-L215) \u2014 install L1 block PTEs (4K path only); frees any existing L2 tables\n\n#### Functions substantively modified\n- [`mmu_pt_get_l2`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L217-L241) \u2014 now calls `mmu_pt_get_l1` instead of indexing `mmu_pt_L1` directly; adds split-down of existing L1 block into an L2 table\n- [`mmu_map`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L308-L366) \u2014 gains a `!is_16k()` conditional block inserting L2-then-L1 alignment phases before the shared L2 block phase\n- [`mmu_init_pagetables`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L368-L373) \u2014 stripped to allocate only `mmu_pt_L0`; removes static L1 setup loop\n\n#### Functions removed\n- `mmu_make_table_pte` \u2014 was a 4-line helper; logic inlined into `mmu_pt_get_l1` and `mmu_pt_get_l2`\n\n#### Variables\n- `static u64 *mmu_pt_L1` \u2014 **removed** from [L176 area]; L1 tables are now heap-allocated per L0 entry\n\n---\n\n### 3. References / Callers (Precise \u2014 source read at cutoff)\n\n**`mmu_map` callers** \u2014 all within `src/memory.c` (internal linkage for the two-argument wrappers):\n\n| Caller | File | Line | Purpose |\n|--------|------|------|---------|\n| `mmu_add_mapping` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L375-L386) | 377 | Maps range with MAIR/perms flags |\n| `mmu_rm_mapping` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L388-L392) | 390 | Unmaps range (passes `to=0`) |\n\n**`mmu_add_mapping` callers** (public API, declared in `memory.h`):\n\n| Caller | File |\n|--------|------|\n| `mmu_map_mmio` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L417) |\n| `mmu_add_default_mappings` (x8 calls) | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L478-L519) |\n| `mmu_map_framebuffer` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L459) |\n| `mmu_remap_ranges` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L445-L448) |\n| `mcc_unmap_carveouts` \u2192 `mmu_rm_mapping` | [`src/mcc.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/mcc.c) (imports `memory.h`) |\n\n**`mmu_pt_get_l1` callers** \u2014 file-internal only:\n- `mmu_pt_map_l1` [L206](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L206)\n- `mmu_pt_get_l2` [L219](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L219)\n\n**`is_16k()` definition** \u2014 *search-based*: `is_16k()` is defined in [`src/utils.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/utils.h) (transitively included via `cpu_regs.h`\u2192`midr.h`\u2192`soc.h`). The `is_16k()` macro/function tests hardware page size at runtime; precise definition requires a further search into `utils.h` beyond the lines read \u2014 **this is partially unresolved at current search depth** and should be verified by reading `src/utils.h` lines 200+.\n\n---\n\n### 4. Public API Surface (Precise \u2014 `src/memory.h`)\n\n[`src/memory.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.h) is **unchanged** by this commit. The public API boundary is:\n\n```c\nvoid mmu_init(void);                                            // line 71\nvoid mmu_init_secondary(int cpu);                               // line 72\nvoid mmu_shutdown(void);                                        // line 73\nvoid mmu_add_mapping(u64 from, u64 to, size_t size,\n                     u8 attribute_index, u64 perms);            // line 74\nvoid mmu_rm_mapping(u64 from, size_t size);                     // line 75\nvoid mmu_map_framebuffer(u64 addr, size_t size);                // line 76\nu64  mmu_disable(void);                                         // line 78\nvoid mmu_restore(u64 state);                                    // line 79\nstatic inline bool mmu_active(void);                            // line 81\n```\n\nAll callers of the public API are insulated from the internal restructuring \u2014 the `mmu_map` function itself is `static` (`int mmu_map(...)`) and is not exposed in `memory.h`. **No API break occurred.**\n\nAll PTE flag macros (`PTE_VALID`, `PTE_BLOCK`, `PTE_TABLE`, `PTE_PAGE`, `PERM_*`, `MAIR_IDX_*`) in `memory.h` are unchanged. The removed block macros (`L1_IS_BLOCK`, etc.) were always `memory.c`-internal (not in the header).\n\n---\n\n### 5. Dependency Boundaries (Precise \u2014 source read)\n\n**Imports into `src/memory.c`:**\n\n| Header | Purpose |\n|--------|---------|\n| [`memory.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.h) | Own public declarations + PTE macros |\n| [`adt.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/adt.h) | ADT parsing for MMIO/pmap ranges |\n| [`assert.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/assert.h) (implied) | `assert()` used extensively in new L1 functions |\n| [`cpu_regs.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/cpu_regs.h) | SCTLR, TCR, MAIR register definitions |\n| [`fb.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/fb.h) | `fb_console_reserve_lines` in `mmu_shutdown` |\n| [`gxf.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/gxf.h) | GXF-related calls |\n| [`malloc.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/malloc.h) | `memalign`, `free` \u2014 **critical**: new L1 code calls `memalign` and `free` |\n| [`mcc.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/mcc.h) | `mcc_unmap_carveouts` |\n| [`smp.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/smp.h) | `smp_call4`, `smp_wait`, `smp_id` |\n| [`string.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/string.h) | `memset64` |\n| [`utils.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/utils.h) | `is_16k()`, `ALIGN_UP/DOWN`, `GENMASK`, `BIT`, `FIELD_PREP/GET`, `MASK` |\n| [`xnuboot.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/xnuboot.h) | `cur_boot_args`, `_base`, `_rodata_end` |\n\n**External consumers of `memory.h`** (search-based \u2014 confirmed by `#include \"memory.h\"` in `src/mcc.c` L6):\n- `src/mcc.c` \u2014 calls `mmu_rm_mapping` via `mcc_unmap_carveouts`\n- `src/hv_vm.c` \u2014 imports `memory.h` indirectly (confirmed by include of `hv.h`; `hv_vm.c` does have its own parallel page-table layer for stage-2 at [L1-80](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/hv_vm.c?L1-80))\n- Further consumers require a search-based inventory and are **not exhaustively confirmed at this revision**.\n\n**Key new runtime dependency introduced:** `malloc.h` `free()` is now called in `mmu_pt_map_l1` [L209](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L209) when upgrading an L1 block to an L2 table frees the old L2. This is a new dynamic memory management coupling that did not exist in the prior version.\n\n---\n\n### 6. CODEOWNERS Domains (Precise \u2014 `CODEOWNERS` read)\n\n[`CODEOWNERS`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/CODEOWNERS):\n\n```\n* @svenpeter42 @jannau\nrust/ @jannau @WhatAmISupposedToPutHere\n```\n\n- `src/memory.c` matches the glob `*` \u2192 **owners: `@svenpeter42`, `@jannau`**\n- The `rust/` override does not apply.\n- No sub-path override exists for `src/` or `src/memory.c`.\n\n---\n\n### 7. Tests and Documentation (Precise/Search-based)\n\n**Automated tests:**\n- [`tests/python/`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/tree/tests/python) contains only [`tests/python/test_proxyclient/`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/tree/tests/python/test_proxyclient) and a `.gitkeep`. There are no unit tests for `memory.c` in the repository at this revision. **(Unavailable metadata: no test coverage for MMU page-table logic exists in-tree.)**\n- `pytest.ini` and `requirements.txt` are present at root, suggesting proxyclient/Python tests exist for higher-level behavior but not low-level C MMU logic.\n\n**Documentation:**\n- The sole documentation update is the inline comment block at [L86-L98](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L86-L98) replacing the old 16K-only layout description with a dual 4K/16K description.\n- `README.md` exists at root but was not modified by this commit (confirmed by diff scope \u2014 single file only).\n- No dedicated documentation directory (`docs/`) exists in the repository tree.\n\n---\n\n### 8. Later Fixes / Refactors / Reverts (Metadata Availability)\n\n**Unavailable.** The commit search tool returned zero results for this repository across all attempted message-term queries. The `sg-evals` mirror does not index commit history in a way accessible to the commit search tool. Determining whether subsequent commits fix bugs introduced here (e.g., in the `mmu_pt_get_l2` block-split path, the `free()` call correctness, or the CTRR boundary logic under 4K) **cannot be established from this stratum without access to the upstream `asahilinux/m1n1` commit log or a diff search across subsequent SHAs.**\n\n**Verification step (deterministic):** To find follow-on fixes, run:\n```\ngit log --oneline 7c7716b6a196c7e601f9f22bb8af335c1b8173ce..HEAD -- src/memory.c\n```\nin the upstream repository, or search the upstream GitHub commit history for `src/memory.c` changes after this SHA.\n\n---\n\n### 9. Navigation Method Register\n\n| Finding | Method |\n|---------|--------|\n| Diff of changed lines | Precise \u2014 `compare_revisions` tool |\n| Post-change function bodies | Precise \u2014 `read_file` with line ranges |\n| Public API surface | Precise \u2014 `read_file` on `memory.h` |\n| Internal call graph (`mmu_pt_get_l1` \u2192 `mmu_pt_get_l2` \u2192 `mmu_pt_get_l3`) | Precise \u2014 source read |\n| External callers (`mcc.c` imports `memory.h`) | Precise \u2014 `read_file` confirmed `#include \"memory.h\"` |\n| `is_16k()` origin | Search-based \u2014 located in `utils.h` chain; exact definition body not read |\n| Full external consumer list of `memory.h` | Search-based \u2014 partial; keyword search returned no results in mirror |\n| CODEOWNERS domain | Precise \u2014 `read_file` |\n| Test coverage absence | Precise \u2014 `list_files` on `tests/` |\n| Later fixes/reverts | **Unavailable** \u2014 commit search returned no results in mirror |\n\n---\n\n### 10. Explicitly Unavailable Metadata\n\n1. **Commit message** \u2014 the mirror's commit search is non-functional; the canonical commit message from `asahilinux/m1n1` is not retrievable through these tools.\n2. **Subsequent fixes/refactors/reverts** \u2014 no commit history is searchable in the mirror.\n3. **`is_16k()` exact runtime implementation** \u2014 requires reading deeper into `utils.h` (lines 200+) or `cpu_regs.h`; not read at this session depth.\n4. **Full `memory.h` consumer list** \u2014 keyword search across the mirror returned no results; only `mcc.c` was confirmed via direct file read.\n5. **CI/CD configuration** \u2014 `.github/` directory exists but was not read; build/test pipeline specifics for 4K-device coverage are unknown.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:31:02Z",
+    "name": "users/476/conversations/2020",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a thorough picture of the commit. Let me compile the full semantic topology report.\n\n---\n\n## Semantic Topology Map \u2014 Commit `7c7716b6a196c7e601f9f22bb8af335c1b8173ce`\n\n**Repository:** `asahilinux/m1n1` (mirror: `github.com/sg-evals/asahilinux-m1n1`)  \n**Sole file changed:** [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c) \u2014 +93 / \u221263\n\n---\n\n### 1. Change Summary\n\nThe commit rewrites the two-level (L0\u2192L1\u2192L2\u2192L3) MMU page-table management in `src/memory.c` to support both **4K paging** (A7/A8/A8X) and **16K paging** (all Apple Silicon Macs), rather than assuming 16K only. The structural changes are:\n\n| Aspect | Before | After |\n|--------|--------|-------|\n| L0\u2192L1 wiring | Statically pre-wired at init using a double-size concatenated L1 table and a loop in `mmu_init_pagetables` | Fully lazy/dynamic: `mmu_pt_get_l1()` allocates L1 tables on demand |\n| L1 blocks (4K only) | Not supported | New `mmu_pt_map_l1()` + `mmu_pt_get_l1()` for 4K L1-block mappings |\n| `mmu_map` logic | Linear L3\u2192L2 only | Conditional `!is_16k()` branch adds L2\u2192L1 alignment phase |\n| `VADDR_L1_INDEX_BITS` | Had `_ACTUAL` split for concatenated trick | Collapsed to single `VADDR_L1_INDEX_BITS` (11 or 9 depending on page size) |\n| `VADDR_L0_OFFSET_BITS` | Absent | Added (`47` for 16K, `39` for 4K) |\n| Block macros removed | `L1_IS_BLOCK`, `L2_IS_BLOCK`, `L3_IS_BLOCK` | Removed \u2014 callers now test `PTE_TYPE` directly or inline |\n| `mmu_make_table_pte` | Existed as static helper | Removed entirely; folded into callers |\n| Static `mmu_pt_L1` pointer | Global | Removed \u2014 L1 tables are now heap-allocated per L0 entry |\n| `mmu_pt_get_l2` | Assumed block-empty L1 | Now promotes a pre-existing L1 block into an L2 table (split-down path) |\n| Comment/doc | Described only 16K layout | Updated to describe both 4K and 16K layouts |\n\n---\n\n### 2. Affected Definitions (Precise \u2014 source read)\n\nAll definitions are in [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c):\n\n#### Macros redefined\n- [`VADDR_L1_INDEX_BITS`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L63) \u2014 removed `_ACTUAL` variant; now always `is_16k() ? 11 : 9`\n- [`VADDR_L0_OFFSET_BITS`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L69) \u2014 **new**; `is_16k() ? 47 : 39`\n- `ENTRIES_PER_L1_TABLE` \u2014 removed `_ACTUAL` variant\n- `L0_IS_TABLE` \u2014 **new** macro at [L82](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L82)\n- `L1_IS_BLOCK`, `L2_IS_BLOCK`, `L3_IS_BLOCK` \u2014 **removed**\n\n#### Functions added\n- [`mmu_pt_get_l1(u64 from)`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L178-L194) \u2014 lazy allocate/lookup L1 table from L0 index; uses `VADDR_L0_OFFSET_BITS`\n- [`mmu_pt_map_l1(u64 from, u64 to, u64 size)`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L196-L215) \u2014 install L1 block PTEs (4K path only); frees any existing L2 tables\n\n#### Functions substantively modified\n- [`mmu_pt_get_l2`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L217-L241) \u2014 now calls `mmu_pt_get_l1` instead of indexing `mmu_pt_L1` directly; adds split-down of existing L1 block into an L2 table\n- [`mmu_map`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L308-L366) \u2014 gains a `!is_16k()` conditional block inserting L2-then-L1 alignment phases before the shared L2 block phase\n- [`mmu_init_pagetables`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L368-L373) \u2014 stripped to allocate only `mmu_pt_L0`; removes static L1 setup loop\n\n#### Functions removed\n- `mmu_make_table_pte` \u2014 was a 4-line helper; logic inlined into `mmu_pt_get_l1` and `mmu_pt_get_l2`\n\n#### Variables\n- `static u64 *mmu_pt_L1` \u2014 **removed** from [L176 area]; L1 tables are now heap-allocated per L0 entry\n\n---\n\n### 3. References / Callers (Precise \u2014 source read at cutoff)\n\n**`mmu_map` callers** \u2014 all within `src/memory.c` (internal linkage for the two-argument wrappers):\n\n| Caller | File | Line | Purpose |\n|--------|------|------|---------|\n| `mmu_add_mapping` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L375-L386) | 377 | Maps range with MAIR/perms flags |\n| `mmu_rm_mapping` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L388-L392) | 390 | Unmaps range (passes `to=0`) |\n\n**`mmu_add_mapping` callers** (public API, declared in `memory.h`):\n\n| Caller | File |\n|--------|------|\n| `mmu_map_mmio` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L417) |\n| `mmu_add_default_mappings` (x8 calls) | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L478-L519) |\n| `mmu_map_framebuffer` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L459) |\n| `mmu_remap_ranges` | [`src/memory.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L445-L448) |\n| `mcc_unmap_carveouts` \u2192 `mmu_rm_mapping` | [`src/mcc.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/mcc.c) (imports `memory.h`) |\n\n**`mmu_pt_get_l1` callers** \u2014 file-internal only:\n- `mmu_pt_map_l1` [L206](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L206)\n- `mmu_pt_get_l2` [L219](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L219)\n\n**`is_16k()` definition** \u2014 *search-based*: `is_16k()` is defined in [`src/utils.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/utils.h) (transitively included via `cpu_regs.h`\u2192`midr.h`\u2192`soc.h`). The `is_16k()` macro/function tests hardware page size at runtime; precise definition requires a further search into `utils.h` beyond the lines read \u2014 **this is partially unresolved at current search depth** and should be verified by reading `src/utils.h` lines 200+.\n\n---\n\n### 4. Public API Surface (Precise \u2014 `src/memory.h`)\n\n[`src/memory.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.h) is **unchanged** by this commit. The public API boundary is:\n\n```c\nvoid mmu_init(void);                                            // line 71\nvoid mmu_init_secondary(int cpu);                               // line 72\nvoid mmu_shutdown(void);                                        // line 73\nvoid mmu_add_mapping(u64 from, u64 to, size_t size,\n                     u8 attribute_index, u64 perms);            // line 74\nvoid mmu_rm_mapping(u64 from, size_t size);                     // line 75\nvoid mmu_map_framebuffer(u64 addr, size_t size);                // line 76\nu64  mmu_disable(void);                                         // line 78\nvoid mmu_restore(u64 state);                                    // line 79\nstatic inline bool mmu_active(void);                            // line 81\n```\n\nAll callers of the public API are insulated from the internal restructuring \u2014 the `mmu_map` function itself is `static` (`int mmu_map(...)`) and is not exposed in `memory.h`. **No API break occurred.**\n\nAll PTE flag macros (`PTE_VALID`, `PTE_BLOCK`, `PTE_TABLE`, `PTE_PAGE`, `PERM_*`, `MAIR_IDX_*`) in `memory.h` are unchanged. The removed block macros (`L1_IS_BLOCK`, etc.) were always `memory.c`-internal (not in the header).\n\n---\n\n### 5. Dependency Boundaries (Precise \u2014 source read)\n\n**Imports into `src/memory.c`:**\n\n| Header | Purpose |\n|--------|---------|\n| [`memory.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.h) | Own public declarations + PTE macros |\n| [`adt.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/adt.h) | ADT parsing for MMIO/pmap ranges |\n| [`assert.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/assert.h) (implied) | `assert()` used extensively in new L1 functions |\n| [`cpu_regs.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/cpu_regs.h) | SCTLR, TCR, MAIR register definitions |\n| [`fb.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/fb.h) | `fb_console_reserve_lines` in `mmu_shutdown` |\n| [`gxf.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/gxf.h) | GXF-related calls |\n| [`malloc.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/malloc.h) | `memalign`, `free` \u2014 **critical**: new L1 code calls `memalign` and `free` |\n| [`mcc.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/mcc.h) | `mcc_unmap_carveouts` |\n| [`smp.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/smp.h) | `smp_call4`, `smp_wait`, `smp_id` |\n| [`string.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/string.h) | `memset64` |\n| [`utils.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/utils.h) | `is_16k()`, `ALIGN_UP/DOWN`, `GENMASK`, `BIT`, `FIELD_PREP/GET`, `MASK` |\n| [`xnuboot.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/xnuboot.h) | `cur_boot_args`, `_base`, `_rodata_end` |\n\n**External consumers of `memory.h`** (search-based \u2014 confirmed by `#include \"memory.h\"` in `src/mcc.c` L6):\n- `src/mcc.c` \u2014 calls `mmu_rm_mapping` via `mcc_unmap_carveouts`\n- `src/hv_vm.c` \u2014 imports `memory.h` indirectly (confirmed by include of `hv.h`; `hv_vm.c` does have its own parallel page-table layer for stage-2 at [L1-80](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/hv_vm.c?L1-80))\n- Further consumers require a search-based inventory and are **not exhaustively confirmed at this revision**.\n\n**Key new runtime dependency introduced:** `malloc.h` `free()` is now called in `mmu_pt_map_l1` [L209](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L209) when upgrading an L1 block to an L2 table frees the old L2. This is a new dynamic memory management coupling that did not exist in the prior version.\n\n---\n\n### 6. CODEOWNERS Domains (Precise \u2014 `CODEOWNERS` read)\n\n[`CODEOWNERS`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/CODEOWNERS):\n\n```\n* @svenpeter42 @jannau\nrust/ @jannau @WhatAmISupposedToPutHere\n```\n\n- `src/memory.c` matches the glob `*` \u2192 **owners: `@svenpeter42`, `@jannau`**\n- The `rust/` override does not apply.\n- No sub-path override exists for `src/` or `src/memory.c`.\n\n---\n\n### 7. Tests and Documentation (Precise/Search-based)\n\n**Automated tests:**\n- [`tests/python/`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/tree/tests/python) contains only [`tests/python/test_proxyclient/`](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/tree/tests/python/test_proxyclient) and a `.gitkeep`. There are no unit tests for `memory.c` in the repository at this revision. **(Unavailable metadata: no test coverage for MMU page-table logic exists in-tree.)**\n- `pytest.ini` and `requirements.txt` are present at root, suggesting proxyclient/Python tests exist for higher-level behavior but not low-level C MMU logic.\n\n**Documentation:**\n- The sole documentation update is the inline comment block at [L86-L98](https://demo.sourcegraph.com/r/github.com/sg-evals/asahilinux-m1n1@7c7716b6a196c7e601f9f22bb8af335c1b8173ce/-/blob/src/memory.c?L86-L98) replacing the old 16K-only layout description with a dual 4K/16K description.\n- `README.md` exists at root but was not modified by this commit (confirmed by diff scope \u2014 single file only).\n- No dedicated documentation directory (`docs/`) exists in the repository tree.\n\n---\n\n### 8. Later Fixes / Refactors / Reverts (Metadata Availability)\n\n**Unavailable.** The commit search tool returned zero results for this repository across all attempted message-term queries. The `sg-evals` mirror does not index commit history in a way accessible to the commit search tool. Determining whether subsequent commits fix bugs introduced here (e.g., in the `mmu_pt_get_l2` block-split path, the `free()` call correctness, or the CTRR boundary logic under 4K) **cannot be established from this stratum without access to the upstream `asahilinux/m1n1` commit log or a diff search across subsequent SHAs.**\n\n**Verification step (deterministic):** To find follow-on fixes, run:\n```\ngit log --oneline 7c7716b6a196c7e601f9f22bb8af335c1b8173ce..HEAD -- src/memory.c\n```\nin the upstream repository, or search the upstream GitHub commit history for `src/memory.c` changes after this SHA.\n\n---\n\n### 9. Navigation Method Register\n\n| Finding | Method |\n|---------|--------|\n| Diff of changed lines | Precise \u2014 `compare_revisions` tool |\n| Post-change function bodies | Precise \u2014 `read_file` with line ranges |\n| Public API surface | Precise \u2014 `read_file` on `memory.h` |\n| Internal call graph (`mmu_pt_get_l1` \u2192 `mmu_pt_get_l2` \u2192 `mmu_pt_get_l3`) | Precise \u2014 source read |\n| External callers (`mcc.c` imports `memory.h`) | Precise \u2014 `read_file` confirmed `#include \"memory.h\"` |\n| `is_16k()` origin | Search-based \u2014 located in `utils.h` chain; exact definition body not read |\n| Full external consumer list of `memory.h` | Search-based \u2014 partial; keyword search returned no results in mirror |\n| CODEOWNERS domain | Precise \u2014 `read_file` |\n| Test coverage absence | Precise \u2014 `list_files` on `tests/` |\n| Later fixes/reverts | **Unavailable** \u2014 commit search returned no results in mirror |\n\n---\n\n### 10. Explicitly Unavailable Metadata\n\n1. **Commit message** \u2014 the mirror's commit search is non-functional; the canonical commit message from `asahilinux/m1n1` is not retrievable through these tools.\n2. **Subsequent fixes/refactors/reverts** \u2014 no commit history is searchable in the mirror.\n3. **`is_16k()` exact runtime implementation** \u2014 requires reading deeper into `utils.h` (lines 200+) or `cpu_regs.h`; not read at this session depth.\n4. **Full `memory.h` consumer list** \u2014 keyword search across the mirror returned no results; only `mcc.c` was confirmed via direct file read.\n5. **CI/CD configuration** \u2014 `.github/` directory exists but was not read; build/test pipeline specifics for 4K-device coverage are unknown."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:31:02Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/asahilinux-m1n1 at revision 7c7716b6a196c7e601f9f22bb8af335c1b8173ce, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: asahilinux/m1n1; stratum: policy_control; cutoff: 7c7716b6a196c7e601f9f22bb8af335c1b8173ce."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Semantic topology mapping for asahilinux/m1n1 policy_control at revision",
+    "updateTime": "2026-07-29T03:33:47Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/db26a9b6-c694-4aa3-b0f9-a3454462b0c3"
+  },
+  "run_id": "sha256:1845b846f3587b58b493b1d0810494a83e8d09707708dd630e8f01073bfbc6d0",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "asahilinux/m1n1"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

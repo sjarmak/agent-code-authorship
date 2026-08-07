@@ -1,0 +1,1348 @@
+{
+  "reviewer_id": "local-t5-primary-b",
+  "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+  "task_start": 67,
+  "task_end": 133,
+  "responses": [
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "feedab16a0949e21412c52a2d1cca4e3b60c1cd5d97d14c3e2011a4f4178b6a5",
+      "task_sha256": "7ab309df0dc20747919ba6e06ade490150edef9c583719d4f73e437ff17b10c8",
+      "canonical_repository_id": "microsoft/go-sqlcmd",
+      "event_id": "9c42ca7bc305037338346c8706a301bc9b6387e57832ab62a16021f492d8bb3a",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README documents creating a local SQL Server instance and connecting with Azure Data Studio; it does not mention AI coding-agent use in the repository.",
+      "evidence_citations": [
+        "https://github.com/microsoft/go-sqlcmd/blob/a9e3ab59eaef20337e5c8e3ee2324058f17bc0ec/README.md#L64"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "452a7faac588f53b1bcaff56927ec648c2a63fc951035d14dd0705c04a4cd195"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "244a7c591e08e288860a8020d50d28c32647171b7716a3beaddb97086b0b82af",
+      "task_sha256": "ffdb884550e57c2a5c1bfd41ffc608d08d74adb95ecf34168778cade3ec311dd",
+      "canonical_repository_id": "microsoft/graphrag",
+      "event_id": "bc7cf073824dd6a2d8c516d97fc660258d2ce5e80365ee44c5e666a5fd47d9bf",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited GraphRAG application README covers environment setup, dataset configuration, and generated suggested questions; it does not establish coding-agent adoption for repository development.",
+      "evidence_citations": [
+        "https://github.com/microsoft/graphrag/blob/14a00ad88fc33cf2b52f4f113f25807556f8e25e/unified-search-app/README.md#L12"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "621cf0fac4b03d0a281c12c69f3ad9d3d98ae902b10fa3c480a68c835b256a48"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "b5a554a8efb676fbf6344b46c998d67d3f7fa3d119435488f391a76e496e09ed",
+      "task_sha256": "93cbc107a4d5f4e68dd388ac478195bb517239293e7ab6a0310bd99a45c56fc7",
+      "canonical_repository_id": "microsoft/qcodes",
+      "event_id": "a3c9a0506b594f5c9c17756cf1784a9d372d12bc6d59df2f73d66e2cbad9064a",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited contribution guide describes required CI jobs and pytest execution, with no evidence of AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/microsoft/Qcodes/blob/3ef949464da5e91ad21eafdad0c0c0eedf4c195f/CONTRIBUTING.rst#L322"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "2f46f0735c99702d7d8ff6106ef0632b26a129d403a74f69494d2ae15859022c"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "e92a849c4b820c0db69dd1c2812a23137f0d39df358f698f451dead1a60751c1",
+      "task_sha256": "30ec3033d54ff410f03105a0f3d90168127ff7bce31cc633fea1fdb9785fa380",
+      "canonical_repository_id": "microsoft/rd-agent",
+      "event_id": "073777ef95b35df8b4127d5a1bc37fa945a370ca1dc29fb31c6e2a3c5ebdbd99",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README lines only create and activate a Conda environment for RD-Agent; they do not show that an AI coding agent authored or was adopted for this repository.",
+      "evidence_citations": [
+        "https://github.com/microsoft/RD-Agent/blob/4f9ecb005881cddc08df0124a2e894c018007679/README.md#L132"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "3a29f94f15b889d4bc1057e5f9f5e5475f3c43189a1c8a861f8cb5bc4cf41403"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "3c5d465d4975caa5cad00006af7fb008353edaff13ee6475c55838f843ee9c32",
+      "task_sha256": "341658dd9aacb388a079540c2f3ccb6e1835c59069721833a73b361e47a6897b",
+      "canonical_repository_id": "microsoft/retina",
+      "event_id": "29e5f985d47be601f4e48a80041d867fd53067479c27d0cc9e846537c29897d7",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README recommends installing the Retina CLI through Krew, which is ordinary installation guidance unrelated to AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/microsoft/retina/blob/4909dbc3f38ed95466c2f148cf930dd265c4c1bb/README.md#L72"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "31d7d7ab89499fa0494582e34b702d501f8ed9b057c9bc50165d3a56661395b2"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "9ea567dce5cbac6a7d19883ca184a18d8b4fd2806ff06fe12964c5a9137b2580",
+      "task_sha256": "0d244428dc3822dcb059f329c6b07db28aa2dfcca7c0dd32418aeec0b82ab40c",
+      "canonical_repository_id": "microsoft/terminal",
+      "event_id": "28e268ceb50b733b0c0737777ce2a2af87dae3217a7e8a43b26aa35619f2d8e3",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited ColorTool README discusses terminal color tooling and a code of conduct; none of the evidence concerns an AI coding agent.",
+      "evidence_citations": [
+        "https://github.com/microsoft/terminal/blob/4f225a56aff245bbb9d1400f266c20e1747cc580/src/tools/ColorTool/README.md#L45"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "49e48613ca0053ce4d90bd5095b2dff402b7c4fa9cb515e976e970058e068f27"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "9dd911f128f96c521c5a87a03f24b00322a7a3620f355bece0baa20d8e385bcb",
+      "task_sha256": "1b1c1cdca7c5901da5813caf874ffc76942556a5c410b3f13a8842c34c5719fd",
+      "canonical_repository_id": "microsoft/typescript",
+      "event_id": "c6b26716706d3f6c84d0f02666c4c540aa9856ffba1604a9b25268d4561a96e4",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited contribution instruction is a generic step for installing Node.js and provides no evidence of AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/microsoft/TypeScript/blob/cc5c6e2d32e2228fff83a66537bbe6042943054d/CONTRIBUTING.md#L91"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "73821cc35c8dd5d8f4af82ee5d770be060fab66e4030c399c031c21a25dcf729"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "970fd87422a5155015a3b5fb3c574cdcd745530a9941f105644c80c273bc9149",
+      "task_sha256": "a297786c4a65579469acd881c521a90de4a2c30ad08d7558ea772acf2e08bff1",
+      "canonical_repository_id": "microsoft/vscode",
+      "event_id": "5194da7b7e10f6302656e94562be75544049ee27796d076ef695134e78d1d7d6",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited JSON language-service documentation describes a schema URL property, not AI coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/microsoft/vscode/blob/e04b6ae5cc95d3f73d7dec621d98a2257936f091/extensions/json-language-features/server/README.md#L109"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "f4fd0af18103a7e6f10c4a431b436ba5645aa708d7ba43333ed026963de6e7a4"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "ec2398a0de0d2c90f428586a3a1c94f86eede1c6d14630953bc84150e2f82eec",
+      "task_sha256": "c6225bb28dc8d358bade4dcc4dcfa3333a4a0efb21383e2ed840fb13a9c15ba5",
+      "canonical_repository_id": "moby/moby",
+      "event_id": "f064f033699d681707bed6307e501fda5d03baae0c648e91b1f28829795ca0b7",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited changelog entry reports the Docker cgroup driver field returned by an API and is unrelated to AI coding agents.",
+      "evidence_citations": [
+        "https://github.com/moby/moby/blob/7a4a06cc8976c8001160942e66d688cf91f8d633/api/docs/CHANGELOG.md#L977"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "0d6906b3b76980c626845a4fd36b5a2e960d6b0a4bdd4df07d150be07fc84b03"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "bb3408e239bd561bb52590f110c16fa5edcccdf854a3fb9f950e32922b6fb4ec",
+      "task_sha256": "8a69c7426ebd3edab6227dae8d68d57dfe5dede3bd5ce7e761f2017e919297b8",
+      "canonical_repository_id": "mochilang/mochi",
+      "event_id": "0432d6978944b22bb81c82ea79b1435b830c7d6966bd94da507a581f8daceabf",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited source identifies a Claude REST provider inside Mochi runtime functionality, but it does not show adoption of a coding agent to develop this repository.",
+      "evidence_citations": [
+        "https://github.com/mochilang/mochi/blob/d09ff8d479f0e855b1d20216873d19279d3a5fdc/runtime/llm/provider/claude/claude.go#L19"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "d80ffcd3949116992097e09923215236866082585cdba048b253d7600d6efc3d"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "01eda6c872392782465bf7e6efa9f9022ecb940502cf2597fc50c7d50eb10c0b",
+      "task_sha256": "b4590300c073b6d9bc96e216c14b9393d092b7baa400e0a2b6ad4ee3e4959b34",
+      "canonical_repository_id": "modelcontextprotocol/servers",
+      "event_id": "8fb756a99753f14bc48840dce90425cdc696cd174272efea11e5e68400cea6c4",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README headings describe installing the MCP git server with uvx or pip; they do not establish repository development with an AI coding agent.",
+      "evidence_citations": [
+        "https://github.com/modelcontextprotocol/servers/blob/d31124c982401739917fd817c2a59db344529c16/src/git/README.md#L129"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "4e08dcaf0424a934853899b445c23b6c9632cee69b19dbcaaeab5f751c9ce6ca"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "dd8715e678af08f2ca1d49e87408c9ea18d8a78ae0cbbecc4da77f391b33b2d7",
+      "task_sha256": "9735db58e74d78c6e654bcf710a6a1a1972dfb0cf0198db3139e585856f69cad",
+      "canonical_repository_id": "mrdoob/three.js",
+      "event_id": "48abccd364b34a2132b910ceab33afb48eb96de8085fe146ad527013d8b599b0",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit explicitly credits Copilot Autofix powered by AI as a co-author of the code-scanning fix, establishing repository-linked coding-agent use at this event.",
+      "evidence_citations": [
+        "https://github.com/mrdoob/three.js/commit/e04f92e17234ad17e1cdbc15c9d5c2a08fd5d929"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "200d31d56dd40368d6cd30fd3423635a79c4a8892761b9b3396282845ddd142b"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "5c4600d91037e983f01b8812c16fde1891304182f924311f822a519161f9a8c7",
+      "task_sha256": "162c4b1d5a9382b6dc4e0a28b18af864a48b3246af6f0852049bd99313a8bbc1",
+      "canonical_repository_id": "mui/material-ui",
+      "event_id": "3fd5433cb5d28de37886e792a23de86bea6901d3d5280768e5728e1a46a47798",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README merely discourages a CDN-based production setup and contains no AI coding-agent evidence.",
+      "evidence_citations": [
+        "https://github.com/mui/material-ui/blob/4d5fe7254baa7e97e38b516f37c7af13128468b7/examples/material-ui-via-cdn/README.md#L26"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "ce9a9152ae0b04d22f4b83ec80776aa50ddc808f0479db8aa550b8cc60b9c247"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "78ff38ec12cc01de977b1ddd2bce9f51322421ba3d4d2d98ce05e76c72fc6bb0",
+      "task_sha256": "264ca6624f93ca86c684fc9648b028d2d502eb13a7da003c9b45ab03d3c8b40c",
+      "canonical_repository_id": "n8n-io/n8n",
+      "event_id": "35b32d34892a5b9cc059836ff659d8f24ca0aabef1a6d5f8b4d21de5c754dcf2",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited source configures LangChain agent variants as n8n product functionality; it does not establish that a coding agent was adopted to author the repository.",
+      "evidence_citations": [
+        "https://github.com/n8n-io/n8n/blob/5339b5e48a2b844958ba20cbc8c68f8256104604/packages/%40n8n/nodes-langchain/nodes/agents/Agent/agents/ReActAgent/description.ts#L39"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "206b3765cbebbb8633c8184fd72be53367366deee0434351fc3541097372d733"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "97eedc616841f55b87b8fd73117d8f0020d6829469ab1719ec37a78e0736af25",
+      "task_sha256": "4b3f1c48daa9a23f90235c2c9fc3965cb28f56fee2e437b76dacf3d6e90b94c4",
+      "canonical_repository_id": "nationalsecurityagency/ghidra",
+      "event_id": "d26a8a68852a46776fcac76bb62c5ef614d000360b3b3c60cc042ee1da5e3fc1",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited demangler README describes building with Visual Studio and binutils, with no AI coding-agent evidence.",
+      "evidence_citations": [
+        "https://github.com/NationalSecurityAgency/ghidra/blob/817766af27129d6e88aa4d895ce55c9f1526faec/GPL/DemanglerGnu/src/demangler_gnu_v2_24/README.txt#L16"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "5091965c776aff07e250e0926f9928aef11137f51a82184cd22cc27402128c94"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "5b9c5c13a5961a5c34f0dd1d45027dd74c0e3f09a5d9560589100b33edc5af06",
+      "task_sha256": "16be5f4708cf7f38f7a12d1366c10e7e73a0a1c0e122898c8c306b079308fc9b",
+      "canonical_repository_id": "navidrome/navidrome",
+      "event_id": "4fbd522a171893444ee2bb8199e23e756f0150b401eee30e3a08a359b16b6610",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited Go package implements Navidrome metadata-retrieval agents; this non-AI subsystem does not evidence coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/navidrome/navidrome/blob/93f6afb684b44b29ebdbd35eb18d3f063d14caa6/core/agents/agents.go#L1"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "7d1304544b3826a6b0da5675aee3b83400fdf5adca77054ba6f30c35dd2eb46e"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "e2e80485eeee572ffc861fd4c04aa819ca932ca5b99d8c94bf07f8a70c573baf",
+      "task_sha256": "4d247380ebee6e963ce61f36d9426b4350976a0a2851b3e03fd9a6c574df66f8",
+      "canonical_repository_id": "nektos/act",
+      "event_id": "0c9ea9df55b3ca35a7492f35ebe1e6c00486916a8a71ba22171073987472419e",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The evidence consists of vendored Node module documentation about HTTP agents, user-agent headers, package usage, and mechanically generated build files; it is unrelated to AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/nektos/act/blob/4f411281417e88660bea1c1a1749aa71ae0bd60f/pkg/runner/testdata/actions/node20/node_modules/%40octokit/auth-token/README.md#L166"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "6286c99267098063c54b54bcc01d1b30e79ffe0e361e6c6ecda76ff8efb8cbb2"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "e2dfbc169384b54a10aedbc12e916ca65c34ecbf3b072d6496eb47d9b97ab5ee",
+      "task_sha256": "ae3fc527a0498684b342835b6cc12b04cf61fd13007d2fc43106c81be8cb8d80",
+      "canonical_repository_id": "neovim/neovim",
+      "event_id": "c7dc1fec3e943ea16c1bf2037217ba043e7005e30f78ee0af406a2f236ca87c0",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited syntax README uses generated in the ordinary build-artifact sense and provides no AI coding-agent provenance.",
+      "evidence_citations": [
+        "https://github.com/neovim/neovim/blob/89cab37358a49f7bfe7f3d40b75f8b3a4a573222/runtime/syntax/README.txt#L16"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "c4327732bebe4f8a325ebe3f6b1951fc26e55976cc2a26a38336cbe4f3f3ef33"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "8c2aa670e37562d977e9233b662f7933c641f1dadfa35a53278ba3ee20719474",
+      "task_sha256": "cb9e7aef6f64c6537c7ae5e889cdb5eb37148d27072ea07137356cd00a424d1e",
+      "canonical_repository_id": "nestjs/nest",
+      "event_id": "7a9acbf3d1f008a0e61f0d1c204fcff51df486c967f1f7230bb7078464c2eea6",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited sample README documents local MySQL or Docker prerequisites, not AI coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/nestjs/nest/blob/d8ee0143bdd76b2e81b460a196c15a9387b73ee2/sample/07-sequelize/README.md#L9"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "774f7360d7d29e32f506e06ebccb29c05469d9738e933bb5c593236bd8c71827"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "7665228876df5266331c68723c95c5b97bf98f7797779169b01934372d954510",
+      "task_sha256": "955be816c63118787a9ac58587ee0ae04d1fad4ddf6b08999b2d3e755a4ab560",
+      "canonical_repository_id": "nodejs/node",
+      "event_id": "50cf0fc49e4768029a045d3c5a4bd200db6daf024e311f8e7788157f7a862b90",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited libuv README describes IPC using sockets and named pipes; it is unrelated to AI coding agents.",
+      "evidence_citations": [
+        "https://github.com/nodejs/node/blob/b420cb649d497051f4686cf3cddf4f276d6682b0/deps/uv/README.md#L24"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "590879370f5d5902a15ee696115e207b99aec6a99cc6d1c9223576136e9f3fa9"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "1b56e0a0e6e688b84ed54f0e494ce52435cc2c69faf23aa79463f061cea6c371",
+      "task_sha256": "c24fda2cd1daa2e2162099abd5289b2cd04ff718c3bc40f288a2788ef0fa5c0d",
+      "canonical_repository_id": "nvm-sh/nvm",
+      "event_id": "2bc10ce1d5cf50d2c7cfcdf74d6bf07d6e16d0de5dbbf4a884d6ad5368c6e50a",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited NVM README describes customizing an installer with environment variables and provides no AI coding-agent evidence.",
+      "evidence_citations": [
+        "https://github.com/nvm-sh/nvm/blob/65ded65d46c16481dbbe8e93f8ba9e6b35f20740/README.md#L134"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "875c5159f8edd7ddf5fd17f4db6e69d1e09f7c6eca53bb696143fcae39e77a22"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "476a2dc4399c02f3cfebb01edd7975c04f05898d03a4559fe2cf982e84813324",
+      "task_sha256": "40ab4a936b0d13ea19fb1af755e10a5ae848e5f342f99f8d98ba6fda2405c85f",
+      "canonical_repository_id": "odigos-io/odigos",
+      "event_id": "112616a4880a1ce2b6aa1bdddb4a974ece202764f280984e8b3435da595f68c6",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The diff contains protobuf declarations mechanically generated from a schema; this is non-AI code generation and does not establish coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/odigos-io/odigos/commit/be4f2cbd7478f23430fe618a03493210ea42d03f"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "9672dbb41096662dfafaacc7d590d37d9c06b9b34e8dd94aad7b9b05ff2fceeb"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "7ed425cfb147063ac159a778ccb513b938773ec833b674bf9af3c398a2554fbb",
+      "task_sha256": "7f82335c88c77fa7c5df39410bd5037e118d8e40d7cedbceff685d17ce181c4a",
+      "canonical_repository_id": "oevortex/webscout",
+      "event_id": "aa67b47f8499c51373662e7dd275dc95063eec4cf873ae8f5f4cd08e121f4560",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README describes signing up for a service with a temporary email and is unrelated to AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/OEvortex/Webscout/blob/b27f6214c3acc46357a5b6315e96bc874157b316/llm4free/Extra/tempmail/README.md#L256"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "7628cfb578f816194285019127ecb1f7f290ee72081c102c7aaca44fe7d80a5f"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "e91a4c367f711734af7a19700b5013f51a0aff244e7129ecb4698ccf34679c49",
+      "task_sha256": "a2d0448c3dc0bf0286241d939d0ef35fae84a6cccd17ea987d6db9b3cd31499e",
+      "canonical_repository_id": "ohmyzsh/ohmyzsh",
+      "event_id": "20c9d3300955b0be5e1e5006cefe85a37839e2fc63206acf38bef2694ea4bab1",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited Xcode plugin README covers plugin usage and a naming convention; the word adopted refers to that convention, not an AI coding agent.",
+      "evidence_citations": [
+        "https://github.com/ohmyzsh/ohmyzsh/blob/b37dd49ca5bfe0d99b35607637152cb8cc8b29d7/plugins/xcode/README.md#L5"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "97935329ed4835c4597365372622affce8598dda87c62ab86ad1cc00adfc6003"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "950f191f3c7574fb314b6591061c0ecaef0146def68572d03b5c585ebfabc065",
+      "task_sha256": "c4af9f1a76be2d17bbf8c602f357fd7591bf9da1c286fd86afe399d5b3efbd21",
+      "canonical_repository_id": "onflow/flow-go",
+      "event_id": "197c4769e96248566c8a33a70e0c08877fd2e0aed1a09e6e6115ec655e06461f",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited comments mark a doctoc-generated table of contents, which is mechanical documentation generation rather than AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/onflow/flow-go/blob/6912435382fc51b6c5b1bba9aa3838392cecd2ca/cmd/collection/README.md#L10"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "56cbcf9d5e0b31e7bcbeddda18bcbf55948d8cd6546d8d0779025004074d0f42"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "9c3ec7119cfbae0edbfdb1df07b67e91c872b63c3f199af274ef1a5323371a22",
+      "task_sha256": "35d0112f4c1382be83cee494eb920bc16544b6ebb026526cc795271530a0c4d0",
+      "canonical_repository_id": "onnx/onnx",
+      "event_id": "8bfd543a374df98b4cbf71fb9c727cf58b94e4b0e69102a574ee3eec0714b31c",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited ONNX documentation describes integer and string class labels and has no connection to AI coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/onnx/onnx/blob/da71a46bf43b202be9792f2e0dc45fa02fa85a39/docs/Changelog-ml.md#L1009"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "d94cb7716d3ea62255a18f0b3d8324ae70680c226098f8df7ffe93c7cdcaf7a5"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "12b8e71832d51c5fcfcd45ee0b4e1c347eca126b7206b5a81e986003183a4b9a",
+      "task_sha256": "9839679f693f7dd65c6359b0e0281d69da02030f5efa0de4b612ca192316725c",
+      "canonical_repository_id": "open-webui/open-webui",
+      "event_id": "b11a43a3a40bdcba5a98fc30cd259f5a82d06ab77507ae98f4b88165530bea01",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit explicitly credits Copilot Autofix powered by AI as co-author of an LDAP security fix, establishing actual repository-linked coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/open-webui/open-webui/commit/1f36cad9ef6992733d0c19b9de5bb20f490358cb"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "4624a28741a0eef8fc3c85198fb0aefc8564e61755b5c8b0225296a7c2f00cef"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "d1033791f35388b76e54643d732da5c4b67e4245d5d3d0352f0cfef537b8763d",
+      "task_sha256": "07bc13596ff2cdf5b397b294f4bff228e12936f8f95b3cc2efe1fe58c0aa2521",
+      "canonical_repository_id": "openai/whisper",
+      "event_id": "7f1522778cd8f2b6bce26d442a781bb29903bbc290fd77777ffa7239f80ddd2a",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited Whisper README documents speech transcription with a model, not adoption of an AI coding agent for repository development.",
+      "evidence_citations": [
+        "https://github.com/openai/whisper/blob/04f449b8a437f1bbd3dba5c9f826aca972e7709a/README.md#L82"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "757e2cfbc18b2fc0127625d2f009a9e297ade86ccab596ece80a5f88b8c51c76"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "60e9566391108091291686c795eec457e0d36ab1e6b43628d416f1e9a3772cc9",
+      "task_sha256": "8ad470a214b6c5e6156802981346c6ceb92fd35f7bc926576e77bb955dc9c091",
+      "canonical_repository_id": "openfga/openfga",
+      "event_id": "72999313903c23a22786085eb3085ef7c2a25d52f9fca177cb4707dcbce0fbdd",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited changelog explains checksum validation for release files and provides no AI coding-agent evidence.",
+      "evidence_citations": [
+        "https://github.com/openfga/openfga/blob/da9354f7e6704cef47e620ffa2e08212c08d5ad3/CHANGELOG.md#L1303"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "aefbde1649966dbe39807c063cae7610862cbaa815595b638190edda98c9225b"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "de447d5f9cd941e26e6eeaa1bd973a2c21818a2c229f8234c31b2b1e2eedbdd9",
+      "task_sha256": "4d9c41d72eec07252effa062b943124040cf91a3df05ec2310c4892b0d4912ae",
+      "canonical_repository_id": "paddlepaddle/paddleocr",
+      "event_id": "9adb6761393f190c6ab48de1a992086663a1ef179d7a0b967b37e101e6a7ee57",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README describes running PaddleOCR on Arm Virtual Hardware; it does not concern AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/deploy/avh/README.md#L20"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "48688052b664cfbba033db34eee07638f92878846d2584104909c7d28f44aeb1"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "337260a0c31ad3a08ad1b9e03805aca6716a84af252baac023fe6dba2a85bd0e",
+      "task_sha256": "a187cf411b4dae243f15ad94a1ef0a1866271232403f4f057c2ae3dac8af6e5a",
+      "canonical_repository_id": "patched-codes/patchwork",
+      "event_id": "02e7b36f6bbec91531bb784cf370e7bc132af90773bca7e6990154c844095ac0",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README explains project and template licensing, not use of an AI coding agent.",
+      "evidence_citations": [
+        "https://github.com/patched-codes/patchwork/blob/21948cbec44d3b7aec30715923ac7a0cd3fb1155/README.md#L188"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "9dc3613835e98fc30b9eee525534e8d20c307b1ccb53dcd36582ffdaf963c638"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "7eb9cd8ddf7d6cd7e62add9b550d35dca48fbdd2d6f43d528cfef5eed0c0778f",
+      "task_sha256": "c8735df5d7bd2242a68262758cf9389af8a7be741050a6c591377b77940ecc0f",
+      "canonical_repository_id": "public-apis/public-apis",
+      "event_id": "e7ac5e8534a38179b32a99c5bec85e57f4ef3ea054467039095787fbc698c4d0",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited public API catalog describes a third-party fraud-detection service using AI; it does not show coding-agent adoption in this repository.",
+      "evidence_citations": [
+        "https://github.com/public-apis/public-apis/blob/b3442b2ee646b1283561e37ed81729aa851b38ee/README.md#L1640"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "cc9395f0a476c746288ee712d0cb7f4a0911af9f7e38f8f570840995e39be0f8"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "97cb09c5b2a520152b1b40f75a4365fa6b00fcdb750483e50cb6abea58f16115",
+      "task_sha256": "2512e72c7fd9159c56124cbaa2d1d4119f4175818c4628503c7759fc3c28512f",
+      "canonical_repository_id": "python/cpython",
+      "event_id": "313224c17901b747ec63251493e843438455bd7fa848c25383497c58b7aeb35c",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited freeze documentation says a Python library file is generated by the build, which is non-AI generation.",
+      "evidence_citations": [
+        "https://github.com/python/cpython/blob/59e67c284d3e8dcb708e473cfca02b1307c9cd0a/Tools/freeze/README#L215"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "6e44862a15b74b2b326b8db05ca899d93f176458ff2de47a944aaf765d5c8e2b"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "da4094f240244de92a0938c9a2eec149f0f8bec85c297dd713db5378243c192b",
+      "task_sha256": "83293dbf0388c520c87d6ac5c3dc13485f36d6e71fcc227fb451059195da5546",
+      "canonical_repository_id": "qemu-project/qemu",
+      "event_id": "8f558f353c4edce78f167cc67474c2e690c1c0dff775c1bc78c2044ef27dcd0c",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README mentions using git rebase to change commits and contains no AI coding-agent provenance.",
+      "evidence_citations": [
+        "https://gitlab.com/qemu-project/qemu"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "edf659c65b45cc1a83815e9f5217d511d3e5f47a5fb81b2becb1a7f0f2d5b3bb"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "e6efc63b38ee320838e7ac50b6a906f5fe18465b906527f64aa28e5b35d7e254",
+      "task_sha256": "d7f69a05f02cf3b4bf38c740ad9f4398c36ea6ad219eb5657e027cab82f837e8",
+      "canonical_repository_id": "quantalogic/quantalogic",
+      "event_id": "8cefbaace0e5baeb78c746ca358df42fa9cdc82ff8180689911c5e1d95bd59d6",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited example uses an LLM to generate LinkedIn posts as application functionality, not as a coding agent adopted to develop the repository.",
+      "evidence_citations": [
+        "https://github.com/quantalogic/quantalogic/blob/47c6987353d57369a5eb46205f346078ab00dcd8/quantalogic_flow/examples/analyze_paper/README.md#L3"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "e619e0aed7d49cf09d73e26c2efdae37d05a918f05906e4f4b6bc07ec51c776e"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "41bd692d9cb731a23e046ead5f7e2c1eabeda9a2f2edd11986d9249076bffc4a",
+      "task_sha256": "a72dcc129dc84fe44b0c4a6316656f3b38e17c286b766c723f7508962b73ed9f",
+      "canonical_repository_id": "radius-project/radius",
+      "event_id": "dcb5fa82046ea584ad8422d1aee9b78663334f2dc774fdf0f34e9dc98e0f032f",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited contribution guide states adoption of the Contributor Covenant, not adoption of an AI coding agent.",
+      "evidence_citations": [
+        "https://github.com/radius-project/radius/blob/e2bdba243ebc48c75406852f8438008c172d3644/CONTRIBUTING.md#L55"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "9ae278b93acbdf1402bcbcbdf5139936b5ec9c847792f120bb8bd22524088302"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "5366232ed0b4368c380366f629bc8941c35f2b9044b770a1e6e752510d037f3e",
+      "task_sha256": "6408103c66bc8c40177483c40c2f92b86aaf0976c7d7c014a823816fc86cd133",
+      "canonical_repository_id": "ray-project/ray",
+      "event_id": "7a0fcb2226598ee7f07c3165852a132085f6e0268f4bc0e2d0e3c142e4322c3f",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited Ray example describes using a function API with a training scheduler and is unrelated to AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/ray-project/ray/blob/b7df7cdcb942e5410dcbd2bba91fceb4d1143841/python/ray/tune/examples/README.rst#L17"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "6d4ba2d9550db1ea1256b30ab64242d504154e4a9326a386e50cbb0354fa7e14"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "334cf193617b9f6dafffd9825c6f982e9a4662116fec53fd74e1cceb533d09b0",
+      "task_sha256": "06b6b73b2406fff44bb8b41bbb94613183bdd5cff5592e392ee5e7e4fdb7bd66",
+      "canonical_repository_id": "react/react",
+      "event_id": "e0acad0989beee5c07672daa1c89fab3e9ba5ee8003c9e4909e15c71126a02d5",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited changelog discusses user content in an XSS fix; the generic term user is not evidence of AI coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/react/react/blob/b685b40d870b90a975da28c8d22ecf0ba910b1a1/CHANGELOG.md#L2721"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "61b3988bad213fabca1bbe889db7ca010efde5f4de3afd0e3775265176fac67a"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "6de7e345bdf0659c5d11b655f69396d16ca3bbc50477edf289dc91652c5d459f",
+      "task_sha256": "cb50bea08b48d87d8fca084ce1f9da4b1c82a9efd1a6f432a3d04ea65265ff1c",
+      "canonical_repository_id": "react/react-native",
+      "event_id": "735b31b45793ce3da26d26e97644202bf12d870db08e2c9e5198db6574d9cbc8",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README says CocoaPods generates an Xcode workspace, which is ordinary build generation rather than AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/react/react-native/blob/834721f124636c3d326a25e9ff6608026ab856df/packages/rn-tester/README.md#L35"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "74d41bb5dbedec8abd1e9dcc70c897367bd8edfa8311e77681ffcae40f023a00"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "c111e79fcfb71b93a194029c79d3a82c642746b00a8c6a54c964d5093fc27eef",
+      "task_sha256": "06dbfd0b5c7d840c8933da57c73f941b9f717eb0e8e434c6cb7031f7c870b6d9",
+      "canonical_repository_id": "realworld-apps/realworld",
+      "event_id": "28278882adcb68b458bf25a1c3d8f358921486152c7ee2b4f3c9abad1039a26b",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited API README describes a Bruno collection mechanically generated from Hurl tests and synchronized by CI, not AI coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/realworld-apps/realworld/blob/98f29fb3f8bcb1dd614b91f2851371bf22c34775/specs/api/README.md#L17"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "c06a4d6d47a8b015978d9c41214ab8578c9b367a94b1f322b783e81fb130de90"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "0415d4b04d794b13622cf3901d1fe5838b3c71d3bb7df16f8a577adb9d7b68a7",
+      "task_sha256": "c6644eea9c91afd226ce0bbe418e32af06ded9950dc8078d294071b18cefe6df",
+      "canonical_repository_id": "redis/redis",
+      "event_id": "c2dae8e4f60fd0402c551cdbafb6431f9330976e2d0f9571336fc0fc0c6b80a7",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited vendored Linenoise README contains generic usage instructions and no evidence of AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/redis/redis/blob/b53f65d9b471ee264293976805ad6c896171e3ed/deps/linenoise/README.markdown#L81"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "0efe3a94cb5c095e4a208e90b21221a261f1610db1b64c52c464fa2208eca7c6"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "a957702a0c904c81c1dbd1b92ee8b305355c7db04780cd7618b8b04237dc8fec",
+      "task_sha256": "29781daf72df399ef93545cbe7f8953fbc71fcd65e734edfd9cfd7630b1185c5",
+      "canonical_repository_id": "rqlite/rqlite",
+      "event_id": "17bf809f01ce9e076db5e1d4f5661afc1776dddb2a20408ab14c3077ac7636bd",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited changelog describes DNS-based service discovery for clustering; it is unrelated to AI coding agents.",
+      "evidence_citations": [
+        "https://github.com/rqlite/rqlite/blob/df4edc42bada95cbe2c3445542020ea23a318827/CHANGELOG.md#L1924"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "6aa58c6240824baeed35a40f3791f2a65339b5262016dab40328e328e1f39d1b"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "cfa30bdd8b10b20b18c2e7ff46c973ed46b0277b84a2bd90f4035aa0f6c6d518",
+      "task_sha256": "22d41950c15a4c28d77ac4653f1038e63ec0e2a5d486d2fe88a69865e68f7f63",
+      "canonical_repository_id": "rust-lang/rust",
+      "event_id": "bf307448d0bb8c8adae4574f037a7823a9e7926b803819fc97c3059399fe291c",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited MIR test README describes generated Graphviz output files, which is deterministic tooling rather than AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/rust-lang/rust/blob/da86f4d0726be475afbbffe40cb2f65741c51ad3/tests/ui/mir-dataflow/README.md#L35"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "ba9455bd9f50dac4ec8a5c7b98fc530f67f0268d8bc87c7f0305510e9287e9a1"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "56a2c50c0263dcd6a29e7225819a6c0c0ad6b82690d7e8ce0daff4d756afa4f9",
+      "task_sha256": "6537efd1cfc7e2aa6d22ab833a7d6294f051387d2d3c5571ff91c607ce8389bb",
+      "canonical_repository_id": "sashabaranov/go-openai",
+      "event_id": "ebd072a114c512e9e904e13d5d6a1638862e2a68049acaa6cca31ef51034a4a0",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README describes a training-data file format for chat models, not adoption of an AI coding agent to develop the repository.",
+      "evidence_citations": [
+        "https://github.com/sashabaranov/go-openai/blob/5d7a276f4c0e48f97354fe555cb793b52e350e62/README.md#L755"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "b9e6ef4ba967c56e801ce6ef9effb52b3afc85509195c06ea6f03f981fd63220"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "0580ac756924e2f0d52a4ee426624f0da8d5e2c2643e761811091a267dc44966",
+      "task_sha256": "a19f6b19aeb10ba3929d4f8d03cbe40ec15f1261746a63bc9518f9cc9d2e2b61",
+      "canonical_repository_id": "shadcn-ui/ui",
+      "event_id": "aa88bb90ee396518a5054b985fe042ccd6367df3064752199d52879c8410a728",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited template README only contains a generic Using components heading and no AI coding-agent evidence.",
+      "evidence_citations": [
+        "https://github.com/shadcn-ui/ui/blob/4baadbc6517070ae8f8feb2c97037adc2b305544/templates/next-monorepo/README.md#L15"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "c9aeea76525c1d83845ef3e69f9309f854423712df5948867461c1101d91a660"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "36ef5b1978cb1ffd504efbcf7527b9fcc4799589eaef6499739935e9e06fac27",
+      "task_sha256": "17f6bbd76c64b5d98c504a8d47fac275385b6e33594cc0eef1ade7d4c29d91f9",
+      "canonical_repository_id": "spacelift-io/spacectl",
+      "event_id": "b19243ffcc72261cc086aadeb5b775c99dabfa99a143c9b30eedb07d6b801ea1",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README is ordinary environment-variable authentication guidance and does not concern AI coding agents.",
+      "evidence_citations": [
+        "https://github.com/spacelift-io/spacectl/blob/9d26e402e3c784f27ad7f2e8a3e0b4573a4cc787/README.md#L43"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "6bb45cd9e4794b2bf9888e3e562a74337adb90758943dc3b807ad5b09324dfa4"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "22a3a49fb0e4ff0e597223fb6916c36505b9ac0dd7b14d2a8b7f7fdc5a1c1ca6",
+      "task_sha256": "4a3f3a126415e5010e2802063d08b163f9294e0495c510c25a2bdb543c75ef92",
+      "canonical_repository_id": "spcl/dace",
+      "event_id": "60936f119a90fbc09256eb3a164f8340da103ee62cd48b3eb7972b1fe3bf0072",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited optimization README discusses auto-tuning data layouts, not AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/spcl/dace/blob/e73727fc3f853bd2e45e1bb0dc4ecc65337de6db/samples/optimization/README.md#L6"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "b229f763e5e8c5d910ef855c8511d4cff50f0234ce5e6e4a0e068f05a03c2202"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "e2ea6bc6d30579e3aed9a4b38b4517693a2f978fc95aaf0257237b01011ec2b4",
+      "task_sha256": "61643a685d23c3b27c0f69ceaf6b25c280dde800dd83ade995ea303927a60468",
+      "canonical_repository_id": "storybookjs/storybook",
+      "event_id": "89205a4e42e79c58f55a88f32668f98a5ee040d375b76d61812b0fce8de06916",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited codemod README describes a path-separator convention change and provides no AI coding-agent evidence.",
+      "evidence_citations": [
+        "https://github.com/storybookjs/storybook/blob/e4e223af77341bce9633eac7d7d2ae937be18438/code/lib/codemod/README.md#L53"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "c24d6170b18fc2af4decf3edd279a6322d49ec98bd22accea44b2274f5152630"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "0068802d9f4f4e4ce595497350b82b59c156cc130b434ca4938c7b8c49ab68b6",
+      "task_sha256": "f6e5810359c2cec96b9f977956f10074a0ae743f67b5c9e9e82061648693765f",
+      "canonical_repository_id": "strapi/strapi",
+      "event_id": "f1d3a070b4af05fafbd47a23de89fff4b38aa96f34c6316470f1231f996fd0af",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited provider READMEs contain routine Yarn and npm installation commands, with no evidence of AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/strapi/strapi/blob/344c0a1e6ad1f6ddc9f85b45d540031bd57c3f6e/packages/providers/email-amazon-ses/README.md#L17"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "98d33559d86abb0950b6949657215976a5bd95faa0f089c34638c7f7c86eb6a9"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "fd7da5eff699621592c709befe924ee6999f632173259e0c43092197843ae182",
+      "task_sha256": "9f6e8b650306c838451f6869d2ecec7a00d6e04df885108e4085281f8061a0fa",
+      "canonical_repository_id": "supabase/supabase",
+      "event_id": "de5af7009994b2679a08485248591e435b8d0d3a4012d65fe0b3f76511c5c4d1",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README describes database-change delivery over WebSockets and is unrelated to AI coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/supabase/supabase/blob/2b27ed0ab17ec74f17bfa2e4e54175e3a1f5b444/README.md#L54"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "f272b10b1f8631c6a4655009f763f94f667827add7d32e1556f705266b5fc26d"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "899c55bb5af05827bc2c29b2a640f4bf88593ead494200b13ce9557a31ced9e8",
+      "task_sha256": "0f0c6e944a83a53a322c2abdc29fa2a7e04685f8055def2470119e18418f6fba",
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "event_id": "57069b09b809f538304b111b585024623ad956c7821770b2cc2f29e8939b4d1d",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited vendored changelog describes configuring a debug hook via an environment variable, not AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://codeberg.org/superseriousbusiness/gotosocial"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "99148c892095c05c3b5978988ceb732934f377c948dabf4fa389711a88560d1d"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "c81de3641221017cd3a76d9cecfeee2d6acf12cdc9ef6c6d4d7b08b479dc4a46",
+      "task_sha256": "0301cd101d3e56ef3498b4be45a5b83ae4f9687b0ab3387a4eb60c6954c5bd97",
+      "canonical_repository_id": "sveltejs/svelte",
+      "event_id": "388ba3309bfe8b79365992e4468cf2db10b1b38315d39b7bf25f44b8c47acb3f",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited changelog is a Svelte component-type migration entry and contains no AI coding-agent evidence.",
+      "evidence_citations": [
+        "https://github.com/sveltejs/svelte/blob/44a7813730579b94004e182e5a67aab27aa9d2a6/packages/svelte/CHANGELOG.md#L6494"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "2ccf35a0e4ac5668073465ebd88f2b90e47c079b5637da09ce418584481bc9e7"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "b8cc3c7e217b940866c7ffcb7e52cf0cf56f9869139770dbbee356bcf5a845d5",
+      "task_sha256": "dbba62e1d9c5adbdc6a3c623bd37272c0b94bfa2623aa852d2b97effd515cc84",
+      "canonical_repository_id": "swiftlang/swift",
+      "event_id": "c0b41e79b3f5deb566801a7fb882eebd7e9e406bc66da87b1bcccf12489fa6a6",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited Swift changelog line is an enumerateObjectsUsingBlock code example; using is generic and unrelated to AI coding agents.",
+      "evidence_citations": [
+        "https://github.com/swiftlang/swift/blob/84b22795934ad5d74f3f660b1e56a88e8e2896bf/CHANGELOG.md#L7915"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "bc1178bf0be9f73249c1db960468312f2168c1933d4a91b860ca50de02a923db"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "dedc747847f5a9722916cd758dc015ed05e565f5fe4a5b0addec7475cec4778e",
+      "task_sha256": "766877e5e17728ef966dd3df9e471c4ca455c9bd5c5ad44714aedae0b46c705c",
+      "canonical_repository_id": "tailwindlabs/tailwindcss",
+      "event_id": "815e8dd5ac59a13c275b1b279d515eb79cd0ab726d386effbe10a666b34e0dca",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited changelog adds an @source content-path rule and does not establish AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/tailwindlabs/tailwindcss/blob/094bf62605870311a8def6ae45c87d578b198ebf/CHANGELOG.md#L1408"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "b74beec989325cc2438b980f4544908c883deccc297e5d5cd915b206b9841bd1"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "ec505576d9eddb6aecef7add7d5fdcb3d1f0537546351d5bbd5842acb4b0ba7a",
+      "task_sha256": "37311dfa3020cd8b16b04b9d241246fcc5563559f0d1882f07bb3ab8b3f531f5",
+      "canonical_repository_id": "tauri-apps/tauri",
+      "event_id": "d172bbfc8b229e80270f1a0ec4e707517eb881797396ff18c7efdc545cdd5a40",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited changelogs discuss Rust macros, serialization, and CLI behavior; generated refers to macro output and does not evidence an AI coding agent.",
+      "evidence_citations": [
+        "https://github.com/tauri-apps/tauri/blob/3f5d3984bc8916b5dd31289b19284637ede37e3d/crates/tauri-macros/CHANGELOG.md#L844"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "7d3c244968407e6c799cf191292483a9584fa626587f36ff278205c327a3410e"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "eb51f350fefa55531ea79d22c7ec05a0be5bf5e92e1e865633c6661654837789",
+      "task_sha256": "fb1f5fa8d963539f9170254d0587f93fb6c9c9aed8506aa5fb07c4a08db93382",
+      "canonical_repository_id": "teaxyz/chai",
+      "event_id": "9d2e8d9f306986406114239592a70bd08da1f153390cb38eaf09b387f172e919",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README describes building a package-manager data model with diffs and contains no AI coding-agent evidence.",
+      "evidence_citations": [
+        "https://github.com/teaxyz/chai/blob/5ba601243a934a7a88217e0de93e2f66764d8910/package_managers/homebrew/README.md#L4"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "9f44257aed784d65eed6c774848f02022630466f24f692a8ec381fd87af93277"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "fcabc82b96d2743f085106006e35e111c41b913d8902472e564c9abd83f30460",
+      "task_sha256": "9140b30c07d4faa270e9c9a7a402d7e7306e109dddb57bf8cc08e80dcc6faa7e",
+      "canonical_repository_id": "toeverything/affine",
+      "event_id": "af417721898f0ae689b96c077ee06cf890ef885085b9d809a01a862b4992eea0",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "accept_confirmed",
+      "default_branch_supported": true,
+      "evidence_tier": "confirmed",
+      "rationale": "The commit author and committer are explicitly identified as devin-ai-integration, providing repository-linked provenance of coding-agent-authored work.",
+      "evidence_citations": [
+        "https://github.com/toeverything/AFFiNE/commit/e100d252b22201c880c8c5b31cd1ce24500b04ae"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "cf538f7ff5761da5b297d73fdbf3f39e577bae5fc40c3dbd1d35d822bb91a142"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "2cc1cb59dde1262ed4052f470aff20564294737195dc6e3603a682fa39797740",
+      "task_sha256": "8f37509919f2cbc608c0f5434d608b0799f180f92c60bfbd494ae234de69c3b3",
+      "canonical_repository_id": "tphakala/birdnet-go",
+      "event_id": "6a65e89e189bcb95812a779e9e71750f5b5f5bf3721385a76bba8ba3e0a51e89",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited job-queue README describes action-statistics keys and has no evidence of AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/tphakala/birdnet-go/blob/c84abf301054d2f2bac3ecc01b26f57fee8bd10b/internal/analysis/jobqueue/README.md#L341"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "4dc5c9994c51a6430f20c9f86cd72eb3f0c38864a512e5eadff6d708405d4523"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "23739a31ff8b501afc3e0c8d9a5a4a6f86968dd5ca6a5a7cc44f86c798a2f8af",
+      "task_sha256": "82708c1a0c7d5570bfaa51f0670a11944a2ec239b48b2b6f074a8ec1cbe834f0",
+      "canonical_repository_id": "unclecode/crawl4ai",
+      "event_id": "3224a67adbc6c63b020923a258bff8b046728537abac81c66f93a1e8e2f28e0e",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README describes Playwright-based asynchronous web crawling as product functionality, not coding-agent use in repository development.",
+      "evidence_citations": [
+        "https://github.com/unclecode/crawl4ai/blob/7e801521428ee12509994d39151006f64055ebe3/README.md#L253"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "fd41647f85b3e3a26f814f8ef6b6b4905fa1fe3a2153a38b6945366b84e9cdb2"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "a23c5afc049b418b45f22276616ae379cf7401d17fe242ce8bd9e8eaba811f38",
+      "task_sha256": "116e64d82a24e876d452ef10667e7e01e06afca9422efe745db806e76e914041",
+      "canonical_repository_id": "vdaas/vald",
+      "event_id": "5015092e2ea673f4bad377d575154933d874a60a3551d89be0cf847e5a4cae58",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited changelog refers to Vald infrastructure agents and sidecars for storage and indexing; these are non-AI system components, not coding agents.",
+      "evidence_citations": [
+        "https://github.com/vdaas/vald/blob/d50c5e731dedf7bc9dbe389bd9057c959198ac97/CHANGELOG.md#L6244"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "93ef0637d513467d300caa7b8144289ff50387b5012bcbbe9d3762a3237f15ae"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "08fc1d1390b3c690ecad6f9d54e4e8ae0468ac1b1720a5edc4cecf84b6f944a3",
+      "task_sha256": "f0a6ee9d2cc7a00f0d06b35bcca1a376b01fd6983528409b0e11e20354ba7ac7",
+      "canonical_repository_id": "ventoy/ventoy",
+      "event_id": "de3ed7e10f6c8caa9a72a9ca11da8f848240beb7666a51cad008ad7533540bff",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "insufficient",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The author identity Moses Cursor with a personal email may reference Cursor, but it does not establish that a coding agent authored the commit or provide a defensible repository-adoption event.",
+      "evidence_citations": [
+        "https://github.com/ventoy/Ventoy/commit/0fd49126bd59b9a5e6c305d7ca915ab0fc1560e5"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "309dadc3494af8f0e575330c0d6ae6abb16fd54fc2fb759c9c0ac9a1024078bd"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "b2551f78300ccefae7054c8fdaec981fde153880b6f8b9c6a3fd4d2be5d59997",
+      "task_sha256": "25ac92a03fcc117fbdc41b533db34788f51779db6cd424efb8a5926e658681cb",
+      "canonical_repository_id": "vercel/next.js",
+      "event_id": "66cd8fa1c53ae06819224bd2f24e83bf65679c5b54a9e2fa6e51f2d217abfb6c",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited example README describes building an Electron production app with npm and contains no AI coding-agent evidence.",
+      "evidence_citations": [
+        "https://github.com/vercel/next.js/blob/4a432e4d79be9ff5c326a3a62a1e7d9d1e4f5f90/examples/with-electron-typescript/README.md#L42"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "17160e5d09d5b9df6f652df03c2d13a4374a9e6862a3e80999188ec426de20b2"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "e3220d82cdc5a1cdc66c4ef69bf1386c5a034a75d2760e639e49058509d1ce98",
+      "task_sha256": "6712ebb3e3322d205282b1d3bf815997070bd21fa07e07fa6226e8dceb9a7070",
+      "canonical_repository_id": "vitejs/vite",
+      "event_id": "87598a048114f4984372bbd1c8df18697b6f53f3ce5a9276f3a33177b1b18238",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README explains a globalThis polyfill for legacy browsers and is unrelated to AI coding agents.",
+      "evidence_citations": [
+        "https://github.com/vitejs/vite/blob/3ac77d9dd742968961af38a5a91ed6b061ceda7d/packages/plugin-legacy/README.md#L193"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "75600bc837be7b46c2d86b2fa08ce782641463bf2856a13e64d56d9fec31faf3"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "b2d8763142296d0241536ee14558e3e11aab398999c5d6b07a81013bf0475ead",
+      "task_sha256": "8ee78719762755e700688d02975fc2f3d3bac6f3034299c7e4288b88886e3520",
+      "canonical_repository_id": "vllm-project/vllm",
+      "event_id": "71111471d5b3356e02536882b599193ba1e95548a74409dfe8d85146d6bb518b",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README documents batch inference in an OpenAI-compatible file format; model serving is product functionality, not coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/vllm-project/vllm/blob/213f681f8117b9026ca8189583d2855d70104401/examples/features/openai_batch/README.md#L4"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "98268b020884d27ab62217f2ca407d5a0d88e659b2dba1a2fb548c0e62525cee"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "0c7fcaa9307eabf6cafe15e5d18c46f5e4b007a66d272f42ebb905e450b78356",
+      "task_sha256": "657caf28d9f59606a0dee19a6fcbcb33bc9edcf5aad15a8d3c1e0a3c8a0ac632",
+      "canonical_repository_id": "wandb/weave",
+      "event_id": "35414c748f74a2dbe45c83130e740d9000e1de8c6193eb9f82de79183ca2817f",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The diff says running a sample generates a dashboard link; this is ordinary application output and supplies no AI-generated-code or coding-agent provenance.",
+      "evidence_citations": [
+        "https://github.com/wandb/weave/commit/689955628be31c46e4f029a1958cbb47a6592291"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "f8f1bc7962c4264eb6bf0031ae501c9fe0e6c6b411d5f12197d9b5b53fc3732a"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "4a83cccc4a4c1b4476898d9f5384d4ce3230af3e0627f04c5b3009859dbc1cc0",
+      "task_sha256": "e584c78d28ac5e59c9b75d5be4d1fb65664af2e8729646ca08734360347bf830",
+      "canonical_repository_id": "zed-industries/zed",
+      "event_id": "e1ee3c6e59a508b5b6c1dc50354c8e91e5227dae02878f6a628d05827eeb807a",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited README describes a Neovim-backed test context for matching editor behavior, not AI coding-agent adoption.",
+      "evidence_citations": [
+        "https://github.com/zed-industries/zed/blob/d23aaeebeafd509ff089cc822edd64ccce585181/crates/vim/README.md#L9"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "f3b36e862a1d8f3e3a01253fa77fcd891b386212b7118cb077f3669c611fb19b"
+    },
+    {
+      "response_version": 3,
+      "tranche_id": "a9b829c131b4c64c8e0ad3d3326d2844e6b7e6b9933f0c690975bb2361f40253",
+      "tranche_number": 5,
+      "task_id": "7e60f17eb9d51be5ac8ab96fbcfd69b77ba59477280b8ee14edc72dffddaaf11",
+      "task_sha256": "13d283b89a11d85c20babc0c5552533880f15c1f1563a36176e078b5fe17c6f9",
+      "canonical_repository_id": "zfit/zfit",
+      "event_id": "a982ec395b0b9e84d2be0e96f4379f0afc963bfa377efec49bb0a9e176427f6f",
+      "reviewer_id": "local-t5-primary-b",
+      "review_role": "primary",
+      "decision": "reject",
+      "default_branch_supported": false,
+      "evidence_tier": "not_applicable",
+      "rationale": "The cited changelog mentions an internal call-count heuristic and provides no evidence of AI coding-agent use.",
+      "evidence_citations": [
+        "https://github.com/zfit/zfit/blob/13196e53425d19c8dcb30a0463beb215bb0fb457/CHANGELOG.rst#L1158"
+      ],
+      "outcomes_consulted": false,
+      "response_sha256": "740fa96d1b3790dd9ef64720adf446041c33c88d7e48b50d42f773a07cb68eda"
+    }
+  ]
+}

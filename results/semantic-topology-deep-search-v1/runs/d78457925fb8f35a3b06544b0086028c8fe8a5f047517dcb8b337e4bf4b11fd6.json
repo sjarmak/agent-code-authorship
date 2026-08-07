@@ -1,0 +1,278 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "318976d1d7d85acb52c8f87b8b51a52304fb04ff8669a57b3a98339c0d00163b",
+  "artifact_version": 1,
+  "canonical_repository_id": "ansible/ansible",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "45df14a2e05573e6213ce789aa3278f4f30fa54f"
+  ],
+  "cited_files": [
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/.github/ISSUE_TEMPLATE/bug_report.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/.github/ISSUE_TEMPLATE/bug_report.yml?L99-L196"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": ".github/ISSUE_TEMPLATE/documentation_report.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/.github/ISSUE_TEMPLATE/documentation_report.yml?L109-L135"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/fork_safe_stdio.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/fork_safe_stdio.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "lib/ansible/utils/display.py",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/utils/display.py?L167-L183"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/76737-paramiko-rsa-sha2.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/76737-paramiko-rsa-sha2.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "lib/ansible/plugins/connection/paramiko_ssh.py",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/plugins/connection/paramiko_ssh.py?L61-L74"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/79083-jinja2_native-preserve-quotes-in-strings.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79083-jinja2_native-preserve-quotes-in-strings.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/become-loop-setting.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/become-loop-setting.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/79376-replace-valid-attrs-with-fattributes.yaml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79376-replace-valid-attrs-with-fattributes.yaml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "lib/ansible/playbook/base.py",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/playbook/base.py?L73-L95"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/plugin_loader_fix.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/plugin_loader_fix.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/79187--wheel-0.38.0.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79187--wheel-0.38.0.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/71424-deterministic-vault-encode.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/71424-deterministic-vault-encode.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/78828-iptables-option-to-disable-dns-lookups.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78828-iptables-option-to-disable-dns-lookups.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "lib/ansible/modules/iptables.py",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/modules/iptables.py"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/ansible-test-container-management.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansible-test-container-management.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/validate-modules-sidecar.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/validate-modules-sidecar.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/apt_repo_trust_prefs.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/apt_repo_trust_prefs.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/new_editor_pager_opts.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/new_editor_pager_opts.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/ansiblej2vars-chainmap.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansiblej2vars-chainmap.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "lib/ansible/template/vars.py",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/template/vars.py?L4-L76"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/cache-fa-on-pb-cls.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/cache-fa-on-pb-cls.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "lib/ansible/playbook/base.py",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/playbook/base.py?L75-L95"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/optimize_vars_loads.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/optimize_vars_loads.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/79021-dont-squash-in-validate.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79021-dont-squash-in-validate.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/79399-resolvelib_lt_0_10_0.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79399-resolvelib_lt_0_10_0.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/79227-update-vendored-distro.yaml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79227-update-vendored-distro.yaml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/ansible-test-pylint-2.15.4.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansible-test-pylint-2.15.4.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/ansible-test-pylint-2.15.5.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansible-test-pylint-2.15.5.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/psscriptanalyzer-1.21.0.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/psscriptanalyzer-1.21.0.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/78819-78820-remove-deprecated-cow-options.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78819-78820-remove-deprecated-cow-options.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/78821-78822-remove-callback_whitelist.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78821-78822-remove-callback_whitelist.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/validate-modules-forced_action_plugin.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/validate-modules-forced_action_plugin.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/strftime_docs.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/strftime_docs.yml"
+    },
+    {
+      "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f",
+      "path": "changelogs/fragments/78802-sanity-meta-runtime.yml",
+      "repository": "github.com/sg-evals/ansible-ansible",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78802-sanity-meta-runtime.yml"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2064",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/ansible-ansible at revision 45df14a2e05573e6213ce789aa3278f4f30fa54f, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: ansible/ansible; stratum: pre_2023_context; cutoff: 76884711a617bfe59b417df11fbfc42016c99de8.",
+  "prompt_family_id": "delegated_task_intent",
+  "prompt_sha256": "67eac03e4db3f62166dcc6b2120c7c34ea211851c8c8ec2e89d17229e369503b",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "I now have sufficient signal across both the terminal commit and the full changelog stratum. Let me compile the taxonomy.\n\n---\n\n## Engineering Task Shape Analysis\n\n**Repository:** `ansible/ansible` | **Stratum:** `pre_2023_context` | **Snapshot SHA:** [`45df14a2e05573e6213ce789aa3278f4f30fa54f`](https://demo.sourcegraph.com/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f)\n\n---\n\n### 1. The Terminal Commit \u2014 `45df14a2e05573e6213ce789aa3278f4f30fa54f`\n\n**Classification: `documentation/configuration`** (high confidence)\n\nThe single commit touching [`45df14a2e05573e6213ce789aa3278f4f30fa54f~1..45df14a2e05573e6213ce789aa3278f4f30fa54f`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/.github/ISSUE_TEMPLATE/bug_report.yml) is a pure English prose correction: the misspelling `tripple` \u2192 `triple` appearing in three places in [`.github/ISSUE_TEMPLATE/bug_report.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/.github/ISSUE_TEMPLATE/bug_report.yml?L99-L196) and twice in [`.github/ISSUE_TEMPLATE/documentation_report.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/.github/ISSUE_TEMPLATE/documentation_report.yml?L109-L135). No executable code, no configuration values, no logic changed. This fits squarely within the **documentation/configuration** category. A `cleanup` secondary label could apply (fixing a cosmetic defect), but the primary surface is non-code documentation.\n\n---\n\n### 2. Stratum-Wide Task Shape Inventory\n\nThe changelog fragments in [`changelogs/fragments/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/tree/changelogs/fragments) are the project's own structured record of every merged PR before the cutoff. The 70+ fragments, cross-checked against implementation files below, evidence the following shapes:\n\n---\n\n#### A. `localized_bug_fix` \u2014 **dominant** shape\n\nEvery fragment filed as `bugfixes:` maps to a tightly-scoped fix with a single clear symptom and a referencing issue number.\n\n| Fragment | Symptom | Implementation site |\n|---|---|---|\n| [`fork_safe_stdio.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/fork_safe_stdio.yml) | Post-fork output deadlock | [`lib/ansible/utils/display.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/utils/display.py?L167-L183) \u2014 `_synchronize_textiowrapper` wraps `buffer.write`/`buffer.flush` with a lock |\n| [`76737-paramiko-rsa-sha2.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/76737-paramiko-rsa-sha2.yml) | RSA-SHA2 breaks paramiko \u2265 2.9 | [`lib/ansible/plugins/connection/paramiko_ssh.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/plugins/connection/paramiko_ssh.py?L61-L74) \u2014 new `use_rsa_sha2_algorithms` option |\n| [`79083-jinja2_native-preserve-quotes-in-strings.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79083-jinja2_native-preserve-quotes-in-strings.yml) | Jinja2 native mode drops quotes | `lib/ansible/template/native_helpers.py` |\n| [`become-loop-setting.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/become-loop-setting.yml) | `become` and connection reuse broken in task loops | `lib/ansible/executor/` |\n| [`79376-replace-valid-attrs-with-fattributes.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79376-replace-valid-attrs-with-fattributes.yaml) | Leftover `_valid_attrs` usage | [`lib/ansible/playbook/base.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/playbook/base.py?L73-L95) \u2014 `fattributes` property |\n| [`plugin_loader_fix.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/plugin_loader_fix.yml) | Plugin init checks config before it exists | `lib/ansible/plugins/loader.py` |\n| [`79187--wheel-0.38.0.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79187--wheel-0.38.0.yml) | wheel \u2265 0.38.0 breaks Python 3.6 test installs | test constraint files |\n\n---\n\n#### B. `feature` \u2014 second most common\n\nNew capabilities added, with parameters, behaviours, or subsystems not previously available:\n\n| Fragment | What was added |\n|---|---|\n| [`71424-deterministic-vault-encode.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/71424-deterministic-vault-encode.yml) | Custom salt for vault encoding (`ansible-vault`) |\n| [`78828-iptables-option-to-disable-dns-lookups.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78828-iptables-option-to-disable-dns-lookups.yml) | New `numeric` parameter on [`lib/ansible/modules/iptables.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/modules/iptables.py) |\n| [`ansible-test-container-management.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansible-test-container-management.yml) `major_changes` | Full cgroup v2 + WSL2 + rootless Podman support in `ansible-test` |\n| [`validate-modules-sidecar.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/validate-modules-sidecar.yml) | Sidecar `.yml`/`.yaml` doc files for modules |\n| [`apt_repo_trust_prefs.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/apt_repo_trust_prefs.yml) | `apt_repository` preference-ordered trust directories |\n| [`new_editor_pager_opts.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/new_editor_pager_opts.yml) | New editor/pager configuration options |\n\n---\n\n#### C. `refactor` \u2014 clearly evidenced\n\nStructural changes that preserve semantics while improving internal architecture:\n\n| Fragment | Change | Implementation |\n|---|---|---|\n| [`ansiblej2vars-chainmap.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansiblej2vars-chainmap.yml) | `AnsibleJ2Vars` rewritten to subclass `collections.ChainMap` | [`lib/ansible/template/vars.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/template/vars.py?L4-L76) \u2014 `class AnsibleJ2Vars(ChainMap)` |\n| [`cache-fa-on-pb-cls.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/cache-fa-on-pb-cls.yml) + [`79376-replace-valid-attrs-with-fattributes.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79376-replace-valid-attrs-with-fattributes.yaml) | `_valid_attrs` replaced by `@classmethod @cache` `fattributes` property | [`lib/ansible/playbook/base.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/playbook/base.py?L75-L95) |\n| [`optimize_vars_loads.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/optimize_vars_loads.yml) | Variable-loading caching to reduce redundant computation | `lib/ansible/vars/` |\n| [`79021-dont-squash-in-validate.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79021-dont-squash-in-validate.yml) | Validate path no longer squashes loop vars |  |\n\nThe `AnsibleJ2Vars \u2192 ChainMap` and `_valid_attrs \u2192 fattributes` changes are the most structurally significant refactors visible in the codebase at this snapshot.\n\n---\n\n#### D. `dependency_migration` \u2014 clearly evidenced\n\nVersion bumps and vendor updates where the external dependency is the change:\n\n| Fragment | Dependency | Direction |\n|---|---|---|\n| [`79399-resolvelib_lt_0_10_0.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79399-resolvelib_lt_0_10_0.yml) | `resolvelib` upper-bounded to `< 0.10.0` | version constraint tightened |\n| [`79227-update-vendored-distro.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79227-update-vendored-distro.yaml) | `distro` vendor copy synced to upstream | vendor bump |\n| [`ansible-test-pylint-2.15.4.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansible-test-pylint-2.15.4.yml) / [`ansible-test-pylint-2.15.5.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansible-test-pylint-2.15.5.yml) | `pylint` updated through 2.15.4 \u2192 2.15.5 | sequential pinned upgrades |\n| [`psscriptanalyzer-1.21.0.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/psscriptanalyzer-1.21.0.yml) | PSScriptAnalyzer 1.21.0 for PowerShell sanity | tool upgrade |\n\n---\n\n#### E. `cleanup` \u2014 evidenced as a distinct minor shape\n\nRemoval of deprecated / dead code with no functional replacement:\n\n| Fragment | What was removed |\n|---|---|\n| [`78819-78820-remove-deprecated-cow-options.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78819-78820-remove-deprecated-cow-options.yml) | `ANSIBLE_COW_WHITELIST` env var; `cow_whitelist` config key |\n| [`78821-78822-remove-callback_whitelist.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78821-78822-remove-callback_whitelist.yml) | `ANSIBLE_CALLBACK_WHITELIST` env var; `callback_whitelist` config key |\n| [`validate-modules-forced_action_plugin.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/validate-modules-forced_action_plugin.yml) | Never-implemented `forced_action_plugin` attribute from validate-modules |\n\nAll three follow the pattern: deprecation was issued in a prior cycle, the removal cycle is now. These sit cleanly within `cleanup` (dead-deprecation removal), not `refactor` (which keeps semantics).\n\n---\n\n#### F. `documentation/configuration` \u2014 the terminal commit's category, broadly present\n\n| Artifact | Content |\n|---|---|\n| [`45df14a2e05573e6213ce789aa3278f4f30fa54f`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f) (terminal commit) | `tripple` \u2192 `triple` typo fix in two YAML issue templates |\n| [`strftime_docs.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/strftime_docs.yml) | `strftime` documentation improvement |\n| [`78802-sanity-meta-runtime.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78802-sanity-meta-runtime.yml) | Sanity test metadata for `meta/runtime.yml` |\n| BOTMETA, CONTRIBUTING, PR template in [`.github/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/tree/.github) | Contributor workflow configuration |\n\n---\n\n#### G. `test_generation` \u2014 evidenced but subordinate\n\n`ansible-test` container management fragments (`ansible-test-containers-python-3.11.0.yml`, `ansible-test-integration-targets-filter.yml`, `ansible-test-fix-python-3.11-traceback.yml`) represent test-infrastructure work, and [`test/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/tree/test) contains `units/`, `integration/`, and `sanity/` subtrees. However, none of the fragments exclusively describe new test case generation for existing logic \u2014 they are all test-runner infrastructure fixes (better classified as `localized_bug_fix` in the test toolchain) or feature work in `ansible-test` itself. Pure `test_generation` (adding coverage for existing functionality) is not strongly evidenced from the changelog record at this snapshot.\n\n---\n\n#### H. `boilerplate` / `architectural_scaffolding` \u2014 absent\n\nNo fragments or file structures indicate fresh project scaffolding, skeleton generation, or framework boilerplate at this snapshot. The codebase is mature; the `v2.15.0-initial-commit.yaml` fragment is an empty `{}` placeholder, confirming a branch-cut marker rather than actual scaffolding.\n\n---\n\n### Taxonomy Summary\n\n| Shape | Confidence | Key Evidence |\n|---|---|---|\n| **localized_bug_fix** | high | 20+ `bugfixes:` fragments; fork-lock, paramiko SHA2, jinja2 quote, become-loop, connection-reuse |\n| **feature** | high | Vault custom salt, iptables `numeric`, cgroup v2/WSL2/Podman, sidecar module docs |\n| **refactor** | high | `AnsibleJ2Vars(ChainMap)`, `_valid_attrs \u2192 fattributes + @cache` |\n| **dependency_migration** | high | `resolvelib` bound, vendored `distro`, `pylint` 2.15.x, PSScriptAnalyzer 1.21.0 |\n| **cleanup** | high | Removal of `cow_whitelist`, `callback_whitelist`, `forced_action_plugin` |\n| **documentation/configuration** | high | Terminal commit typo; `strftime` docs; `.github/` templates |\n| **test_generation** | low / ambiguous | `ansible-test` infra work present but classifies better as bug fix or feature in the test runner |\n| **boilerplate** | absent | No evidence |\n| **architectural_scaffolding** | absent | No evidence |\n\n---\n\n### Taxonomy Refinement Proposal\n\nThe existing eight categories are sufficient for this stratum with one clarification worth freezing:\n\n> **`dependency_migration` should be split into two subtypes when applying to ansible/ansible:**\n> - `dependency_migration/vendor_sync` \u2014 the vendored copy of a library is updated in-tree (e.g. `distro`, `_vendor/`). The change is entirely file content, version number, and sometimes a shim.\n> - `dependency_migration/constraint_update` \u2014 the version bound in a requirements or constraints file changes without a vendor copy (e.g. `resolvelib < 0.10.0`, `wheel < 0.38.0`). The artifact is a one- or two-line file edit with no new code.\n\nThese two subtypes exhibit meaningfully different code-change shapes (large file replacement vs. single-line constraint edit) and would be misclassified as equivalent tasks by a model trained only on diff size or file count.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:59:44Z",
+    "name": "users/476/conversations/2064",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "I now have sufficient signal across both the terminal commit and the full changelog stratum. Let me compile the taxonomy.\n\n---\n\n## Engineering Task Shape Analysis\n\n**Repository:** `ansible/ansible` | **Stratum:** `pre_2023_context` | **Snapshot SHA:** [`45df14a2e05573e6213ce789aa3278f4f30fa54f`](https://demo.sourcegraph.com/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f)\n\n---\n\n### 1. The Terminal Commit \u2014 `45df14a2e05573e6213ce789aa3278f4f30fa54f`\n\n**Classification: `documentation/configuration`** (high confidence)\n\nThe single commit touching [`45df14a2e05573e6213ce789aa3278f4f30fa54f~1..45df14a2e05573e6213ce789aa3278f4f30fa54f`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/.github/ISSUE_TEMPLATE/bug_report.yml) is a pure English prose correction: the misspelling `tripple` \u2192 `triple` appearing in three places in [`.github/ISSUE_TEMPLATE/bug_report.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/.github/ISSUE_TEMPLATE/bug_report.yml?L99-L196) and twice in [`.github/ISSUE_TEMPLATE/documentation_report.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/.github/ISSUE_TEMPLATE/documentation_report.yml?L109-L135). No executable code, no configuration values, no logic changed. This fits squarely within the **documentation/configuration** category. A `cleanup` secondary label could apply (fixing a cosmetic defect), but the primary surface is non-code documentation.\n\n---\n\n### 2. Stratum-Wide Task Shape Inventory\n\nThe changelog fragments in [`changelogs/fragments/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/tree/changelogs/fragments) are the project's own structured record of every merged PR before the cutoff. The 70+ fragments, cross-checked against implementation files below, evidence the following shapes:\n\n---\n\n#### A. `localized_bug_fix` \u2014 **dominant** shape\n\nEvery fragment filed as `bugfixes:` maps to a tightly-scoped fix with a single clear symptom and a referencing issue number.\n\n| Fragment | Symptom | Implementation site |\n|---|---|---|\n| [`fork_safe_stdio.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/fork_safe_stdio.yml) | Post-fork output deadlock | [`lib/ansible/utils/display.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/utils/display.py?L167-L183) \u2014 `_synchronize_textiowrapper` wraps `buffer.write`/`buffer.flush` with a lock |\n| [`76737-paramiko-rsa-sha2.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/76737-paramiko-rsa-sha2.yml) | RSA-SHA2 breaks paramiko \u2265 2.9 | [`lib/ansible/plugins/connection/paramiko_ssh.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/plugins/connection/paramiko_ssh.py?L61-L74) \u2014 new `use_rsa_sha2_algorithms` option |\n| [`79083-jinja2_native-preserve-quotes-in-strings.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79083-jinja2_native-preserve-quotes-in-strings.yml) | Jinja2 native mode drops quotes | `lib/ansible/template/native_helpers.py` |\n| [`become-loop-setting.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/become-loop-setting.yml) | `become` and connection reuse broken in task loops | `lib/ansible/executor/` |\n| [`79376-replace-valid-attrs-with-fattributes.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79376-replace-valid-attrs-with-fattributes.yaml) | Leftover `_valid_attrs` usage | [`lib/ansible/playbook/base.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/playbook/base.py?L73-L95) \u2014 `fattributes` property |\n| [`plugin_loader_fix.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/plugin_loader_fix.yml) | Plugin init checks config before it exists | `lib/ansible/plugins/loader.py` |\n| [`79187--wheel-0.38.0.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79187--wheel-0.38.0.yml) | wheel \u2265 0.38.0 breaks Python 3.6 test installs | test constraint files |\n\n---\n\n#### B. `feature` \u2014 second most common\n\nNew capabilities added, with parameters, behaviours, or subsystems not previously available:\n\n| Fragment | What was added |\n|---|---|\n| [`71424-deterministic-vault-encode.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/71424-deterministic-vault-encode.yml) | Custom salt for vault encoding (`ansible-vault`) |\n| [`78828-iptables-option-to-disable-dns-lookups.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78828-iptables-option-to-disable-dns-lookups.yml) | New `numeric` parameter on [`lib/ansible/modules/iptables.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/modules/iptables.py) |\n| [`ansible-test-container-management.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansible-test-container-management.yml) `major_changes` | Full cgroup v2 + WSL2 + rootless Podman support in `ansible-test` |\n| [`validate-modules-sidecar.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/validate-modules-sidecar.yml) | Sidecar `.yml`/`.yaml` doc files for modules |\n| [`apt_repo_trust_prefs.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/apt_repo_trust_prefs.yml) | `apt_repository` preference-ordered trust directories |\n| [`new_editor_pager_opts.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/new_editor_pager_opts.yml) | New editor/pager configuration options |\n\n---\n\n#### C. `refactor` \u2014 clearly evidenced\n\nStructural changes that preserve semantics while improving internal architecture:\n\n| Fragment | Change | Implementation |\n|---|---|---|\n| [`ansiblej2vars-chainmap.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansiblej2vars-chainmap.yml) | `AnsibleJ2Vars` rewritten to subclass `collections.ChainMap` | [`lib/ansible/template/vars.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/template/vars.py?L4-L76) \u2014 `class AnsibleJ2Vars(ChainMap)` |\n| [`cache-fa-on-pb-cls.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/cache-fa-on-pb-cls.yml) + [`79376-replace-valid-attrs-with-fattributes.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79376-replace-valid-attrs-with-fattributes.yaml) | `_valid_attrs` replaced by `@classmethod @cache` `fattributes` property | [`lib/ansible/playbook/base.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/lib/ansible/playbook/base.py?L75-L95) |\n| [`optimize_vars_loads.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/optimize_vars_loads.yml) | Variable-loading caching to reduce redundant computation | `lib/ansible/vars/` |\n| [`79021-dont-squash-in-validate.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79021-dont-squash-in-validate.yml) | Validate path no longer squashes loop vars |  |\n\nThe `AnsibleJ2Vars \u2192 ChainMap` and `_valid_attrs \u2192 fattributes` changes are the most structurally significant refactors visible in the codebase at this snapshot.\n\n---\n\n#### D. `dependency_migration` \u2014 clearly evidenced\n\nVersion bumps and vendor updates where the external dependency is the change:\n\n| Fragment | Dependency | Direction |\n|---|---|---|\n| [`79399-resolvelib_lt_0_10_0.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79399-resolvelib_lt_0_10_0.yml) | `resolvelib` upper-bounded to `< 0.10.0` | version constraint tightened |\n| [`79227-update-vendored-distro.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/79227-update-vendored-distro.yaml) | `distro` vendor copy synced to upstream | vendor bump |\n| [`ansible-test-pylint-2.15.4.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansible-test-pylint-2.15.4.yml) / [`ansible-test-pylint-2.15.5.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/ansible-test-pylint-2.15.5.yml) | `pylint` updated through 2.15.4 \u2192 2.15.5 | sequential pinned upgrades |\n| [`psscriptanalyzer-1.21.0.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/psscriptanalyzer-1.21.0.yml) | PSScriptAnalyzer 1.21.0 for PowerShell sanity | tool upgrade |\n\n---\n\n#### E. `cleanup` \u2014 evidenced as a distinct minor shape\n\nRemoval of deprecated / dead code with no functional replacement:\n\n| Fragment | What was removed |\n|---|---|\n| [`78819-78820-remove-deprecated-cow-options.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78819-78820-remove-deprecated-cow-options.yml) | `ANSIBLE_COW_WHITELIST` env var; `cow_whitelist` config key |\n| [`78821-78822-remove-callback_whitelist.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78821-78822-remove-callback_whitelist.yml) | `ANSIBLE_CALLBACK_WHITELIST` env var; `callback_whitelist` config key |\n| [`validate-modules-forced_action_plugin.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/validate-modules-forced_action_plugin.yml) | Never-implemented `forced_action_plugin` attribute from validate-modules |\n\nAll three follow the pattern: deprecation was issued in a prior cycle, the removal cycle is now. These sit cleanly within `cleanup` (dead-deprecation removal), not `refactor` (which keeps semantics).\n\n---\n\n#### F. `documentation/configuration` \u2014 the terminal commit's category, broadly present\n\n| Artifact | Content |\n|---|---|\n| [`45df14a2e05573e6213ce789aa3278f4f30fa54f`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f) (terminal commit) | `tripple` \u2192 `triple` typo fix in two YAML issue templates |\n| [`strftime_docs.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/strftime_docs.yml) | `strftime` documentation improvement |\n| [`78802-sanity-meta-runtime.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/blob/changelogs/fragments/78802-sanity-meta-runtime.yml) | Sanity test metadata for `meta/runtime.yml` |\n| BOTMETA, CONTRIBUTING, PR template in [`.github/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/tree/.github) | Contributor workflow configuration |\n\n---\n\n#### G. `test_generation` \u2014 evidenced but subordinate\n\n`ansible-test` container management fragments (`ansible-test-containers-python-3.11.0.yml`, `ansible-test-integration-targets-filter.yml`, `ansible-test-fix-python-3.11-traceback.yml`) represent test-infrastructure work, and [`test/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ansible-ansible@45df14a2e05573e6213ce789aa3278f4f30fa54f/-/tree/test) contains `units/`, `integration/`, and `sanity/` subtrees. However, none of the fragments exclusively describe new test case generation for existing logic \u2014 they are all test-runner infrastructure fixes (better classified as `localized_bug_fix` in the test toolchain) or feature work in `ansible-test` itself. Pure `test_generation` (adding coverage for existing functionality) is not strongly evidenced from the changelog record at this snapshot.\n\n---\n\n#### H. `boilerplate` / `architectural_scaffolding` \u2014 absent\n\nNo fragments or file structures indicate fresh project scaffolding, skeleton generation, or framework boilerplate at this snapshot. The codebase is mature; the `v2.15.0-initial-commit.yaml` fragment is an empty `{}` placeholder, confirming a branch-cut marker rather than actual scaffolding.\n\n---\n\n### Taxonomy Summary\n\n| Shape | Confidence | Key Evidence |\n|---|---|---|\n| **localized_bug_fix** | high | 20+ `bugfixes:` fragments; fork-lock, paramiko SHA2, jinja2 quote, become-loop, connection-reuse |\n| **feature** | high | Vault custom salt, iptables `numeric`, cgroup v2/WSL2/Podman, sidecar module docs |\n| **refactor** | high | `AnsibleJ2Vars(ChainMap)`, `_valid_attrs \u2192 fattributes + @cache` |\n| **dependency_migration** | high | `resolvelib` bound, vendored `distro`, `pylint` 2.15.x, PSScriptAnalyzer 1.21.0 |\n| **cleanup** | high | Removal of `cow_whitelist`, `callback_whitelist`, `forced_action_plugin` |\n| **documentation/configuration** | high | Terminal commit typo; `strftime` docs; `.github/` templates |\n| **test_generation** | low / ambiguous | `ansible-test` infra work present but classifies better as bug fix or feature in the test runner |\n| **boilerplate** | absent | No evidence |\n| **architectural_scaffolding** | absent | No evidence |\n\n---\n\n### Taxonomy Refinement Proposal\n\nThe existing eight categories are sufficient for this stratum with one clarification worth freezing:\n\n> **`dependency_migration` should be split into two subtypes when applying to ansible/ansible:**\n> - `dependency_migration/vendor_sync` \u2014 the vendored copy of a library is updated in-tree (e.g. `distro`, `_vendor/`). The change is entirely file content, version number, and sometimes a shim.\n> - `dependency_migration/constraint_update` \u2014 the version bound in a requirements or constraints file changes without a vendor copy (e.g. `resolvelib < 0.10.0`, `wheel < 0.38.0`). The artifact is a one- or two-line file edit with no new code.\n\nThese two subtypes exhibit meaningfully different code-change shapes (large file replacement vs. single-line constraint edit) and would be misclassified as equivalent tasks by a model trained only on diff size or file count."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:59:44Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/ansible-ansible at revision 45df14a2e05573e6213ce789aa3278f4f30fa54f, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: ansible/ansible; stratum: pre_2023_context; cutoff: 76884711a617bfe59b417df11fbfc42016c99de8."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Identify engineering task shapes in GitHub repo commit history",
+    "updateTime": "2026-07-29T04:02:58Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/e7320c04-669a-4df4-9ac4-e985eec6d866"
+  },
+  "run_id": "sha256:d78457925fb8f35a3b06544b0086028c8fe8a5f047517dcb8b337e4bf4b11fd6",
+  "search_context": {
+    "context_revision_kind": "last_default_branch_commit_before_2023",
+    "repository": "ansible/ansible"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

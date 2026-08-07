@@ -1,0 +1,302 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "cecc0391f2164d40555c84debbec2a8f93397e013d8a1e0c2cd87beb1c6cec59",
+  "artifact_version": 1,
+  "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a"
+  ],
+  "cited_files": [
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/valve_runner.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/valve_runner.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/const.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L59-79"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/store.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L259-265"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/observed_watering.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/observed_watering.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/const.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L304-311"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/store.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L174-180"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/triggers.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "tests/test_next_irrigation_trigger.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_next_irrigation_trigger.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/skip_conditions.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/skip_conditions.py?L41-60"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/const.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L81-85"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/scheduler.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/scheduler.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/const.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L463-477"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/irrigation_unlimited.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/irrigation_unlimited.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/watering_calendar.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/watering_calendar.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/weathermodules/SolarRadiationFallback.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/weathermodules/SolarRadiationFallback.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/const.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L158-163"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/store.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L250-253"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/__init__.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/__init__.py?L78-141"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/diagnostics.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/diagnostics.py?L20-24"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/__init__.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/__init__.py?L185-200"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/store.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L339-380"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/calculation.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/calculation.py?L1-8"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/triggers.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py?L1-9"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/skip_conditions.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/skip_conditions.py?L1-8"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/watering_calendar.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/watering_calendar.py?L1-7"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/store.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L402-410"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "tests/test_continous_updates.py.disabled",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_continous_updates.py.disabled"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/store.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L284-298"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/const.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L198-201"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/manifest.json",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/manifest.json"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "CLAUDE.md",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/CLAUDE.md"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "Makefile",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/Makefile"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/pyproject.toml"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/const.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/__init__.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/__init__.py?L41-61"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/store.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L268-382"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/performance.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/performance.py"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/triggers.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py?L39-46"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/const.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L286-294"
+    },
+    {
+      "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "path": "custom_components/smart_irrigation/const.py",
+      "repository": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L222-321"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2004",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a.",
+  "prompt_family_id": "delegated_task_intent",
+  "prompt_sha256": "55b2066a7a43f8088dd8247d2c481dbc41af697799545fc6d99f15f94f9621e8",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a comprehensive picture of the codebase. Let me compile the taxonomy analysis.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `jeroenterheerdt/HAsmartirrigation` @ `9ad5a7d`\n\nThis is a Home Assistant custom component (HACS) for weather-based smart irrigation. The codebase at the cutoff represents a fork (`@altmenorg`) that has accumulated significant development on top of the upstream `jeroenterheerdt` project. Below are the evidenced task shapes, each cited to specific artifacts.\n\n---\n\n### 1. Feature\n\nThe dominant shape at this cutoff. Multiple independently-bounded capabilities were added, each introducing new constants, store fields, logic, and\u2014frequently\u2014a dedicated mixin file.\n\n**Direct valve control (optional executor)**\nThe integration can now open/close linked HA entities (switches, valves) itself, rather than requiring user automations. Introduced the full `ValveRunnerMixin` in [`valve_runner.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/valve_runner.py), constants `CONF_DIRECT_VALVE_CONTROL_ENABLED`, `CONF_ZONE_SEQUENCING`, `CONF_ACTIVE_VALVE_RUNS`, `RUN_*` keys in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L59-79), and `direct_valve_control_enabled` / `active_valve_runs` fields in [`store.py`'s `Config`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L259-265).\n\n**Observed watering (closed-loop bucket crediting)**\n[`observed_watering.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/observed_watering.py) \u2014 `ObservedWateringMixin` tracks linked valve state changes and credits the zone bucket from real run time or a linked flow sensor volume. Adds `ZONE_LINKED_ENTITY`, `ZONE_FLOW_SENSOR`, `ZONE_LAST_IRRIGATION`, `ZONE_WATER_USED` in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L304-311) and corresponding `ZoneEntry` fields in [`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L174-180). Credited as adapted from JustChr's fork.\n\n**Configurable irrigation start triggers**\n[`triggers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py) \u2014 `TriggersMixin` supports sunrise, sunset, and solar-azimuth triggers. The `TRIGGER_*` constants and `active_start_trigger` / `irrigation_start_triggers` config fields replace the hardcoded \"sunrise minus total duration\" behavior. Tested in [`test_next_irrigation_trigger.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_next_irrigation_trigger.py).\n\n**Weather-based skip on precipitation**\n`_check_precipitation_forecast` in [`skip_conditions.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/skip_conditions.py?L41-60), with `CONF_SKIP_IRRIGATION_ON_PRECIPITATION` and `CONF_PRECIPITATION_THRESHOLD_MM` constants.\n\n**Days-between-irrigation throttle**\n`CONF_DAYS_BETWEEN_IRRIGATION` / `CONF_DAYS_SINCE_LAST_IRRIGATION` in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L81-85) and `skip_conditions.py`.\n\n**Enhanced scheduling (recurring schedules and seasonal adjustments)**\n[`scheduler.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/scheduler.py) provides `RecurringScheduleManager` (daily/weekly/monthly/interval types) and `SeasonalAdjustmentManager`. Full service API: `SERVICE_CREATE_RECURRING_SCHEDULE`, `SERVICE_UPDATE_*`, `SERVICE_DELETE_*`, `SERVICE_CREATE_SEASONAL_ADJUSTMENT`, etc. in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L463-477).\n\n**Irrigation Unlimited integration bridge**\n[`irrigation_unlimited.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/irrigation_unlimited.py) \u2014 `IrrigationUnlimitedIntegration` discovers IU entities and provides sync/share-zone-data services.\n\n**Watering calendar generation**\n[`watering_calendar.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/watering_calendar.py) \u2014 `WateringCalendarMixin.async_generate_watering_calendar` builds a synthetic 12-month planning calendar per zone using latitude-based climate data.\n\n**Solar radiation fallback for OWM/PirateWeather**\n[`SolarRadiationFallback.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/weathermodules/SolarRadiationFallback.py) \u2014 `SolarRadiationFallbackClient` transparently fills missing solar radiation and ET0 fields from Open-Meteo for providers that lack them.\n\n**Manual coordinates**\n`CONF_MANUAL_COORDINATES_ENABLED`, `CONF_MANUAL_LATITUDE/LONGITUDE/ELEVATION` in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L158-163), corresponding `Config` attrs in [`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L250-253).\n\n---\n\n### 2. Localized Bug Fix\n\n**Duplicate duration entity on upgrade/downgrade cycle**\n`_migrate_duration_unique_ids` in [`__init__.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/__init__.py?L78-141) detects and removes stale duplicate `sensor.smart_irrigation_<slug>` unique IDs left over from a version cycle, preventing setup failure on collision.\n\n**Diagnostics mutate live hass.data**\nComment in [`diagnostics.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/diagnostics.py?L20-24) explicitly calls out issue #758: downloading diagnostics previously broke running tabs by redacting the API key on the live dict in place. Fixed by building a separate output dict.\n\n**Stale API key on reconfigure**\n[`__init__.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/__init__.py?L185-200) \u2014 comment references issue #683: options (set by Reconfigure flow) now always override entry data, not only when `use_weather_service` changed, so updating only the API key takes effect and does not return HTTP 401.\n\n**`TypeError` on startup from unrecognized config keys**\n`MigratableStore._async_migrate_func` in [`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L339-380) strips unknown keys from the persisted config via `attr.fields_dict(Config)` before constructing `Config(...)`, preventing `TypeError` from stale or future keys on disk.\n\n---\n\n### 3. Refactor\n\n**`__init__.py` decomposition into mixins**\nMultiple docstrings explicitly state \"Extracted from `__init__.py`\":\n- [`calculation.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/calculation.py?L1-8) \u2014 `CalculationMixin`\n- [`triggers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py?L1-9) \u2014 `TriggersMixin`\n- [`skip_conditions.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/skip_conditions.py?L1-8) \u2014 `SkipConditionsMixin`\n- [`watering_calendar.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/watering_calendar.py?L1-7) \u2014 `WateringCalendarMixin`\n\nAll four docstrings state \"bodies are unchanged and still use `self` to reach coordinator state\" \u2014 a behavior-preserving extraction into a mixin pattern. The main coordinator in `__init__.py` then inherits all mixins.\n\n**`_populate_from_data` factoring in store**\n[`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L402-410) extracts a shared `_populate_from_data` method used by both `async_load` (from disk) and `async_import` (from user backup), replacing earlier duplication. The docstring explicitly notes \"atomic restore.\"\n\n---\n\n### 4. Test Generation\n\nA large test suite was clearly written alongside (or immediately after) the new features, with strong evidence they were generated in bulk rather than written incrementally:\n\n- Root-level one-off scripts (`test_basic_functionality.py`, `test_comprehensive.py`, `test_comprehensive_triggers.py`, `test_datetime_fix_proof.py`, `test_enhanced_scheduling.py`, etc.) \u2014 exploratory/proof-of-concept scripts at the root, outside the `tests/` directory, many with `_proof` suffixes suggesting they were produced to validate a fix rather than as regression tests.\n- `tests/test_helpers_coverage.py` \u2014 file name and content explicitly frame itself as a coverage-improvement exercise (`\"Test Smart Irrigation helper functions to improve coverage\"`), testing exception instantiation and string formatting rather than logic.\n- `tests/test_store_operations.py` \u2014 tests basic CRUD operations (initialize, load, get config) at a granularity that mirrors method enumeration more than user-scenario coverage.\n- `tests/test_valve_runner.py` and `tests/test_observed_watering.py` \u2014 better-quality targeted tests with realistic mocks, co-produced with `ValveRunnerMixin` and `ObservedWateringMixin`.\n- Several test files disabled with `.disabled` suffix ([`test_continous_updates.py.disabled`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_continous_updates.py.disabled), `test_zone_calculation.py.disabled`, etc.), indicating generated tests that could not be made to pass and were parked.\n\n---\n\n### 5. Dependency Migration\n\n**OWM config key rename**\n[`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L284-298) \u2014 `_async_migrate_func` at `old_version == 3` renames `use_owm` \u2192 `use_weather_service` and sets `weather_service = \"Open Weather Map\"`. This is a data-layer migration tracking the upstream rename of the OWM-specific flag to a generic multi-provider flag.\n\n**Open-Meteo promoted as default**\n[`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L198-201) \u2014 `CONF_DEFAULT_WEATHER_SERVICE = CONF_WEATHER_SERVICE_OM` with explicit comment \"free, keyless, and it supplies solar radiation + FAO-56 ET0 out of the box.\" The requirements in [`manifest.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/manifest.json) dropped `pyeto` from declared dependencies (only `aiofiles` remains), suggesting the pyeto calculation module is now loaded dynamically rather than declared statically.\n\n---\n\n### 6. Documentation / Configuration\n\n**`CLAUDE.md` \u2014 AI-session handoff document**\n[`CLAUDE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/CLAUDE.md) is a working-session context file for AI-assisted development, containing branch workflow, build conventions, deployment notes, and pointers to gitignored operational files (`HANDOFF.md`, `CLAUDE.local.md`). This is not traditional project documentation; it is operational scaffolding for AI-assisted sessions.\n\n**`Makefile`**\n[`Makefile`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/Makefile) \u2014 introduces `setup`, `test`, `lint`, `format`, `check`, and `clean` targets, standardizing the local dev workflow and aligning it with CI (ruff + black). No logic changes.\n\n**`pyproject.toml`**\n[`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/pyproject.toml) \u2014 configures ruff lint rule sets (E, F, B, I, UP, SIM) and explicit ignores. Configuration-only file.\n\n**`const.py` inline comments**\nMultiple constants in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py) carry explanatory comments (e.g., `START_TRIGGER_DEFAULT` sentinel explanation at L43-46, `ZONE_ET_DEFICIENCY` note referencing issue #576 at L288-291, `CONF_ACTIVE_VALVE_RUNS` / `RUN_*` keys at L73-79). These are in-code documentation additions.\n\n---\n\n### 7. Architectural Scaffolding\n\n**Mixin-based coordinator decomposition**\nThe central pattern of the codebase is that `SmartIrrigationCoordinator` (in `__init__.py`) inherits from `CalculationMixin`, `TriggersMixin`, `SkipConditionsMixin`, `WateringCalendarMixin`, `ObservedWateringMixin`, `ValveRunnerMixin`, `ServiceHandlersMixin`, and `IrrigationUnlimitedIntegration` (or a mixin thereof). The coordinator itself is declared in [`__init__.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/__init__.py?L41-61). This multi-inheritance mixin scaffold is the structural decision that enables future capabilities to be added as new files without modifying the coordinator core \u2014 evidenced by the consistent pattern across all new mixin files.\n\n**`MigratableStore` subclass**\n[`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L268-382) \u2014 `MigratableStore(Store)` encapsulates version-to-version config migration behind a stable interface. The current STORAGE_VERSION is 5. This is a structural addition that makes future version bumps self-contained.\n\n**`performance.py` decorator scaffold**\n[`performance.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/performance.py) \u2014 a `@performance_timer` decorator factory handling both sync and async functions. The file exists as infrastructure; whether it is actually applied to hot paths at this cutoff is ambiguous (no call sites verified in this pass).\n\n---\n\n### 8. Cleanup\n\n**Commented-out legacy code in `triggers.py`**\n[`triggers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py?L39-46) retains a multi-line block of commented-out `sun_state` parsing (dead code from the original `register_start_event` implementation). Present but not removed.\n\n**`ZONE_THROUGHPUT` duplicate constant**\n[`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L286-294) declares `ZONE_THROUGHPUT = \"throughput\"` twice (lines 286 and 294). This is an unresolved merge artifact.\n\n**`CONF_IMPERIAL` duplicate constant**\n[`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L222-321) declares `CONF_IMPERIAL = \"imperial\"` at both L222 and L320 (within the metric/imperial unit block and again below). Same duplicate pattern.\n\n---\n\n### Ambiguity Notes\n\n- **`blueprints/` and `examples/`** directories are present but not read in this pass. They likely contain YAML automation blueprints (documentation/configuration shape), but this is unconfirmed.\n- **`irrigation_unlimited.py`** \u2014 its classification as \"feature\" vs. \"architectural scaffolding\" is ambiguous. It is a discrete capability (bridge to another integration) but also establishes a pattern for future third-party bridges. Classified as **feature** because it delivers a user-visible capability.\n- **Disabled test files** \u2014 it is ambiguous whether `.disabled` files represent failed test generation or deliberately deferred work. The naming pattern (`_edge_cases`, `_continous_updates`) suggests they were generated and then found to be too tightly coupled to a live HA instance to run in CI.\n\n---\n\n### Taxonomy Refinement Proposal\n\nThe existing eight categories cover all observed shapes. One sub-distinction is worth noting but does not require a new top-level category:\n\n> **Test generation** should be split into two sub-types when precision matters: **coverage-driven test generation** (producing tests to raise a metric, evidenced by `test_helpers_coverage.py` and the root `test_*.py` scripts) vs. **feature-co-developed tests** (written to validate a specific new capability, evidenced by `test_valve_runner.py`, `test_observed_watering.py`, `test_next_irrigation_trigger.py`). The two sub-types have different quality signals and different relationships to the code they test.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:19:23Z",
+    "name": "users/476/conversations/2004",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a comprehensive picture of the codebase. Let me compile the taxonomy analysis.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `jeroenterheerdt/HAsmartirrigation` @ `9ad5a7d`\n\nThis is a Home Assistant custom component (HACS) for weather-based smart irrigation. The codebase at the cutoff represents a fork (`@altmenorg`) that has accumulated significant development on top of the upstream `jeroenterheerdt` project. Below are the evidenced task shapes, each cited to specific artifacts.\n\n---\n\n### 1. Feature\n\nThe dominant shape at this cutoff. Multiple independently-bounded capabilities were added, each introducing new constants, store fields, logic, and\u2014frequently\u2014a dedicated mixin file.\n\n**Direct valve control (optional executor)**\nThe integration can now open/close linked HA entities (switches, valves) itself, rather than requiring user automations. Introduced the full `ValveRunnerMixin` in [`valve_runner.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/valve_runner.py), constants `CONF_DIRECT_VALVE_CONTROL_ENABLED`, `CONF_ZONE_SEQUENCING`, `CONF_ACTIVE_VALVE_RUNS`, `RUN_*` keys in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L59-79), and `direct_valve_control_enabled` / `active_valve_runs` fields in [`store.py`'s `Config`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L259-265).\n\n**Observed watering (closed-loop bucket crediting)**\n[`observed_watering.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/observed_watering.py) \u2014 `ObservedWateringMixin` tracks linked valve state changes and credits the zone bucket from real run time or a linked flow sensor volume. Adds `ZONE_LINKED_ENTITY`, `ZONE_FLOW_SENSOR`, `ZONE_LAST_IRRIGATION`, `ZONE_WATER_USED` in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L304-311) and corresponding `ZoneEntry` fields in [`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L174-180). Credited as adapted from JustChr's fork.\n\n**Configurable irrigation start triggers**\n[`triggers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py) \u2014 `TriggersMixin` supports sunrise, sunset, and solar-azimuth triggers. The `TRIGGER_*` constants and `active_start_trigger` / `irrigation_start_triggers` config fields replace the hardcoded \"sunrise minus total duration\" behavior. Tested in [`test_next_irrigation_trigger.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_next_irrigation_trigger.py).\n\n**Weather-based skip on precipitation**\n`_check_precipitation_forecast` in [`skip_conditions.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/skip_conditions.py?L41-60), with `CONF_SKIP_IRRIGATION_ON_PRECIPITATION` and `CONF_PRECIPITATION_THRESHOLD_MM` constants.\n\n**Days-between-irrigation throttle**\n`CONF_DAYS_BETWEEN_IRRIGATION` / `CONF_DAYS_SINCE_LAST_IRRIGATION` in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L81-85) and `skip_conditions.py`.\n\n**Enhanced scheduling (recurring schedules and seasonal adjustments)**\n[`scheduler.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/scheduler.py) provides `RecurringScheduleManager` (daily/weekly/monthly/interval types) and `SeasonalAdjustmentManager`. Full service API: `SERVICE_CREATE_RECURRING_SCHEDULE`, `SERVICE_UPDATE_*`, `SERVICE_DELETE_*`, `SERVICE_CREATE_SEASONAL_ADJUSTMENT`, etc. in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L463-477).\n\n**Irrigation Unlimited integration bridge**\n[`irrigation_unlimited.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/irrigation_unlimited.py) \u2014 `IrrigationUnlimitedIntegration` discovers IU entities and provides sync/share-zone-data services.\n\n**Watering calendar generation**\n[`watering_calendar.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/watering_calendar.py) \u2014 `WateringCalendarMixin.async_generate_watering_calendar` builds a synthetic 12-month planning calendar per zone using latitude-based climate data.\n\n**Solar radiation fallback for OWM/PirateWeather**\n[`SolarRadiationFallback.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/weathermodules/SolarRadiationFallback.py) \u2014 `SolarRadiationFallbackClient` transparently fills missing solar radiation and ET0 fields from Open-Meteo for providers that lack them.\n\n**Manual coordinates**\n`CONF_MANUAL_COORDINATES_ENABLED`, `CONF_MANUAL_LATITUDE/LONGITUDE/ELEVATION` in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L158-163), corresponding `Config` attrs in [`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L250-253).\n\n---\n\n### 2. Localized Bug Fix\n\n**Duplicate duration entity on upgrade/downgrade cycle**\n`_migrate_duration_unique_ids` in [`__init__.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/__init__.py?L78-141) detects and removes stale duplicate `sensor.smart_irrigation_<slug>` unique IDs left over from a version cycle, preventing setup failure on collision.\n\n**Diagnostics mutate live hass.data**\nComment in [`diagnostics.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/diagnostics.py?L20-24) explicitly calls out issue #758: downloading diagnostics previously broke running tabs by redacting the API key on the live dict in place. Fixed by building a separate output dict.\n\n**Stale API key on reconfigure**\n[`__init__.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/__init__.py?L185-200) \u2014 comment references issue #683: options (set by Reconfigure flow) now always override entry data, not only when `use_weather_service` changed, so updating only the API key takes effect and does not return HTTP 401.\n\n**`TypeError` on startup from unrecognized config keys**\n`MigratableStore._async_migrate_func` in [`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L339-380) strips unknown keys from the persisted config via `attr.fields_dict(Config)` before constructing `Config(...)`, preventing `TypeError` from stale or future keys on disk.\n\n---\n\n### 3. Refactor\n\n**`__init__.py` decomposition into mixins**\nMultiple docstrings explicitly state \"Extracted from `__init__.py`\":\n- [`calculation.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/calculation.py?L1-8) \u2014 `CalculationMixin`\n- [`triggers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py?L1-9) \u2014 `TriggersMixin`\n- [`skip_conditions.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/skip_conditions.py?L1-8) \u2014 `SkipConditionsMixin`\n- [`watering_calendar.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/watering_calendar.py?L1-7) \u2014 `WateringCalendarMixin`\n\nAll four docstrings state \"bodies are unchanged and still use `self` to reach coordinator state\" \u2014 a behavior-preserving extraction into a mixin pattern. The main coordinator in `__init__.py` then inherits all mixins.\n\n**`_populate_from_data` factoring in store**\n[`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L402-410) extracts a shared `_populate_from_data` method used by both `async_load` (from disk) and `async_import` (from user backup), replacing earlier duplication. The docstring explicitly notes \"atomic restore.\"\n\n---\n\n### 4. Test Generation\n\nA large test suite was clearly written alongside (or immediately after) the new features, with strong evidence they were generated in bulk rather than written incrementally:\n\n- Root-level one-off scripts (`test_basic_functionality.py`, `test_comprehensive.py`, `test_comprehensive_triggers.py`, `test_datetime_fix_proof.py`, `test_enhanced_scheduling.py`, etc.) \u2014 exploratory/proof-of-concept scripts at the root, outside the `tests/` directory, many with `_proof` suffixes suggesting they were produced to validate a fix rather than as regression tests.\n- `tests/test_helpers_coverage.py` \u2014 file name and content explicitly frame itself as a coverage-improvement exercise (`\"Test Smart Irrigation helper functions to improve coverage\"`), testing exception instantiation and string formatting rather than logic.\n- `tests/test_store_operations.py` \u2014 tests basic CRUD operations (initialize, load, get config) at a granularity that mirrors method enumeration more than user-scenario coverage.\n- `tests/test_valve_runner.py` and `tests/test_observed_watering.py` \u2014 better-quality targeted tests with realistic mocks, co-produced with `ValveRunnerMixin` and `ObservedWateringMixin`.\n- Several test files disabled with `.disabled` suffix ([`test_continous_updates.py.disabled`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/tests/test_continous_updates.py.disabled), `test_zone_calculation.py.disabled`, etc.), indicating generated tests that could not be made to pass and were parked.\n\n---\n\n### 5. Dependency Migration\n\n**OWM config key rename**\n[`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L284-298) \u2014 `_async_migrate_func` at `old_version == 3` renames `use_owm` \u2192 `use_weather_service` and sets `weather_service = \"Open Weather Map\"`. This is a data-layer migration tracking the upstream rename of the OWM-specific flag to a generic multi-provider flag.\n\n**Open-Meteo promoted as default**\n[`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L198-201) \u2014 `CONF_DEFAULT_WEATHER_SERVICE = CONF_WEATHER_SERVICE_OM` with explicit comment \"free, keyless, and it supplies solar radiation + FAO-56 ET0 out of the box.\" The requirements in [`manifest.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/manifest.json) dropped `pyeto` from declared dependencies (only `aiofiles` remains), suggesting the pyeto calculation module is now loaded dynamically rather than declared statically.\n\n---\n\n### 6. Documentation / Configuration\n\n**`CLAUDE.md` \u2014 AI-session handoff document**\n[`CLAUDE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/CLAUDE.md) is a working-session context file for AI-assisted development, containing branch workflow, build conventions, deployment notes, and pointers to gitignored operational files (`HANDOFF.md`, `CLAUDE.local.md`). This is not traditional project documentation; it is operational scaffolding for AI-assisted sessions.\n\n**`Makefile`**\n[`Makefile`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/Makefile) \u2014 introduces `setup`, `test`, `lint`, `format`, `check`, and `clean` targets, standardizing the local dev workflow and aligning it with CI (ruff + black). No logic changes.\n\n**`pyproject.toml`**\n[`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/pyproject.toml) \u2014 configures ruff lint rule sets (E, F, B, I, UP, SIM) and explicit ignores. Configuration-only file.\n\n**`const.py` inline comments**\nMultiple constants in [`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py) carry explanatory comments (e.g., `START_TRIGGER_DEFAULT` sentinel explanation at L43-46, `ZONE_ET_DEFICIENCY` note referencing issue #576 at L288-291, `CONF_ACTIVE_VALVE_RUNS` / `RUN_*` keys at L73-79). These are in-code documentation additions.\n\n---\n\n### 7. Architectural Scaffolding\n\n**Mixin-based coordinator decomposition**\nThe central pattern of the codebase is that `SmartIrrigationCoordinator` (in `__init__.py`) inherits from `CalculationMixin`, `TriggersMixin`, `SkipConditionsMixin`, `WateringCalendarMixin`, `ObservedWateringMixin`, `ValveRunnerMixin`, `ServiceHandlersMixin`, and `IrrigationUnlimitedIntegration` (or a mixin thereof). The coordinator itself is declared in [`__init__.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/__init__.py?L41-61). This multi-inheritance mixin scaffold is the structural decision that enables future capabilities to be added as new files without modifying the coordinator core \u2014 evidenced by the consistent pattern across all new mixin files.\n\n**`MigratableStore` subclass**\n[`store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/store.py?L268-382) \u2014 `MigratableStore(Store)` encapsulates version-to-version config migration behind a stable interface. The current STORAGE_VERSION is 5. This is a structural addition that makes future version bumps self-contained.\n\n**`performance.py` decorator scaffold**\n[`performance.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/performance.py) \u2014 a `@performance_timer` decorator factory handling both sync and async functions. The file exists as infrastructure; whether it is actually applied to hot paths at this cutoff is ambiguous (no call sites verified in this pass).\n\n---\n\n### 8. Cleanup\n\n**Commented-out legacy code in `triggers.py`**\n[`triggers.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/triggers.py?L39-46) retains a multi-line block of commented-out `sun_state` parsing (dead code from the original `register_start_event` implementation). Present but not removed.\n\n**`ZONE_THROUGHPUT` duplicate constant**\n[`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L286-294) declares `ZONE_THROUGHPUT = \"throughput\"` twice (lines 286 and 294). This is an unresolved merge artifact.\n\n**`CONF_IMPERIAL` duplicate constant**\n[`const.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/jeroenterheerdt-hasmartirrigation@9ad5a7d90ac2c42288536a6264cdc8adbea39b6a/-/blob/custom_components/smart_irrigation/const.py?L222-321) declares `CONF_IMPERIAL = \"imperial\"` at both L222 and L320 (within the metric/imperial unit block and again below). Same duplicate pattern.\n\n---\n\n### Ambiguity Notes\n\n- **`blueprints/` and `examples/`** directories are present but not read in this pass. They likely contain YAML automation blueprints (documentation/configuration shape), but this is unconfirmed.\n- **`irrigation_unlimited.py`** \u2014 its classification as \"feature\" vs. \"architectural scaffolding\" is ambiguous. It is a discrete capability (bridge to another integration) but also establishes a pattern for future third-party bridges. Classified as **feature** because it delivers a user-visible capability.\n- **Disabled test files** \u2014 it is ambiguous whether `.disabled` files represent failed test generation or deliberately deferred work. The naming pattern (`_edge_cases`, `_continous_updates`) suggests they were generated and then found to be too tightly coupled to a live HA instance to run in CI.\n\n---\n\n### Taxonomy Refinement Proposal\n\nThe existing eight categories cover all observed shapes. One sub-distinction is worth noting but does not require a new top-level category:\n\n> **Test generation** should be split into two sub-types when precision matters: **coverage-driven test generation** (producing tests to raise a metric, evidenced by `test_helpers_coverage.py` and the root `test_*.py` scripts) vs. **feature-co-developed tests** (written to validate a specific new capability, evidenced by `test_valve_runner.py`, `test_observed_watering.py`, `test_next_irrigation_trigger.py`). The two sub-types have different quality signals and different relationships to the code they test."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:19:23Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Classifying code changes by engineering task shapes in a GitHub repository",
+    "updateTime": "2026-07-29T03:22:16Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/2a224b5b-9208-4ce2-a7fa-ce0e45a0ddc7"
+  },
+  "run_id": "sha256:10b85f770c4b7e7c909a7959e98513ca25a28277def7bf2e439cd1e5cb844f1c",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "jeroenterheerdt/hasmartirrigation"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-discovery-partition-execution.schema.json",
+  "title": "Sourcegraph discovery timeout partition execution v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "partition_execution_version",
+    "partition_plan_sha256",
+    "specification_sha256",
+    "status",
+    "parent_count",
+    "valid_parent_count",
+    "invalid_parent_count",
+    "child_unit_count",
+    "outcomes_consulted",
+    "parents",
+    "partition_execution_sha256"
+  ],
+  "properties": {
+    "partition_execution_version": {
+      "const": 3
+    },
+    "partition_plan_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "specification_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "incomplete"
+      ]
+    },
+    "parent_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "valid_parent_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "invalid_parent_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "child_unit_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "parents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/parent"
+      }
+    },
+    "partition_execution_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "resultId": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "child": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "unit_id",
+        "result_manifest_sha256",
+        "sourcegraph_result_ids",
+        "valid",
+        "invalid_reasons",
+        "shard_path"
+      ],
+      "properties": {
+        "unit_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "result_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "sourcegraph_result_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/resultId"
+          }
+        },
+        "valid": {
+          "type": "boolean"
+        },
+        "invalid_reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "shard_path": {
+          "type": "string",
+          "pattern": "^partition-shards/[a-z0-9_]+/[0-9a-f]{64}\\.json$"
+        }
+      }
+    },
+    "parent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "parent_unit_id",
+        "parent_result_manifest_sha256",
+        "canonical_repository_id",
+        "query_family_id",
+        "valid",
+        "invalid_reasons",
+        "duplicate_result_ids",
+        "duplicate_result_count",
+        "deduplicated_result_count",
+        "children"
+      ],
+      "properties": {
+        "parent_unit_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "parent_result_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "query_family_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "valid": {
+          "type": "boolean"
+        },
+        "invalid_reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "duplicate_result_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/resultId"
+          }
+        },
+        "duplicate_result_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "deduplicated_result_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "children": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/child"
+          }
+        }
+      }
+    }
+  }
+}

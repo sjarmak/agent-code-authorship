@@ -1,0 +1,278 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "a6377121dd25c569190877891d7e3a77fb432336dd95a1a9da0b32d34e04b9cc",
+  "artifact_version": 1,
+  "canonical_repository_id": "ant-design/ant-design",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "2f623fe5536395bbb4dfa694fae6dbf2042d9025"
+  ],
+  "cited_files": [
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".husky/pre-commit",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.husky/pre-commit"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "package.json",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L315-L318"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "rome.json",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/rome.json"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".eslintrc.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.eslintrc.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".stylelintrc.json",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.stylelintrc.json"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".depslintrc.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.depslintrc.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".eslintrc.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.eslintrc.js?L141-L198"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/test.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/test.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".circleci/config.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.circleci/config.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/pr-open-check.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/pr-open-check.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/verify-files-modify.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/verify-files-modify.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/pr-check-merge.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/pr-check-merge.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/pr-check-ci.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/pr-check-ci.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/size-limit.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/size-limit.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/verify-package-version.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/verify-package-version.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/codeball.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/codeball.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/codeql.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/codeql.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/PULL_REQUEST_TEMPLATE.md"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".jest.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".jest.node.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.node.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".jest.image.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.image.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".jest.site.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.site.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".jest.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js?L55-L65"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "tests/setupAfterEnv.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/setupAfterEnv.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "tests/shared/mountTest.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/mountTest.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "tests/shared/demoTest.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/demoTest.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "tests/shared/accessibilityTest.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/accessibilityTest.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "tests/shared/rtlTest.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/rtlTest.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "tests/shared/focusTest.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/focusTest.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "tests/shared/imageTest.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/imageTest.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "tests/dekko/lib.test.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/dekko/lib.test.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "tests/dekko/dist.test.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/dekko/dist.test.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/tests_checker.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/tests_checker.yml"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "scripts/check-commit.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/scripts/check-commit.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "scripts/check-ts-demo.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/scripts/check-ts-demo.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".github/workflows/preview-build.yml",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/preview-build.yml"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2065",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a.",
+  "prompt_family_id": "review_validation",
+  "prompt_sha256": "82d53a4ecd474b5c12c4bf33aa882aa0b80ca82f024bb62628bfaeca1c4ed6ca",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a comprehensive picture. Let me compose the full response.\n\n---\n\n## Code-Review and Validation Mechanisms \u2014 `ant-design/ant-design` @ `2f623fe`\n\nAll citations are to files at revision `2f623fe5536395bbb4dfa694fae6dbf2042d9025`.\n\n---\n\n### 1. Pre-Commit Gate (Local, Repository-Wide)\n\n**Husky + lint-staged**\n\n[`.husky/pre-commit`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.husky/pre-commit) runs `npx --no-install lint-staged` on every commit. The staged-file rules are declared in [`package.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L315-L318):\n\n```json\n\"lint-staged\": {\n  \"*.{ts,tsx,js,jsx}\": \"rome format --write\",\n  \"*.{json,less,md}\": \"prettier --ignore-unknown --write\"\n}\n```\n\nRome (configured in [`rome.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/rome.json)) formats JS/TS; Prettier formats JSON/Less/Markdown. This fires before every commit, not only in CI.\n\n---\n\n### 2. Static Analysis / Linters (Repository-Wide)\n\n| Tool | Config file | Scope |\n|---|---|---|\n| ESLint | [`.eslintrc.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.eslintrc.js) | JS/TS/TSX + demo `.md` code fences |\n| Stylelint | [`.stylelintrc.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.stylelintrc.json) | LESS (postcss-less syntax) |\n| TypeScript (`tsc`) | `tsconfig.json` (invoked via `npm run tsc`) | whole project, `--noEmit` |\n| Remark | `.remarkrc.js` | Markdown files |\n| Dependency lint | [`.depslintrc.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.depslintrc.js) | inter-component import rules (via `antd-tools run deps-lint`) |\n\nESLint extends `airbnb`, `prettier`, `plugin:compat/recommended`, `plugin:jest/recommended`, `plugin:react/recommended`, `plugin:import/typescript`, `plugin:markdown/recommended`. Notable active rules: `react-hooks/rules-of-hooks: 2`, `unicorn/better-regex: 2`, `@typescript-eslint/consistent-type-imports: 2`, `@typescript-eslint/no-use-before-define: 2`. ([`.eslintrc.js` lines 141\u2013198](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.eslintrc.js?L141-L198))\n\nThe full lint command is composed in `package.json`:\n```\nnpm run lint  \u2192  tsc --noEmit  +  eslint . --ext .js,.jsx,.ts,.tsx  +  eslint components/*/demo/*.md  +  remark . -f -q\n```\n\n---\n\n### 3. CI Pipelines\n\n#### 3a. GitHub Actions \u2014 `test.yml` (Repository-Wide, runs on every push and PR)\n\nFile: [`.github/workflows/test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/test.yml)\n\nConcurrency: in-progress runs for the same PR/ref are cancelled on new push (line 8\u201310).\n\n| Job | What it checks |\n|---|---|\n| `lint` | `npm run lint` (tsc + ESLint + remark) |\n| `check_metadata` | `node ./scripts/check-demo.js` \u2014 asserts no demo file has `only:` set in its YAML front-matter |\n| `dist` | `CI=1 npm run dist` \u2014 builds the UMD bundle |\n| `normal-test` | Matrix: React 16/17/18 \u00d7 dom/node/dist \u00d7 shard 1/2 and 2/2. Runs `npm test`, `npm run test-node`, or dist test. For `dist` module: also runs `node ./tests/dekko/dist.test.js` and (React 17 only) `npm run bundlesize`. |\n| `upload-test-coverage` | Merges coverage JSON shards via `nyc`, uploads to Codecov |\n| `compile` | `npm run compile` + `node ./tests/dekko/lib.test.js` (validates `lib/` structure) |\n| `compiled-module-test` | Matrix: React 16/17/18 \u00d7 lib/es \u00d7 shard 1/2 and 2/2. **`lib` module tests are skipped on PRs**, only run on master push. |\n\n#### 3b. CircleCI \u2014 Visual Regression (`.circleci/config.yml`)\n\nFile: [`.circleci/config.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.circleci/config.yml)\n\nRuns `npm run test-image` (Puppeteer-based screenshot tests, Jest config: `.jest.image.js`) then `npm run argos` to upload screenshots to Argos CI for pixel-diff comparison. Uses a `large` resource class (more CPU/RAM).\n\n---\n\n### 4. PR-Gating Workflows (Repository-Wide)\n\n#### 4a. `pr-open-check.yml`\n\nFile: [`.github/workflows/pr-open-check.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/pr-open-check.yml)\n\nTwo jobs on `pull_request_target` (opened/edited/reopened/synchronized):\n\n1. **`refuse`** \u2014 if PR has label `\ud83c\udfb1 Collaborate PR only` and the author has no `write` access, the PR is auto-closed with a bilingual comment.\n2. **`check-changelog`** \u2014 uses `actions-cool/pr-check-fill@v1`. If the PR title does not start with `docs`, `chore`, `test`, or `ci`, the job checks that the PR body contains both a `\ud83c\uddfa\ud83c\uddf8 English` and a `\ud83c\udde8\ud83c\uddf3 Chinese` changelog entry. A comment is posted if absent.\n\n#### 4b. `verify-files-modify.yml`\n\nFile: [`.github/workflows/verify-files-modify.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/verify-files-modify.yml)\n\nTwo sequential `verify-files-modify` steps:\n\n1. **`verify-version`** \u2014 if a non-`write`-member PR touches `.github/`, `scripts/`, `CHANGELOG.zh-CN.md`, `CHANGELOG.en-US.md`, or `LICENSE`, the PR is closed. Assignees: `afc163, zombieJ, xrkffgg, MadCcc`.\n2. **`verify-less`** \u2014 if any PR (non-admin) touches `components/style/themes/default.less`, a warning comment is posted (PR is not closed, `set-failed: false`).\n\n#### 4c. `pr-check-merge.yml`\n\nFile: [`.github/workflows/pr-check-merge.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/pr-check-merge.yml)\n\nFires when a PR from a `feature` or `master` branch of the `ant-design` org is opened. Posts a bilingual reminder that branch-to-branch merges must use the `BranchAutoMerge` label and must **not** use Squash.\n\n#### 4d. `pr-check-ci.yml` (Auto-Merge)\n\nFile: [`.github/workflows/pr-check-ci.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/pr-check-ci.yml)\n\nRuns on a cron every 5 minutes. Uses `actions-cool/check-pr-ci@v1` to auto-merge PRs that:\n- have label `BranchAutoMerge`\n- were created by a `write`-authority user\n- target the branches: `master, feature, next, master-merge-feature, feature-merge-master, next-merge-master, next-merge-feature`\n- are not forks\n- have all required CI statuses passing (skipping: `deploy preview`, `pr-check-ci`, `build preview failed`, `suggest-related-links`)\n\nMerge strategy is `merge` (not squash), with a templated title `chore: auto merge branches (#${number})`.\n\n#### 4e. `size-limit.yml`\n\nFile: [`.github/workflows/size-limit.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/size-limit.yml)\n\nRuns `ant-design/size-limit-action@master` on every PR open/sync. Posts a size-diff comment. Limits declared in `package.json`:\n- `dist/antd.min.js`: **385 KiB**\n- `dist/antd-with-locales.min.js`: **500 KiB**\n\nBundlesize (separate from size-limit) is also checked in `normal-test` for the `dist` + React 17 matrix cell, using `bundlesize2` with a `maxSize: 385 kB` declaration.\n\n#### 4f. `verify-package-version.yml`\n\nFile: [`.github/workflows/verify-package-version.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/verify-package-version.yml)\n\nOnly fires if the PR title contains `changelog` or `release`. Checks that the `package.json` version is bumped and that the title includes a version string.\n\n#### 4g. `codeball.yml`\n\nFile: [`.github/workflows/codeball.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/codeball.yml)\n\nRuns `sturdy-dev/codeball-action@v2` on every PR and review comment. Configuration:\n- `approvePullRequests: \"false\"` \u2014 Codeball does **not** approve PRs automatically.\n- `labelPullRequestsWhenApproved: \"true\"` \u2014 adds a label when Codeball would approve.\n- `labelPullRequestsWhenReviewNeeded: \"true\"` \u2014 adds a label when review is needed.\n- `failJobsWhenReviewNeeded: \"false\"` \u2014 does **not** block merge.\n\n#### 4h. `codeql.yml`\n\nFile: [`.github/workflows/codeql.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/codeql.yml)\n\nGitHub CodeQL analysis on push to `master`/`feature` and PRs targeting those branches. Language: JavaScript (covers TypeScript). Writes security events. Default query set (no custom queries enabled at this revision).\n\n---\n\n### 5. PR Template (Human Process Mechanism)\n\nFile: [`.github/PULL_REQUEST_TEMPLATE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/PULL_REQUEST_TEMPLATE.md)\n\nRequires the author to self-declare change type (new feature / bug fix / refactoring / etc.), link related issues, provide a bilingual changelog entry, and check off:\n- Doc updated or not needed\n- Demo updated or not needed\n- TypeScript definition updated or not needed\n- Changelog provided or not needed\n\nA separate Chinese template exists at [`.github/PULL_REQUEST_TEMPLATE/pr_cn.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/.github/PULL_REQUEST_TEMPLATE).\n\n---\n\n### 6. Test Infrastructure (Repository-Wide)\n\n#### 6a. Jest Configurations\n\n| Config file | Test regex | Environment |\n|---|---|---|\n| [`.jest.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js) | `.*\\.test\\.(j\\|t)sx?$` (or `demo\\.test` if `LIB_DIR` is set) | jsdom |\n| [`.jest.node.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.node.js) | `node\\.test\\.(j\\|t)sx$` | node |\n| [`.jest.image.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.image.js) | `image\\.test\\.(j\\|t)s$` | jest-puppeteer |\n| [`.jest.site.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.site.js) | `check-site\\.(j\\|t)s$` | node |\n\nCoverage is collected from `components/**/*.{ts,tsx}` excluding style indexes, locale indexes, type tests, image tests, and demo files. ([`.jest.js` lines 55\u201365](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js?L55-L65))\n\n`setupFilesAfterEnv` points to [`tests/setupAfterEnv.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/setupAfterEnv.ts), which:\n- Disables CSS-in-JS hashing (`defaultConfig.hashed = false`) to make snapshots deterministic\n- Registers custom Jest snapshot serializers that normalize HTML (strips trailing whitespace, removes `data-reactroot`) to handle React 17/18 output differences\n- Extends `expect` with `toHaveNoViolations` from `jest-axe`\n\n#### 6b. Shared Test Utilities in `tests/shared/`\n\nThese are imported by individual component `__tests__/index.test.tsx` files:\n\n| File | What it asserts |\n|---|---|\n| [`mountTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/mountTest.tsx) | Component can be rendered, re-rendered, and unmounted without throwing |\n| [`demoTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/demoTest.tsx) | All `demo/*.tsx` files render to SSR snapshots; also checks no `[Ant Design CSS-in-JS]` warnings are emitted |\n| [`accessibilityTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/accessibilityTest.tsx) | `jest-axe` (`axe`) reports no a11y violations |\n| [`rtlTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/rtlTest.tsx) | Component renders correctly under `ConfigProvider direction=\"rtl\"` (snapshot) |\n| [`focusTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/focusTest.tsx) | `focus()`/`blur()`/`autoFocus` props and events work; two modes: DOM event or ref-based |\n| [`imageTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/imageTest.tsx) | Puppeteer pixel screenshots against `jest-image-snapshot`; covers all three theme algorithms (default, dark, compact) |\n\n#### 6c. Artifact Structure Checks (Dekko)\n\n[`tests/dekko/lib.test.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/dekko/lib.test.js): after compile, asserts `lib/` is a directory containing `index.js` and `index.d.ts`, and every component subdirectory (excluding `style`, `_util`, `locale`) also has `index.js` and `index.d.ts`.\n\n[`tests/dekko/dist.test.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/dekko/dist.test.js): asserts `dist/` contains `antd.js`, `antd.min.js`, `antd-with-locales.js`, `antd-with-locales.min.js`, and `reset.css`.\n\n#### 6d. Tests Coverage Requirement Bot\n\n[`.github/tests_checker.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/tests_checker.yml):\n```yaml\ncomment: 'Could you please add tests to make sure this change works as expected?'\nfileExtensions: [.ts', '.tsx', '.json']\ntestDir: '__tests__'\n```\nThis YAML configures a bot that posts a comment on PRs modifying `.ts`/`.tsx`/`.json` files when the PR has no changes inside a `__tests__/` directory.\n\n---\n\n### 7. Pre-Publish Checks (Release Guard)\n\n[`scripts/check-commit.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/scripts/check-commit.js) is invoked before publishing (`npm run check-commit`). It verifies:\n1. The current `package.json` version does not already exist on the npm registry (`registry.npmjs.org/antd`).\n2. The current branch is `master` (or `4.0-prepare`) unless the version is a pre-release (`-alpha.`, `-beta.`, `-rc.`, `-experimental.`).\n3. No uncommitted file changes remain in the working tree.\n4. The `origin` remote URL includes `ant-design/ant-design`.\n\n`prepublishOnly` in `package.json` runs `antd-tools run guard`. `postpublish` runs `scripts/post-script.js`.\n\nTypeScript demos are separately validated by [`scripts/check-ts-demo.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/scripts/check-ts-demo.js): it extracts all ` ```tsx ` blocks from demo `.md` files, writes them as temporary `.tsx` files, and runs `tsc` over them.\n\n---\n\n### 8. Preview Deployment (Visual Review)\n\n[`.github/workflows/preview-build.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/preview-build.yml) builds the documentation site (`npm run site`) for every PR and uploads it as a GitHub artifact for a subsequent deploy workflow. The build step is marked `SITE_ENV: development`.\n\n---\n\n### 9. Deterministic Verification Queries\n\nThe following are concrete, repeatable checks that can be run against this revision to verify the above:\n\n| Claim | Verification command / query |\n|---|---|\n| Pre-commit hook is installed | `cat .husky/pre-commit` \u2192 must contain `lint-staged` |\n| Rome formats on staged commit | `cat package.json \\| jq '.\"lint-staged\"'` |\n| ESLint extends airbnb | `head -5 .eslintrc.js` |\n| Stylelint uses postcss-less | `cat .stylelintrc.json \\| jq '.customSyntax'` |\n| Jest shard matrix runs React 16/17/18 | `cat .github/workflows/test.yml \\| grep 'react:'` \u2192 `['16', '17', '18']` |\n| `lib` module tests skip on PRs | Lines 284\u2013285 of `test.yml`: `if: ${{ github.event_name != 'pull_request' || matrix.module != 'lib' }}` |\n| Non-write authors cannot modify `.github/` | `cat .github/workflows/verify-files-modify.yml \\| grep 'forbid-paths'` |\n| `default.less` restricted for non-admins | Step `verify-less` in `verify-files-modify.yml` |\n| Size limit is 385 KiB | `cat package.json \\| jq '.\"size-limit\"'` |\n| Changelog required unless title starts with docs/chore/test/ci | `cat .github/workflows/pr-open-check.yml \\| grep 'skip-title-start'` |\n| Codeball does not auto-approve | `cat .github/workflows/codeball.yml \\| grep 'approvePullRequests'` \u2192 `\"false\"` |\n| Accessibility test uses axe | `cat tests/shared/accessibilityTest.tsx` |\n| Image test covers 3 theme algorithms | `cat tests/shared/imageTest.tsx \\| grep 'Algorithm'` |\n| `check-demo.js` blocks `only:` in front-matter | `node ./scripts/check-demo.js` (exits non-zero if any demo has `only:`) |\n| Dekko validates dist artifact contents | `node ./tests/dekko/dist.test.js` (requires `dist/` to exist) |\n| Tests checker requests tests for `.ts/.tsx` changes | `cat .github/tests_checker.yml` |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T04:01:44Z",
+    "name": "users/476/conversations/2065",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a comprehensive picture. Let me compose the full response.\n\n---\n\n## Code-Review and Validation Mechanisms \u2014 `ant-design/ant-design` @ `2f623fe`\n\nAll citations are to files at revision `2f623fe5536395bbb4dfa694fae6dbf2042d9025`.\n\n---\n\n### 1. Pre-Commit Gate (Local, Repository-Wide)\n\n**Husky + lint-staged**\n\n[`.husky/pre-commit`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.husky/pre-commit) runs `npx --no-install lint-staged` on every commit. The staged-file rules are declared in [`package.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L315-L318):\n\n```json\n\"lint-staged\": {\n  \"*.{ts,tsx,js,jsx}\": \"rome format --write\",\n  \"*.{json,less,md}\": \"prettier --ignore-unknown --write\"\n}\n```\n\nRome (configured in [`rome.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/rome.json)) formats JS/TS; Prettier formats JSON/Less/Markdown. This fires before every commit, not only in CI.\n\n---\n\n### 2. Static Analysis / Linters (Repository-Wide)\n\n| Tool | Config file | Scope |\n|---|---|---|\n| ESLint | [`.eslintrc.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.eslintrc.js) | JS/TS/TSX + demo `.md` code fences |\n| Stylelint | [`.stylelintrc.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.stylelintrc.json) | LESS (postcss-less syntax) |\n| TypeScript (`tsc`) | `tsconfig.json` (invoked via `npm run tsc`) | whole project, `--noEmit` |\n| Remark | `.remarkrc.js` | Markdown files |\n| Dependency lint | [`.depslintrc.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.depslintrc.js) | inter-component import rules (via `antd-tools run deps-lint`) |\n\nESLint extends `airbnb`, `prettier`, `plugin:compat/recommended`, `plugin:jest/recommended`, `plugin:react/recommended`, `plugin:import/typescript`, `plugin:markdown/recommended`. Notable active rules: `react-hooks/rules-of-hooks: 2`, `unicorn/better-regex: 2`, `@typescript-eslint/consistent-type-imports: 2`, `@typescript-eslint/no-use-before-define: 2`. ([`.eslintrc.js` lines 141\u2013198](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.eslintrc.js?L141-L198))\n\nThe full lint command is composed in `package.json`:\n```\nnpm run lint  \u2192  tsc --noEmit  +  eslint . --ext .js,.jsx,.ts,.tsx  +  eslint components/*/demo/*.md  +  remark . -f -q\n```\n\n---\n\n### 3. CI Pipelines\n\n#### 3a. GitHub Actions \u2014 `test.yml` (Repository-Wide, runs on every push and PR)\n\nFile: [`.github/workflows/test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/test.yml)\n\nConcurrency: in-progress runs for the same PR/ref are cancelled on new push (line 8\u201310).\n\n| Job | What it checks |\n|---|---|\n| `lint` | `npm run lint` (tsc + ESLint + remark) |\n| `check_metadata` | `node ./scripts/check-demo.js` \u2014 asserts no demo file has `only:` set in its YAML front-matter |\n| `dist` | `CI=1 npm run dist` \u2014 builds the UMD bundle |\n| `normal-test` | Matrix: React 16/17/18 \u00d7 dom/node/dist \u00d7 shard 1/2 and 2/2. Runs `npm test`, `npm run test-node`, or dist test. For `dist` module: also runs `node ./tests/dekko/dist.test.js` and (React 17 only) `npm run bundlesize`. |\n| `upload-test-coverage` | Merges coverage JSON shards via `nyc`, uploads to Codecov |\n| `compile` | `npm run compile` + `node ./tests/dekko/lib.test.js` (validates `lib/` structure) |\n| `compiled-module-test` | Matrix: React 16/17/18 \u00d7 lib/es \u00d7 shard 1/2 and 2/2. **`lib` module tests are skipped on PRs**, only run on master push. |\n\n#### 3b. CircleCI \u2014 Visual Regression (`.circleci/config.yml`)\n\nFile: [`.circleci/config.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.circleci/config.yml)\n\nRuns `npm run test-image` (Puppeteer-based screenshot tests, Jest config: `.jest.image.js`) then `npm run argos` to upload screenshots to Argos CI for pixel-diff comparison. Uses a `large` resource class (more CPU/RAM).\n\n---\n\n### 4. PR-Gating Workflows (Repository-Wide)\n\n#### 4a. `pr-open-check.yml`\n\nFile: [`.github/workflows/pr-open-check.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/pr-open-check.yml)\n\nTwo jobs on `pull_request_target` (opened/edited/reopened/synchronized):\n\n1. **`refuse`** \u2014 if PR has label `\ud83c\udfb1 Collaborate PR only` and the author has no `write` access, the PR is auto-closed with a bilingual comment.\n2. **`check-changelog`** \u2014 uses `actions-cool/pr-check-fill@v1`. If the PR title does not start with `docs`, `chore`, `test`, or `ci`, the job checks that the PR body contains both a `\ud83c\uddfa\ud83c\uddf8 English` and a `\ud83c\udde8\ud83c\uddf3 Chinese` changelog entry. A comment is posted if absent.\n\n#### 4b. `verify-files-modify.yml`\n\nFile: [`.github/workflows/verify-files-modify.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/verify-files-modify.yml)\n\nTwo sequential `verify-files-modify` steps:\n\n1. **`verify-version`** \u2014 if a non-`write`-member PR touches `.github/`, `scripts/`, `CHANGELOG.zh-CN.md`, `CHANGELOG.en-US.md`, or `LICENSE`, the PR is closed. Assignees: `afc163, zombieJ, xrkffgg, MadCcc`.\n2. **`verify-less`** \u2014 if any PR (non-admin) touches `components/style/themes/default.less`, a warning comment is posted (PR is not closed, `set-failed: false`).\n\n#### 4c. `pr-check-merge.yml`\n\nFile: [`.github/workflows/pr-check-merge.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/pr-check-merge.yml)\n\nFires when a PR from a `feature` or `master` branch of the `ant-design` org is opened. Posts a bilingual reminder that branch-to-branch merges must use the `BranchAutoMerge` label and must **not** use Squash.\n\n#### 4d. `pr-check-ci.yml` (Auto-Merge)\n\nFile: [`.github/workflows/pr-check-ci.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/pr-check-ci.yml)\n\nRuns on a cron every 5 minutes. Uses `actions-cool/check-pr-ci@v1` to auto-merge PRs that:\n- have label `BranchAutoMerge`\n- were created by a `write`-authority user\n- target the branches: `master, feature, next, master-merge-feature, feature-merge-master, next-merge-master, next-merge-feature`\n- are not forks\n- have all required CI statuses passing (skipping: `deploy preview`, `pr-check-ci`, `build preview failed`, `suggest-related-links`)\n\nMerge strategy is `merge` (not squash), with a templated title `chore: auto merge branches (#${number})`.\n\n#### 4e. `size-limit.yml`\n\nFile: [`.github/workflows/size-limit.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/size-limit.yml)\n\nRuns `ant-design/size-limit-action@master` on every PR open/sync. Posts a size-diff comment. Limits declared in `package.json`:\n- `dist/antd.min.js`: **385 KiB**\n- `dist/antd-with-locales.min.js`: **500 KiB**\n\nBundlesize (separate from size-limit) is also checked in `normal-test` for the `dist` + React 17 matrix cell, using `bundlesize2` with a `maxSize: 385 kB` declaration.\n\n#### 4f. `verify-package-version.yml`\n\nFile: [`.github/workflows/verify-package-version.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/verify-package-version.yml)\n\nOnly fires if the PR title contains `changelog` or `release`. Checks that the `package.json` version is bumped and that the title includes a version string.\n\n#### 4g. `codeball.yml`\n\nFile: [`.github/workflows/codeball.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/codeball.yml)\n\nRuns `sturdy-dev/codeball-action@v2` on every PR and review comment. Configuration:\n- `approvePullRequests: \"false\"` \u2014 Codeball does **not** approve PRs automatically.\n- `labelPullRequestsWhenApproved: \"true\"` \u2014 adds a label when Codeball would approve.\n- `labelPullRequestsWhenReviewNeeded: \"true\"` \u2014 adds a label when review is needed.\n- `failJobsWhenReviewNeeded: \"false\"` \u2014 does **not** block merge.\n\n#### 4h. `codeql.yml`\n\nFile: [`.github/workflows/codeql.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/codeql.yml)\n\nGitHub CodeQL analysis on push to `master`/`feature` and PRs targeting those branches. Language: JavaScript (covers TypeScript). Writes security events. Default query set (no custom queries enabled at this revision).\n\n---\n\n### 5. PR Template (Human Process Mechanism)\n\nFile: [`.github/PULL_REQUEST_TEMPLATE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/PULL_REQUEST_TEMPLATE.md)\n\nRequires the author to self-declare change type (new feature / bug fix / refactoring / etc.), link related issues, provide a bilingual changelog entry, and check off:\n- Doc updated or not needed\n- Demo updated or not needed\n- TypeScript definition updated or not needed\n- Changelog provided or not needed\n\nA separate Chinese template exists at [`.github/PULL_REQUEST_TEMPLATE/pr_cn.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/.github/PULL_REQUEST_TEMPLATE).\n\n---\n\n### 6. Test Infrastructure (Repository-Wide)\n\n#### 6a. Jest Configurations\n\n| Config file | Test regex | Environment |\n|---|---|---|\n| [`.jest.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js) | `.*\\.test\\.(j\\|t)sx?$` (or `demo\\.test` if `LIB_DIR` is set) | jsdom |\n| [`.jest.node.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.node.js) | `node\\.test\\.(j\\|t)sx$` | node |\n| [`.jest.image.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.image.js) | `image\\.test\\.(j\\|t)s$` | jest-puppeteer |\n| [`.jest.site.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.site.js) | `check-site\\.(j\\|t)s$` | node |\n\nCoverage is collected from `components/**/*.{ts,tsx}` excluding style indexes, locale indexes, type tests, image tests, and demo files. ([`.jest.js` lines 55\u201365](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js?L55-L65))\n\n`setupFilesAfterEnv` points to [`tests/setupAfterEnv.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/setupAfterEnv.ts), which:\n- Disables CSS-in-JS hashing (`defaultConfig.hashed = false`) to make snapshots deterministic\n- Registers custom Jest snapshot serializers that normalize HTML (strips trailing whitespace, removes `data-reactroot`) to handle React 17/18 output differences\n- Extends `expect` with `toHaveNoViolations` from `jest-axe`\n\n#### 6b. Shared Test Utilities in `tests/shared/`\n\nThese are imported by individual component `__tests__/index.test.tsx` files:\n\n| File | What it asserts |\n|---|---|\n| [`mountTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/mountTest.tsx) | Component can be rendered, re-rendered, and unmounted without throwing |\n| [`demoTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/demoTest.tsx) | All `demo/*.tsx` files render to SSR snapshots; also checks no `[Ant Design CSS-in-JS]` warnings are emitted |\n| [`accessibilityTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/accessibilityTest.tsx) | `jest-axe` (`axe`) reports no a11y violations |\n| [`rtlTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/rtlTest.tsx) | Component renders correctly under `ConfigProvider direction=\"rtl\"` (snapshot) |\n| [`focusTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/focusTest.tsx) | `focus()`/`blur()`/`autoFocus` props and events work; two modes: DOM event or ref-based |\n| [`imageTest.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/shared/imageTest.tsx) | Puppeteer pixel screenshots against `jest-image-snapshot`; covers all three theme algorithms (default, dark, compact) |\n\n#### 6c. Artifact Structure Checks (Dekko)\n\n[`tests/dekko/lib.test.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/dekko/lib.test.js): after compile, asserts `lib/` is a directory containing `index.js` and `index.d.ts`, and every component subdirectory (excluding `style`, `_util`, `locale`) also has `index.js` and `index.d.ts`.\n\n[`tests/dekko/dist.test.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/tests/dekko/dist.test.js): asserts `dist/` contains `antd.js`, `antd.min.js`, `antd-with-locales.js`, `antd-with-locales.min.js`, and `reset.css`.\n\n#### 6d. Tests Coverage Requirement Bot\n\n[`.github/tests_checker.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/tests_checker.yml):\n```yaml\ncomment: 'Could you please add tests to make sure this change works as expected?'\nfileExtensions: [.ts', '.tsx', '.json']\ntestDir: '__tests__'\n```\nThis YAML configures a bot that posts a comment on PRs modifying `.ts`/`.tsx`/`.json` files when the PR has no changes inside a `__tests__/` directory.\n\n---\n\n### 7. Pre-Publish Checks (Release Guard)\n\n[`scripts/check-commit.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/scripts/check-commit.js) is invoked before publishing (`npm run check-commit`). It verifies:\n1. The current `package.json` version does not already exist on the npm registry (`registry.npmjs.org/antd`).\n2. The current branch is `master` (or `4.0-prepare`) unless the version is a pre-release (`-alpha.`, `-beta.`, `-rc.`, `-experimental.`).\n3. No uncommitted file changes remain in the working tree.\n4. The `origin` remote URL includes `ant-design/ant-design`.\n\n`prepublishOnly` in `package.json` runs `antd-tools run guard`. `postpublish` runs `scripts/post-script.js`.\n\nTypeScript demos are separately validated by [`scripts/check-ts-demo.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/scripts/check-ts-demo.js): it extracts all ` ```tsx ` blocks from demo `.md` files, writes them as temporary `.tsx` files, and runs `tsc` over them.\n\n---\n\n### 8. Preview Deployment (Visual Review)\n\n[`.github/workflows/preview-build.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.github/workflows/preview-build.yml) builds the documentation site (`npm run site`) for every PR and uploads it as a GitHub artifact for a subsequent deploy workflow. The build step is marked `SITE_ENV: development`.\n\n---\n\n### 9. Deterministic Verification Queries\n\nThe following are concrete, repeatable checks that can be run against this revision to verify the above:\n\n| Claim | Verification command / query |\n|---|---|\n| Pre-commit hook is installed | `cat .husky/pre-commit` \u2192 must contain `lint-staged` |\n| Rome formats on staged commit | `cat package.json \\| jq '.\"lint-staged\"'` |\n| ESLint extends airbnb | `head -5 .eslintrc.js` |\n| Stylelint uses postcss-less | `cat .stylelintrc.json \\| jq '.customSyntax'` |\n| Jest shard matrix runs React 16/17/18 | `cat .github/workflows/test.yml \\| grep 'react:'` \u2192 `['16', '17', '18']` |\n| `lib` module tests skip on PRs | Lines 284\u2013285 of `test.yml`: `if: ${{ github.event_name != 'pull_request' || matrix.module != 'lib' }}` |\n| Non-write authors cannot modify `.github/` | `cat .github/workflows/verify-files-modify.yml \\| grep 'forbid-paths'` |\n| `default.less` restricted for non-admins | Step `verify-less` in `verify-files-modify.yml` |\n| Size limit is 385 KiB | `cat package.json \\| jq '.\"size-limit\"'` |\n| Changelog required unless title starts with docs/chore/test/ci | `cat .github/workflows/pr-open-check.yml \\| grep 'skip-title-start'` |\n| Codeball does not auto-approve | `cat .github/workflows/codeball.yml \\| grep 'approvePullRequests'` \u2192 `\"false\"` |\n| Accessibility test uses axe | `cat tests/shared/accessibilityTest.tsx` |\n| Image test covers 3 theme algorithms | `cat tests/shared/imageTest.tsx \\| grep 'Algorithm'` |\n| `check-demo.js` blocks `only:` in front-matter | `node ./scripts/check-demo.js` (exits non-zero if any demo has `only:`) |\n| Dekko validates dist artifact contents | `node ./tests/dekko/dist.test.js` (requires `dist/` to exist) |\n| Tests checker requests tests for `.ts/.tsx` changes | `cat .github/tests_checker.yml` |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T04:01:44Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigate GitHub code-review and validation mechanisms in ant-design at a specific revision",
+    "updateTime": "2026-07-29T04:04:44Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/eb959ce6-3702-4641-8de9-25d7fd030f75"
+  },
+  "run_id": "sha256:9642b0de6470aab9cb5c5613649e5ec361ae0cb595b5c5a7bd2704223377b4ec",
+  "search_context": {
+    "context_revision_kind": "last_default_branch_commit_before_2023",
+    "repository": "ant-design/ant-design"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

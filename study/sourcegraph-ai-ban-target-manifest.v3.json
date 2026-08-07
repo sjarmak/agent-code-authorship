@@ -1,0 +1,809 @@
+{
+  "$schema": "sourcegraph-ai-ban-target-manifest.schema.json",
+  "classifier_outcomes_consulted": false,
+  "control_since": "2024-01-01",
+  "eligible_repository_count": 14,
+  "excluded_repository_count": 3,
+  "exclusion_counts": {
+    "no_frozen_ai_ban_candidate": 3
+  },
+  "exclusion_policy": [
+    "direct_index_only",
+    "missing_frozen_case",
+    "missing_index_manifest_record",
+    "missing_sg_evals_mirror",
+    "no_frozen_ai_ban_candidate"
+  ],
+  "manifest_version": 3,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "case_index_file_sha256": "369145e65c6201e3782c8b35f42f667ca6fd122424babae24a5499596ed54cc4",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+    "control_evidence_file_sha256": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "repositories": [
+    {
+      "candidate_count": 9,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "ae6a1b95857c7ba1392e37be99b9ee2b66b14b1d",
+            "observed_at": "2022-03-24T02:00:25Z"
+          },
+          "event_id": "57d6f21a90f98c1b9d7b42ba950fef920a71174cc810c306d68af73aa3709814",
+          "packet_count": 1,
+          "packet_ids": [
+            "54b26234953b90d50c5b2d6093fb005e250da31c90df979c6c2ac2036e9acb7e"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "2dd5a2e3a1c0fad8441f8e9c7eb77315afcb075b",
+            "observed_at": "2022-05-19T14:35:17Z"
+          },
+          "event_id": "7eebc2d838133a78a64a871c5ce0ecf91463bdde1d4647882ff758e3c6252865",
+          "packet_count": 1,
+          "packet_ids": [
+            "c52fb43653dd2129c19646ec772c2e6319960ef888456f9c67cd7ade973e0643"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "8aa0e7cd96a1e2f315d49744793ae07f6543ce4c",
+            "observed_at": "2022-06-20T05:18:29Z"
+          },
+          "event_id": "95fa29a0338b42241a604f90572e28e5e46221269a1eb254c76e6dc8c03015cf",
+          "packet_count": 1,
+          "packet_ids": [
+            "64454c6772a0074fc027453286df03c45f0d98d934a44b675fb43ec2f10f694f"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+            "observed_at": "2024-03-10T19:18:47Z"
+          },
+          "event_id": "dc173eea5407670b2439655f0ea0bf7e7adf1869c3b16dce4c03decbc86ce15a",
+          "packet_count": 2,
+          "packet_ids": [
+            "b676af05ad33fe0159b51acf4980b20ab77017b7ed68e52460afe6a9e7d4c222",
+            "be0f286e018035cae43bc09a321f5efe8c60ead9c37f532e47aa9ce2ef43d218"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "2685654a37141cca63eda3a92da0e2706e23ccfd",
+            "observed_at": "2025-05-18T01:45:26Z"
+          },
+          "event_id": "f9460b4d7909d78db066cb0b952c04abbe93b205fef0bc38735ea0a7e5088a5b",
+          "packet_count": 2,
+          "packet_ids": [
+            "0ebe29c1a604247f800a297f08c7d0a5d7f348d104189cacf7fa64b515c30afc",
+            "1cc0f2f7f8841f77b8772a1fbe2a837ac743693d0f3f0cb69865629ef0edfe7f"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+            "observed_at": "2025-10-31T22:13:04Z"
+          },
+          "event_id": "0e783f7356921dc47eaa7d727d9d21888ca1e6de3e16406ed1cff077dd0fd082",
+          "packet_count": 2,
+          "packet_ids": [
+            "5d96c4e2786a6cfda79be36b9b9ee30a5e957b667949f1e559e9101c8f716286",
+            "824e85a9712e9ac348a1d39ff08dfc5a5cd7a97ae1af77a250b3fa215c730b8f"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "f7acf3c1f42cc474927ecc452205d7877af36731",
+            "observed_at": "2025-12-03T23:26:20Z"
+          },
+          "event_id": "e89c300c86dada80425afb36190f77c21561308a28e9edf0af462a7409a3503d",
+          "packet_count": 1,
+          "packet_ids": [
+            "bce5445ec397d2396fd3ce782c251150dedd6d270e776fe7e8b7c81562703655"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "7e145ac1cae8f891e18c9375fa23097f1dfa0b19",
+            "observed_at": "2026-03-10T23:24:03Z"
+          },
+          "event_id": "f1ae30bcd8657c2dd16e5c8a1db5fc299b2d4c3aa2a471c0abe288aca109a425",
+          "packet_count": 2,
+          "packet_ids": [
+            "4d89b8093a61348185eb8df0550dfa7800789a0ddcd56470e0cc99121f5ae6f7",
+            "92a553512ba1af9b2745690696ae750349c8596d0c732252beb98ee52f743f8d"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+            "observed_at": "2026-07-01T18:27:40Z"
+          },
+          "event_id": "83114ed379b59b225b8de01614649ae780e5357852816bd4e88b9b5bdf615265",
+          "packet_count": 3,
+          "packet_ids": [
+            "0e7c7316053587ed822c98904b31f60852ec1f9b001a30fe45da669a6a0e4cc0",
+            "77b9bbac0f6e89795930f56910c5780cddcdbbf5490095cdae986b41d1debe15",
+            "f4a70fce3425f623fc32fc64c8318b5a0a9a3e5db2da993e5ee78f824113b903"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "canonical_source_url": "https://github.com/yt-dlp/yt-dlp",
+      "case_id": "c83eeeb61f7e449364e8ad7b9628e88da394a873bc37f43a5cd53d3f5d628049",
+      "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "yt-dlp/yt-dlp",
+      "repository_case_sha256": "803521410dd226f512acd15305e26440fb482b0db94b916b9a85693f3a72c03d",
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "67eb48e6433beaab5b7472ceb190219d5b724149",
+            "observed_at": "2026-02-19T19:11:57Z"
+          },
+          "event_id": "92a08b7ffb49377eb59cc8fdd945755886d818664dac7cadf28a60ba0baa45f2",
+          "packet_count": 2,
+          "packet_ids": [
+            "7713d0c2cbc87e3a86f8db1ed09e5f897688998835d03d75b9202bd7fca10e34",
+            "d2c08d5ecb68a417a80b6555bf1d05dc3411a6767b8870a9a9453d6d6db944bf"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "canonical_source_url": "https://projects.torsion.org/borgmatic-collective/borgmatic",
+      "case_id": "b274b5767a2531fa9496f435e6925e5453a095ff125e5ec3f82e3f2c644691a4",
+      "cutoff_commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "borgmatic-collective/borgmatic",
+      "repository_case_sha256": "515a57e84c2c54826d89223026ecffcfdb9bfef453dbd40b3d58613be8a6e261",
+      "sourcegraph_name": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "c41effcbc6e91ad800be15bd83f1f9ea58cff275",
+            "observed_at": "2026-03-22T18:38:08Z"
+          },
+          "event_id": "9f5d07bbeba95f21c8cc3ebf71550feab127bcd164f9a448df17aa51e24a2263",
+          "packet_count": 2,
+          "packet_ids": [
+            "aa775fca45913495a1e5a44278c4bd6cca2f7d5ce207a5970696e0847939ab80",
+            "ebe1105034b76362ffff54476c55b7e4d705d862489f0c4bd70e3f5fbc619742"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "poezio/poezio",
+      "canonical_source_url": "https://codeberg.org/poezio/poezio",
+      "case_id": "fee9dc27633a2732163b80e28f2a38e19c3df051c4e35de78829e376ef8aa22b",
+      "cutoff_commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "poezio/poezio",
+      "repository_case_sha256": "51d8b3386f9488e8f2f710fb796edad536be80c88d4f04eca88fe281c8e58649",
+      "sourcegraph_name": "github.com/sg-evals/poezio-poezio",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "b14f1eb8663fb6406512770fae1897a2f7528a91",
+            "observed_at": "2026-04-22T08:35:56Z"
+          },
+          "event_id": "6236f17219734fce35c4b29fc57da81bdbdad750fd163d821103ac18ca0d0290",
+          "packet_count": 2,
+          "packet_ids": [
+            "71bb84b7b3dbf5f317c4a558339dfe0ae16019c1cafa8b7e36e48466712f0555",
+            "a3ceb8d1d1035d30260d945e042b85f9bb8a779e434483798becfe06f69d45e8"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "b1287e5489a0ccd5a1520f1e1444a8e889445ce8",
+            "observed_at": "2026-05-13T20:03:05Z"
+          },
+          "event_id": "709599ce58345f6974119f0e334a299c53055a3b59abe3b7e1ea486b26b11b14",
+          "packet_count": 2,
+          "packet_ids": [
+            "095fff413c47f21e946b7da48f2123e49ac6ba3a4faa59a6d03623dd0f8bc91e",
+            "afb6a0d9752790770295237ce811e862b45ec1b833fbb77a18bd7517dc4811e8"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "teamtype/teamtype",
+      "canonical_source_url": "https://github.com/teamtype/teamtype",
+      "case_id": "fcdc2f9a36c7a23230e66490b9d03523e6b898a76a97e96d9f02bac22d5d5145",
+      "cutoff_commit": "b92b68dc1d66b1da327be50040225a52723ad337",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "teamtype/teamtype",
+      "repository_case_sha256": "e8eb4761b230f6d1cf1b0a60ce1e89f49311d8b27f42ad862ce4638333bc2ee5",
+      "sourcegraph_name": "github.com/sg-evals/teamtype-teamtype",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "4c245355d7fc4a548427e4a5dea98e50ef2524fc",
+            "observed_at": "2026-01-23T10:52:01Z"
+          },
+          "event_id": "d152d8f2bfc5f5a1f0422f1a5b928376ddb471f7f8aea110f46f20ae3a867153",
+          "packet_count": 2,
+          "packet_ids": [
+            "18e1fb6cf69f4865081439c4761abdff34cd8e6ec612d7e571b219b7bef7824c",
+            "8cc57408e9b395703d345162ccda65d509ebe788c00060cf972657d9d3086f54"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "typst/typst",
+      "canonical_source_url": "https://github.com/typst/typst",
+      "case_id": "0734713794b4f394055e1a8ebb77466b61e75b43a07164f19780139a3d2096c3",
+      "cutoff_commit": "b212e34147986d8cfecb553bbaae2a4825f53e07",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "typst/typst",
+      "repository_case_sha256": "370d7f88a7ede1486561ddee74fcc4024cff0c1e318d7e26553edecf7be820a0",
+      "sourcegraph_name": "github.com/sg-evals/typst-typst",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "1f7cdbd4ceed98a97419620ebd9608487f9f5256",
+            "observed_at": "2020-08-19T19:25:58Z"
+          },
+          "event_id": "8d39ba5a7ae855155a55a16a9834862d85557668e09b4619dcecdff4a407431c",
+          "packet_count": 1,
+          "packet_ids": [
+            "fb00398345ad041258839db4988f3de197e08a2ce77f566e7e65446eccfe6694"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ]
+        }
+      ],
+      "canonical_repository_id": "bevyengine/bevy",
+      "canonical_source_url": "https://github.com/bevyengine/bevy",
+      "case_id": "b23c9e1bb51ba856d1296e705b7aeb4ba87b2e4e346d8dfe06af2f204096491d",
+      "cutoff_commit": "17ca59b4dab18a8d494412b70b842961f102c573",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "bevyengine/bevy",
+      "repository_case_sha256": "3af2d5c1a31fb0d810e5d46e54c6c7a9906ce72e8eb91eeb723b5bc07c0a0f73",
+      "sourcegraph_name": "github.com/sg-evals/bevyengine-bevy",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "canonical_repository_id": "alacritty/alacritty",
+      "canonical_source_url": "https://github.com/alacritty/alacritty",
+      "case_id": "97cd8ef4fa6bd38a1d07ef7b40f0b3c2c248739b71ab2e57f8fe9d040d3726d9",
+      "cutoff_commit": "852e971cddfabe222d2d5bcda466e130f53af207",
+      "exclusion_reason": "no_frozen_ai_ban_candidate",
+      "preregistered_repository_id": "alacritty/alacritty",
+      "repository_case_sha256": "151a8b01d481b489d16aecb0363319fa36653fd8697e175177aa9e6dce382bd2",
+      "sourcegraph_name": "github.com/sg-evals/alacritty-alacritty",
+      "status": "excluded"
+    },
+    {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "bddbf7f0f0ca295af2140938143b40a2af9b7690",
+            "observed_at": "2024-12-11T23:25:20Z"
+          },
+          "event_id": "be19923c01634dfab6f4ac62678be4bce95dbc38d4d7ad6f68b6fe456132ef12",
+          "packet_count": 1,
+          "packet_ids": [
+            "bc23872da933d05aa054a6b60353017c16bcd2be875cbb8781868dc0152561c0"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+            "observed_at": "2025-10-19T22:52:56Z"
+          },
+          "event_id": "f6de85a9787c7286f967e0699954fcde54a3134200c3cf9555dfb23d8031dcee",
+          "packet_count": 2,
+          "packet_ids": [
+            "5a396a0b41840845e04916e4f6e49cf7e2f03f72dcf08e25e788b05846e8083a",
+            "7259db02c64452689df8c17539097af37aad69de1e04bfd7717a2d1d9f1d8774"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "twpayne/chezmoi",
+      "canonical_source_url": "https://github.com/twpayne/chezmoi",
+      "case_id": "06f6ef2781c1f175ce2b8f03b6207e8bc5169fde6f6786bd431e1383134b84da",
+      "cutoff_commit": "c7f235ea5217f1fa201cf70f48eec021058538dd",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "twpayne/chezmoi",
+      "repository_case_sha256": "2d606eac3a0074bd66603e09026c9f4f8f3a4cb19cf58403ff76328edc26e73c",
+      "sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 8,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "bee8458a2d12bdd42079fcb2c4ca88ebeafe305b",
+            "observed_at": "2022-08-31T10:06:14Z"
+          },
+          "event_id": "1a224ee15bf153a76f169d2545036d1a4dc75fef92ec4a96d85ef87d015d6eae",
+          "packet_count": 1,
+          "packet_ids": [
+            "42c4657ecf8c978f83ee02b555bb53ea8b7f862a028dd79729fca47ff7c9caaa"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "acc333c40bcf45fb78a0701596a99e93800fe566",
+            "observed_at": "2023-01-17T20:59:04Z"
+          },
+          "event_id": "ce46b34205853468555af8bfcf39bb8c663388979db7c15eb1c6065717f12f0a",
+          "packet_count": 1,
+          "packet_ids": [
+            "052a3997d841a31182f1d1b08db3cf806a0a87ad4aac4e912b421c339d5bec07"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24",
+            "observed_at": "2023-08-09T13:47:03Z"
+          },
+          "event_id": "53212fe3b22962dd38d4fd056f27c71d1175e290fd0303605cbda16793fb5547",
+          "packet_count": 2,
+          "packet_ids": [
+            "13c63a79e808e0cb5cc24526d869055a5fb2b3b5011002cd0d32bf49f764abca",
+            "9c01e70d8001e2d32b4049057418a1f1ba2d6154e8e958d2c2e4b4ff6f010e75"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "fc3741365c27f1d703e8a736af95b95ff811cc45",
+            "observed_at": "2024-03-06T17:05:45Z"
+          },
+          "event_id": "65e6b08e1914ef861a11daef9e71eed72a7014c42a3457583bf26514508e4949",
+          "packet_count": 2,
+          "packet_ids": [
+            "a7c654a171992f553f3cea9fb179555249b96d0214503236c3e7deffee03dc5c",
+            "ce46b68a73ea82a27d9db804a4d48430654e89cc0b13826fb3219b552fd3f395"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "c9de6c9a1e540253c821b2ead20ab4250e2550b5",
+            "observed_at": "2025-02-22T12:26:49Z"
+          },
+          "event_id": "196af11f75c1cc458febb5d40eaa08bed143d237737a3af166e8886c5abff098",
+          "packet_count": 1,
+          "packet_ids": [
+            "430e60aaed2f4ea06c86aedad5ce0a36aa66870403195f132ca22f6a7d559109"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "ca12742a7ac0aec95fc0d7897e54a2272a68c34f",
+            "observed_at": "2025-05-13T14:48:11Z"
+          },
+          "event_id": "403d022730e4e658756cca6800f0548b08bf4866c61e0feecb11c5d2e19da6dc",
+          "packet_count": 1,
+          "packet_ids": [
+            "76f991404d1c7c5fc66fd1e529cb67059ca6b507134c7fd9dfe84e865bceb5bd"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "8fb03afed54b2610f8d74c6351757bbfdd8a47c0",
+            "observed_at": "2025-11-03T12:55:04Z"
+          },
+          "event_id": "3df9dd7d0b8ea6eb6e5b8a565a60e0fc038a76f515ce1aaa512b09911d1e2c8b",
+          "packet_count": 1,
+          "packet_ids": [
+            "e40ac4b9bcb7a1b286245679c8007b38b07cb84d6627f7cc02f52e595f6e6578"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "04d7b9e7be4b1043ac3361c132d55ae6edc10476",
+            "observed_at": "2025-11-05T20:58:38Z"
+          },
+          "event_id": "d129a3cb6e9e3db07aa95248287d63c42d90709f86c0129dba4474474098f7ab",
+          "packet_count": 2,
+          "packet_ids": [
+            "32173690d7edba6cdd90e69468fbab231b144ee469bb04efdf73e4e7084c0bd0",
+            "9af45954c2b01ca6d6ef67f239cfc92d567fa2175fde21dbd9ef48d8117cb78f"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "canonical_source_url": "https://codeberg.org/superseriousbusiness/gotosocial",
+      "case_id": "0bbf30ef055a8553b2ccdcca649080d1f431eb26f1176c4cca2c2159cd9bf483",
+      "cutoff_commit": "3722d124433d2087a97f68689fea934610703783",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "superseriousbusiness/gotosocial",
+      "repository_case_sha256": "1a79991b24ac14e415f36bdffbba47eba46c885c50462904e85dbffa95ddbe60",
+      "sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "c00646bcd55788a359d58ca9d74d9f4a21f01610",
+            "observed_at": "2025-04-20T19:10:34Z"
+          },
+          "event_id": "b5cae5141a534d689bb7296e750d12c49e82a3b2ebe77add255f6ef6a90543f6",
+          "packet_count": 1,
+          "packet_ids": [
+            "7d1def50878354ab97e99e6e981256d5d68119f3ee5f65c459d375539ea58f88"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "27e5e4f1c02116d15b256a655972565966456310",
+            "observed_at": "2025-07-25T20:33:02Z"
+          },
+          "event_id": "88101563216556bd5b0cbab50720856a5565e8627122a3ade15eea74bb8d96c5",
+          "packet_count": 2,
+          "packet_ids": [
+            "3b433590488171980e4b2070748dc41da7270079b7446b457b81ff99c0d36027",
+            "5cd834a5932e880a5e0f0abc25a8aae9fb1bc5815c6f647b60648768aa9936cb"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "wafrn/wafrn",
+      "canonical_source_url": "https://codeberg.org/wafrn/wafrn",
+      "case_id": "8b4884f80d5126099aed2a4c217cc7484f3b19e19ea25a2616f7d1294d1fc958",
+      "cutoff_commit": "08d8aa115e65629c367f56ea5eefd1ab5634c2b8",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "wafrn/wafrn",
+      "repository_case_sha256": "c195c1af29631944be5ee4985d161b32c7bfaaf01f26478e0d58692d527b80e7",
+      "sourcegraph_name": "github.com/sg-evals/wafrn-wafrn",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "ac9166fa9cb4c20e40a331ce74f21994700ae0a7",
+            "observed_at": "2026-03-05T10:45:45Z"
+          },
+          "event_id": "c974fabbe24aa778cd64cf4c502aaafbd24581889be3227837645348582eaa37",
+          "packet_count": 2,
+          "packet_ids": [
+            "1e171d949cfd9155b4b8618477961332f2462679c06e42e46757371652c1118e",
+            "81682577df934925b2cdd693c35e681c99b462726750bc370347cc58325645ed"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "pouchdb/pouchdb",
+      "canonical_source_url": "https://github.com/pouchdb/pouchdb",
+      "case_id": "8912a111b061448b4889579d7e534b10d4b0e04469a918d343dc31354ce9185c",
+      "cutoff_commit": "70b9de3c2072fa97e4b5b97cb74faa712ac184e0",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "pouchdb/pouchdb",
+      "repository_case_sha256": "17188fc15552e9a896d6e869a94cb76f28db986ebc0ec57083b912522b06965e",
+      "sourcegraph_name": "github.com/sg-evals/pouchdb-pouchdb",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "1c33ad50fcf55824b129454da2017a3037732ff5",
+            "observed_at": "2025-06-13T10:27:52Z"
+          },
+          "event_id": "2097ba918ac3ac3a3dafd225edc8844f61f61900cc073d5d99676b45481a28cf",
+          "packet_count": 2,
+          "packet_ids": [
+            "d0efa881b9445dfadcb6639e6dd0357e5b89192a907093dbad081aa24942c4bb",
+            "fb7fae23d0b4dc2ab09234dfc1981f731584c0f9381d905b22670ddde2435ab3"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "apache/couchdb",
+      "canonical_source_url": "https://github.com/apache/couchdb",
+      "case_id": "4671303bfaa51dd8e606733c00dda7657e5ae4f69463924af6baea4e932aa767",
+      "cutoff_commit": "a2eedd4af19f40d9f92de3fd52ab3e922668748a",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "apache/couchdb",
+      "repository_case_sha256": "98ce5cf6f3e73661b332595616c4731ad433304f2bd156e9aee4f98bb6b813a4",
+      "sourcegraph_name": "github.com/sg-evals/apache-couchdb",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "06fa52d15a22003b67dfdb3f8220cc025d493a43",
+            "observed_at": "2026-04-17T05:09:12Z"
+          },
+          "event_id": "f7c95680a46361ccbbd59d2d86c9d46eac2f1407a97894cf252abed45c973072",
+          "packet_count": 2,
+          "packet_ids": [
+            "748de0c7a193b137d58cc6977279733badb4171f23b55c81c091012e2be561be",
+            "ff22c6ec1a0f259cea47d8727864df7799acfe56f448ae9c1f1bb6dfd2d02a08"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "jhy/jsoup",
+      "canonical_source_url": "https://github.com/jhy/jsoup",
+      "case_id": "8c9d4a58e0128426ff2339a87d6f13b7141c3827a3c472029eb1b456e5d171e8",
+      "cutoff_commit": "d8c49e5ec72a08ca1ac4e08740e70dc0f47ad911",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "jhy/jsoup",
+      "repository_case_sha256": "017c9e96bd35e42ea2af866363329d643914c0661e49501eda0564f51c6b0bd3",
+      "sourcegraph_name": "github.com/sg-evals/jhy-jsoup",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "canonical_repository_id": "openttd/openttd",
+      "canonical_source_url": "https://github.com/OpenTTD/OpenTTD",
+      "case_id": "d3e2c7a2ad92c1497423c918ed74e077160f15479c61f7ead4fe7a215dd4b215",
+      "cutoff_commit": "7f1946f996fefa35894527c0e5944c00fe527872",
+      "exclusion_reason": "no_frozen_ai_ban_candidate",
+      "preregistered_repository_id": "OpenTTD/OpenTTD",
+      "repository_case_sha256": "3e00af6a546ef9dc867223e61c6552657a287235a1c60bb95b98dad48ae3314a",
+      "sourcegraph_name": "github.com/sg-evals/openttd-openttd",
+      "status": "excluded"
+    },
+    {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "b5c201444b9a5f4dc1f8716d4f77728f7e2a68b2",
+            "observed_at": "2025-03-01T22:49:28Z"
+          },
+          "event_id": "6f867ffd7480f8547eef09f7753410c84ffa9280a8c9eced4066f7c5d441437b",
+          "packet_count": 1,
+          "packet_ids": [
+            "590f75ad2b2d6da98ace895b4c0f8338119297521fc57e19d1622334ce316d1b"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_introduction_diffs"
+          ]
+        },
+        {
+          "candidate_event": {
+            "commit_oid": "2c91b5d9b5d6e8486e24b102ae21759d778ed59a",
+            "observed_at": "2025-04-20T02:28:34Z"
+          },
+          "event_id": "f6cc0ad0586acd52b2db60e4bcb70aaa2db7098d8928a43ac6a2785f1b66dcb7",
+          "packet_count": 2,
+          "packet_ids": [
+            "0755312eb52eaf46340f8ff65d3f0b3251895fbd90575e73c4ddd8ec7e110535",
+            "631f227fb56a826f49f93b27914182c5d8940b0d2b62ba9fd84e36b37f8ca1ba"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "endless-sky/endless-sky",
+      "canonical_source_url": "https://github.com/endless-sky/endless-sky",
+      "case_id": "ff81d3243c15814708e843aae7405c28117b331bb6885299ad6662875eca59df",
+      "cutoff_commit": "d08eaf4fc4d5413639bb388113f1a676d859bef2",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "endless-sky/endless-sky",
+      "repository_case_sha256": "fab310655485abf12b8a46b1a5e42cfd81d15e7563469aaa71934e3e6f5150f7",
+      "sourcegraph_name": "github.com/sg-evals/endless-sky-endless-sky",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "candidate_event": {
+            "commit_oid": "c9a03479bc2b0d1d97f77f61f6a0f8b277789cc3",
+            "observed_at": "2026-07-21T18:22:44Z"
+          },
+          "event_id": "a57c36fb1e62b8ad89d1b18f9fcd09472872fa0ab32c7e1355cc82cbe2cb19e0",
+          "packet_count": 2,
+          "packet_ids": [
+            "8cc81a65441e0e76db1894607a0ba881d9ac62a8e148e5ff2b2305aea0d938cc",
+            "96117a017a7d5d07ba682d42aabeb9bf948a7016bf53b4bfd6bd6b9e2bda81be"
+          ],
+          "packet_type": "ai_ban_policy",
+          "query_family_ids": [
+            "ai_ban_policy_files",
+            "ai_ban_policy_introduction_diffs"
+          ]
+        }
+      ],
+      "canonical_repository_id": "asahilinux/m1n1",
+      "canonical_source_url": "https://github.com/AsahiLinux/m1n1",
+      "case_id": "a6f7bda625d246dea6670d6a2a2571524286a12b3f76f0de380ac78a7a509cfd",
+      "cutoff_commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "exclusion_reason": null,
+      "preregistered_repository_id": "AsahiLinux/m1n1",
+      "repository_case_sha256": "ff25f4fa66037c0312fa310a6c2f585017655913a5d6455cfadac19a11ad2edd",
+      "sourcegraph_name": "github.com/sg-evals/asahilinux-m1n1",
+      "status": "eligible"
+    },
+    {
+      "candidate_count": 0,
+      "candidates": [],
+      "canonical_repository_id": "pkgconf/pkgconf",
+      "canonical_source_url": "https://github.com/pkgconf/pkgconf",
+      "case_id": "408316d9e70bb745bc694f052961888c8b23903f6236cf1b59da973b5b135d8c",
+      "cutoff_commit": "3f138a4e366eb0a917c228970aa151e92c57fa8e",
+      "exclusion_reason": "no_frozen_ai_ban_candidate",
+      "preregistered_repository_id": "pkgconf/pkgconf",
+      "repository_case_sha256": "4b9d3571291815c02dc041f6be8859a75c6696be772d3d91c7460b410d3bf6c9",
+      "sourcegraph_name": "github.com/sg-evals/pkgconf-pkgconf",
+      "status": "excluded"
+    }
+  ],
+  "repository_count": 17,
+  "scip_required": false,
+  "scope": "data/control_evidence.json:repos",
+  "semantic_policy_decisions_made": false,
+  "survival_outcomes_consulted": false,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b"
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "sourcegraph-ai-ban-review-worksheet.schema.json",
+  "ambiguous_resolution": "distinct_secondary_then_distinct_resolver",
+  "classifier_outcomes_consulted": false,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "case_index_file_sha256": "369145e65c6201e3782c8b35f42f667ca6fd122424babae24a5499596ed54cc4",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+    "control_evidence_file_sha256": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "prior_decision_ledger_sha256": "217ab8fdb371543776167ca98d1314e838ef0732fa00145e81e84c80ae800fd1",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "review_version": 3,
+  "scip_required": false,
+  "semantic_policy_decisions_made": false,
+  "stopping_rule": "earliest_accepted_policy_event",
+  "survival_outcomes_consulted": false,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+  "task_count": 3,
+  "tasks": [
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 9,
+      "candidate_event": {
+        "commit_oid": "2dd5a2e3a1c0fad8441f8e9c7eb77315afcb075b",
+        "observed_at": "2022-05-19T14:35:17Z"
+      },
+      "candidate_position": 2,
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "canonical_source_url": "https://github.com/yt-dlp/yt-dlp",
+      "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+      "event_id": "7eebc2d838133a78a64a871c5ce0ecf91463bdde1d4647882ff758e3c6252865",
+      "evidence": [
+        {
+          "packet_id": "c52fb43653dd2129c19646ec772c2e6319960ef888456f9c67cd7ade973e0643",
+          "packet_sha256": "9a281923e5da617bb35943f47a32b58bb667f1f10ab871ac2e59c8f8592b0f22",
+          "query_family_id": "ai_ban_policy_files",
+          "raw_evidence": [
+            {
+              "commit_oid": "2dd5a2e3a1c0fad8441f8e9c7eb77315afcb075b",
+              "kind": "file_content",
+              "line": 611,
+              "path": "README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/README.md#L612",
+              "value": "    --no-hls-use-mpegts             Do not use the mpegts container for HLS"
+            },
+            {
+              "commit_oid": "2dd5a2e3a1c0fad8441f8e9c7eb77315afcb075b",
+              "kind": "blame",
+              "line": 611,
+              "path": "README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/2dd5a2e3a1c0fad8441f8e9c7eb77315afcb075b",
+              "value": "cutoff blame attributes Sourcegraph line 611 to commit 2dd5a2e3a1c0fad8441f8e9c7eb77315afcb075b"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "c52fb43653dd2129c19646ec772c2e6319960ef888456f9c67cd7ade973e0643"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_files"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "341ca312e552f64c29424d80cea341f16f07f5e648233880711638c6bcd9994b",
+      "task_sha256": "5ba1eb94c9eb05c1f94ca7746823dd1970352751353ae8aab3c7cbd985c55212"
+    },
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 2,
+      "candidate_event": {
+        "commit_oid": "7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+        "observed_at": "2025-10-19T22:52:56Z"
+      },
+      "candidate_position": 2,
+      "canonical_repository_id": "twpayne/chezmoi",
+      "canonical_source_url": "https://github.com/twpayne/chezmoi",
+      "cutoff_commit": "c7f235ea5217f1fa201cf70f48eec021058538dd",
+      "event_id": "f6de85a9787c7286f967e0699954fcde54a3134200c3cf9555dfb23d8031dcee",
+      "evidence": [
+        {
+          "packet_id": "5a396a0b41840845e04916e4f6e49cf7e2f03f72dcf08e25e788b05846e8083a",
+          "packet_sha256": "7b53847bce7e4c16cfc21840c8c27e10d24d6994ea27ecf03995155035311b81",
+          "query_family_id": "ai_ban_policy_introduction_diffs",
+          "raw_evidence": [
+            {
+              "commit_oid": "7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+              "kind": "diff_added",
+              "line": null,
+              "path": null,
+              "source_url": "https://github.com/twpayne/chezmoi/commit/7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+              "value": ".github/CODE_OF_CONDUCT.md .github/CODE_OF_CONDUCT.md\n@@ -15,3 +7,0 @@ chezmoi follows the [Contributor Covenant Code Of\n-* If you contribute un-reviewed LLM-generated content without any admission that\n-  you used an LLM then you will immediately be banned without recourse.\n-\n@@ -19,1 +7,2 @@ chezmoi follows the [Contributor Covenant Code Of\n-Copilot, and Llama.\n+* Any contribution of any LLM-generated content will be rejected and result in\n+  an immediate ban for the contributor, without recourse.\n"
+            }
+          ]
+        },
+        {
+          "packet_id": "7259db02c64452689df8c17539097af37aad69de1e04bfd7717a2d1d9f1d8774",
+          "packet_sha256": "4b6cd44acb6d61a7d47b561e3fd044121328070c19c3819f7876ff476e6ebcae",
+          "query_family_id": "ai_ban_policy_files",
+          "raw_evidence": [
+            {
+              "commit_oid": "7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+              "kind": "file_content",
+              "line": 6,
+              "path": ".github/CODE_OF_CONDUCT.md",
+              "source_url": "https://github.com/twpayne/chezmoi/blob/c7f235ea5217f1fa201cf70f48eec021058538dd/.github/CODE_OF_CONDUCT.md#L7",
+              "value": "* Any contribution of any LLM-generated content will be rejected and result in"
+            },
+            {
+              "commit_oid": "7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+              "kind": "blame",
+              "line": 6,
+              "path": ".github/CODE_OF_CONDUCT.md",
+              "source_url": "https://github.com/twpayne/chezmoi/commit/7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+              "value": "cutoff blame attributes Sourcegraph line 6 to commit 7938c65ca55aaeaf6fc56d37b0b32073d2e5c461"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "5a396a0b41840845e04916e4f6e49cf7e2f03f72dcf08e25e788b05846e8083a",
+        "7259db02c64452689df8c17539097af37aad69de1e04bfd7717a2d1d9f1d8774"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_files",
+        "ai_ban_policy_introduction_diffs"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "e86a433f7f21edd715714eb25f220ff3f7852f5e9be7df1ab64551e9080abacf",
+      "task_sha256": "9a95f3d7617560dd407cebf93d30ae03c66d517ec2a3a24a2afa6528135ac618"
+    },
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 8,
+      "candidate_event": {
+        "commit_oid": "acc333c40bcf45fb78a0701596a99e93800fe566",
+        "observed_at": "2023-01-17T20:59:04Z"
+      },
+      "candidate_position": 2,
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "canonical_source_url": "https://codeberg.org/superseriousbusiness/gotosocial",
+      "cutoff_commit": "3722d124433d2087a97f68689fea934610703783",
+      "event_id": "ce46b34205853468555af8bfcf39bb8c663388979db7c15eb1c6065717f12f0a",
+      "evidence": [
+        {
+          "packet_id": "052a3997d841a31182f1d1b08db3cf806a0a87ad4aac4e912b421c339d5bec07",
+          "packet_sha256": "fbf1a29ee040b772b250a603d328a45af3e4d32f5625eb9e77e541b05b02a1c6",
+          "query_family_id": "ai_ban_policy_introduction_diffs",
+          "raw_evidence": [
+            {
+              "commit_oid": "acc333c40bcf45fb78a0701596a99e93800fe566",
+              "kind": "diff_added",
+              "line": null,
+              "path": null,
+              "source_url": "https://codeberg.org/superseriousbusiness/gotosocial",
+              "value": "/dev/null vendor/github.com/cilium/ebpf/CODE_OF_CONDUCT.md\n@@ -0,0 +28,3 @@ \n+\n+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.\n+\n"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "052a3997d841a31182f1d1b08db3cf806a0a87ad4aac4e912b421c339d5bec07"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_introduction_diffs"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "d6d4312c7fba8cdfeb5ec14884b3a5f23ad65f734aec998f3b0603e4a31a0449",
+      "task_sha256": "c30b7a4e1238e1ef5865ac88bf9fdc75790850fc23812031e7b70d6da186e1c9"
+    }
+  ],
+  "worksheet_sha256": "d4a70f6854b5bc4750cbf1f400b81e477a21de69865ec53aacb027f10a50bf7e"
+}

@@ -1,0 +1,85 @@
+{
+  "batches": [],
+  "completion_window": "24h",
+  "endpoint": "/v1/responses",
+  "input_files": [
+    {
+      "byte_count": 189998407,
+      "openai_created_at": 1785335008,
+      "openai_file_id": "file-EhUuHr8xgQpGZjz6VRpLVD",
+      "openai_status": "processed",
+      "path": "/mnt/agent-code-authorship/survival-study/sourcegraph-adjudication-v3/model-review/primary-a/requests/0000.jsonl",
+      "remote_filename": "sourcegraph-adjudication-v3-0000-d24be76ecbe0e180.jsonl",
+      "request_count": 16335,
+      "sha256": "d24be76ecbe0e180188deda7683f0dc08affc66ae3ba47b38dd2a6578b56bad7",
+      "shard": "0000"
+    },
+    {
+      "byte_count": 189023494,
+      "openai_created_at": 1785335050,
+      "openai_file_id": "file-8AxKyWujsMzN582jazoPKQ",
+      "openai_status": "processed",
+      "path": "/mnt/agent-code-authorship/survival-study/sourcegraph-adjudication-v3/model-review/primary-a/requests/0001.jsonl",
+      "remote_filename": "sourcegraph-adjudication-v3-0001-b9784db8f3f82e6e.jsonl",
+      "request_count": 18759,
+      "sha256": "b9784db8f3f82e6e407f7a86a660bdb4d15d52e50754909818c1934f0731c306",
+      "shard": "0001"
+    },
+    {
+      "byte_count": 189996969,
+      "openai_created_at": 1785335075,
+      "openai_file_id": "file-SVXfBtYRXUPBBhcwA1r3sZ",
+      "openai_status": "processed",
+      "path": "/mnt/agent-code-authorship/survival-study/sourcegraph-adjudication-v3/model-review/primary-a/requests/0002.jsonl",
+      "remote_filename": "sourcegraph-adjudication-v3-0002-759c80405eec7a4d.jsonl",
+      "request_count": 18395,
+      "sha256": "759c80405eec7a4d76d88b2f5185a2d35b575ec3aae7edf1833717a16ee56bc7",
+      "shard": "0002"
+    },
+    {
+      "byte_count": 189976203,
+      "openai_created_at": 1785335128,
+      "openai_file_id": "file-7hCURqcemCzXoapLomB2LM",
+      "openai_status": "processed",
+      "path": "/mnt/agent-code-authorship/survival-study/sourcegraph-adjudication-v3/model-review/primary-a/requests/0003.jsonl",
+      "remote_filename": "sourcegraph-adjudication-v3-0003-6a0319e155430c39.jsonl",
+      "request_count": 16207,
+      "sha256": "6a0319e155430c3933dafb6c810dfe20da4e60504093969251fc3ed14001b297",
+      "shard": "0003"
+    },
+    {
+      "byte_count": 40969366,
+      "openai_created_at": 1785335136,
+      "openai_file_id": "file-W6GhLHVb9SzfjpBeoS5xnj",
+      "openai_status": "processed",
+      "path": "/mnt/agent-code-authorship/survival-study/sourcegraph-adjudication-v3/model-review/primary-a/requests/0004.jsonl",
+      "remote_filename": "sourcegraph-adjudication-v3-0004-95265b5a5df0ec9e.jsonl",
+      "request_count": 3264,
+      "sha256": "95265b5a5df0ec9eb9a3b244f847c2c5cda008d623cb8054d76b6ca00374bed2",
+      "shard": "0004"
+    }
+  ],
+  "manifests": [
+    {
+      "batch_manifest_sha256": "321eb5c618d3c6aae2b3e4b36fb413de4b4edbb381034856c6378020e27ba968",
+      "file_sha256": "c05d589601bdf98caddc42cb206836c47e828b80fe9b06bd94d2e9be502702b7",
+      "model": "gpt-5.6",
+      "path": "study/sourcegraph-adjudication-primary-a-batch.v3.json",
+      "prompt_sha256": "14eb98f21fefe17dfb42c535b727ba8bdc671118608f4d5edd5e54e725ed3c7c",
+      "reasoning_effort": "low",
+      "reviewer_id": "sourcegraph-primary-model-a"
+    },
+    {
+      "batch_manifest_sha256": "10ee2f843b83f24ca9791a55e23d1497071df35282f2393160e07dc7dbf9671a",
+      "file_sha256": "7c8e3dc3d4e83615e3cfdc80dfc77f603a268d3d37ffc5a21e58f632fad8ef24",
+      "model": "gpt-5.6",
+      "path": "study/sourcegraph-adjudication-primary-b-batch.v3.json",
+      "prompt_sha256": "14eb98f21fefe17dfb42c535b727ba8bdc671118608f4d5edd5e54e725ed3c7c",
+      "reasoning_effort": "low",
+      "reviewer_id": "sourcegraph-primary-model-b"
+    }
+  ],
+  "study_id": "sourcegraph-adjudication-v3",
+  "submission_version": 3,
+  "updated_at": "2026-07-29T14:25:37.079869+00:00"
+}

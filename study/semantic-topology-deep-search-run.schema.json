@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic-topology-deep-search-run.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "artifact_version",
+    "run_id",
+    "plan_sha256",
+    "protocol_sha256",
+    "canonical_repository_id",
+    "prompt_family_id",
+    "prompt_sha256",
+    "prompt",
+    "terminal_status",
+    "conversation_identity",
+    "search_context",
+    "searches",
+    "search_trace_status",
+    "proposed_queries",
+    "cited_files",
+    "citation_extraction_status",
+    "cited_commits",
+    "model_metadata",
+    "raw_answer",
+    "raw_conversation",
+    "error",
+    "artifact_sha256"
+  ],
+  "properties": {
+    "$schema": {"const": "semantic-topology-deep-search-run.schema.json"},
+    "artifact_version": {"const": 1},
+    "run_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "plan_sha256": {"$ref": "#/$defs/sha256"},
+    "protocol_sha256": {"$ref": "#/$defs/sha256"},
+    "canonical_repository_id": {"type": "string"},
+    "prompt_family_id": {
+      "enum": [
+        "adoption_configuration",
+        "delegated_task_intent",
+        "review_validation",
+        "semantic_controls",
+        "change_topology"
+      ]
+    },
+    "prompt_sha256": {"$ref": "#/$defs/sha256"},
+    "prompt": {"type": "string", "minLength": 1},
+    "terminal_status": {
+      "enum": ["completed", "error", "canceled", "unavailable"]
+    },
+    "conversation_identity": {
+      "oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]
+    },
+    "search_context": {
+      "type": "object",
+      "required": ["repository", "context_revision_kind"],
+      "properties": {
+        "repository": {"type": "string"},
+        "context_revision_kind": {"type": "string"}
+      }
+    },
+    "searches": {"type": "array", "items": {"type": "object"}},
+    "search_trace_status": {
+      "enum": ["observed", "unavailable_not_exposed_by_api"]
+    },
+    "proposed_queries": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string"}
+    },
+    "cited_files": {"type": "array", "items": {"type": "object"}},
+    "citation_extraction_status": {
+      "enum": ["observed", "none_extracted_from_api_response"]
+    },
+    "cited_commits": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[0-9a-f]{40}$"}
+    },
+    "model_metadata": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["observed", "unavailable"]},
+        "reason": {"type": "string"},
+        "value": {}
+      }
+    },
+    "raw_answer": {"type": "string"},
+    "raw_conversation": {"type": "object"},
+    "error": {
+      "oneOf": [{"type": "object"}, {"type": "null"}]
+    },
+    "attempt_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "terminal_status",
+          "conversation_identity",
+          "error",
+          "artifact_sha256"
+        ],
+        "properties": {
+          "terminal_status": {
+            "enum": ["completed", "error", "canceled", "unavailable"]
+          },
+          "conversation_identity": {
+            "oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]
+          },
+          "error": {
+            "oneOf": [{"type": "object"}, {"type": "null"}]
+          },
+          "artifact_sha256": {"$ref": "#/$defs/sha256"}
+        }
+      }
+    },
+    "artifact_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "execution_version": 3,
+  "plan_sha256": "fd047d7599b5af3a75dba1bd699dc04603e4106679121780979af351aab8bbf0",
+  "approval_scope": "destructive",
+  "started_at": "2026-07-27T19:46:44.865998Z",
+  "updated_at": "2026-07-27T19:46:45.465709Z",
+  "status": "failed",
+  "selected_count": 2,
+  "selected_repository_ids": [
+    "kubernetes/kubernetes",
+    "nodejs/node"
+  ],
+  "current_action": null,
+  "results": [
+    {
+      "canonical_repository_id": "kubernetes/kubernetes",
+      "action": "replace_standalone_mirror",
+      "status": "failed",
+      "started_at": "2026-07-27T19:46:44.873022Z",
+      "completed_at": "2026-07-27T19:46:45.465709Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "sync",
+            "sg-evals/kubernetes-kubernetes",
+            "--source",
+            "kubernetes/kubernetes",
+            "--force"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "HTTP 404: Not Found (https://api.github.com/repos/kubernetes/kubernetes/git/refs/heads/main)\n"
+        }
+      ],
+      "error": "HTTP 404: Not Found (https://api.github.com/repos/kubernetes/kubernetes/git/refs/heads/main)"
+    }
+  ],
+  "journal_sha256": "11c0f3ccebebb2b31e29cef05c2684e84b43d2aae1b7b556dcd4f7d52bebc321"
+}

@@ -1,0 +1,863 @@
+{
+  "adoption_catalog_sha256": "46b359397c591f61d49bb93e007d5df04bbd4ba7559731bde605ff2ab40fe9da",
+  "adoption_quarter_excluded": true,
+  "cohort_freeze_sha256": "945a012805e159f386f32d7e10901dd6b5279040838fa1dacf850e21b676b12f",
+  "era_panel_plan_sha256": "c314b056b37d6b7189f699fc80fbb5a8a62b1b1ecd2587b083c1040ccfca200c",
+  "era_panel_plan_version": 1,
+  "index_manifest_content_sha256": "32e71e28543fa7763279a2f49b816640ae15a8f34bf97011c70dac7e26d8f311",
+  "outcomes_consulted": false,
+  "period_definition": "calendar_quarter",
+  "repositories": [
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "e4c6e11fcec9a7140ef53835fae0728b2f304a3c",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "aftership/clickhouse-sql-parser",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/aftership-clickhouse-sql-parser"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "29eeac374d18003696d8725d88e76d20176034a1",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "ag2ai/build-with-ag2",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/ag2ai-build-with-ag2"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "7c66eb46b36eee67be5862a58623cdd9ab3c8b78",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "ai-shifu/ai-shifu",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/ai-shifu-ai-shifu"
+    },
+    {
+      "adoption_period": 8100,
+      "cutoff_commit": "6f539a8b715ef0b667ad0efc2adaf16e06d0d57f",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "airbytehq/pyairbyte",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/airbytehq-pyairbyte"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "ee9d05da08768d35384f823494d4ed0a1643eef5",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/aldinokemal-go-whatsapp-web-multidevice"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "language": "Python",
+      "policy_effective_period": 8106,
+      "repository_id": "asahilinux/m1n1",
+      "role": "h2_ai_ban_control",
+      "sourcegraph_name": "github.com/sg-evals/asahilinux-m1n1"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "c23d6ac52c89bb76e43285124b5afc419ccbc549",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "aztfmod/terraform-provider-azurecaf",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/aztfmod-terraform-provider-azurecaf"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "3348328d367c0bc48186891e59797bad455273ef",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "azure/azure-dev",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/azure-azure-dev"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "azure/azure-sdk-for-python",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "b8b533b8296f0c79d6a9953d6b2cb0059636a2e5",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "bayesianbandits/bayesianbandits",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/bayesianbandits-bayesianbandits"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "7afc7c1cc96e23992c8f105f960132c657883bb1",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "beehiveinnovations/zen-mcp-server",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/beehiveinnovations-zen-mcp-server"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "language": "Python",
+      "policy_effective_period": 8104,
+      "repository_id": "borgmatic-collective/borgmatic",
+      "role": "h2_ai_ban_control",
+      "sourcegraph_name": "github.com/sg-evals/borgmatic-collective-borgmatic"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "6b111e1f041d354d682541cc489375431f195fcf",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "brevdev/brev-cli",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/brevdev-brev-cli"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "05b68eb5679da0497510a6954863687bef41c706",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "browser-use/browser-use",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/browser-use-browser-use"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "b1a070dd2f4c0db63f894a77461a775ec508d5e1",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "busser/tfautomv",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/busser-tfautomv"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "16b612cfcfda48e302ca6ddb5905a0282f854873",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "bytedance/deer-flow",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/bytedance-deer-flow"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "d1f0a046336373569617fb9d57cdbbb5c8dcaefb",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "celestiaorg/celestia-core",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/celestiaorg-celestia-core"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "ff10beb042aff7ce8921356cb867cacbef71b6c3",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "coder/coder",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/coder-coder"
+    },
+    {
+      "adoption_period": 8100,
+      "cutoff_commit": "c9b31d21bc396e8958891e271936bdbdf1a6ca93",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "commaai/opendbc",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/commaai-opendbc"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "62f4d7efd1ea61ec11e5c0922eee01b444b6c6d2",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "crewaiinc/crewai-tools",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/crewaiinc-crewai-tools"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "339368fb86d38ca532e99d2a65c4b1f0dc399e5d",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "cschleiden/go-workflows",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/cschleiden-go-workflows"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "6ee8128b4648ab60e1674679627ddeee6c352bcd",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "dagster-io/dagster",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/dagster-io-dagster"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "94dd7aae494a85154f600d7adc508978ff44cb8f",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "datadog/dd-trace-go",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/datadog-dd-trace-go"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "a263ecce1b9d58c71e2147d9ed087288588c79de",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "deepnoodle-ai/risor",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/deepnoodle-ai-risor"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "957d0cee7167757ae221ffde59d2cf0a322e89c7",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "django/django",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/django-django"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "6425763b17d16088584c5d403cdb730ecdac4371",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "elastic/terraform-provider-elasticstack",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/elastic-terraform-provider-elasticstack"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "8017c46d7f61d6286254561e877a5bc907805b63",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "equationzhao/g",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/equationzhao-g"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "e87f3ff835af368defc1ec42dc29ec545a288585",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "ethyca/fides",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/ethyca-fides"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "7537a5ebc4175143e3a582eb0f9239d3a1bbf311",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "exa-labs/exa-py",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/exa-labs-exa-py"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "b3cf96145d0069fdd983dbc6c8140f674dd7fa3d",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "fatedier/fft",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/fatedier-fft"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "11cdf466d042aece04fc6cfd13b28e1a70341b1f",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "foundationagents/metagpt",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/FoundationAgents-MetaGPT"
+    },
+    {
+      "adoption_period": 8103,
+      "cutoff_commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "gastownhall/beads",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/gastownhall-beads"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "34dac209ffb6ef85cc78c5d217bbb7ad001d68fd",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "gin-gonic/gin",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/gin-gonic-gin"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "fc6a9befae1e1ed72e123c72886e4875225aafa1",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "github/issue-metrics",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/github-issue-metrics"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "c0fe0e43cd728ebc3dd1f714343f3921510a157f",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "github/spec-kit",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/github-spec-kit"
+    },
+    {
+      "adoption_period": 8103,
+      "cutoff_commit": "f961093ea9f1669ea15f1e590a481a8d8282f6f7",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "gohugoio/hugo",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/gohugoio-hugo"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "ade9476f849d6f649c7fcc7614ab4d979311094c",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "grafana/grafana",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/grafana-grafana"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "b1877260448f82269aeecfff3d36b13f0958a542",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "haasonsaas/ocode",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/haasonsaas-ocode"
+    },
+    {
+      "adoption_period": 8103,
+      "cutoff_commit": "3c4df9f5d1b9b9d239aa52fd538b7555e4d2af86",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "harry0703/moneyprinterturbo",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/harry0703-MoneyPrinterTurbo"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "702a9cb7289e535927f5279190bcad6ffc5d3fd0",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "home-assistant/core",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/home-assistant-core"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "f4646d4a13729014ff67763b142ee1ac71eb25c8",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "infiniflow/ragflow",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/infiniflow-ragflow"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "16782f34e471affb31cfed075191b3f0591d3635",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "iterative/datachain",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/iterative-datachain"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "jeroenterheerdt/hasmartirrigation",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "a5b4477a20cbede19c381f72e68abc7a4176537a",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "jesseduffield/lazygit",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/jesseduffield-lazygit"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "c2f175bc0abe7b7cd79371305e028a1c06269c85",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "justtrackio/gosoline",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/justtrackio-gosoline"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "6354a48405cf16a156c8f92da35f334aff92d26c",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "jxxghp/moviepilot",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/jxxghp-moviepilot"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "767fec9dbe1c19b2bfc45089f5dc1c7946f36a30",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "keephq/keep",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/keephq-keep"
+    },
+    {
+      "adoption_period": 8100,
+      "cutoff_commit": "38e35d328a13f6561c14a21ea734c2fa75c0e4d7",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "langbot-app/langbot",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/langbot-app-langbot"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "fa7ce760a26437a904a4c93db75333f01d65ed83",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "langchain-ai/langchain",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/langchain-ai-langchain"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "ce17f022bed0eac943a723b9b6c74a023e819b60",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "langflow-ai/langflow",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/langflow-ai-langflow"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "cc3fe3ef4ce08919e522eb00ea1bea5689f3b53e",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "microsoft/debug-gym",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-debug-gym"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "14a00ad88fc33cf2b52f4f113f25807556f8e25e",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "microsoft/graphrag",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-graphrag"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "ba9762595b01388291ca3c073b2bbe862da9bdbe",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "microsoft/lisa",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-lisa"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "d3c9d13c39288257286a66daabf7c5b5fb72ee69",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "microsoft/magentic-ui",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-magentic-ui"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "2e42a01c404629b06892a1bdb5e7bf5261770c40",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "microsoft/markitdown",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-markitdown"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "f12401efe3e5761db16fa0326906be7ab07e7d61",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "microsoft/olive",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-olive"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "4f9ecb005881cddc08df0124a2e894c018007679",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "microsoft/rd-agent",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-rd-agent"
+    },
+    {
+      "adoption_period": 8100,
+      "cutoff_commit": "8d29e62f3585c2fb5179e4412895aa3a8f40b9f5",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "microsoft/typescript-go",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/microsoft-typescript-go"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "7a4a06cc8976c8001160942e66d688cf91f8d633",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "moby/moby",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/moby-moby"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "29e32c39dcb5e0e2b43974089d959fcc4794eb6d",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "modelcontextprotocol/registry",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/modelcontextprotocol-registry"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "98e5f2c82ad340c90101e04ed0620056b559c79f",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "nearai/nearai",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/nearai-nearai"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "4f411281417e88660bea1c1a1749aa71ae0bd60f",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "nektos/act",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/nektos-act"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "024ba4a3368b767c92a5f1a7fcdd28a72bf07ff7",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "newfuture/ddns",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/newfuture-ddns"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "d25129795c9c6dcf6136ca4fc270548e2bb2cfbe",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "nikolaydubina/go-instrument",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/nikolaydubina-go-instrument"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "fa25657f5be3bfb5d21844c215de0c2864447893",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "noneback/go-taskflow",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/noneback-go-taskflow"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "296a0bc55760e43b9c0743c052f8d6c2732606d1",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "nousresearch/atropos",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/nousresearch-atropos"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "8dc99787418e5b10720c0a7a432addc02deef322",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "nousresearch/hermes-agent",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/NousResearch-hermes-agent"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "038beeeedb5755519370638e463acdcaf374f535",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "numbagg/numbagg",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/numbagg-numbagg"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "5ff48b941911618a37264079fc37252f1d26616c",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "odigos-io/odigos",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/odigos-io-odigos"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "9eef4a7195dc8ad246e697a5251a8df344a56880",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "ollama/ollama",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/ollama-ollama"
+    },
+    {
+      "adoption_period": 8100,
+      "cutoff_commit": "062f50a26c482f9b63fdc3bdf7b45edb029d2842",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "onyx-dot-app/onyx",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/onyx-dot-app-onyx"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "79d6d8d79fb8f3ddba5cc34c07a16f0ec36f56c7",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "opendatalab/mineru",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/opendatalab-MinerU"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "33b042ad067a1240e457f5616b9cdfe1ff49e92c",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "oraios/serena",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/oraios-serena"
+    },
+    {
+      "adoption_period": 8100,
+      "cutoff_commit": "e5f2178b4079d78b68fb2a31ac88543a6ab81722",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "oras-project/oras",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/oras-project-oras"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "language": "Python",
+      "policy_effective_period": 8104,
+      "repository_id": "poezio/poezio",
+      "role": "h2_ai_ban_control",
+      "sourcegraph_name": "github.com/sg-evals/poezio-poezio"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "b7df7cdcb942e5410dcbd2bba91fceb4d1143841",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "ray-project/ray",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/ray-project-ray"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "586fac3f51fd02a49f2022c9f9d2b4d82d6455a0",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "reflex-dev/reflex",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/reflex-dev-reflex"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "a13872be5252f18b22d0f0e63200ced94f5f0e56",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "schemahero/schemahero",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/schemahero-schemahero"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "656d8f5d9c2bf91097d97f7ea8e034b57a324c70",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "significant-gravitas/autogpt",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/Significant-Gravitas-AutoGPT"
+    },
+    {
+      "adoption_period": 8100,
+      "cutoff_commit": "910c57ddd218cc10bd2551f32badb1612913558d",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "spylang/spy",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/spylang-spy"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "3722d124433d2087a97f68689fea934610703783",
+      "language": "Go",
+      "policy_effective_period": 8094,
+      "repository_id": "superseriousbusiness/gotosocial",
+      "role": "h2_ai_ban_control",
+      "sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "5ba601243a934a7a88217e0de93e2f66764d8910",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "teaxyz/chai",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/teaxyz-chai"
+    },
+    {
+      "adoption_period": 8101,
+      "cutoff_commit": "b01f437a91feac2fa395c5f9415904177a69c65b",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "tracecathq/tracecat",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/tracecathq-tracecat"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "c7f235ea5217f1fa201cf70f48eec021058538dd",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "twpayne/chezmoi",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi"
+    },
+    {
+      "adoption_period": 8102,
+      "cutoff_commit": "ae7f10f1ba350f3342e9fc3fa17c3131e0295f8c",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "ucbepic/docetl",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/ucbepic-docetl"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "7e801521428ee12509994d39151006f64055ebe3",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "unclecode/crawl4ai",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/unclecode-crawl4ai"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "language": "Go",
+      "policy_effective_period": null,
+      "repository_id": "vdaas/vald",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "f8cf979bb80b18e1f100058b918121dd8d78358a",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "vladfi1/slippi-ai",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/vladfi1-slippi-ai"
+    },
+    {
+      "adoption_period": 8100,
+      "cutoff_commit": "55b534d87980aaca55fba28a4a6062a58f8f01ab",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "vlm-run/vlmrun-hub",
+      "role": "adopter",
+      "sourcegraph_name": "github.com/sg-evals/vlm-run-vlmrun-hub"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "be7541765445710e9de6f67ca5a0b26b3147cf2f",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "wandb/weave",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/wandb-weave"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "295a0650585af8754eaf98c6fa9071314b5a531c",
+      "language": "Python",
+      "policy_effective_period": null,
+      "repository_id": "willccbb/verifiers",
+      "role": "never_adopter_control",
+      "sourcegraph_name": "github.com/sg-evals/willccbb-verifiers"
+    },
+    {
+      "adoption_period": null,
+      "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+      "language": "Python",
+      "policy_effective_period": 8106,
+      "repository_id": "yt-dlp/yt-dlp",
+      "role": "h2_ai_ban_control",
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp"
+    }
+  ],
+  "repository_count": 92,
+  "required_periods": [
+    8097,
+    8098,
+    8099,
+    8100,
+    8101,
+    8102,
+    8103,
+    8104
+  ],
+  "sourcegraph_materialization": {
+    "cap_result": "repository_period_incomplete",
+    "changed_files_page_size": 5000,
+    "design": "exact_net_quarter_path_batches",
+    "maximum_changed_file_pages": 20,
+    "path_batch_size": 64,
+    "period_result_version": 4,
+    "required_fields": [
+      "RepositoryComparison.changedFiles",
+      "RepositoryComparison.fileDiffs.paths"
+    ]
+  }
+}

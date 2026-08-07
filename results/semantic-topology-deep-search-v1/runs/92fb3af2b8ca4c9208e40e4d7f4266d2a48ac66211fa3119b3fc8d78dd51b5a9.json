@@ -1,0 +1,58 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "47e0bc12d5e049c38d75b9382af4681da06572d90b2fbfd804b4843dc3542bf2",
+  "artifact_version": 1,
+  "canonical_repository_id": "ant-design/ant-design",
+  "citation_extraction_status": "none_extracted_from_api_response",
+  "cited_commits": [],
+  "cited_files": [],
+  "conversation_identity": "users/476/conversations/2067",
+  "error": {
+    "code": "ERROR_TOKEN_LIMIT_EXCEEDED",
+    "message": "The search could not be completed, please try again with more defined context."
+  },
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a.",
+  "prompt_family_id": "change_topology",
+  "prompt_sha256": "daa930fbe5dd1331db33a78e8b6d432e4cbd385d4e1475e527e61407d3822122",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "",
+  "raw_conversation": {
+    "createTime": "2026-07-29T04:05:17Z",
+    "name": "users/476/conversations/2067",
+    "questions": [
+      {
+        "createTime": "2026-07-29T04:05:17Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "error": {
+        "code": "ERROR_TOKEN_LIMIT_EXCEEDED",
+        "message": "The search could not be completed, please try again with more defined context."
+      }
+    },
+    "title": "Trace semantic topology of changes in ant-design-ant-design (revision 2f623fe)",
+    "updateTime": "2026-07-29T04:08:47Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/d62f60db-c012-4f74-8d98-94ea393dfd58"
+  },
+  "run_id": "sha256:92fb3af2b8ca4c9208e40e4d7f4266d2a48ac66211fa3119b3fc8d78dd51b5a9",
+  "search_context": {
+    "context_revision_kind": "last_default_branch_commit_before_2023",
+    "repository": "ant-design/ant-design"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "error"
+}

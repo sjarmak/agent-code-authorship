@@ -1,0 +1,43 @@
+{
+  "coverage": 1.0,
+  "field_count_passing": 2,
+  "fields": {
+    "cutoff_reachable": {
+      "agreement": 1.0,
+      "kappa": null,
+      "kappa_status": "not_identified_no_label_variation",
+      "observations": 50,
+      "passes": false
+    },
+    "first_followup_author_differs": {
+      "agreement": 1.0,
+      "kappa": 1.0,
+      "kappa_status": "identified",
+      "observations": 50,
+      "passes": true
+    },
+    "path_class": {
+      "agreement": 0.74,
+      "kappa": 0.56463496316142,
+      "kappa_status": "identified",
+      "observations": 50,
+      "passes": false
+    },
+    "subsequent_change_present": {
+      "agreement": 1.0,
+      "kappa": 1.0,
+      "kappa_status": "identified",
+      "observations": 50,
+      "passes": true
+    }
+  },
+  "missing_review_item_ids": [],
+  "packet_sha256": "8d0ababcde97b8cade6f3ac88a23e3bac2b3ffb005d0353cd4bc7cbd11677a5e",
+  "reliable_topology_fields_gate": false,
+  "result_sha256": "7e16d8b0da46765024f77b46aa6c9a0cc89798dfb264b6c23c6e157d8372ea5f",
+  "result_version": 1,
+  "reviewer_ids": [
+    "independent_reviewer_a",
+    "independent_reviewer_b"
+  ]
+}

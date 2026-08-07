@@ -1,0 +1,22 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "0897fef7783c481735d5cd1de8faef030ddec40521f41878604d392e3a189c13",
+    "task_id": "c5af9a3a262ddf7c2a9b9b9da798faeb1bd74be7802084ad9b9ff25e92a1f70f",
+    "task_sha256": "86497a7b2dca91ca56ef60f82331fd1c9b9591debacbdfd0d49ca99511d8bcae",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "0e783f7356921dc47eaa7d727d9d21888ca1e6de3e16406ed1cff077dd0fd082",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-auditor-b",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The frozen evidence is challenge-provider example code for rejecting unsupported requests; it contains no policy about AI-generated contributions.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/jsc/README.md#L70"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "dd0652c55509bde8e9c63a9bc85190f5452f3aaa1a52eac43ea182a3901bdd59"
+  }
+]

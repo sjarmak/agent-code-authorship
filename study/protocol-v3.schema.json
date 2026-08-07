@@ -1,0 +1,300 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agent-code-authorship.local/study/protocol-v3.schema.json",
+  "title": "Sourcegraph-first agent-code-authorship protocol v3",
+  "type": "object",
+  "required": [
+    "$schema",
+    "protocol_version",
+    "status",
+    "preregistered_at",
+    "purpose",
+    "parent",
+    "snapshot",
+    "languages",
+    "populations",
+    "selection",
+    "sourcegraph",
+    "human_evidence",
+    "adoption",
+    "era_adjustment",
+    "authorship",
+    "survival",
+    "identification_gates",
+    "reporting",
+    "protocol_sha256"
+  ],
+  "properties": {
+    "$schema": {"const": "protocol-v3.schema.json"},
+    "protocol_version": {"const": 3},
+    "status": {"const": "preregistered"},
+    "preregistered_at": {"type": "string", "format": "date-time"},
+    "purpose": {"type": "string", "minLength": 1},
+    "parent": {
+      "type": "object",
+      "required": [
+        "amendment_version",
+        "result_status",
+        "additive",
+        "legacy_results_known",
+        "sha256"
+      ],
+      "properties": {
+        "amendment_version": {"const": 2},
+        "result_status": {"const": "not_identified"},
+        "additive": {"const": true},
+        "legacy_results_known": {"const": true},
+        "sha256": {
+          "type": "object",
+          "required": [
+            "protocol_v1",
+            "amendment_v2",
+            "replication_v2",
+            "prevalence_targets",
+            "survival_protocol",
+            "survival_candidates",
+            "survival_inputs",
+            "reference_manifest_v1",
+            "control_evidence",
+            "cohort_forks"
+          ],
+          "additionalProperties": {"$ref": "#/$defs/sha256"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "snapshot": {
+      "type": "object",
+      "required": [
+        "cutoff",
+        "later_evidence_role",
+        "later_outcomes_forbidden",
+        "pinned_git_is_authoritative_for_lineage"
+      ],
+      "properties": {
+        "cutoff": {"const": "2026-07-24T23:59:59Z"},
+        "later_evidence_role": {"const": "future_replication_only"},
+        "later_outcomes_forbidden": {"const": true},
+        "pinned_git_is_authoritative_for_lineage": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "languages": {
+      "const": ["Python", "Go"]
+    },
+    "populations": {
+      "type": "object",
+      "required": ["prevalence", "survival", "adoption"],
+      "properties": {
+        "prevalence": {"$ref": "#/$defs/fixedPopulation"},
+        "survival": {"$ref": "#/$defs/fixedPopulation"},
+        "adoption": {
+          "type": "object",
+          "required": [
+            "role",
+            "seed_frames",
+            "additional_discovery",
+            "freeze_required_before_outcome_extraction"
+          ],
+          "properties": {
+            "role": {"const": "separate_event_study_population"},
+            "seed_frames": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "string"}
+            },
+            "additional_discovery": {
+              "const": "separate_outcome_blind_frozen_batch"
+            },
+            "freeze_required_before_outcome_extraction": {"const": true}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "selection": {
+      "type": "object",
+      "required": [
+        "outcome_blind",
+        "legacy_results_known",
+        "outcomes_consulted_for_v3_candidate_selection",
+        "new_v3_outcomes_extracted",
+        "full_frame_indexed_before_eligibility_screening",
+        "candidate_order",
+        "query_text_frozen_before_execution",
+        "classifier_and_survival_outputs_forbidden_during_selection",
+        "rejections_retained_with_reason"
+      ],
+      "properties": {
+        "outcome_blind": {"const": true},
+        "legacy_results_known": {"const": true},
+        "outcomes_consulted_for_v3_candidate_selection": {"const": false},
+        "new_v3_outcomes_extracted": {"const": false},
+        "full_frame_indexed_before_eligibility_screening": {"const": true},
+        "candidate_order": {"const": "sha256_of_canonical_repository_id"},
+        "query_text_frozen_before_execution": {"const": true},
+        "classifier_and_survival_outputs_forbidden_during_selection": {
+          "const": true
+        },
+        "rejections_retained_with_reason": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "sourcegraph": {
+      "type": "object",
+      "required": [
+        "instance_role",
+        "indexed_namespace",
+        "full_frozen_frame_required",
+        "precise_code_intelligence_required",
+        "allowed_capabilities",
+        "disallowed_required_capabilities",
+        "canonical_identity",
+        "mirror_identity_role",
+        "authoritative_lineage_source",
+        "required_freezes"
+      ],
+      "properties": {
+        "instance_role": {"type": "string", "minLength": 1},
+        "indexed_namespace": {"const": "github.com/sg-evals/"},
+        "full_frozen_frame_required": {"const": true},
+        "precise_code_intelligence_required": {"const": false},
+        "allowed_capabilities": {
+          "type": "array",
+          "minItems": 7,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "disallowed_required_capabilities": {
+          "const": ["SCIP", "precise_code_intelligence"]
+        },
+        "canonical_identity": {
+          "const": "original_repository_owner_and_name"
+        },
+        "mirror_identity_role": {"const": "transport_only"},
+        "authoritative_lineage_source": {"const": "pinned_git_history"},
+        "required_freezes": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "human_evidence": {
+      "type": "object",
+      "required": [
+        "pool_as_certain",
+        "tiers",
+        "tier_specific_estimates_required",
+        "combined_estimate"
+      ],
+      "properties": {
+        "pool_as_certain": {"const": false},
+        "tiers": {
+          "type": "object",
+          "required": ["H1", "H2", "H3"],
+          "properties": {
+            "H1": {"$ref": "#/$defs/evidenceTier"},
+            "H2": {"$ref": "#/$defs/evidenceTier"},
+            "H3": {
+              "allOf": [
+                {"$ref": "#/$defs/evidenceTier"},
+                {
+                  "type": "object",
+                  "required": [
+                    "subtypes",
+                    "clean_prehistory_days",
+                    "earlier_ambiguous_use",
+                    "era_adjustment_required"
+                  ],
+                  "properties": {
+                    "subtypes": {
+                      "const": [
+                        "historical_pre_2023",
+                        "contemporary_pre_adoption"
+                      ]
+                    },
+                    "clean_prehistory_days": {
+                      "type": "integer",
+                      "minimum": 365
+                    },
+                    "earlier_ambiguous_use": {"const": "exclude"},
+                    "era_adjustment_required": {"const": true}
+                  }
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "tier_specific_estimates_required": {"const": true},
+        "combined_estimate": {"const": "partial_identification_envelope"}
+      },
+      "additionalProperties": false
+    },
+    "adoption": {"$ref": "#/$defs/nonemptyObject"},
+    "era_adjustment": {"$ref": "#/$defs/nonemptyObject"},
+    "authorship": {"$ref": "#/$defs/nonemptyObject"},
+    "survival": {"$ref": "#/$defs/nonemptyObject"},
+    "identification_gates": {"$ref": "#/$defs/nonemptyObject"},
+    "reporting": {"$ref": "#/$defs/nonemptyObject"},
+    "protocol_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "fixedPopulation": {
+      "type": "object",
+      "required": [
+        "frame",
+        "repository_count",
+        "role",
+        "new_discovery_role"
+      ],
+      "properties": {
+        "frame": {"type": "string", "minLength": 1},
+        "repository_count": {"type": "integer", "minimum": 1},
+        "role": {"const": "fixed_confirmatory_target"},
+        "new_discovery_role": {
+          "const": "reference_control_or_external_validation_only"
+        }
+      },
+      "additionalProperties": false
+    },
+    "evidenceTier": {
+      "type": "object",
+      "required": ["label", "unit", "contamination_range"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "unit": {"type": "string", "minLength": 1},
+        "required_evidence": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "contamination_range": {
+          "type": "array",
+          "prefixItems": [
+            {"type": "number", "minimum": 0, "maximum": 1},
+            {"type": "number", "minimum": 0, "maximum": 1}
+          ],
+          "items": false,
+          "minItems": 2,
+          "maxItems": 2
+        }
+      },
+      "additionalProperties": true
+    },
+    "nonemptyObject": {
+      "type": "object",
+      "minProperties": 1
+    }
+  }
+}

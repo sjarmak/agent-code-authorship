@@ -32,9 +32,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import sys
-from pathlib import Path
-
 import numpy as np
 
 from authorship import paths, data as fp_data, logreg as fp_logreg

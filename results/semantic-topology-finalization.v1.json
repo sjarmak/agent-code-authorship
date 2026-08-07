@@ -1,0 +1,16 @@
+{
+  "candidate_inventory_sha256": "b4b267db15d87c82cdc2e758e9889f72ff87d346ff665ee9135b4619355063f3",
+  "candidate_verification_sha256": "691a7ab770a4105fe086b04dce34f3acf9c8a8bcae150d1eea0c35bb7e840c0a",
+  "control_candidates_sha256": "851e5a4bca390f9f3d1c59ab0d772c51d1b791e82287a7973bd7d7783a431c0d",
+  "deep_search_inventory_sha256": "c464a88b1cf2f0347ec709819dfe4c8d87b0399530119115d3441d79c9ef6e2e",
+  "deep_search_run_count": 100,
+  "enriched_inventory_sha256": "43434302528a118087dcc928a60c7ac4e2a6acad39141abe6f511bb360abb925",
+  "enriched_record_file_sha256": "17a5a6fb3cdc656e306831638b74499cd01cf1d7e5b4f787dd2cab6c3ed6a6b3",
+  "finalization_sha256": "a239a82ca10a3f9e635b0cf71725c19cd576d4edddf3b05ba0e7208c4d199e80",
+  "finalization_version": 1,
+  "record_summary_sha256": "ffb75a5e118ea01244209a65dbf12349b1a2e5721230fcb65a11ebf9f5088e0f",
+  "report_file_sha256": "a3112670527abff100624706ca19e034b75195df6de24ea24f9c6b1040b54cc3",
+  "run_summary_sha256": "9f34fdafa171a3cb56bd6c0c9f9d48ac83684cd7927da11d107e4528ef8f1527",
+  "semantic_record_count": 492,
+  "utility_gates_sha256": "5614a0ca5d567aac38ebcf56e769204ea5e8662c67bcc19a2239a53d4bf9a8af"
+}

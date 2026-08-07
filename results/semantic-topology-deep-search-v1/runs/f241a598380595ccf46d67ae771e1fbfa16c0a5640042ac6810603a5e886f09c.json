@@ -1,0 +1,284 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "2e6276c194ff7a06310e15646670ceb415dc812d6a2efc28156777db6bb90b61",
+  "artifact_version": 1,
+  "canonical_repository_id": "vdaas/vald",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "d50c5e731dedf7bc9dbe389bd9057c959198ac97"
+  ],
+  "cited_files": [
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".golangci.json",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.golangci.json"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "hack/gorules/rules.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/hack/gorules/rules.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "semgrep.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/semgrep.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/_detect-ci-container.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/_detect-ci-container.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/unit-test.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/unit-test.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/unit-test-rust.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/unit-test-rust.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/coverage.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/coverage.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "codecov.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/codecov.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".deepsource.toml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/reviewdog.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/reviewdog-hadolint.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog-hadolint.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/reviewdog-k8s.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog-k8s.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/reviewdog-markdown.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog-markdown.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/github-actions-workflow-linter.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/github-actions-workflow-linter.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/format.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/format.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/build-protobuf.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/build-protobuf.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/helm-lint.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/helm-lint.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/conflint.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/conflint.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/codeql-analysis.yml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/codeql-analysis.yml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/dockers-image-scan.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/dockers-image-scan.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/_docker-image-scan.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/_docker-image-scan.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/fossa.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/fossa.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".gitguardian.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.gitguardian.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/check-conflict.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/check-conflict.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/detect-internal-config-changes.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/detect-internal-config-changes.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/chatops_permissions.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_permissions.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/chatops.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/backport.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/backport.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/labeler.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/labeler.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/labeler.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/labeler.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/e2e.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/e2e.v2.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e.v2.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/e2e-chaos.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-chaos.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/e2e-max-dim.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-max-dim.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/e2e-profiling.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-profiling.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/e2e-code-bench-agent.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-code-bench-agent.yaml"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1998",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: vdaas/vald; stratum: attributable_agent; cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97.",
+  "prompt_family_id": "review_validation",
+  "prompt_sha256": "86330c84cdadace002f526e6153925012b969c0f4c32870753fb5c0d339180af",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Here is a comprehensive, cited inventory of all code-review and validation mechanisms present at revision `d50c5e731dedf7bc9dbe389bd9057c959198ac97`.\n\n---\n\n## Repository-Wide Mechanisms\n\n### 1. Automated Code Review \u2014 CodeRabbit\n\n[`.coderabbit.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml)\n\n- Profile: `assertive`. Auto-reviews all non-draft PRs targeting `main`. Skips PRs with title keywords `wip` or `draft`.\n- **Per-path review instructions** are defined for: `**/*.go`, `**/*.rs`, `charts/**/*.yaml`, `k8s/**/*.yaml`, `{Makefile,Makefile.d/**}`, `**/*.md`, `.github/workflows/**/*.yaml`, `**/Dockerfile`.\n- **Tools enabled** within CodeRabbit reviews: `golangci-lint` (config: `.golangci.json`), `markdownlint`, `shellcheck`, `yamllint`, `hadolint`, `buf`, `gitleaks`, `clippy`, `semgrep` (config: `semgrep.yaml`), `checkov`, `trivy`, `languagetool`, `actionlint`, `checkmake`.\n- **Path filters exclude** generated files: `*.pb.go`, `*.pb.gw.go`, `*_vtproto.pb.go`, `*.tonic.rs`, `*.serde.rs`, `buf.lock`, `go.sum`, `Cargo.lock`, `versions/**`, `assets/**`.\n- Knowledge base: CodeRabbit ingests `**/AGENTS.md`, `**/CONTRIBUTING.md`, `**/README.md`, `**/docs/contributing/*.md` as guidelines.\n- Auto-labeling rules configured for: `type/bug`, `type/feature`, `type/refactoring`, `type/dependency`, `type/documentation`, `type/security`, `type/ci`.\n\n**Verification query**: Read `.coderabbit.yaml` at the cutoff and confirm `reviews.auto_review.enabled = true` and `base_branches: [\"main\"]`.\n\n---\n\n### 2. Go Linting \u2014 GolangCI-Lint\n\n[`.golangci.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.golangci.json)\n\n- **Formatters**: `gofumpt`, `goimports`, `golines` (max line length: 200). Paths excluded from formatting: `third_party$`, `builtin$`, `examples$`. Generated files: `lax` treatment.\n- **Linters enabled** (exhaustive list, default `none`): `asasalint`, `asciicheck`, `bidichk`, `bodyclose`, `containedctx`, `contextcheck`, `decorder`, `depguard`, `dogsled`, `dupl`, `dupword`, `durationcheck`, `errchkjson`, `errname`, `errorlint`, `exhaustive`, `forcetypeassert`, `ginkgolinter`, `gocheckcompilerdirectives`, `gochecknoglobals`, `gochecknoinits`, `goconst`, `godot`, `gosec`, `gosmopolitan`, `govet` (all checks enabled), `grouper`, `ineffassign`, `interfacebloat`, `loggercheck`, `maintidx`, `makezero`, `mirror`, `misspell`, `mnd`, `musttag`, `nakedret`, `nilerr`, `nilnil`, `noctx`, `nosprintfhostport`, `prealloc`, `predeclared`, `reassign`, `rowserrcheck`, `sqlclosecheck`, `staticcheck`, `tagalign`, `tagliatelle`, `testableexamples`, `thelper`, `unconvert`, `unparam`, `unused`, `usestdlibvars`.\n- **`depguard` deny-list** (enforced globally except specific files): direct use of `sync`, `golang.org/x/sync`, `errors`, `github.com/cockroachdb/errors`, `github.com/pkg/errors`, `github.com/go-errors/errors`, `github.com/google/go-cmp/cmp`, `github.com/google/go-cmp/cmp/cmpopts`.\n- **Per-path exclusions**: `_test.go` files exempt from `dupl`, `forcetypeassert`, `gochecknoinits`, `mnd`, `noctx`; `options?.go` exempt from `gochecknoglobals`, `mnd`; `main.go` exempt from `gochecknoglobals`.\n- **gocritic/ruleguard** configured to run custom rules from [`hack/gorules/rules.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/hack/gorules/rules.go) (two rules: `CheckPayloadObjectAccess` \u2014 enforces getter usage on `payload.Payload` types; `PrintFmt` \u2014 detects format directives in non-format calls).\n- **tagliatelle**: JSON and YAML struct tags must use `snake_case`, field-name based.\n\n**Verification query**: Read `.golangci.json` at the cutoff; confirm `\"default\": \"none\"` and the `depguard.rules.main.deny` list.\n\n---\n\n### 3. Custom Semgrep Rules\n\n[`semgrep.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/semgrep.yaml)\n\nRepository-local rules (not a ruleset reference). Rules cover:\n\n| Rule ID | Lang | Severity | What it catches |\n|---|---|---|---|\n| `go.defer.in-loop` | Go | WARNING | `defer` inside `for` loop |\n| `go.errgroup.external` | Go | ERROR | Import of `golang.org/x/sync/errgroup` instead of internal |\n| `go.error.pkg-errors` | Go | ERROR | Import of `github.com/pkg/errors` |\n| `go.error.go-errors` | Go | ERROR | Import of `github.com/go-errors/errors` |\n| `go.goleak.external` | Go | ERROR | Import of `go.uber.org/goleak` instead of internal |\n| `go.context.todo-used` | Go | INFO | `context.TODO()` / `context.Background()` outside init/main/test |\n| `go.fs.perm-insecure` | Go | WARNING | `0666`/`0777` permissions on files/dirs |\n| `rust.tls.accept-invalid-cert` | Rust | WARNING | `danger_accept_invalid_certs(true)` |\n| `rust.command.shell-exec` | Rust | ERROR | `Command::new(\"sh\").arg(\"-c\")` |\n| `rust.crypto.weak-hash` | Rust | WARNING | MD5/SHA-1 usage |\n| `rust.error.unwrap-in-result-fn` | Rust | WARNING | `.unwrap()`/`.expect()` in `Result`-returning functions |\n| `rust.std.panic-used` | Rust | INFO | `panic!` calls |\n| `yaml.k8s.image-tag-latest` | YAML | ERROR | `image: ...:latest` |\n| `yaml.k8s.privileged-container` | YAML | ERROR | `privileged: true` |\n| `yaml.k8s.run-as-root` | YAML | WARNING | `runAsNonRoot: false` or `runAsUser: 0` |\n| `yaml.k8s.resources.not-limited` | YAML | INFO | Missing `resources.limits` |\n| `generic.curl.http-url` | Generic | WARNING | `curl http://...` |\n| `generic.curl.insecure-flag` | Generic | ERROR | `curl -k` / `--insecure` |\n| `generic.wget.http-url` | Generic | WARNING | `wget http://...` |\n| `generic.wget.no-check-cert` | Generic | ERROR | `wget --no-check-certificate` |\n| `generic.ssh.no-host-key-check` | Generic | WARNING | `StrictHostKeyChecking=no` |\n| `make.recipe.space-indent` | Generic | ERROR | Space-indented Makefile recipes |\n\n**Verification query**: Count rules in `semgrep.yaml` at cutoff and confirm `go.errgroup.external` severity is `ERROR`.\n\n---\n\n### 4. CI Workflow Matrix\n\nAll workflows pin checkout to a specific commit SHA (`actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2`). Containers are resolved via a shared [`_detect-ci-container.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/_detect-ci-container.yaml) reusable workflow that outputs a `TAG` used by all jobs.\n\n**Go unit tests** ([`unit-test.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/unit-test.yaml)):\n- Triggered on push to `main`/`release/v*.*` and all PRs, path-scoped to `internal/**`, `pkg/**`, `cmd/**`, `go.mod`, `go.sum`, `Makefile.d/test.mk`.\n- Three parallel jobs: `test-cmd`, `test-internal`, `test-pkg`. Each runs `make test/<pkg>/gotestfmt` then formats results with `tparse`.\n\n**Rust unit tests** ([`unit-test-rust.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/unit-test-rust.yaml)):\n- Path-scoped to `rust/**`. Runs `make test/rust/qbg` and `make test/rust/agent`.\n\n**Coverage** ([`coverage.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/coverage.yaml)):\n- Uploads to both **Codecov** (token auth) and **DeepSource** (DSN auth).\n- `continue-on-error: true` on the `make coverage` step \u2014 coverage failure is non-blocking.\n- [Codecov exclusions](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/codecov.yaml): `apis/grpc/**/*.pb.go`, `*.pb.json.go`, Rust proto stubs, Grafana gen files.\n\n**DeepSource** ([`.deepsource.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml)):\n- Analyzers enabled: `go`, `secrets`, `shell`, `docker`. Test-coverage analyzer is **disabled** (`enabled = false`).\n- Excludes: `apis/**/*.pb.go`, `example/**`.\n\n---\n\n### 5. Reviewdog-Based PR Linting\n\nAll four reviewdog workflows fire only on PRs and post inline review comments (`reporter: github-pr-review`):\n\n| Workflow | Trigger | Tool |\n|---|---|---|\n| [`reviewdog.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog.yaml) | `**.go` changed | `golangci-lint` (level: warning) + `go build` |\n| [`reviewdog-hadolint.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog-hadolint.yaml) | `dockers/**` changed | `hadolint` |\n| [`reviewdog-k8s.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog-k8s.yaml) | `charts/**` or `k8s/**` changed | `kubeval-conflint` (config: `.github/conflint.yaml`) + `kube-linter` (config: `.github/kubelinter.yaml`) targeting `k8s/{agent,discoverer,gateway,manager}` and `charts/vald` |\n| [`reviewdog-markdown.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog-markdown.yaml) | All PRs (excluding `apis/docs/v1/docs.md`, `CHANGELOG.md`) | `languagetool` (level: warning, en-US) + `textlint` + `cspell` |\n\n**Workflow self-linting** ([`github-actions-workflow-linter.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/github-actions-workflow-linter.yaml)): runs `make -k workflow/lint` (via `actionlint`) on any change to `.github/workflows/**`.\n\n---\n\n### 6. Format Enforcement\n\n[`format.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/format.yaml)\n\n- On **push to `main`**: runs `make format` (golines + gofumpt + goimports + license headers), opens an automatic PR titled \"Update license headers / Format codes\" signed with GPG if any diff is found. Label selection is version-aware.\n- On **PR from non-fork**: runs `make format`, then fails with `exit 1` and instructs the author to run `make format` locally if a diff exists. Excludes `go.mod`, `go.sum`, `Cargo.lock`, `rust-toolchain.toml`, `dockers` from the format diff check.\n\n**Verification query**: Read `format.yaml` at cutoff; confirm the `check-format-diff` job contains `exit 1` and the `if: github.event.pull_request.head.repo.fork == false` guard.\n\n---\n\n### 7. Generated File Checks\n\n**Protobuf** ([`build-protobuf.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/build-protobuf.yaml)):\n- Triggered when `apis/proto/**` or `versions/GO_VERSION` changes on PRs or push to `main`/`release/v*.*`.\n- Runs `make proto/all` to validate that generated Go/Rust protobuf files can be re-built from source.\n\n**Helm schema** ([`helm-lint.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/helm-lint.yaml)):\n- Triggered on `charts/**` changes. Three jobs:\n  1. Regenerates and lints `charts/vald` via `make helm/schema/vald` + `helm lint`.\n  2. Regenerates and lints `charts/vald-helm-operator` via `make helm/schema/vald-helm-operator` + `helm lint`.\n  3. Validates `ValdRelease` CRD schema by applying the full `charts/vald/values.yaml` to a live k3d cluster.\n\n**Kubeval strict validation** ([`.github/conflint.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/conflint.yaml)): `strict: true`, `ignoreMissingSchemas: true` on `k8s/**/*.yaml`.\n\n---\n\n### 8. Security Scanning\n\n**CodeQL** ([`codeql-analysis.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/codeql-analysis.yml)):\n- Matrix: `actions` (none build), `go` (autobuild), `rust` (none build).\n- Triggers: push to `main`/`release/v*.*`, tag pushes, PRs on `**.go`, and **nightly schedule** (`cron: \"0 1 * * *\"`).\n- `CODEQL_ENABLE_EXPERIMENTAL_FEATURES: true`.\n\n**Docker image scanning** ([`dockers-image-scan.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/dockers-image-scan.yaml), [`_docker-image-scan.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/_docker-image-scan.yaml)): reusable scan workflow invoked per Docker image.\n\n**FOSSA** ([`fossa.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/fossa.yaml)): license compliance analysis.\n\n**GitGuardian** ([`.gitguardian.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.gitguardian.yaml)): secrets detection in commits.\n\n---\n\n### 9. Conflict Detection\n\n[`check-conflict.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/check-conflict.yaml):\n- Greps for `<<<< HEAD` in all non-`.git` files.\n- If found, posts a `**[WARNING:CONFLICT]**` comment via the `vdaas-ci` bot (deduped by checking existing comments) and exits with `1`.\n\n[`detect-internal-config-changes.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/detect-internal-config-changes.yaml):\n- Triggers on changes to `internal/config/**` (excluding `_test.go`).\n- Posts a `**[WARNING:INTCFG]**` comment advising that Helm chart changes may be required. Non-blocking.\n\n---\n\n### 10. ChatOps Permission Model\n\n[`.github/chatops_permissions.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_permissions.yaml) + [`chatops.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml)\n\nRole-gated slash commands. Default role for any GitHub user: `contributor` (can `/rebase`, `/label`, `/format`).\n\n| Command | Minimum role required |\n|---|---|\n| `/label` | contributor |\n| `/rebase` | contributor |\n| `/format` | contributor |\n| `/gen-test` | sig-set / sig-core / sig-sre / sig-lead |\n| `/approve` | sig-lead / author / admin |\n| `/changelog` | sig-lead / author / admin |\n\nNamed users at cutoff: `kpango` (author+admin), `kmrmt` (author+sig-core), `vankichi` (sig-lead+contributor+sig-set+author), `datelier` (contributor+sig-core+author), `Matts966` (contributor+author), `takuyaymd` (contributor), `tayaboo` (contributor).\n\n`/gen-test` runs `make gotests/install && make gotests/gen`, commits with GPG signing (`-S --signoff`), and pushes to the PR branch.\n\n**Verification query**: Read `.github/chatops_permissions.yaml` at cutoff; confirm `roles.contributor.policies` does not include `approve`.\n\n---\n\n### 11. Backport Automation\n\n[`backport.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/backport.yaml):\n- On push to `main` or `release/v*.*`, looks for the merged PR (by SHA) and reads labels prefixed with `actions/backport/`.\n- For each backport label, cherry-picks `GITHUB_SHA` onto the target branch, auto-resolving `go.mod`/`go.sum` conflicts with `--theirs`, then opens a new PR titled `Backport PR #N to <branch> for <title>`.\n\n---\n\n### 12. Automatic Labeling\n\n[`.github/labeler.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/labeler.yaml) + [`labeler.yaml` workflow](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/labeler.yaml):\n- Path-glob rules assign `area/*` labels (e.g., `area/agent/core/ngt`, `area/gateway/lb`, `area/discoverer`) to PRs based on changed files. This is distinct from the CodeRabbit `type/*` labeling.\n\n---\n\n### 13. E2E and Benchmark Tests\n\nSeparate workflows exist for end-to-end validation beyond unit tests:\n- [`e2e.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e.yaml), [`e2e.v2.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e.v2.yaml), [`e2e-chaos.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-chaos.yaml), [`e2e-max-dim.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-max-dim.yaml), [`e2e-profiling.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-profiling.yaml), [`e2e-code-bench-agent.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-code-bench-agent.yaml).\n\n---\n\n## Deterministic Verification Queries (Repository-Wide)\n\nThe following are mechanical checks against the cutoff that do not require inference:\n\n1. **Format gate exists**: `check-format-diff` job in `format.yaml` contains `exit 1` on diff \u2014 observable by reading lines 139\u2013147 of that file.\n2. **golangci-lint `depguard` denies `sync` stdlib**: `.golangci.json` `linters.settings.depguard.rules.main.deny[0].pkg == \"sync\"`.\n3. **Test jobs are path-scoped**: `unit-test.yaml` `on.pull_request.paths` does not include `charts/**` or `k8s/**`.\n4. **CodeQL runs nightly**: `codeql-analysis.yml` `on.schedule[0].cron == \"0 1 * * *\"`.\n5. **`/approve` not available to `contributor` role**: `chatops_permissions.yaml` `roles.contributor.policies` list does not contain `approve`.\n6. **Semgrep `go.errgroup.external` is `ERROR`**: `semgrep.yaml` rule `go.errgroup.external.severity == \"ERROR\"`.\n7. **gorules enforces getter access on payload types**: `hack/gorules/rules.go` `CheckPayloadObjectAccess` reports on direct field access where receiver implements `payload.Payload`.\n8. **Helm schema validation uses live k3d**: `helm-lint.yaml` `lint-values-schema` job applies `ValdRelease` to a k3d cluster, not a mock.\n9. **`test-coverage` DeepSource analyzer disabled**: `.deepsource.toml` last `[[analyzers]]` block `name = \"test-coverage\"`, `enabled = false`.\n10. **Backport go.mod conflict resolution**: `backport.yaml` line 99 `git checkout --theirs go.mod go.sum` \u2014 automatic, not human-resolved.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:16:37Z",
+    "name": "users/476/conversations/1998",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Here is a comprehensive, cited inventory of all code-review and validation mechanisms present at revision `d50c5e731dedf7bc9dbe389bd9057c959198ac97`.\n\n---\n\n## Repository-Wide Mechanisms\n\n### 1. Automated Code Review \u2014 CodeRabbit\n\n[`.coderabbit.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml)\n\n- Profile: `assertive`. Auto-reviews all non-draft PRs targeting `main`. Skips PRs with title keywords `wip` or `draft`.\n- **Per-path review instructions** are defined for: `**/*.go`, `**/*.rs`, `charts/**/*.yaml`, `k8s/**/*.yaml`, `{Makefile,Makefile.d/**}`, `**/*.md`, `.github/workflows/**/*.yaml`, `**/Dockerfile`.\n- **Tools enabled** within CodeRabbit reviews: `golangci-lint` (config: `.golangci.json`), `markdownlint`, `shellcheck`, `yamllint`, `hadolint`, `buf`, `gitleaks`, `clippy`, `semgrep` (config: `semgrep.yaml`), `checkov`, `trivy`, `languagetool`, `actionlint`, `checkmake`.\n- **Path filters exclude** generated files: `*.pb.go`, `*.pb.gw.go`, `*_vtproto.pb.go`, `*.tonic.rs`, `*.serde.rs`, `buf.lock`, `go.sum`, `Cargo.lock`, `versions/**`, `assets/**`.\n- Knowledge base: CodeRabbit ingests `**/AGENTS.md`, `**/CONTRIBUTING.md`, `**/README.md`, `**/docs/contributing/*.md` as guidelines.\n- Auto-labeling rules configured for: `type/bug`, `type/feature`, `type/refactoring`, `type/dependency`, `type/documentation`, `type/security`, `type/ci`.\n\n**Verification query**: Read `.coderabbit.yaml` at the cutoff and confirm `reviews.auto_review.enabled = true` and `base_branches: [\"main\"]`.\n\n---\n\n### 2. Go Linting \u2014 GolangCI-Lint\n\n[`.golangci.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.golangci.json)\n\n- **Formatters**: `gofumpt`, `goimports`, `golines` (max line length: 200). Paths excluded from formatting: `third_party$`, `builtin$`, `examples$`. Generated files: `lax` treatment.\n- **Linters enabled** (exhaustive list, default `none`): `asasalint`, `asciicheck`, `bidichk`, `bodyclose`, `containedctx`, `contextcheck`, `decorder`, `depguard`, `dogsled`, `dupl`, `dupword`, `durationcheck`, `errchkjson`, `errname`, `errorlint`, `exhaustive`, `forcetypeassert`, `ginkgolinter`, `gocheckcompilerdirectives`, `gochecknoglobals`, `gochecknoinits`, `goconst`, `godot`, `gosec`, `gosmopolitan`, `govet` (all checks enabled), `grouper`, `ineffassign`, `interfacebloat`, `loggercheck`, `maintidx`, `makezero`, `mirror`, `misspell`, `mnd`, `musttag`, `nakedret`, `nilerr`, `nilnil`, `noctx`, `nosprintfhostport`, `prealloc`, `predeclared`, `reassign`, `rowserrcheck`, `sqlclosecheck`, `staticcheck`, `tagalign`, `tagliatelle`, `testableexamples`, `thelper`, `unconvert`, `unparam`, `unused`, `usestdlibvars`.\n- **`depguard` deny-list** (enforced globally except specific files): direct use of `sync`, `golang.org/x/sync`, `errors`, `github.com/cockroachdb/errors`, `github.com/pkg/errors`, `github.com/go-errors/errors`, `github.com/google/go-cmp/cmp`, `github.com/google/go-cmp/cmp/cmpopts`.\n- **Per-path exclusions**: `_test.go` files exempt from `dupl`, `forcetypeassert`, `gochecknoinits`, `mnd`, `noctx`; `options?.go` exempt from `gochecknoglobals`, `mnd`; `main.go` exempt from `gochecknoglobals`.\n- **gocritic/ruleguard** configured to run custom rules from [`hack/gorules/rules.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/hack/gorules/rules.go) (two rules: `CheckPayloadObjectAccess` \u2014 enforces getter usage on `payload.Payload` types; `PrintFmt` \u2014 detects format directives in non-format calls).\n- **tagliatelle**: JSON and YAML struct tags must use `snake_case`, field-name based.\n\n**Verification query**: Read `.golangci.json` at the cutoff; confirm `\"default\": \"none\"` and the `depguard.rules.main.deny` list.\n\n---\n\n### 3. Custom Semgrep Rules\n\n[`semgrep.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/semgrep.yaml)\n\nRepository-local rules (not a ruleset reference). Rules cover:\n\n| Rule ID | Lang | Severity | What it catches |\n|---|---|---|---|\n| `go.defer.in-loop` | Go | WARNING | `defer` inside `for` loop |\n| `go.errgroup.external` | Go | ERROR | Import of `golang.org/x/sync/errgroup` instead of internal |\n| `go.error.pkg-errors` | Go | ERROR | Import of `github.com/pkg/errors` |\n| `go.error.go-errors` | Go | ERROR | Import of `github.com/go-errors/errors` |\n| `go.goleak.external` | Go | ERROR | Import of `go.uber.org/goleak` instead of internal |\n| `go.context.todo-used` | Go | INFO | `context.TODO()` / `context.Background()` outside init/main/test |\n| `go.fs.perm-insecure` | Go | WARNING | `0666`/`0777` permissions on files/dirs |\n| `rust.tls.accept-invalid-cert` | Rust | WARNING | `danger_accept_invalid_certs(true)` |\n| `rust.command.shell-exec` | Rust | ERROR | `Command::new(\"sh\").arg(\"-c\")` |\n| `rust.crypto.weak-hash` | Rust | WARNING | MD5/SHA-1 usage |\n| `rust.error.unwrap-in-result-fn` | Rust | WARNING | `.unwrap()`/`.expect()` in `Result`-returning functions |\n| `rust.std.panic-used` | Rust | INFO | `panic!` calls |\n| `yaml.k8s.image-tag-latest` | YAML | ERROR | `image: ...:latest` |\n| `yaml.k8s.privileged-container` | YAML | ERROR | `privileged: true` |\n| `yaml.k8s.run-as-root` | YAML | WARNING | `runAsNonRoot: false` or `runAsUser: 0` |\n| `yaml.k8s.resources.not-limited` | YAML | INFO | Missing `resources.limits` |\n| `generic.curl.http-url` | Generic | WARNING | `curl http://...` |\n| `generic.curl.insecure-flag` | Generic | ERROR | `curl -k` / `--insecure` |\n| `generic.wget.http-url` | Generic | WARNING | `wget http://...` |\n| `generic.wget.no-check-cert` | Generic | ERROR | `wget --no-check-certificate` |\n| `generic.ssh.no-host-key-check` | Generic | WARNING | `StrictHostKeyChecking=no` |\n| `make.recipe.space-indent` | Generic | ERROR | Space-indented Makefile recipes |\n\n**Verification query**: Count rules in `semgrep.yaml` at cutoff and confirm `go.errgroup.external` severity is `ERROR`.\n\n---\n\n### 4. CI Workflow Matrix\n\nAll workflows pin checkout to a specific commit SHA (`actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2`). Containers are resolved via a shared [`_detect-ci-container.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/_detect-ci-container.yaml) reusable workflow that outputs a `TAG` used by all jobs.\n\n**Go unit tests** ([`unit-test.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/unit-test.yaml)):\n- Triggered on push to `main`/`release/v*.*` and all PRs, path-scoped to `internal/**`, `pkg/**`, `cmd/**`, `go.mod`, `go.sum`, `Makefile.d/test.mk`.\n- Three parallel jobs: `test-cmd`, `test-internal`, `test-pkg`. Each runs `make test/<pkg>/gotestfmt` then formats results with `tparse`.\n\n**Rust unit tests** ([`unit-test-rust.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/unit-test-rust.yaml)):\n- Path-scoped to `rust/**`. Runs `make test/rust/qbg` and `make test/rust/agent`.\n\n**Coverage** ([`coverage.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/coverage.yaml)):\n- Uploads to both **Codecov** (token auth) and **DeepSource** (DSN auth).\n- `continue-on-error: true` on the `make coverage` step \u2014 coverage failure is non-blocking.\n- [Codecov exclusions](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/codecov.yaml): `apis/grpc/**/*.pb.go`, `*.pb.json.go`, Rust proto stubs, Grafana gen files.\n\n**DeepSource** ([`.deepsource.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.deepsource.toml)):\n- Analyzers enabled: `go`, `secrets`, `shell`, `docker`. Test-coverage analyzer is **disabled** (`enabled = false`).\n- Excludes: `apis/**/*.pb.go`, `example/**`.\n\n---\n\n### 5. Reviewdog-Based PR Linting\n\nAll four reviewdog workflows fire only on PRs and post inline review comments (`reporter: github-pr-review`):\n\n| Workflow | Trigger | Tool |\n|---|---|---|\n| [`reviewdog.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog.yaml) | `**.go` changed | `golangci-lint` (level: warning) + `go build` |\n| [`reviewdog-hadolint.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog-hadolint.yaml) | `dockers/**` changed | `hadolint` |\n| [`reviewdog-k8s.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog-k8s.yaml) | `charts/**` or `k8s/**` changed | `kubeval-conflint` (config: `.github/conflint.yaml`) + `kube-linter` (config: `.github/kubelinter.yaml`) targeting `k8s/{agent,discoverer,gateway,manager}` and `charts/vald` |\n| [`reviewdog-markdown.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/reviewdog-markdown.yaml) | All PRs (excluding `apis/docs/v1/docs.md`, `CHANGELOG.md`) | `languagetool` (level: warning, en-US) + `textlint` + `cspell` |\n\n**Workflow self-linting** ([`github-actions-workflow-linter.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/github-actions-workflow-linter.yaml)): runs `make -k workflow/lint` (via `actionlint`) on any change to `.github/workflows/**`.\n\n---\n\n### 6. Format Enforcement\n\n[`format.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/format.yaml)\n\n- On **push to `main`**: runs `make format` (golines + gofumpt + goimports + license headers), opens an automatic PR titled \"Update license headers / Format codes\" signed with GPG if any diff is found. Label selection is version-aware.\n- On **PR from non-fork**: runs `make format`, then fails with `exit 1` and instructs the author to run `make format` locally if a diff exists. Excludes `go.mod`, `go.sum`, `Cargo.lock`, `rust-toolchain.toml`, `dockers` from the format diff check.\n\n**Verification query**: Read `format.yaml` at cutoff; confirm the `check-format-diff` job contains `exit 1` and the `if: github.event.pull_request.head.repo.fork == false` guard.\n\n---\n\n### 7. Generated File Checks\n\n**Protobuf** ([`build-protobuf.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/build-protobuf.yaml)):\n- Triggered when `apis/proto/**` or `versions/GO_VERSION` changes on PRs or push to `main`/`release/v*.*`.\n- Runs `make proto/all` to validate that generated Go/Rust protobuf files can be re-built from source.\n\n**Helm schema** ([`helm-lint.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/helm-lint.yaml)):\n- Triggered on `charts/**` changes. Three jobs:\n  1. Regenerates and lints `charts/vald` via `make helm/schema/vald` + `helm lint`.\n  2. Regenerates and lints `charts/vald-helm-operator` via `make helm/schema/vald-helm-operator` + `helm lint`.\n  3. Validates `ValdRelease` CRD schema by applying the full `charts/vald/values.yaml` to a live k3d cluster.\n\n**Kubeval strict validation** ([`.github/conflint.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/conflint.yaml)): `strict: true`, `ignoreMissingSchemas: true` on `k8s/**/*.yaml`.\n\n---\n\n### 8. Security Scanning\n\n**CodeQL** ([`codeql-analysis.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/codeql-analysis.yml)):\n- Matrix: `actions` (none build), `go` (autobuild), `rust` (none build).\n- Triggers: push to `main`/`release/v*.*`, tag pushes, PRs on `**.go`, and **nightly schedule** (`cron: \"0 1 * * *\"`).\n- `CODEQL_ENABLE_EXPERIMENTAL_FEATURES: true`.\n\n**Docker image scanning** ([`dockers-image-scan.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/dockers-image-scan.yaml), [`_docker-image-scan.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/_docker-image-scan.yaml)): reusable scan workflow invoked per Docker image.\n\n**FOSSA** ([`fossa.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/fossa.yaml)): license compliance analysis.\n\n**GitGuardian** ([`.gitguardian.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.gitguardian.yaml)): secrets detection in commits.\n\n---\n\n### 9. Conflict Detection\n\n[`check-conflict.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/check-conflict.yaml):\n- Greps for `<<<< HEAD` in all non-`.git` files.\n- If found, posts a `**[WARNING:CONFLICT]**` comment via the `vdaas-ci` bot (deduped by checking existing comments) and exits with `1`.\n\n[`detect-internal-config-changes.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/detect-internal-config-changes.yaml):\n- Triggers on changes to `internal/config/**` (excluding `_test.go`).\n- Posts a `**[WARNING:INTCFG]**` comment advising that Helm chart changes may be required. Non-blocking.\n\n---\n\n### 10. ChatOps Permission Model\n\n[`.github/chatops_permissions.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/chatops_permissions.yaml) + [`chatops.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/chatops.yaml)\n\nRole-gated slash commands. Default role for any GitHub user: `contributor` (can `/rebase`, `/label`, `/format`).\n\n| Command | Minimum role required |\n|---|---|\n| `/label` | contributor |\n| `/rebase` | contributor |\n| `/format` | contributor |\n| `/gen-test` | sig-set / sig-core / sig-sre / sig-lead |\n| `/approve` | sig-lead / author / admin |\n| `/changelog` | sig-lead / author / admin |\n\nNamed users at cutoff: `kpango` (author+admin), `kmrmt` (author+sig-core), `vankichi` (sig-lead+contributor+sig-set+author), `datelier` (contributor+sig-core+author), `Matts966` (contributor+author), `takuyaymd` (contributor), `tayaboo` (contributor).\n\n`/gen-test` runs `make gotests/install && make gotests/gen`, commits with GPG signing (`-S --signoff`), and pushes to the PR branch.\n\n**Verification query**: Read `.github/chatops_permissions.yaml` at cutoff; confirm `roles.contributor.policies` does not include `approve`.\n\n---\n\n### 11. Backport Automation\n\n[`backport.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/backport.yaml):\n- On push to `main` or `release/v*.*`, looks for the merged PR (by SHA) and reads labels prefixed with `actions/backport/`.\n- For each backport label, cherry-picks `GITHUB_SHA` onto the target branch, auto-resolving `go.mod`/`go.sum` conflicts with `--theirs`, then opens a new PR titled `Backport PR #N to <branch> for <title>`.\n\n---\n\n### 12. Automatic Labeling\n\n[`.github/labeler.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/labeler.yaml) + [`labeler.yaml` workflow](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/labeler.yaml):\n- Path-glob rules assign `area/*` labels (e.g., `area/agent/core/ngt`, `area/gateway/lb`, `area/discoverer`) to PRs based on changed files. This is distinct from the CodeRabbit `type/*` labeling.\n\n---\n\n### 13. E2E and Benchmark Tests\n\nSeparate workflows exist for end-to-end validation beyond unit tests:\n- [`e2e.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e.yaml), [`e2e.v2.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e.v2.yaml), [`e2e-chaos.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-chaos.yaml), [`e2e-max-dim.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-max-dim.yaml), [`e2e-profiling.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-profiling.yaml), [`e2e-code-bench-agent.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/e2e-code-bench-agent.yaml).\n\n---\n\n## Deterministic Verification Queries (Repository-Wide)\n\nThe following are mechanical checks against the cutoff that do not require inference:\n\n1. **Format gate exists**: `check-format-diff` job in `format.yaml` contains `exit 1` on diff \u2014 observable by reading lines 139\u2013147 of that file.\n2. **golangci-lint `depguard` denies `sync` stdlib**: `.golangci.json` `linters.settings.depguard.rules.main.deny[0].pkg == \"sync\"`.\n3. **Test jobs are path-scoped**: `unit-test.yaml` `on.pull_request.paths` does not include `charts/**` or `k8s/**`.\n4. **CodeQL runs nightly**: `codeql-analysis.yml` `on.schedule[0].cron == \"0 1 * * *\"`.\n5. **`/approve` not available to `contributor` role**: `chatops_permissions.yaml` `roles.contributor.policies` list does not contain `approve`.\n6. **Semgrep `go.errgroup.external` is `ERROR`**: `semgrep.yaml` rule `go.errgroup.external.severity == \"ERROR\"`.\n7. **gorules enforces getter access on payload types**: `hack/gorules/rules.go` `CheckPayloadObjectAccess` reports on direct field access where receiver implements `payload.Payload`.\n8. **Helm schema validation uses live k3d**: `helm-lint.yaml` `lint-values-schema` job applies `ValdRelease` to a k3d cluster, not a mock.\n9. **`test-coverage` DeepSource analyzer disabled**: `.deepsource.toml` last `[[analyzers]]` block `name = \"test-coverage\"`, `enabled = false`.\n10. **Backport go.mod conflict resolution**: `backport.yaml` line 99 `git checkout --theirs go.mod go.sum` \u2014 automatic, not human-resolved."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:16:37Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: vdaas/vald; stratum: attributable_agent; cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigate repo-wide and change-specific code review and validation mechanisms at a GitHub revision",
+    "updateTime": "2026-07-29T03:19:22Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/cd642aa9-d502-4137-b7da-47784c87f037"
+  },
+  "run_id": "sha256:f241a598380595ccf46d67ae771e1fbfa16c0a5640042ac6810603a5e886f09c",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "vdaas/vald"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

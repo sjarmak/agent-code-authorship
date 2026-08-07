@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/agent-code-authorship/era-adjustment-panel.schema.json",
+  "title": "Within-repository era-adjustment panel",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "panel_version",
+    "feature_id",
+    "estimand_id",
+    "unit",
+    "repositories"
+  ],
+  "properties": {
+    "panel_version": {
+      "const": 1
+    },
+    "feature_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "estimand_id": {
+      "enum": [
+        "whole_repository_adoption_effect"
+      ]
+    },
+    "unit": {
+      "enum": [
+        "repository_calendar_period_introduced_code"
+      ]
+    },
+    "repositories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "repository_id",
+          "language",
+          "role",
+          "adoption_period",
+          "policy_effective_period",
+          "observations"
+        ],
+        "properties": {
+          "repository_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "language": {
+            "enum": [
+              "Python",
+              "Go"
+            ]
+          },
+          "role": {
+            "enum": [
+              "adopter",
+              "h2_ai_ban_control",
+              "never_adopter_control"
+            ]
+          },
+          "adoption_period": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "policy_effective_period": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "observations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "period",
+                "feature_value"
+              ],
+              "properties": {
+                "period": {
+                  "type": "integer"
+                },
+                "feature_value": {
+                  "type": "number"
+                },
+                "calendar_period": {
+                  "type": "integer"
+                },
+                "change_size": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "code_age_days": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "path_type_counts": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "source": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "test": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

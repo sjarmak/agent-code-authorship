@@ -1,0 +1,765 @@
+{
+  "blinding": {
+    "agent_family_hidden": true,
+    "deep_search_answers_hidden": true,
+    "peer_decisions_hidden": true,
+    "provenance_class_hidden": true,
+    "survival_outcomes_hidden": true
+  },
+  "item_count": 50,
+  "items": [
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "7279315ba588aea38f33ad0c2be47fb25843bc75",
+        "hunk_id": "sha256:0004b1a29f5f03637860a0fcbe5aa9883bb19b9bcbea48aeaffcaa66b87209fc",
+        "introducing_commit": "52c613409af5e3b81157f6421b2fd8485c9d6cf1",
+        "path": "custom_components/smart_irrigation/__init__.py",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:0004b1a29f5f03637860a0fcbe5aa9883bb19b9bcbea48aeaffcaa66b87209fc"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:00bd63acfe0d65cb67c56e8ce3bd91b81075766568ba979f47c112e4e3128142",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "internal/db/storage/blob/s3/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:00bd63acfe0d65cb67c56e8ce3bd91b81075766568ba979f47c112e4e3128142"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "a97f567a4e2e35fe3275ad10b511eb63b449574e",
+        "hunk_id": "sha256:015e79f56cae59de0917abbd16958bfe949b1ae0e84bb1d51fcdb67c4af423d2",
+        "introducing_commit": "116ec025db215994c7cdce1b129a0509800f5ee3",
+        "path": "apps/server/src/modules/healthcheck/executor/executor_test.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:015e79f56cae59de0917abbd16958bfe949b1ae0e84bb1d51fcdb67c4af423d2"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "0c44507e581287d6e6d54181b6eacac3585dc6f7",
+        "hunk_id": "sha256:019576e23692fd9bdcdb27d037f71f1525e94bc56b9e6ce1f47868a9cf158d37",
+        "introducing_commit": "56db2d798b8c80b38db50c924812c30d579c7edc",
+        "path": "sdk/evaluation/azure-ai-evaluation/CHANGELOG.md",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:019576e23692fd9bdcdb27d037f71f1525e94bc56b9e6ce1f47868a9cf158d37"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "graphql-python/graphql-server",
+        "cutoff_commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+        "diff_base": "292643d09eef79c162131375e5ae33cc324901ca",
+        "hunk_id": "sha256:0270fd455598a84dd1027486fb8769fc747982d7912da55a918a595f2711966e",
+        "introducing_commit": "8774f3ca3d296646fe1b83b74b395f7d107cb81d",
+        "path": "src/graphql_server/webob/__init__.py",
+        "sourcegraph_name": "github.com/sg-evals/graphql-python-graphql-server"
+      },
+      "review_item_id": "sha256:0270fd455598a84dd1027486fb8769fc747982d7912da55a918a595f2711966e"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "c7634e4f467a7356ad83570a3f3c7e9691df13ac",
+        "hunk_id": "sha256:029567f4117a2295048ec949c61e7b2ec8e64722619eeda0964343b5c7c5b5c1",
+        "introducing_commit": "ddf423f0ebb5ec3cbb047d952861e8a722fc5996",
+        "path": "sdk/eventhub/azure-eventhub/samples/sync_samples/send.py",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:029567f4117a2295048ec949c61e7b2ec8e64722619eeda0964343b5c7c5b5c1"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:029c14f94694c59971ecf0805f7fbec379d77822c1213e5d7a9d8ea3a3d7d551",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "cmd/index/job/save/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:029c14f94694c59971ecf0805f7fbec379d77822c1213e5d7a9d8ea3a3d7d551"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "c7634e4f467a7356ad83570a3f3c7e9691df13ac",
+        "hunk_id": "sha256:02e7549b3f669023ee4e993f6c7b1fcdfa760832b7770957c2eedc842398fe77",
+        "introducing_commit": "ddf423f0ebb5ec3cbb047d952861e8a722fc5996",
+        "path": "sdk/servicebus/azure-servicebus/samples/async_samples/send_queue_async.py",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:02e7549b3f669023ee4e993f6c7b1fcdfa760832b7770957c2eedc842398fe77"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:03e511d020d95a51ae92773301b1d47912aa756fcc9958fa8b233be133f5d46b",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "internal/info/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:03e511d020d95a51ae92773301b1d47912aa756fcc9958fa8b233be133f5d46b"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:03edacba99a69af1fb4e5a4ab33d81719d7b8033e5057d32e466496b24a7eb8c",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "internal/rand/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:03edacba99a69af1fb4e5a4ab33d81719d7b8033e5057d32e466496b24a7eb8c"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:046b3e71cdb1eb73dd27b58e7c36a68860fe574b7aae6296fa9459841aa8f969",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "pkg/discoverer/k8s/handler/rest/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:046b3e71cdb1eb73dd27b58e7c36a68860fe574b7aae6296fa9459841aa8f969"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:04ef7428bc52ba3b793d5dee12c28a37cebf30925685339d4fb36469807af030",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "internal/k8s/node/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:04ef7428bc52ba3b793d5dee12c28a37cebf30925685339d4fb36469807af030"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:058e9a0ee84fb7efa32a7d604645fac5008af7c54e839c7e9783dcc7914fbd31",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "internal/net/grpc/interceptor/client/metric/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:058e9a0ee84fb7efa32a7d604645fac5008af7c54e839c7e9783dcc7914fbd31"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:06260dbc1e0c70deebc632e67538c79d85e418d0d0139729934529851f888ede",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "internal/observability/metrics/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:06260dbc1e0c70deebc632e67538c79d85e418d0d0139729934529851f888ede"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "18558c810c959a05fe72fd4fd0de59bd30f86fd1",
+        "hunk_id": "sha256:065c6c4940481e76584f413f824d0b5410386b821fb8d480adfaca233d2408be",
+        "introducing_commit": "3f6edb64bc3c85ff32af800beb9c42fe79c2ba56",
+        "path": "custom_components/smart_irrigation/websockets.py",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:065c6c4940481e76584f413f824d0b5410386b821fb8d480adfaca233d2408be"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:0682c9e1f3983ff818e8d2fc0d91166b2cb256aa9d134e393f161ed61e1750f2",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "pkg/agent/core/faiss/config/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:0682c9e1f3983ff818e8d2fc0d91166b2cb256aa9d134e393f161ed61e1750f2"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "7279315ba588aea38f33ad0c2be47fb25843bc75",
+        "hunk_id": "sha256:06aa479b064ec8486c332677f6a179ed2e79b6717b72fed6c7efb0314c1c2ba3",
+        "introducing_commit": "52c613409af5e3b81157f6421b2fd8485c9d6cf1",
+        "path": "custom_components/smart_irrigation/store.py",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:06aa479b064ec8486c332677f6a179ed2e79b6717b72fed6c7efb0314c1c2ba3"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:0787322ed10e0bb9537574b09ab76f512c5605c3b5541d344078e23f2103f046",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "internal/net/http/metrics/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:0787322ed10e0bb9537574b09ab76f512c5605c3b5541d344078e23f2103f046"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "c40abc9c3310de0f171ca70b3e31a3d235b21cf3",
+        "hunk_id": "sha256:07cd0b0f442f197b0f7acfb9add235c89b04640c9ec4d8f95442bd462530d3ac",
+        "introducing_commit": "a97f567a4e2e35fe3275ad10b511eb63b449574e",
+        "path": "apps/server/src/modules/healthcheck/executor/postgres.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:07cd0b0f442f197b0f7acfb9add235c89b04640c9ec4d8f95442bd462530d3ac"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "7279315ba588aea38f33ad0c2be47fb25843bc75",
+        "hunk_id": "sha256:08240db6865cea5bd9ead6ce3bd42c2b358b93bdf3eb0e8b696f2c1861b2f299",
+        "introducing_commit": "52c613409af5e3b81157f6421b2fd8485c9d6cf1",
+        "path": "custom_components/smart_irrigation/__init__.py",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:08240db6865cea5bd9ead6ce3bd42c2b358b93bdf3eb0e8b696f2c1861b2f299"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "18558c810c959a05fe72fd4fd0de59bd30f86fd1",
+        "hunk_id": "sha256:083ceee03f78da4906ec0f52b33d875b8119bdf1b5ed091d873f4b61ed6525cf",
+        "introducing_commit": "3f6edb64bc3c85ff32af800beb9c42fe79c2ba56",
+        "path": "docs/WATERING_CALENDAR_API.md",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:083ceee03f78da4906ec0f52b33d875b8119bdf1b5ed091d873f4b61ed6525cf"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "7b7350624882c3822629cd04b57e4724e0333c1b",
+        "hunk_id": "sha256:0853993764feaf747fd9c49a6d66abd08266d65ec66477d4393c597352bf05d0",
+        "introducing_commit": "18558c810c959a05fe72fd4fd0de59bd30f86fd1",
+        "path": "custom_components/smart_irrigation/websockets.py",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:0853993764feaf747fd9c49a6d66abd08266d65ec66477d4393c597352bf05d0"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:089eb2238c49ab1c54b57a318f580dcb5fabc7e878523c8a00243f8629e0a3f1",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "pkg/agent/internal/memstore/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:089eb2238c49ab1c54b57a318f580dcb5fabc7e878523c8a00243f8629e0a3f1"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:08d7c02e33f0ad9dca066d1c253ae4022198520eb6afda54f1457f69dfd9ff08",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "internal/test/data/vector/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:08d7c02e33f0ad9dca066d1c253ae4022198520eb6afda54f1457f69dfd9ff08"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "756ce647cb4f2edb682af1b2849d6c056a7a18c8",
+        "hunk_id": "sha256:09b4b6ce3d5cb213c9b1166d2a74965549191e3a7addb6c3cce2a74f36e18424",
+        "introducing_commit": "ae26b475f5b8b53895e038d878f442e882cee47a",
+        "path": "test_datetime_fix_proof.py",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:09b4b6ce3d5cb213c9b1166d2a74965549191e3a7addb6c3cce2a74f36e18424"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "diff_base": "c60c13a385547137d556f0ef942655c67aa4e3c6",
+        "hunk_id": "sha256:09ec8ce967345b12ebebc9452ba13dc4a5558452a6eb5840c0bab3cd0c21fa3c",
+        "introducing_commit": "c29e6b22265611dd34dbe043a7eccc38111a3ada",
+        "path": "internal/test/testify/doc.go",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "review_item_id": "sha256:09ec8ce967345b12ebebc9452ba13dc4a5558452a6eb5840c0bab3cd0c21fa3c"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "7279315ba588aea38f33ad0c2be47fb25843bc75",
+        "hunk_id": "sha256:0acac868fc45f16a6a7cee77839f144a2ecb0be27a042eed21912bec94db9e73",
+        "introducing_commit": "52c613409af5e3b81157f6421b2fd8485c9d6cf1",
+        "path": "custom_components/smart_irrigation/__init__.py",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:0acac868fc45f16a6a7cee77839f144a2ecb0be27a042eed21912bec94db9e73"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "3f6edb64bc3c85ff32af800beb9c42fe79c2ba56",
+        "hunk_id": "sha256:0bce8e3b744406385f1442668c98fbcca63a245ec42771369a4fd502a2178e4c",
+        "introducing_commit": "d01806f899302c26b6c2a08e81a6ef4203d7c809",
+        "path": "custom_components/smart_irrigation/__init__.py",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:0bce8e3b744406385f1442668c98fbcca63a245ec42771369a4fd502a2178e4c"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "diff_base": "7279315ba588aea38f33ad0c2be47fb25843bc75",
+        "hunk_id": "sha256:127391dd941567fd9c46025f51fefc0dedb9bf5561150b4ceea66511990029bb",
+        "introducing_commit": "52c613409af5e3b81157f6421b2fd8485c9d6cf1",
+        "path": "custom_components/smart_irrigation/__init__.py",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "review_item_id": "sha256:127391dd941567fd9c46025f51fefc0dedb9bf5561150b4ceea66511990029bb"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "5100d94563ba42856bc66bcc9cf5693eab830dee",
+        "hunk_id": "sha256:158bf2136ee1dc9acdd51d4a8408b20abe1a5fea3a635fe362a1ef81c45de48e",
+        "introducing_commit": "97eeb5673f858db411108d0d4dcca46413890f5a",
+        "path": "apps/server/src/modules/notification_channel/listener.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:158bf2136ee1dc9acdd51d4a8408b20abe1a5fea3a635fe362a1ef81c45de48e"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "f75f82c122db85f177e611cc2ab408a8599247df",
+        "hunk_id": "sha256:163f40443ad5c788d101dacf0e7ae2408bd2e1be53eb29d328b04ee999f350d0",
+        "introducing_commit": "fb1ac9e0c78a268ee014e651f1b9cd8cffc42a7d",
+        "path": "tools/azure-sdk-tools/ci_tools/parsing/parse_functions.py",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:163f40443ad5c788d101dacf0e7ae2408bd2e1be53eb29d328b04ee999f350d0"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "graphql-python/graphql-server",
+        "cutoff_commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+        "diff_base": "292643d09eef79c162131375e5ae33cc324901ca",
+        "hunk_id": "sha256:170a78de80794a05b83364bcfdb991281cfeff4701efe7f64b65185569790272",
+        "introducing_commit": "8774f3ca3d296646fe1b83b74b395f7d107cb81d",
+        "path": "noxfile.py",
+        "sourcegraph_name": "github.com/sg-evals/graphql-python-graphql-server"
+      },
+      "review_item_id": "sha256:170a78de80794a05b83364bcfdb991281cfeff4701efe7f64b65185569790272"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "116ec025db215994c7cdce1b129a0509800f5ee3",
+        "hunk_id": "sha256:1865d34ff29b27557229faba66c722ccd04286fcbbfc806a28d0035e2a1a6ca8",
+        "introducing_commit": "ca1200763c243d55d21c683661329e0084b5fbc7",
+        "path": "apps/server/src/modules/healthcheck/executor/mysql.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:1865d34ff29b27557229faba66c722ccd04286fcbbfc806a28d0035e2a1a6ca8"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "a97f567a4e2e35fe3275ad10b511eb63b449574e",
+        "hunk_id": "sha256:19aac1160f328045cadab85e3ee59e4416789aa1c99311be419925f5e3fc8490",
+        "introducing_commit": "116ec025db215994c7cdce1b129a0509800f5ee3",
+        "path": "apps/server/src/modules/healthcheck/executor/executor_test.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:19aac1160f328045cadab85e3ee59e4416789aa1c99311be419925f5e3fc8490"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "3bbc8fb98c594fc9c07f21099afaf3727e9f681c",
+        "hunk_id": "sha256:1a0454b3c2a2f230556df2d38cd7b4245c41ee382e08b5d6221f09d4e7920b0b",
+        "introducing_commit": "0c347e994c874ba489a8b249d1ac64767045b45b",
+        "path": "sdk/evaluation/azure-ai-evaluation/azure/ai/evaluation/_evaluators/_common/_base_eval.py",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:1a0454b3c2a2f230556df2d38cd7b4245c41ee382e08b5d6221f09d4e7920b0b"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "e646d9e358c7e234010db6b4a66790cff56e7e5b",
+        "hunk_id": "sha256:1bf8329081bb8b9f86e70449fa34c6307c73d7dbe3493592e247f17251685c24",
+        "introducing_commit": "d76b8ba341d1c351c970566c68e31754ad5b56d4",
+        "path": "sdk/evaluation/azure-ai-evaluation/tests/unittests/test_lazy_imports.py",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:1bf8329081bb8b9f86e70449fa34c6307c73d7dbe3493592e247f17251685c24"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "85e415a597e6440f3aed8248daef49cbb61ae464",
+        "hunk_id": "sha256:1c5f3da188a6ff8d2784037486a2103d3e595e71c9cc34a8a2335210f8180d8f",
+        "introducing_commit": "4646adf44b4293fb5dca2949e62c8687d0063768",
+        "path": "sdk/appplatform/azure-mgmt-appplatform/README.md",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:1c5f3da188a6ff8d2784037486a2103d3e595e71c9cc34a8a2335210f8180d8f"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "83ebd8bfeb0712bfa208a7476587c671d79f6951",
+        "hunk_id": "sha256:1fbfa434012358d9f68304d4fcaa2ffdde064d16cf52c3ded93738cf5f15b717",
+        "introducing_commit": "b6259efa7e6ff5a2753ed67ad634f2c426a848f0",
+        "path": "sdk/keyvault/azure-keyvault-certificates/azure/keyvault/certificates/_models.py",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:1fbfa434012358d9f68304d4fcaa2ffdde064d16cf52c3ded93738cf5f15b717"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "26783bdd86b04fc534f09cd7b9d0e442d736ea4a",
+        "hunk_id": "sha256:2336987b6019684cf573163c8a3708dd84a7a8691b61e73194f3a9b7a2c11f29",
+        "introducing_commit": "4bb7adf9b6e730a80a27dc534fb6950cbdf30e5d",
+        "path": "apps/server/src/modules/notification_channel/providers/mattermost.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:2336987b6019684cf573163c8a3708dd84a7a8691b61e73194f3a9b7a2c11f29"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "0487c8db4f71c473d854e6863abdf92db928ca07",
+        "hunk_id": "sha256:26fbe389f83806e6fca7821746b9005b89fec56eed06150d049ab0fa7c9eb33e",
+        "introducing_commit": "bcf11d3df1714384c0eb030301b572d9ae5a889f",
+        "path": "sdk/servicebus/azure-servicebus/samples/sync_samples/send_topic.py",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:26fbe389f83806e6fca7821746b9005b89fec56eed06150d049ab0fa7c9eb33e"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "c40abc9c3310de0f171ca70b3e31a3d235b21cf3",
+        "hunk_id": "sha256:288580f89d8cbe61da5e385b78d3f12cab1d97a5b49ec745b2e83ca13c1dedb7",
+        "introducing_commit": "a97f567a4e2e35fe3275ad10b511eb63b449574e",
+        "path": "apps/server/src/modules/healthcheck/executor/postgres_test.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:288580f89d8cbe61da5e385b78d3f12cab1d97a5b49ec745b2e83ca13c1dedb7"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "a97f567a4e2e35fe3275ad10b511eb63b449574e",
+        "hunk_id": "sha256:2929ef00ba20960e847d66a98483ee2bb5d1fe70503873b91a05212797d811b8",
+        "introducing_commit": "116ec025db215994c7cdce1b129a0509800f5ee3",
+        "path": "apps/server/src/modules/healthcheck/executor/postgres.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:2929ef00ba20960e847d66a98483ee2bb5d1fe70503873b91a05212797d811b8"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "diff_base": "bb3743291e784d931a304d0c2f275aeacb9dec25",
+        "hunk_id": "sha256:29c61335ea0a1d2768551f70d4768f31c5ef1ac907cacb95b0738de0f0c514d8",
+        "introducing_commit": "00d3ee2860bf24e79b1aaeba7e7af5d5d34c7562",
+        "path": "scripts/repo_type_completeness/generate_main_typescores.py",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "review_item_id": "sha256:29c61335ea0a1d2768551f70d4768f31c5ef1ac907cacb95b0738de0f0c514d8"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "a97f567a4e2e35fe3275ad10b511eb63b449574e",
+        "hunk_id": "sha256:2e45260dfef44dde04a1985d59e9bba47f255a7c57c8cd050f82e8f63076b2a1",
+        "introducing_commit": "116ec025db215994c7cdce1b129a0509800f5ee3",
+        "path": "apps/server/src/modules/healthcheck/executor/postgres_test.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:2e45260dfef44dde04a1985d59e9bba47f255a7c57c8cd050f82e8f63076b2a1"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "diff_base": "c40abc9c3310de0f171ca70b3e31a3d235b21cf3",
+        "hunk_id": "sha256:33ee4b5f059403a61ef77be12153671ad163a42eab26aeea5cfe8e765f95c31f",
+        "introducing_commit": "a97f567a4e2e35fe3275ad10b511eb63b449574e",
+        "path": "apps/server/src/modules/healthcheck/executor/executor_test.go",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "review_item_id": "sha256:33ee4b5f059403a61ef77be12153671ad163a42eab26aeea5cfe8e765f95c31f"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "graphql-python/graphql-server",
+        "cutoff_commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+        "diff_base": "292643d09eef79c162131375e5ae33cc324901ca",
+        "hunk_id": "sha256:4bbb78b1c8dde0d00a6ac4be8e1ea225bfa1e3eaf7475c9d9019beb6aeaa2048",
+        "introducing_commit": "8774f3ca3d296646fe1b83b74b395f7d107cb81d",
+        "path": "src/tests/http/conftest.py",
+        "sourcegraph_name": "github.com/sg-evals/graphql-python-graphql-server"
+      },
+      "review_item_id": "sha256:4bbb78b1c8dde0d00a6ac4be8e1ea225bfa1e3eaf7475c9d9019beb6aeaa2048"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "graphql-python/graphql-server",
+        "cutoff_commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+        "diff_base": "292643d09eef79c162131375e5ae33cc324901ca",
+        "hunk_id": "sha256:62b365bf216a35c35d44b2d2bf8777851434d05b2f13d578cf58d592b31c5557",
+        "introducing_commit": "8774f3ca3d296646fe1b83b74b395f7d107cb81d",
+        "path": "noxfile.py",
+        "sourcegraph_name": "github.com/sg-evals/graphql-python-graphql-server"
+      },
+      "review_item_id": "sha256:62b365bf216a35c35d44b2d2bf8777851434d05b2f13d578cf58d592b31c5557"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "graphql-python/graphql-server",
+        "cutoff_commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+        "diff_base": "292643d09eef79c162131375e5ae33cc324901ca",
+        "hunk_id": "sha256:783d229955cc8bb4595f91fa4393de3ec3c414c1c0bbe4d0eabe514e16d51151",
+        "introducing_commit": "8774f3ca3d296646fe1b83b74b395f7d107cb81d",
+        "path": "README.md",
+        "sourcegraph_name": "github.com/sg-evals/graphql-python-graphql-server"
+      },
+      "review_item_id": "sha256:783d229955cc8bb4595f91fa4393de3ec3c414c1c0bbe4d0eabe514e16d51151"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "graphql-python/graphql-server",
+        "cutoff_commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+        "diff_base": "292643d09eef79c162131375e5ae33cc324901ca",
+        "hunk_id": "sha256:e1478c5b6e587bb144d5666d3294c995cba567c181788bf87153048b6f67f7b9",
+        "introducing_commit": "8774f3ca3d296646fe1b83b74b395f7d107cb81d",
+        "path": "src/tests/http/clients/webob.py",
+        "sourcegraph_name": "github.com/sg-evals/graphql-python-graphql-server"
+      },
+      "review_item_id": "sha256:e1478c5b6e587bb144d5666d3294c995cba567c181788bf87153048b6f67f7b9"
+    },
+    {
+      "field_to_review": {
+        "followup_commit_count": "exact number of commits in introducing..cutoff that touch path"
+      },
+      "identity": {
+        "canonical_repository_id": "graphql-python/graphql-server",
+        "cutoff_commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+        "diff_base": "292643d09eef79c162131375e5ae33cc324901ca",
+        "hunk_id": "sha256:e60ad16efebbff9ae9f334c7736d5864d3376e8d7f88b3e88eba67531ed067d4",
+        "introducing_commit": "8774f3ca3d296646fe1b83b74b395f7d107cb81d",
+        "path": "src/graphql_server/webob/views.py",
+        "sourcegraph_name": "github.com/sg-evals/graphql-python-graphql-server"
+      },
+      "review_item_id": "sha256:e60ad16efebbff9ae9f334c7736d5864d3376e8d7f88b3e88eba67531ed067d4"
+    }
+  ],
+  "outcomes_consulted": false,
+  "packet_sha256": "303958b83ce7521893d70b637ad131ed08c06632b7c8a6248d8ceddb4bc210cf",
+  "packet_version": 1
+}

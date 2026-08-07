@@ -1,0 +1,4013 @@
+{
+  "audit_version": 3,
+  "kind": "repository_metadata_and_license",
+  "observed_at": "2026-07-27T18:13:52.450582Z",
+  "outcomes_consulted": false,
+  "repository_count": 308,
+  "repositories": [
+    {
+      "canonical_repository_id": "0x4d31/galah",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "0xfurai/peekaping",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "2dust/v2rayn",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "3b1b/manim",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "a16z/halmos",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "addyosmani/agent-skills",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "affaan-m/ecc",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "aftership/clickhouse-sql-parser",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "ag2ai/build-with-ag2",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "ai-shifu/ai-shifu",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "airbytehq/airbyte",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "airbytehq/pyairbyte",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "alacritty/alacritty",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "alexanderjeurissen/ranger_devicons",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "alirezamika/autoscraper",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "angular/angular",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "anomalyco/opencode",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "dev"
+      }
+    },
+    {
+      "canonical_repository_id": "ansible/ansible",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "devel"
+      }
+    },
+    {
+      "canonical_repository_id": "ant-design/ant-design",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "anthropics/claude-code",
+      "license": {
+        "status": "not_declared",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "anuraghazra/github-readme-stats",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "apache/couchdb",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "apache/superset",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "appflowy-io/appflowy",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "asahilinux/m1n1",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "astral-sh/uv",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "axinc-ai/ailia-models",
+      "license": {
+        "status": "not_declared",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "axios/axios",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "v1.x"
+      }
+    },
+    {
+      "canonical_repository_id": "aztfmod/terraform-provider-azurecaf",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-dev",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-kusto-python",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-storage-fuse",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "badtuxx/girus-cli",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "bayesianbandits/bayesianbandits",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "beehiveinnovations/zen-mcp-server",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "bespokelabsai/curator",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "bevyengine/bevy",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "binary-husky/gpt_academic",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "bitcoin/bitcoin",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "license": {
+        "status": "not_recorded_in_frozen_source",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public_at_frozen_snapshot",
+        "archived": null,
+        "default_branch": null
+      }
+    },
+    {
+      "canonical_repository_id": "brentyi/jaxls",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "brevdev/brev-cli",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "briangu/klongpy",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "browser-use/browser-use",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "busser/tfautomv",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "bytedance/deer-flow",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "caddyserver/caddy",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "calganaygun/mdcat",
+      "license": {
+        "status": "not_declared",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "cedar-policy/cedar-go",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "celestiaorg/celestia-core",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "chatgptnextweb/nextchat",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "clash-verge-rev/clash-verge-rev",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "dev"
+      }
+    },
+    {
+      "canonical_repository_id": "clojure/clojure",
+      "license": {
+        "status": "not_declared",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "coder/code-server",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "coder/coder",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "comfy-org/comfyui",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "commaai/opendbc",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "commaai/openpilot",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "compiler-explorer/infra",
+      "license": {
+        "status": "declared",
+        "spdx_id": "BSD-2-Clause",
+        "name": "BSD 2-Clause \"Simplified\" License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai-tools",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": true,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "cschleiden/go-workflows",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "d3/d3",
+      "license": {
+        "status": "declared",
+        "spdx_id": "ISC",
+        "name": "ISC License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "dagster-io/dagster",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "danielmiessler/seclists",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "datadog/dd-trace-go",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "deepnoodle-ai/risor",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "defog-ai/introspect",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": true,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "denoland/deno",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "disler/single-file-agents",
+      "license": {
+        "status": "not_declared",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "django/django",
+      "license": {
+        "status": "declared",
+        "spdx_id": "BSD-3-Clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "docling-project/docling",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "doocs/advanced-java",
+      "license": {
+        "status": "declared",
+        "spdx_id": "CC-BY-SA-4.0",
+        "name": "Creative Commons Attribution Share Alike 4.0 International"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "earendil-works/pi",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "egonex-ai/understand-anything",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "elastic/elasticsearch",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "elastic/terraform-provider-elasticstack",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "electron/electron",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "endless-sky/endless-sky",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "equationzhao/g",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "ethyca/fides",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "eugeny/tabby",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "exa-labs/exa-py",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "excalidraw/excalidraw",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "farion1231/cc-switch",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "fastapi/fastapi",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "fatedier/fft",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "dev"
+      }
+    },
+    {
+      "canonical_repository_id": "fatedier/frp",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "dev"
+      }
+    },
+    {
+      "canonical_repository_id": "firecrawl/firecrawl",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "flutter/flutter",
+      "license": {
+        "status": "declared",
+        "spdx_id": "BSD-3-Clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "foundationagents/metagpt",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "gastownhall/beads",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "gastownhall/gascity",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "genymobile/scrcpy",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "getsentry/sentry",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "ggml-org/llama.cpp",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "gin-gonic/gin",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "github/issue-metrics",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "github/spec-kit",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "godotengine/godot",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "gohugoio/hugo",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "golang/go",
+      "license": {
+        "status": "declared",
+        "spdx_id": "BSD-3-Clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "google-gemini/gemini-cli",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "grafana/grafana",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "graphify-labs/graphify",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "v8"
+      }
+    },
+    {
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "haasonsaas/ocode",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "hacksider/deep-live-cam",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "hakimel/reveal.js",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "harry0703/moneyprinterturbo",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "hiyouga/llamafactory",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "home-assistant/core",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "dev"
+      }
+    },
+    {
+      "canonical_repository_id": "hoppscotch/hoppscotch",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "humansignal/label-studio-ml-backend",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "ikamensh/flynt",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "immich-app/immich",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "incatools/ontology-access-kit",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "infiniflow/ragflow",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "influxdata/telegraf",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "iptv-org/iptv",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Unlicense",
+        "name": "The Unlicense"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "iterative/datachain",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "jesseduffield/lazygit",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "jhy/jsoup",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "jkroepke/openvpn-auth-oauth2",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "juliangarnier/anime",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "junegunn/fzf",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "justtrackio/gosoline",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "jxxghp/moviepilot",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "v2"
+      }
+    },
+    {
+      "canonical_repository_id": "kanaries/pygwalker",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "kanisterio/kanister",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "keephq/keep",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "kubernetes-sigs/cloud-provider-azure",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "kubernetes/kubernetes",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "langbot-app/langbot",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "langchain-ai/langchain",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "langflow-ai/langflow",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "langgenius/dify",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "laravel/laravel",
+      "license": {
+        "status": "not_declared",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "13.x"
+      }
+    },
+    {
+      "canonical_repository_id": "levigross/grequests",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "lobehub/lobehub",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "canary"
+      }
+    },
+    {
+      "canonical_repository_id": "localsend/localsend",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "louislam/uptime-kuma",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "marimo-team/marimo",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "mermaid-js/mermaid",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "develop"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/azuretre",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/debug-gym",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/go-mssqldb",
+      "license": {
+        "status": "declared",
+        "spdx_id": "BSD-3-Clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/go-sqlcmd",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/graphrag",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/lisa",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/magentic-ui",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/markitdown",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/olive",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/playwright",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/powertoys",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/qcodes",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/rd-agent",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/retina",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/terminal",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/typescript",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/typescript-go",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/vscode",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "moby/moby",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "mochilang/mochi",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "modelcontextprotocol/registry",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "modelcontextprotocol/servers",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "mrdoob/three.js",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "dev"
+      }
+    },
+    {
+      "canonical_repository_id": "msitarzewski/agency-agents",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "mui/material-ui",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "n8n-io/n8n",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "nationalsecurityagency/ghidra",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "navidrome/navidrome",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "nearai/nearai",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": true,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "nektos/act",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "neovim/neovim",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "nestjs/nest",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "newfuture/ddns",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "nexu-io/open-design",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "nikolaydubina/go-instrument",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "nodejs/node",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "noneback/go-taskflow",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "nousresearch/atropos",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": true,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "nousresearch/hermes-agent",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "numbagg/numbagg",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "nvm-sh/nvm",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "obra/superpowers",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "obsproject/obs-studio",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-2.0",
+        "name": "GNU General Public License v2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "ocornut/imgui",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "odigos-io/odigos",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "oevortex/webscout",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "ohmyzsh/ohmyzsh",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "ollama/ollama",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "onflow/flow-go",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "onnx/onnx",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "onyx-dot-app/onyx",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "open-webui/open-webui",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "open5e/open5e-api",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "staging"
+      }
+    },
+    {
+      "canonical_repository_id": "openai/codex",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "openai/openai-cookbook",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "openai/whisper",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "openclaw/openclaw",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "opendatalab/mineru",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "openfga/openfga",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "openhands/openhands",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "openttd/openttd",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "oraios/serena",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "oras-project/oras",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "oven-sh/bun",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "paddlepaddle/paddleocr",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "pallets/flask",
+      "license": {
+        "status": "declared",
+        "spdx_id": "BSD-3-Clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "paperclipai/paperclip",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "patched-codes/patchwork",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "pewdiepie-archdaemon/odysseus",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "dev"
+      }
+    },
+    {
+      "canonical_repository_id": "pkgconf/pkgconf",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "poezio/poezio",
+      "license": {
+        "status": "not_recorded_in_frozen_source",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public_at_frozen_snapshot",
+        "archived": null,
+        "default_branch": null
+      }
+    },
+    {
+      "canonical_repository_id": "postmarketos/pmbootstrap",
+      "license": {
+        "status": "not_recorded_in_frozen_source",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public_at_frozen_snapshot",
+        "archived": null,
+        "default_branch": null
+      }
+    },
+    {
+      "canonical_repository_id": "pouchdb/pouchdb",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "prequel-dev/preq",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "protocolbuffers/protobuf",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "public-apis/public-apis",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "puppeteer/puppeteer",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "python/cpython",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "pythonnest/pynest",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "qemu-project/qemu",
+      "license": {
+        "status": "not_recorded_in_frozen_source",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public_at_frozen_snapshot",
+        "archived": null,
+        "default_branch": null
+      }
+    },
+    {
+      "canonical_repository_id": "qemu/qemu",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "quantalogic/quantalogic",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "radius-project/radius",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "ray-project/ray",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "react/react",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "react/react-native",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "realworld-apps/realworld",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "redis/redis",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "unstable"
+      }
+    },
+    {
+      "canonical_repository_id": "reflex-dev/reflex",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "reflex-dev/reflex-web",
+      "license": {
+        "status": "not_declared",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public",
+        "archived": true,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "roeniss/dhlottery-api",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "rqlite/rqlite",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "rtk-ai/rtk",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "develop"
+      }
+    },
+    {
+      "canonical_repository_id": "rust-lang/rust",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "rustdesk/rustdesk",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "safedep/vet",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "sashabaranov/go-openai",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "savetherbtz/zstd-seekable-format-go",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "schemahero/schemahero",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "servo/servo",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MPL-2.0",
+        "name": "Mozilla Public License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "shadcn-ui/ui",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "sherlock-project/sherlock",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "significant-gravitas/autogpt",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "sirk123au/arrtools",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/geo_public",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/livedocs",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/nls-finetune-scix",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/sg_benchmark",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "private",
+        "archived": true,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "spacelift-io/spacectl",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "spcl/dace",
+      "license": {
+        "status": "declared",
+        "spdx_id": "BSD-3-Clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "spring-projects/spring-boot",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "spylang/spy",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "stanford-crfm/haliax",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "stirling-tools/stirling-pdf",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "storybookjs/storybook",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "next"
+      }
+    },
+    {
+      "canonical_repository_id": "strapi/strapi",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "develop"
+      }
+    },
+    {
+      "canonical_repository_id": "supabase/supabase",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "license": {
+        "status": "not_recorded_in_frozen_source",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public_at_frozen_snapshot",
+        "archived": null,
+        "default_branch": null
+      }
+    },
+    {
+      "canonical_repository_id": "sveltejs/svelte",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "swiftlang/swift",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "syncthing/syncthing",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MPL-2.0",
+        "name": "Mozilla Public License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "syntasso/kratix",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "tailwindlabs/tailwindcss",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "tauri-apps/tauri",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "dev"
+      }
+    },
+    {
+      "canonical_repository_id": "teamtype/teamtype",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "teaxyz/chai",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "tensorflow/models",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "thedaviddias/front-end-checklist",
+      "license": {
+        "status": "not_declared",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "thedotmack/claude-mem",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "toeverything/affine",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "canary"
+      }
+    },
+    {
+      "canonical_repository_id": "tonsky/firacode",
+      "license": {
+        "status": "declared",
+        "spdx_id": "OFL-1.1",
+        "name": "SIL Open Font License 1.1"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "tphakala/birdnet-go",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "tracecathq/tracecat",
+      "license": {
+        "status": "declared",
+        "spdx_id": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "twbs/bootstrap",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "twpayne/chezmoi",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "typicode/json-server",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "typst/typst",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "ucbepic/docetl",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "unclecode/crawl4ai",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "unionlabs/union",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "vdaas/vald",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "veloera/veloera",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "ventoy/ventoy",
+      "license": {
+        "status": "declared",
+        "spdx_id": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "vercel/next.js",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "canary"
+      }
+    },
+    {
+      "canonical_repository_id": "vitejs/vite",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "vladfi1/slippi-ai",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "vllm-project/vllm",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "vlm-run/vlmrun-hub",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "wafrn/wafrn",
+      "license": {
+        "status": "not_recorded_in_frozen_source",
+        "spdx_id": null,
+        "name": null
+      },
+      "access": {
+        "status": "public_at_frozen_snapshot",
+        "archived": null,
+        "default_branch": null
+      }
+    },
+    {
+      "canonical_repository_id": "wandb/weave",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "willccbb/verifiers",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Unlicense",
+        "name": "The Unlicense"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "ytdl-org/youtube-dl",
+      "license": {
+        "status": "declared",
+        "spdx_id": "Unlicense",
+        "name": "The Unlicense"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "z4nzu/hackingtool",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    },
+    {
+      "canonical_repository_id": "zed-industries/zed",
+      "license": {
+        "status": "declared",
+        "spdx_id": "NOASSERTION",
+        "name": "Other"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "main"
+      }
+    },
+    {
+      "canonical_repository_id": "zfit/zfit",
+      "license": {
+        "status": "declared",
+        "spdx_id": "BSD-3-Clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "develop"
+      }
+    },
+    {
+      "canonical_repository_id": "ziglang/zig",
+      "license": {
+        "status": "declared",
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "access": {
+        "status": "public",
+        "archived": false,
+        "default_branch": "master"
+      }
+    }
+  ]
+}

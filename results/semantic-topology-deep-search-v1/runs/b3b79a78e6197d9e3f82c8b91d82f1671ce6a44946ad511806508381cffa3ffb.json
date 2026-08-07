@@ -1,0 +1,248 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "f33fa79f8e201ec85eddfadfe64dbf11c46de53b59f0d4c46ac616f1b3a8d155",
+  "artifact_version": 1,
+  "canonical_repository_id": "graphql-python/graphql-server",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "2d5ac9539307d6db22b3364a61063e050c3f20b9"
+  ],
+  "cited_files": [
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/async_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L99-L132"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/sync_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/sync_base_view.py?L36-L60"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/async_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L59-L81"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/async_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L83-L97"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/base.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/base.py?L24-L82"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/litestar/controller.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/litestar/controller.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/fastapi/router.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/fastapi/router.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/django/views.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/django/views.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/base.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/base.py?L70-L79"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/async_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L585-L611"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/async_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L544-L557"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/async_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L423-L431"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/types.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/types.py?L19-L34"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/tests/http/test_multipart_subscription.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/http/test_multipart_subscription.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/async_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L433-L542"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/async_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L493"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/tests/http/test_async_base_view.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/http/test_async_base_view.py?L21-L78"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/tests/http/test_graphql_over_http_spec.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/http/test_graphql_over_http_spec.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "noxfile.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/noxfile.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/AGENTS.md"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "codecov.yml",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/codecov.yml"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/utils/__init__.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/utils/__init__.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/runtime.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/runtime.py?L383-L399"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/runtime.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/runtime.py?L99-L105"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/tests/a.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/a.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/tests/b.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/b.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/tests/c.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/c.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/tests/d.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/d.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/http/ides.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/ides.py"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "src/graphql_server/runtime.py",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/runtime.py"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1995",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: graphql-python/graphql-server; stratum: attributable_agent; cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9.",
+  "prompt_family_id": "delegated_task_intent",
+  "prompt_sha256": "9246b895d663b73c8031749f0970bb69285fce586663ffaeca48aef61fad883a",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a thorough picture of the codebase. Let me consolidate the findings.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `graphql-python/graphql-server` @ `2d5ac95`\n\nThis codebase is a mid-size library (~3 kloc of production code, comparable test surface). The dominant task shapes, with file and symbol citations, are:\n\n---\n\n### 1. Architectural Scaffolding\n\n**Confidence: high.**\n\nThe core design is a set of abstract base classes that define the contract for framework integrations:\n\n- [`AsyncBaseHTTPView`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L99-L132) \u2014 abstract, generic over 7 type parameters (`Request`, `Response`, `SubResponse`, `WebSocketRequest`, `WebSocketResponse`, `Context`, `RootValue`)\n- [`SyncBaseHTTPView`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/sync_base_view.py?L36-L60) \u2014 parallel sync contract\n- [`AsyncHTTPRequestAdapter`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L59-L81), [`AsyncWebSocketAdapter`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L83-L97) \u2014 adapter ABCs for framework-specific I/O\n- [`BaseView`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/base.py?L24-L82) \u2014 shared protocol-detection and JSON parsing base\n\nConcrete framework integrations ([`litestar/controller.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/litestar/controller.py), [`fastapi/router.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/fastapi/router.py), [`django/views.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/django/views.py), and 8+ others) each fill in the abstract slots. This is the foundational engineering shape of the entire project.\n\n---\n\n### 2. Feature \u2014 Multipart Subscriptions (GraphQL over HTTP streaming)\n\n**Confidence: high.**\n\nA discrete, self-contained feature implementing the Apollo multipart subscription protocol:\n\n- **Detection:** `_is_multipart_subscriptions()` in [`base.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/base.py?L70-L79) checks `Content-Type: multipart/mixed; boundary=graphql; subscriptionSpec=1.0`\n- **Protocol dispatch:** [`parse_http_body()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L585-L611) sets `protocol = \"multipart-subscription\"` and routes through `subscribe()`\n- **Streaming output:** [`_get_stream()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L544-L557) and [`encode_multipart_data()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L423-L431) write MIME boundary-delimited chunks\n- **`operation_type_from_http()`** in [`types.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/types.py?L19-L34) explicitly allows `SUBSCRIPTION` on GET for this protocol\n- Tests: [`test_multipart_subscription.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/http/test_multipart_subscription.py)\n\n---\n\n### 3. Feature \u2014 Heartbeat for Streaming Connections\n\n**Confidence: high.**\n\n[`_stream_with_heartbeat()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L433-L542) is a discrete, non-trivial feature: it wraps a subscription stream with concurrent `asyncio` tasks, using a bounded `Queue(maxsize=1)` for backpressure and a 5-second heartbeat tick. The 200-line implementation with a detailed docstring describing race-condition analysis is characteristic of a focused feature task.\n\n---\n\n### 4. Localized Bug Fix \u2014 Race Condition in Stream Completion\n\n**Confidence: medium-high** (evidenced by code, not commit history).\n\nThe comments inside `_stream_with_heartbeat()` document a known race condition between `task.done()` and `queue.get()`, solved by emitting an explicit `(False, True, None)` done sentinel from the drain task ([line 493](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L493)). The code comment reads:\n\n> \"Send completion signal to prevent race conditions.\"\n\nThis fix-within-feature pattern (fix embedded in a feature implementation, not as a standalone commit) is a recognizable localized bug fix shape, co-located with the feature it corrects.\n\n---\n\n### 5. Test Generation \u2014 Concurrency Stress Tests\n\n**Confidence: high.**\n\n[`test_stream_with_heartbeat_should_yield_items_correctly()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/http/test_async_base_view.py?L21-L78) is a standalone stress-test that:\n- Runs 100 concurrent coroutines (`asyncio.gather`)\n- Injects randomized `sleep()` delays to surface race conditions\n- Validates completeness, uniqueness, and ordering of streamed items via parametrized cases\n\nThe heavy instrumentation and parametrization (single/two/three items) with explicit concurrency rationale in the docstring is a test-generation task shape, likely created alongside or after the heartbeat feature.\n\n[`test_graphql_over_http_spec.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/http/test_graphql_over_http_spec.py) is a second test-generation instance: it is explicitly annotated as mirroring the [graphql-http audit suite](https://github.com/graphql/graphql-http), with test IDs like `test_22eb` and `test_4655` matching external spec audit identifiers.\n\n---\n\n### 6. Documentation / Configuration\n\n**Confidence: high.**\n\nMultiple distinct configuration artifacts:\n\n- [`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml) \u2014 project metadata, ruff lint/format configuration (130+ lines of rule exclusions), pytest markers and filters, pyright config, `codeflash` integration config\n- [`noxfile.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/noxfile.py) \u2014 CI automation: matrix over Python 3.9\u20133.13 and graphql-core 3.2.x/3.3.x, per-integration test sessions\n- [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/AGENTS.md) \u2014 developer onboarding instructions\n- [`docs/`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/tree/docs) \u2014 framework-specific markdown (aiohttp, flask, sanic, webob)\n- [`codecov.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/codecov.yml), [`.github/workflows/`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/tree/.github/workflows)\n\n---\n\n### 7. Feature \u2014 GraphQL-core Version Compatibility Shim\n\n**Confidence: high.**\n\n[`utils/__init__.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/utils/__init__.py) defines `IS_GQL_32` / `IS_GQL_33` flags. These gates appear in:\n\n- [`runtime.py` line 397](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/runtime.py?L383-L399): `**{} if IS_GQL_32 else gql_33_kwargs` \u2014 passes `middleware` and `execution_context_class` only when supported\n- [`_get_custom_context_kwargs()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/runtime.py?L99-L105): emits `operation_extensions` only for 3.3+\n\nThis is a **dependency migration** pattern \u2014 maintaining a dual compatibility surface across two library major versions, with the shim isolated to one module.\n\n---\n\n### 8. Boilerplate \u2014 Schema Type Fixtures\n\n**Confidence: high.**\n\n[`src/tests/a.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/a.py), [`b.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/b.py), [`c.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/c.py), [`d.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/d.py) are pure test fixtures: GraphQL `ObjectType` definitions with minimal resolvers, demonstrating circular type references (`AType \u2194 BType`) and list relations (`DType \u2192 [CType]`) using lazy field thunks. They carry no assertions or test logic \u2014 this is scaffolding boilerplate for other tests to import.\n\n---\n\n### 9. Feature \u2014 GraphQL IDE Serving\n\n**Confidence: high.**\n\n[`ides.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/ides.py) exposes a `GraphQL_IDE` literal type (`\"graphiql\" | \"apollo-sandbox\" | \"pathfinder\"`) and `get_graphql_ide_html()` that reads pre-built HTML files from [`src/graphql_server/static/`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/tree/src/graphql_server/static). The `should_render_graphql_ide()` method in `BaseView` gates rendering on `GET` + `Accept: text/html`. This is a discrete UI-facing feature.\n\n---\n\n### 10. Refactor \u2014 Commented-Out Extension Runner\n\n**Confidence: medium** (ambiguous without commit history).\n\nThroughout [`runtime.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/runtime.py), large blocks of `extensions_runner` logic are commented out:\n\n```python\n# extensions_runner = self.create_extensions_runner(execution_context, extensions)\n# async with extensions_runner.operation():\n# async with extensions_runner.executing():\n# result.extensions = await extensions_runner.get_extensions_results(context)\n```\n\nThese are structurally consistent with a refactor that removed or de-activated an extension system but left traces for a planned reimplementation. The `# TODO (#3571)` comment on line 212 corroborates this. **Ambiguous:** this could be an incomplete refactor-in-progress or a deliberate staged extraction.\n\n---\n\n## Taxonomy Assessment\n\nThe standard categories cover all evidenced shapes here. No new category is needed. The one cross-cutting ambiguity: **localized bug fix inside a feature** (the heartbeat race-condition fix) could be considered either a sub-item of the feature task or a standalone fix; the existing taxonomy handles it as a localized bug fix co-located with a feature, which is a known and acceptable overlap.\n\n| Task Shape | Files / Symbols | Confidence |\n|---|---|---|\n| Architectural scaffolding | `AsyncBaseHTTPView`, `SyncBaseHTTPView`, adapter ABCs, 8+ integration dirs | High |\n| Feature (multipart subscriptions) | `_is_multipart_subscriptions`, `_get_stream`, `parse_multipart_subscriptions` | High |\n| Feature (heartbeat stream) | `_stream_with_heartbeat` | High |\n| Localized bug fix (stream race) | `queue.put((False, True, None))` sentinel, lines 493, 521\u2013532 | Medium-high |\n| Test generation (concurrency stress) | `test_stream_with_heartbeat_*`, `test_graphql_over_http_spec.py` | High |\n| Documentation / configuration | `pyproject.toml`, `noxfile.py`, `AGENTS.md`, `docs/`, CI workflows | High |\n| Dependency migration (gql-core compat) | `IS_GQL_32`/`IS_GQL_33`, runtime shim | High |\n| Boilerplate (test fixtures) | `a.py`, `b.py`, `c.py`, `d.py` | High |\n| Feature (GraphQL IDE serving) | `ides.py`, `static/`, `graphql_ide_html` | High |\n| Refactor (extension runner removal) | Commented `extensions_runner` blocks in `runtime.py` | Medium (ambiguous) |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:14:44Z",
+    "name": "users/476/conversations/1995",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a thorough picture of the codebase. Let me consolidate the findings.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `graphql-python/graphql-server` @ `2d5ac95`\n\nThis codebase is a mid-size library (~3 kloc of production code, comparable test surface). The dominant task shapes, with file and symbol citations, are:\n\n---\n\n### 1. Architectural Scaffolding\n\n**Confidence: high.**\n\nThe core design is a set of abstract base classes that define the contract for framework integrations:\n\n- [`AsyncBaseHTTPView`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L99-L132) \u2014 abstract, generic over 7 type parameters (`Request`, `Response`, `SubResponse`, `WebSocketRequest`, `WebSocketResponse`, `Context`, `RootValue`)\n- [`SyncBaseHTTPView`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/sync_base_view.py?L36-L60) \u2014 parallel sync contract\n- [`AsyncHTTPRequestAdapter`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L59-L81), [`AsyncWebSocketAdapter`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L83-L97) \u2014 adapter ABCs for framework-specific I/O\n- [`BaseView`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/base.py?L24-L82) \u2014 shared protocol-detection and JSON parsing base\n\nConcrete framework integrations ([`litestar/controller.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/litestar/controller.py), [`fastapi/router.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/fastapi/router.py), [`django/views.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/django/views.py), and 8+ others) each fill in the abstract slots. This is the foundational engineering shape of the entire project.\n\n---\n\n### 2. Feature \u2014 Multipart Subscriptions (GraphQL over HTTP streaming)\n\n**Confidence: high.**\n\nA discrete, self-contained feature implementing the Apollo multipart subscription protocol:\n\n- **Detection:** `_is_multipart_subscriptions()` in [`base.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/base.py?L70-L79) checks `Content-Type: multipart/mixed; boundary=graphql; subscriptionSpec=1.0`\n- **Protocol dispatch:** [`parse_http_body()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L585-L611) sets `protocol = \"multipart-subscription\"` and routes through `subscribe()`\n- **Streaming output:** [`_get_stream()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L544-L557) and [`encode_multipart_data()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L423-L431) write MIME boundary-delimited chunks\n- **`operation_type_from_http()`** in [`types.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/types.py?L19-L34) explicitly allows `SUBSCRIPTION` on GET for this protocol\n- Tests: [`test_multipart_subscription.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/http/test_multipart_subscription.py)\n\n---\n\n### 3. Feature \u2014 Heartbeat for Streaming Connections\n\n**Confidence: high.**\n\n[`_stream_with_heartbeat()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L433-L542) is a discrete, non-trivial feature: it wraps a subscription stream with concurrent `asyncio` tasks, using a bounded `Queue(maxsize=1)` for backpressure and a 5-second heartbeat tick. The 200-line implementation with a detailed docstring describing race-condition analysis is characteristic of a focused feature task.\n\n---\n\n### 4. Localized Bug Fix \u2014 Race Condition in Stream Completion\n\n**Confidence: medium-high** (evidenced by code, not commit history).\n\nThe comments inside `_stream_with_heartbeat()` document a known race condition between `task.done()` and `queue.get()`, solved by emitting an explicit `(False, True, None)` done sentinel from the drain task ([line 493](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/async_base_view.py?L493)). The code comment reads:\n\n> \"Send completion signal to prevent race conditions.\"\n\nThis fix-within-feature pattern (fix embedded in a feature implementation, not as a standalone commit) is a recognizable localized bug fix shape, co-located with the feature it corrects.\n\n---\n\n### 5. Test Generation \u2014 Concurrency Stress Tests\n\n**Confidence: high.**\n\n[`test_stream_with_heartbeat_should_yield_items_correctly()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/http/test_async_base_view.py?L21-L78) is a standalone stress-test that:\n- Runs 100 concurrent coroutines (`asyncio.gather`)\n- Injects randomized `sleep()` delays to surface race conditions\n- Validates completeness, uniqueness, and ordering of streamed items via parametrized cases\n\nThe heavy instrumentation and parametrization (single/two/three items) with explicit concurrency rationale in the docstring is a test-generation task shape, likely created alongside or after the heartbeat feature.\n\n[`test_graphql_over_http_spec.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/http/test_graphql_over_http_spec.py) is a second test-generation instance: it is explicitly annotated as mirroring the [graphql-http audit suite](https://github.com/graphql/graphql-http), with test IDs like `test_22eb` and `test_4655` matching external spec audit identifiers.\n\n---\n\n### 6. Documentation / Configuration\n\n**Confidence: high.**\n\nMultiple distinct configuration artifacts:\n\n- [`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml) \u2014 project metadata, ruff lint/format configuration (130+ lines of rule exclusions), pytest markers and filters, pyright config, `codeflash` integration config\n- [`noxfile.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/noxfile.py) \u2014 CI automation: matrix over Python 3.9\u20133.13 and graphql-core 3.2.x/3.3.x, per-integration test sessions\n- [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/AGENTS.md) \u2014 developer onboarding instructions\n- [`docs/`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/tree/docs) \u2014 framework-specific markdown (aiohttp, flask, sanic, webob)\n- [`codecov.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/codecov.yml), [`.github/workflows/`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/tree/.github/workflows)\n\n---\n\n### 7. Feature \u2014 GraphQL-core Version Compatibility Shim\n\n**Confidence: high.**\n\n[`utils/__init__.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/utils/__init__.py) defines `IS_GQL_32` / `IS_GQL_33` flags. These gates appear in:\n\n- [`runtime.py` line 397](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/runtime.py?L383-L399): `**{} if IS_GQL_32 else gql_33_kwargs` \u2014 passes `middleware` and `execution_context_class` only when supported\n- [`_get_custom_context_kwargs()`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/runtime.py?L99-L105): emits `operation_extensions` only for 3.3+\n\nThis is a **dependency migration** pattern \u2014 maintaining a dual compatibility surface across two library major versions, with the shim isolated to one module.\n\n---\n\n### 8. Boilerplate \u2014 Schema Type Fixtures\n\n**Confidence: high.**\n\n[`src/tests/a.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/a.py), [`b.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/b.py), [`c.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/c.py), [`d.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/tests/d.py) are pure test fixtures: GraphQL `ObjectType` definitions with minimal resolvers, demonstrating circular type references (`AType \u2194 BType`) and list relations (`DType \u2192 [CType]`) using lazy field thunks. They carry no assertions or test logic \u2014 this is scaffolding boilerplate for other tests to import.\n\n---\n\n### 9. Feature \u2014 GraphQL IDE Serving\n\n**Confidence: high.**\n\n[`ides.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/http/ides.py) exposes a `GraphQL_IDE` literal type (`\"graphiql\" | \"apollo-sandbox\" | \"pathfinder\"`) and `get_graphql_ide_html()` that reads pre-built HTML files from [`src/graphql_server/static/`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/tree/src/graphql_server/static). The `should_render_graphql_ide()` method in `BaseView` gates rendering on `GET` + `Accept: text/html`. This is a discrete UI-facing feature.\n\n---\n\n### 10. Refactor \u2014 Commented-Out Extension Runner\n\n**Confidence: medium** (ambiguous without commit history).\n\nThroughout [`runtime.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/src/graphql_server/runtime.py), large blocks of `extensions_runner` logic are commented out:\n\n```python\n# extensions_runner = self.create_extensions_runner(execution_context, extensions)\n# async with extensions_runner.operation():\n# async with extensions_runner.executing():\n# result.extensions = await extensions_runner.get_extensions_results(context)\n```\n\nThese are structurally consistent with a refactor that removed or de-activated an extension system but left traces for a planned reimplementation. The `# TODO (#3571)` comment on line 212 corroborates this. **Ambiguous:** this could be an incomplete refactor-in-progress or a deliberate staged extraction.\n\n---\n\n## Taxonomy Assessment\n\nThe standard categories cover all evidenced shapes here. No new category is needed. The one cross-cutting ambiguity: **localized bug fix inside a feature** (the heartbeat race-condition fix) could be considered either a sub-item of the feature task or a standalone fix; the existing taxonomy handles it as a localized bug fix co-located with a feature, which is a known and acceptable overlap.\n\n| Task Shape | Files / Symbols | Confidence |\n|---|---|---|\n| Architectural scaffolding | `AsyncBaseHTTPView`, `SyncBaseHTTPView`, adapter ABCs, 8+ integration dirs | High |\n| Feature (multipart subscriptions) | `_is_multipart_subscriptions`, `_get_stream`, `parse_multipart_subscriptions` | High |\n| Feature (heartbeat stream) | `_stream_with_heartbeat` | High |\n| Localized bug fix (stream race) | `queue.put((False, True, None))` sentinel, lines 493, 521\u2013532 | Medium-high |\n| Test generation (concurrency stress) | `test_stream_with_heartbeat_*`, `test_graphql_over_http_spec.py` | High |\n| Documentation / configuration | `pyproject.toml`, `noxfile.py`, `AGENTS.md`, `docs/`, CI workflows | High |\n| Dependency migration (gql-core compat) | `IS_GQL_32`/`IS_GQL_33`, runtime shim | High |\n| Boilerplate (test fixtures) | `a.py`, `b.py`, `c.py`, `d.py` | High |\n| Feature (GraphQL IDE serving) | `ides.py`, `static/`, `graphql_ide_html` | High |\n| Refactor (extension runner removal) | Commented `extensions_runner` blocks in `runtime.py` | Medium (ambiguous) |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:14:44Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: graphql-python/graphql-server; stratum: attributable_agent; cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Analyze graphql-python/graphql-server commit history to classify engineering task shapes",
+    "updateTime": "2026-07-29T03:17:06Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/92ae6233-3e86-476e-8f9b-9ea7bf42c335"
+  },
+  "run_id": "sha256:b3b79a78e6197d9e3f82c8b91d82f1671ce6a44946ad511806508381cffa3ffb",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "graphql-python/graphql-server"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

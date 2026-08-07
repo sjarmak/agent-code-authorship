@@ -1,0 +1,291 @@
+{
+  "$schema": "protocol-v3.schema.json",
+  "protocol_version": 3,
+  "status": "preregistered",
+  "preregistered_at": "2026-07-27T17:43:08Z",
+  "purpose": "Estimate agent-authored code prevalence and survival with Sourcegraph-indexed longitudinal evidence while separating authorship from modernization through within-repository adoption controls.",
+  "parent": {
+    "amendment_version": 2,
+    "result_status": "not_identified",
+    "additive": true,
+    "legacy_results_known": true,
+    "sha256": {
+      "protocol_v1": "4ccefb87a8aa30f962c3569412116112180843a205ba4b5ad0ab30c2cc30facd",
+      "amendment_v2": "c790489b5b97bf4c2d3bb3850d6ed1d948c5461e7f6ce68fd2eb43330d8ae7a2",
+      "replication_v2": "79a695de659ad92df35e1c32c6c4ae6502794b1685b0e5a0490826d130acff5f",
+      "prevalence_targets": "e2d4c7b90fb1276fc979935b60628eafb9c053f4f5a971df115eb3f6fab23238",
+      "survival_protocol": "35a1cb5e2a457fa0a2fa85d405cddd4495129dc74cded5d30b508369b9765dd4",
+      "survival_candidates": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837",
+      "survival_inputs": "3b0c26cae5a32eb439925dc4783a7a45c329a72635da03d07792cd59a1181c3f",
+      "reference_manifest_v1": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "control_evidence": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+      "cohort_forks": "e6a1ba1c02e1104df2c2d58449eb356996177de561544b2e4a8267ae6ba16d98"
+    }
+  },
+  "snapshot": {
+    "cutoff": "2026-07-24T23:59:59Z",
+    "later_evidence_role": "future_replication_only",
+    "later_outcomes_forbidden": true,
+    "pinned_git_is_authoritative_for_lineage": true
+  },
+  "languages": [
+    "Python",
+    "Go"
+  ],
+  "populations": {
+    "prevalence": {
+      "frame": "study/targets.v1.json",
+      "repository_count": 150,
+      "role": "fixed_confirmatory_target",
+      "new_discovery_role": "reference_control_or_external_validation_only"
+    },
+    "survival": {
+      "frame": "study/survival-candidates.v1.json",
+      "repository_count": 126,
+      "role": "fixed_confirmatory_target",
+      "new_discovery_role": "reference_control_or_external_validation_only"
+    },
+    "adoption": {
+      "role": "separate_event_study_population",
+      "seed_frames": [
+        "study/survival-candidates.v1.json",
+        "study/repositories.v1.json",
+        "data/control_evidence.json"
+      ],
+      "additional_discovery": "separate_outcome_blind_frozen_batch",
+      "freeze_required_before_outcome_extraction": true
+    }
+  },
+  "selection": {
+    "outcome_blind": true,
+    "legacy_results_known": true,
+    "outcomes_consulted_for_v3_candidate_selection": false,
+    "new_v3_outcomes_extracted": false,
+    "full_frame_indexed_before_eligibility_screening": true,
+    "candidate_order": "sha256_of_canonical_repository_id",
+    "query_text_frozen_before_execution": true,
+    "classifier_and_survival_outputs_forbidden_during_selection": true,
+    "rejections_retained_with_reason": true
+  },
+  "sourcegraph": {
+    "instance_role": "controlled_index_and_primary_longitudinal_discovery_asset",
+    "indexed_namespace": "github.com/sg-evals/",
+    "full_frozen_frame_required": true,
+    "precise_code_intelligence_required": false,
+    "allowed_capabilities": [
+      "indexed_search",
+      "revision_search",
+      "commit_search",
+      "diff_search",
+      "blame",
+      "structural_search",
+      "repository_metadata"
+    ],
+    "disallowed_required_capabilities": [
+      "SCIP",
+      "precise_code_intelligence"
+    ],
+    "canonical_identity": "original_repository_owner_and_name",
+    "mirror_identity_role": "transport_only",
+    "authoritative_lineage_source": "pinned_git_history",
+    "required_freezes": [
+      "canonical_to_sg_evals_mapping",
+      "indexed_commit_and_timestamp",
+      "saved_query_text",
+      "query_result_manifest",
+      "adoption_event_catalog",
+      "ai_ban_policy_catalog",
+      "evidence_packets"
+    ]
+  },
+  "human_evidence": {
+    "pool_as_certain": false,
+    "tiers": {
+      "H1": {
+        "label": "attested_human",
+        "unit": "exact_commit_set",
+        "required_evidence": [
+          "attestor_identity_and_authority",
+          "exact_repository",
+          "exact_commit_ids",
+          "no_ai_or_llm_assistance",
+          "scope_includes_code_and_tests"
+        ],
+        "contamination_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "H2": {
+        "label": "policy_human",
+        "unit": "post_policy_commit_set",
+        "required_evidence": [
+          "repository_local_policy",
+          "policy_effective_commit_and_date",
+          "scope_includes_code_and_tests",
+          "applies_to_sampled_contributors",
+          "no_disclosure_exception",
+          "enforcement_or_review_mechanism"
+        ],
+        "contamination_range": [
+          0.0,
+          0.2
+        ]
+      },
+      "H3": {
+        "label": "pre_observed_adoption_human_proxy",
+        "unit": "matched_code_introducing_commit_hunk",
+        "subtypes": [
+          "historical_pre_2023",
+          "contemporary_pre_adoption"
+        ],
+        "clean_prehistory_days": 365,
+        "earlier_ambiguous_use": "exclude",
+        "era_adjustment_required": true,
+        "contamination_range": [
+          0.0,
+          0.25
+        ]
+      }
+    },
+    "tier_specific_estimates_required": true,
+    "combined_estimate": "partial_identification_envelope"
+  },
+  "adoption": {
+    "event_name": "first_observed_adoption",
+    "event_tiers": {
+      "confirmed": "first default-branch commit with verifiable agent-generation provenance",
+      "observed": "first recognized agent-account pull request or agent trailer without independent generation-scope evidence"
+    },
+    "primary_event_tier": "confirmed",
+    "observed_tier_role": "separate_sensitivity",
+    "unit": "code_introducing_commit_hunk",
+    "clean_prehistory_days": 365,
+    "event_windows_days": {
+      "primary": [
+        -180,
+        180
+      ],
+      "extended": [
+        -365,
+        365
+      ]
+    },
+    "survival_horizons_days": [
+      30,
+      90,
+      180,
+      365
+    ],
+    "all_post_adoption_code_is_agent": false,
+    "estimands": [
+      "exact_agent_hunk_authorship_contrast",
+      "whole_repository_adoption_effect"
+    ],
+    "direct_authorship_positive_rule": "explicitly_attributable_agent_hunk_only",
+    "whole_repository_effect_interpretation": "workflow_review_and_formatting_spillovers_not_direct_authorship"
+  },
+  "era_adjustment": {
+    "method": "within_repository_difference_in_differences",
+    "formula": "within_repository_feature_change_minus_contemporaneous_control_change",
+    "controls": [
+      "H2_ai_ban_never_adopting_repositories",
+      "not_yet_adopting_repositories"
+    ],
+    "repository_cross_fitting": true,
+    "match_on": [
+      "language",
+      "path_type",
+      "change_size",
+      "code_age",
+      "calendar_time"
+    ],
+    "required_diagnostics": [
+      "parallel_pre_trends",
+      "placebo_adoption_dates",
+      "repository_held_out_era_auc",
+      "featurewise_standardized_mean_shift",
+      "historical_anchor_sensitivity"
+    ],
+    "failed_diagnostic_result": "not_identified"
+  },
+  "authorship": {
+    "target_population": "populations.prevalence",
+    "primary_model": "l2_logistic_regression",
+    "primary_features": "study/features.v1.json",
+    "model_input": "era_adjusted_within_repository_contrasts",
+    "primary_weighting": "line",
+    "secondary_weighting": "repository",
+    "cross_validation_unit": "repository",
+    "bootstrap_unit": "repository",
+    "sourcegraph_index_features_role": "preregistered_secondary_model",
+    "nonlinear_models_role": "diagnostic_only",
+    "partial_identification": {
+      "enabled": true,
+      "method": "union_over_evidence_tiers_and_contamination_grid",
+      "contamination_grid_step": 0.05,
+      "maximum_headline_width": 0.3,
+      "failed_width_result": "not_identified"
+    }
+  },
+  "survival": {
+    "target_population": "populations.survival",
+    "event": "deletion",
+    "primary_estimator": "repository_balanced_kaplan_meier",
+    "secondary_estimator": "aalen_johansen_state_occupancy",
+    "states": [
+      "unchanged",
+      "modified",
+      "deleted"
+    ],
+    "lineage_loss": "right_censor_at_last_observation",
+    "horizons_days": [
+      30,
+      90,
+      180,
+      365
+    ],
+    "primary_weighting": "repository",
+    "secondary_weighting": "line",
+    "bootstrap_unit": "repository",
+    "required_invariants": [
+      "survival_is_monotone_nonincreasing",
+      "risk_set_is_explicit_at_every_horizon",
+      "right_censored_repositories_are_not_complete_case_dropped"
+    ]
+  },
+  "identification_gates": {
+    "minimum_adopters_per_language": 20,
+    "minimum_controls_per_language": 10,
+    "minimum_agent_family_repositories": 8,
+    "required_clean_prehistory_days": 365,
+    "primary_event_window_days": 180,
+    "prospective_simulation_before_outcomes": true,
+    "simulation_sets_final_target_counts": true,
+    "role_and_exact_content_overlap_forbidden": true,
+    "failed_gate_result": "not_identified"
+  },
+  "reporting": {
+    "confirmatory_and_exploratory_separate": true,
+    "tier_specific_results_required": true,
+    "partial_identification_bounds_required": true,
+    "sourcegraph_assets_are_primary_project_deliverables": true,
+    "sourcegraph_and_git_provenance_separate": true,
+    "nonidentified_cells_retained": true,
+    "required_artifacts": [
+      "protocol_v3",
+      "sourcegraph_index_manifest",
+      "saved_queries",
+      "adoption_event_catalog",
+      "ai_ban_policy_catalog",
+      "evidence_packets",
+      "longitudinal_hunk_shards",
+      "era_adjustment_diagnostics",
+      "authorship_prevalence_bounds",
+      "survival_estimates",
+      "machine_result",
+      "scientific_report"
+    ]
+  },
+  "protocol_sha256": "f1adba26c170aeeeba42c96b5975e88bcd0d17b91162c5ef0d9cc2481528e627"
+}

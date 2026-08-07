@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agent-code-authorship.local/study/sourcegraph-repository-case-index.schema.json",
+  "title": "Sourcegraph repository-event case index",
+  "type": "object",
+  "required": [
+    "case_index_version",
+    "workflow_sha256",
+    "specification_sha256",
+    "packet_index_sha256",
+    "review_unit",
+    "packet_level_exhaustive_review_required",
+    "repository_count",
+    "event_count",
+    "packet_count",
+    "repositories",
+    "outcomes_consulted",
+    "case_index_sha256"
+  ],
+  "properties": {
+    "case_index_version": {"const": 3},
+    "workflow_sha256": {"$ref": "#/$defs/sha256"},
+    "specification_sha256": {"$ref": "#/$defs/sha256"},
+    "packet_index_sha256": {"$ref": "#/$defs/sha256"},
+    "review_unit": {"const": "repository_event"},
+    "packet_level_exhaustive_review_required": {"const": false},
+    "repository_count": {"type": "integer", "minimum": 0},
+    "event_count": {"type": "integer", "minimum": 0},
+    "packet_count": {"type": "integer", "minimum": 0},
+    "repositories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "case_id",
+          "canonical_repository_id",
+          "case_file",
+          "byte_count",
+          "packet_count",
+          "event_count",
+          "sha256"
+        ],
+        "properties": {
+          "case_id": {"$ref": "#/$defs/sha256"},
+          "canonical_repository_id": {"type": "string", "minLength": 3},
+          "case_file": {"type": "string", "pattern": "^cases/[0-9a-f]{2}/[0-9a-f]{64}\\.json$"},
+          "byte_count": {"type": "integer", "minimum": 1},
+          "packet_count": {"type": "integer", "minimum": 1},
+          "event_count": {"type": "integer", "minimum": 1},
+          "sha256": {"$ref": "#/$defs/sha256"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "outcomes_consulted": {"const": false},
+    "case_index_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

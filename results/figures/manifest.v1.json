@@ -3,17 +3,16 @@
   "figures": {
     "contextual-effects.svg": "26dd67ebca5224e95179a2d1a00ee2388e120fd5c5e474b817f0c1da632d5b52",
     "tier2-survival-alternatives.html": "e1621a0989a81b95deaab9948e38728c6cbb2d4f0e250474d110c72a72e61555",
-    "tier2-survival-overplot.svg": "65190e5c75fddaeb386d0336909cd54f60607f2fb2364bcd564e22106125be55",
-    "tier2-survival-small-multiples.svg": "c9797c3db6610746f4f2cc3b25bda8870e6f4a6acdd8275924c885d03e0f8eb5"
+    "tier2-survival-overplot.svg": "79d6f338395fb1ce7bb0bacdb27c0885cf1ca069e8bdb57f24eec10a1cbac1d6",
+    "tier2-survival-small-multiples.svg": "8ab81bff7099f506b8625519bb8b9353ce9635f8d604ac69095ac8bc23bc4db6"
   },
   "inputs": {
     "results/contextual-comparison.v1.json": "c4d3702ab9c4e3d9e53d08ab0c43e92f1fba58423ca365e0e04c6317e551c995",
-    "results/survival-estimates.v1.json": "01de0b05bbd694407e6f803940ca7c5d22a82c84776fbbb3bb6740de367c4877"
+    "results/survival-estimates.v2.json": "6b50d017af5b0560113c3a9502199364a0f7ae3cbd03801bd73657773692fbd0"
   },
   "method": {
     "contextual_genre": "C2_range_frame_interval_plot",
-    "skill": "tufte-chart",
-    "source": "https://github.com/gnurio/tufte-vdqi-plugin",
+    "renderer": "internal_inert_svg",
     "survival_genre": "C5_small_multiples"
   },
   "version": 1

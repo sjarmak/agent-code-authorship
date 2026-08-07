@@ -1,4 +1,5 @@
 """Pinned Git snapshot and ancestry operations for survival cohorts."""
+
 from __future__ import annotations
 
 import os
@@ -22,10 +23,12 @@ def _environment() -> dict[str, str]:
     }
 
 
-def git(
+def _run_git(
     repo: Path,
-    *arguments: str,
-    check: bool = True,
+    arguments: tuple[str, ...],
+    *,
+    input_text: str | None,
+    check: bool,
 ) -> str:
     result = subprocess.run(
         [
@@ -38,6 +41,7 @@ def git(
             str(repo),
             *arguments,
         ],
+        input=input_text,
         capture_output=True,
         text=True,
         encoding="utf-8",
@@ -50,6 +54,24 @@ def git(
             result.stderr.strip() or f"git {' '.join(arguments)} failed"
         )
     return result.stdout.strip()
+
+
+def git(
+    repo: Path,
+    *arguments: str,
+    check: bool = True,
+) -> str:
+    return _run_git(repo, arguments, input_text=None, check=check)
+
+
+def git_with_stdin(
+    repo: Path,
+    input_text: str,
+    *arguments: str,
+    check: bool = True,
+) -> str:
+    """Run one Git process with revision data supplied on standard input."""
+    return _run_git(repo, arguments, input_text=input_text, check=check)
 
 
 def clone_or_fetch(repository_url: str, destination: Path) -> None:
@@ -83,7 +105,9 @@ def inspect_repository(
     attributed_commits: list[str],
 ) -> dict[str, Any]:
     branch = default_branch
-    if git(repository, "show-ref", "--verify", f"refs/remotes/origin/{branch}", check=False):
+    if git(
+        repository, "show-ref", "--verify", f"refs/remotes/origin/{branch}", check=False
+    ):
         branch = f"origin/{branch}"
     cutoff_commit = git(repository, "rev-list", "-1", f"--before={cutoff}", branch)
     if not cutoff_commit:

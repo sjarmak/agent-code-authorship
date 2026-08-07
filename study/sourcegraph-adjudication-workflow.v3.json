@@ -1,0 +1,104 @@
+{
+  "$schema": "sourcegraph-adjudication-workflow.schema.json",
+  "workflow_version": 3,
+  "status": "preregistered",
+  "preregistered_at": "2026-07-29T17:38:30Z",
+  "outcomes_consulted": false,
+  "protocol_amendment": {
+    "path": "study/protocol-amendment.v3.1.json",
+    "amendment_sha256": "379e14457dd3c33099a9c5273e8994c26579e11df2afda0dab7e51b71223de6f"
+  },
+  "discovery_specification": {
+    "path": "study/sourcegraph-discovery.v3.json",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d"
+  },
+  "packet_index": {
+    "path": "results/sourcegraph-evidence-packets.v3.json",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "packet_count": 105933,
+    "role": "immutable_raw_provenance"
+  },
+  "repository_frame": {
+    "indexed_namespace": "github.com/sg-evals/",
+    "index_manifest_path": "study/sourcegraph-index-manifest.v3.json",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "candidate_repository_count": 302,
+    "indexed_and_cutoff_ready": 296,
+    "rights_or_access_holds": 6,
+    "remaining_admissible_repositories_to_index": 0,
+    "additional_repository_rule": "admit_only_if_available_in_sg_evals_and_freeze_as_a_separate_outcome_blind_discovery_batch"
+  },
+  "review_design": {
+    "review_unit": "repository_event",
+    "packet_level_exhaustive_review": false,
+    "raw_packet_coverage": "every_packet_id_is_referenced_exactly_once_by_a_repository_event",
+    "explicit_provenance_families": [
+      "agent_trailer_commits",
+      "recognized_agent_identity_commits",
+      "generated_code_disclosure_diffs"
+    ],
+    "adoption_challenge_families": [
+      "adoption_announcement_files"
+    ],
+    "ai_ban_families": [
+      "ai_ban_policy_introduction_diffs",
+      "ai_ban_policy_files"
+    ],
+    "adoption_stop_rule": "accept the earliest credible anchor only after resolving every earlier challenge candidate",
+    "ai_ban_stop_rule": "accept the earliest datable policy only after resolving every earlier policy candidate",
+    "post_adoption_implies_agent": false,
+    "ambiguous_case_review": "two independent reviews plus distinct resolution",
+    "clear_case_review": "one primary review plus deterministic stratified reliability audit",
+    "audit_strata": [
+      "decision",
+      "evidence_channel",
+      "language",
+      "repository"
+    ]
+  },
+  "execution_order": [
+    "validate_index_coverage_and_freezes",
+    "build_repository_event_case_index",
+    "date_earliest_credible_adoption_per_repository",
+    "freeze_eligible_repository_catalog",
+    "run_prospective_clustered_power_simulation",
+    "sample_explicit_provenance_commits",
+    "adjudicate_sampled_agent_commits",
+    "sample_and_match_contemporary_human_commits",
+    "freeze_ai_ban_negative_controls",
+    "materialize_introduced_line_histories",
+    "estimate_right_censored_survival",
+    "run_era_and_evidence_tier_sensitivities",
+    "render_sourcegraph_asset_report_and_blog"
+  ],
+  "stopping_and_sampling": {
+    "adoption_review": "repository_specific_earliest_credible_event",
+    "exposure_review": "power_driven_sample_not_census",
+    "sample_order": "sha256_of_repository_commit_and_preregistered_seed",
+    "power_unit": "repository",
+    "minimum_repository_gate_source": "prospective_simulation",
+    "outcomes_forbidden_until_freezes_complete": true
+  },
+  "model_execution": {
+    "paid_batch_api": false,
+    "user_openai_api_key": false,
+    "local_or_subagent_review": true,
+    "semantic_decisions_delegated_to_reviewers": true,
+    "application_code_role": "mechanical_grouping_validation_sampling_and_provenance"
+  },
+  "required_outputs": [
+    "repository_event_case_index",
+    "adoption_event_catalog",
+    "explicit_provenance_commit_catalog",
+    "ai_ban_negative_control_catalog",
+    "reliability_audit_manifest",
+    "power_simulation",
+    "matched_human_control_catalog",
+    "line_survival_event_table",
+    "censoring_correct_survival_estimates",
+    "era_adjustment_diagnostics",
+    "sourcegraph_unique_asset_inventory",
+    "rendered_html_blog_post"
+  ],
+  "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+}

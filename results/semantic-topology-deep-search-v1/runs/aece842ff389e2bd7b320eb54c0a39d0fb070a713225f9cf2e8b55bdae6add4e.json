@@ -1,0 +1,116 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "8ae16fa4e6f153255cd6e7bd3ec3b7c40161a41b0ed6d222c18366f2e35af76c",
+  "artifact_version": 1,
+  "canonical_repository_id": "2dust/v2rayn",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "b48037b7579ab524c106c555cce165e089ebf1dc"
+  ],
+  "cited_files": [
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": ".github/ISSUE_TEMPLATE/01_bug_report.yml",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/01_bug_report.yml"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": ".github/ISSUE_TEMPLATE/02_feature_request.yml",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/02_feature_request.yml"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": ".gitignore",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.gitignore"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "README.md",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/README.md"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN.sln",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN.sln"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": ".gitignore",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.gitignore?L1-L3"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/v2rayN.csproj",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Global.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Global.cs"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Program.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Program.cs"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2052",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/2dust-v2rayN at revision b48037b7579ab524c106c555cce165e089ebf1dc, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum pre_2023_context; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: 2dust/v2rayn; study cutoff: cf8dd45abe3dd54667a3ce0e6923695acbf10823.",
+  "prompt_family_id": "adoption_configuration",
+  "prompt_sha256": "7b24384c0fd29f5fe7b21e82e1cd94aa1417af35ed774032fbcf7751ef875800",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a comprehensive view of the entire repository at the pinned revision. Let me compile the findings.\n\n---\n\n## Findings: AI / Coding-Agent Artifact Investigation\n\n**Repository:** `2dust/v2rayN` | **Pinned revision:** `b48037b7579ab524c106c555cce165e089ebf1dc`\n\n---\n\n### 1. No AI/Agent-specific configuration files detected\n\nThe complete repository tree at this revision contains exactly the following top-level artifacts:\n\n| Path | Category |\n|---|---|\n| [`.github/ISSUE_TEMPLATE/01_bug_report.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/01_bug_report.yml) | Issue template |\n| [`.github/ISSUE_TEMPLATE/02_feature_request.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/02_feature_request.yml) | Issue template |\n| [`.gitignore`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.gitignore) | Git ignore |\n| [`README.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/README.md) | Documentation |\n| [`v2rayN/v2rayN.sln`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN.sln) | VS solution |\n| `v2rayN/v2rayN/` | C# source tree |\n| `v2rayN/v2rayUpgrade/` | C# source tree |\n\n**Absent artifacts** (negative findings, each confirmed by exhaustive `list_files`):\n\n- No `.github/workflows/` directory \u2014 zero GitHub Actions workflow YAML files; no CI/CD pipeline of any kind, including no bot-triggered automation, no dependabot/renovate config.\n- No `.github/CODEOWNERS` or `.github/PULL_REQUEST_TEMPLATE.md`.\n- No `.copilot/`, `.cursor/`, `.aider*`, `.continue/`, `.devin/`, or any equivalent coding-agent instruction directory.\n- No `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `SYSTEM_PROMPT*`, or similar prompt/persona files.\n- No `CODEOWNERS`, `CONTRIBUTING.md`, `SECURITY.md`, or review-policy documents.\n- No AI-generated-work disclosure in `README.md` (content confirmed above \u2014 four sections: description, how-to-use, requirements, Telegram).\n- No `renovate.json`, `.renovaterc`, or `dependabot.yml`.\n\n---\n\n### 2. Candidate observations with supporting citations\n\n#### OBS-1: `.gitignore` is machine-generated by Visual Studio, not a coding agent\n\nThe first two lines of [`.gitignore`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.gitignore?L1-L3) carry a machine-generation disclosure:\n\n```text\n# \u6b64 .gitignore \u6587\u4ef6\u5df2\u7531 Microsoft(R) Visual Studio \u81ea\u52a8\u521b\u5efa\u3002\n```\n\nTranslation: *\"This .gitignore file was automatically created by Microsoft\u00ae Visual Studio.\"*\n\nThis is a standard Visual Studio IDE artifact, not an AI/generative-AI artifact. It is cited because it is the only generated-work disclosure present in the repository.\n\n**Deterministic corpus query:**\n```\nfile:\\.gitignore Visual Studio \u81ea\u52a8\u521b\u5efa\n```\n\n---\n\n#### OBS-2: No GitHub Actions or workflow automation present\n\nThe `.github/` directory contains only [`ISSUE_TEMPLATE/`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/tree/.github/ISSUE_TEMPLATE). No `workflows/` subdirectory exists at this revision, ruling out bot-triggered workflows (Dependabot, Renovate, auto-labelers, AI review bots).\n\n**Deterministic corpus queries:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^\\.github/workflows/\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:dependabot\\.yml\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:renovate\\.json\n```\n\n---\n\n#### OBS-3: No dependency-update bot configuration\n\n[`v2rayN.csproj`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj) pins all NuGet package versions statically (e.g., `Newtonsoft.Json` 13.0.1, `log4net` 2.0.15, `Google.Protobuf` 3.21.5). No automated version-bump bot (Dependabot for NuGet, Renovate) is configured to manage these. The absence of `.github/dependabot.yml` and `renovate.json` at the repository root confirms this.\n\n**Deterministic corpus query:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:\\.github/dependabot\\.yml\n```\n\n---\n\n#### OBS-4: No AI instruction, prompt, or persona files\n\nThe following paths, conventionally used by coding agents for context injection, do not exist at this revision:\n\n| Convention | Agent/Tool |\n|---|---|\n| `AGENTS.md` | OpenAI Codex / general |\n| `CLAUDE.md` | Anthropic Claude |\n| `GEMINI.md` | Google Gemini |\n| `.copilot/` | GitHub Copilot Workspace |\n| `.cursor/rules` | Cursor |\n| `.aider.conf.yml` | Aider |\n| `.continue/` | Continue.dev |\n\n**Deterministic corpus queries:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^AGENTS\\.md$\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^CLAUDE\\.md$\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^\\.copilot/\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^\\.cursor/\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:aider\n```\n\n---\n\n#### OBS-5: No AI-generated disclosure in source or documentation\n\nNeither [`README.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/README.md), [`Global.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Global.cs), [`Program.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Program.cs), nor any other inspected source file contains language suggesting AI authorship, AI-generated comments, or co-author metadata of the form `Co-authored-by: github-actions[bot]` or similar.\n\n**Deterministic corpus queries:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ \"Co-authored-by\"\nrepo:^github.com/sg-evals/2dust-v2rayN$ \"generated by\" OR \"auto-generated\" OR \"copilot\" OR \"chatgpt\" OR \"openai\"\nrepo:^github.com/sg-evals/2dust-v2rayN$ \"github-actions[bot]\"\n```\n\n---\n\n#### OBS-6: Issue templates contain no AI/bot routing or labeling automation\n\nBoth issue templates ([`01_bug_report.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/01_bug_report.yml), [`02_feature_request.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/02_feature_request.yml)) are standard YAML structured forms with manual human-filled checkboxes. There is no `assignees:` field routing to bots, no `bot:` metadata, and no reference to automated triage agents.\n\n**Deterministic corpus query:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^\\.github/ISSUE_TEMPLATE/ assignees OR bot OR copilot\n```\n\n---\n\n### Summary verdict\n\nAt revision `b48037b7579ab524c106c555cce165e089ebf1dc`, the repository contains **no evidence** of coding-agent configuration, generative-AI invocation, AI instruction files, bot identities, AI-assisted review policies, or AI-generated-work disclosures. The sole machine-generation disclosure in the repository \u2014 the Visual Studio attribution in `.gitignore` \u2014 is an IDE artifact predating the generative-AI era by many years. The repository is a conventional, manually maintained C#/.NET Windows GUI application with minimal GitHub automation (issue templates only).",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:48:43Z",
+    "name": "users/476/conversations/2052",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a comprehensive view of the entire repository at the pinned revision. Let me compile the findings.\n\n---\n\n## Findings: AI / Coding-Agent Artifact Investigation\n\n**Repository:** `2dust/v2rayN` | **Pinned revision:** `b48037b7579ab524c106c555cce165e089ebf1dc`\n\n---\n\n### 1. No AI/Agent-specific configuration files detected\n\nThe complete repository tree at this revision contains exactly the following top-level artifacts:\n\n| Path | Category |\n|---|---|\n| [`.github/ISSUE_TEMPLATE/01_bug_report.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/01_bug_report.yml) | Issue template |\n| [`.github/ISSUE_TEMPLATE/02_feature_request.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/02_feature_request.yml) | Issue template |\n| [`.gitignore`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.gitignore) | Git ignore |\n| [`README.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/README.md) | Documentation |\n| [`v2rayN/v2rayN.sln`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN.sln) | VS solution |\n| `v2rayN/v2rayN/` | C# source tree |\n| `v2rayN/v2rayUpgrade/` | C# source tree |\n\n**Absent artifacts** (negative findings, each confirmed by exhaustive `list_files`):\n\n- No `.github/workflows/` directory \u2014 zero GitHub Actions workflow YAML files; no CI/CD pipeline of any kind, including no bot-triggered automation, no dependabot/renovate config.\n- No `.github/CODEOWNERS` or `.github/PULL_REQUEST_TEMPLATE.md`.\n- No `.copilot/`, `.cursor/`, `.aider*`, `.continue/`, `.devin/`, or any equivalent coding-agent instruction directory.\n- No `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `SYSTEM_PROMPT*`, or similar prompt/persona files.\n- No `CODEOWNERS`, `CONTRIBUTING.md`, `SECURITY.md`, or review-policy documents.\n- No AI-generated-work disclosure in `README.md` (content confirmed above \u2014 four sections: description, how-to-use, requirements, Telegram).\n- No `renovate.json`, `.renovaterc`, or `dependabot.yml`.\n\n---\n\n### 2. Candidate observations with supporting citations\n\n#### OBS-1: `.gitignore` is machine-generated by Visual Studio, not a coding agent\n\nThe first two lines of [`.gitignore`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.gitignore?L1-L3) carry a machine-generation disclosure:\n\n```text\n# \u6b64 .gitignore \u6587\u4ef6\u5df2\u7531 Microsoft(R) Visual Studio \u81ea\u52a8\u521b\u5efa\u3002\n```\n\nTranslation: *\"This .gitignore file was automatically created by Microsoft\u00ae Visual Studio.\"*\n\nThis is a standard Visual Studio IDE artifact, not an AI/generative-AI artifact. It is cited because it is the only generated-work disclosure present in the repository.\n\n**Deterministic corpus query:**\n```\nfile:\\.gitignore Visual Studio \u81ea\u52a8\u521b\u5efa\n```\n\n---\n\n#### OBS-2: No GitHub Actions or workflow automation present\n\nThe `.github/` directory contains only [`ISSUE_TEMPLATE/`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/tree/.github/ISSUE_TEMPLATE). No `workflows/` subdirectory exists at this revision, ruling out bot-triggered workflows (Dependabot, Renovate, auto-labelers, AI review bots).\n\n**Deterministic corpus queries:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^\\.github/workflows/\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:dependabot\\.yml\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:renovate\\.json\n```\n\n---\n\n#### OBS-3: No dependency-update bot configuration\n\n[`v2rayN.csproj`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj) pins all NuGet package versions statically (e.g., `Newtonsoft.Json` 13.0.1, `log4net` 2.0.15, `Google.Protobuf` 3.21.5). No automated version-bump bot (Dependabot for NuGet, Renovate) is configured to manage these. The absence of `.github/dependabot.yml` and `renovate.json` at the repository root confirms this.\n\n**Deterministic corpus query:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:\\.github/dependabot\\.yml\n```\n\n---\n\n#### OBS-4: No AI instruction, prompt, or persona files\n\nThe following paths, conventionally used by coding agents for context injection, do not exist at this revision:\n\n| Convention | Agent/Tool |\n|---|---|\n| `AGENTS.md` | OpenAI Codex / general |\n| `CLAUDE.md` | Anthropic Claude |\n| `GEMINI.md` | Google Gemini |\n| `.copilot/` | GitHub Copilot Workspace |\n| `.cursor/rules` | Cursor |\n| `.aider.conf.yml` | Aider |\n| `.continue/` | Continue.dev |\n\n**Deterministic corpus queries:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^AGENTS\\.md$\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^CLAUDE\\.md$\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^\\.copilot/\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^\\.cursor/\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:aider\n```\n\n---\n\n#### OBS-5: No AI-generated disclosure in source or documentation\n\nNeither [`README.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/README.md), [`Global.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Global.cs), [`Program.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Program.cs), nor any other inspected source file contains language suggesting AI authorship, AI-generated comments, or co-author metadata of the form `Co-authored-by: github-actions[bot]` or similar.\n\n**Deterministic corpus queries:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ \"Co-authored-by\"\nrepo:^github.com/sg-evals/2dust-v2rayN$ \"generated by\" OR \"auto-generated\" OR \"copilot\" OR \"chatgpt\" OR \"openai\"\nrepo:^github.com/sg-evals/2dust-v2rayN$ \"github-actions[bot]\"\n```\n\n---\n\n#### OBS-6: Issue templates contain no AI/bot routing or labeling automation\n\nBoth issue templates ([`01_bug_report.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/01_bug_report.yml), [`02_feature_request.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/.github/ISSUE_TEMPLATE/02_feature_request.yml)) are standard YAML structured forms with manual human-filled checkboxes. There is no `assignees:` field routing to bots, no `bot:` metadata, and no reference to automated triage agents.\n\n**Deterministic corpus query:**\n```\nrepo:^github.com/sg-evals/2dust-v2rayN$ file:^\\.github/ISSUE_TEMPLATE/ assignees OR bot OR copilot\n```\n\n---\n\n### Summary verdict\n\nAt revision `b48037b7579ab524c106c555cce165e089ebf1dc`, the repository contains **no evidence** of coding-agent configuration, generative-AI invocation, AI instruction files, bot identities, AI-assisted review policies, or AI-generated-work disclosures. The sole machine-generation disclosure in the repository \u2014 the Visual Studio attribution in `.gitignore` \u2014 is an IDE artifact predating the generative-AI era by many years. The repository is a conventional, manually maintained C#/.NET Windows GUI application with minimal GitHub automation (issue templates only)."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:48:43Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/2dust-v2rayN at revision b48037b7579ab524c106c555cce165e089ebf1dc, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum pre_2023_context; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: 2dust/v2rayn; study cutoff: cf8dd45abe3dd54667a3ce0e6923695acbf10823."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigating AI or coding-agent artifacts in 2dust/v2rayn repository",
+    "updateTime": "2026-07-29T03:50:16Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/7d9644de-67d6-442c-88f8-dbae0a4b71a2"
+  },
+  "run_id": "sha256:aece842ff389e2bd7b320eb54c0a39d0fb070a713225f9cf2e8b55bdae6add4e",
+  "search_context": {
+    "context_revision_kind": "last_default_branch_commit_before_2023",
+    "repository": "2dust/v2rayn"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

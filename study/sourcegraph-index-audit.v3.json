@@ -1,0 +1,5246 @@
+{
+  "audit_version": 3,
+  "kind": "sourcegraph_direct_and_sg_evals_index_state",
+  "observed_at": "2026-07-28T02:25:05.754456Z",
+  "outcomes_consulted": false,
+  "repository_count": 308,
+  "repositories": [
+    {
+      "canonical_repository_id": "0x4d31/galah",
+      "direct": {
+        "name": "github.com/0x4D31/galah",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/0x4d31-galah",
+        "state": "indexed",
+        "head_oid": "8f77b85e892731cf1402963d8121c79fef0e59c7",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "8f77b85e892731cf1402963d8121c79fef0e59c7"
+      }
+    },
+    {
+      "canonical_repository_id": "0xfurai/peekaping",
+      "direct": {
+        "name": "github.com/0xfurai/peekaping",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/0xfurai-peekaping",
+        "state": "indexed",
+        "head_oid": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "742a60d94fdaacc977c09444b651f7cf1c1aab9e"
+      }
+    },
+    {
+      "canonical_repository_id": "2dust/v2rayn",
+      "direct": {
+        "name": "github.com/2dust/v2rayN",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/2dust-v2rayN",
+        "state": "indexed",
+        "head_oid": "cf8dd45abe3dd54667a3ce0e6923695acbf10823",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "cf8dd45abe3dd54667a3ce0e6923695acbf10823"
+      }
+    },
+    {
+      "canonical_repository_id": "3b1b/manim",
+      "direct": {
+        "name": "github.com/3b1b/manim",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/3b1b-manim",
+        "state": "indexed",
+        "head_oid": "6199a00d4c1b1127ebe45cb629c3f22538b10e13",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6199a00d4c1b1127ebe45cb629c3f22538b10e13"
+      }
+    },
+    {
+      "canonical_repository_id": "a16z/halmos",
+      "direct": {
+        "name": "github.com/a16z/halmos",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/a16z-halmos",
+        "state": "indexed",
+        "head_oid": "079bb4241d1b460baf986257d56ea86977d73451",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "079bb4241d1b460baf986257d56ea86977d73451"
+      }
+    },
+    {
+      "canonical_repository_id": "addyosmani/agent-skills",
+      "direct": {
+        "name": "github.com/addyosmani/agent-skills",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/addyosmani-agent-skills",
+        "state": "indexed",
+        "head_oid": "ff2df4c07e7836a092ed28e1e9b42f4d6009280c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ff2df4c07e7836a092ed28e1e9b42f4d6009280c"
+      }
+    },
+    {
+      "canonical_repository_id": "affaan-m/ecc",
+      "direct": {
+        "name": "github.com/affaan-m/ECC",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/affaan-m-ECC",
+        "state": "indexed",
+        "head_oid": "86c786e8bb3ff70e4d5ea6570ec3fcec0b6a93df",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "abe185c6a46c312d526c215abfcafe98ed9e951b"
+      }
+    },
+    {
+      "canonical_repository_id": "aftership/clickhouse-sql-parser",
+      "direct": {
+        "name": "github.com/AfterShip/clickhouse-sql-parser",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/aftership-clickhouse-sql-parser",
+        "state": "indexed",
+        "head_oid": "e4c6e11fcec9a7140ef53835fae0728b2f304a3c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e4c6e11fcec9a7140ef53835fae0728b2f304a3c"
+      }
+    },
+    {
+      "canonical_repository_id": "ag2ai/build-with-ag2",
+      "direct": {
+        "name": "github.com/ag2ai/build-with-ag2",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ag2ai-build-with-ag2",
+        "state": "indexed",
+        "head_oid": "29eeac374d18003696d8725d88e76d20176034a1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "29eeac374d18003696d8725d88e76d20176034a1"
+      }
+    },
+    {
+      "canonical_repository_id": "ai-shifu/ai-shifu",
+      "direct": {
+        "name": "github.com/ai-shifu/ai-shifu",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ai-shifu-ai-shifu",
+        "state": "indexed",
+        "head_oid": "f00956165e37fbdb29475fe70d45a1cfd4a76603",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7c66eb46b36eee67be5862a58623cdd9ab3c8b78"
+      }
+    },
+    {
+      "canonical_repository_id": "airbytehq/airbyte",
+      "direct": {
+        "name": "github.com/airbytehq/airbyte",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/airbytehq-airbyte",
+        "state": "indexed",
+        "head_oid": "4e6942ffaf179ad0c8fab0179814701d1c6bd142",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "926797c471d8741f7da77b1f8ed9663e51abdf7a"
+      }
+    },
+    {
+      "canonical_repository_id": "airbytehq/pyairbyte",
+      "direct": {
+        "name": "github.com/airbytehq/PyAirbyte",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/airbytehq-pyairbyte",
+        "state": "indexed",
+        "head_oid": "173e7793ad61523d42bc77c31362703028749a79",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6f539a8b715ef0b667ad0efc2adaf16e06d0d57f"
+      }
+    },
+    {
+      "canonical_repository_id": "alacritty/alacritty",
+      "direct": {
+        "name": "github.com/alacritty/alacritty",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/alacritty-alacritty",
+        "state": "indexed",
+        "head_oid": "852e971cddfabe222d2d5bcda466e130f53af207",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "852e971cddfabe222d2d5bcda466e130f53af207"
+      }
+    },
+    {
+      "canonical_repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+      "direct": {
+        "name": "github.com/aldinokemal/go-whatsapp-web-multidevice",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/aldinokemal-go-whatsapp-web-multidevice",
+        "state": "indexed",
+        "head_oid": "08e005ff6dc91043d9113e2da307957e39311942",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ee9d05da08768d35384f823494d4ed0a1643eef5"
+      }
+    },
+    {
+      "canonical_repository_id": "alexanderjeurissen/ranger_devicons",
+      "direct": {
+        "name": "github.com/alexanderjeurissen/ranger_devicons",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/alexanderjeurissen-ranger_devicons",
+        "state": "indexed",
+        "head_oid": "1bcaff0366a9d345313dc5af14002cfdcddabb82",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "1bcaff0366a9d345313dc5af14002cfdcddabb82"
+      }
+    },
+    {
+      "canonical_repository_id": "alirezamika/autoscraper",
+      "direct": {
+        "name": "github.com/alirezamika/autoscraper",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/alirezamika-autoscraper",
+        "state": "indexed",
+        "head_oid": "eb72f5dc6f7ffb6777684131d082d85f30a42b5a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "eb72f5dc6f7ffb6777684131d082d85f30a42b5a"
+      }
+    },
+    {
+      "canonical_repository_id": "angular/angular",
+      "direct": {
+        "name": "github.com/angular/angular",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/angular-angular",
+        "state": "indexed",
+        "head_oid": "5ad823139758b4d3a8a021d378b008c3457f8689",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "5ad823139758b4d3a8a021d378b008c3457f8689"
+      }
+    },
+    {
+      "canonical_repository_id": "anomalyco/opencode",
+      "direct": {
+        "name": "github.com/anomalyco/opencode",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/anomalyco-opencode",
+        "state": "indexed",
+        "head_oid": "8e8d38c3cd8eaecfde65c2a99ca3d035271afe6d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a85d8d23aa297b3051e642c28e3fc79b457fc4bc"
+      }
+    },
+    {
+      "canonical_repository_id": "ansible/ansible",
+      "direct": {
+        "name": "github.com/ansible/ansible",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ansible-ansible",
+        "state": "indexed",
+        "head_oid": "4e131d639aabd9d4cecd589dc046582921487a41",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "76884711a617bfe59b417df11fbfc42016c99de8"
+      }
+    },
+    {
+      "canonical_repository_id": "ant-design/ant-design",
+      "direct": {
+        "name": "github.com/ant-design/ant-design",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ant-design-ant-design",
+        "state": "indexed",
+        "head_oid": "ee5cd3acd682f3db047d1381773d24502f7e67d4",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "29ea546eef68cf30079e66ed1b5751d881c8c86a"
+      }
+    },
+    {
+      "canonical_repository_id": "anthropics/claude-code",
+      "direct": {
+        "name": "github.com/anthropics/claude-code",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/anthropics-claude-code",
+        "state": "indexed",
+        "head_oid": "2982f951552e94f38cd972764ae94c1d90c41da3",
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "anuraghazra/github-readme-stats",
+      "direct": {
+        "name": "github.com/anuraghazra/github-readme-stats",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/anuraghazra-github-readme-stats",
+        "state": "indexed",
+        "head_oid": "54a7985aeefda00d5eadb55b80c17c7f976c37d2",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "54a7985aeefda00d5eadb55b80c17c7f976c37d2"
+      }
+    },
+    {
+      "canonical_repository_id": "apache/couchdb",
+      "direct": {
+        "name": "github.com/apache/couchdb",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/apache-couchdb",
+        "state": "indexed",
+        "head_oid": "c2a97ae6829f7617e8be7612501c90aba6785f19",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a2eedd4af19f40d9f92de3fd52ab3e922668748a"
+      }
+    },
+    {
+      "canonical_repository_id": "apache/superset",
+      "direct": {
+        "name": "github.com/apache/superset",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/apache-superset",
+        "state": "indexed",
+        "head_oid": "4300e9fb9308404fd9f3b0c4be71ca13d631dfeb",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "8c37d627aa9c8351e7e60611cd3e1219495bb830"
+      }
+    },
+    {
+      "canonical_repository_id": "appflowy-io/appflowy",
+      "direct": {
+        "name": "github.com/AppFlowy-IO/AppFlowy",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/AppFlowy-IO-AppFlowy",
+        "state": "indexed",
+        "head_oid": "5cf3a365dec0d59f64bad1ee4bb1050471a39b93",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "5cf3a365dec0d59f64bad1ee4bb1050471a39b93"
+      }
+    },
+    {
+      "canonical_repository_id": "asahilinux/m1n1",
+      "direct": {
+        "name": "github.com/AsahiLinux/m1n1",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/asahilinux-m1n1",
+        "state": "indexed",
+        "head_oid": "2ea75b6648569a040a9b289be458361783174cf1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce"
+      }
+    },
+    {
+      "canonical_repository_id": "astral-sh/uv",
+      "direct": {
+        "name": "github.com/astral-sh/uv",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/astral-sh-uv",
+        "state": "indexed",
+        "head_oid": "73ad30793d4cce946c79b6e148b89d4365bb6c5c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "007981b6260cda6d8ebd5bf0c3fb9dd7e4ee87b6"
+      }
+    },
+    {
+      "canonical_repository_id": "axinc-ai/ailia-models",
+      "direct": {
+        "name": "github.com/axinc-ai/ailia-models",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/axinc-ai-ailia-models",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "axios/axios",
+      "direct": {
+        "name": "github.com/axios/axios",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/axios-axios",
+        "state": "indexed",
+        "head_oid": "311fcc5c8d989b7248f05d390bb83bfbfb009977",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "311fcc5c8d989b7248f05d390bb83bfbfb009977"
+      }
+    },
+    {
+      "canonical_repository_id": "aztfmod/terraform-provider-azurecaf",
+      "direct": {
+        "name": "github.com/aztfmod/terraform-provider-azurecaf",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/aztfmod-terraform-provider-azurecaf",
+        "state": "indexed",
+        "head_oid": "c23d6ac52c89bb76e43285124b5afc419ccbc549",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "c23d6ac52c89bb76e43285124b5afc419ccbc549"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-dev",
+      "direct": {
+        "name": "github.com/Azure/azure-dev",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/azure-azure-dev",
+        "state": "indexed",
+        "head_oid": "7d34c7eb9ed288f9efcb335a6107eff6c722d073",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3348328d367c0bc48186891e59797bad455273ef"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-kusto-python",
+      "direct": {
+        "name": "github.com/Azure/azure-kusto-python",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/azure-azure-kusto-python",
+        "state": "indexed",
+        "head_oid": "5a8a712fa57ec3abdaef0ffb420cd95b57db4952",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "5a8a712fa57ec3abdaef0ffb420cd95b57db4952"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "direct": {
+        "name": "github.com/Azure/azure-sdk-for-python",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/azure-azure-sdk-for-python",
+        "state": "indexed",
+        "head_oid": "97af2942a7b5f0c510e7f051c298b75226fbacf1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-storage-fuse",
+      "direct": {
+        "name": "github.com/Azure/azure-storage-fuse",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/azure-azure-storage-fuse",
+        "state": "indexed",
+        "head_oid": "d302f13072d7af5d6777ebe5e06f46d66bb5b316",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d302f13072d7af5d6777ebe5e06f46d66bb5b316"
+      }
+    },
+    {
+      "canonical_repository_id": "badtuxx/girus-cli",
+      "direct": {
+        "name": "github.com/badtuxx/girus-cli",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/badtuxx-girus-cli",
+        "state": "indexed",
+        "head_oid": "59b1db3fcc235db278db38d4f1fb8e4221140fdf",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "59b1db3fcc235db278db38d4f1fb8e4221140fdf"
+      }
+    },
+    {
+      "canonical_repository_id": "bayesianbandits/bayesianbandits",
+      "direct": {
+        "name": "github.com/bayesianbandits/bayesianbandits",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/bayesianbandits-bayesianbandits",
+        "state": "indexed",
+        "head_oid": "b8b533b8296f0c79d6a9953d6b2cb0059636a2e5",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b8b533b8296f0c79d6a9953d6b2cb0059636a2e5"
+      }
+    },
+    {
+      "canonical_repository_id": "beehiveinnovations/zen-mcp-server",
+      "direct": {
+        "name": "github.com/BeehiveInnovations/zen-mcp-server",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/beehiveinnovations-zen-mcp-server",
+        "state": "indexed",
+        "head_oid": "7afc7c1cc96e23992c8f105f960132c657883bb1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7afc7c1cc96e23992c8f105f960132c657883bb1"
+      }
+    },
+    {
+      "canonical_repository_id": "bespokelabsai/curator",
+      "direct": {
+        "name": "github.com/bespokelabsai/curator",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/bespokelabsai-curator",
+        "state": "indexed",
+        "head_oid": "461b4170b96690873a152e829185a920a941b960",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "461b4170b96690873a152e829185a920a941b960"
+      }
+    },
+    {
+      "canonical_repository_id": "bevyengine/bevy",
+      "direct": {
+        "name": "github.com/bevyengine/bevy",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/bevyengine-bevy",
+        "state": "indexed",
+        "head_oid": "dd24c7584b5996c56bd50e30ab0103d4600205c8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "17ca59b4dab18a8d494412b70b842961f102c573"
+      }
+    },
+    {
+      "canonical_repository_id": "binary-husky/gpt_academic",
+      "direct": {
+        "name": "github.com/binary-husky/gpt_academic",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/binary-husky-gpt_academic",
+        "state": "indexed",
+        "head_oid": "d6bde0fa54373309bd05823a49bda8da019d2c77",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d6bde0fa54373309bd05823a49bda8da019d2c77"
+      }
+    },
+    {
+      "canonical_repository_id": "bitcoin/bitcoin",
+      "direct": {
+        "name": "github.com/bitcoin/bitcoin",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/bitcoin-bitcoin",
+        "state": "indexed",
+        "head_oid": "7dea464d6b51a69bd99a0451be8aaf3a26313eb6",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6b059d9dbdbd4d5b6f52993f93bf291181bf3900"
+      }
+    },
+    {
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "direct": {
+        "name": "projects.torsion.org/borgmatic-collective/borgmatic",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/borgmatic-collective-borgmatic",
+        "state": "indexed",
+        "head_oid": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b"
+      }
+    },
+    {
+      "canonical_repository_id": "brentyi/jaxls",
+      "direct": {
+        "name": "github.com/brentyi/jaxls",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/brentyi-jaxls",
+        "state": "indexed",
+        "head_oid": "50a58be88c5ef74532f09e3f55268b4f02c490e3",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "50a58be88c5ef74532f09e3f55268b4f02c490e3"
+      }
+    },
+    {
+      "canonical_repository_id": "brevdev/brev-cli",
+      "direct": {
+        "name": "github.com/brevdev/brev-cli",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/brevdev-brev-cli",
+        "state": "indexed",
+        "head_oid": "6b111e1f041d354d682541cc489375431f195fcf",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6b111e1f041d354d682541cc489375431f195fcf"
+      }
+    },
+    {
+      "canonical_repository_id": "briangu/klongpy",
+      "direct": {
+        "name": "github.com/briangu/klongpy",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/briangu-klongpy",
+        "state": "indexed",
+        "head_oid": "3b298541ba510cf45bd9702b8a10e4c96a4ddbc6",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3b298541ba510cf45bd9702b8a10e4c96a4ddbc6"
+      }
+    },
+    {
+      "canonical_repository_id": "browser-use/browser-use",
+      "direct": {
+        "name": "github.com/browser-use/browser-use",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/browser-use-browser-use",
+        "state": "indexed",
+        "head_oid": "f0aa3a8bb03779c71a5aa262d389e3bfe6b77cdc",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "05b68eb5679da0497510a6954863687bef41c706"
+      }
+    },
+    {
+      "canonical_repository_id": "busser/tfautomv",
+      "direct": {
+        "name": "github.com/busser/tfautomv",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/busser-tfautomv",
+        "state": "indexed",
+        "head_oid": "b1a070dd2f4c0db63f894a77461a775ec508d5e1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b1a070dd2f4c0db63f894a77461a775ec508d5e1"
+      }
+    },
+    {
+      "canonical_repository_id": "bytedance/deer-flow",
+      "direct": {
+        "name": "github.com/bytedance/deer-flow",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/bytedance-deer-flow",
+        "state": "indexed",
+        "head_oid": "795af20a6b79b22fd9e95f674554605c5bfb6cdc",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "16b612cfcfda48e302ca6ddb5905a0282f854873"
+      }
+    },
+    {
+      "canonical_repository_id": "caddyserver/caddy",
+      "direct": {
+        "name": "github.com/caddyserver/caddy",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/caddyserver-caddy",
+        "state": "indexed",
+        "head_oid": "31daa220fcba80c7ed7ea636e7f04c568c8cccf8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "31daa220fcba80c7ed7ea636e7f04c568c8cccf8"
+      }
+    },
+    {
+      "canonical_repository_id": "calganaygun/mdcat",
+      "direct": {
+        "name": "github.com/calganaygun/MDcat",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/calganaygun-mdcat",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "cedar-policy/cedar-go",
+      "direct": {
+        "name": "github.com/cedar-policy/cedar-go",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/cedar-policy-cedar-go",
+        "state": "indexed",
+        "head_oid": "cda92d0d9345fce26b36366288afd3c909fc7bd8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "cda92d0d9345fce26b36366288afd3c909fc7bd8"
+      }
+    },
+    {
+      "canonical_repository_id": "celestiaorg/celestia-core",
+      "direct": {
+        "name": "github.com/celestiaorg/celestia-core",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/celestiaorg-celestia-core",
+        "state": "indexed",
+        "head_oid": "03a97cd765bd4a30c2f5186a4950fce85f81839d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d1f0a046336373569617fb9d57cdbbb5c8dcaefb"
+      }
+    },
+    {
+      "canonical_repository_id": "chatgptnextweb/nextchat",
+      "direct": {
+        "name": "github.com/ChatGPTNextWeb/NextChat",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ChatGPTNextWeb-NextChat",
+        "state": "indexed",
+        "head_oid": "706a18b95b714ab29b2a4842d3b9ff4f887935d5",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "706a18b95b714ab29b2a4842d3b9ff4f887935d5"
+      }
+    },
+    {
+      "canonical_repository_id": "clash-verge-rev/clash-verge-rev",
+      "direct": {
+        "name": "github.com/clash-verge-rev/clash-verge-rev",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/clash-verge-rev-clash-verge-rev",
+        "state": "indexed",
+        "head_oid": "dca6fdcae65f7c4bf93ed9329a21eff9439b273c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7796259b0394df73bf35a6f1984a7f8d96603690"
+      }
+    },
+    {
+      "canonical_repository_id": "clojure/clojure",
+      "direct": {
+        "name": "github.com/clojure/clojure",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/clojure-clojure",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "coder/code-server",
+      "direct": {
+        "name": "github.com/coder/code-server",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/coder-code-server",
+        "state": "indexed",
+        "head_oid": "14bdb36f9217671bff9e9389f812c9ac9de575c0",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "14bdb36f9217671bff9e9389f812c9ac9de575c0"
+      }
+    },
+    {
+      "canonical_repository_id": "coder/coder",
+      "direct": {
+        "name": "github.com/coder/coder",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/coder-coder",
+        "state": "indexed",
+        "head_oid": "daf655dff8221e68650c64dfe84798baccfa6ce9",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ff10beb042aff7ce8921356cb867cacbef71b6c3"
+      }
+    },
+    {
+      "canonical_repository_id": "comfy-org/comfyui",
+      "direct": {
+        "name": "github.com/Comfy-Org/ComfyUI",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/Comfy-Org-ComfyUI",
+        "state": "indexed",
+        "head_oid": "c06ee57933f2d4a9b644ab76a918c02e857fd126",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "36aec0d086f7321d253cde71b4f3b08f63e35d8f"
+      }
+    },
+    {
+      "canonical_repository_id": "commaai/opendbc",
+      "direct": {
+        "name": "github.com/commaai/opendbc",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/commaai-opendbc",
+        "state": "indexed",
+        "head_oid": "c3e6dca2e43d0620c7c31be1872823ed9d0c2c92",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "c9b31d21bc396e8958891e271936bdbdf1a6ca93"
+      }
+    },
+    {
+      "canonical_repository_id": "commaai/openpilot",
+      "direct": {
+        "name": "github.com/commaai/openpilot",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/commaai-openpilot",
+        "state": "indexed",
+        "head_oid": "74009870abb26087027acfb8fcc2e931196baed9",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "c37855d113494f58ca51e9995adf03c17ba17deb"
+      }
+    },
+    {
+      "canonical_repository_id": "compiler-explorer/infra",
+      "direct": {
+        "name": "github.com/compiler-explorer/infra",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/compiler-explorer-infra",
+        "state": "indexed",
+        "head_oid": "0a68e44b7bed23cce1362f238b163723f3275fd8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "0a68e44b7bed23cce1362f238b163723f3275fd8"
+      }
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai",
+      "direct": {
+        "name": "github.com/crewAIInc/crewAI",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/crewaiinc-crewai",
+        "state": "indexed",
+        "head_oid": "e2c8d7ca88c33c9a71ae3d935d668769105152de",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b3aaaab023a53a08db4d36c9430b3463f1efcc7d"
+      }
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai-tools",
+      "direct": {
+        "name": "github.com/crewAIInc/crewAI-tools",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/crewaiinc-crewai-tools",
+        "state": "indexed",
+        "head_oid": "62f4d7efd1ea61ec11e5c0922eee01b444b6c6d2",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "62f4d7efd1ea61ec11e5c0922eee01b444b6c6d2"
+      }
+    },
+    {
+      "canonical_repository_id": "cschleiden/go-workflows",
+      "direct": {
+        "name": "github.com/cschleiden/go-workflows",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/cschleiden-go-workflows",
+        "state": "indexed",
+        "head_oid": "339368fb86d38ca532e99d2a65c4b1f0dc399e5d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "339368fb86d38ca532e99d2a65c4b1f0dc399e5d"
+      }
+    },
+    {
+      "canonical_repository_id": "d3/d3",
+      "direct": {
+        "name": "github.com/d3/d3",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/d3-d3",
+        "state": "indexed",
+        "head_oid": "ca958d45217b4c15332d971b935451a6d4c978f4",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ca958d45217b4c15332d971b935451a6d4c978f4"
+      }
+    },
+    {
+      "canonical_repository_id": "dagster-io/dagster",
+      "direct": {
+        "name": "github.com/dagster-io/dagster",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/dagster-io-dagster",
+        "state": "indexed",
+        "head_oid": "b0ef6384d27244a86ae663eb9f2ff9002329d3da",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6ee8128b4648ab60e1674679627ddeee6c352bcd"
+      }
+    },
+    {
+      "canonical_repository_id": "danielmiessler/seclists",
+      "direct": {
+        "name": "github.com/danielmiessler/SecLists",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/danielmiessler-SecLists",
+        "state": "indexed",
+        "head_oid": "ffb381d7be6609812f6014de46251537cf8e9ff8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ffb381d7be6609812f6014de46251537cf8e9ff8"
+      }
+    },
+    {
+      "canonical_repository_id": "datadog/dd-trace-go",
+      "direct": {
+        "name": "github.com/DataDog/dd-trace-go",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/datadog-dd-trace-go",
+        "state": "indexed",
+        "head_oid": "03c4c2a4c771fb1a2d6fb2da2af32dee8a0f724c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "94dd7aae494a85154f600d7adc508978ff44cb8f"
+      }
+    },
+    {
+      "canonical_repository_id": "deepnoodle-ai/risor",
+      "direct": {
+        "name": "github.com/deepnoodle-ai/risor",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/deepnoodle-ai-risor",
+        "state": "indexed",
+        "head_oid": "a263ecce1b9d58c71e2147d9ed087288588c79de",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a263ecce1b9d58c71e2147d9ed087288588c79de"
+      }
+    },
+    {
+      "canonical_repository_id": "defog-ai/introspect",
+      "direct": {
+        "name": "github.com/defog-ai/introspect",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/defog-ai-introspect",
+        "state": "indexed",
+        "head_oid": "b77636c679c953c6c3bde23c276e8ba35c93eb14",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b77636c679c953c6c3bde23c276e8ba35c93eb14"
+      }
+    },
+    {
+      "canonical_repository_id": "denoland/deno",
+      "direct": {
+        "name": "github.com/denoland/deno",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/denoland-deno",
+        "state": "indexed",
+        "head_oid": "d34446c19b97c597ccf1e6c97cd5d063b8e5507f",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "150f9cf083eb7beb9c19111b7c81bdb4aba578f8"
+      }
+    },
+    {
+      "canonical_repository_id": "disler/single-file-agents",
+      "direct": {
+        "name": "github.com/disler/single-file-agents",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/disler-single-file-agents",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "django/django",
+      "direct": {
+        "name": "github.com/django/django",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/django-django",
+        "state": "indexed",
+        "head_oid": "c2517faff335f683e1cbe55d9844910b3fb40670",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "957d0cee7167757ae221ffde59d2cf0a322e89c7"
+      }
+    },
+    {
+      "canonical_repository_id": "docling-project/docling",
+      "direct": {
+        "name": "github.com/docling-project/docling",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/docling-project-docling",
+        "state": "indexed",
+        "head_oid": "873f990203ac3195b0142f5564eea13e59c1a312",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "873f990203ac3195b0142f5564eea13e59c1a312"
+      }
+    },
+    {
+      "canonical_repository_id": "doocs/advanced-java",
+      "direct": {
+        "name": "github.com/doocs/advanced-java",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/doocs-advanced-java",
+        "state": "indexed",
+        "head_oid": "1659850d7de4739ac9394dddd6c68466a8c38761",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "1659850d7de4739ac9394dddd6c68466a8c38761"
+      }
+    },
+    {
+      "canonical_repository_id": "earendil-works/pi",
+      "direct": {
+        "name": "github.com/earendil-works/pi",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/earendil-works-pi",
+        "state": "indexed",
+        "head_oid": "a597371bda2af70372d1323d550483b5f4a0ae36",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "8eef62ed3ea62d646a7fad92fa583fc8d71fec17"
+      }
+    },
+    {
+      "canonical_repository_id": "egonex-ai/understand-anything",
+      "direct": {
+        "name": "github.com/Egonex-AI/Understand-Anything",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/Egonex-AI-Understand-Anything",
+        "state": "indexed",
+        "head_oid": "6ae71878beb50226a1e4b7e2f52ac6468c86f74b",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6ae71878beb50226a1e4b7e2f52ac6468c86f74b"
+      }
+    },
+    {
+      "canonical_repository_id": "elastic/elasticsearch",
+      "direct": {
+        "name": "github.com/elastic/elasticsearch",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/elastic-elasticsearch",
+        "state": "indexed",
+        "head_oid": "a29452f9eee4e2be353942c66d9fe3e6d6fccfec",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4e9c8e970b3e8523a510a991403a381f5e79172e"
+      }
+    },
+    {
+      "canonical_repository_id": "elastic/terraform-provider-elasticstack",
+      "direct": {
+        "name": "github.com/elastic/terraform-provider-elasticstack",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/elastic-terraform-provider-elasticstack",
+        "state": "indexed",
+        "head_oid": "4e0926ec3ba357f0a4589989ce14dd0c065a2966",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6425763b17d16088584c5d403cdb730ecdac4371"
+      }
+    },
+    {
+      "canonical_repository_id": "electron/electron",
+      "direct": {
+        "name": "github.com/electron/electron",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/electron-electron",
+        "state": "indexed",
+        "head_oid": "7b3d5f8ce41dd7bd26c1539087252e4a96a475a7",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e12e04e87bb7c3a0ce744a0bab9b317d250d725e"
+      }
+    },
+    {
+      "canonical_repository_id": "endless-sky/endless-sky",
+      "direct": {
+        "name": "github.com/endless-sky/endless-sky",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/endless-sky-endless-sky",
+        "state": "indexed",
+        "head_oid": "d08eaf4fc4d5413639bb388113f1a676d859bef2",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d08eaf4fc4d5413639bb388113f1a676d859bef2"
+      }
+    },
+    {
+      "canonical_repository_id": "equationzhao/g",
+      "direct": {
+        "name": "github.com/Equationzhao/g",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/equationzhao-g",
+        "state": "indexed",
+        "head_oid": "8017c46d7f61d6286254561e877a5bc907805b63",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "8017c46d7f61d6286254561e877a5bc907805b63"
+      }
+    },
+    {
+      "canonical_repository_id": "ethyca/fides",
+      "direct": {
+        "name": "github.com/ethyca/fides",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ethyca-fides",
+        "state": "indexed",
+        "head_oid": "e87f3ff835af368defc1ec42dc29ec545a288585",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e87f3ff835af368defc1ec42dc29ec545a288585"
+      }
+    },
+    {
+      "canonical_repository_id": "eugeny/tabby",
+      "direct": {
+        "name": "github.com/Eugeny/tabby",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/Eugeny-tabby",
+        "state": "indexed",
+        "head_oid": "14e2d60b9b6dee84a53c37f05eefeb803787de04",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "14e2d60b9b6dee84a53c37f05eefeb803787de04"
+      }
+    },
+    {
+      "canonical_repository_id": "exa-labs/exa-py",
+      "direct": {
+        "name": "github.com/exa-labs/exa-py",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/exa-labs-exa-py",
+        "state": "indexed",
+        "head_oid": "71f315b4be07d474df128c8fafc70cc7d0e47b56",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7537a5ebc4175143e3a582eb0f9239d3a1bbf311"
+      }
+    },
+    {
+      "canonical_repository_id": "excalidraw/excalidraw",
+      "direct": {
+        "name": "github.com/excalidraw/excalidraw",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/excalidraw-excalidraw",
+        "state": "indexed",
+        "head_oid": "b2e81e38a6fde8b3cb5dfdf2f2fb651323ad309d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b2e81e38a6fde8b3cb5dfdf2f2fb651323ad309d"
+      }
+    },
+    {
+      "canonical_repository_id": "farion1231/cc-switch",
+      "direct": {
+        "name": "github.com/farion1231/cc-switch",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/farion1231-cc-switch",
+        "state": "indexed",
+        "head_oid": "878c26f31e012ba32b9772bd080bd4fa9e7d495e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "878c26f31e012ba32b9772bd080bd4fa9e7d495e"
+      }
+    },
+    {
+      "canonical_repository_id": "fastapi/fastapi",
+      "direct": {
+        "name": "github.com/fastapi/fastapi",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/fastapi-fastapi",
+        "state": "indexed",
+        "head_oid": "98b12fe56f97107e71a20fc1cf334ccfa590efb5",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "255b912928904e3ba5980425a54d6837c8bd1a1c"
+      }
+    },
+    {
+      "canonical_repository_id": "fatedier/fft",
+      "direct": {
+        "name": "github.com/fatedier/fft",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/fatedier-fft",
+        "state": "indexed",
+        "head_oid": "b3cf96145d0069fdd983dbc6c8140f674dd7fa3d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b3cf96145d0069fdd983dbc6c8140f674dd7fa3d"
+      }
+    },
+    {
+      "canonical_repository_id": "fatedier/frp",
+      "direct": {
+        "name": "github.com/fatedier/frp",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/fatedier-frp",
+        "state": "indexed",
+        "head_oid": "40274d8c92249043d8cddb6e40b4b23128e18df4",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "40274d8c92249043d8cddb6e40b4b23128e18df4"
+      }
+    },
+    {
+      "canonical_repository_id": "firecrawl/firecrawl",
+      "direct": {
+        "name": "github.com/firecrawl/firecrawl",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/firecrawl-firecrawl",
+        "state": "indexed",
+        "head_oid": "882f64cbd3e19181c09798751811aaa539d7238e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4f8c82f0762ccd9614ef45de80c74457b21b24f8"
+      }
+    },
+    {
+      "canonical_repository_id": "flutter/flutter",
+      "direct": {
+        "name": "github.com/flutter/flutter",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/flutter-flutter",
+        "state": "indexed",
+        "head_oid": "5bb20d2bbde4f9ae0265f9463f6b07e5f0d1a9b1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a6ab6a5c3a458233cab98343834180e94e7f430d"
+      }
+    },
+    {
+      "canonical_repository_id": "foundationagents/metagpt",
+      "direct": {
+        "name": "github.com/FoundationAgents/MetaGPT",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/FoundationAgents-MetaGPT",
+        "state": "indexed",
+        "head_oid": "11cdf466d042aece04fc6cfd13b28e1a70341b1f",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "11cdf466d042aece04fc6cfd13b28e1a70341b1f"
+      }
+    },
+    {
+      "canonical_repository_id": "gastownhall/beads",
+      "direct": {
+        "name": "github.com/gastownhall/beads",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/gastownhall-beads",
+        "state": "indexed",
+        "head_oid": "c989b6b87d23efbdb13606e79fe5d2b8f3de9c2b",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c"
+      }
+    },
+    {
+      "canonical_repository_id": "gastownhall/gascity",
+      "direct": {
+        "name": "github.com/gastownhall/gascity",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/gastownhall-gascity",
+        "state": "indexed",
+        "head_oid": "4f37e7b892f71aaad76288f06a4337fe42ec3014",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "bd7c9dac0b305b94893f3382f66cb129536d1be4"
+      }
+    },
+    {
+      "canonical_repository_id": "genymobile/scrcpy",
+      "direct": {
+        "name": "github.com/Genymobile/scrcpy",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/Genymobile-scrcpy",
+        "state": "indexed",
+        "head_oid": "2926c06c5dc3064ae6d8db706f1a98a37cfcf3f0",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "2926c06c5dc3064ae6d8db706f1a98a37cfcf3f0"
+      }
+    },
+    {
+      "canonical_repository_id": "getsentry/sentry",
+      "direct": {
+        "name": "github.com/getsentry/sentry",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/getsentry-sentry",
+        "state": "indexed",
+        "head_oid": "ff5fc585fb5e608dc384c73c30778d28c1d2569e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "dde7031206d75f30f3d2b146a3c9437a673c2aab"
+      }
+    },
+    {
+      "canonical_repository_id": "ggml-org/llama.cpp",
+      "direct": {
+        "name": "github.com/ggml-org/llama.cpp",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ggml-org-llama.cpp",
+        "state": "indexed",
+        "head_oid": "0e4a0362239713ea95a6864a17a8de4b0ad90d62",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "555881ebc8b0fc0402b30e09258a32a7bfd13c52"
+      }
+    },
+    {
+      "canonical_repository_id": "gin-gonic/gin",
+      "direct": {
+        "name": "github.com/gin-gonic/gin",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/gin-gonic-gin",
+        "state": "indexed",
+        "head_oid": "34dac209ffb6ef85cc78c5d217bbb7ad001d68fd",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "34dac209ffb6ef85cc78c5d217bbb7ad001d68fd"
+      }
+    },
+    {
+      "canonical_repository_id": "github/issue-metrics",
+      "direct": {
+        "name": "github.com/github/issue-metrics",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/github-issue-metrics",
+        "state": "indexed",
+        "head_oid": "fc6a9befae1e1ed72e123c72886e4875225aafa1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "fc6a9befae1e1ed72e123c72886e4875225aafa1"
+      }
+    },
+    {
+      "canonical_repository_id": "github/spec-kit",
+      "direct": {
+        "name": "github.com/github/spec-kit",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/github-spec-kit",
+        "state": "indexed",
+        "head_oid": "6136706ef363ed9d4130190713c438d7dab6ce57",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "c0fe0e43cd728ebc3dd1f714343f3921510a157f"
+      }
+    },
+    {
+      "canonical_repository_id": "godotengine/godot",
+      "direct": {
+        "name": "github.com/godotengine/godot",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/godotengine-godot",
+        "state": "indexed",
+        "head_oid": "45a98064e977c70caf44b6abd1c9717d0ea736f6",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "fb1821384214b901c86793b09150d3e74b37153d"
+      }
+    },
+    {
+      "canonical_repository_id": "gohugoio/hugo",
+      "direct": {
+        "name": "github.com/gohugoio/hugo",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/gohugoio-hugo",
+        "state": "indexed",
+        "head_oid": "f961093ea9f1669ea15f1e590a481a8d8282f6f7",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "f961093ea9f1669ea15f1e590a481a8d8282f6f7"
+      }
+    },
+    {
+      "canonical_repository_id": "golang/go",
+      "direct": {
+        "name": "github.com/golang/go",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/golang-go",
+        "state": "indexed",
+        "head_oid": "63741eaa9e39deeb0854daa021ce520317b619ad",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a961f702a48edbfc044639775f4ffae692b7f0dc"
+      }
+    },
+    {
+      "canonical_repository_id": "google-gemini/gemini-cli",
+      "direct": {
+        "name": "github.com/google-gemini/gemini-cli",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/google-gemini-gemini-cli",
+        "state": "indexed",
+        "head_oid": "bef6119500b0238ad84f6396d2a6cabda9991554",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3818efbbfbf8ef029ef53a6ab1093db39971ce83"
+      }
+    },
+    {
+      "canonical_repository_id": "grafana/grafana",
+      "direct": {
+        "name": "github.com/grafana/grafana",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/grafana-grafana",
+        "state": "indexed",
+        "head_oid": "25eca762cf1668f4e8adaaec960743c8f83e9197",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ade9476f849d6f649c7fcc7614ab4d979311094c"
+      }
+    },
+    {
+      "canonical_repository_id": "graphify-labs/graphify",
+      "direct": {
+        "name": "github.com/Graphify-Labs/graphify",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/Graphify-Labs-graphify",
+        "state": "indexed",
+        "head_oid": "16442303e197650255f6dbf77c6448500bd91e51",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "66d8110a534b52df3d660b5fda5aa5461a6b667a"
+      }
+    },
+    {
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "direct": {
+        "name": "github.com/graphql-python/graphql-server",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/graphql-python-graphql-server",
+        "state": "indexed",
+        "head_oid": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "2d5ac9539307d6db22b3364a61063e050c3f20b9"
+      }
+    },
+    {
+      "canonical_repository_id": "haasonsaas/ocode",
+      "direct": {
+        "name": "github.com/haasonsaas/ocode",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/haasonsaas-ocode",
+        "state": "indexed",
+        "head_oid": "b1877260448f82269aeecfff3d36b13f0958a542",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b1877260448f82269aeecfff3d36b13f0958a542"
+      }
+    },
+    {
+      "canonical_repository_id": "hacksider/deep-live-cam",
+      "direct": {
+        "name": "github.com/hacksider/Deep-Live-Cam",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/hacksider-Deep-Live-Cam",
+        "state": "indexed",
+        "head_oid": "8234965ee8711394ccc47cadde8754b17cb34ee9",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "8234965ee8711394ccc47cadde8754b17cb34ee9"
+      }
+    },
+    {
+      "canonical_repository_id": "hakimel/reveal.js",
+      "direct": {
+        "name": "github.com/hakimel/reveal.js",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/hakimel-reveal.js",
+        "state": "indexed",
+        "head_oid": "a3b940695648aa1c5b0680bc9a5b905cf43020e5",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a3b940695648aa1c5b0680bc9a5b905cf43020e5"
+      }
+    },
+    {
+      "canonical_repository_id": "harry0703/moneyprinterturbo",
+      "direct": {
+        "name": "github.com/harry0703/MoneyPrinterTurbo",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/harry0703-MoneyPrinterTurbo",
+        "state": "indexed",
+        "head_oid": "3c4df9f5d1b9b9d239aa52fd538b7555e4d2af86",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3c4df9f5d1b9b9d239aa52fd538b7555e4d2af86"
+      }
+    },
+    {
+      "canonical_repository_id": "hiyouga/llamafactory",
+      "direct": {
+        "name": "github.com/hiyouga/LlamaFactory",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/hiyouga-LlamaFactory",
+        "state": "indexed",
+        "head_oid": "2ebe7be6116e13ccb5be38f468dcd8cd8a07a051",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "2ebe7be6116e13ccb5be38f468dcd8cd8a07a051"
+      }
+    },
+    {
+      "canonical_repository_id": "home-assistant/core",
+      "direct": {
+        "name": "github.com/home-assistant/core",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/home-assistant-core",
+        "state": "indexed",
+        "head_oid": "db089bf8c3a6ffeee761739e85865dbb4fd731ba",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "702a9cb7289e535927f5279190bcad6ffc5d3fd0"
+      }
+    },
+    {
+      "canonical_repository_id": "hoppscotch/hoppscotch",
+      "direct": {
+        "name": "github.com/hoppscotch/hoppscotch",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/hoppscotch-hoppscotch",
+        "state": "indexed",
+        "head_oid": "a4395b3e7c41541de1d769e8701ea110ba8f96c2",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a4395b3e7c41541de1d769e8701ea110ba8f96c2"
+      }
+    },
+    {
+      "canonical_repository_id": "humansignal/label-studio-ml-backend",
+      "direct": {
+        "name": "github.com/HumanSignal/label-studio-ml-backend",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/humansignal-label-studio-ml-backend",
+        "state": "indexed",
+        "head_oid": "b06ebeb81531566ea10498f3ebe4013e43d5ee1d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b06ebeb81531566ea10498f3ebe4013e43d5ee1d"
+      }
+    },
+    {
+      "canonical_repository_id": "ikamensh/flynt",
+      "direct": {
+        "name": "github.com/ikamensh/flynt",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ikamensh-flynt",
+        "state": "indexed",
+        "head_oid": "34ec5eb2d0a5d392c2eed4d81f716c5a3c5e3ac1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "34ec5eb2d0a5d392c2eed4d81f716c5a3c5e3ac1"
+      }
+    },
+    {
+      "canonical_repository_id": "immich-app/immich",
+      "direct": {
+        "name": "github.com/immich-app/immich",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/immich-app-immich",
+        "state": "indexed",
+        "head_oid": "8aa95c67470a02a8ddedf03c2e52963af33065ff",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "409734e1db36e8df09591b1867104ed7cf3a304c"
+      }
+    },
+    {
+      "canonical_repository_id": "incatools/ontology-access-kit",
+      "direct": {
+        "name": "github.com/INCATools/ontology-access-kit",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/incatools-ontology-access-kit",
+        "state": "indexed",
+        "head_oid": "65c8760b50c6e9fef3a2d782c2a4ea07b3913b42",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "65c8760b50c6e9fef3a2d782c2a4ea07b3913b42"
+      }
+    },
+    {
+      "canonical_repository_id": "infiniflow/ragflow",
+      "direct": {
+        "name": "github.com/infiniflow/ragflow",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/infiniflow-ragflow",
+        "state": "indexed",
+        "head_oid": "8b793ee1482384efabb5709f6dc674cb41b02eea",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "f4646d4a13729014ff67763b142ee1ac71eb25c8"
+      }
+    },
+    {
+      "canonical_repository_id": "influxdata/telegraf",
+      "direct": {
+        "name": "github.com/influxdata/telegraf",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/influxdata-telegraf",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "iptv-org/iptv",
+      "direct": {
+        "name": "github.com/iptv-org/iptv",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/iptv-org-iptv",
+        "state": "indexed",
+        "head_oid": "ee6d0f1c0195e67fbd7b5fea100ef0c2b2ceed43",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ee6d0f1c0195e67fbd7b5fea100ef0c2b2ceed43"
+      }
+    },
+    {
+      "canonical_repository_id": "iterative/datachain",
+      "direct": {
+        "name": "github.com/iterative/datachain",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/iterative-datachain",
+        "state": "indexed",
+        "head_oid": "2e2d9da33cd642e9788550e2c7bb4eb1d6550985",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "16782f34e471affb31cfed075191b3f0591d3635"
+      }
+    },
+    {
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "direct": {
+        "name": "github.com/jeroenterheerdt/HAsmartirrigation",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+        "state": "indexed",
+        "head_oid": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a"
+      }
+    },
+    {
+      "canonical_repository_id": "jesseduffield/lazygit",
+      "direct": {
+        "name": "github.com/jesseduffield/lazygit",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/jesseduffield-lazygit",
+        "state": "indexed",
+        "head_oid": "a5b4477a20cbede19c381f72e68abc7a4176537a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a5b4477a20cbede19c381f72e68abc7a4176537a"
+      }
+    },
+    {
+      "canonical_repository_id": "jhy/jsoup",
+      "direct": {
+        "name": "github.com/jhy/jsoup",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/jhy-jsoup",
+        "state": "indexed",
+        "head_oid": "8996fce0844e852b1e8979f5cbdb0699ac540e0a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d8c49e5ec72a08ca1ac4e08740e70dc0f47ad911"
+      }
+    },
+    {
+      "canonical_repository_id": "jkroepke/openvpn-auth-oauth2",
+      "direct": {
+        "name": "github.com/jkroepke/openvpn-auth-oauth2",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/jkroepke-openvpn-auth-oauth2",
+        "state": "indexed",
+        "head_oid": "2b3b64f528f81d9e8ef9ac352e7ff199c96a866b",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "54fd337837209daff22938ced6d1b6ea1f1d8421"
+      }
+    },
+    {
+      "canonical_repository_id": "juliangarnier/anime",
+      "direct": {
+        "name": "github.com/juliangarnier/anime",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/juliangarnier-anime",
+        "state": "indexed",
+        "head_oid": "2c9cf8ea00329f6768c7d7902252ed977d75ce42",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "2c9cf8ea00329f6768c7d7902252ed977d75ce42"
+      }
+    },
+    {
+      "canonical_repository_id": "junegunn/fzf",
+      "direct": {
+        "name": "github.com/junegunn/fzf",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/junegunn-fzf",
+        "state": "indexed",
+        "head_oid": "0efef298d2a47cf757d6deedaa804ecc0515bb28",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "0efef298d2a47cf757d6deedaa804ecc0515bb28"
+      }
+    },
+    {
+      "canonical_repository_id": "justtrackio/gosoline",
+      "direct": {
+        "name": "github.com/justtrackio/gosoline",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/justtrackio-gosoline",
+        "state": "indexed",
+        "head_oid": "c2f175bc0abe7b7cd79371305e028a1c06269c85",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "c2f175bc0abe7b7cd79371305e028a1c06269c85"
+      }
+    },
+    {
+      "canonical_repository_id": "jxxghp/moviepilot",
+      "direct": {
+        "name": "github.com/jxxghp/MoviePilot",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/jxxghp-moviepilot",
+        "state": "indexed",
+        "head_oid": "1a3c1b8b391784ea767a55e8198a6b99834a4c17",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6354a48405cf16a156c8f92da35f334aff92d26c"
+      }
+    },
+    {
+      "canonical_repository_id": "kanaries/pygwalker",
+      "direct": {
+        "name": "github.com/Kanaries/pygwalker",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/kanaries-pygwalker",
+        "state": "indexed",
+        "head_oid": "96a2c0567a05e973b62aa8d0d784cd0b75a44eff",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "8005c8bf72a2e4f3f3eedc0f1922f7d29abe926b"
+      }
+    },
+    {
+      "canonical_repository_id": "kanisterio/kanister",
+      "direct": {
+        "name": "github.com/kanisterio/kanister",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/kanisterio-kanister",
+        "state": "indexed",
+        "head_oid": "76d018ebc5286c383f60fb4bb766426d4c41b741",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "5ce3f5eb0ba33656f5ed0d2746d530b27c9c45a2"
+      }
+    },
+    {
+      "canonical_repository_id": "keephq/keep",
+      "direct": {
+        "name": "github.com/keephq/keep",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/keephq-keep",
+        "state": "indexed",
+        "head_oid": "767fec9dbe1c19b2bfc45089f5dc1c7946f36a30",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "767fec9dbe1c19b2bfc45089f5dc1c7946f36a30"
+      }
+    },
+    {
+      "canonical_repository_id": "kubernetes-sigs/cloud-provider-azure",
+      "direct": {
+        "name": "github.com/kubernetes-sigs/cloud-provider-azure",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/kubernetes-sigs-cloud-provider-azure",
+        "state": "indexed",
+        "head_oid": "cfd3073604093328c747b80a6203e913e1566f63",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4128235349f81a3f45d1f9e89f6c72a6a43a1ea2"
+      }
+    },
+    {
+      "canonical_repository_id": "kubernetes/kubernetes",
+      "direct": {
+        "name": "github.com/kubernetes/kubernetes",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/kubernetes-kubernetes",
+        "state": "indexed",
+        "head_oid": "42850664fd99edca42ca8bbfd20ecfb197fdbdc7",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "2a5a1c06c4bb33424a8253d876a094cc01957b07"
+      }
+    },
+    {
+      "canonical_repository_id": "langbot-app/langbot",
+      "direct": {
+        "name": "github.com/langbot-app/LangBot",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/langbot-app-langbot",
+        "state": "indexed",
+        "head_oid": "3ca724d18ebb0567908a2b8d6d8bad4d2edfa96f",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "38e35d328a13f6561c14a21ea734c2fa75c0e4d7"
+      }
+    },
+    {
+      "canonical_repository_id": "langchain-ai/langchain",
+      "direct": {
+        "name": "github.com/langchain-ai/langchain",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/langchain-ai-langchain",
+        "state": "indexed",
+        "head_oid": "73160209c3e60a8311f6e3402686d8982d735f83",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "fa7ce760a26437a904a4c93db75333f01d65ed83"
+      }
+    },
+    {
+      "canonical_repository_id": "langflow-ai/langflow",
+      "direct": {
+        "name": "github.com/langflow-ai/langflow",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/langflow-ai-langflow",
+        "state": "indexed",
+        "head_oid": "ce17f022bed0eac943a723b9b6c74a023e819b60",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ce17f022bed0eac943a723b9b6c74a023e819b60"
+      }
+    },
+    {
+      "canonical_repository_id": "langgenius/dify",
+      "direct": {
+        "name": "github.com/langgenius/dify",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/langgenius-dify",
+        "state": "indexed",
+        "head_oid": "f68cabe2267295fbfb10341ea53f31b65f0a97c5",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "58f83fa7e749a4a82c714d802e3f964c124e800e"
+      }
+    },
+    {
+      "canonical_repository_id": "laravel/laravel",
+      "direct": {
+        "name": "github.com/laravel/laravel",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/laravel-laravel",
+        "state": "indexed",
+        "head_oid": "2eb457783ee0e1f034612c2fae690924532d4ca4",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "2eb457783ee0e1f034612c2fae690924532d4ca4"
+      }
+    },
+    {
+      "canonical_repository_id": "levigross/grequests",
+      "direct": {
+        "name": "github.com/levigross/grequests",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/levigross-grequests",
+        "state": "indexed",
+        "head_oid": "05add15eea25fc3d11c8b19c661c74187db21949",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "05add15eea25fc3d11c8b19c661c74187db21949"
+      }
+    },
+    {
+      "canonical_repository_id": "lobehub/lobehub",
+      "direct": {
+        "name": "github.com/lobehub/lobehub",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/lobehub-lobehub",
+        "state": "indexed",
+        "head_oid": "968c258cb6923ffacd92fc95541a0f08c1c29e99",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "407da050ca481d250bc2fd28d7cc7be2d4e83010"
+      }
+    },
+    {
+      "canonical_repository_id": "localsend/localsend",
+      "direct": {
+        "name": "github.com/localsend/localsend",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/localsend-localsend",
+        "state": "indexed",
+        "head_oid": "c92866b5be7f7834b0b604661f7db3ca027dd37e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "c92866b5be7f7834b0b604661f7db3ca027dd37e"
+      }
+    },
+    {
+      "canonical_repository_id": "louislam/uptime-kuma",
+      "direct": {
+        "name": "github.com/louislam/uptime-kuma",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/louislam-uptime-kuma",
+        "state": "indexed",
+        "head_oid": "1aa80912e73c17d525d232073c4c8d757f8e38ab",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "1aa80912e73c17d525d232073c4c8d757f8e38ab"
+      }
+    },
+    {
+      "canonical_repository_id": "marimo-team/marimo",
+      "direct": {
+        "name": "github.com/marimo-team/marimo",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/marimo-team-marimo",
+        "state": "indexed",
+        "head_oid": "12011a45ac07bf63b6398044e2fb123f7c8c5035",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "f514eddcf62a5d48b1bc6fab8d32d8418c60fff3"
+      }
+    },
+    {
+      "canonical_repository_id": "mermaid-js/mermaid",
+      "direct": {
+        "name": "github.com/mermaid-js/mermaid",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/mermaid-js-mermaid",
+        "state": "indexed",
+        "head_oid": "46d72558156421f69b8b2d2af7d4525523e043d3",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "46d72558156421f69b8b2d2af7d4525523e043d3"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/azuretre",
+      "direct": {
+        "name": "github.com/microsoft/AzureTRE",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-azuretre",
+        "state": "indexed",
+        "head_oid": "183fdccc3252c8a85059ceffa58bd58ed8322254",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "f1729ba39d4cdcede3f0105001e9aab9055d9396"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/debug-gym",
+      "direct": {
+        "name": "github.com/microsoft/debug-gym",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-debug-gym",
+        "state": "indexed",
+        "head_oid": "cc3fe3ef4ce08919e522eb00ea1bea5689f3b53e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "cc3fe3ef4ce08919e522eb00ea1bea5689f3b53e"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/go-mssqldb",
+      "direct": {
+        "name": "github.com/microsoft/go-mssqldb",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-go-mssqldb",
+        "state": "indexed",
+        "head_oid": "4f78540e675cba90350119613eea68dbbd766e7d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4f78540e675cba90350119613eea68dbbd766e7d"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/go-sqlcmd",
+      "direct": {
+        "name": "github.com/microsoft/go-sqlcmd",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-go-sqlcmd",
+        "state": "indexed",
+        "head_oid": "a9e3ab59eaef20337e5c8e3ee2324058f17bc0ec",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a9e3ab59eaef20337e5c8e3ee2324058f17bc0ec"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/graphrag",
+      "direct": {
+        "name": "github.com/microsoft/graphrag",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-graphrag",
+        "state": "indexed",
+        "head_oid": "14a00ad88fc33cf2b52f4f113f25807556f8e25e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "14a00ad88fc33cf2b52f4f113f25807556f8e25e"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/lisa",
+      "direct": {
+        "name": "github.com/microsoft/lisa",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-lisa",
+        "state": "indexed",
+        "head_oid": "a1cadcda01bae4e4e19ec24b01a9c15be7244640",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ba9762595b01388291ca3c073b2bbe862da9bdbe"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/magentic-ui",
+      "direct": {
+        "name": "github.com/microsoft/magentic-ui",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-magentic-ui",
+        "state": "indexed",
+        "head_oid": "d3c9d13c39288257286a66daabf7c5b5fb72ee69",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d3c9d13c39288257286a66daabf7c5b5fb72ee69"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/markitdown",
+      "direct": {
+        "name": "github.com/microsoft/markitdown",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-markitdown",
+        "state": "indexed",
+        "head_oid": "2e42a01c404629b06892a1bdb5e7bf5261770c40",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "2e42a01c404629b06892a1bdb5e7bf5261770c40"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/olive",
+      "direct": {
+        "name": "github.com/microsoft/Olive",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-olive",
+        "state": "indexed",
+        "head_oid": "f12401efe3e5761db16fa0326906be7ab07e7d61",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "f12401efe3e5761db16fa0326906be7ab07e7d61"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/playwright",
+      "direct": {
+        "name": "github.com/microsoft/playwright",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-playwright",
+        "state": "indexed",
+        "head_oid": "59120d0639ddfe834c387232b22b06fec31e8f59",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3827650d171cc1b035cbefb7e00bf5948d6809df"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/powertoys",
+      "direct": {
+        "name": "github.com/microsoft/PowerToys",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-PowerToys",
+        "state": "indexed",
+        "head_oid": "fc680d350f74f1f4eec8a64296420e614724e74d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "fc680d350f74f1f4eec8a64296420e614724e74d"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/qcodes",
+      "direct": {
+        "name": "github.com/microsoft/Qcodes",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-qcodes",
+        "state": "indexed",
+        "head_oid": "e347cd752ef3bd050c8959af6c8b25b869585f48",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3ef949464da5e91ad21eafdad0c0c0eedf4c195f"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/rd-agent",
+      "direct": {
+        "name": "github.com/microsoft/RD-Agent",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-rd-agent",
+        "state": "indexed",
+        "head_oid": "4f9ecb005881cddc08df0124a2e894c018007679",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4f9ecb005881cddc08df0124a2e894c018007679"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/retina",
+      "direct": {
+        "name": "github.com/microsoft/retina",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-retina",
+        "state": "indexed",
+        "head_oid": "8fa4ba15fece025d899fe2dc77390e0391be79dc",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4909dbc3f38ed95466c2f148cf930dd265c4c1bb"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/terminal",
+      "direct": {
+        "name": "github.com/microsoft/terminal",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-terminal",
+        "state": "indexed",
+        "head_oid": "4f225a56aff245bbb9d1400f266c20e1747cc580",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4f225a56aff245bbb9d1400f266c20e1747cc580"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/typescript",
+      "direct": {
+        "name": "github.com/microsoft/TypeScript",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-TypeScript",
+        "state": "indexed",
+        "head_oid": "cc5c6e2d32e2228fff83a66537bbe6042943054d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "cc5c6e2d32e2228fff83a66537bbe6042943054d"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/typescript-go",
+      "direct": {
+        "name": "github.com/microsoft/typescript-go",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-typescript-go",
+        "state": "indexed",
+        "head_oid": "e0e361b809122115776e17bafa54fc04f7fd8a08",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "8d29e62f3585c2fb5179e4412895aa3a8f40b9f5"
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/vscode",
+      "direct": {
+        "name": "github.com/microsoft/vscode",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/microsoft-vscode",
+        "state": "indexed",
+        "head_oid": "7f590c39d91fc22058a450b2e4d7bf11df6b482f",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e04b6ae5cc95d3f73d7dec621d98a2257936f091"
+      }
+    },
+    {
+      "canonical_repository_id": "moby/moby",
+      "direct": {
+        "name": "github.com/moby/moby",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/moby-moby",
+        "state": "indexed",
+        "head_oid": "455591864a6e1b24d490f37b7041e730bfe03387",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7a4a06cc8976c8001160942e66d688cf91f8d633"
+      }
+    },
+    {
+      "canonical_repository_id": "mochilang/mochi",
+      "direct": {
+        "name": "github.com/mochilang/mochi",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/mochilang-mochi",
+        "state": "indexed",
+        "head_oid": "d09ff8d479f0e855b1d20216873d19279d3a5fdc",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d09ff8d479f0e855b1d20216873d19279d3a5fdc"
+      }
+    },
+    {
+      "canonical_repository_id": "modelcontextprotocol/registry",
+      "direct": {
+        "name": "github.com/modelcontextprotocol/registry",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/modelcontextprotocol-registry",
+        "state": "indexed",
+        "head_oid": "0b5cc0f6a9ba326d7982b4f03ea7da83bf7817a2",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "29e32c39dcb5e0e2b43974089d959fcc4794eb6d"
+      }
+    },
+    {
+      "canonical_repository_id": "modelcontextprotocol/servers",
+      "direct": {
+        "name": "github.com/modelcontextprotocol/servers",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/modelcontextprotocol-servers",
+        "state": "indexed",
+        "head_oid": "d31124c982401739917fd817c2a59db344529c16",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d31124c982401739917fd817c2a59db344529c16"
+      }
+    },
+    {
+      "canonical_repository_id": "mrdoob/three.js",
+      "direct": {
+        "name": "github.com/mrdoob/three.js",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/mrdoob-three.js",
+        "state": "indexed",
+        "head_oid": "3cc8908cad65fe9a75c4fcf29c4f897c593443d5",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "bb24effff0ada930c7fa2c0254e17d1a1af1c90a"
+      }
+    },
+    {
+      "canonical_repository_id": "msitarzewski/agency-agents",
+      "direct": {
+        "name": "github.com/msitarzewski/agency-agents",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/msitarzewski-agency-agents",
+        "state": "indexed",
+        "head_oid": "8ef49232e02431f7ca4792b487e5a85a7939ff3a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "8ef49232e02431f7ca4792b487e5a85a7939ff3a"
+      }
+    },
+    {
+      "canonical_repository_id": "mui/material-ui",
+      "direct": {
+        "name": "github.com/mui/material-ui",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/mui-material-ui",
+        "state": "indexed",
+        "head_oid": "4d5fe7254baa7e97e38b516f37c7af13128468b7",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4d5fe7254baa7e97e38b516f37c7af13128468b7"
+      }
+    },
+    {
+      "canonical_repository_id": "n8n-io/n8n",
+      "direct": {
+        "name": "github.com/n8n-io/n8n",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/n8n-io-n8n",
+        "state": "indexed",
+        "head_oid": "fd5bc7da2801e4bf8cad6937e7e059accf5e9407",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "5339b5e48a2b844958ba20cbc8c68f8256104604"
+      }
+    },
+    {
+      "canonical_repository_id": "nationalsecurityagency/ghidra",
+      "direct": {
+        "name": "github.com/NationalSecurityAgency/ghidra",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/NationalSecurityAgency-ghidra",
+        "state": "indexed",
+        "head_oid": "30d4a5a70d363a96ee531b9211c769259652b11b",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "817766af27129d6e88aa4d895ce55c9f1526faec"
+      }
+    },
+    {
+      "canonical_repository_id": "navidrome/navidrome",
+      "direct": {
+        "name": "github.com/navidrome/navidrome",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/navidrome-navidrome",
+        "state": "indexed",
+        "head_oid": "ecf606e52320b87d099991f4f3da87913523c303",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "93f6afb684b44b29ebdbd35eb18d3f063d14caa6"
+      }
+    },
+    {
+      "canonical_repository_id": "nearai/nearai",
+      "direct": {
+        "name": "github.com/nearai/nearai",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/nearai-nearai",
+        "state": "indexed",
+        "head_oid": "98e5f2c82ad340c90101e04ed0620056b559c79f",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "98e5f2c82ad340c90101e04ed0620056b559c79f"
+      }
+    },
+    {
+      "canonical_repository_id": "nektos/act",
+      "direct": {
+        "name": "github.com/nektos/act",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/nektos-act",
+        "state": "indexed",
+        "head_oid": "4f411281417e88660bea1c1a1749aa71ae0bd60f",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4f411281417e88660bea1c1a1749aa71ae0bd60f"
+      }
+    },
+    {
+      "canonical_repository_id": "neovim/neovim",
+      "direct": {
+        "name": "github.com/neovim/neovim",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/neovim-neovim",
+        "state": "indexed",
+        "head_oid": "fbcb7a056cef7a5efd7aa7f494365a04b1c86895",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "89cab37358a49f7bfe7f3d40b75f8b3a4a573222"
+      }
+    },
+    {
+      "canonical_repository_id": "nestjs/nest",
+      "direct": {
+        "name": "github.com/nestjs/nest",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/nestjs-nest",
+        "state": "indexed",
+        "head_oid": "d8ee0143bdd76b2e81b460a196c15a9387b73ee2",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d8ee0143bdd76b2e81b460a196c15a9387b73ee2"
+      }
+    },
+    {
+      "canonical_repository_id": "newfuture/ddns",
+      "direct": {
+        "name": "github.com/NewFuture/DDNS",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/newfuture-ddns",
+        "state": "indexed",
+        "head_oid": "024ba4a3368b767c92a5f1a7fcdd28a72bf07ff7",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "024ba4a3368b767c92a5f1a7fcdd28a72bf07ff7"
+      }
+    },
+    {
+      "canonical_repository_id": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "direct": {
+        "name": "github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/nextlevelbuilder-ui-ux-pro-max-skill",
+        "state": "indexed",
+        "head_oid": "1307d97a72e6c1cda572cb65471ae5ce82995218",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "1307d97a72e6c1cda572cb65471ae5ce82995218"
+      }
+    },
+    {
+      "canonical_repository_id": "nexu-io/open-design",
+      "direct": {
+        "name": "github.com/nexu-io/open-design",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/nexu-io-open-design",
+        "state": "indexed",
+        "head_oid": "99c13e083e070f44aaa0009b2fc96589118c2a9a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "99c13e083e070f44aaa0009b2fc96589118c2a9a"
+      }
+    },
+    {
+      "canonical_repository_id": "nikolaydubina/go-instrument",
+      "direct": {
+        "name": "github.com/nikolaydubina/go-instrument",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/nikolaydubina-go-instrument",
+        "state": "indexed",
+        "head_oid": "d25129795c9c6dcf6136ca4fc270548e2bb2cfbe",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d25129795c9c6dcf6136ca4fc270548e2bb2cfbe"
+      }
+    },
+    {
+      "canonical_repository_id": "nodejs/node",
+      "direct": {
+        "name": "github.com/nodejs/node",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/nodejs-node",
+        "state": "indexed",
+        "head_oid": "6a3d80fb49c50494fe987a22708634ce720e9272",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b420cb649d497051f4686cf3cddf4f276d6682b0"
+      }
+    },
+    {
+      "canonical_repository_id": "noneback/go-taskflow",
+      "direct": {
+        "name": "github.com/noneback/go-taskflow",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/noneback-go-taskflow",
+        "state": "indexed",
+        "head_oid": "fa25657f5be3bfb5d21844c215de0c2864447893",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "fa25657f5be3bfb5d21844c215de0c2864447893"
+      }
+    },
+    {
+      "canonical_repository_id": "nousresearch/atropos",
+      "direct": {
+        "name": "github.com/NousResearch/atropos",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/nousresearch-atropos",
+        "state": "indexed",
+        "head_oid": "296a0bc55760e43b9c0743c052f8d6c2732606d1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "296a0bc55760e43b9c0743c052f8d6c2732606d1"
+      }
+    },
+    {
+      "canonical_repository_id": "nousresearch/hermes-agent",
+      "direct": {
+        "name": "github.com/NousResearch/hermes-agent",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/NousResearch-hermes-agent",
+        "state": "indexed",
+        "head_oid": "5646fed97eac67c5ec5b21e5c491309d8c97639d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "8dc99787418e5b10720c0a7a432addc02deef322"
+      }
+    },
+    {
+      "canonical_repository_id": "numbagg/numbagg",
+      "direct": {
+        "name": "github.com/numbagg/numbagg",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/numbagg-numbagg",
+        "state": "indexed",
+        "head_oid": "e3031242270006b8652ad754a60202a8b6ea6387",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "038beeeedb5755519370638e463acdcaf374f535"
+      }
+    },
+    {
+      "canonical_repository_id": "nvm-sh/nvm",
+      "direct": {
+        "name": "github.com/nvm-sh/nvm",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/nvm-sh-nvm",
+        "state": "indexed",
+        "head_oid": "65ded65d46c16481dbbe8e93f8ba9e6b35f20740",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "65ded65d46c16481dbbe8e93f8ba9e6b35f20740"
+      }
+    },
+    {
+      "canonical_repository_id": "obra/superpowers",
+      "direct": {
+        "name": "github.com/obra/superpowers",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/obra-superpowers",
+        "state": "indexed",
+        "head_oid": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9"
+      }
+    },
+    {
+      "canonical_repository_id": "obsproject/obs-studio",
+      "direct": {
+        "name": "github.com/obsproject/obs-studio",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/obsproject-obs-studio",
+        "state": "indexed",
+        "head_oid": "0052d024fd6a5ff1aa04c76cbdffd3085a5dfacc",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "0052d024fd6a5ff1aa04c76cbdffd3085a5dfacc"
+      }
+    },
+    {
+      "canonical_repository_id": "ocornut/imgui",
+      "direct": {
+        "name": "github.com/ocornut/imgui",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ocornut-imgui",
+        "state": "indexed",
+        "head_oid": "d94d0f3649c99d9a026518214f796aaacde707fe",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d94d0f3649c99d9a026518214f796aaacde707fe"
+      }
+    },
+    {
+      "canonical_repository_id": "odigos-io/odigos",
+      "direct": {
+        "name": "github.com/odigos-io/odigos",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/odigos-io-odigos",
+        "state": "indexed",
+        "head_oid": "b13a47d1bb3c27a6d41fedd20ed28c8792f98af9",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "5ff48b941911618a37264079fc37252f1d26616c"
+      }
+    },
+    {
+      "canonical_repository_id": "oevortex/webscout",
+      "direct": {
+        "name": "github.com/OEvortex/Webscout",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/oevortex-webscout",
+        "state": "indexed",
+        "head_oid": "b27f6214c3acc46357a5b6315e96bc874157b316",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b27f6214c3acc46357a5b6315e96bc874157b316"
+      }
+    },
+    {
+      "canonical_repository_id": "ohmyzsh/ohmyzsh",
+      "direct": {
+        "name": "github.com/ohmyzsh/ohmyzsh",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ohmyzsh-ohmyzsh",
+        "state": "indexed",
+        "head_oid": "b37dd49ca5bfe0d99b35607637152cb8cc8b29d7",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b37dd49ca5bfe0d99b35607637152cb8cc8b29d7"
+      }
+    },
+    {
+      "canonical_repository_id": "ollama/ollama",
+      "direct": {
+        "name": "github.com/ollama/ollama",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ollama-ollama",
+        "state": "indexed",
+        "head_oid": "eec8e0b9458b8a01be0c216a9cc53eefde24ef50",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "9eef4a7195dc8ad246e697a5251a8df344a56880"
+      }
+    },
+    {
+      "canonical_repository_id": "onflow/flow-go",
+      "direct": {
+        "name": "github.com/onflow/flow-go",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/onflow-flow-go",
+        "state": "indexed",
+        "head_oid": "77ab50b717c86a4d2f5f8e1527fede8a106f9052",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6912435382fc51b6c5b1bba9aa3838392cecd2ca"
+      }
+    },
+    {
+      "canonical_repository_id": "onnx/onnx",
+      "direct": {
+        "name": "github.com/onnx/onnx",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/onnx-onnx",
+        "state": "indexed",
+        "head_oid": "da71a46bf43b202be9792f2e0dc45fa02fa85a39",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "da71a46bf43b202be9792f2e0dc45fa02fa85a39"
+      }
+    },
+    {
+      "canonical_repository_id": "onyx-dot-app/onyx",
+      "direct": {
+        "name": "github.com/onyx-dot-app/onyx",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/onyx-dot-app-onyx",
+        "state": "indexed",
+        "head_oid": "f683aa988869e92a98509a48f27e657f36cdc44a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "062f50a26c482f9b63fdc3bdf7b45edb029d2842"
+      }
+    },
+    {
+      "canonical_repository_id": "open-webui/open-webui",
+      "direct": {
+        "name": "github.com/open-webui/open-webui",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/open-webui-open-webui",
+        "state": "indexed",
+        "head_oid": "ecd48e2f718220a6400ecf49eafd4867a38feb10",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ecd48e2f718220a6400ecf49eafd4867a38feb10"
+      }
+    },
+    {
+      "canonical_repository_id": "open5e/open5e-api",
+      "direct": {
+        "name": "github.com/open5e/open5e-api",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/open5e-open5e-api",
+        "state": "indexed",
+        "head_oid": "d4276c586d79f2a27bf2b814aed151cf57605283",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d4276c586d79f2a27bf2b814aed151cf57605283"
+      }
+    },
+    {
+      "canonical_repository_id": "openai/codex",
+      "direct": {
+        "name": "github.com/openai/codex",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/openai-codex",
+        "state": "indexed",
+        "head_oid": "8495963ac6d15a3ac891517d979f5509d55605c0",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a4535884169be8da2f81b8a4debecbd4dc11aa97"
+      }
+    },
+    {
+      "canonical_repository_id": "openai/openai-cookbook",
+      "direct": {
+        "name": "github.com/openai/openai-cookbook",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/openai-openai-cookbook",
+        "state": "indexed",
+        "head_oid": "e65bbfc454036e38e27c863c13ff3b3996daed87",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e65bbfc454036e38e27c863c13ff3b3996daed87"
+      }
+    },
+    {
+      "canonical_repository_id": "openai/whisper",
+      "direct": {
+        "name": "github.com/openai/whisper",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/openai-whisper",
+        "state": "indexed",
+        "head_oid": "04f449b8a437f1bbd3dba5c9f826aca972e7709a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "04f449b8a437f1bbd3dba5c9f826aca972e7709a"
+      }
+    },
+    {
+      "canonical_repository_id": "openclaw/openclaw",
+      "direct": {
+        "name": "github.com/openclaw/openclaw",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/openclaw-openclaw",
+        "state": "indexed",
+        "head_oid": "52e519220cea9cf91904e927d63d2dc6ff8f8b78",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "872ba27ff3633f9b8458c50920ed6c1ac7e3f15d"
+      }
+    },
+    {
+      "canonical_repository_id": "opendatalab/mineru",
+      "direct": {
+        "name": "github.com/opendatalab/MinerU",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/opendatalab-MinerU",
+        "state": "indexed",
+        "head_oid": "79d6d8d79fb8f3ddba5cc34c07a16f0ec36f56c7",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "79d6d8d79fb8f3ddba5cc34c07a16f0ec36f56c7"
+      }
+    },
+    {
+      "canonical_repository_id": "openfga/openfga",
+      "direct": {
+        "name": "github.com/openfga/openfga",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/openfga-openfga",
+        "state": "indexed",
+        "head_oid": "1586caae409045a87c1c9894114417daa27ef0f8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "da9354f7e6704cef47e620ffa2e08212c08d5ad3"
+      }
+    },
+    {
+      "canonical_repository_id": "openhands/openhands",
+      "direct": {
+        "name": "github.com/OpenHands/OpenHands",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/OpenHands-OpenHands",
+        "state": "indexed",
+        "head_oid": "185ba90f1cd12d4535d3a03a3a4eb065f5ef34c8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "652503005093d18d1b2f48816c91d62e93f45970"
+      }
+    },
+    {
+      "canonical_repository_id": "openttd/openttd",
+      "direct": {
+        "name": "github.com/OpenTTD/OpenTTD",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/openttd-openttd",
+        "state": "indexed",
+        "head_oid": "a6b1b3ac4454e7e4b084a5469b0655958bba2fca",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7f1946f996fefa35894527c0e5944c00fe527872"
+      }
+    },
+    {
+      "canonical_repository_id": "oraios/serena",
+      "direct": {
+        "name": "github.com/oraios/serena",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/oraios-serena",
+        "state": "indexed",
+        "head_oid": "9a9d07e83d8c1cba3458992707f440c624446c6d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "33b042ad067a1240e457f5616b9cdfe1ff49e92c"
+      }
+    },
+    {
+      "canonical_repository_id": "oras-project/oras",
+      "direct": {
+        "name": "github.com/oras-project/oras",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/oras-project-oras",
+        "state": "indexed",
+        "head_oid": "e5f2178b4079d78b68fb2a31ac88543a6ab81722",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e5f2178b4079d78b68fb2a31ac88543a6ab81722"
+      }
+    },
+    {
+      "canonical_repository_id": "oven-sh/bun",
+      "direct": {
+        "name": "github.com/oven-sh/bun",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/oven-sh-bun",
+        "state": "indexed",
+        "head_oid": "4eb6f99c1afeae07a7445218c25b3b742b643f11",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "27b2df9b015904c2b3e8b0618328d60096fcb792"
+      }
+    },
+    {
+      "canonical_repository_id": "paddlepaddle/paddleocr",
+      "direct": {
+        "name": "github.com/PaddlePaddle/PaddleOCR",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/PaddlePaddle-PaddleOCR",
+        "state": "indexed",
+        "head_oid": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854"
+      }
+    },
+    {
+      "canonical_repository_id": "pallets/flask",
+      "direct": {
+        "name": "github.com/pallets/flask",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/pallets-flask",
+        "state": "indexed",
+        "head_oid": "36e4a824f340fdee7ed50937ba8e7f6bc7d17f81",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "36e4a824f340fdee7ed50937ba8e7f6bc7d17f81"
+      }
+    },
+    {
+      "canonical_repository_id": "paperclipai/paperclip",
+      "direct": {
+        "name": "github.com/paperclipai/paperclip",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/paperclipai-paperclip",
+        "state": "indexed",
+        "head_oid": "273315a4d01a002cc4ecc5e9e7192ad7a32e91b6",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "cca2806e57c272ed919b1cde224d3d2a23d2f668"
+      }
+    },
+    {
+      "canonical_repository_id": "patched-codes/patchwork",
+      "direct": {
+        "name": "github.com/patched-codes/patchwork",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/patched-codes-patchwork",
+        "state": "indexed",
+        "head_oid": "21948cbec44d3b7aec30715923ac7a0cd3fb1155",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "21948cbec44d3b7aec30715923ac7a0cd3fb1155"
+      }
+    },
+    {
+      "canonical_repository_id": "pewdiepie-archdaemon/odysseus",
+      "direct": {
+        "name": "github.com/pewdiepie-archdaemon/odysseus",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/pewdiepie-archdaemon-odysseus",
+        "state": "indexed",
+        "head_oid": "d8a2059df8e53bc7275c45339849d14c8651e73c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d8a2059df8e53bc7275c45339849d14c8651e73c"
+      }
+    },
+    {
+      "canonical_repository_id": "pkgconf/pkgconf",
+      "direct": {
+        "name": "github.com/pkgconf/pkgconf",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/pkgconf-pkgconf",
+        "state": "indexed",
+        "head_oid": "3f138a4e366eb0a917c228970aa151e92c57fa8e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3f138a4e366eb0a917c228970aa151e92c57fa8e"
+      }
+    },
+    {
+      "canonical_repository_id": "poezio/poezio",
+      "direct": {
+        "name": "codeberg.org/poezio/poezio",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/poezio-poezio",
+        "state": "indexed",
+        "head_oid": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5"
+      }
+    },
+    {
+      "canonical_repository_id": "postmarketos/pmbootstrap",
+      "direct": {
+        "name": "gitlab.postmarketos.org/postmarketOS/pmbootstrap",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/postmarketos-pmbootstrap",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "pouchdb/pouchdb",
+      "direct": {
+        "name": "github.com/pouchdb/pouchdb",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/pouchdb-pouchdb",
+        "state": "indexed",
+        "head_oid": "bda1115ce96e45bdfcb493db7ce2c315051d5c0b",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "70b9de3c2072fa97e4b5b97cb74faa712ac184e0"
+      }
+    },
+    {
+      "canonical_repository_id": "prequel-dev/preq",
+      "direct": {
+        "name": "github.com/prequel-dev/preq",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/prequel-dev-preq",
+        "state": "indexed",
+        "head_oid": "4a790baf3317289bda72b69c3ae9236541524668",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4a790baf3317289bda72b69c3ae9236541524668"
+      }
+    },
+    {
+      "canonical_repository_id": "protocolbuffers/protobuf",
+      "direct": {
+        "name": "github.com/protocolbuffers/protobuf",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/protocolbuffers-protobuf",
+        "state": "indexed",
+        "head_oid": "baa02c14dab2e78e4ae9ed0764b81fb997541362",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "44fa35f8607515ce7172ed7e96829cd7e45a71f7"
+      }
+    },
+    {
+      "canonical_repository_id": "public-apis/public-apis",
+      "direct": {
+        "name": "github.com/public-apis/public-apis",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/public-apis-public-apis",
+        "state": "indexed",
+        "head_oid": "c4cfee67d61923e500d64ca382f499ff93e52ba8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b3442b2ee646b1283561e37ed81729aa851b38ee"
+      }
+    },
+    {
+      "canonical_repository_id": "puppeteer/puppeteer",
+      "direct": {
+        "name": "github.com/puppeteer/puppeteer",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/puppeteer-puppeteer",
+        "state": "indexed",
+        "head_oid": "06442aeb8b03fb9effb32bd261a9bffa0b45603a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "06442aeb8b03fb9effb32bd261a9bffa0b45603a"
+      }
+    },
+    {
+      "canonical_repository_id": "python/cpython",
+      "direct": {
+        "name": "github.com/python/cpython",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/python-cpython",
+        "state": "indexed",
+        "head_oid": "85c8bcee6780bd7e6730fe3550e9b65bbf62ff56",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "59e67c284d3e8dcb708e473cfca02b1307c9cd0a"
+      }
+    },
+    {
+      "canonical_repository_id": "pythonnest/pynest",
+      "direct": {
+        "name": "github.com/PythonNest/PyNest",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/pythonnest-pynest",
+        "state": "indexed",
+        "head_oid": "371f55480d9a7f4bbf1a7fbc964ab951ca28beb2",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "371f55480d9a7f4bbf1a7fbc964ab951ca28beb2"
+      }
+    },
+    {
+      "canonical_repository_id": "qemu-project/qemu",
+      "direct": {
+        "name": "gitlab.com/qemu-project/qemu",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/qemu-project-qemu",
+        "state": "indexed",
+        "head_oid": "631c872614aca91eaf947c1748f0f27f99635d92",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "300438ffbb8d9430cac2fcc15cba6f482b2c0587"
+      }
+    },
+    {
+      "canonical_repository_id": "qemu/qemu",
+      "direct": {
+        "name": "github.com/qemu/qemu",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/qemu-qemu",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "quantalogic/quantalogic",
+      "direct": {
+        "name": "github.com/quantalogic/quantalogic",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/quantalogic-quantalogic",
+        "state": "indexed",
+        "head_oid": "47c6987353d57369a5eb46205f346078ab00dcd8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "47c6987353d57369a5eb46205f346078ab00dcd8"
+      }
+    },
+    {
+      "canonical_repository_id": "radius-project/radius",
+      "direct": {
+        "name": "github.com/radius-project/radius",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/radius-project-radius",
+        "state": "indexed",
+        "head_oid": "78ebc96bfb7616380a15edd15db56d0a655f57a4",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e2bdba243ebc48c75406852f8438008c172d3644"
+      }
+    },
+    {
+      "canonical_repository_id": "ray-project/ray",
+      "direct": {
+        "name": "github.com/ray-project/ray",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ray-project-ray",
+        "state": "indexed",
+        "head_oid": "ace0b67aaad58d6d7200c9c210ed8cfeafa64ca1",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b7df7cdcb942e5410dcbd2bba91fceb4d1143841"
+      }
+    },
+    {
+      "canonical_repository_id": "react/react",
+      "direct": {
+        "name": "github.com/react/react",
+        "state": "indexed",
+        "head_oid": "9ceb1e7d9e20bd0302cf6ab31b038c5ec673178d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b685b40d870b90a975da28c8d22ecf0ba910b1a1"
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/react-react",
+        "state": "indexed",
+        "head_oid": "28cd4bb08f1b66808bede284fca978cc9b065154",
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "react/react-native",
+      "direct": {
+        "name": "github.com/react/react-native",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/react-react-native",
+        "state": "indexed",
+        "head_oid": "5e40a1771e676169db9abcec623bc0e740da6628",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "834721f124636c3d326a25e9ff6608026ab856df"
+      }
+    },
+    {
+      "canonical_repository_id": "realworld-apps/realworld",
+      "direct": {
+        "name": "github.com/realworld-apps/realworld",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/realworld-apps-realworld",
+        "state": "indexed",
+        "head_oid": "98f29fb3f8bcb1dd614b91f2851371bf22c34775",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "98f29fb3f8bcb1dd614b91f2851371bf22c34775"
+      }
+    },
+    {
+      "canonical_repository_id": "redis/redis",
+      "direct": {
+        "name": "github.com/redis/redis",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/redis-redis",
+        "state": "indexed",
+        "head_oid": "d6f09b8ee22c3433d4ba91e3163814baa4043c75",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b53f65d9b471ee264293976805ad6c896171e3ed"
+      }
+    },
+    {
+      "canonical_repository_id": "reflex-dev/reflex",
+      "direct": {
+        "name": "github.com/reflex-dev/reflex",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/reflex-dev-reflex",
+        "state": "indexed",
+        "head_oid": "1358e001c2471e3ab577781990ca7f4a9c4db4f4",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "586fac3f51fd02a49f2022c9f9d2b4d82d6455a0"
+      }
+    },
+    {
+      "canonical_repository_id": "reflex-dev/reflex-web",
+      "direct": {
+        "name": "github.com/reflex-dev/reflex-web",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/reflex-dev-reflex-web",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "roeniss/dhlottery-api",
+      "direct": {
+        "name": "github.com/roeniss/dhlottery-api",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/roeniss-dhlottery-api",
+        "state": "indexed",
+        "head_oid": "0d5b7566af42a1e31638650aeec44ddd232718a4",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "0d5b7566af42a1e31638650aeec44ddd232718a4"
+      }
+    },
+    {
+      "canonical_repository_id": "rqlite/rqlite",
+      "direct": {
+        "name": "github.com/rqlite/rqlite",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/rqlite-rqlite",
+        "state": "indexed",
+        "head_oid": "67aa42aa140b676f8e330c0eef3584b0de46fead",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "df4edc42bada95cbe2c3445542020ea23a318827"
+      }
+    },
+    {
+      "canonical_repository_id": "rtk-ai/rtk",
+      "direct": {
+        "name": "github.com/rtk-ai/rtk",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/rtk-ai-rtk",
+        "state": "indexed",
+        "head_oid": "1c5f164089d58d21bbc83f95e565495f7924d896",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "bee2178ad2308d3d697f6c5e759af6374a921528"
+      }
+    },
+    {
+      "canonical_repository_id": "rust-lang/rust",
+      "direct": {
+        "name": "github.com/rust-lang/rust",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/rust-lang-rust",
+        "state": "indexed",
+        "head_oid": "4fefe3656700e5528edddc2336667818917dfc70",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "da86f4d0726be475afbbffe40cb2f65741c51ad3"
+      }
+    },
+    {
+      "canonical_repository_id": "rustdesk/rustdesk",
+      "direct": {
+        "name": "github.com/rustdesk/rustdesk",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/rustdesk-rustdesk",
+        "state": "indexed",
+        "head_oid": "b4af82157bc5b44b62e66c1e7b50cc945bc42532",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b4af82157bc5b44b62e66c1e7b50cc945bc42532"
+      }
+    },
+    {
+      "canonical_repository_id": "safedep/vet",
+      "direct": {
+        "name": "github.com/safedep/vet",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/safedep-vet",
+        "state": "indexed",
+        "head_oid": "b4d728f9354a75dda99b8b7d0d1f672082614510",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b4d728f9354a75dda99b8b7d0d1f672082614510"
+      }
+    },
+    {
+      "canonical_repository_id": "sashabaranov/go-openai",
+      "direct": {
+        "name": "github.com/sashabaranov/go-openai",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sashabaranov-go-openai",
+        "state": "indexed",
+        "head_oid": "5d7a276f4c0e48f97354fe555cb793b52e350e62",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "5d7a276f4c0e48f97354fe555cb793b52e350e62"
+      }
+    },
+    {
+      "canonical_repository_id": "savetherbtz/zstd-seekable-format-go",
+      "direct": {
+        "name": "github.com/SaveTheRbtz/zstd-seekable-format-go",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/savetherbtz-zstd-seekable-format-go",
+        "state": "indexed",
+        "head_oid": "9688e8192be6f4ea06af4898ac1bf7be78250a18",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "9688e8192be6f4ea06af4898ac1bf7be78250a18"
+      }
+    },
+    {
+      "canonical_repository_id": "schemahero/schemahero",
+      "direct": {
+        "name": "github.com/schemahero/schemahero",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/schemahero-schemahero",
+        "state": "indexed",
+        "head_oid": "a13872be5252f18b22d0f0e63200ced94f5f0e56",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a13872be5252f18b22d0f0e63200ced94f5f0e56"
+      }
+    },
+    {
+      "canonical_repository_id": "servo/servo",
+      "direct": {
+        "name": "github.com/servo/servo",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/servo-servo",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "shadcn-ui/ui",
+      "direct": {
+        "name": "github.com/shadcn-ui/ui",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/shadcn-ui-ui",
+        "state": "indexed",
+        "head_oid": "4baadbc6517070ae8f8feb2c97037adc2b305544",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4baadbc6517070ae8f8feb2c97037adc2b305544"
+      }
+    },
+    {
+      "canonical_repository_id": "sherlock-project/sherlock",
+      "direct": {
+        "name": "github.com/sherlock-project/sherlock",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sherlock-project-sherlock",
+        "state": "indexed",
+        "head_oid": "206068dc7842665130c87e16e1535572d3d1a907",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "206068dc7842665130c87e16e1535572d3d1a907"
+      }
+    },
+    {
+      "canonical_repository_id": "significant-gravitas/autogpt",
+      "direct": {
+        "name": "github.com/Significant-Gravitas/AutoGPT",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/Significant-Gravitas-AutoGPT",
+        "state": "indexed",
+        "head_oid": "656d8f5d9c2bf91097d97f7ea8e034b57a324c70",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "656d8f5d9c2bf91097d97f7ea8e034b57a324c70"
+      }
+    },
+    {
+      "canonical_repository_id": "sirk123au/arrtools",
+      "direct": {
+        "name": "github.com/sirk123au/ArrTools",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sirk123au-arrtools",
+        "state": "indexed",
+        "head_oid": "80d50f2c46ca7a9aa5724f7565b506d9c9743ebd",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "80d50f2c46ca7a9aa5724f7565b506d9c9743ebd"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "direct": {
+        "name": "github.com/sjarmak/agent-diagnostics",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sjarmak-agent-diagnostics",
+        "state": "indexed",
+        "head_oid": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e973e4ec1d4a325b5d739562ce87586127c973ed"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "direct": {
+        "name": "github.com/sjarmak/codeprobe",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sjarmak-codeprobe",
+        "state": "indexed",
+        "head_oid": "9657864b5637cb22677a5b71c0d4752ccc52f986",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6052fec96850a06b18527a9bb8e41243bc1cbdb1"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/geo_public",
+      "direct": {
+        "name": "github.com/sjarmak/GEO_public",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sjarmak-geo_public",
+        "state": "indexed",
+        "head_oid": "5f0ba3b7b6b12888c6dabfa2fbb14604def437cf",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "5f0ba3b7b6b12888c6dabfa2fbb14604def437cf"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/livedocs",
+      "direct": {
+        "name": "github.com/sjarmak/livedocs",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sjarmak-livedocs",
+        "state": "indexed",
+        "head_oid": "39bec8c08c7444eb06a4f9df55e4887b9c54e266",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "39bec8c08c7444eb06a4f9df55e4887b9c54e266"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/nls-finetune-scix",
+      "direct": {
+        "name": "github.com/sjarmak/nls-finetune-scix",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sjarmak-nls-finetune-scix",
+        "state": "indexed",
+        "head_oid": "a615c44f9d93b4f9f5fe79f8009269a3d3fb5930",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "a615c44f9d93b4f9f5fe79f8009269a3d3fb5930"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "direct": {
+        "name": "github.com/sjarmak/scix-agent",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sjarmak-scix-agent",
+        "state": "indexed",
+        "head_oid": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "dd618037f61035bd62f1e7a620029c6b4867ab6a"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/sg_benchmark",
+      "direct": {
+        "name": "github.com/sjarmak/sg_benchmark",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sjarmak-sg_benchmark",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "spacelift-io/spacectl",
+      "direct": {
+        "name": "github.com/spacelift-io/spacectl",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/spacelift-io-spacectl",
+        "state": "indexed",
+        "head_oid": "f1d8e217e0adde9cd119339b48d25d7f2c2de307",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "9d26e402e3c784f27ad7f2e8a3e0b4573a4cc787"
+      }
+    },
+    {
+      "canonical_repository_id": "spcl/dace",
+      "direct": {
+        "name": "github.com/spcl/dace",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/spcl-dace",
+        "state": "indexed",
+        "head_oid": "d8e73f0ad64f31a8dbdc1a190d630fc1e455b6cd",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e73727fc3f853bd2e45e1bb0dc4ecc65337de6db"
+      }
+    },
+    {
+      "canonical_repository_id": "spring-projects/spring-boot",
+      "direct": {
+        "name": "github.com/spring-projects/spring-boot",
+        "state": "indexed",
+        "head_oid": "297ee8694540bb21243dedabb74c18000716058e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "07f80348a576303eadda3e923593c89a818c8b48"
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/spring-projects-spring-boot",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    },
+    {
+      "canonical_repository_id": "spylang/spy",
+      "direct": {
+        "name": "github.com/spylang/spy",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/spylang-spy",
+        "state": "indexed",
+        "head_oid": "dc163b1d36aeaabf6f396002382e2034f079fcc8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "910c57ddd218cc10bd2551f32badb1612913558d"
+      }
+    },
+    {
+      "canonical_repository_id": "stanford-crfm/haliax",
+      "direct": {
+        "name": "github.com/stanford-crfm/haliax",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/stanford-crfm-haliax",
+        "state": "indexed",
+        "head_oid": "280f49fb560f488063efd483b704172ca05b6476",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "280f49fb560f488063efd483b704172ca05b6476"
+      }
+    },
+    {
+      "canonical_repository_id": "stirling-tools/stirling-pdf",
+      "direct": {
+        "name": "github.com/Stirling-Tools/Stirling-PDF",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/Stirling-Tools-Stirling-PDF",
+        "state": "indexed",
+        "head_oid": "3813ca360ea0e146379c477c6d13b48f689773c6",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3813ca360ea0e146379c477c6d13b48f689773c6"
+      }
+    },
+    {
+      "canonical_repository_id": "storybookjs/storybook",
+      "direct": {
+        "name": "github.com/storybookjs/storybook",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/storybookjs-storybook",
+        "state": "indexed",
+        "head_oid": "d4eccdc1c784ab4bbf12d1696ea5c2fb5c03dc5c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "e4e223af77341bce9633eac7d7d2ae937be18438"
+      }
+    },
+    {
+      "canonical_repository_id": "strapi/strapi",
+      "direct": {
+        "name": "github.com/strapi/strapi",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/strapi-strapi",
+        "state": "indexed",
+        "head_oid": "344c0a1e6ad1f6ddc9f85b45d540031bd57c3f6e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "344c0a1e6ad1f6ddc9f85b45d540031bd57c3f6e"
+      }
+    },
+    {
+      "canonical_repository_id": "supabase/supabase",
+      "direct": {
+        "name": "github.com/supabase/supabase",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/supabase-supabase",
+        "state": "indexed",
+        "head_oid": "78386769029e7e93ded00b520207d4e9c41282d6",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "2b27ed0ab17ec74f17bfa2e4e54175e3a1f5b444"
+      }
+    },
+    {
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "direct": {
+        "name": "codeberg.org/superseriousbusiness/gotosocial",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+        "state": "indexed",
+        "head_oid": "d65b160cc9fdb5d3300055b8842d91b233075a7f",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3722d124433d2087a97f68689fea934610703783"
+      }
+    },
+    {
+      "canonical_repository_id": "sveltejs/svelte",
+      "direct": {
+        "name": "github.com/sveltejs/svelte",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/sveltejs-svelte",
+        "state": "indexed",
+        "head_oid": "44a7813730579b94004e182e5a67aab27aa9d2a6",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "44a7813730579b94004e182e5a67aab27aa9d2a6"
+      }
+    },
+    {
+      "canonical_repository_id": "swiftlang/swift",
+      "direct": {
+        "name": "github.com/swiftlang/swift",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/swiftlang-swift",
+        "state": "indexed",
+        "head_oid": "ca1c02721e211dccce9c4695e85e083ffb8f863c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "84b22795934ad5d74f3f660b1e56a88e8e2896bf"
+      }
+    },
+    {
+      "canonical_repository_id": "syncthing/syncthing",
+      "direct": {
+        "name": "github.com/syncthing/syncthing",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/syncthing-syncthing",
+        "state": "indexed",
+        "head_oid": "977f7901439b80141ef5f29b8b928eb751ab51e0",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "977f7901439b80141ef5f29b8b928eb751ab51e0"
+      }
+    },
+    {
+      "canonical_repository_id": "syntasso/kratix",
+      "direct": {
+        "name": "github.com/syntasso/kratix",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/syntasso-kratix",
+        "state": "indexed",
+        "head_oid": "0026ecafce14f1d61c443381aeb9dc04fb76c1f3",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "94e3747293af1ef908696f817582735c90b06be0"
+      }
+    },
+    {
+      "canonical_repository_id": "tailwindlabs/tailwindcss",
+      "direct": {
+        "name": "github.com/tailwindlabs/tailwindcss",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/tailwindlabs-tailwindcss",
+        "state": "indexed",
+        "head_oid": "094bf62605870311a8def6ae45c87d578b198ebf",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "094bf62605870311a8def6ae45c87d578b198ebf"
+      }
+    },
+    {
+      "canonical_repository_id": "tauri-apps/tauri",
+      "direct": {
+        "name": "github.com/tauri-apps/tauri",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/tauri-apps-tauri",
+        "state": "indexed",
+        "head_oid": "3f5d3984bc8916b5dd31289b19284637ede37e3d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3f5d3984bc8916b5dd31289b19284637ede37e3d"
+      }
+    },
+    {
+      "canonical_repository_id": "teamtype/teamtype",
+      "direct": {
+        "name": "github.com/teamtype/teamtype",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/teamtype-teamtype",
+        "state": "indexed",
+        "head_oid": "b92b68dc1d66b1da327be50040225a52723ad337",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b92b68dc1d66b1da327be50040225a52723ad337"
+      }
+    },
+    {
+      "canonical_repository_id": "teaxyz/chai",
+      "direct": {
+        "name": "github.com/teaxyz/chai",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/teaxyz-chai",
+        "state": "indexed",
+        "head_oid": "5ba601243a934a7a88217e0de93e2f66764d8910",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "5ba601243a934a7a88217e0de93e2f66764d8910"
+      }
+    },
+    {
+      "canonical_repository_id": "tensorflow/models",
+      "direct": {
+        "name": "github.com/tensorflow/models",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/tensorflow-models",
+        "state": "indexed",
+        "head_oid": "4d7bdd8c170ee90850f2f9ccef0f6d19b817de35",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4d7bdd8c170ee90850f2f9ccef0f6d19b817de35"
+      }
+    },
+    {
+      "canonical_repository_id": "thedaviddias/front-end-checklist",
+      "direct": {
+        "name": "github.com/thedaviddias/Front-End-Checklist",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/thedaviddias-Front-End-Checklist",
+        "state": "indexed",
+        "head_oid": "48405aaf57886e621f5fe0957d66e38669cba3cc",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "48405aaf57886e621f5fe0957d66e38669cba3cc"
+      }
+    },
+    {
+      "canonical_repository_id": "thedotmack/claude-mem",
+      "direct": {
+        "name": "github.com/thedotmack/claude-mem",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/thedotmack-claude-mem",
+        "state": "indexed",
+        "head_oid": "132b46343e60ecf4057c427736c57b08f7615dfe",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "132b46343e60ecf4057c427736c57b08f7615dfe"
+      }
+    },
+    {
+      "canonical_repository_id": "toeverything/affine",
+      "direct": {
+        "name": "github.com/toeverything/AFFiNE",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/toeverything-AFFiNE",
+        "state": "indexed",
+        "head_oid": "0d889bc643f67f420cb0b9d3618798ba088365a3",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "0d889bc643f67f420cb0b9d3618798ba088365a3"
+      }
+    },
+    {
+      "canonical_repository_id": "tonsky/firacode",
+      "direct": {
+        "name": "github.com/tonsky/FiraCode",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/tonsky-FiraCode",
+        "state": "indexed",
+        "head_oid": "727682c24c33fb0bbc7ab0ed9b7a8d0d9745a198",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "727682c24c33fb0bbc7ab0ed9b7a8d0d9745a198"
+      }
+    },
+    {
+      "canonical_repository_id": "tphakala/birdnet-go",
+      "direct": {
+        "name": "github.com/tphakala/birdnet-go",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/tphakala-birdnet-go",
+        "state": "indexed",
+        "head_oid": "65b8858fdb99fd22ce177666c9c34918f5ece292",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "c84abf301054d2f2bac3ecc01b26f57fee8bd10b"
+      }
+    },
+    {
+      "canonical_repository_id": "tracecathq/tracecat",
+      "direct": {
+        "name": "github.com/TracecatHQ/tracecat",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/tracecathq-tracecat",
+        "state": "indexed",
+        "head_oid": "2f1ae1f63bde17ee73c4fdf44ba14c9dfce39e82",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b01f437a91feac2fa395c5f9415904177a69c65b"
+      }
+    },
+    {
+      "canonical_repository_id": "twbs/bootstrap",
+      "direct": {
+        "name": "github.com/twbs/bootstrap",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/twbs-bootstrap",
+        "state": "indexed",
+        "head_oid": "b8932a1ec1c3e633084b1f1cb65e1ef05eb19f1e",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b8932a1ec1c3e633084b1f1cb65e1ef05eb19f1e"
+      }
+    },
+    {
+      "canonical_repository_id": "twpayne/chezmoi",
+      "direct": {
+        "name": "github.com/twpayne/chezmoi",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/twpayne-chezmoi",
+        "state": "indexed",
+        "head_oid": "81fc410a1d0f91b17602654b6868b07b1343433c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "c7f235ea5217f1fa201cf70f48eec021058538dd"
+      }
+    },
+    {
+      "canonical_repository_id": "typicode/json-server",
+      "direct": {
+        "name": "github.com/typicode/json-server",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/typicode-json-server",
+        "state": "indexed",
+        "head_oid": "89a34a44b7a6a5311dc84f3b8a1b8b45c0905aea",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "89a34a44b7a6a5311dc84f3b8a1b8b45c0905aea"
+      }
+    },
+    {
+      "canonical_repository_id": "typst/typst",
+      "direct": {
+        "name": "github.com/typst/typst",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/typst-typst",
+        "state": "indexed",
+        "head_oid": "bc8de171e7a3f0dabc211ac36f76568ad804d53a",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "b212e34147986d8cfecb553bbaae2a4825f53e07"
+      }
+    },
+    {
+      "canonical_repository_id": "ucbepic/docetl",
+      "direct": {
+        "name": "github.com/ucbepic/docetl",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ucbepic-docetl",
+        "state": "indexed",
+        "head_oid": "ae7f10f1ba350f3342e9fc3fa17c3131e0295f8c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "ae7f10f1ba350f3342e9fc3fa17c3131e0295f8c"
+      }
+    },
+    {
+      "canonical_repository_id": "unclecode/crawl4ai",
+      "direct": {
+        "name": "github.com/unclecode/crawl4ai",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/unclecode-crawl4ai",
+        "state": "indexed",
+        "head_oid": "7e801521428ee12509994d39151006f64055ebe3",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7e801521428ee12509994d39151006f64055ebe3"
+      }
+    },
+    {
+      "canonical_repository_id": "unionlabs/union",
+      "direct": {
+        "name": "github.com/unionlabs/union",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/unionlabs-union",
+        "state": "indexed",
+        "head_oid": "773eb5d3e7682680539a49986a8e63ffb00898eb",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "773eb5d3e7682680539a49986a8e63ffb00898eb"
+      }
+    },
+    {
+      "canonical_repository_id": "vdaas/vald",
+      "direct": {
+        "name": "github.com/vdaas/vald",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/vdaas-vald",
+        "state": "indexed",
+        "head_oid": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d50c5e731dedf7bc9dbe389bd9057c959198ac97"
+      }
+    },
+    {
+      "canonical_repository_id": "veloera/veloera",
+      "direct": {
+        "name": "github.com/Veloera/Veloera",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/veloera-veloera",
+        "state": "indexed",
+        "head_oid": "6525dfce816beaa270e78f0d8b762e19e54d13b8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "6525dfce816beaa270e78f0d8b762e19e54d13b8"
+      }
+    },
+    {
+      "canonical_repository_id": "ventoy/ventoy",
+      "direct": {
+        "name": "github.com/ventoy/Ventoy",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ventoy-Ventoy",
+        "state": "indexed",
+        "head_oid": "7cbdc5cf69935bcf1f085ae67f40e70ea7e74bae",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "7cbdc5cf69935bcf1f085ae67f40e70ea7e74bae"
+      }
+    },
+    {
+      "canonical_repository_id": "vercel/next.js",
+      "direct": {
+        "name": "github.com/vercel/next.js",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/vercel-next.js",
+        "state": "indexed",
+        "head_oid": "8399ee91502237a1a2eefbb91ee3f908f47f22bf",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "4a432e4d79be9ff5c326a3a62a1e7d9d1e4f5f90"
+      }
+    },
+    {
+      "canonical_repository_id": "vitejs/vite",
+      "direct": {
+        "name": "github.com/vitejs/vite",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/vitejs-vite",
+        "state": "indexed",
+        "head_oid": "3ac77d9dd742968961af38a5a91ed6b061ceda7d",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "3ac77d9dd742968961af38a5a91ed6b061ceda7d"
+      }
+    },
+    {
+      "canonical_repository_id": "vladfi1/slippi-ai",
+      "direct": {
+        "name": "github.com/vladfi1/slippi-ai",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/vladfi1-slippi-ai",
+        "state": "indexed",
+        "head_oid": "51acbf3f8042992474280122b47e313554cfc8ef",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "f8cf979bb80b18e1f100058b918121dd8d78358a"
+      }
+    },
+    {
+      "canonical_repository_id": "vllm-project/vllm",
+      "direct": {
+        "name": "github.com/vllm-project/vllm",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/vllm-project-vllm",
+        "state": "indexed",
+        "head_oid": "b5bcb3ce881e1d324ff7f6176ef27606558dbd74",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "213f681f8117b9026ca8189583d2855d70104401"
+      }
+    },
+    {
+      "canonical_repository_id": "vlm-run/vlmrun-hub",
+      "direct": {
+        "name": "github.com/vlm-run/vlmrun-hub",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/vlm-run-vlmrun-hub",
+        "state": "indexed",
+        "head_oid": "55b534d87980aaca55fba28a4a6062a58f8f01ab",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "55b534d87980aaca55fba28a4a6062a58f8f01ab"
+      }
+    },
+    {
+      "canonical_repository_id": "wafrn/wafrn",
+      "direct": {
+        "name": "codeberg.org/wafrn/wafrn",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/wafrn-wafrn",
+        "state": "indexed",
+        "head_oid": "08d8aa115e65629c367f56ea5eefd1ab5634c2b8",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "08d8aa115e65629c367f56ea5eefd1ab5634c2b8"
+      }
+    },
+    {
+      "canonical_repository_id": "wandb/weave",
+      "direct": {
+        "name": "github.com/wandb/weave",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/wandb-weave",
+        "state": "indexed",
+        "head_oid": "535483247e828b50784b8f3fe8e2f24290605525",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "be7541765445710e9de6f67ca5a0b26b3147cf2f"
+      }
+    },
+    {
+      "canonical_repository_id": "willccbb/verifiers",
+      "direct": {
+        "name": "github.com/willccbb/verifiers",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/willccbb-verifiers",
+        "state": "indexed",
+        "head_oid": "8233c844614f61193c267dde22c84c61ce715e5c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "295a0650585af8754eaf98c6fa9071314b5a531c"
+      }
+    },
+    {
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "direct": {
+        "name": "github.com/yt-dlp/yt-dlp",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/yt-dlp-yt-dlp",
+        "state": "indexed",
+        "head_oid": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "fdcc954df4955267ec1627cbeb347b661a110e7c"
+      }
+    },
+    {
+      "canonical_repository_id": "ytdl-org/youtube-dl",
+      "direct": {
+        "name": "github.com/ytdl-org/youtube-dl",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ytdl-org-youtube-dl",
+        "state": "indexed",
+        "head_oid": "956b8c585591b401a543e409accb163eeaaa1193",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "956b8c585591b401a543e409accb163eeaaa1193"
+      }
+    },
+    {
+      "canonical_repository_id": "z4nzu/hackingtool",
+      "direct": {
+        "name": "github.com/Z4nzu/hackingtool",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/Z4nzu-hackingtool",
+        "state": "indexed",
+        "head_oid": "01a51bbca6d0c7a20696aeef9ed92b143e26b10c",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "01a51bbca6d0c7a20696aeef9ed92b143e26b10c"
+      }
+    },
+    {
+      "canonical_repository_id": "zed-industries/zed",
+      "direct": {
+        "name": "github.com/zed-industries/zed",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/zed-industries-zed",
+        "state": "indexed",
+        "head_oid": "3b79b56201f35dc87788e6a8ed9d432575484769",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "d23aaeebeafd509ff089cc822edd64ccce585181"
+      }
+    },
+    {
+      "canonical_repository_id": "zfit/zfit",
+      "direct": {
+        "name": "github.com/zfit/zfit",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/zfit-zfit",
+        "state": "indexed",
+        "head_oid": "13196e53425d19c8dcb30a0463beb215bb0fb457",
+        "cutoff_state": "accessible",
+        "cutoff_oid": "13196e53425d19c8dcb30a0463beb215bb0fb457"
+      }
+    },
+    {
+      "canonical_repository_id": "ziglang/zig",
+      "direct": {
+        "name": "github.com/ziglang/zig",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      },
+      "mirror": {
+        "name": "github.com/sg-evals/ziglang-zig",
+        "state": "not_indexed",
+        "head_oid": null,
+        "cutoff_state": "not_accessible",
+        "cutoff_oid": null
+      }
+    }
+  ],
+  "sourcegraph_user": "stephanie.jarmak"
+}

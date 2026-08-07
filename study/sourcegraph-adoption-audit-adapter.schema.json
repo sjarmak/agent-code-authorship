@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adoption-audit-adapter.schema.json",
+  "title": "Combined adoption reliability-audit source adapter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "adapter_version",
+    "source_sequential_ledger_sha256",
+    "source_sequential_tranche_sha256s",
+    "source_anchor_manifest_sha256",
+    "source_anchor_ledger_sha256",
+    "combined_anchor_tranche_sha256",
+    "combined_decision_ledger_sha256",
+    "sequential_decision_count",
+    "anchor_decision_count",
+    "combined_decision_count",
+    "outcomes_consulted",
+    "adapter_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-adoption-audit-adapter.schema.json"
+    },
+    "adapter_version": {
+      "const": 1
+    },
+    "source_sequential_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "source_sequential_tranche_sha256s": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/sha256"
+      }
+    },
+    "source_anchor_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "source_anchor_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "combined_anchor_tranche_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "combined_decision_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "sequential_decision_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "anchor_decision_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "combined_decision_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "adapter_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

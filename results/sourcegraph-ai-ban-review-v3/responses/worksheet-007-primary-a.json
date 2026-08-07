@@ -1,0 +1,22 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "5f8f3961bd0d32d7518f4f4f009b6212083229a37ac22acd5eb8c43f250ab38d",
+    "task_id": "ed1646051f8e1363c6471e7342037de6b732da1b007a02b82499ad07d3e75ae1",
+    "task_sha256": "7ac4fb9a2f2e0c8d6cdc734aad3d8ed87101911a53cece682014ce753eccec51",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "e89c300c86dada80425afb36190f77c21561308a28e9edf0af462a7409a3503d",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The evidence warns against using a playback option with premium cookies; it does not prohibit AI-generated or AI-authored repository contributions.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/commit/f7acf3c1f42cc474927ecc452205d7877af36731"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "238bea1d8e6e8d594e4f7a9397840547b4563ff1ea1bfe78085b56a3f5124e8b"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic-change-record.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_version",
+    "identity",
+    "provenance",
+    "task_taxonomy",
+    "blast_radius",
+    "ownership",
+    "tests_and_docs",
+    "semantic_hard_negatives",
+    "diffusion",
+    "subsequent_changes",
+    "human_assimilation",
+    "observability",
+    "uncertainty",
+    "deep_search_evidence_ids"
+  ],
+  "properties": {
+    "record_version": {"const": 1},
+    "identity": {"$ref": "#/$defs/identity"},
+    "provenance": {"$ref": "#/$defs/provenance"},
+    "task_taxonomy": {"$ref": "#/$defs/analyticField"},
+    "blast_radius": {"$ref": "#/$defs/analyticField"},
+    "ownership": {"$ref": "#/$defs/analyticField"},
+    "tests_and_docs": {"$ref": "#/$defs/analyticField"},
+    "semantic_hard_negatives": {"$ref": "#/$defs/analyticField"},
+    "diffusion": {"$ref": "#/$defs/analyticField"},
+    "subsequent_changes": {"$ref": "#/$defs/analyticField"},
+    "human_assimilation": {"$ref": "#/$defs/analyticField"},
+    "observability": {"$ref": "#/$defs/analyticField"},
+    "uncertainty": {"$ref": "#/$defs/analyticField"},
+    "deep_search_evidence_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+    }
+  },
+  "$defs": {
+    "sha1": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_repository_id",
+        "sourcegraph_name",
+        "introducing_commit",
+        "diff_base",
+        "path",
+        "hunk_id",
+        "cutoff_commit"
+      ],
+      "properties": {
+        "canonical_repository_id": {"type": "string"},
+        "sourcegraph_name": {"type": "string"},
+        "introducing_commit": {"$ref": "#/$defs/sha1"},
+        "diff_base": {"$ref": "#/$defs/sha1"},
+        "path": {"type": "string", "minLength": 1},
+        "hunk_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+        "cutoff_commit": {"$ref": "#/$defs/sha1"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["class", "source_artifact", "source_sha256", "outcomes_consulted"],
+      "properties": {
+        "class": {
+          "enum": ["agent_native", "attributable_agent", "policy_control", "pre_2023_context"]
+        },
+        "source_artifact": {"type": "string"},
+        "source_sha256": {"$ref": "#/$defs/sha256"},
+        "outcomes_consulted": {"const": false}
+      }
+    },
+    "analyticField": {
+      "type": "object",
+      "required": ["status", "evidence_routes"],
+      "properties": {
+        "status": {
+          "enum": ["observed", "unavailable", "not_applicable", "conflicting"]
+        },
+        "reason": {"type": "string"},
+        "evidence_routes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "deep_search",
+              "deterministic_sourcegraph",
+              "pinned_git",
+              "blinded_human_adjudication"
+            ]
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

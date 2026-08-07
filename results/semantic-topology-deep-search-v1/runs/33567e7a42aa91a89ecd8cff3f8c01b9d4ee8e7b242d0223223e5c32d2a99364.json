@@ -1,0 +1,254 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "c7cc24a0f4bb99a5050e3ead6b5db11bb76fbaffae49253c77fda94f842c02c1",
+  "artifact_version": 1,
+  "canonical_repository_id": "gastownhall/beads",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "41f3bfe6f22d9b8b90775cae01a785d99df3f63c"
+  ],
+  "cited_files": [
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/pr.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L719-L791"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/pr-risk.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr-risk.yml?L321-L364"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md?L62-L64"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/pr.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L531-L535"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".githooks/pre-commit",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.githooks/pre-commit"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".pre-commit-config.yaml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.pre-commit-config.yaml"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".golangci.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.golangci.yml"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".golangci.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.golangci.yml?L24-L62"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "scripts/check-build-tags.sh",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-build-tags.sh"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/pr.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L86-L118"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "scripts/check-migration-hygiene.sh",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-migration-hygiene.sh"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "scripts/check-versions.sh",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-versions.sh"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".githooks/pre-push",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.githooks/pre-push?L25-L37"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/pr.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L148-L185"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/docs-autofix.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/docs-autofix.yml"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/pr.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L469-L504"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/conformance.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/conformance.yml"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/regression.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/regression.yml"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/CODEOWNERS",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/CODEOWNERS"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/PULL_REQUEST_TEMPLATE.md"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "PR_MAINTAINER_GUIDELINES.md",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/PR_MAINTAINER_GUIDELINES.md?L61-L88"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "CONTRIBUTING_PR_GUIDELINES.md",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/CONTRIBUTING_PR_GUIDELINES.md"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".test-skip",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.test-skip"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "scripts/check-migration-hygiene.sh",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-migration-hygiene.sh?L1-L30"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/pr.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L79-L118"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/workflows/pr.yml",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L452-L468"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "engdocs/adr/0002-init-safety-invariants.md",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/engdocs/adr/0002-init-safety-invariants.md"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".github/CODEOWNERS",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/CODEOWNERS?L3-L8"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "release-gates/be-1he-slow-path-fix-gate.md",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/release-gates/be-1he-slow-path-fix-gate.md"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": "release-gates/be-c5p-firewall-gate.md",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/release-gates/be-c5p-firewall-gate.md"
+    },
+    {
+      "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "path": ".githooks/pre-push",
+      "repository": "github.com/sg-evals/gastownhall-beads",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.githooks/pre-push?L5-L6"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1972",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/gastownhall-beads at revision 41f3bfe6f22d9b8b90775cae01a785d99df3f63c, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: gastownhall/beads; stratum: agent_native; cutoff: 41f3bfe6f22d9b8b90775cae01a785d99df3f63c.",
+  "prompt_family_id": "review_validation",
+  "prompt_sha256": "ee09a0728827daeb312854d5f75fe8bb4bf73abba2bfa9d1c4f03286d0113dad",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Here is the complete, cited inventory of code-review and validation mechanisms present at `41f3bfe6f22d9b8b90775cae01a785d99df3f63c`.\n\n---\n\n## Repository-Wide Mechanisms\n\n### 1. CI Gate Architecture (Two Required Aggregates)\n\nTwo GitHub Actions workflows run on `pull_request` + `merge_group` and each terminate in an `if: ${{ always() }}` aggregate job that branch protection can require as a single stable check name.\n\n- **`PR / CI Gate / Required`** \u2014 [`pr.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L719-L791): collects 18 named job results; fails on any `failure` or `cancelled`; accepts `skipped` only for `CHECK_NO_BEADS_CHANGES` on `merge_group`.\n- **`PR Risk / CI Gate / Required`** \u2014 [`pr-risk.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr-risk.yml?L321-L364): collects 8 job results; accepts skipped embedded jobs only when `detect-ci-tier` outputs `full_embedded != true`.\n- The evaluator script is `.github/scripts/ci-gate.sh` (referenced from both workflows).\n- Design rationale and the list of check names that **must not** be directly required are documented in [`engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md).\n- **Observation**: as of `2026-05-26` the live ruleset `Protect main - light` enforces deletion/non-fast-forward but does **not** currently require status checks (stated in [`CI_REQUIRED_CHECK_TOPOLOGY.md` line 62-64](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md?L62-L64)).\n\n---\n\n### 2. Linting\n\n| Layer | Mechanism | File |\n|---|---|---|\n| CI | `golangci-lint` v2.10.1, `--build-tags=gms_pure_go`, 5m timeout | [`pr.yml` L531-L535](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L531-L535) |\n| Local hook | `pre-commit`: `gofmt -w` auto-stages, then `golangci-lint run --new-from-rev=HEAD --fix` | [`.githooks/pre-commit`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.githooks/pre-commit) |\n| pre-commit framework | golangci-lint v2.10.1, trailing-whitespace, end-of-file-fixer, check-yaml, check-added-large-files | [`.pre-commit-config.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.pre-commit-config.yaml) |\n\nEnabled linters in [`.golangci.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.golangci.yml): `depguard`, `errcheck`, `gosec`, `misspell`, `unconvert`, `unparam`, `sloglint`.\n\n`depguard` mechanically enforces the storage-boundary rule from `engdocs/PROJECT_CHARTER.md`: all `github.com/dolthub` imports are denied outside `internal/storage/**`, `internal/doltserver/**`, and a small named exception list ([`.golangci.yml` L24-L62](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.golangci.yml?L24-L62)).\n\n---\n\n### 3. Build-Tag Policy Check\n\n[`scripts/check-build-tags.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-build-tags.sh) (invoked in `check-build-tags` job on both `pr.yml` and `main.yml`) verifies that every `go build|test|run|generate|install` invocation in tracked scripts, hooks, and CI carries `-tags=gms_pure_go`. This prevents ICU-linkage regressions. Policy rationale is in `engdocs/ICU-POLICY.md`.\n\n---\n\n### 4. CGO Contamination Guard\n\nJob `check-cmd-bd-puregeo-tests` (in both [`pr.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L86-L118) and `main.yml`) compiles `cmd/bd`, `internal/storage/embeddeddolt`, and `internal/tracker` test binaries with `CGO_ENABLED=0`. The job comment explicitly names the origin: cgo-test-contamination fix for `mybd-ycx / GH#3683`, following up PR #3704 where untagged test files silently neutered the pure-Go test subset.\n\n---\n\n### 5. Migration Hygiene Check\n\n[`scripts/check-migration-hygiene.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-migration-hygiene.sh) runs on every PR and every push to `main`. Three failure classes correspond directly to named historical incidents (audit epic `bd-6dnrw`):\n\n- **Check A**: Duplicate migration version numbers (PR 4027 incident).\n- **Check B**: Nondeterministic SQL \u2014 `UUID()`, `UUID_SHORT()`, `NOW()`, `RAND()`, and migration-time `CURRENT_TIMESTAMP` \u2014 unless the file is in a `nondeterminism-allowlist.txt` with a justification (PR 4039 / issue #4259 incident).\n- **Check C**: Modification, deletion, or rename of a migration file that already exists on the base branch (PRs 3991/3918/3942 incident). Skips with a warning if no base ref is resolvable.\n\n`CODEOWNERS` places `internal/storage/schema/migrations/` and `scripts/check-migration-hygiene.sh` under `@gastownhall/beads-maintainers`, with an explicit note that GitHub only enforces this when branch protection has \"require review from Code Owners\" enabled (`bd-6dnrw.23`).\n\n---\n\n### 6. Version Consistency\n\n[`scripts/check-versions.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-versions.sh) is called in:\n- CI job `check-version-consistency` in `pr.yml` and `main.yml`.\n- The `pre-push` git hook, which calls it and refuses the push on tag-pushes (`refs/tags/v*`) if versions are inconsistent ([`.githooks/pre-push` L25-L37](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.githooks/pre-push?L25-L37)).\n\n---\n\n### 7. Generated-Docs Freshness\n\n- CI job `check-doc-flags` in `pr.yml` runs `scripts/check-doc-flags.sh` and `scripts/check-doc-freshness.sh` against the binary built in CI ([`pr.yml` L148-L185](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L148-L185)).\n- On failure, the exact regeneration patch is uploaded as artifact `cli-docs-freshness-patch`.\n- **Docs Autofix workflow** ([`docs-autofix.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/docs-autofix.yml)): triggered by `workflow_run` on PR failures; downloads the patch artifact, validates every path against an anchored allowlist, and either pushes the fix commit to the PR branch (same-repo, with `DOCS_AUTOFIX_TOKEN`) or posts an apply-recipe comment (forks). The workflow runs on the base branch only \u2014 it never checks out or executes PR code.\n\n---\n\n### 8. Formatting Check\n\n`fmt-check` job in both `pr.yml` and `main.yml` runs `make fmt-check` (gofmt). This is one of the 18 required jobs feeding the baseline aggregate gate.\n\n---\n\n### 9. Contract Corpus (Golden + Determinism + Conformance)\n\nJob `contract-corpus` in `pr.yml` ([lines 469-504](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L469-L504)):\n- Runs the entire `cmd/bd/protocol` package (not a `-run` subset).\n- Enforces a committed golden corpus: regenerated from the branch's `bd` binary and byte-compared to `testdata/corpus/`. An unreviewed wire change is a hard failure; fix is `make corpus-regen`.\n- Runs a double-run determinism check.\n- Requires `BEADS_PROTOCOL_REQUIRE_DOLT=1` (a failed container is a hard failure, not a skip).\n- Comment explicitly explains why a `-run` filter must never be reintroduced: it was the mechanism that kept conformance tests red on `main` for ~3 months while every CI run was green.\n\n---\n\n### 10. Storage-Layer Conformance\n\n- [`conformance.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/conformance.yml): runs `scripts/conformance.sh` against the embedded Dolt oracle on every PR.\n- `pr-risk.yml`: `test-embedded-conformance` runs `TestConformance` sharded into `core` and `audit` partitions (split because the combined suite exceeds 30m under runner variance). `test-server-storage` runs the same `RunAll` suite against a container-backed server-mode Dolt backend.\n\n---\n\n### 11. Regression Tests\n\n[`regression.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/regression.yml): differential regression against a pinned baseline version (`v0.49.6`). A detector job decides whether to run based on:\n1. PR labels `run-regression` / `skip-regression` (explicit override).\n2. Whether changed files match a `risky_pattern` covering CLI, storage, types, regression, or build-input paths. Test-only files are excluded from the trigger.\n\nAlways runs on `push` to main and `workflow_dispatch`.\n\n---\n\n### 12. Package Gates (MCP and npm)\n\n`detect-package-gates` job in `pr.yml` and `main.yml` runs `scripts/ci/detect-package-gates.sh`, which outputs boolean flags consumed by `package-mcp` and `package-npm`. These conditionally run and are included in the baseline aggregate gate. Both verify the built artifact via `sha256sum -c SHA256SUMS` before use.\n\n---\n\n### 13. CODEOWNERS\n\n[`.github/CODEOWNERS`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/CODEOWNERS) assigns `@gastownhall/beads-maintainers` to:\n- `cmd/bd/init.go`, `cmd/bd/init_*.go`, `cmd/bd/init_safety*.go` \u2014 with an explicit reviewer obligation to verify `CheckRemoteSafety`'s guard matrix tests before approving. The comment traces the root cause: 8+ paper-over commits before ADR 0002 codified the invariant.\n- `engdocs/adr/0002-init-safety-invariants.md`\n- `internal/storage/schema/migrations/` and `scripts/check-migration-hygiene.sh`\n\n---\n\n### 14. PR Template and Merge Discipline\n\n- [`PULL_REQUEST_TEMPLATE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/PULL_REQUEST_TEMPLATE.md): three required sections \u2014 What, Why, Verification.\n- [`PR_MAINTAINER_GUIDELINES.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/PR_MAINTAINER_GUIDELINES.md?L61-L88) codifies merge discipline rules explicitly referencing the 2-month, 440-PR audit (epic `bd-6dnrw`): no self-merge of nontrivial changes, no merge over unresolved `CHANGES_REQUESTED`, PR body must match the diff, no empty or bot-only approvals, revert ping-pong is explicitly prohibited (the five-merges-in-two-hours pattern is named).\n- [`CONTRIBUTING_PR_GUIDELINES.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/CONTRIBUTING_PR_GUIDELINES.md): one layer per PR; prove the bug in beads itself with a beads-only repro; benchmarks required for performance claims.\n\n---\n\n### 15. `.test-skip` Registry\n\n[`.test-skip`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.test-skip) exists and is empty (header line only). Its purpose per `CONTRIBUTING.md` is to track known-broken tests rather than silently skip them.\n\n---\n\n## Evidence Tied to Specific Changes (Named in Repo Artifacts)\n\n| Artifact | Change referenced | Mechanism introduced |\n|---|---|---|\n| [`scripts/check-migration-hygiene.sh` header](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-migration-hygiene.sh?L1-L30) | PRs 4027, 4039, 3991/3918/3942; audit epic `bd-6dnrw` | Checks A, B, C added as direct post-mortems |\n| [`pr.yml` L79-L118 (cgo job comment)](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L79-L118) | `mybd-ycx / GH#3683`, PR #3704 | `check-cmd-bd-puregeo-tests` job |\n| [`pr.yml` L452-L468 (corpus job comment)](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L452-L468) | Conformance tests red for ~3 months due to `-run` filter | Package-scope enforcement, no `-run` allowed |\n| [`engdocs/adr/0002-init-safety-invariants.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/engdocs/adr/0002-init-safety-invariants.md) | `bd-q83`; AI agent destroyed 247 issues by copy-pasting error text | `CheckRemoteSafety` chokepoint + guard matrix test + Invariant 4 (no destructive invocation in error text) |\n| [`CODEOWNERS` L3-8 comment](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/CODEOWNERS?L3-L8) | 8+ prior paper-over commits before ADR 0002 | Mandatory maintainer review of `init*.go` + matrix reference |\n| [`release-gates/be-1he-slow-path-fix-gate.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/release-gates/be-1he-slow-path-fix-gate.md) | Cherry-pick of `9b2d0b87a` (12s `dolt remote -v` slow path) | Structured gate doc with row-by-row criteria table, maintainer editorial correction of mismatch between gate doc and actual diff |\n| [`release-gates/be-c5p-firewall-gate.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/release-gates/be-c5p-firewall-gate.md) | `isProductionPort` + DB-name firewall (PR `47dcc380`) | Release gate doc with AC-by-AC checklist; follow-up bead `be-z62` filed for coverage gaps |\n| [`pre-push` hook L5-6](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.githooks/pre-push?L5-L6) | \"failure mode that left main red after the 1.0.5 release\" | Version consistency check gating release tag pushes |\n\n---\n\n## Deterministic Verification Queries\n\nThe following can be run mechanically against the revision to confirm the observations above.\n\n```bash\n# 1. List all jobs in the baseline CI gate (pr.yml) and their requirement status\ngrep -E 'needs:|CI_GATE_REQUIRED:' .github/workflows/pr.yml\n\n# 2. Confirm the migration hygiene script checks all three failure classes\ngrep -c 'Check [ABC]:' scripts/check-migration-hygiene.sh\n# Expected: 3\n\n# 3. Confirm CODEOWNERS covers migrations and hygiene script\ngrep 'migrations\\|check-migration-hygiene' .github/CODEOWNERS\n\n# 4. Confirm depguard denies github.com/dolthub in non-storage packages\ngrep -A2 'deny:' .golangci.yml | grep 'dolthub'\n\n# 5. Confirm the CGO_ENABLED=0 compile job covers cmd/bd, embeddeddolt, tracker\ngrep 'CGO_ENABLED.*0' .github/workflows/pr.yml | head -5\n\n# 6. Confirm the corpus job runs the entire package, not a -run subset\ngrep -A3 'contract-corpus' .github/workflows/pr.yml | grep 'run:'\n\n# 7. Confirm .test-skip is empty of test names\nwc -l .test-skip && cat .test-skip\n\n# 8. Confirm check-versions.sh is called from pre-push on tag pushes\ngrep -n 'check-versions' .githooks/pre-push\n\n# 9. Confirm docs-autofix.yml never checks out PR head (security model)\ngrep 'ref:' .github/workflows/docs-autofix.yml\n# Expected: no result (it uses the default, base branch checkout)\n\n# 10. Confirm regression workflow uses label override and path-pattern detection\ngrep -E 'run-regression|skip-regression|risky_pattern' .github/workflows/regression.yml\n```",
+  "raw_conversation": {
+    "createTime": "2026-07-29T02:58:54Z",
+    "name": "users/476/conversations/1972",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Here is the complete, cited inventory of code-review and validation mechanisms present at `41f3bfe6f22d9b8b90775cae01a785d99df3f63c`.\n\n---\n\n## Repository-Wide Mechanisms\n\n### 1. CI Gate Architecture (Two Required Aggregates)\n\nTwo GitHub Actions workflows run on `pull_request` + `merge_group` and each terminate in an `if: ${{ always() }}` aggregate job that branch protection can require as a single stable check name.\n\n- **`PR / CI Gate / Required`** \u2014 [`pr.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L719-L791): collects 18 named job results; fails on any `failure` or `cancelled`; accepts `skipped` only for `CHECK_NO_BEADS_CHANGES` on `merge_group`.\n- **`PR Risk / CI Gate / Required`** \u2014 [`pr-risk.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr-risk.yml?L321-L364): collects 8 job results; accepts skipped embedded jobs only when `detect-ci-tier` outputs `full_embedded != true`.\n- The evaluator script is `.github/scripts/ci-gate.sh` (referenced from both workflows).\n- Design rationale and the list of check names that **must not** be directly required are documented in [`engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md).\n- **Observation**: as of `2026-05-26` the live ruleset `Protect main - light` enforces deletion/non-fast-forward but does **not** currently require status checks (stated in [`CI_REQUIRED_CHECK_TOPOLOGY.md` line 62-64](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/engdocs/CI_REQUIRED_CHECK_TOPOLOGY.md?L62-L64)).\n\n---\n\n### 2. Linting\n\n| Layer | Mechanism | File |\n|---|---|---|\n| CI | `golangci-lint` v2.10.1, `--build-tags=gms_pure_go`, 5m timeout | [`pr.yml` L531-L535](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L531-L535) |\n| Local hook | `pre-commit`: `gofmt -w` auto-stages, then `golangci-lint run --new-from-rev=HEAD --fix` | [`.githooks/pre-commit`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.githooks/pre-commit) |\n| pre-commit framework | golangci-lint v2.10.1, trailing-whitespace, end-of-file-fixer, check-yaml, check-added-large-files | [`.pre-commit-config.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.pre-commit-config.yaml) |\n\nEnabled linters in [`.golangci.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.golangci.yml): `depguard`, `errcheck`, `gosec`, `misspell`, `unconvert`, `unparam`, `sloglint`.\n\n`depguard` mechanically enforces the storage-boundary rule from `engdocs/PROJECT_CHARTER.md`: all `github.com/dolthub` imports are denied outside `internal/storage/**`, `internal/doltserver/**`, and a small named exception list ([`.golangci.yml` L24-L62](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.golangci.yml?L24-L62)).\n\n---\n\n### 3. Build-Tag Policy Check\n\n[`scripts/check-build-tags.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-build-tags.sh) (invoked in `check-build-tags` job on both `pr.yml` and `main.yml`) verifies that every `go build|test|run|generate|install` invocation in tracked scripts, hooks, and CI carries `-tags=gms_pure_go`. This prevents ICU-linkage regressions. Policy rationale is in `engdocs/ICU-POLICY.md`.\n\n---\n\n### 4. CGO Contamination Guard\n\nJob `check-cmd-bd-puregeo-tests` (in both [`pr.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L86-L118) and `main.yml`) compiles `cmd/bd`, `internal/storage/embeddeddolt`, and `internal/tracker` test binaries with `CGO_ENABLED=0`. The job comment explicitly names the origin: cgo-test-contamination fix for `mybd-ycx / GH#3683`, following up PR #3704 where untagged test files silently neutered the pure-Go test subset.\n\n---\n\n### 5. Migration Hygiene Check\n\n[`scripts/check-migration-hygiene.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-migration-hygiene.sh) runs on every PR and every push to `main`. Three failure classes correspond directly to named historical incidents (audit epic `bd-6dnrw`):\n\n- **Check A**: Duplicate migration version numbers (PR 4027 incident).\n- **Check B**: Nondeterministic SQL \u2014 `UUID()`, `UUID_SHORT()`, `NOW()`, `RAND()`, and migration-time `CURRENT_TIMESTAMP` \u2014 unless the file is in a `nondeterminism-allowlist.txt` with a justification (PR 4039 / issue #4259 incident).\n- **Check C**: Modification, deletion, or rename of a migration file that already exists on the base branch (PRs 3991/3918/3942 incident). Skips with a warning if no base ref is resolvable.\n\n`CODEOWNERS` places `internal/storage/schema/migrations/` and `scripts/check-migration-hygiene.sh` under `@gastownhall/beads-maintainers`, with an explicit note that GitHub only enforces this when branch protection has \"require review from Code Owners\" enabled (`bd-6dnrw.23`).\n\n---\n\n### 6. Version Consistency\n\n[`scripts/check-versions.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-versions.sh) is called in:\n- CI job `check-version-consistency` in `pr.yml` and `main.yml`.\n- The `pre-push` git hook, which calls it and refuses the push on tag-pushes (`refs/tags/v*`) if versions are inconsistent ([`.githooks/pre-push` L25-L37](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.githooks/pre-push?L25-L37)).\n\n---\n\n### 7. Generated-Docs Freshness\n\n- CI job `check-doc-flags` in `pr.yml` runs `scripts/check-doc-flags.sh` and `scripts/check-doc-freshness.sh` against the binary built in CI ([`pr.yml` L148-L185](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L148-L185)).\n- On failure, the exact regeneration patch is uploaded as artifact `cli-docs-freshness-patch`.\n- **Docs Autofix workflow** ([`docs-autofix.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/docs-autofix.yml)): triggered by `workflow_run` on PR failures; downloads the patch artifact, validates every path against an anchored allowlist, and either pushes the fix commit to the PR branch (same-repo, with `DOCS_AUTOFIX_TOKEN`) or posts an apply-recipe comment (forks). The workflow runs on the base branch only \u2014 it never checks out or executes PR code.\n\n---\n\n### 8. Formatting Check\n\n`fmt-check` job in both `pr.yml` and `main.yml` runs `make fmt-check` (gofmt). This is one of the 18 required jobs feeding the baseline aggregate gate.\n\n---\n\n### 9. Contract Corpus (Golden + Determinism + Conformance)\n\nJob `contract-corpus` in `pr.yml` ([lines 469-504](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L469-L504)):\n- Runs the entire `cmd/bd/protocol` package (not a `-run` subset).\n- Enforces a committed golden corpus: regenerated from the branch's `bd` binary and byte-compared to `testdata/corpus/`. An unreviewed wire change is a hard failure; fix is `make corpus-regen`.\n- Runs a double-run determinism check.\n- Requires `BEADS_PROTOCOL_REQUIRE_DOLT=1` (a failed container is a hard failure, not a skip).\n- Comment explicitly explains why a `-run` filter must never be reintroduced: it was the mechanism that kept conformance tests red on `main` for ~3 months while every CI run was green.\n\n---\n\n### 10. Storage-Layer Conformance\n\n- [`conformance.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/conformance.yml): runs `scripts/conformance.sh` against the embedded Dolt oracle on every PR.\n- `pr-risk.yml`: `test-embedded-conformance` runs `TestConformance` sharded into `core` and `audit` partitions (split because the combined suite exceeds 30m under runner variance). `test-server-storage` runs the same `RunAll` suite against a container-backed server-mode Dolt backend.\n\n---\n\n### 11. Regression Tests\n\n[`regression.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/regression.yml): differential regression against a pinned baseline version (`v0.49.6`). A detector job decides whether to run based on:\n1. PR labels `run-regression` / `skip-regression` (explicit override).\n2. Whether changed files match a `risky_pattern` covering CLI, storage, types, regression, or build-input paths. Test-only files are excluded from the trigger.\n\nAlways runs on `push` to main and `workflow_dispatch`.\n\n---\n\n### 12. Package Gates (MCP and npm)\n\n`detect-package-gates` job in `pr.yml` and `main.yml` runs `scripts/ci/detect-package-gates.sh`, which outputs boolean flags consumed by `package-mcp` and `package-npm`. These conditionally run and are included in the baseline aggregate gate. Both verify the built artifact via `sha256sum -c SHA256SUMS` before use.\n\n---\n\n### 13. CODEOWNERS\n\n[`.github/CODEOWNERS`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/CODEOWNERS) assigns `@gastownhall/beads-maintainers` to:\n- `cmd/bd/init.go`, `cmd/bd/init_*.go`, `cmd/bd/init_safety*.go` \u2014 with an explicit reviewer obligation to verify `CheckRemoteSafety`'s guard matrix tests before approving. The comment traces the root cause: 8+ paper-over commits before ADR 0002 codified the invariant.\n- `engdocs/adr/0002-init-safety-invariants.md`\n- `internal/storage/schema/migrations/` and `scripts/check-migration-hygiene.sh`\n\n---\n\n### 14. PR Template and Merge Discipline\n\n- [`PULL_REQUEST_TEMPLATE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/PULL_REQUEST_TEMPLATE.md): three required sections \u2014 What, Why, Verification.\n- [`PR_MAINTAINER_GUIDELINES.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/PR_MAINTAINER_GUIDELINES.md?L61-L88) codifies merge discipline rules explicitly referencing the 2-month, 440-PR audit (epic `bd-6dnrw`): no self-merge of nontrivial changes, no merge over unresolved `CHANGES_REQUESTED`, PR body must match the diff, no empty or bot-only approvals, revert ping-pong is explicitly prohibited (the five-merges-in-two-hours pattern is named).\n- [`CONTRIBUTING_PR_GUIDELINES.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/CONTRIBUTING_PR_GUIDELINES.md): one layer per PR; prove the bug in beads itself with a beads-only repro; benchmarks required for performance claims.\n\n---\n\n### 15. `.test-skip` Registry\n\n[`.test-skip`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.test-skip) exists and is empty (header line only). Its purpose per `CONTRIBUTING.md` is to track known-broken tests rather than silently skip them.\n\n---\n\n## Evidence Tied to Specific Changes (Named in Repo Artifacts)\n\n| Artifact | Change referenced | Mechanism introduced |\n|---|---|---|\n| [`scripts/check-migration-hygiene.sh` header](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/scripts/check-migration-hygiene.sh?L1-L30) | PRs 4027, 4039, 3991/3918/3942; audit epic `bd-6dnrw` | Checks A, B, C added as direct post-mortems |\n| [`pr.yml` L79-L118 (cgo job comment)](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L79-L118) | `mybd-ycx / GH#3683`, PR #3704 | `check-cmd-bd-puregeo-tests` job |\n| [`pr.yml` L452-L468 (corpus job comment)](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/workflows/pr.yml?L452-L468) | Conformance tests red for ~3 months due to `-run` filter | Package-scope enforcement, no `-run` allowed |\n| [`engdocs/adr/0002-init-safety-invariants.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/engdocs/adr/0002-init-safety-invariants.md) | `bd-q83`; AI agent destroyed 247 issues by copy-pasting error text | `CheckRemoteSafety` chokepoint + guard matrix test + Invariant 4 (no destructive invocation in error text) |\n| [`CODEOWNERS` L3-8 comment](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.github/CODEOWNERS?L3-L8) | 8+ prior paper-over commits before ADR 0002 | Mandatory maintainer review of `init*.go` + matrix reference |\n| [`release-gates/be-1he-slow-path-fix-gate.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/release-gates/be-1he-slow-path-fix-gate.md) | Cherry-pick of `9b2d0b87a` (12s `dolt remote -v` slow path) | Structured gate doc with row-by-row criteria table, maintainer editorial correction of mismatch between gate doc and actual diff |\n| [`release-gates/be-c5p-firewall-gate.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/release-gates/be-c5p-firewall-gate.md) | `isProductionPort` + DB-name firewall (PR `47dcc380`) | Release gate doc with AC-by-AC checklist; follow-up bead `be-z62` filed for coverage gaps |\n| [`pre-push` hook L5-6](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-beads@41f3bfe6f22d9b8b90775cae01a785d99df3f63c/-/blob/.githooks/pre-push?L5-L6) | \"failure mode that left main red after the 1.0.5 release\" | Version consistency check gating release tag pushes |\n\n---\n\n## Deterministic Verification Queries\n\nThe following can be run mechanically against the revision to confirm the observations above.\n\n```bash\n# 1. List all jobs in the baseline CI gate (pr.yml) and their requirement status\ngrep -E 'needs:|CI_GATE_REQUIRED:' .github/workflows/pr.yml\n\n# 2. Confirm the migration hygiene script checks all three failure classes\ngrep -c 'Check [ABC]:' scripts/check-migration-hygiene.sh\n# Expected: 3\n\n# 3. Confirm CODEOWNERS covers migrations and hygiene script\ngrep 'migrations\\|check-migration-hygiene' .github/CODEOWNERS\n\n# 4. Confirm depguard denies github.com/dolthub in non-storage packages\ngrep -A2 'deny:' .golangci.yml | grep 'dolthub'\n\n# 5. Confirm the CGO_ENABLED=0 compile job covers cmd/bd, embeddeddolt, tracker\ngrep 'CGO_ENABLED.*0' .github/workflows/pr.yml | head -5\n\n# 6. Confirm the corpus job runs the entire package, not a -run subset\ngrep -A3 'contract-corpus' .github/workflows/pr.yml | grep 'run:'\n\n# 7. Confirm .test-skip is empty of test names\nwc -l .test-skip && cat .test-skip\n\n# 8. Confirm check-versions.sh is called from pre-push on tag pushes\ngrep -n 'check-versions' .githooks/pre-push\n\n# 9. Confirm docs-autofix.yml never checks out PR head (security model)\ngrep 'ref:' .github/workflows/docs-autofix.yml\n# Expected: no result (it uses the default, base branch checkout)\n\n# 10. Confirm regression workflow uses label override and path-pattern detection\ngrep -E 'run-regression|skip-regression|risky_pattern' .github/workflows/regression.yml\n```"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T02:58:54Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/gastownhall-beads at revision 41f3bfe6f22d9b8b90775cae01a785d99df3f63c, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: gastownhall/beads; stratum: agent_native; cutoff: 41f3bfe6f22d9b8b90775cae01a785d99df3f63c."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Reviewing code, CI, and validation mechanisms at a specific GitHub revision",
+    "updateTime": "2026-07-29T03:01:28Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/79fcf659-618e-4656-91a1-c78e6dead414"
+  },
+  "run_id": "sha256:33567e7a42aa91a89ecd8cff3f8c01b9d4ee8e7b242d0223223e5c32d2a99364",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "gastownhall/beads"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

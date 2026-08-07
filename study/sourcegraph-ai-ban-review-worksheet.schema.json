@@ -1,0 +1,367 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-ai-ban-review-worksheet.schema.json",
+  "title": "Outcome-blind sequential AI-ban review worksheet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "review_version",
+    "target_manifest_sha256",
+    "predecessors",
+    "task_count",
+    "tasks",
+    "stopping_rule",
+    "ambiguous_resolution",
+    "semantic_policy_decisions_made",
+    "scip_required",
+    "paid_api_used",
+    "openai_api_key_used",
+    "classifier_outcomes_consulted",
+    "survival_outcomes_consulted",
+    "outcomes_consulted",
+    "worksheet_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-ai-ban-review-worksheet.schema.json"
+    },
+    "review_version": {
+      "const": 3
+    },
+    "target_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "predecessors": {
+      "$ref": "#/$defs/predecessors"
+    },
+    "task_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 17
+    },
+    "tasks": {
+      "type": "array",
+      "maxItems": 17,
+      "items": {
+        "$ref": "#/$defs/task"
+      }
+    },
+    "stopping_rule": {
+      "const": "earliest_accepted_policy_event"
+    },
+    "ambiguous_resolution": {
+      "const": "distinct_secondary_then_distinct_resolver"
+    },
+    "semantic_policy_decisions_made": {
+      "const": false
+    },
+    "scip_required": {
+      "const": false
+    },
+    "paid_api_used": {
+      "const": false
+    },
+    "openai_api_key_used": {
+      "const": false
+    },
+    "classifier_outcomes_consulted": {
+      "const": false
+    },
+    "survival_outcomes_consulted": {
+      "const": false
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "worksheet_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "nullableSha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "predecessors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "control_evidence_file_sha256",
+        "index_manifest_file_sha256",
+        "case_index_file_sha256",
+        "case_index_sha256",
+        "packet_index_sha256",
+        "specification_sha256",
+        "workflow_sha256",
+        "prior_decision_ledger_sha256"
+      ],
+      "properties": {
+        "control_evidence_file_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "index_manifest_file_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "case_index_file_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "case_index_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "packet_index_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "specification_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "workflow_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "prior_decision_ledger_sha256": {
+          "$ref": "#/$defs/nullableSha256"
+        }
+      }
+    },
+    "candidateEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commit_oid",
+        "observed_at"
+      ],
+      "properties": {
+        "commit_oid": {
+          "$ref": "#/$defs/sha1"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "rawEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "commit_oid",
+        "path",
+        "line",
+        "value",
+        "source_url"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "commit_message",
+            "commit_identity",
+            "diff_added",
+            "file_content",
+            "blame"
+          ]
+        },
+        "commit_oid": {
+          "$ref": "#/$defs/sha1"
+        },
+        "path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "line": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "packet_id",
+        "packet_sha256",
+        "query_family_id",
+        "raw_evidence"
+      ],
+      "properties": {
+        "packet_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "packet_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "query_family_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "raw_evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/rawEvidence"
+          }
+        }
+      }
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_id",
+        "target_manifest_sha256",
+        "canonical_repository_id",
+        "canonical_source_url",
+        "sourcegraph_name",
+        "cutoff_commit",
+        "event_id",
+        "candidate_event",
+        "candidate_position",
+        "candidate_count",
+        "packet_ids",
+        "query_family_ids",
+        "evidence",
+        "review_role",
+        "review_question",
+        "allowed_decisions",
+        "outcomes_consulted",
+        "task_sha256"
+      ],
+      "properties": {
+        "task_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "target_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "canonical_source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sourcegraph_name": {
+          "type": "string",
+          "pattern": "^github\\.com/sg-evals/"
+        },
+        "cutoff_commit": {
+          "$ref": "#/$defs/sha1"
+        },
+        "event_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "candidate_event": {
+          "$ref": "#/$defs/candidateEvent"
+        },
+        "candidate_position": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "candidate_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "packet_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sha256"
+          }
+        },
+        "query_family_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        },
+        "review_role": {
+          "enum": [
+            "primary",
+            "secondary",
+            "resolver"
+          ]
+        },
+        "review_question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "allowed_decisions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "accept_policy",
+              "ambiguous",
+              "insufficient",
+              "reject"
+            ]
+          }
+        },
+        "outcomes_consulted": {
+          "const": false
+        },
+        "task_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "review_role": {
+                "const": "resolver"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "allowed_decisions": {
+                "not": {
+                  "contains": {
+                    "const": "ambiguous"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "d4a70f6854b5bc4750cbf1f400b81e477a21de69865ec53aacb027f10a50bf7e",
+    "task_id": "341ca312e552f64c29424d80cea341f16f07f5e648233880711638c6bcd9994b",
+    "task_sha256": "5ba1eb94c9eb05c1f94ca7746823dd1970352751353ae8aab3c7cbd985c55212",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "7eebc2d838133a78a64a871c5ce0ecf91463bdde1d4647882ff758e3c6252865",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The cited README line documents an HLS container option and does not establish any prohibition on AI-generated or AI-authored contributions.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/README.md#L612",
+      "https://github.com/yt-dlp/yt-dlp/commit/2dd5a2e3a1c0fad8441f8e9c7eb77315afcb075b"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "3976c6ad21fc5059bb9c8d7960f48381f7a07b87b25520dbf29ab5c903874347"
+  },
+  {
+    "response_version": 3,
+    "worksheet_sha256": "d4a70f6854b5bc4750cbf1f400b81e477a21de69865ec53aacb027f10a50bf7e",
+    "task_id": "e86a433f7f21edd715714eb25f220ff3f7852f5e9be7df1ab64551e9080abacf",
+    "task_sha256": "9a95f3d7617560dd407cebf93d30ae03c66d517ec2a3a24a2afa6528135ac618",
+    "canonical_repository_id": "twpayne/chezmoi",
+    "event_id": "f6de85a9787c7286f967e0699954fcde54a3134200c3cf9555dfb23d8031dcee",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "accept_policy",
+    "default_branch_supported": true,
+    "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+    "evidence_tier": "datable_default_branch_policy",
+    "rationale": "The dated code-of-conduct change states that any contribution containing any LLM-generated content will be rejected, establishing a repository-wide contribution prohibition.",
+    "evidence_citations": [
+      "https://github.com/twpayne/chezmoi/commit/7938c65ca55aaeaf6fc56d37b0b32073d2e5c461",
+      "https://github.com/twpayne/chezmoi/blob/c7f235ea5217f1fa201cf70f48eec021058538dd/.github/CODE_OF_CONDUCT.md#L7"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "9956014f968d6499e5c1af7c3285e0a7a71db982e06c6d1edd8145a226628596"
+  },
+  {
+    "response_version": 3,
+    "worksheet_sha256": "d4a70f6854b5bc4750cbf1f400b81e477a21de69865ec53aacb027f10a50bf7e",
+    "task_id": "d6d4312c7fba8cdfeb5ec14884b3a5f23ad65f734aec998f3b0603e4a31a0449",
+    "task_sha256": "c30b7a4e1238e1ef5865ac88bf9fdc75790850fc23812031e7b70d6da186e1c9",
+    "canonical_repository_id": "superseriousbusiness/gotosocial",
+    "event_id": "ce46b34205853468555af8bfcf39bb8c663388979db7c15eb1c6065717f12f0a",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The cited vendored code of conduct grants generic moderation authority and contains no prohibition on AI-generated or AI-authored contributions to this repository.",
+    "evidence_citations": [
+      "https://codeberg.org/superseriousbusiness/gotosocial"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "f3f92a40dd7bf20e13537cd36cabfe490448b377f59fa80dbe2f6c4b89c4422e"
+  }
+]

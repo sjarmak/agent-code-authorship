@@ -1,0 +1,290 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "42a34f9ad561bea925dfbe683e1650e6f832f872ab3f41e37458e8c1ed860bf8",
+  "artifact_version": 1,
+  "canonical_repository_id": "gastownhall/gascity",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "bd7c9dac0b305b94893f3382f66cb129536d1be4"
+  ],
+  "cited_files": [
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/execgrace.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L60-68"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/execgrace.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L76-92"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/execgrace.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L102-113"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/execgrace.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L123-138"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/execgrace.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L38-44"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/execgrace.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L203-211"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/signal_unix.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/signal_unix.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/signal_windows.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/signal_windows.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/config/config.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/config/config.go?L1561"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/config/config.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/config/config.go?L1644-1649"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/config/validate_durations.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/config/validate_durations.go?L75"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "cmd/gc/providers.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/cmd/gc/providers.go?L95"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "cmd/gc/runtime_registry.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/cmd/gc/runtime_registry.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/tmux/tmux.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/tmux.go?L55-59"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/tmux/adapter.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L817-827"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/tmux/adapter.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L936-994"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/tmux/adapter.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L832-835"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/tmux/adapter.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L86-88"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/herdr/provider.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L28-38"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/herdr/provider.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L53-65"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/herdr/provider.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L263-323"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/herdr/provider.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L224-227"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/exec/exec.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/exec/exec.go?L79-93"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "docs/reference/config.md",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/docs/reference/config.md?L797-798"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "docs/reference/schema/city-schema.json",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/docs/reference/schema/city-schema.json"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "docs/reference/schema/city-schema.txt",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/docs/reference/schema/city-schema.txt"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/execgrace_test.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace_test.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/apply_unix_test.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/apply_unix_test.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/tmux/startup_test.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/startup_test.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/herdr/prestart_test.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/prestart_test.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/runtime/herdr/conformance_test.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/conformance_test.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "scripts/runtime-tmux-tests.manifest",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/scripts/runtime-tmux-tests.manifest"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "scripts/runtime_tmux_manifest_test.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/scripts/runtime_tmux_manifest_test.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": ".github/CODEOWNERS",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/.github/CODEOWNERS"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/testpolicy/resourcecensus/census.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/testpolicy/resourcecensus/census.go"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "test/test-resources.toml",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/test/test-resources.toml"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "TESTING.md",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/TESTING.md"
+    },
+    {
+      "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "path": "internal/execgrace/testenv_import_test.go",
+      "repository": "github.com/sg-evals/gastownhall-gascity",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/testenv_import_test.go"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1980",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/gastownhall-gascity at revision bd7c9dac0b305b94893f3382f66cb129536d1be4, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: gastownhall/gascity; stratum: agent_native; cutoff: bd7c9dac0b305b94893f3382f66cb129536d1be4.",
+  "prompt_family_id": "change_topology",
+  "prompt_sha256": "caa11c63a5994445c48aca8babcb1965d23f5c3a6e3fb35e341eb33e198e2944",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a complete picture. Here is the semantic topology map.\n\n---\n\n## Semantic Topology: `bd7c9dac0b305b94893f3382f66cb129536d1be4`\n\n**Change summary:** Introduces `setup_max_timeout` \u2014 an activity-aware (idle + absolute-ceiling) deadline for session setup commands \u2014 and extracts a new reusable package `internal/execgrace` that consolidates cooperative cancellation logic previously duplicated across `internal/runtime/exec` and `internal/runtime/tmux`.\n\n---\n\n### 1. New Package: `internal/execgrace`\n\n**Navigation basis: precise** (file created in this diff, read in full)\n\n| Symbol | Kind | File | Lines |\n|---|---|---|---|\n| `Apply` | func (public) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L60-68) | configures process-group + `InterruptThenKill` + `WaitDelay` |\n| `InterruptThenKill` | func (public) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L76-92) | lifted verbatim from `internal/runtime/exec`'s deleted `interruptThenKill` |\n| `Monitor` | struct (public) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L102-113) | new; idle+ceiling timer pair |\n| `NewMonitor` | func (public) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L123-138) | returns inert monitor when both dims are zero |\n| `ErrIdle` / `ErrCeiling` | sentinel errors | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L38-44) | surfaced via `context.Cause` |\n| `activityWriter` | struct (private) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L203-211) | resets idle clock on each `Write` |\n| `setProcessGroup` / `interruptProcessGroup` | funcs (private, OS-split) | [`signal_unix.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/signal_unix.go) / [`signal_windows.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/signal_windows.go) | **moved** from `internal/runtime/exec` package (package renamed from `exec` \u2192 `execgrace`) |\n\n**Origin of `signal_*.go`:** The diff shows `package exec` \u2192 `package execgrace` rename with comment updates only; these files were not newly created \u2014 they were re-packaged. Their pre-existing implementations `setProcessGroup` (Setpgid) and `interruptProcessGroup` (pgid kill) are unchanged in logic.\n\n---\n\n### 2. Affected Definitions \u2014 `internal/config`\n\n**Navigation basis: precise** (diff + `read_file`)\n\n| Symbol | File | Change |\n|---|---|---|\n| `SessionConfig.SetupMaxTimeout string` | [`config.go:1561`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/config/config.go?L1561) | new field; `toml:\"setup_max_timeout,omitempty\"` (no jsonschema default = opt-in) |\n| `SessionConfig.SetupMaxTimeoutDuration() time.Duration` | [`config.go:1647`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/config/config.go?L1644-1649) | new accessor; returns zero when unset (feature disabled) |\n| `ValidateDurations` | [`validate_durations.go:75`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/config/validate_durations.go?L75) | adds `setup_max_timeout` to the duration-parse check list |\n\n---\n\n### 3. Callers of New Definitions\n\n**Navigation basis: precise** (diff), confirmed by `read_file`\n\n| Caller | File | What it does |\n|---|---|---|\n| `tmuxConfigFromSession` in `cmd/gc` | [`cmd/gc/providers.go:95`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/cmd/gc/providers.go?L95) | maps `sc.SetupMaxTimeoutDuration()` \u2192 `sessiontmux.Config.SetupMaxTimeout` |\n| `buildRuntimeRegistry` in `cmd/gc` | [`cmd/gc/runtime_registry.go:89`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/cmd/gc/runtime_registry.go) | passes `sc.SetupMaxTimeoutDuration()` as second arg to `sessionherdr.New` |\n\n---\n\n### 4. Affected Implementations \u2014 Runtime Providers\n\n**Navigation basis: precise** (diff + `read_file`)\n\n#### A. `internal/runtime/tmux` (tmux provider)\n\n| Symbol | File | Change |\n|---|---|---|\n| `tmux.Config.SetupMaxTimeout` | [`tmux.go:59`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/tmux.go?L55-59) | new field on the config struct |\n| `tmuxStartOps.setupMaxTimeout` | [`adapter.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L817-827) | carries `Config.SetupMaxTimeout` into `runSetupCommand` |\n| `tmuxStartOps.runSetupCommand` | [`adapter.go:936`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L936-994) | replaces `context.WithTimeout` + hardcoded `WaitDelay` with `execgrace.NewMonitor` + `execgrace.Apply`; errors now use `context.Cause(runCtx)` |\n| `setupCancelGrace = 10s` | [`adapter.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L832-835) | new constant: rollback-trap budget when activity mode is on |\n| `Provider.Start`, `.RunLive`, `.Relaunch` | [`adapter.go:86,218,232`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L86-88) | all now thread `p.cfg.SetupMaxTimeout` into `tmuxStartOps` |\n\n#### B. `internal/runtime/herdr` (herdr provider)\n\n| Symbol | File | Change |\n|---|---|---|\n| `Provider.setupMaxTimeout` | [`provider.go:33`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L28-38) | new field |\n| `New(\u2026, setupMaxTimeout time.Duration)` | [`provider.go:56`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L53-65) | signature extended; second duration arg added |\n| `runSetupCommand` | [`provider.go:263`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L263-323) | same `Monitor`/`Apply` pattern as tmux |\n| `preStartCancelGrace = 10s` | [`provider.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L224-227) | mirrors `setupCancelGrace` |\n\n#### C. `internal/runtime/exec` (exec/adapter provider)\n\n| Symbol | File | Change |\n|---|---|---|\n| `runWithContext` | [`exec.go:79`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/exec/exec.go?L79-93) | inline `interruptThenKill` + `setProcessGroup` + `WaitDelay` deleted; replaced by single `execgrace.Apply(cmd, 2*time.Second)` call |\n| `interruptThenKill` (private) | `exec.go` | **deleted** \u2014 logic moved to `execgrace.InterruptThenKill` |\n| `signal_unix.go` / `signal_windows.go` | moved out of `internal/runtime/exec` | now live in `internal/execgrace`; package declaration changed |\n\n---\n\n### 5. Public API Surface\n\n**Navigation basis: precise** (diff on schema files)\n\nThe public user-facing API is the TOML city config and its JSON schema:\n\n- **New field:** `setup_max_timeout` in `[session]` block\n  - [`docs/reference/config.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/docs/reference/config.md?L797-798): prose description added\n  - [`docs/reference/schema/city-schema.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/docs/reference/schema/city-schema.json): `\"setup_max_timeout\"` property block added\n  - [`docs/reference/schema/city-schema.txt`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/docs/reference/schema/city-schema.txt): same block added (appears to be a mirrored text copy of the JSON schema)\n\nThe `execgrace` package's exported symbols (`Apply`, `InterruptThenKill`, `NewMonitor`, `Monitor`, `ErrIdle`, `ErrCeiling`) form a new internal public API boundary consumable by other packages in the module.\n\n---\n\n### 6. Tests\n\n**Navigation basis: precise** (diff)\n\n| Test file | Package | Tests added | Coverage target |\n|---|---|---|---|\n| [`internal/execgrace/execgrace_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace_test.go) | `execgrace` | `TestMonitorDisabledPassthrough`, `TestMonitorIdleTimeout`, `TestMonitorOutputResetsIdle`, `TestMonitorCeiling`, `TestMonitorStopReleasesTimers`, `TestInterruptThenKill*` | `Monitor` inert/idle/ceiling/reset contracts; `InterruptThenKill` accepted flag |\n| [`internal/execgrace/apply_unix_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/apply_unix_test.go) | `execgrace` (unix build tag) | `TestApplyTrapRunsBeforeKill`, `TestApplyForceKillsUncooperative`, `TestApplyAcceptedFlag` | regression for worktree-setup data-loss class; grace escalation; accepted-flag contract |\n| [`internal/runtime/tmux/startup_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/startup_test.go) | `tmux` | `TestRunSetupCommandActivityStreamingSurvivesIdleWindow`, `TestRunSetupCommandActivityIdleKillsSilentHang`, `TestRunSetupCommandActivityCeilingKillsRunaway`, `TestRunSetupCommandCancellationRunsRollbackTrap` | activity-budget integration on `runSetupCommand` |\n| [`internal/runtime/herdr/prestart_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/prestart_test.go) | `herdr` | `New(\u2026, 0)` arg updated (3 call sites) | conformance \u2014 zero `setupMaxTimeout` preserves old behavior |\n| [`internal/runtime/herdr/conformance_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/conformance_test.go), `seedmeta_test.go`, `provider_live_test.go` | `herdr` | arg updated (5 call sites total) | existing tests preserved |\n\n4 new tmux tests are registered in [`scripts/runtime-tmux-tests.manifest`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/scripts/runtime-tmux-tests.manifest), and [`scripts/runtime_tmux_manifest_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/scripts/runtime_tmux_manifest_test.go) has its hardcoded counts updated (326\u2192330 manifest, 218\u2192222 untagged, shard counts updated to 55\u00d76=330).\n\n---\n\n### 7. Dependency Boundaries\n\n**Navigation basis: precise** (import graph, diff)\n\n```\ninternal/config\n  \u2514\u2500 SessionConfig.SetupMaxTimeout / SetupMaxTimeoutDuration()\n\ninternal/execgrace          \u2190 NEW package\n  \u251c\u2500 Apply, InterruptThenKill, Monitor, NewMonitor, ErrIdle, ErrCeiling\n  \u251c\u2500 (private) signal_unix.go, signal_windows.go\n  \u2514\u2500 imports: context, errors, io, os, os/exec, sync, sync/atomic, time\n\ninternal/runtime/exec       \u2190 now imports execgrace (was self-contained)\ninternal/runtime/tmux       \u2190 now imports execgrace\ninternal/runtime/herdr      \u2190 now imports execgrace\n\ncmd/gc/providers.go         \u2190 reads config.SessionConfig \u2192 tmux.Config\ncmd/gc/runtime_registry.go  \u2190 reads config.SessionConfig \u2192 herdr.New\n```\n\nNo new external (module-level) dependencies were introduced; all new imports are stdlib or within the same module.\n\n---\n\n### 8. CODEOWNERS Domains\n\n**Navigation basis: precise** ([`.github/CODEOWNERS`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/.github/CODEOWNERS))\n\n| Path touched | Owner |\n|---|---|\n| `scripts/` | `@gastownhall/gascity-admin` |\n| `go.mod` / `go.sum` | `@gastownhall/gascity-admin` (no changes in this commit) |\n| `docs/reference/` | **no explicit owner** (CODEOWNERS covers only `docs/diagrams/`, `docs/getting-started/`, `docs/guides/`, `docs/images/`, `docs/runbooks/`, `docs/troubleshooting/`, `docs/tutorials/`) |\n| `internal/execgrace/`, `internal/config/`, `internal/runtime/`, `cmd/gc/` | **no explicit CODEOWNERS entry** \u2014 falls through to the implicit repository-wide default |\n| `internal/testpolicy/`, `test/` | **no explicit CODEOWNERS entry** |\n\nThe bulk of the change (new package, config field, provider implementations) has **no explicit CODEOWNERS coverage**. Only `scripts/runtime-tmux-tests.manifest` and `scripts/runtime_tmux_manifest_test.go` fall under `@gastownhall/gascity-admin`.\n\n---\n\n### 9. Audit / Policy Metadata\n\n**Navigation basis: precise** (diff)\n\nThe subprocess-census baselines are updated in three coordinated places:\n- [`internal/testpolicy/resourcecensus/census.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/testpolicy/resourcecensus/census.go): `BaselineCalls 531\u2192535`, `BaselineFiles 163\u2192164`\n- [`test/test-resources.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/test/test-resources.toml): same numbers\n- [`TESTING.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/TESTING.md): audit table row updated\n\nIncrease of +4 calls / +1 file matches the 4 new tmux tests (each spawning subprocesses) in `startup_test.go`, plus the new `execgrace` test file (`apply_unix_test.go`) adding one new file. The `internal/testenv` import in [`testenv_import_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/testenv_import_test.go) is generated code that hooks the new package into the project's test environment policy.\n\n---\n\n### 10. Later Fixes / Refactors / Reverts\n\n**Navigation basis: search-based** \u2014 `commit_search` was not run against post-cutoff commits because the cutoff is specified as this exact SHA. No ancestry or descendant data is available from within this analysis. **This information is unavailable without inspecting commits after `bd7c9dac`.**\n\n---\n\n### Unavailable Metadata\n\n| Item | Reason |\n|---|---|\n| Post-cutoff fixes/refactors/reverts | Cutoff is `bd7c9dac`; no later commits were examined |\n| PR/issue number | Not present in the diff headers or any file content read |\n| `rev:`-scoped keyword search | The revision is not indexed for live code search in this environment (all `rev:` queries returned no results); all code-level facts were obtained via `read_file` + `compare_revisions` (precise) |\n| `go.mod` / `go.sum` changes | Not in the diff; no new external dependency was added |\n| Test tags / CI sharding beyond manifest counts | Not read in full; manifest arithmetic was read from the diff |\n\n---\n\n### Deterministic Verification Steps\n\n1. **Reproduce the diff:** `git diff bd7c9dac~1 bd7c9dac` \u2014 the 27 files and +688/-88 line counts are the ground truth.\n2. **Verify package move:** `git log --follow -- internal/execgrace/signal_unix.go` \u2014 should show the file originated from `internal/runtime/exec/signal_unix.go` if Git tracked the rename; or `git show bd7c9dac -- internal/runtime/exec/signal_unix.go` returns nothing (file deleted from that path).\n3. **Verify `interruptThenKill` removal:** `git show bd7c9dac~1 -- internal/runtime/exec/exec.go | grep -A20 interruptThenKill` \u2014 must show the function body that `InterruptThenKill` in `execgrace.go` now mirrors.\n4. **Verify census arithmetic:** count `exec.Command` / `exec.CommandContext` / `os.StartProcess` in `internal/execgrace/apply_unix_test.go` and the four new `startup_test.go` functions; must sum to +4 calls / +1 file vs prior baseline.\n5. **Verify CODEOWNERS gaps:** `git check-attr codeowners -- internal/execgrace/execgrace.go` \u2014 should return unspecified (no owner).\n6. **Verify schema roundtrip:** run `go generate ./docs/...` (or whatever the schema-generation script is) at `bd7c9dac` and diff against `city-schema.json` \u2014 should be clean.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:05:18Z",
+    "name": "users/476/conversations/1980",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a complete picture. Here is the semantic topology map.\n\n---\n\n## Semantic Topology: `bd7c9dac0b305b94893f3382f66cb129536d1be4`\n\n**Change summary:** Introduces `setup_max_timeout` \u2014 an activity-aware (idle + absolute-ceiling) deadline for session setup commands \u2014 and extracts a new reusable package `internal/execgrace` that consolidates cooperative cancellation logic previously duplicated across `internal/runtime/exec` and `internal/runtime/tmux`.\n\n---\n\n### 1. New Package: `internal/execgrace`\n\n**Navigation basis: precise** (file created in this diff, read in full)\n\n| Symbol | Kind | File | Lines |\n|---|---|---|---|\n| `Apply` | func (public) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L60-68) | configures process-group + `InterruptThenKill` + `WaitDelay` |\n| `InterruptThenKill` | func (public) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L76-92) | lifted verbatim from `internal/runtime/exec`'s deleted `interruptThenKill` |\n| `Monitor` | struct (public) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L102-113) | new; idle+ceiling timer pair |\n| `NewMonitor` | func (public) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L123-138) | returns inert monitor when both dims are zero |\n| `ErrIdle` / `ErrCeiling` | sentinel errors | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L38-44) | surfaced via `context.Cause` |\n| `activityWriter` | struct (private) | [`execgrace.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace.go?L203-211) | resets idle clock on each `Write` |\n| `setProcessGroup` / `interruptProcessGroup` | funcs (private, OS-split) | [`signal_unix.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/signal_unix.go) / [`signal_windows.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/signal_windows.go) | **moved** from `internal/runtime/exec` package (package renamed from `exec` \u2192 `execgrace`) |\n\n**Origin of `signal_*.go`:** The diff shows `package exec` \u2192 `package execgrace` rename with comment updates only; these files were not newly created \u2014 they were re-packaged. Their pre-existing implementations `setProcessGroup` (Setpgid) and `interruptProcessGroup` (pgid kill) are unchanged in logic.\n\n---\n\n### 2. Affected Definitions \u2014 `internal/config`\n\n**Navigation basis: precise** (diff + `read_file`)\n\n| Symbol | File | Change |\n|---|---|---|\n| `SessionConfig.SetupMaxTimeout string` | [`config.go:1561`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/config/config.go?L1561) | new field; `toml:\"setup_max_timeout,omitempty\"` (no jsonschema default = opt-in) |\n| `SessionConfig.SetupMaxTimeoutDuration() time.Duration` | [`config.go:1647`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/config/config.go?L1644-1649) | new accessor; returns zero when unset (feature disabled) |\n| `ValidateDurations` | [`validate_durations.go:75`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/config/validate_durations.go?L75) | adds `setup_max_timeout` to the duration-parse check list |\n\n---\n\n### 3. Callers of New Definitions\n\n**Navigation basis: precise** (diff), confirmed by `read_file`\n\n| Caller | File | What it does |\n|---|---|---|\n| `tmuxConfigFromSession` in `cmd/gc` | [`cmd/gc/providers.go:95`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/cmd/gc/providers.go?L95) | maps `sc.SetupMaxTimeoutDuration()` \u2192 `sessiontmux.Config.SetupMaxTimeout` |\n| `buildRuntimeRegistry` in `cmd/gc` | [`cmd/gc/runtime_registry.go:89`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/cmd/gc/runtime_registry.go) | passes `sc.SetupMaxTimeoutDuration()` as second arg to `sessionherdr.New` |\n\n---\n\n### 4. Affected Implementations \u2014 Runtime Providers\n\n**Navigation basis: precise** (diff + `read_file`)\n\n#### A. `internal/runtime/tmux` (tmux provider)\n\n| Symbol | File | Change |\n|---|---|---|\n| `tmux.Config.SetupMaxTimeout` | [`tmux.go:59`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/tmux.go?L55-59) | new field on the config struct |\n| `tmuxStartOps.setupMaxTimeout` | [`adapter.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L817-827) | carries `Config.SetupMaxTimeout` into `runSetupCommand` |\n| `tmuxStartOps.runSetupCommand` | [`adapter.go:936`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L936-994) | replaces `context.WithTimeout` + hardcoded `WaitDelay` with `execgrace.NewMonitor` + `execgrace.Apply`; errors now use `context.Cause(runCtx)` |\n| `setupCancelGrace = 10s` | [`adapter.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L832-835) | new constant: rollback-trap budget when activity mode is on |\n| `Provider.Start`, `.RunLive`, `.Relaunch` | [`adapter.go:86,218,232`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/adapter.go?L86-88) | all now thread `p.cfg.SetupMaxTimeout` into `tmuxStartOps` |\n\n#### B. `internal/runtime/herdr` (herdr provider)\n\n| Symbol | File | Change |\n|---|---|---|\n| `Provider.setupMaxTimeout` | [`provider.go:33`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L28-38) | new field |\n| `New(\u2026, setupMaxTimeout time.Duration)` | [`provider.go:56`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L53-65) | signature extended; second duration arg added |\n| `runSetupCommand` | [`provider.go:263`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L263-323) | same `Monitor`/`Apply` pattern as tmux |\n| `preStartCancelGrace = 10s` | [`provider.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/provider.go?L224-227) | mirrors `setupCancelGrace` |\n\n#### C. `internal/runtime/exec` (exec/adapter provider)\n\n| Symbol | File | Change |\n|---|---|---|\n| `runWithContext` | [`exec.go:79`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/exec/exec.go?L79-93) | inline `interruptThenKill` + `setProcessGroup` + `WaitDelay` deleted; replaced by single `execgrace.Apply(cmd, 2*time.Second)` call |\n| `interruptThenKill` (private) | `exec.go` | **deleted** \u2014 logic moved to `execgrace.InterruptThenKill` |\n| `signal_unix.go` / `signal_windows.go` | moved out of `internal/runtime/exec` | now live in `internal/execgrace`; package declaration changed |\n\n---\n\n### 5. Public API Surface\n\n**Navigation basis: precise** (diff on schema files)\n\nThe public user-facing API is the TOML city config and its JSON schema:\n\n- **New field:** `setup_max_timeout` in `[session]` block\n  - [`docs/reference/config.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/docs/reference/config.md?L797-798): prose description added\n  - [`docs/reference/schema/city-schema.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/docs/reference/schema/city-schema.json): `\"setup_max_timeout\"` property block added\n  - [`docs/reference/schema/city-schema.txt`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/docs/reference/schema/city-schema.txt): same block added (appears to be a mirrored text copy of the JSON schema)\n\nThe `execgrace` package's exported symbols (`Apply`, `InterruptThenKill`, `NewMonitor`, `Monitor`, `ErrIdle`, `ErrCeiling`) form a new internal public API boundary consumable by other packages in the module.\n\n---\n\n### 6. Tests\n\n**Navigation basis: precise** (diff)\n\n| Test file | Package | Tests added | Coverage target |\n|---|---|---|---|\n| [`internal/execgrace/execgrace_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/execgrace_test.go) | `execgrace` | `TestMonitorDisabledPassthrough`, `TestMonitorIdleTimeout`, `TestMonitorOutputResetsIdle`, `TestMonitorCeiling`, `TestMonitorStopReleasesTimers`, `TestInterruptThenKill*` | `Monitor` inert/idle/ceiling/reset contracts; `InterruptThenKill` accepted flag |\n| [`internal/execgrace/apply_unix_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/apply_unix_test.go) | `execgrace` (unix build tag) | `TestApplyTrapRunsBeforeKill`, `TestApplyForceKillsUncooperative`, `TestApplyAcceptedFlag` | regression for worktree-setup data-loss class; grace escalation; accepted-flag contract |\n| [`internal/runtime/tmux/startup_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/tmux/startup_test.go) | `tmux` | `TestRunSetupCommandActivityStreamingSurvivesIdleWindow`, `TestRunSetupCommandActivityIdleKillsSilentHang`, `TestRunSetupCommandActivityCeilingKillsRunaway`, `TestRunSetupCommandCancellationRunsRollbackTrap` | activity-budget integration on `runSetupCommand` |\n| [`internal/runtime/herdr/prestart_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/prestart_test.go) | `herdr` | `New(\u2026, 0)` arg updated (3 call sites) | conformance \u2014 zero `setupMaxTimeout` preserves old behavior |\n| [`internal/runtime/herdr/conformance_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/runtime/herdr/conformance_test.go), `seedmeta_test.go`, `provider_live_test.go` | `herdr` | arg updated (5 call sites total) | existing tests preserved |\n\n4 new tmux tests are registered in [`scripts/runtime-tmux-tests.manifest`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/scripts/runtime-tmux-tests.manifest), and [`scripts/runtime_tmux_manifest_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/scripts/runtime_tmux_manifest_test.go) has its hardcoded counts updated (326\u2192330 manifest, 218\u2192222 untagged, shard counts updated to 55\u00d76=330).\n\n---\n\n### 7. Dependency Boundaries\n\n**Navigation basis: precise** (import graph, diff)\n\n```\ninternal/config\n  \u2514\u2500 SessionConfig.SetupMaxTimeout / SetupMaxTimeoutDuration()\n\ninternal/execgrace          \u2190 NEW package\n  \u251c\u2500 Apply, InterruptThenKill, Monitor, NewMonitor, ErrIdle, ErrCeiling\n  \u251c\u2500 (private) signal_unix.go, signal_windows.go\n  \u2514\u2500 imports: context, errors, io, os, os/exec, sync, sync/atomic, time\n\ninternal/runtime/exec       \u2190 now imports execgrace (was self-contained)\ninternal/runtime/tmux       \u2190 now imports execgrace\ninternal/runtime/herdr      \u2190 now imports execgrace\n\ncmd/gc/providers.go         \u2190 reads config.SessionConfig \u2192 tmux.Config\ncmd/gc/runtime_registry.go  \u2190 reads config.SessionConfig \u2192 herdr.New\n```\n\nNo new external (module-level) dependencies were introduced; all new imports are stdlib or within the same module.\n\n---\n\n### 8. CODEOWNERS Domains\n\n**Navigation basis: precise** ([`.github/CODEOWNERS`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/.github/CODEOWNERS))\n\n| Path touched | Owner |\n|---|---|\n| `scripts/` | `@gastownhall/gascity-admin` |\n| `go.mod` / `go.sum` | `@gastownhall/gascity-admin` (no changes in this commit) |\n| `docs/reference/` | **no explicit owner** (CODEOWNERS covers only `docs/diagrams/`, `docs/getting-started/`, `docs/guides/`, `docs/images/`, `docs/runbooks/`, `docs/troubleshooting/`, `docs/tutorials/`) |\n| `internal/execgrace/`, `internal/config/`, `internal/runtime/`, `cmd/gc/` | **no explicit CODEOWNERS entry** \u2014 falls through to the implicit repository-wide default |\n| `internal/testpolicy/`, `test/` | **no explicit CODEOWNERS entry** |\n\nThe bulk of the change (new package, config field, provider implementations) has **no explicit CODEOWNERS coverage**. Only `scripts/runtime-tmux-tests.manifest` and `scripts/runtime_tmux_manifest_test.go` fall under `@gastownhall/gascity-admin`.\n\n---\n\n### 9. Audit / Policy Metadata\n\n**Navigation basis: precise** (diff)\n\nThe subprocess-census baselines are updated in three coordinated places:\n- [`internal/testpolicy/resourcecensus/census.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/testpolicy/resourcecensus/census.go): `BaselineCalls 531\u2192535`, `BaselineFiles 163\u2192164`\n- [`test/test-resources.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/test/test-resources.toml): same numbers\n- [`TESTING.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/TESTING.md): audit table row updated\n\nIncrease of +4 calls / +1 file matches the 4 new tmux tests (each spawning subprocesses) in `startup_test.go`, plus the new `execgrace` test file (`apply_unix_test.go`) adding one new file. The `internal/testenv` import in [`testenv_import_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/gastownhall-gascity@bd7c9dac0b305b94893f3382f66cb129536d1be4/-/blob/internal/execgrace/testenv_import_test.go) is generated code that hooks the new package into the project's test environment policy.\n\n---\n\n### 10. Later Fixes / Refactors / Reverts\n\n**Navigation basis: search-based** \u2014 `commit_search` was not run against post-cutoff commits because the cutoff is specified as this exact SHA. No ancestry or descendant data is available from within this analysis. **This information is unavailable without inspecting commits after `bd7c9dac`.**\n\n---\n\n### Unavailable Metadata\n\n| Item | Reason |\n|---|---|\n| Post-cutoff fixes/refactors/reverts | Cutoff is `bd7c9dac`; no later commits were examined |\n| PR/issue number | Not present in the diff headers or any file content read |\n| `rev:`-scoped keyword search | The revision is not indexed for live code search in this environment (all `rev:` queries returned no results); all code-level facts were obtained via `read_file` + `compare_revisions` (precise) |\n| `go.mod` / `go.sum` changes | Not in the diff; no new external dependency was added |\n| Test tags / CI sharding beyond manifest counts | Not read in full; manifest arithmetic was read from the diff |\n\n---\n\n### Deterministic Verification Steps\n\n1. **Reproduce the diff:** `git diff bd7c9dac~1 bd7c9dac` \u2014 the 27 files and +688/-88 line counts are the ground truth.\n2. **Verify package move:** `git log --follow -- internal/execgrace/signal_unix.go` \u2014 should show the file originated from `internal/runtime/exec/signal_unix.go` if Git tracked the rename; or `git show bd7c9dac -- internal/runtime/exec/signal_unix.go` returns nothing (file deleted from that path).\n3. **Verify `interruptThenKill` removal:** `git show bd7c9dac~1 -- internal/runtime/exec/exec.go | grep -A20 interruptThenKill` \u2014 must show the function body that `InterruptThenKill` in `execgrace.go` now mirrors.\n4. **Verify census arithmetic:** count `exec.Command` / `exec.CommandContext` / `os.StartProcess` in `internal/execgrace/apply_unix_test.go` and the four new `startup_test.go` functions; must sum to +4 calls / +1 file vs prior baseline.\n5. **Verify CODEOWNERS gaps:** `git check-attr codeowners -- internal/execgrace/execgrace.go` \u2014 should return unspecified (no owner).\n6. **Verify schema roundtrip:** run `go generate ./docs/...` (or whatever the schema-generation script is) at `bd7c9dac` and diff against `city-schema.json` \u2014 should be clean."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:05:18Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/gastownhall-gascity at revision bd7c9dac0b305b94893f3382f66cb129536d1be4, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: gastownhall/gascity; stratum: agent_native; cutoff: bd7c9dac0b305b94893f3382f66cb129536d1be4."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Map semantic topology of changes in gastownhall/gascity at a specific revision",
+    "updateTime": "2026-07-29T03:07:17Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/65bdb93c-76a9-49d6-b7ec-f75cbe1866be"
+  },
+  "run_id": "sha256:0061265072d21aef1b91da833989b50e9e8a9864e104e1917ade7084688f7266",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "gastownhall/gascity"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

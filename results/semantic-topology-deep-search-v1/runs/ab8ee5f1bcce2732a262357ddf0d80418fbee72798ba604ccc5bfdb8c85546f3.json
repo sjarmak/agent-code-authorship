@@ -1,0 +1,188 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "3d277da7a85114e0d930a5059ef5db347ce51f135467be18d4f7c1b485e66a51",
+  "artifact_version": 1,
+  "canonical_repository_id": "vdaas/vald",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "d50c5e731dedf7bc9dbe389bd9057c959198ac97"
+  ],
+  "cited_files": [
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "tests/v2/e2e/metrics/interface.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/interface.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "tests/v2/e2e/metrics/metrics.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/metrics.go?L132-L151"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "tests/v2/e2e/metrics/tdigest.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/tdigest.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "tests/v2/e2e/metrics/scale.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/scale.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "tests/v2/e2e/metrics/slots.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/slots.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "tests/v2/e2e/metrics/exemplar.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/exemplar.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "tests/v2/e2e/metrics/presenter.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/presenter.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "tests/v2/e2e/metrics/metrics.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/metrics.go?L654-L762"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "rust/libs/proto/build.rs",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/libs/proto/build.rs"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "rust/libs/proto/src/lib.rs",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/libs/proto/src/lib.rs"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "rust/libs/kvs/src/lib.rs",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/libs/kvs/src/lib.rs?L41-L150"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/workflows/dockers-agent-faiss-image.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/dockers-agent-faiss-image.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "internal/sync/atomic/alias.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/sync/atomic/alias.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "internal/sync/alias.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/sync/alias.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".github/actions/deploy-chaos-mesh/action.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/actions/deploy-chaos-mesh/action.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": ".coderabbit.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "semgrep.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/semgrep.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "trivy.yaml",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/trivy.yaml"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "rust/bin/meta/src/config.rs",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/bin/meta/src/config.rs"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "internal/net/grpc/benchmark_test.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/net/grpc/benchmark_test.go"
+    },
+    {
+      "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "path": "internal/net/grpc/pool/pool_bench_gethealthy_test.go",
+      "repository": "github.com/sg-evals/vdaas-vald",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/net/grpc/pool/pool_bench_gethealthy_test.go"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1999",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: vdaas/vald; stratum: attributable_agent; cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97.",
+  "prompt_family_id": "delegated_task_intent",
+  "prompt_sha256": "8b88f2c22b93d6a571cfda0118ecd8e7f4ffaccd8fb939dd464f0ffd2420f2f6",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "I now have sufficient coverage of all major change clusters in the diff. Here is the taxonomy analysis:\n\n---\n\n## Engineering Task Shape Analysis \u2014 `vdaas/vald` @ `d50c5e7`\n\nThe 20-commit window (~`d50c5e7~20..d50c5e7`) touches ~100 files across six identifiable task shapes. Each is documented below with primary evidence.\n\n---\n\n### 1. Feature \u2014 E2E Metrics Collection Subsystem\n\n**Confidence: High**\n\nA fully new package, [`tests/v2/e2e/metrics/`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/tree/tests/v2/e2e/metrics), was introduced from scratch. It implements:\n\n- A `Collector` interface ([`interface.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/interface.go)) composing `Recorder`, `Reporter`, `CounterManager`, and merge/clone operations.\n- A `collector` struct ([`metrics.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/metrics.go?L132-L151)) with sharded atomic counters, false-sharing padding, CAS-loop timestamp management, and a `sync.Pool`-backed `RequestResult` to reduce GC pressure.\n- A custom t-digest implementation ([`tdigest.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/tdigest.go)) with sharding for percentile estimation.\n- Ring-buffer-based windowed `Scale`s ([`scale.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/scale.go), [`slots.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/slots.go)) segmenting metrics by time or request count.\n- Exemplar tracking ([`exemplar.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/exemplar.go)) and a multi-format presenter ([`presenter.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/presenter.go)) with golden-file test data ([`testdata/`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/tree/tests/v2/e2e/metrics/testdata)).\n\nThis is original non-trivial production-grade code (not test scaffolding) that introduces new observable behaviour to the E2E harness. The `MergeCollectors` / `MergeSnapshots` paths ([`metrics.go:654-762`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/metrics.go?L654-L762)) support multi-worker aggregation.\n\n---\n\n### 2. Architectural Scaffolding \u2014 Rust `proto` Module Hierarchy Restructure + `kvs` Map Abstraction\n\n**Confidence: High**\n\nTwo parallel Rust library overhauls:\n\n**`rust/libs/proto`**: Flat files (`core.v1.tonic.rs`, `payload.v1.rs`, etc.) were replaced with a deeply nested module hierarchy under `rust/libs/proto/src/{core,discoverer,filter,google,meta,mirror,payload,rpc,sidecar,vald}/`. A new [`build.rs`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/libs/proto/build.rs) was added that drives `prost_build` with serde derive attributes and WKT support; [`lib.rs`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/libs/proto/src/lib.rs) now exports top-level `pub mod` declarations. Serde `*.serde.rs` files appear (e.g. `payload.v1.serde.rs`, `rpc.v1.serde.rs`). This restructures how the entire Rust gRPC layer is organized and consumed.\n\n**`rust/libs/kvs`**: The previous thin wrapper was replaced with a full map abstraction layer: `MapBase` trait, `BidirectionalMap`, `UnidirectionalMap`, codec abstraction (`WincodeCodec`), and a `MapBuilder` builder pattern with sled as the storage backend ([`kvs/src/lib.rs`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/libs/kvs/src/lib.rs?L41-L150)). The integration tests for bidirectional/unidirectional CRUD, streaming range, concurrent access, and TTL-less persistence are co-located in the same file. This replaces the previously removed `internal/kvs/tikv/` Go client.\n\nThese changes define new module boundaries and layering; they are not simple additions within an existing structure.\n\n---\n\n### 3. Cleanup / Dead-Code Removal\n\n**Confidence: High**\n\nSeveral packages were deleted wholesale, as evidenced by their removal from `.gitfiles` and the diff:\n\n| Removed package | Notes |\n|---|---|\n| `internal/core/algorithm/usearch/` | USearch algorithm backend (5 files) |\n| `internal/kvs/tikv/` | Go TiKV client (4 files) |\n| `internal/rand/` | Custom rand package (4 files); replaced by stdlib or `math/rand/v2` |\n| `dockers/ci/base/` | CI container Dockerfile + README |\n| `.github/workflows/dockers-ci-container-image.yaml` | Corresponding workflow (79 lines deleted) |\n\nThe `internal/sync/singleflight/` package was added to the trigger paths of Docker image workflows ([`dockers-agent-faiss-image.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/dockers-agent-faiss-image.yaml)), while `internal/rand/` was removed from the same paths \u2014 confirming `rand` was a dependency that has been eliminated.\n\nThe CI container image (`vald-ci-container`) was replaced universally by the dev container image (`vald-dev-container`) across all ~35 workflow files that referenced it. This is cleanup of a deprecated image name.\n\n---\n\n### 4. Boilerplate \u2014 `internal/sync/atomic` Alias Package\n\n**Confidence: High**\n\n[`internal/sync/atomic/alias.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/sync/atomic/alias.go) is a pure shim: it re-exports every type and function from `sync/atomic` under Vald's internal package path (`type Bool = atomic.Bool`, `func AddInt64(...)  { return atomic.AddInt64(...) }`, etc., for ~145 lines). This follows the established pattern already present in [`internal/sync/alias.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/sync/alias.go). It is boilerplate generated to maintain the \"use internal packages\" convention (codified in `.coderabbit.yaml`'s review instructions and `semgrep.yaml`'s lint rules), enabling the new `tests/v2/e2e/metrics` package to import `internal/sync/atomic` instead of `sync/atomic` directly.\n\n---\n\n### 5. Dependency Migration \u2014 GitHub Actions / Toolchain Version Bumps\n\n**Confidence: High**\n\nEvery GitHub Actions workflow was updated with pinned-SHA version bumps spanning ~35 files. Key migrations:\n\n| Action | Old | New |\n|---|---|---|\n| `actions/checkout` | v5 (`08c6903`) | v6 (`de0fac2`) |\n| `docker/login-action` | v3 | v4 |\n| `docker/setup-buildx-action` | v3 | v4 |\n| `github/codeql-action/{init,autobuild,analyze}` | v3 | v4 |\n| `azure/setup-helm` | v4 | v5 |\n| `actions/upload-artifact` | v5 | v7 |\n| `actions/download-artifact` | v5 | v8 |\n| `crazy-max/ghaction-import-gpg` | v6 | v7 |\n| `codecov/codecov-action` | v5 | v6 |\n| `actions/setup-go` | v6.0.0 | v6.4.0 |\n\nToolchain version strings in issue/PR templates were bumped (Go 1.25\u21921.26, Rust 1.90\u21921.94, Docker 28\u219229, Kubernetes 1.34\u21921.35, Helm 3\u21924, NGT 2.5\u21922.7, Faiss 1.12\u21921.14). The Chaos Mesh install was migrated from a curl script to Helm ([`.github/actions/deploy-chaos-mesh/action.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/actions/deploy-chaos-mesh/action.yaml)).\n\n---\n\n### 6. Documentation / Configuration\n\n**Confidence: High**\n\nTwo new root-level configuration files were introduced:\n\n- [`.coderabbit.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml) (183 lines): Configures the CodeRabbit AI review bot with path-specific review instructions, profile, tone, path filters (excluding generated `*.pb.go`, `*.tonic.rs`, etc.), and language-specific review policies for Go, Rust, K8s, Helm, and Proto.\n- [`semgrep.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/semgrep.yaml): Custom Semgrep rules enforcing Vald-specific conventions (e.g., use of `internal/sync/errgroup` over stdlib, defer-in-loop detection, `pkg/errors` prohibition).\n- [`trivy.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/trivy.yaml): Centralized Trivy config used by `.github/actions/scan-docker-image/action.yaml` (two call sites updated to pass `trivy-config`).\n- Mass copyright year update 2025\u21922026 across the entire file tree \u2014 mechanical, zero semantic content.\n- [`rust/bin/meta/src/config.rs`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/bin/meta/src/config.rs): New structured YAML config deserialization for the Rust meta binary (ambiguous \u2014 could be feature or boilerplate depending on whether the config schema was previously inline; classified as documentation/configuration in the absence of a prior config file).\n\n---\n\n### 7. Test Generation (Benchmark)\n\n**Confidence: High**\n\nTwo new benchmark files were added to existing production code under test:\n\n- [`internal/net/grpc/benchmark_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/net/grpc/benchmark_test.go): Benchmarks for the gRPC client layer using a `bufconn`-based in-process server with `echoServer` and `BroadcastInsert`.\n- [`internal/net/grpc/pool/pool_bench_gethealthy_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/net/grpc/pool/pool_bench_gethealthy_test.go): Benchmarks `GetHealthyConn` on a live pool with 10 connections. Both files are pure additions to existing packages with no production code changes.\n\nNote: the `tests/v2/e2e/metrics/*_test.go` and `*_bench_test.go` files are co-located with their production code and serve as verification for the metrics feature (Task 1), not independent test generation against a pre-existing symbol.\n\n---\n\n### Taxonomy Summary\n\n| # | Shape | Key Evidence | Confidence |\n|---|---|---|---|\n| 1 | **Feature** | `tests/v2/e2e/metrics/` package (new `Collector`, `TDigest`, `Scale`, `Exemplar`) | High |\n| 2 | **Architectural Scaffolding** | `rust/libs/proto/` module hierarchy + `rust/libs/kvs/` `MapBase`/`BidirectionalMap`/`UnidirectionalMap` | High |\n| 3 | **Cleanup** | Removal of `usearch/`, `tikv/` (Go), `rand/`, `vald-ci-container`; `vald-dev-container` rename sweep | High |\n| 4 | **Boilerplate** | `internal/sync/atomic/alias.go` \u2014 re-export shim mirroring `sync/atomic` | High |\n| 5 | **Dependency Migration** | GitHub Actions SHA bumps (checkout v6, CodeQL v4, docker/login v4, etc.) + toolchain version bumps | High |\n| 6 | **Documentation / Configuration** | `.coderabbit.yaml`, `semgrep.yaml`, `trivy.yaml`; copyright year sweep; `rust/bin/meta/src/config.rs` | High |\n| 7 | **Test Generation** | `internal/net/grpc/benchmark_test.go`, `pool/pool_bench_gethealthy_test.go` | High |\n\nNo ambiguous cases require taxonomy extension. The existing eight categories cover all observed shapes. The notable absence in this window is a **localized bug fix** and a pure **refactor** (code moved without new behaviour) \u2014 neither appears to be present.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:17:00Z",
+    "name": "users/476/conversations/1999",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "I now have sufficient coverage of all major change clusters in the diff. Here is the taxonomy analysis:\n\n---\n\n## Engineering Task Shape Analysis \u2014 `vdaas/vald` @ `d50c5e7`\n\nThe 20-commit window (~`d50c5e7~20..d50c5e7`) touches ~100 files across six identifiable task shapes. Each is documented below with primary evidence.\n\n---\n\n### 1. Feature \u2014 E2E Metrics Collection Subsystem\n\n**Confidence: High**\n\nA fully new package, [`tests/v2/e2e/metrics/`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/tree/tests/v2/e2e/metrics), was introduced from scratch. It implements:\n\n- A `Collector` interface ([`interface.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/interface.go)) composing `Recorder`, `Reporter`, `CounterManager`, and merge/clone operations.\n- A `collector` struct ([`metrics.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/metrics.go?L132-L151)) with sharded atomic counters, false-sharing padding, CAS-loop timestamp management, and a `sync.Pool`-backed `RequestResult` to reduce GC pressure.\n- A custom t-digest implementation ([`tdigest.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/tdigest.go)) with sharding for percentile estimation.\n- Ring-buffer-based windowed `Scale`s ([`scale.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/scale.go), [`slots.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/slots.go)) segmenting metrics by time or request count.\n- Exemplar tracking ([`exemplar.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/exemplar.go)) and a multi-format presenter ([`presenter.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/presenter.go)) with golden-file test data ([`testdata/`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/tree/tests/v2/e2e/metrics/testdata)).\n\nThis is original non-trivial production-grade code (not test scaffolding) that introduces new observable behaviour to the E2E harness. The `MergeCollectors` / `MergeSnapshots` paths ([`metrics.go:654-762`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/tests/v2/e2e/metrics/metrics.go?L654-L762)) support multi-worker aggregation.\n\n---\n\n### 2. Architectural Scaffolding \u2014 Rust `proto` Module Hierarchy Restructure + `kvs` Map Abstraction\n\n**Confidence: High**\n\nTwo parallel Rust library overhauls:\n\n**`rust/libs/proto`**: Flat files (`core.v1.tonic.rs`, `payload.v1.rs`, etc.) were replaced with a deeply nested module hierarchy under `rust/libs/proto/src/{core,discoverer,filter,google,meta,mirror,payload,rpc,sidecar,vald}/`. A new [`build.rs`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/libs/proto/build.rs) was added that drives `prost_build` with serde derive attributes and WKT support; [`lib.rs`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/libs/proto/src/lib.rs) now exports top-level `pub mod` declarations. Serde `*.serde.rs` files appear (e.g. `payload.v1.serde.rs`, `rpc.v1.serde.rs`). This restructures how the entire Rust gRPC layer is organized and consumed.\n\n**`rust/libs/kvs`**: The previous thin wrapper was replaced with a full map abstraction layer: `MapBase` trait, `BidirectionalMap`, `UnidirectionalMap`, codec abstraction (`WincodeCodec`), and a `MapBuilder` builder pattern with sled as the storage backend ([`kvs/src/lib.rs`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/libs/kvs/src/lib.rs?L41-L150)). The integration tests for bidirectional/unidirectional CRUD, streaming range, concurrent access, and TTL-less persistence are co-located in the same file. This replaces the previously removed `internal/kvs/tikv/` Go client.\n\nThese changes define new module boundaries and layering; they are not simple additions within an existing structure.\n\n---\n\n### 3. Cleanup / Dead-Code Removal\n\n**Confidence: High**\n\nSeveral packages were deleted wholesale, as evidenced by their removal from `.gitfiles` and the diff:\n\n| Removed package | Notes |\n|---|---|\n| `internal/core/algorithm/usearch/` | USearch algorithm backend (5 files) |\n| `internal/kvs/tikv/` | Go TiKV client (4 files) |\n| `internal/rand/` | Custom rand package (4 files); replaced by stdlib or `math/rand/v2` |\n| `dockers/ci/base/` | CI container Dockerfile + README |\n| `.github/workflows/dockers-ci-container-image.yaml` | Corresponding workflow (79 lines deleted) |\n\nThe `internal/sync/singleflight/` package was added to the trigger paths of Docker image workflows ([`dockers-agent-faiss-image.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/workflows/dockers-agent-faiss-image.yaml)), while `internal/rand/` was removed from the same paths \u2014 confirming `rand` was a dependency that has been eliminated.\n\nThe CI container image (`vald-ci-container`) was replaced universally by the dev container image (`vald-dev-container`) across all ~35 workflow files that referenced it. This is cleanup of a deprecated image name.\n\n---\n\n### 4. Boilerplate \u2014 `internal/sync/atomic` Alias Package\n\n**Confidence: High**\n\n[`internal/sync/atomic/alias.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/sync/atomic/alias.go) is a pure shim: it re-exports every type and function from `sync/atomic` under Vald's internal package path (`type Bool = atomic.Bool`, `func AddInt64(...)  { return atomic.AddInt64(...) }`, etc., for ~145 lines). This follows the established pattern already present in [`internal/sync/alias.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/sync/alias.go). It is boilerplate generated to maintain the \"use internal packages\" convention (codified in `.coderabbit.yaml`'s review instructions and `semgrep.yaml`'s lint rules), enabling the new `tests/v2/e2e/metrics` package to import `internal/sync/atomic` instead of `sync/atomic` directly.\n\n---\n\n### 5. Dependency Migration \u2014 GitHub Actions / Toolchain Version Bumps\n\n**Confidence: High**\n\nEvery GitHub Actions workflow was updated with pinned-SHA version bumps spanning ~35 files. Key migrations:\n\n| Action | Old | New |\n|---|---|---|\n| `actions/checkout` | v5 (`08c6903`) | v6 (`de0fac2`) |\n| `docker/login-action` | v3 | v4 |\n| `docker/setup-buildx-action` | v3 | v4 |\n| `github/codeql-action/{init,autobuild,analyze}` | v3 | v4 |\n| `azure/setup-helm` | v4 | v5 |\n| `actions/upload-artifact` | v5 | v7 |\n| `actions/download-artifact` | v5 | v8 |\n| `crazy-max/ghaction-import-gpg` | v6 | v7 |\n| `codecov/codecov-action` | v5 | v6 |\n| `actions/setup-go` | v6.0.0 | v6.4.0 |\n\nToolchain version strings in issue/PR templates were bumped (Go 1.25\u21921.26, Rust 1.90\u21921.94, Docker 28\u219229, Kubernetes 1.34\u21921.35, Helm 3\u21924, NGT 2.5\u21922.7, Faiss 1.12\u21921.14). The Chaos Mesh install was migrated from a curl script to Helm ([`.github/actions/deploy-chaos-mesh/action.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.github/actions/deploy-chaos-mesh/action.yaml)).\n\n---\n\n### 6. Documentation / Configuration\n\n**Confidence: High**\n\nTwo new root-level configuration files were introduced:\n\n- [`.coderabbit.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/.coderabbit.yaml) (183 lines): Configures the CodeRabbit AI review bot with path-specific review instructions, profile, tone, path filters (excluding generated `*.pb.go`, `*.tonic.rs`, etc.), and language-specific review policies for Go, Rust, K8s, Helm, and Proto.\n- [`semgrep.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/semgrep.yaml): Custom Semgrep rules enforcing Vald-specific conventions (e.g., use of `internal/sync/errgroup` over stdlib, defer-in-loop detection, `pkg/errors` prohibition).\n- [`trivy.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/trivy.yaml): Centralized Trivy config used by `.github/actions/scan-docker-image/action.yaml` (two call sites updated to pass `trivy-config`).\n- Mass copyright year update 2025\u21922026 across the entire file tree \u2014 mechanical, zero semantic content.\n- [`rust/bin/meta/src/config.rs`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/rust/bin/meta/src/config.rs): New structured YAML config deserialization for the Rust meta binary (ambiguous \u2014 could be feature or boilerplate depending on whether the config schema was previously inline; classified as documentation/configuration in the absence of a prior config file).\n\n---\n\n### 7. Test Generation (Benchmark)\n\n**Confidence: High**\n\nTwo new benchmark files were added to existing production code under test:\n\n- [`internal/net/grpc/benchmark_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/net/grpc/benchmark_test.go): Benchmarks for the gRPC client layer using a `bufconn`-based in-process server with `echoServer` and `BroadcastInsert`.\n- [`internal/net/grpc/pool/pool_bench_gethealthy_test.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/vdaas-vald@d50c5e731dedf7bc9dbe389bd9057c959198ac97/-/blob/internal/net/grpc/pool/pool_bench_gethealthy_test.go): Benchmarks `GetHealthyConn` on a live pool with 10 connections. Both files are pure additions to existing packages with no production code changes.\n\nNote: the `tests/v2/e2e/metrics/*_test.go` and `*_bench_test.go` files are co-located with their production code and serve as verification for the metrics feature (Task 1), not independent test generation against a pre-existing symbol.\n\n---\n\n### Taxonomy Summary\n\n| # | Shape | Key Evidence | Confidence |\n|---|---|---|---|\n| 1 | **Feature** | `tests/v2/e2e/metrics/` package (new `Collector`, `TDigest`, `Scale`, `Exemplar`) | High |\n| 2 | **Architectural Scaffolding** | `rust/libs/proto/` module hierarchy + `rust/libs/kvs/` `MapBase`/`BidirectionalMap`/`UnidirectionalMap` | High |\n| 3 | **Cleanup** | Removal of `usearch/`, `tikv/` (Go), `rand/`, `vald-ci-container`; `vald-dev-container` rename sweep | High |\n| 4 | **Boilerplate** | `internal/sync/atomic/alias.go` \u2014 re-export shim mirroring `sync/atomic` | High |\n| 5 | **Dependency Migration** | GitHub Actions SHA bumps (checkout v6, CodeQL v4, docker/login v4, etc.) + toolchain version bumps | High |\n| 6 | **Documentation / Configuration** | `.coderabbit.yaml`, `semgrep.yaml`, `trivy.yaml`; copyright year sweep; `rust/bin/meta/src/config.rs` | High |\n| 7 | **Test Generation** | `internal/net/grpc/benchmark_test.go`, `pool/pool_bench_gethealthy_test.go` | High |\n\nNo ambiguous cases require taxonomy extension. The existing eight categories cover all observed shapes. The notable absence in this window is a **localized bug fix** and a pure **refactor** (code moved without new behaviour) \u2014 neither appears to be present."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:17:01Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: vdaas/vald; stratum: attributable_agent; cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Classifying task shapes from Git history in vdaas/vald",
+    "updateTime": "2026-07-29T03:18:48Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/a28cf88e-1140-4421-aad6-cd6acef42801"
+  },
+  "run_id": "sha256:ab8ee5f1bcce2732a262357ddf0d80418fbee72798ba604ccc5bfdb8c85546f3",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "vdaas/vald"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

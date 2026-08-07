@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-file-blame-enrichment.schema.json",
+  "title": "Sourcegraph file-match blame enrichment v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "result_manifest_sha256",
+    "sourcegraph_result_id",
+    "indexed_revision_oid",
+    "default_branch_reachable",
+    "lines"
+  ],
+  "properties": {
+    "result_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "sourcegraph_result_id": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "indexed_revision_oid": {
+      "$ref": "#/$defs/sha1"
+    },
+    "default_branch_reachable": {
+      "const": true
+    },
+    "lines": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/blameLine"
+      }
+    }
+  },
+  "$defs": {
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "blameLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "line",
+        "commit_oid",
+        "observed_at"
+      ],
+      "properties": {
+        "line": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "commit_oid": {
+          "$ref": "#/$defs/sha1"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "artifact_sha256": "851e5a4bca390f9f3d1c59ab0d772c51d1b791e82287a7973bd7d7783a431c0d",
+  "artifact_version": 1,
+  "candidate_count": 16,
+  "candidates": [
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:035848a2deae0551529b453b7e95bc29f64d5acc9fd58b223418c559c7827311",
+      "citation": {
+        "commit": "631c872614aca91eaf947c1748f0f27f99635d92",
+        "path": "target/arm/ptw.c",
+        "repository": "github.com/sg-evals/qemu-project-qemu",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@631c872614aca91eaf947c1748f0f27f99635d92/-/blob/target/arm/ptw.c"
+      },
+      "control_repository_id": "qemu-project/qemu",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "asahilinux/m1n1",
+      "source_run_id": "sha256:ae6c051d9f08ca477fb934725dc1b109a30a1857d6eac864b4134716f434e807",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:39a18c69f6f445f157f581392f69d76fd35fd89e174ae0f539c0a50c8b28ab11",
+      "citation": {
+        "commit": "576f34c373ff068b01bbe64a73b1b38f4a33ea81",
+        "path": "arch/arm64/mm/mmu.c",
+        "repository": "github.com/sg-evals/linux--11a48a5a",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/linux--11a48a5a@576f34c373ff068b01bbe64a73b1b38f4a33ea81/-/blob/arch/arm64/mm/mmu.c"
+      },
+      "control_repository_id": "github.com/sg-evals/linux--11a48a5a",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "asahilinux/m1n1",
+      "source_run_id": "sha256:ae6c051d9f08ca477fb934725dc1b109a30a1857d6eac864b4134716f434e807",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:4fbf4a99e5647bb44f115661461da69ccce2df8f0a7183d8d1ed9f8286e2be1f",
+      "citation": {
+        "commit": "6fa61cbd122034ff84bb15316801d986dc05ebe2",
+        "path": "packages/backend/Dockerfile",
+        "repository": "github.com/sg-evals/wafrn-wafrn",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/wafrn-wafrn@6fa61cbd122034ff84bb15316801d986dc05ebe2/-/blob/packages/backend/Dockerfile"
+      },
+      "control_repository_id": "github.com/sg-evals/wafrn-wafrn",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "angular/angular",
+      "source_run_id": "sha256:a7284c3aa063ce9a799fe752d2acae49dc57f949eed542d24f621f8876fa2b0c",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:59f3c8b26177f258d5827725b42b45da6e5bb38090198afaaaf0ab4ea03e69aa",
+      "citation": {
+        "commit": "631c872614aca91eaf947c1748f0f27f99635d92",
+        "path": "target/arm/ptw.c",
+        "repository": "github.com/sg-evals/qemu-project-qemu",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@631c872614aca91eaf947c1748f0f27f99635d92/-/blob/target/arm/ptw.c?L1785-1854"
+      },
+      "control_repository_id": "qemu-project/qemu",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "asahilinux/m1n1",
+      "source_run_id": "sha256:ae6c051d9f08ca477fb934725dc1b109a30a1857d6eac864b4134716f434e807",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:5d1df926816d1ca54f6e082cb474cd32b09af9ef8efb046df81b9fb6126e6d66",
+      "citation": {
+        "commit": "4b878437f9f093765c208f2a9d0458def9c1287f",
+        "path": "sdks/python/apache_beam/yaml/pipeline.schema.yaml",
+        "repository": "github.com/sg-evals/beam--v2.55.0",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/beam--v2.55.0@4b878437f9f093765c208f2a9d0458def9c1287f/-/blob/sdks/python/apache_beam/yaml/pipeline.schema.yaml"
+      },
+      "control_repository_id": "github.com/sg-evals/beam--v2.55.0",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "borgmatic-collective/borgmatic",
+      "source_run_id": "sha256:e9a9ad5fcf5ebf0c63aa67e59c9fa8b0d24cd03894fe103944ef3717a525267e",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:6141abcd1b51c0a951fb3a5cdfe8d96ad8ccfbdee0e70248e9d0e9c77ebc4b80",
+      "citation": {
+        "commit": "6557c1c9b1206a85bb7d8e7450e8c3a4cff7c84b",
+        "path": "tools/gyp/.github/workflows/node-gyp.yml",
+        "repository": "github.com/sg-evals/nodejs-node",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/nodejs-node@6557c1c9b1206a85bb7d8e7450e8c3a4cff7c84b/-/blob/tools/gyp/.github/workflows/node-gyp.yml"
+      },
+      "control_repository_id": "github.com/sg-evals/nodejs-node",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "angular/angular",
+      "source_run_id": "sha256:a7284c3aa063ce9a799fe752d2acae49dc57f949eed542d24f621f8876fa2b0c",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:71f132b3fe853f8582767a3ab109c4b95e6a21f32087f3e0cf7130171971c858",
+      "citation": {
+        "commit": "703610421a87ec7dabca175bbbacf98d44c83e5a",
+        "path": "tools/sticker-picker/Cargo.toml",
+        "repository": "github.com/sg-evals/poezio-poezio",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@703610421a87ec7dabca175bbbacf98d44c83e5a/-/blob/tools/sticker-picker/Cargo.toml"
+      },
+      "control_repository_id": "poezio/poezio",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "vdaas/vald",
+      "source_run_id": "sha256:64357b8d5b18346083b6e7ed4e919de9ae0172f28ab60ea417dce75e187d1486",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:7b4dcf8f8225542980332a1849139176dfb2c802631ba8c5178f51ecf43f0d38",
+      "citation": {
+        "commit": "6fa61cbd122034ff84bb15316801d986dc05ebe2",
+        "path": ".forgejo/workflows/build-containers.yml",
+        "repository": "github.com/sg-evals/wafrn-wafrn",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/wafrn-wafrn@6fa61cbd122034ff84bb15316801d986dc05ebe2/-/blob/.forgejo/workflows/build-containers.yml"
+      },
+      "control_repository_id": "github.com/sg-evals/wafrn-wafrn",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "angular/angular",
+      "source_run_id": "sha256:a7284c3aa063ce9a799fe752d2acae49dc57f949eed542d24f621f8876fa2b0c",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:9103d2c5dffdeca4896f9a976936976734cd37018357c7371ae985159122ca8c",
+      "citation": {
+        "commit": "301c1b5d8c2407df8649c3f07b890f7c4648078d",
+        "path": "tools/sticker-picker/Cargo.toml",
+        "repository": "github.com/sg-evals/poezio-poezio",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@301c1b5d8c2407df8649c3f07b890f7c4648078d/-/blob/tools/sticker-picker/Cargo.toml"
+      },
+      "control_repository_id": "poezio/poezio",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "vdaas/vald",
+      "source_run_id": "sha256:64357b8d5b18346083b6e7ed4e919de9ae0172f28ab60ea417dce75e187d1486",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:9f2801756ecefe4c83c8171aa35e799b47c45a76f9dc3feb2f9a79aa94271c62",
+      "citation": {
+        "commit": "bdc8131fa78089b81b74dbff467365afb6536e6a",
+        "path": ".github/workflows/auto-start-ci.yml",
+        "repository": "github.com/sg-evals/nodejs-node",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/nodejs-node@bdc8131fa78089b81b74dbff467365afb6536e6a/-/blob/.github/workflows/auto-start-ci.yml"
+      },
+      "control_repository_id": "github.com/sg-evals/nodejs-node",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "angular/angular",
+      "source_run_id": "sha256:a7284c3aa063ce9a799fe752d2acae49dc57f949eed542d24f621f8876fa2b0c",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:a30421aa0430f57c99f547b0f32a35494996302fed4211f2cbd79cd1a0b5f954",
+      "citation": {
+        "commit": "a3a0279a8182dc61598703a8695774876883fcb7",
+        "path": "tools/sticker-picker/Cargo.toml",
+        "repository": "github.com/sg-evals/poezio-poezio",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/poezio-poezio@a3a0279a8182dc61598703a8695774876883fcb7/-/blob/tools/sticker-picker/Cargo.toml"
+      },
+      "control_repository_id": "poezio/poezio",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "vdaas/vald",
+      "source_run_id": "sha256:64357b8d5b18346083b6e7ed4e919de9ae0172f28ab60ea417dce75e187d1486",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:b295022fd195b7d08304b7d814f0b23079bb859cefd13d46c4eb755792601051",
+      "citation": {
+        "commit": "576f34c373ff068b01bbe64a73b1b38f4a33ea81",
+        "path": "arch/arm64/mm/mmu.c",
+        "repository": "github.com/sg-evals/linux--11a48a5a",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/linux--11a48a5a@576f34c373ff068b01bbe64a73b1b38f4a33ea81/-/blob/arch/arm64/mm/mmu.c?L199-360"
+      },
+      "control_repository_id": "github.com/sg-evals/linux--11a48a5a",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "asahilinux/m1n1",
+      "source_run_id": "sha256:ae6c051d9f08ca477fb934725dc1b109a30a1857d6eac864b4134716f434e807",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:bed91dd24b98665289ce7844223d086471b57e092990f8cb03dbbd3444d96258",
+      "citation": {
+        "commit": "631c872614aca91eaf947c1748f0f27f99635d92",
+        "path": "target/arm/ptw.c",
+        "repository": "github.com/sg-evals/qemu-project-qemu",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@631c872614aca91eaf947c1748f0f27f99635d92/-/blob/target/arm/ptw.c?L1844-1854"
+      },
+      "control_repository_id": "qemu-project/qemu",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "asahilinux/m1n1",
+      "source_run_id": "sha256:ae6c051d9f08ca477fb934725dc1b109a30a1857d6eac864b4134716f434e807",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:c3e24fb0b9806f970d25387eacc84e42c430f307d39aeb404ab6c21c48d82f3e",
+      "citation": {
+        "commit": "631c872614aca91eaf947c1748f0f27f99635d92",
+        "path": "target/arm/ptw.c",
+        "repository": "github.com/sg-evals/qemu-project-qemu",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@631c872614aca91eaf947c1748f0f27f99635d92/-/blob/target/arm/ptw.c?L1785-1855"
+      },
+      "control_repository_id": "qemu-project/qemu",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "asahilinux/m1n1",
+      "source_run_id": "sha256:ae6c051d9f08ca477fb934725dc1b109a30a1857d6eac864b4134716f434e807",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:fd3a0de5ce2159c9004cac073970e294a1260894c50e83bf2ff94f78f5ece001",
+      "citation": {
+        "commit": "2cc1824213cbaf9a4aed414ac71977de4a32798e",
+        "path": ".github/workflows/tsc.yml",
+        "repository": "github.com/sg-evals/wafrn-wafrn",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/wafrn-wafrn@2cc1824213cbaf9a4aed414ac71977de4a32798e/-/blob/.github/workflows/tsc.yml"
+      },
+      "control_repository_id": "github.com/sg-evals/wafrn-wafrn",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "angular/angular",
+      "source_run_id": "sha256:a7284c3aa063ce9a799fe752d2acae49dc57f949eed542d24f621f8876fa2b0c",
+      "status": "candidate"
+    },
+    {
+      "authorship_label_assigned": false,
+      "candidate_id": "sha256:ff136e30bcaf982b402d918590416659cf7e3618626a0562744c4e3a40f15ab9",
+      "citation": {
+        "commit": "576f34c373ff068b01bbe64a73b1b38f4a33ea81",
+        "path": "arch/arm64/mm/mmu.c",
+        "repository": "github.com/sg-evals/linux--11a48a5a",
+        "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/linux--11a48a5a@576f34c373ff068b01bbe64a73b1b38f4a33ea81/-/blob/arch/arm64/mm/mmu.c?L273-283"
+      },
+      "control_repository_id": "github.com/sg-evals/linux--11a48a5a",
+      "evidence_routes": [
+        "deep_search"
+      ],
+      "repository_held_out": true,
+      "source_repository_id": "asahilinux/m1n1",
+      "source_run_id": "sha256:ae6c051d9f08ca477fb934725dc1b109a30a1857d6eac864b4134716f434e807",
+      "status": "candidate"
+    }
+  ],
+  "outcomes_consulted": false,
+  "repository_held_out": true,
+  "source_repository_statuses": [
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:3891f53e42702795edafaaf480358bb38e87ed17cc05c412621b28b93232080c",
+      "source_repository_id": "ant-design/ant-design",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:3fdd8e617f26097d859cee26cb4f1834e4b0a5e4e0e446a04d203a1057ad6328",
+      "source_repository_id": "ansible/ansible",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:5133dbbb510ae44a6b13517b78ed077257dca932bd12148faecb192a6be3842e",
+      "source_repository_id": "gastownhall/beads",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:5c5f29e6ca903f14616ba4bd34140f46bfa45cd022e1c46bd135a9d78cc9e6c3",
+      "source_repository_id": "azure/azure-sdk-for-python",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 3,
+      "reason": null,
+      "run_id": "sha256:64357b8d5b18346083b6e7ed4e919de9ae0172f28ab60ea417dce75e187d1486",
+      "source_repository_id": "vdaas/vald",
+      "status": "candidate_generated"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "terminal_error:ERROR_TOKEN_LIMIT_EXCEEDED",
+      "run_id": "sha256:82694363edf2b69517b70d3c5b77cdf1302ed6df8e63d4700edc4194bb5a4973",
+      "source_repository_id": "gastownhall/gascity",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:8713990d7f4d0e7fa3066f706fe86e2a56766447091900cc7893fac521ec8d92",
+      "source_repository_id": "poezio/poezio",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:9907046a78d4fcf13aea6d0573969b4ddc48501451c49d6aa78b8207a570c9c0",
+      "source_repository_id": "0xfurai/peekaping",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:9a04d7bf9722ed9de357d82ac8c7412989d5f826cb50eb5b88f43454db2aa671",
+      "source_repository_id": "sjarmak/scix-agent",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:a35f237551f172e84fe00c0da7da82fa15bccbdb6244d57f5ba8b3fd1dc6936d",
+      "source_repository_id": "qemu-project/qemu",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 5,
+      "reason": null,
+      "run_id": "sha256:a7284c3aa063ce9a799fe752d2acae49dc57f949eed542d24f621f8876fa2b0c",
+      "source_repository_id": "angular/angular",
+      "status": "candidate_generated"
+    },
+    {
+      "candidate_count": 7,
+      "reason": null,
+      "run_id": "sha256:ae6c051d9f08ca477fb934725dc1b109a30a1857d6eac864b4134716f434e807",
+      "source_repository_id": "asahilinux/m1n1",
+      "status": "candidate_generated"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:b8d8118720efbc15e81dace4258b96b2f99a1d43fe42a5ca50389269e0b4b55a",
+      "source_repository_id": "sjarmak/agent-diagnostics",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:c3c3fc2d139560ab3b1615a77b1b12f82041906c3f3d8575fc5bdc8df15cb3ad",
+      "source_repository_id": "graphql-python/graphql-server",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:c56ed303f68738ad668c457353e193c4f5a9fbbf3565a3e25c99dcd7096d6198",
+      "source_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:e3b0055990006e46a23faac1a0a57b098247083c404ce1e2336ae6c095e26ac9",
+      "source_repository_id": "3b1b/manim",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 1,
+      "reason": null,
+      "run_id": "sha256:e9a9ad5fcf5ebf0c63aa67e59c9fa8b0d24cd03894fe103944ef3717a525267e",
+      "source_repository_id": "borgmatic-collective/borgmatic",
+      "status": "candidate_generated"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:ea4ccd097f12a0275cf27ae7c85b77fe790dbeddf6c0e466ba292e52ed8623a4",
+      "source_repository_id": "2dust/v2rayn",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "no_repository_held_out_candidate_extracted",
+      "run_id": "sha256:f106a6551786337f9725d6e02cfadab5204fd85a17ef61679b755bbef738995a",
+      "source_repository_id": "sjarmak/codeprobe",
+      "status": "unavailable"
+    },
+    {
+      "candidate_count": 0,
+      "reason": "terminal_error:ERROR_TOKEN_LIMIT_EXCEEDED",
+      "run_id": "sha256:f9ac7d56323b6a348c8f3c804f8e23a0f90c7a03db52b7f77eecc9751444c343",
+      "source_repository_id": "superseriousbusiness/gotosocial",
+      "status": "unavailable"
+    }
+  ]
+}

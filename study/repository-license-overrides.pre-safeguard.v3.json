@@ -1,0 +1,81 @@
+{
+  "override_version": 3,
+  "observed_at": "2026-07-27T18:55:00Z",
+  "outcomes_consulted": false,
+  "overrides": [
+    {
+      "canonical_repository_id": "anthropics/claude-code",
+      "redistribution_class": "proprietary",
+      "license_expression": "Anthropic commercial terms",
+      "spdx_id": null,
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://github.com/anthropics/claude-code/blob/0c188278cdf9b8b717c2740550bdb0f69c02f6b5/LICENSE.md",
+        "sha256": "728158fd1037143fad6907e8fa34804177e598b7326519503fe83cafdef849e6",
+        "summary": "Copyright is reserved and use is governed by Anthropic commercial terms; routine redistribution is held."
+      }
+    },
+    {
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0-only",
+      "spdx_id": "GPL-3.0",
+      "mirror_transport_url": "https://github.com/borgmatic-collective/borgmatic",
+      "mirror_transport_cutoff_oid": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "evidence": {
+        "kind": "license_file_at_cutoff_via_same_name_github_mirror",
+        "url": "https://github.com/borgmatic-collective/borgmatic/blob/dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/LICENSE",
+        "sha256": "12ac5047f2af0522f06798b1589ffc4599bc29c91f954d7874e0320634e777c0",
+        "summary": "The cutoff commit is available in the same-name GitHub mirror and contains GPL-3.0 license text."
+      }
+    },
+    {
+      "canonical_repository_id": "poezio/poezio",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0-only",
+      "spdx_id": "GPL-3.0",
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://codeberg.org/poezio/poezio/src/commit/9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/COPYING",
+        "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271",
+        "summary": "The frozen revision contains GPL-3.0 license text."
+      }
+    },
+    {
+      "canonical_repository_id": "qemu-project/qemu",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-2.0-or-later AND other component licenses",
+      "spdx_id": null,
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://gitlab.com/qemu-project/qemu/-/blob/300438ffbb8d9430cac2fcc15cba6f482b2c0587/LICENSE",
+        "sha256": "139c64b7a9ae62858ff969aae622ecfcf4f1519655bd92d2e70a1a2fb615690e",
+        "summary": "The frozen revision documents GPL-2.0-or-later for the combined work and multiple compatible component licenses."
+      }
+    },
+    {
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0-only",
+      "spdx_id": "AGPL-3.0",
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://codeberg.org/superseriousbusiness/gotosocial/src/commit/3722d124433d2087a97f68689fea934610703783/LICENSE",
+        "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+        "summary": "The frozen revision contains AGPL-3.0 license text."
+      }
+    },
+    {
+      "canonical_repository_id": "wafrn/wafrn",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0-only",
+      "spdx_id": "AGPL-3.0",
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://codeberg.org/wafrn/wafrn/src/commit/52e1d5266f8d66648870e48204b5e28521de30b9/LICENSE",
+        "sha256": "5ffb8eaf206c79f334260d6373dc8deda5235901d14e0c34e9b77e4c82cecb87",
+        "summary": "The frozen revision contains AGPL-3.0 license text."
+      }
+    }
+  ]
+}

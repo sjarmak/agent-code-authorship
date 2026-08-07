@@ -1,0 +1,59 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "b53e07a4681c54f7ad7013172ad428b4c71a272689496fe3fcadb819f05a0e65",
+  "artifact_version": 1,
+  "canonical_repository_id": "graphql-python/graphql-server",
+  "citation_extraction_status": "none_extracted_from_api_response",
+  "cited_commits": [],
+  "cited_files": [],
+  "conversation_identity": "users/476/conversations/1994",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Using @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: graphql-python/graphql-server; stratum: attributable_agent; cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9.",
+  "prompt_family_id": "semantic_controls",
+  "prompt_sha256": "280d0feadbf026eccb1844a60219ed3b03be9c2b3637fe9ba1b0d06297e8d038",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "The broad search found no functionally comparable implementations in the study context \u2014 every hit is either a file named `requirements.txt`/`requirements.something` (package dependency files, documentation requirements, test assets) or vendored third-party code. The only substantive Python/GraphQL hit was the Sentry SDK strawberry integration inside Firefox's `third_party/python/`, which is vendored and covers a different concern.\n\nThe search is now exhaustive. Here is the full eligibility report.\n\n---\n\n## Eligibility Analysis\n\n### Reference repository profile\n\nThe reference \u2014 `graphql-python/graphql-server` at [`2d5ac953`](https://demo.sourcegraph.com/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9) \u2014 is:\n\n| Dimension | Value |\n|-----------|-------|\n| **Language** | Python 3.9+ |\n| **Framework / API context** | `graphql-core` (`graphql-core>=3.2.0,<3.4.0`); HTTP integration across Django, Flask, FastAPI, Starlette/ASGI, Sanic, Quart, Litestar, aiohttp, Chalice, WebOb |\n| **Engineering intent** | A reusable multi-framework GraphQL HTTP server library: sync/async view dispatch, content-type negotiation, multipart file-upload handling, WebSocket subscription support, configurable IDE rendering (GraphiQL) |\n| **Key abstractions** | `SyncBaseHTTPView` / `AsyncBaseHTTPView` base classes; `SyncHTTPRequestAdapter` / `AsyncHTTPRequestAdapter` protocol adapters; `GraphQLHTTPResponse` TypedDict; `process_result()`; `GraphQLRequestData` dataclass |\n| **Stratum** | `attributable_agent` (described in repo metadata) |\n| **Change size** | Whole library (~23 source files in `src/graphql_server/`) |\n\n---\n\n### Candidate search and eligibility checks\n\n**Exhaustive scans performed:**\n\n1. `graphql_server`, `SyncBaseHTTPView`, `GraphQLHTTPResponse`, `process_result ExecutionResult` \u2014 Python files, `sg-evals` scope \u2192 0 results\n2. `graphql_ide`, `multipart_uploads_enabled`, `allow_queries_via_get` \u2014 Python files, global scope \u2192 0 results\n3. `graphql execute schema python` \u2014 Python files, `sg-evals` scope \u2192 0 results\n4. `graphql_transport_ws`, `graphql-ws websocket subprotocol` \u2014 Python, `sg-evals` scope \u2192 0 results\n5. `execute_sync graphql` + `GraphQLHTTPResponse OR graphql_transport_ws` \u2014 Python, `sg-evals` \u2192 **1 hit** (examined below)\n6. `\"graphql-core\"` in `pyproject.toml` / `setup.py` / `requirements` \u2014 `sg-evals` \u2192 0 relevant results (all `requirements` path matches were non-Python-package dependency files)\n\n---\n\n### Only substantive hit examined\n\n**`github.com/sg-evals/firefox--871325b8` \u2192 `third_party/python/sentry_sdk/sentry_sdk/integrations/strawberry.py`**\n\nEligibility checks:\n\n| Check | Result |\n|-------|--------|\n| Same language (Python) | Pass |\n| Same framework/API context (graphql-core HTTP server integration) | Fail \u2014 this is a Sentry observability integration that *patches* `strawberry-graphql`'s `AsyncBaseHTTPView._handle_errors`; it is not a GraphQL server implementation |\n| Engineering intent (multi-framework HTTP dispatch) | Fail \u2014 intent is error capture and tracing instrumentation, not request routing or response construction |\n| Vendored/generated/copied code exclusion | **Fail** \u2014 located under `third_party/python/sentry_sdk/`, a vendored copy of the Sentry SDK inside Firefox |\n| Change size comparable | Not applicable (single ~400-line integration file vs. 23-file library) |\n\n**Verdict: ineligible on vendoring alone, and also ineligible on mismatched engineering intent.**\n\n---\n\n### Conclusion\n\n**No functionally comparable implementations exist in the active study search context.**\n\nThe study context contains no other repository that implements a Python, `graphql-core`-based, multi-framework HTTP/WebSocket GraphQL server library with sync/async view dispatch, HTTP request adapter pattern, multipart upload support, and configurable IDE rendering. The only Python GraphQL code found was a vendored Sentry SDK tracing integration embedded inside Firefox, which fails on vendoring, engineering intent, and language-framework context simultaneously.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:14:35Z",
+    "name": "users/476/conversations/1994",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "The broad search found no functionally comparable implementations in the study context \u2014 every hit is either a file named `requirements.txt`/`requirements.something` (package dependency files, documentation requirements, test assets) or vendored third-party code. The only substantive Python/GraphQL hit was the Sentry SDK strawberry integration inside Firefox's `third_party/python/`, which is vendored and covers a different concern.\n\nThe search is now exhaustive. Here is the full eligibility report.\n\n---\n\n## Eligibility Analysis\n\n### Reference repository profile\n\nThe reference \u2014 `graphql-python/graphql-server` at [`2d5ac953`](https://demo.sourcegraph.com/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9) \u2014 is:\n\n| Dimension | Value |\n|-----------|-------|\n| **Language** | Python 3.9+ |\n| **Framework / API context** | `graphql-core` (`graphql-core>=3.2.0,<3.4.0`); HTTP integration across Django, Flask, FastAPI, Starlette/ASGI, Sanic, Quart, Litestar, aiohttp, Chalice, WebOb |\n| **Engineering intent** | A reusable multi-framework GraphQL HTTP server library: sync/async view dispatch, content-type negotiation, multipart file-upload handling, WebSocket subscription support, configurable IDE rendering (GraphiQL) |\n| **Key abstractions** | `SyncBaseHTTPView` / `AsyncBaseHTTPView` base classes; `SyncHTTPRequestAdapter` / `AsyncHTTPRequestAdapter` protocol adapters; `GraphQLHTTPResponse` TypedDict; `process_result()`; `GraphQLRequestData` dataclass |\n| **Stratum** | `attributable_agent` (described in repo metadata) |\n| **Change size** | Whole library (~23 source files in `src/graphql_server/`) |\n\n---\n\n### Candidate search and eligibility checks\n\n**Exhaustive scans performed:**\n\n1. `graphql_server`, `SyncBaseHTTPView`, `GraphQLHTTPResponse`, `process_result ExecutionResult` \u2014 Python files, `sg-evals` scope \u2192 0 results\n2. `graphql_ide`, `multipart_uploads_enabled`, `allow_queries_via_get` \u2014 Python files, global scope \u2192 0 results\n3. `graphql execute schema python` \u2014 Python files, `sg-evals` scope \u2192 0 results\n4. `graphql_transport_ws`, `graphql-ws websocket subprotocol` \u2014 Python, `sg-evals` scope \u2192 0 results\n5. `execute_sync graphql` + `GraphQLHTTPResponse OR graphql_transport_ws` \u2014 Python, `sg-evals` \u2192 **1 hit** (examined below)\n6. `\"graphql-core\"` in `pyproject.toml` / `setup.py` / `requirements` \u2014 `sg-evals` \u2192 0 relevant results (all `requirements` path matches were non-Python-package dependency files)\n\n---\n\n### Only substantive hit examined\n\n**`github.com/sg-evals/firefox--871325b8` \u2192 `third_party/python/sentry_sdk/sentry_sdk/integrations/strawberry.py`**\n\nEligibility checks:\n\n| Check | Result |\n|-------|--------|\n| Same language (Python) | Pass |\n| Same framework/API context (graphql-core HTTP server integration) | Fail \u2014 this is a Sentry observability integration that *patches* `strawberry-graphql`'s `AsyncBaseHTTPView._handle_errors`; it is not a GraphQL server implementation |\n| Engineering intent (multi-framework HTTP dispatch) | Fail \u2014 intent is error capture and tracing instrumentation, not request routing or response construction |\n| Vendored/generated/copied code exclusion | **Fail** \u2014 located under `third_party/python/sentry_sdk/`, a vendored copy of the Sentry SDK inside Firefox |\n| Change size comparable | Not applicable (single ~400-line integration file vs. 23-file library) |\n\n**Verdict: ineligible on vendoring alone, and also ineligible on mismatched engineering intent.**\n\n---\n\n### Conclusion\n\n**No functionally comparable implementations exist in the active study search context.**\n\nThe study context contains no other repository that implements a Python, `graphql-core`-based, multi-framework HTTP/WebSocket GraphQL server library with sync/async view dispatch, HTTP request adapter pattern, multipart upload support, and configurable IDE rendering. The only Python GraphQL code found was a vendored Sentry SDK tracing integration embedded inside Firefox, which fails on vendoring, engineering intent, and language-framework context simultaneously."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:14:35Z",
+        "input": [
+          {
+            "question": {
+              "text": "Using @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: graphql-python/graphql-server; stratum: attributable_agent; cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Find functionally comparable graphql-server implementations across repositories",
+    "updateTime": "2026-07-29T03:16:36Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/798b3562-ae04-4921-9019-9ab47a9d792a"
+  },
+  "run_id": "sha256:c3c3fc2d139560ab3b1615a77b1b12f82041906c3f3d8575fc5bdc8df15cb3ad",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "graphql-python/graphql-server"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

@@ -1,0 +1,361 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-ai-ban-target-manifest.schema.json",
+  "title": "Outcome-blind AI-ban target manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "manifest_version",
+    "predecessors",
+    "control_since",
+    "scope",
+    "repository_count",
+    "eligible_repository_count",
+    "excluded_repository_count",
+    "exclusion_policy",
+    "exclusion_counts",
+    "repositories",
+    "semantic_policy_decisions_made",
+    "scip_required",
+    "paid_api_used",
+    "openai_api_key_used",
+    "classifier_outcomes_consulted",
+    "survival_outcomes_consulted",
+    "outcomes_consulted",
+    "target_manifest_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-ai-ban-target-manifest.schema.json"
+    },
+    "manifest_version": {
+      "const": 3
+    },
+    "predecessors": {
+      "$ref": "#/$defs/predecessors"
+    },
+    "control_since": {
+      "type": "string",
+      "format": "date"
+    },
+    "scope": {
+      "const": "data/control_evidence.json:repos"
+    },
+    "repository_count": {
+      "const": 17
+    },
+    "eligible_repository_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 17
+    },
+    "excluded_repository_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 17
+    },
+    "exclusion_policy": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/exclusionReason"
+      }
+    },
+    "exclusion_counts": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/exclusionReason"
+      },
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "repositories": {
+      "type": "array",
+      "minItems": 17,
+      "maxItems": 17,
+      "items": {
+        "$ref": "#/$defs/repository"
+      }
+    },
+    "semantic_policy_decisions_made": {
+      "const": false
+    },
+    "scip_required": {
+      "const": false
+    },
+    "paid_api_used": {
+      "const": false
+    },
+    "openai_api_key_used": {
+      "const": false
+    },
+    "classifier_outcomes_consulted": {
+      "const": false
+    },
+    "survival_outcomes_consulted": {
+      "const": false
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "target_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "nullableSha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "nullableSha1": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exclusionReason": {
+      "enum": [
+        "direct_index_only",
+        "missing_frozen_case",
+        "missing_index_manifest_record",
+        "missing_sg_evals_mirror",
+        "no_frozen_ai_ban_candidate"
+      ]
+    },
+    "predecessors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "control_evidence_file_sha256",
+        "index_manifest_file_sha256",
+        "case_index_file_sha256",
+        "case_index_sha256",
+        "packet_index_sha256",
+        "specification_sha256",
+        "workflow_sha256"
+      ],
+      "properties": {
+        "control_evidence_file_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "index_manifest_file_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "case_index_file_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "case_index_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "packet_index_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "specification_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "workflow_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "candidateEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commit_oid",
+        "observed_at"
+      ],
+      "properties": {
+        "commit_oid": {
+          "$ref": "#/$defs/sha1"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "candidate_event",
+        "event_id",
+        "packet_count",
+        "packet_ids",
+        "packet_type",
+        "query_family_ids"
+      ],
+      "properties": {
+        "candidate_event": {
+          "$ref": "#/$defs/candidateEvent"
+        },
+        "event_id": {
+          "$ref": "#/$defs/sha256"
+        },
+        "packet_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "packet_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sha256"
+          }
+        },
+        "packet_type": {
+          "const": "ai_ban_policy"
+        },
+        "query_family_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "preregistered_repository_id",
+        "canonical_repository_id",
+        "canonical_source_url",
+        "sourcegraph_name",
+        "cutoff_commit",
+        "case_id",
+        "repository_case_sha256",
+        "status",
+        "exclusion_reason",
+        "candidate_count",
+        "candidates"
+      ],
+      "properties": {
+        "preregistered_repository_id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "canonical_source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sourcegraph_name": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "cutoff_commit": {
+          "$ref": "#/$defs/nullableSha1"
+        },
+        "case_id": {
+          "$ref": "#/$defs/nullableSha256"
+        },
+        "repository_case_sha256": {
+          "$ref": "#/$defs/nullableSha256"
+        },
+        "status": {
+          "enum": [
+            "eligible",
+            "excluded"
+          ]
+        },
+        "exclusion_reason": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/exclusionReason"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "candidate_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "candidates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/candidate"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "eligible"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "exclusion_reason": {
+                "type": "null"
+              },
+              "candidate_count": {
+                "minimum": 1
+              },
+              "candidates": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "excluded"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "exclusion_reason": {
+                "$ref": "#/$defs/exclusionReason"
+              },
+              "candidate_count": {
+                "const": 0
+              },
+              "candidates": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

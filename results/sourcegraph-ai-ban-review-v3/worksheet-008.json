@@ -1,0 +1,101 @@
+{
+  "$schema": "sourcegraph-ai-ban-review-worksheet.schema.json",
+  "ambiguous_resolution": "distinct_secondary_then_distinct_resolver",
+  "classifier_outcomes_consulted": false,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "case_index_file_sha256": "369145e65c6201e3782c8b35f42f667ca6fd122424babae24a5499596ed54cc4",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+    "control_evidence_file_sha256": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "prior_decision_ledger_sha256": "5e2f1d451d28ca38add7830fc32ce5c47929853c24a813db74e206f5ac4199d6",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "review_version": 3,
+  "scip_required": false,
+  "semantic_policy_decisions_made": false,
+  "stopping_rule": "earliest_accepted_policy_event",
+  "survival_outcomes_consulted": false,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+  "task_count": 1,
+  "tasks": [
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 9,
+      "candidate_event": {
+        "commit_oid": "7e145ac1cae8f891e18c9375fa23097f1dfa0b19",
+        "observed_at": "2026-03-10T23:24:03Z"
+      },
+      "candidate_position": 8,
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "canonical_source_url": "https://github.com/yt-dlp/yt-dlp",
+      "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+      "event_id": "f1ae30bcd8657c2dd16e5c8a1db5fc299b2d4c3aa2a471c0abe288aca109a425",
+      "evidence": [
+        {
+          "packet_id": "4d89b8093a61348185eb8df0550dfa7800789a0ddcd56470e0cc99121f5ae6f7",
+          "packet_sha256": "8d1e1a1a464a55605a684b065ee327df910a03423df2e392fb2e31da45bd2b73",
+          "query_family_id": "ai_ban_policy_files",
+          "raw_evidence": [
+            {
+              "commit_oid": "7e145ac1cae8f891e18c9375fa23097f1dfa0b19",
+              "kind": "file_content",
+              "line": 1882,
+              "path": "README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/README.md#L1883",
+              "value": "* `use_ad_playback_context`: Skip preroll ads to eliminate the mandatory wait period before download. Do NOT use this when passing premium account cookies to yt-dlp, as it will result in a loss of premium formats. Only effective with the `mweb` and `web_music` player clients. Either `true` or `false` (default)"
+            },
+            {
+              "commit_oid": "7e145ac1cae8f891e18c9375fa23097f1dfa0b19",
+              "kind": "blame",
+              "line": 1882,
+              "path": "README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/7e145ac1cae8f891e18c9375fa23097f1dfa0b19",
+              "value": "cutoff blame attributes Sourcegraph line 1882 to commit 7e145ac1cae8f891e18c9375fa23097f1dfa0b19"
+            }
+          ]
+        },
+        {
+          "packet_id": "92a553512ba1af9b2745690696ae750349c8596d0c732252beb98ee52f743f8d",
+          "packet_sha256": "b1b2dea66ee2093f1ce69720575d93b11311c698be30885867081b4eea80d1ff",
+          "query_family_id": "ai_ban_policy_introduction_diffs",
+          "raw_evidence": [
+            {
+              "commit_oid": "7e145ac1cae8f891e18c9375fa23097f1dfa0b19",
+              "kind": "diff_added",
+              "line": null,
+              "path": null,
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/7e145ac1cae8f891e18c9375fa23097f1dfa0b19",
+              "value": "README.md README.md\n@@ -1882,3 +1882,3 @@ The following extractors use this feature:\n * `jsc_trace`: Enable debug logging for JS Challenge fetching. Either `true` or `false` (default)\n-* `use_ad_playback_context`: Skip preroll ads to eliminate the mandatory wait period before download. Do NOT use this when passing premium account cookies to yt-dlp, as it will result in a loss of premium formats. Only effective with the `web`, `web_safari`, `web_music` and `mweb` player clients. Either `true` or `false` (default)\n+* `use_ad_playback_context`: Skip preroll ads to eliminate the mandatory wait period before download. Do NOT use this when passing premium account cookies to yt-dlp, as it will result in a loss of premium formats. Only effective with the `mweb` and `web_music` player clients. Either `true` or `false` (default)\n \n"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "4d89b8093a61348185eb8df0550dfa7800789a0ddcd56470e0cc99121f5ae6f7",
+        "92a553512ba1af9b2745690696ae750349c8596d0c732252beb98ee52f743f8d"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_files",
+        "ai_ban_policy_introduction_diffs"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "6aa8e8424648ee3272770c8bd9daf1860dd12cd275b53a86614754d6fff9192f",
+      "task_sha256": "bf03fbd359d584af5477ce0c0b10033b35c896ce3130b4724ad2a2c7747dbdaa"
+    }
+  ],
+  "worksheet_sha256": "cbf925b94daeb144d70626143b5922c0bc4a00ac131bcce2878357acb3642c9b"
+}

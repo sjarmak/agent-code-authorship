@@ -1,0 +1,101 @@
+{
+  "$schema": "sourcegraph-ai-ban-review-worksheet.schema.json",
+  "ambiguous_resolution": "distinct_secondary_then_distinct_resolver",
+  "classifier_outcomes_consulted": false,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "case_index_file_sha256": "369145e65c6201e3782c8b35f42f667ca6fd122424babae24a5499596ed54cc4",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+    "control_evidence_file_sha256": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "prior_decision_ledger_sha256": "8e2408623af021a50216f2831a97c904555bab76abd0135fa1cb601674c6cb31",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "review_version": 3,
+  "scip_required": false,
+  "semantic_policy_decisions_made": false,
+  "stopping_rule": "earliest_accepted_policy_event",
+  "survival_outcomes_consulted": false,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+  "task_count": 1,
+  "tasks": [
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 9,
+      "candidate_event": {
+        "commit_oid": "47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+        "observed_at": "2024-03-10T19:18:47Z"
+      },
+      "candidate_position": 4,
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "canonical_source_url": "https://github.com/yt-dlp/yt-dlp",
+      "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+      "event_id": "dc173eea5407670b2439655f0ea0bf7e7adf1869c3b16dce4c03decbc86ce15a",
+      "evidence": [
+        {
+          "packet_id": "b676af05ad33fe0159b51acf4980b20ab77017b7ed68e52460afe6a9e7d4c222",
+          "packet_sha256": "c9d6b64b6bd97f50a29d87398fe713e6ac62c0996508025dac49474e30b88c26",
+          "query_family_id": "ai_ban_policy_introduction_diffs",
+          "raw_evidence": [
+            {
+              "commit_oid": "47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+              "kind": "diff_added",
+              "line": null,
+              "path": null,
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+              "value": "CONTRIBUTING.md CONTRIBUTING.md\n@@ -153,3 +153,3 @@ If you want to create a build of yt-dlp yourself, you can follow the instruction\n \n-Before you start writing code for implementing a new feature, open an issue explaining your feature request and atleast one use case. This allows the maintainers to decide whether such a feature is desired for the project in the first place, and will provide an avenue to discuss some implementation details. If you open a pull request for a new feature without discussing with us first, do not be surprised when we ask for large changes to the code, or even reject it outright.\n+Before you start writing code for implementing a new feature, open an issue explaining your feature request and at least one use case. This allows the maintainers to decide whether such a feature is desired for the project in the first place, and will provide an avenue to discuss some implementation details. If you open a pull request for a new feature without discussing with us first, do not be surprised when we ask for large changes to the code, or even reject it outright.\n \n"
+            }
+          ]
+        },
+        {
+          "packet_id": "be0f286e018035cae43bc09a321f5efe8c60ead9c37f532e47aa9ce2ef43d218",
+          "packet_sha256": "a92ba44a21514b0cc3fa4a2206206f69993a6a788c45a5f9fed400dfb095ef04",
+          "query_family_id": "ai_ban_policy_files",
+          "raw_evidence": [
+            {
+              "commit_oid": "47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+              "kind": "file_content",
+              "line": 214,
+              "path": "CONTRIBUTING.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L215",
+              "value": "Before you start writing code for implementing a new feature, open an issue explaining your feature request and at least one use case. This allows the maintainers to decide whether such a feature is desired for the project in the first place, and will provide an avenue to discuss some implementation details. If you open a pull request for a new feature without discussing with us first, do not be surprised when we ask for large changes to the code, or even reject it outright."
+            },
+            {
+              "commit_oid": "47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+              "kind": "blame",
+              "line": 214,
+              "path": "CONTRIBUTING.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+              "value": "cutoff blame attributes Sourcegraph line 214 to commit 47ab66db0f083a76c7fba0f6e136b21dd5a93e3b"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "b676af05ad33fe0159b51acf4980b20ab77017b7ed68e52460afe6a9e7d4c222",
+        "be0f286e018035cae43bc09a321f5efe8c60ead9c37f532e47aa9ce2ef43d218"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_files",
+        "ai_ban_policy_introduction_diffs"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "3627767834d72bb43f5568ede274aacb4bb9e53681cb2ee247af1703eb0d1550",
+      "task_sha256": "7930906f2dfb07a994f3d46922da3da04fb2b1ed9c603a35868db18ba83e4440"
+    }
+  ],
+  "worksheet_sha256": "44d2c18bb54023e83e8c4a13d158b0a290569700a8580da055d6e7ae45b22bb9"
+}

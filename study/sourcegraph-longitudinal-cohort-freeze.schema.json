@@ -1,0 +1,793 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-longitudinal-cohort-freeze.schema.json",
+  "title": "Sourcegraph longitudinal cohort freeze",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "cohort_freeze_version",
+    "protocol_sha256",
+    "source_content_pins",
+    "input_files",
+    "selection",
+    "prospective_precision_simulation",
+    "cohorts",
+    "agent_family_gates",
+    "unit_overlap_gate",
+    "invariants",
+    "outcomes_consulted",
+    "cohort_freeze_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-longitudinal-cohort-freeze.schema.json"
+    },
+    "cohort_freeze_version": {
+      "const": 1
+    },
+    "protocol_sha256": {
+      "$ref": "#/$defs/nullableSha256"
+    },
+    "source_content_pins": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "protocol_sha256",
+        "discovery_specification_sha256",
+        "adoption_catalog_sha256",
+        "agent_commit_catalog_sha256",
+        "ai_ban_catalog_sha256",
+        "survival_frame_sha256"
+      ],
+      "properties": {
+        "protocol_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "discovery_specification_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "adoption_catalog_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "agent_commit_catalog_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "ai_ban_catalog_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "survival_frame_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "input_files": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "input_id",
+          "file_sha256"
+        ],
+        "properties": {
+          "input_id": {
+            "enum": [
+              "protocol",
+              "discovery",
+              "adoption",
+              "agent_commits",
+              "ai_ban",
+              "targets",
+              "survival"
+            ]
+          },
+          "file_sha256": {
+            "$ref": "#/$defs/sha256"
+          }
+        }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "snapshot_cutoff",
+        "discovery_start",
+        "clean_prehistory_days",
+        "primary_event_tier",
+        "exact_content_overlap_rule",
+        "temporal_role_rule"
+      ],
+      "properties": {
+        "snapshot_cutoff": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "discovery_start": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "clean_prehistory_days": {
+          "type": "integer",
+          "minimum": 365
+        },
+        "primary_event_tier": {
+          "const": "confirmed"
+        },
+        "exact_content_overlap_rule": {
+          "const": "block_until_zero_shared_content_hashes"
+        },
+        "temporal_role_rule": {
+          "const": "same_repository_allowed_only_in_disjoint_pre_post_units"
+        }
+      }
+    },
+    "prospective_precision_simulation": {
+      "$ref": "#/$defs/simulation"
+    },
+    "cohorts": {
+      "$ref": "#/$defs/cohorts"
+    },
+    "agent_family_gates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/familyGate"
+      }
+    },
+    "unit_overlap_gate": {
+      "$ref": "#/$defs/unitOverlapGate"
+    },
+    "invariants": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "selection_outcome_blind",
+        "primary_uses_confirmed_sequential_events_only",
+        "control_roles_disjoint",
+        "external_validation_repository_roles_disjoint",
+        "exact_content_overlap_gate"
+      ],
+      "properties": {
+        "selection_outcome_blind": {
+          "const": true
+        },
+        "primary_uses_confirmed_sequential_events_only": {
+          "const": true
+        },
+        "control_roles_disjoint": {
+          "const": true
+        },
+        "external_validation_repository_roles_disjoint": {
+          "const": true
+        },
+        "exact_content_overlap_gate": {
+          "const": "pending_unit_materialization"
+        }
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "cohort_freeze_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "nullableSha256": {"oneOf": [{"$ref": "#/$defs/sha256"}, {"type": "null"}]},
+    "repositoryIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "status": {"enum": ["identified", "not_identified"]},
+    "simulation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "test_statistic",
+        "alpha",
+        "standardized_effect",
+        "within_pair_correlation",
+        "target_power",
+        "replicates",
+        "seed",
+        "power_by_repository_count",
+        "selected_minimum_repositories",
+        "outcomes_consulted"
+      ],
+      "properties": {
+        "method": {
+          "const": "paired_repository_monte_carlo"
+        },
+        "test_statistic": {
+          "const": "paired_student_t_two_sided"
+        },
+        "alpha": {
+          "const": 0.05
+        },
+        "standardized_effect": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "within_pair_correlation": {
+          "type": "number",
+          "minimum": 0,
+          "exclusiveMaximum": 1
+        },
+        "target_power": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "exclusiveMaximum": 1
+        },
+        "replicates": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "power_by_repository_count": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "repository_count",
+              "critical_value",
+              "power"
+            ],
+            "properties": {
+              "repository_count": {
+                "type": "integer",
+                "minimum": 2
+              },
+              "critical_value": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "power": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          }
+        },
+        "selected_minimum_repositories": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "outcomes_consulted": {
+          "const": false
+        }
+      }
+    },
+    "languageGate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "adopter_count",
+        "minimum_adopter_repositories",
+        "repository_ids",
+        "gate_reasons"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "adopter_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "minimum_adopter_repositories": {
+          "type": "integer",
+          "minimum": 20
+        },
+        "repository_ids": {
+          "$ref": "#/$defs/repositoryIds"
+        },
+        "gate_reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "window_days",
+        "evidence_tier",
+        "languages"
+      ],
+      "properties": {
+        "window_days": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "integer",
+              "maximum": -1
+            },
+            {
+              "type": "integer",
+              "minimum": 1
+            }
+          ],
+          "items": false
+        },
+        "evidence_tier": {
+          "enum": [
+            "confirmed",
+            "observed"
+          ]
+        },
+        "languages": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "Python",
+            "Go"
+          ],
+          "properties": {
+            "Python": {
+              "$ref": "#/$defs/languageGate"
+            },
+            "Go": {
+              "$ref": "#/$defs/languageGate"
+            }
+          }
+        }
+      }
+    },
+    "controlLanguage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "minimum_control_repositories",
+        "unique_control_count",
+        "h2_policy_repository_ids",
+        "never_observed_repository_ids",
+        "not_yet_adopting_candidate_repository_ids",
+        "not_yet_adopting_rule"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "minimum_control_repositories": {
+          "type": "integer",
+          "minimum": 10
+        },
+        "unique_control_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "h2_policy_repository_ids": {
+          "$ref": "#/$defs/repositoryIds"
+        },
+        "never_observed_repository_ids": {
+          "$ref": "#/$defs/repositoryIds"
+        },
+        "not_yet_adopting_candidate_repository_ids": {
+          "$ref": "#/$defs/repositoryIds"
+        },
+        "not_yet_adopting_rule": {
+          "const": "own_adoption_after_treated_post_window"
+        }
+      }
+    },
+    "controlPool": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "assignment",
+        "roles_are_disjoint",
+        "h2_policy_rule",
+        "languages"
+      ],
+      "properties": {
+        "assignment": {
+          "const": "time_varying_language_matched"
+        },
+        "roles_are_disjoint": {
+          "const": true
+        },
+        "h2_policy_rule": {
+          "const": "policy_effective_before_treated_pre_window"
+        },
+        "languages": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "Python",
+            "Go"
+          ],
+          "properties": {
+            "Python": {
+              "$ref": "#/$defs/controlLanguage"
+            },
+            "Go": {
+              "$ref": "#/$defs/controlLanguage"
+            }
+          }
+        }
+      }
+    },
+    "eventStudy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "extended",
+        "observed_tier_sensitivity",
+        "control_pool"
+      ],
+      "properties": {
+        "primary": {
+          "$ref": "#/$defs/window"
+        },
+        "extended": {
+          "$ref": "#/$defs/window"
+        },
+        "observed_tier_sensitivity": {
+          "$ref": "#/$defs/window"
+        },
+        "control_pool": {
+          "$ref": "#/$defs/controlPool"
+        }
+      }
+    },
+    "cohorts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adoption_event_study",
+        "human_evidence",
+        "prevalence_reference",
+        "survival",
+        "external_validation"
+      ],
+      "properties": {
+        "adoption_event_study": {
+          "$ref": "#/$defs/eventStudy"
+        },
+        "human_evidence": {
+          "$ref": "#/$defs/humanEvidence"
+        },
+        "prevalence_reference": {
+          "$ref": "#/$defs/prevalenceFrame"
+        },
+        "survival": {
+          "$ref": "#/$defs/survivalFrame"
+        },
+        "external_validation": {
+          "$ref": "#/$defs/externalValidation"
+        }
+      }
+    },
+    "policyRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository_id",
+        "language",
+        "policy_commit_oid",
+        "policy_effective_at",
+        "evidence_tier",
+        "policy_scope"
+      ],
+      "properties": {
+        "repository_id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1
+        },
+        "policy_commit_oid": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "policy_effective_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "evidence_tier": {
+          "const": "datable_default_branch_policy"
+        },
+        "policy_scope": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "humanEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "H1_attested_human",
+        "H2_policy_human",
+        "H3_pre_adoption_proxy"
+      ],
+      "properties": {
+        "H1_attested_human": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "repository_count",
+            "repository_ids"
+          ],
+          "properties": {
+            "status": {
+              "const": "not_available"
+            },
+            "repository_count": {
+              "const": 0
+            },
+            "repository_ids": {
+              "maxItems": 0
+            }
+          }
+        },
+        "H2_policy_human": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "repository_count",
+            "repositories",
+            "unit"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "available",
+                "not_available"
+              ]
+            },
+            "repository_count": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "repositories": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/policyRecord"
+              }
+            },
+            "unit": {
+              "const": "post_policy_code_introducing_commit_hunk"
+            }
+          }
+        },
+        "H3_pre_adoption_proxy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "contemporary_pre_adoption",
+            "historical_pre_2023"
+          ],
+          "properties": {
+            "contemporary_pre_adoption": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "repository_count",
+                "repository_ids",
+                "window_source"
+              ],
+              "properties": {
+                "repository_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "repository_ids": {
+                  "$ref": "#/$defs/repositoryIds"
+                },
+                "window_source": {
+                  "const": "primary_event_study_pre_window"
+                }
+              }
+            },
+            "historical_pre_2023": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "repository_count",
+                "repository_ids",
+                "end_exclusive",
+                "role"
+              ],
+              "properties": {
+                "repository_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "repository_ids": {
+                  "$ref": "#/$defs/repositoryIds"
+                },
+                "end_exclusive": {
+                  "const": "2023-01-01T00:00:00Z"
+                },
+                "role": {
+                  "const": "era_adjusted_sensitivity_only"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "prevalenceFrame": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository_count",
+        "repository_ids",
+        "role"
+      ],
+      "properties": {
+        "repository_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "repository_ids": {
+          "$ref": "#/$defs/repositoryIds"
+        },
+        "role": {
+          "const": "fixed_confirmatory_target"
+        }
+      }
+    },
+    "survivalFrame": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository_count",
+        "candidate_record_count",
+        "repository_ids",
+        "role"
+      ],
+      "properties": {
+        "repository_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "candidate_record_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "repository_ids": {
+          "$ref": "#/$defs/repositoryIds"
+        },
+        "role": {
+          "const": "fixed_confirmatory_target"
+        }
+      }
+    },
+    "externalValidation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "agent_positive_commit_count",
+        "agent_positive_repository_count",
+        "agent_positive_repository_ids",
+        "policy_negative_repository_count",
+        "policy_negative_repository_ids",
+        "repository_roles_disjoint"
+      ],
+      "properties": {
+        "agent_positive_commit_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "agent_positive_repository_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "agent_positive_repository_ids": {
+          "$ref": "#/$defs/repositoryIds"
+        },
+        "policy_negative_repository_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "policy_negative_repository_ids": {
+          "$ref": "#/$defs/repositoryIds"
+        },
+        "repository_roles_disjoint": {
+          "const": true
+        }
+      }
+    },
+    "familyGate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "agent_family",
+        "status",
+        "minimum_repositories",
+        "repository_count",
+        "repositories_by_language"
+      ],
+      "properties": {
+        "agent_family": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "minimum_repositories": {
+          "type": "integer",
+          "minimum": 8
+        },
+        "repository_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "repositories_by_language": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "unitOverlapGate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "analysis_allowed",
+        "unit_identity_fields",
+        "content_identity",
+        "required_result",
+        "enforcement_stage",
+        "failure_behavior"
+      ],
+      "properties": {
+        "status": {"const": "pending_unit_materialization"},
+        "analysis_allowed": {"const": false},
+        "unit_identity_fields": {
+          "const": ["repository_id", "commit_oid", "path", "hunk_sha256"]
+        },
+        "content_identity": {"const": "sha256_normalized_introduced_content"},
+        "required_result": {
+          "const": "zero_agent_human_unit_or_content_intersections"
+        },
+        "enforcement_stage": {
+          "const": "sourcegraph_longitudinal_panel_materialization"
+        },
+        "failure_behavior": {"const": "block_analysis"}
+      }
+    }
+  }
+}

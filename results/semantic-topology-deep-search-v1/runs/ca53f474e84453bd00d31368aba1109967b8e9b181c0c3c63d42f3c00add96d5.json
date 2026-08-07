@@ -1,0 +1,272 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "60d272a721aa870842552f9f0724227656a8a4e22b907f26256e8c52eb2395d8",
+  "artifact_version": 1,
+  "canonical_repository_id": "2dust/v2rayn",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "b48037b7579ab524c106c555cce165e089ebf1dc"
+  ],
+  "cited_files": [
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Mode/ECoreType.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/ECoreType.cs"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/LazyConfig.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/LazyConfig.cs?L67"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1133-1256"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Mode/Config.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/Config.cs?L207"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/SpeedtestHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/SpeedtestHandler.cs"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/StatisticsHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/StatisticsHandler.cs"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L739"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/MainFormHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/MainFormHandler.cs"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1486"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L943"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1044"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/UpdateHandle.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/UpdateHandle.cs"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Mode/Config.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/Config.cs?L577"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/V2rayHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/V2rayHandler.cs?L66-78"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L605-663"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L790-791"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/SpeedtestHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/SpeedtestHandler.cs?L212"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ShareHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ShareHandler.cs?L561"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L349"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Forms/BaseForm.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Forms/BaseForm.cs"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Forms/BaseServerForm.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Forms/BaseServerForm.cs"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L768"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/LazyConfig.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/LazyConfig.cs?L10"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/MainFormHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/MainFormHandler.cs?L16-18"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ShareHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ShareHandler.cs?L185"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ShareHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ShareHandler.cs?L764"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/LazyConfig.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/LazyConfig.cs?L67-202"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Forms/MainForm.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Forms/MainForm.cs?L35"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/v2rayN.csproj",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj?L47"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/v2rayN.csproj",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/StatisticsHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/StatisticsHandler.cs?L39-53"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/v2rayN.csproj",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj?L26-35"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Global.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Global.cs?L8-225"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1306-1309"
+    },
+    {
+      "commit": "b48037b7579ab524c106c555cce165e089ebf1dc",
+      "path": "v2rayN/v2rayN/Handler/ConfigHandler.cs",
+      "repository": "github.com/sg-evals/2dust-v2rayN",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L605"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2040",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/2dust-v2rayN at revision b48037b7579ab524c106c555cce165e089ebf1dc, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: 2dust/v2rayn; stratum: pre_2023_context; cutoff: cf8dd45abe3dd54667a3ce0e6923695acbf10823.",
+  "prompt_family_id": "delegated_task_intent",
+  "prompt_sha256": "1408aef88249019278d842eb4f10c27adfa3a87e1ab8978787a9145e9c6eeebf",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a thorough picture of the codebase at `b48037b7579ab524c106c555cce165e089ebf1dc`. Here is the full engineering task shape analysis.\n\n---\n\n## Engineering Task Shape Analysis \u2014 2dust/v2rayN @ b48037b\n\n**Stratum:** `pre_2023_context` | **Cutoff:** `cf8dd45abe3dd54667a3ce0e6923695acbf10823`\n\n---\n\n### 1. Feature (dominant shape)\n\nThe largest identifiable work mass is **new protocol and multi-core support**. The codebase carries a unified `VmessItem` model extended across five distinct proxy protocol types, each with its own `Add*Server` method:\n\n- [`AddServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L247) \u2014 VMess\n- [`AddShadowsocksServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L524) \u2014 Shadowsocks\n- [`AddSocksServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L553)\n- [`AddTrojanServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L575)\n- [`AddVlessServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L716)\n\nThe [`ECoreType`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/ECoreType.cs) enum enumerates eleven distinct backend engines: `v2fly`, `Xray`, `SagerNet`, `v2fly_v5`, `clash`, `clash_meta`, `hysteria`, `naiveproxy`, `tuic`, `sing_box`, `v2rayN`. The [`LazyConfig.InitCoreInfo()`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/LazyConfig.cs?L67) method wires download URLs, launch arguments, and exe names for each. This breadth is not achievable in a single work unit \u2014 it represents an accretion of multiple **feature** commits adding each core/protocol over time.\n\nAdditional distinct features evidenced at this snapshot:\n\n| Feature | Primary symbol | File |\n|---|---|---|\n| Subscription management (sub/group) | `AddSubItem`, `SaveSubItem`, `RemoveServerViaSubid` | [`ConfigHandler.cs` L1133\u20131256](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1133-1256) |\n| Server grouping | `groupId`, `GroupItem`, `MoveServerToGroup` | [`Config.cs` L207](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/Config.cs?L207) |\n| Speed/latency test (Ping, TCPing, RealPing, Speedtest) | `SpeedtestHandler` | [`SpeedtestHandler.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/SpeedtestHandler.cs) |\n| Real-time traffic statistics via gRPC | `StatisticsHandler`, `StatsService.StatsServiceClient` | [`StatisticsHandler.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/StatisticsHandler.cs) |\n| Deduplication of server list | `DedupServerList`, `CompareVmessItem` | [`ConfigHandler.cs` L739](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L739) |\n| Global hotkeys | `GlobalHotkeySettingForm`, `NHotkey` package | [`MainFormHandler.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/MainFormHandler.cs) |\n| Routing rule sets (whitelist/blacklist/global/locked) | `InitBuiltinRouting`, `RoutingItem` | [`ConfigHandler.cs` L1486](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1486) |\n| Custom config import (Clash/Hysteria/Naiveproxy) | `AddBatchServers4Custom` | [`ConfigHandler.cs` L943](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L943) |\n| SIP-002 / SsSIP008 Shadowsocks subscription format | `AddBatchServers4SsSIP008`, `ResolveSip002` | [`ConfigHandler.cs` L1044](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1044) |\n| Auto-update (GUI and core binaries) | `UpdateHandle.CheckUpdateGuiN` | [`UpdateHandle.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/UpdateHandle.cs) |\n| TLS fingerprint field | `fingerprint` on `VmessItem` | [`Config.cs` L577](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/Config.cs?L577) |\n| Pre-socks port chaining | `preSocksPort`, `V2rayStartNew` with socks pre-proxy | [`V2rayHandler.cs` L66-78](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/V2rayHandler.cs?L66-78) |\n\n---\n\n### 2. Localized Bug Fix\n\nSeveral code sites carry the unmistakable signature of narrow corrective patches rather than design:\n\n- **`UpgradeServerVersion`** ([`ConfigHandler.cs` L605\u2013663](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L605-663)): migrates a legacy `requestHost` encoding (`path;host` joined by semicolon) to the split `path`/`requestHost` fields introduced at `configVersion = 2`. This is a data-migration fix for a prior design mistake. The silent `catch {}` at L659 is a further tell.\n\n- **`AddServerCommon`** sort value logic ([L790-791](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L790-791)): `maxSort++` is called but the post-increment value is never stored \u2014 `vmessItem.sort = maxSort++` assigns the value *before* increment. This is almost certainly a latent bug, not a fix, but indicates the sort field was bolted on after initial implementation.\n\n- **`GetTcpingTime`** ([`SpeedtestHandler.cs` L212](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/SpeedtestHandler.cs?L212)): uses `timer.Elapsed.Milliseconds` (the fractional milliseconds component, max 999) rather than `TotalMilliseconds`. This is a pre-existing latent bug, visible as residual debt at this commit.\n\n- **`ResolveSip002`** 2022-blake3 branch ([`ShareHandler.cs` L561](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ShareHandler.cs?L561)): the `if (rawUserInfo.Contains(\":\"))` guard was added to handle a new format where credentials are not base64-encoded. This has the shape of a targeted compatibility fix.\n\n- **`SetDefaultServer` overload** ([`ConfigHandler.cs` L349](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L349)): the dual-list fallback pattern (`lstVmess` first, then `config.vmess`) reads as a fix for a race condition or stale-state bug where the active server wasn't being found in the filtered list.\n\n---\n\n### 3. Refactor\n\n- **`BaseForm` / `BaseServerForm` inheritance hierarchy** ([`BaseForm.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Forms/BaseForm.cs), [`BaseServerForm.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Forms/BaseServerForm.cs)): the thin base classes share a static `config` field and custom icon loading, suggesting prior per-form duplication was consolidated.\n\n- **`AddServerCommon`** ([`ConfigHandler.cs` L768](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L768)): extracts shared pre/post-add logic across all five `Add*Server` methods, reducing duplication. The signature and calling pattern is consistent with a refactor that followed the addition of multiple protocol types.\n\n- **`LazyConfig` singleton** ([`LazyConfig.cs` L10](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/LazyConfig.cs?L10)): centralizes config access and core-type resolution previously scattered through `V2rayConfigHandler` and `V2rayHandler`, replacing earlier direct `Config` parameter passing in some paths.\n\n- **`MainFormHandler` singleton** ([L16-18](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/MainFormHandler.cs?L16-18)): several commented-out private fields (`_updateUI`, `downloadHandle2`, `_config`, `_v2rayHandler`, `_selecteds`, `_workThread`) are visible debris from an extraction refactor that moved functionality out of `MainForm` itself.\n\n- **`GetStdTransport` / `ResolveStdTransport`** pair ([`ShareHandler.cs` L185](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ShareHandler.cs?L185) and [L764](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ShareHandler.cs?L764)): symmetric serialization/deserialization helpers extracted to serve both VLESS and Trojan share-URL handling.\n\n---\n\n### 4. Architectural Scaffolding\n\n- **`ECoreType` + `CoreInfo` + `LazyConfig.InitCoreInfo()`**: the pluggable-core architecture ([`ECoreType.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/ECoreType.cs), [`LazyConfig.cs` L67-202](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/LazyConfig.cs?L67-202)) is a designed extensibility scaffold enabling new cores to be added by appending to a registry list. The enum gaps (11\u201321 suggest reserved space for future proxy-protocol cores vs networking-layer cores) reinforce intentional design.\n\n- **`EConfigType` polymorphism via `VmessItem`**: using a single `VmessItem` entity as a universal server record \u2014 with `configType` as discriminant \u2014 is an architectural decision to avoid model proliferation. The tradeoff (fields like `alterId`, `flow`, `alpn` are meaningless for many types) is visible debt from this scaffold.\n\n- **`Job` win32 job object for process lifecycle** ([`MainForm.cs` L35](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Forms/MainForm.cs?L35), `Global.processJob`): bootstraps OS-level child-process cleanup so cores are killed when the GUI exits, an infrastructural concern separate from any feature.\n\n- **`Protos/Statistics.proto` + gRPC client generation** ([`.csproj` L47](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj?L47)): the protobuf toolchain integration (`Grpc.Tools`, `<Protobuf Include=...>`) is scaffolding for the statistics subsystem, not a feature per se.\n\n---\n\n### 5. Dependency Migration (evidenced, ambiguous scope)\n\nThe [`v2rayN.csproj`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj) declares:\n\n```xml\n<TargetFramework>net48</TargetFramework>\n<LangVersion>preview</LangVersion>\n```\n\nWith NuGet packages: `Grpc.Core 2.46.3`, `Google.Protobuf 3.21.5`, `Newtonsoft.Json 13.0.1`, `NHotkey 2.1.0`, `ZXing.Net 0.16.8`, `log4net 2.0.15`.\n\nThe `net48` target and `LangVersion=preview` combination suggests a migration from an earlier .NET Framework version (likely .NET 4.5/4.6) occurred at some point in this branch's history. The large commented-out block in [`StatisticsHandler.cs` L39-53](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/StatisticsHandler.cs?L39-53) (manual extraction of native gRPC DLLs) shows a prior approach to gRPC distribution that was superseded by NuGet package management \u2014 the fossil of a dependency migration. **Ambiguity**: without commit history accessible at this hash, the exact migration boundary cannot be confirmed from code alone.\n\n---\n\n### 6. Documentation / Configuration\n\n- **Embedded sample files** ([`.csproj` L26-35](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj?L26-35)): `SampleClientConfig.txt`, `SampleServerConfig.txt`, `SampleInbound.txt`, and four `custom_routing_*` files are shipped as embedded resources. These are configuration templates, not code.\n\n- **`Global.cs` constant block** ([L8-225](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Global.cs?L8-225)): the `#region \u5e38\u91cf` section (eleven core release URLs, protocol constants, cipher lists, domain strategy lists) is effectively application configuration stored in code rather than in a config file. Additions to these lists (`ssSecuritysInSagerNet`, `fingerprints`, `domainStrategy4Freedoms`) represent documentation/configuration tasks.\n\n- **Bilingual error messages** (`ResUI` resource class, `.zh-Hans.resx` files per form): all UI-facing strings are externalized into `.resx` files with Chinese variants, representing ongoing localization work. This is a distinct documentation/configuration category.\n\n---\n\n### 7. Boilerplate\n\n- **`*.Designer.cs` files** for every `Form`: `MainForm.Designer.cs`, `AddServerForm.Designer.cs`, etc. \u2014 all machine-generated WinForms designer output with no engineering authorship signal.\n\n- **`BaseForm`, `BaseServerForm`** bodies: both are near-empty shells (2\u20135 non-trivial lines each) with no logic, serving only as inheritance anchors.\n\n---\n\n### 8. Cleanup\n\n- **Pervasive commented-out code blocks**: throughout `ConfigHandler.cs`, `StatisticsHandler.cs`, `V2rayConfigHandler.cs`, and `ShareHandler.cs`, there are extensive `//` blocks of superseded logic kept in-place. Examples: `ConfigHandler.cs` L79-84 (HTTP inbound), L98-101 (domainMatcher), L146-149 (remoteDNS), `ShareHandler.cs` L99-105 (old SS URL format). These represent cleanup work that was *not* yet done \u2014 residual debt visible at this snapshot.\n\n- **`SaveRouting` empty loop** ([`ConfigHandler.cs` L1306-1309](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1306-1309)): `foreach (var item in config.routings) { }` \u2014 an empty iteration body, likely a planned-but-not-implemented validation pass, left as dead code.\n\n---\n\n### 9. Test Generation\n\n**Not evidenced.** There are no test files, no test projects, no `xunit`/`MSTest`/`NUnit` references in the `.sln` or `.csproj`. The stratum contains zero automated test coverage.\n\n---\n\n### Taxonomy Refinement Proposal\n\nThe existing eight categories cover this codebase adequately with one addition:\n\n> **Data/Schema Migration** (propose as distinct from *dependency migration*): `UpgradeServerVersion` ([`ConfigHandler.cs` L605](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L605)) and `AddServerCommon`'s `configVersion = 2` stamp represent a *user-data format migration* applied at load time \u2014 semantically distinct from library dependency upgrades and not cleanly captured by \"localized bug fix\" or \"refactor.\" In GUI desktop applications that persist user config to local JSON, in-place schema migration is a recurring and identifiable task shape.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:42:06Z",
+    "name": "users/476/conversations/2040",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a thorough picture of the codebase at `b48037b7579ab524c106c555cce165e089ebf1dc`. Here is the full engineering task shape analysis.\n\n---\n\n## Engineering Task Shape Analysis \u2014 2dust/v2rayN @ b48037b\n\n**Stratum:** `pre_2023_context` | **Cutoff:** `cf8dd45abe3dd54667a3ce0e6923695acbf10823`\n\n---\n\n### 1. Feature (dominant shape)\n\nThe largest identifiable work mass is **new protocol and multi-core support**. The codebase carries a unified `VmessItem` model extended across five distinct proxy protocol types, each with its own `Add*Server` method:\n\n- [`AddServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L247) \u2014 VMess\n- [`AddShadowsocksServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L524) \u2014 Shadowsocks\n- [`AddSocksServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L553)\n- [`AddTrojanServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L575)\n- [`AddVlessServer`](r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L716)\n\nThe [`ECoreType`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/ECoreType.cs) enum enumerates eleven distinct backend engines: `v2fly`, `Xray`, `SagerNet`, `v2fly_v5`, `clash`, `clash_meta`, `hysteria`, `naiveproxy`, `tuic`, `sing_box`, `v2rayN`. The [`LazyConfig.InitCoreInfo()`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/LazyConfig.cs?L67) method wires download URLs, launch arguments, and exe names for each. This breadth is not achievable in a single work unit \u2014 it represents an accretion of multiple **feature** commits adding each core/protocol over time.\n\nAdditional distinct features evidenced at this snapshot:\n\n| Feature | Primary symbol | File |\n|---|---|---|\n| Subscription management (sub/group) | `AddSubItem`, `SaveSubItem`, `RemoveServerViaSubid` | [`ConfigHandler.cs` L1133\u20131256](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1133-1256) |\n| Server grouping | `groupId`, `GroupItem`, `MoveServerToGroup` | [`Config.cs` L207](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/Config.cs?L207) |\n| Speed/latency test (Ping, TCPing, RealPing, Speedtest) | `SpeedtestHandler` | [`SpeedtestHandler.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/SpeedtestHandler.cs) |\n| Real-time traffic statistics via gRPC | `StatisticsHandler`, `StatsService.StatsServiceClient` | [`StatisticsHandler.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/StatisticsHandler.cs) |\n| Deduplication of server list | `DedupServerList`, `CompareVmessItem` | [`ConfigHandler.cs` L739](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L739) |\n| Global hotkeys | `GlobalHotkeySettingForm`, `NHotkey` package | [`MainFormHandler.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/MainFormHandler.cs) |\n| Routing rule sets (whitelist/blacklist/global/locked) | `InitBuiltinRouting`, `RoutingItem` | [`ConfigHandler.cs` L1486](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1486) |\n| Custom config import (Clash/Hysteria/Naiveproxy) | `AddBatchServers4Custom` | [`ConfigHandler.cs` L943](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L943) |\n| SIP-002 / SsSIP008 Shadowsocks subscription format | `AddBatchServers4SsSIP008`, `ResolveSip002` | [`ConfigHandler.cs` L1044](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1044) |\n| Auto-update (GUI and core binaries) | `UpdateHandle.CheckUpdateGuiN` | [`UpdateHandle.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/UpdateHandle.cs) |\n| TLS fingerprint field | `fingerprint` on `VmessItem` | [`Config.cs` L577](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/Config.cs?L577) |\n| Pre-socks port chaining | `preSocksPort`, `V2rayStartNew` with socks pre-proxy | [`V2rayHandler.cs` L66-78](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/V2rayHandler.cs?L66-78) |\n\n---\n\n### 2. Localized Bug Fix\n\nSeveral code sites carry the unmistakable signature of narrow corrective patches rather than design:\n\n- **`UpgradeServerVersion`** ([`ConfigHandler.cs` L605\u2013663](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L605-663)): migrates a legacy `requestHost` encoding (`path;host` joined by semicolon) to the split `path`/`requestHost` fields introduced at `configVersion = 2`. This is a data-migration fix for a prior design mistake. The silent `catch {}` at L659 is a further tell.\n\n- **`AddServerCommon`** sort value logic ([L790-791](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L790-791)): `maxSort++` is called but the post-increment value is never stored \u2014 `vmessItem.sort = maxSort++` assigns the value *before* increment. This is almost certainly a latent bug, not a fix, but indicates the sort field was bolted on after initial implementation.\n\n- **`GetTcpingTime`** ([`SpeedtestHandler.cs` L212](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/SpeedtestHandler.cs?L212)): uses `timer.Elapsed.Milliseconds` (the fractional milliseconds component, max 999) rather than `TotalMilliseconds`. This is a pre-existing latent bug, visible as residual debt at this commit.\n\n- **`ResolveSip002`** 2022-blake3 branch ([`ShareHandler.cs` L561](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ShareHandler.cs?L561)): the `if (rawUserInfo.Contains(\":\"))` guard was added to handle a new format where credentials are not base64-encoded. This has the shape of a targeted compatibility fix.\n\n- **`SetDefaultServer` overload** ([`ConfigHandler.cs` L349](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L349)): the dual-list fallback pattern (`lstVmess` first, then `config.vmess`) reads as a fix for a race condition or stale-state bug where the active server wasn't being found in the filtered list.\n\n---\n\n### 3. Refactor\n\n- **`BaseForm` / `BaseServerForm` inheritance hierarchy** ([`BaseForm.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Forms/BaseForm.cs), [`BaseServerForm.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Forms/BaseServerForm.cs)): the thin base classes share a static `config` field and custom icon loading, suggesting prior per-form duplication was consolidated.\n\n- **`AddServerCommon`** ([`ConfigHandler.cs` L768](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L768)): extracts shared pre/post-add logic across all five `Add*Server` methods, reducing duplication. The signature and calling pattern is consistent with a refactor that followed the addition of multiple protocol types.\n\n- **`LazyConfig` singleton** ([`LazyConfig.cs` L10](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/LazyConfig.cs?L10)): centralizes config access and core-type resolution previously scattered through `V2rayConfigHandler` and `V2rayHandler`, replacing earlier direct `Config` parameter passing in some paths.\n\n- **`MainFormHandler` singleton** ([L16-18](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/MainFormHandler.cs?L16-18)): several commented-out private fields (`_updateUI`, `downloadHandle2`, `_config`, `_v2rayHandler`, `_selecteds`, `_workThread`) are visible debris from an extraction refactor that moved functionality out of `MainForm` itself.\n\n- **`GetStdTransport` / `ResolveStdTransport`** pair ([`ShareHandler.cs` L185](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ShareHandler.cs?L185) and [L764](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ShareHandler.cs?L764)): symmetric serialization/deserialization helpers extracted to serve both VLESS and Trojan share-URL handling.\n\n---\n\n### 4. Architectural Scaffolding\n\n- **`ECoreType` + `CoreInfo` + `LazyConfig.InitCoreInfo()`**: the pluggable-core architecture ([`ECoreType.cs`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Mode/ECoreType.cs), [`LazyConfig.cs` L67-202](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/LazyConfig.cs?L67-202)) is a designed extensibility scaffold enabling new cores to be added by appending to a registry list. The enum gaps (11\u201321 suggest reserved space for future proxy-protocol cores vs networking-layer cores) reinforce intentional design.\n\n- **`EConfigType` polymorphism via `VmessItem`**: using a single `VmessItem` entity as a universal server record \u2014 with `configType` as discriminant \u2014 is an architectural decision to avoid model proliferation. The tradeoff (fields like `alterId`, `flow`, `alpn` are meaningless for many types) is visible debt from this scaffold.\n\n- **`Job` win32 job object for process lifecycle** ([`MainForm.cs` L35](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Forms/MainForm.cs?L35), `Global.processJob`): bootstraps OS-level child-process cleanup so cores are killed when the GUI exits, an infrastructural concern separate from any feature.\n\n- **`Protos/Statistics.proto` + gRPC client generation** ([`.csproj` L47](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj?L47)): the protobuf toolchain integration (`Grpc.Tools`, `<Protobuf Include=...>`) is scaffolding for the statistics subsystem, not a feature per se.\n\n---\n\n### 5. Dependency Migration (evidenced, ambiguous scope)\n\nThe [`v2rayN.csproj`](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj) declares:\n\n```xml\n<TargetFramework>net48</TargetFramework>\n<LangVersion>preview</LangVersion>\n```\n\nWith NuGet packages: `Grpc.Core 2.46.3`, `Google.Protobuf 3.21.5`, `Newtonsoft.Json 13.0.1`, `NHotkey 2.1.0`, `ZXing.Net 0.16.8`, `log4net 2.0.15`.\n\nThe `net48` target and `LangVersion=preview` combination suggests a migration from an earlier .NET Framework version (likely .NET 4.5/4.6) occurred at some point in this branch's history. The large commented-out block in [`StatisticsHandler.cs` L39-53](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/StatisticsHandler.cs?L39-53) (manual extraction of native gRPC DLLs) shows a prior approach to gRPC distribution that was superseded by NuGet package management \u2014 the fossil of a dependency migration. **Ambiguity**: without commit history accessible at this hash, the exact migration boundary cannot be confirmed from code alone.\n\n---\n\n### 6. Documentation / Configuration\n\n- **Embedded sample files** ([`.csproj` L26-35](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/v2rayN.csproj?L26-35)): `SampleClientConfig.txt`, `SampleServerConfig.txt`, `SampleInbound.txt`, and four `custom_routing_*` files are shipped as embedded resources. These are configuration templates, not code.\n\n- **`Global.cs` constant block** ([L8-225](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Global.cs?L8-225)): the `#region \u5e38\u91cf` section (eleven core release URLs, protocol constants, cipher lists, domain strategy lists) is effectively application configuration stored in code rather than in a config file. Additions to these lists (`ssSecuritysInSagerNet`, `fingerprints`, `domainStrategy4Freedoms`) represent documentation/configuration tasks.\n\n- **Bilingual error messages** (`ResUI` resource class, `.zh-Hans.resx` files per form): all UI-facing strings are externalized into `.resx` files with Chinese variants, representing ongoing localization work. This is a distinct documentation/configuration category.\n\n---\n\n### 7. Boilerplate\n\n- **`*.Designer.cs` files** for every `Form`: `MainForm.Designer.cs`, `AddServerForm.Designer.cs`, etc. \u2014 all machine-generated WinForms designer output with no engineering authorship signal.\n\n- **`BaseForm`, `BaseServerForm`** bodies: both are near-empty shells (2\u20135 non-trivial lines each) with no logic, serving only as inheritance anchors.\n\n---\n\n### 8. Cleanup\n\n- **Pervasive commented-out code blocks**: throughout `ConfigHandler.cs`, `StatisticsHandler.cs`, `V2rayConfigHandler.cs`, and `ShareHandler.cs`, there are extensive `//` blocks of superseded logic kept in-place. Examples: `ConfigHandler.cs` L79-84 (HTTP inbound), L98-101 (domainMatcher), L146-149 (remoteDNS), `ShareHandler.cs` L99-105 (old SS URL format). These represent cleanup work that was *not* yet done \u2014 residual debt visible at this snapshot.\n\n- **`SaveRouting` empty loop** ([`ConfigHandler.cs` L1306-1309](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L1306-1309)): `foreach (var item in config.routings) { }` \u2014 an empty iteration body, likely a planned-but-not-implemented validation pass, left as dead code.\n\n---\n\n### 9. Test Generation\n\n**Not evidenced.** There are no test files, no test projects, no `xunit`/`MSTest`/`NUnit` references in the `.sln` or `.csproj`. The stratum contains zero automated test coverage.\n\n---\n\n### Taxonomy Refinement Proposal\n\nThe existing eight categories cover this codebase adequately with one addition:\n\n> **Data/Schema Migration** (propose as distinct from *dependency migration*): `UpgradeServerVersion` ([`ConfigHandler.cs` L605](https://demo.sourcegraph.com/r/github.com/sg-evals/2dust-v2rayN@b48037b7579ab524c106c555cce165e089ebf1dc/-/blob/v2rayN/v2rayN/Handler/ConfigHandler.cs?L605)) and `AddServerCommon`'s `configVersion = 2` stamp represent a *user-data format migration* applied at load time \u2014 semantically distinct from library dependency upgrades and not cleanly captured by \"localized bug fix\" or \"refactor.\" In GUI desktop applications that persist user config to local JSON, in-place schema migration is a recurring and identifiable task shape."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:42:06Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/2dust-v2rayN at revision b48037b7579ab524c106c555cce165e089ebf1dc, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: 2dust/v2rayn; stratum: pre_2023_context; cutoff: cf8dd45abe3dd54667a3ce0e6923695acbf10823."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Classifying engineering task shapes from 2dust-v2rayN commit history",
+    "updateTime": "2026-07-29T03:44:32Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/c661ae41-1318-433d-b715-0b7bb9f3d2b2"
+  },
+  "run_id": "sha256:ca53f474e84453bd00d31368aba1109967b8e9b181c0c3c63d42f3c00add96d5",
+  "search_context": {
+    "context_revision_kind": "last_default_branch_commit_before_2023",
+    "repository": "2dust/v2rayn"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

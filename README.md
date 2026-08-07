@@ -4,24 +4,25 @@ Estimating how much of a codebase was written by coding agents, when almost none
 of it says so.
 
 A commit trailer (`Co-Authored-By: Claude`, `copilot-swe-agent`, and friends)
-proves an agent wrote a line. It only proves it for lines whose committer left
-the trailer on. Across 151 popular repositories, trailer-signed code accounts for
-14.5% of the lines written since 2024 that survive at HEAD. The other 1.62
-million lines are not human code; they are code of unknown authorship, and they
-are seven times the size of the part anyone can prove.
+can tie a change to an agent. It only sees work whose provenance was preserved,
+so it provides visible positives rather than a prevalence denominator. The
+current Sourcegraph-backed catalog contains 155 provenance-positive commits in
+155 repositories from a frozen frame of 302 repositories, 296 of them indexed
+and accessible at their pinned revisions.
 
-This repository estimates that unknown part from code style. Most of the effort
-goes into the one thing that makes such an estimate believable or worthless.
-That thing is a control group of code known to be human and written recently.
+**The current population share is not identified.** The contemporary control
+and era-adjustment gates do not support a defensible estimate of what share of
+all open-source commits or code at HEAD is agent-written. The repository keeps
+that result unavailable instead of substituting an exploratory style proxy.
 
-**Result: 72–89% of surviving 2024+ lines are agent-written** in the languages
-where the question is answerable, across four specifications, against the 14.5%
-a trailer scan can see. Repository resampling widens that to 72–94%. The estimate
-covers 43% of the cohort's modern lines; the rest is reported as not identifiable
-rather than folded in.
+What the data does identify is durability. In a separate 96-repository cohort
+covering 656,070 agent-attributed Go and Python lines, the
+repository-balanced estimate finds **90.2% surviving at 365 days**, including
+**84.9% unchanged**. Those figures describe known agent-attributed code after it
+lands, not how much of open source agents wrote.
 
-A rendered write-up with the charts is at
-<https://claude.ai/code/artifact/ffe874c4-0e96-44d8-aca4-864ea8233223>.
+The current rendered investigation, including the Sourcegraph study and charts,
+is in [`results/agent-code-authorship-sourcegraph.html`](results/agent-code-authorship-sourcegraph.html).
 
 ## Why a naive fingerprint does not work
 

@@ -29,14 +29,16 @@ from __future__ import annotations
 
 import argparse
 import json
-import sys
-from pathlib import Path
-
 import numpy as np
 
 from authorship import paths, data as fp_data, logreg as fp_logreg
-from authorship.estimate import (RIDGE, adjusted_count, fold_models, oof_scores,
-                                   score_holdout, total_share, wrate)
+from authorship.estimate import (
+    adjusted_count,
+    fold_models,
+    oof_scores,
+    score_holdout,
+    wrate,
+)
 from authorship.features import NAMES
 
 OUT = paths.RESULTS / "identified.json"
@@ -305,7 +307,10 @@ def main() -> int:
             saved["cross_check"] = xc
             print("  cross-check — rate scored agent-like by these same models:")
             for pop, per in xc.items():
-                cells = "  ".join(f"{l} {v:.3f}" for l, v in sorted(per.items()))
+                cells = "  ".join(
+                    f"{language} {value:.3f}"
+                    for language, value in sorted(per.items())
+                )
                 print(f"    {pop:4} {cells}")
 
     if len(saved["runs"]) == 2:

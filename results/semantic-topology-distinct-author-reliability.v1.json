@@ -1,0 +1,17 @@
+{
+  "agreement": 1.0,
+  "coverage": 1.0,
+  "field": "distinct_followup_author_count",
+  "kappa": 1.0,
+  "kappa_status": "identified",
+  "missing_review_item_ids": [],
+  "observations": 50,
+  "packet_sha256": "dbd0f03a5bcdc265321b71fabc6d389d22499c2e761d7e8e66d6c14535675d47",
+  "passes": true,
+  "result_sha256": "35020e5a562ccad43712f5fea76295ae636a0062fec50484133d563d54dc2672",
+  "result_version": 1,
+  "reviewer_ids": [
+    "distinct-author-reviewer-e",
+    "distinct-author-reviewer-f"
+  ]
+}

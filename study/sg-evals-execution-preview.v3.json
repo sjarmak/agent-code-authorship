@@ -1,0 +1,27 @@
+{
+  "execution_version": 3,
+  "status": "external_approval_required",
+  "outcomes_consulted": false,
+  "plan_sha256": "e7f036c19e5741d6634e3731cf66842a97b6e3a6f3ef907536bac62e2ee59dbb",
+  "approval_scopes": {
+    "routine": {
+      "selected_count": 0,
+      "action_counts": {},
+      "canonical_repository_ids": []
+    },
+    "destructive": {
+      "selected_count": 0,
+      "action_counts": {},
+      "canonical_repository_ids": []
+    }
+  },
+  "safety_invariants": [
+    "dry_run_is_the_default",
+    "exact_plan_digest_is_required_for_apply",
+    "routine_scope_excludes_force_required_actions",
+    "destructive_scope_contains_only_force_required_actions",
+    "successful_actions_are_skipped_on_resume",
+    "every_attempt_is_atomically_journaled"
+  ],
+  "manifest_sha256": "bffffea933a81e04a5130449aacfc92e6307273094b5ff6109472c7586ff341d"
+}

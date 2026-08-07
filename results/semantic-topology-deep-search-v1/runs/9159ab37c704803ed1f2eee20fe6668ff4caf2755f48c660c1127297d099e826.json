@@ -1,0 +1,98 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "e6457b052356f6da4910296c8973952e7d581c4c659cd9b3f359370f3268878c",
+  "artifact_version": 1,
+  "canonical_repository_id": "graphql-python/graphql-server",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "2d5ac9539307d6db22b3364a61063e050c3f20b9"
+  ],
+  "cited_files": [
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/AGENTS.md"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L290-L296"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L324"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L8"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L93-L97"
+    },
+    {
+      "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "path": ".github/workflows/test.yml",
+      "repository": "github.com/sg-evals/graphql-python-graphql-server",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/.github/workflows/test.yml"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1996",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: graphql-python/graphql-server; study cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9.",
+  "prompt_family_id": "adoption_configuration",
+  "prompt_sha256": "a709b46ad3a64b115a585d36afbaf570e374b5d6644395e7f4c50c62c037f38b",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Here are the cited candidate observations for this repository at `2d5ac9539307d6db22b3364a61063e050c3f20b9`, followed by proposed Sourcegraph queries to test each across the corpus.\n\n---\n\n## Observations\n\n### 1. `AGENTS.md` - Explicit Agent Instruction File\n\n**File:** [AGENTS.md](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/AGENTS.md)\n\nThe repository contains a top-level `AGENTS.md` file titled **\"Agent Instructions\"**. This is a recognized convention (used by tools such as Codex/OpenAI agents and similar coding assistants) for providing a coding agent with project-specific operational context. Its content includes:\n\n- Project structure map (`src/graphql_server/`, `src/tests/`, `docs/`, `pyproject.toml`, `noxfile.py`)\n- Instructions on how to run the test suite (`uv run pytest`, coverage flags)\n- A pre-commit formatting gate: agents must run `uv run ruff format` before opening a PR\n\nThis file is directive in tone (\"you can run\", \"all files must be properly formatted before creating a PR\"), addressed at an automated actor rather than a human contributor (CONTRIBUTING.md exists separately for humans). The typo `\"Before commiting\"` (line 26) is consistent with rapidly authored instruction content.\n\n---\n\n### 2. `[tool.codeflash]` in `pyproject.toml` - AI Performance Optimization Tool\n\n**File:** [pyproject.toml, lines 290\u2013296](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L290-L296)\n\n```toml\n[tool.codeflash]\n# All paths are relative to this pyproject.toml's directory.\nmodule-root = \"graphql_server\"\ntests-root = \"tests\"\ntest-framework = \"pytest\"\nignore-paths = []\nformatter-cmds = [\"ruff check --exit-zero --fix $file\", \"ruff format $file\"]\n```\n\n[Codeflash](https://codeflash.ai) is an AI-powered code optimization tool that automatically rewrites Python functions for performance improvements and submits PRs. Its presence here indicates that the repository is configured to accept or produce AI-generated code changes. The dev dependency group also explicitly pins `codeflash>=0.9.2` ([pyproject.toml, line 324](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L324)).\n\n---\n\n### 3. `codeflash` keyword in `pyproject.toml` keywords list\n\n**File:** [pyproject.toml, line 8](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L8)\n\n```toml\nkeywords = [\"graphql\", \"api\", ..., \"codeflash\"]\n```\n\n`\"codeflash\"` is included as a PyPI package keyword alongside standard library keywords. This is atypical for a library and suggests codeflash integration is considered a primary project characteristic, potentially for discoverability by the codeflash service itself.\n\n---\n\n### 4. Commented-out `[tool.autopub]` bot identity\n\n**File:** [pyproject.toml, lines 93\u201397](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L93-L97)\n\n```toml\n# [tool.autopub]\n# git-username = \"GraphQL-bot\"\n# git-email = \"me@syrusakbary.com\"\n# project-name = \"GraphQL Server\"\n# append-github-contributor = true\n```\n\nA bot identity (`GraphQL-bot`) was previously configured for automated publishing via [autopub](https://github.com/autopub/autopub). Although commented out, it reveals a prior (or intended) automated release actor. The `CONTRIBUTING.md` retains the `RELEASE.md` convention that autopub uses to trigger releases.\n\n---\n\n### 5. No `.github/CODEOWNERS`, no AI review policy files, no Copilot config\n\nThe `.github/` directory contains only [`.github/workflows/test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/.github/workflows/test.yml). There is no `CODEOWNERS`, no `.github/copilot-instructions.md`, no `.cursorrules`, no `.claude` directory, and no `.sourcery.yaml` or similar review-bot configuration present at this revision.\n\n---\n\n### 6. No AI-generated disclosure comments or file headers\n\nA scan of the repository root and workflow file found no \"generated by AI\", \"co-authored-by: github-actions[bot]\", or similar disclosure strings embedded in files. The `.gitignore` was generated by `gitignore.io` (per its header comment, line 2), which is not an AI tool.\n\n---\n\n## Proposed Sourcegraph Queries\n\nEach query is deterministic and can be run across the corpus to test whether the corresponding observation is widespread.\n\n| # | Observation | Sourcegraph Query |\n|---|---|---|\n| 1 | `AGENTS.md` agent instruction files | `file:^AGENTS\\.md` |\n| 1 | `AGENTS.md` files with \"Agent Instructions\" heading | `file:^AGENTS\\.md \"Agent Instructions\"` |\n| 2 | `[tool.codeflash]` section in `pyproject.toml` | `file:^pyproject\\.toml \\[tool\\.codeflash\\]` |\n| 2 | `codeflash` in dev dependencies | `file:^pyproject\\.toml \"codeflash>=\"` |\n| 3 | `codeflash` as a PyPI keyword | `file:^pyproject\\.toml keywords.*codeflash` |\n| 4 | `autopub` bot identity (`GraphQL-bot` or similar) | `file:^pyproject\\.toml git-username` |\n| 4 | `autopub` tool section | `file:^pyproject\\.toml \\[tool\\.autopub\\]` |\n| 4 | RELEASE.md convention files (autopub trigger) | `file:^RELEASE\\.md \"Release type:\"` |\n| 5 | Copilot instruction files | `file:^\\.github/copilot-instructions\\.md` |\n| 5 | Cursor rules files | `file:^\\.cursorrules` |\n| 5 | Claude project config directories | `file:^\\.claude/` |\n| 6 | Co-authored-by bot disclosures in files | `\"Co-authored-by: github-actions\\[bot\\]\"` |\n| 6 | \"generated by\" AI disclosures in source | `\"generated by\" (copilot OR openai OR claude OR codeflash)` |\n| \u2014 | `AGENTS.md` \"Before commiting\" typo (fingerprint) | `file:^AGENTS\\.md \"Before commiting\"` |\n| \u2014 | Any `uv run ruff format` agent gate instruction | `file:^AGENTS\\.md \"uv run ruff format\"` |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:15:18Z",
+    "name": "users/476/conversations/1996",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Here are the cited candidate observations for this repository at `2d5ac9539307d6db22b3364a61063e050c3f20b9`, followed by proposed Sourcegraph queries to test each across the corpus.\n\n---\n\n## Observations\n\n### 1. `AGENTS.md` - Explicit Agent Instruction File\n\n**File:** [AGENTS.md](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/AGENTS.md)\n\nThe repository contains a top-level `AGENTS.md` file titled **\"Agent Instructions\"**. This is a recognized convention (used by tools such as Codex/OpenAI agents and similar coding assistants) for providing a coding agent with project-specific operational context. Its content includes:\n\n- Project structure map (`src/graphql_server/`, `src/tests/`, `docs/`, `pyproject.toml`, `noxfile.py`)\n- Instructions on how to run the test suite (`uv run pytest`, coverage flags)\n- A pre-commit formatting gate: agents must run `uv run ruff format` before opening a PR\n\nThis file is directive in tone (\"you can run\", \"all files must be properly formatted before creating a PR\"), addressed at an automated actor rather than a human contributor (CONTRIBUTING.md exists separately for humans). The typo `\"Before commiting\"` (line 26) is consistent with rapidly authored instruction content.\n\n---\n\n### 2. `[tool.codeflash]` in `pyproject.toml` - AI Performance Optimization Tool\n\n**File:** [pyproject.toml, lines 290\u2013296](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L290-L296)\n\n```toml\n[tool.codeflash]\n# All paths are relative to this pyproject.toml's directory.\nmodule-root = \"graphql_server\"\ntests-root = \"tests\"\ntest-framework = \"pytest\"\nignore-paths = []\nformatter-cmds = [\"ruff check --exit-zero --fix $file\", \"ruff format $file\"]\n```\n\n[Codeflash](https://codeflash.ai) is an AI-powered code optimization tool that automatically rewrites Python functions for performance improvements and submits PRs. Its presence here indicates that the repository is configured to accept or produce AI-generated code changes. The dev dependency group also explicitly pins `codeflash>=0.9.2` ([pyproject.toml, line 324](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L324)).\n\n---\n\n### 3. `codeflash` keyword in `pyproject.toml` keywords list\n\n**File:** [pyproject.toml, line 8](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L8)\n\n```toml\nkeywords = [\"graphql\", \"api\", ..., \"codeflash\"]\n```\n\n`\"codeflash\"` is included as a PyPI package keyword alongside standard library keywords. This is atypical for a library and suggests codeflash integration is considered a primary project characteristic, potentially for discoverability by the codeflash service itself.\n\n---\n\n### 4. Commented-out `[tool.autopub]` bot identity\n\n**File:** [pyproject.toml, lines 93\u201397](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/pyproject.toml?L93-L97)\n\n```toml\n# [tool.autopub]\n# git-username = \"GraphQL-bot\"\n# git-email = \"me@syrusakbary.com\"\n# project-name = \"GraphQL Server\"\n# append-github-contributor = true\n```\n\nA bot identity (`GraphQL-bot`) was previously configured for automated publishing via [autopub](https://github.com/autopub/autopub). Although commented out, it reveals a prior (or intended) automated release actor. The `CONTRIBUTING.md` retains the `RELEASE.md` convention that autopub uses to trigger releases.\n\n---\n\n### 5. No `.github/CODEOWNERS`, no AI review policy files, no Copilot config\n\nThe `.github/` directory contains only [`.github/workflows/test.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/graphql-python-graphql-server@2d5ac9539307d6db22b3364a61063e050c3f20b9/-/blob/.github/workflows/test.yml). There is no `CODEOWNERS`, no `.github/copilot-instructions.md`, no `.cursorrules`, no `.claude` directory, and no `.sourcery.yaml` or similar review-bot configuration present at this revision.\n\n---\n\n### 6. No AI-generated disclosure comments or file headers\n\nA scan of the repository root and workflow file found no \"generated by AI\", \"co-authored-by: github-actions[bot]\", or similar disclosure strings embedded in files. The `.gitignore` was generated by `gitignore.io` (per its header comment, line 2), which is not an AI tool.\n\n---\n\n## Proposed Sourcegraph Queries\n\nEach query is deterministic and can be run across the corpus to test whether the corresponding observation is widespread.\n\n| # | Observation | Sourcegraph Query |\n|---|---|---|\n| 1 | `AGENTS.md` agent instruction files | `file:^AGENTS\\.md` |\n| 1 | `AGENTS.md` files with \"Agent Instructions\" heading | `file:^AGENTS\\.md \"Agent Instructions\"` |\n| 2 | `[tool.codeflash]` section in `pyproject.toml` | `file:^pyproject\\.toml \\[tool\\.codeflash\\]` |\n| 2 | `codeflash` in dev dependencies | `file:^pyproject\\.toml \"codeflash>=\"` |\n| 3 | `codeflash` as a PyPI keyword | `file:^pyproject\\.toml keywords.*codeflash` |\n| 4 | `autopub` bot identity (`GraphQL-bot` or similar) | `file:^pyproject\\.toml git-username` |\n| 4 | `autopub` tool section | `file:^pyproject\\.toml \\[tool\\.autopub\\]` |\n| 4 | RELEASE.md convention files (autopub trigger) | `file:^RELEASE\\.md \"Release type:\"` |\n| 5 | Copilot instruction files | `file:^\\.github/copilot-instructions\\.md` |\n| 5 | Cursor rules files | `file:^\\.cursorrules` |\n| 5 | Claude project config directories | `file:^\\.claude/` |\n| 6 | Co-authored-by bot disclosures in files | `\"Co-authored-by: github-actions\\[bot\\]\"` |\n| 6 | \"generated by\" AI disclosures in source | `\"generated by\" (copilot OR openai OR claude OR codeflash)` |\n| \u2014 | `AGENTS.md` \"Before commiting\" typo (fingerprint) | `file:^AGENTS\\.md \"Before commiting\"` |\n| \u2014 | Any `uv run ruff format` agent gate instruction | `file:^AGENTS\\.md \"uv run ruff format\"` |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:15:18Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: graphql-python/graphql-server; study cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigate GitHub repo for agent/AI configuration and invocation artifacts at a specific revision",
+    "updateTime": "2026-07-29T03:16:13Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/ba1ea2ed-9a6c-4dfb-b286-6b8cbd819f1f"
+  },
+  "run_id": "sha256:9159ab37c704803ed1f2eee20fe6668ff4caf2755f48c660c1127297d099e826",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "graphql-python/graphql-server"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "8acc3345a298f7ef19ec4bcdcc0ca09c5185b2cd67829878342609e6fd1e32eb",
+    "task_id": "bc33ba881912b6245de2f4d37b148a9a0ad854e52d93bdaf3d640148d78dd125",
+    "task_sha256": "faf00b3fbda559e1350a0860f5544498751d3d69a653869520ce0c0bb54dc21e",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "83114ed379b59b225b8de01614649ae780e5357852816bd4e88b9b5bdf615265",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "accept_policy",
+    "default_branch_supported": true,
+    "policy_scope": "repository_wide_ai_generated_contribution_prohibition",
+    "evidence_tier": "datable_default_branch_policy",
+    "rationale": "The dated default-branch change adds the same explicit rule to CONTRIBUTING.md and .NO_AI/README.md, strictly forbidding LLMs, agents, or other AI tools for any kind of contribution.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/commit/249aa5d6e667308fbf95ae5cfb40eba8177a802c",
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/.NO_AI/README.md#L3",
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L35"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "2063f23be8a1cdd663d8861ad88b2f620289302daa12649ef071a1da81ea9d4e"
+  }
+]

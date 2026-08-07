@@ -1,0 +1,292 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agent-code-authorship.local/study/protocol-amendment-v3.1.schema.json",
+  "title": "Agent code authorship protocol amendment v3.1",
+  "type": "object",
+  "required": [
+    "$schema",
+    "amendment_version",
+    "status",
+    "preregistered_at",
+    "outcomes_consulted",
+    "parent_protocol",
+    "primary_question",
+    "study_role",
+    "exposure",
+    "adoption",
+    "human_comparator",
+    "survival",
+    "era_adjustment",
+    "ai_ban_repositories",
+    "claims",
+    "sourcegraph",
+    "sampling",
+    "amendment_sha256"
+  ],
+  "properties": {
+    "$schema": {"const": "protocol-amendment-v3.1.schema.json"},
+    "amendment_version": {"const": "3.1"},
+    "status": {"const": "preregistered"},
+    "preregistered_at": {"type": "string", "format": "date-time"},
+    "outcomes_consulted": {"const": false},
+    "parent_protocol": {
+      "type": "object",
+      "required": ["path", "protocol_sha256"],
+      "properties": {
+        "path": {"const": "study/protocol.v3.json"},
+        "protocol_sha256": {"$ref": "#/$defs/sha256"}
+      },
+      "additionalProperties": false
+    },
+    "primary_question": {"type": "string", "minLength": 1},
+    "study_role": {
+      "type": "object",
+      "required": ["sourcegraph", "primary_estimate", "prevalence", "claim_type"],
+      "properties": {
+        "sourcegraph": {"const": "enabling_longitudinal_data_asset"},
+        "primary_estimate": {
+          "const": "within_repository_agent_vs_contemporary_human_line_survival"
+        },
+        "prevalence": {"const": "secondary_estimand"},
+        "claim_type": {"const": "associational"}
+      },
+      "additionalProperties": false
+    },
+    "exposure": {
+      "type": "object",
+      "required": [
+        "primary_definition",
+        "qualifying_evidence",
+        "attribution_unit",
+        "code_unit",
+        "disclosed_assumption",
+        "commit_message_style_role",
+        "timing_and_multiview_role",
+        "all_post_adoption_commits_are_agent"
+      ],
+      "properties": {
+        "primary_definition": {"const": "explicit_provenance"},
+        "qualifying_evidence": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "attribution_unit": {"const": "commit"},
+        "code_unit": {"const": "lines_introduced_by_qualifying_commit"},
+        "disclosed_assumption": {"type": "string", "minLength": 1},
+        "commit_message_style_role": {"const": "secondary_sensitivity_only"},
+        "timing_and_multiview_role": {"const": "secondary_sensitivity_only"},
+        "all_post_adoption_commits_are_agent": {"const": false}
+      },
+      "additionalProperties": false
+    },
+    "adoption": {
+      "type": "object",
+      "required": [
+        "repository_eligibility_requires_datable_point",
+        "point_definition",
+        "roles",
+        "authorship_label_role",
+        "clean_prehistory_days"
+      ],
+      "properties": {
+        "repository_eligibility_requires_datable_point": {"const": true},
+        "point_definition": {
+          "const": "earliest_credible_default_branch_agent_adoption_event"
+        },
+        "roles": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "authorship_label_role": {"const": "none"},
+        "clean_prehistory_days": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "human_comparator": {
+      "type": "object",
+      "required": [
+        "primary",
+        "primary_calendar_floor",
+        "match_on",
+        "confident_post_adoption_human_role",
+        "pre_2023_human_role",
+        "pre_2023_code_is_admissible"
+      ],
+      "properties": {
+        "primary": {
+          "const": "same_repository_contemporary_pre_adoption_human_commits"
+        },
+        "primary_calendar_floor": {"const": "2023-01-01T00:00:00Z"},
+        "match_on": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "confident_post_adoption_human_role": {"const": "secondary"},
+        "pre_2023_human_role": {"const": "era_adjusted_sensitivity"},
+        "pre_2023_code_is_admissible": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "survival": {
+      "type": "object",
+      "required": [
+        "observation_unit",
+        "primary_event",
+        "right_censoring",
+        "primary_estimator",
+        "secondary_estimators",
+        "horizons_days",
+        "required_invariant"
+      ],
+      "properties": {
+        "observation_unit": {"const": "introduced_line"},
+        "primary_event": {
+          "const": "first_modification_or_deletion_of_introduced_line"
+        },
+        "right_censoring": {
+          "const": "repository_specific_last_observable_revision"
+        },
+        "primary_estimator": {
+          "const": "repository_balanced_kaplan_meier"
+        },
+        "secondary_estimators": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "horizons_days": {
+          "const": [30, 90, 180, 365]
+        },
+        "required_invariant": {
+          "const": "survival_probability_is_monotone_nonincreasing"
+        }
+      },
+      "additionalProperties": false
+    },
+    "era_adjustment": {
+      "type": "object",
+      "required": [
+        "primary_design",
+        "contemporary_window",
+        "historical_human_code",
+        "negative_controls",
+        "required_diagnostics"
+      ],
+      "properties": {
+        "primary_design": {
+          "const": "within_repository_before_after_adoption_control"
+        },
+        "contemporary_window": {
+          "const": "repository_specific_2023_to_adoption"
+        },
+        "historical_human_code": {
+          "const": "retained_only_in_era_adjusted_sensitivity"
+        },
+        "negative_controls": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "required_diagnostics": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "ai_ban_repositories": {
+      "type": "object",
+      "required": [
+        "admissible",
+        "primary_role",
+        "uses",
+        "excluded_from_primary_exposed_cohort"
+      ],
+      "properties": {
+        "admissible": {"const": true},
+        "primary_role": {"const": "negative_control"},
+        "uses": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "excluded_from_primary_exposed_cohort": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "claims": {
+      "type": "object",
+      "required": ["causal", "permitted", "forbidden"],
+      "properties": {
+        "causal": {"const": false},
+        "permitted": {"type": "string", "minLength": 1},
+        "forbidden": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "sourcegraph": {
+      "type": "object",
+      "required": [
+        "indexed_namespace",
+        "corpus_boundary",
+        "unique_assets",
+        "scip_or_precise_required",
+        "authoritative_lineage_source"
+      ],
+      "properties": {
+        "indexed_namespace": {"const": "github.com/sg-evals/"},
+        "corpus_boundary": {
+          "const": "repositories_available_in_the_indexed_sg_evals_namespace"
+        },
+        "unique_assets": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "scip_or_precise_required": {"const": false},
+        "authoritative_lineage_source": {"const": "pinned_git_history"}
+      },
+      "additionalProperties": false
+    },
+    "sampling": {
+      "type": "object",
+      "required": [
+        "exhaustive_packet_review_required",
+        "primary_sampling_frame",
+        "selection",
+        "target_counts",
+        "ambiguous_cases",
+        "reliability_audit"
+      ],
+      "properties": {
+        "exhaustive_packet_review_required": {"const": false},
+        "primary_sampling_frame": {"type": "string", "minLength": 1},
+        "selection": {"type": "string", "minLength": 1},
+        "target_counts": {"type": "string", "minLength": 1},
+        "ambiguous_cases": {"type": "string", "minLength": 1},
+        "reliability_audit": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "amendment_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

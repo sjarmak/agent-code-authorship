@@ -1,0 +1,266 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "db2718d62347c8bd27e59d309dc4a79e4df5339e3a157a46b4e1fdb927b02354",
+  "artifact_version": 1,
+  "canonical_repository_id": "sjarmak/agent-diagnostics",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "e973e4ec1d4a325b5d739562ce87586127c973ed"
+  ],
+  "cited_files": [
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "pyproject.toml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/pyproject.toml?L7-8"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/signals.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/signals.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/annotator.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotator.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/classifier.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/classifier.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/ensemble.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/ensemble.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/calibrate.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/calibrate.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/pipeline.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/pipeline.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/blend_labels.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/blend_labels.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/extract_cache.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/extract_cache.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/types.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/types.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/annotation_store.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotation_store.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/model_identity.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/model_identity.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "architecture/model.c4",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/model.c4"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/llm_annotator/dispatch.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/llm_annotator/dispatch.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/llm_annotator/prompt.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/llm_annotator/prompt.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/llm_annotator/api_backend.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/llm_annotator/api_backend.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "tests/test_writer_refactor.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_writer_refactor.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "tests/test_regression_guard.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_regression_guard.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "tests/integration/test_golden_corpus.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/integration/test_golden_corpus.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "tests/contracts/taxonomy_v3_contract.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/contracts/taxonomy_v3_contract.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "tests/test_llm_annotator_taxonomy_compat.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_llm_annotator_taxonomy_compat.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "tests/test_taxonomy_schema.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_taxonomy_schema.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/taxonomy_v1.yaml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v1.yaml"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/taxonomy_v2.yaml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v2.yaml"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/taxonomy_v3.yaml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v3.yaml"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/taxonomy.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy.py?L26-33"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "pipeline.toml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/pipeline.toml"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "scripts/gen_schema_docs.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/scripts/gen_schema_docs.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "tests/test_schema_docs.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_schema_docs.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "CHANGELOG.md",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/CHANGELOG.md"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/AGENTS.md"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "CLAUDE.md",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/CLAUDE.md"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/pipeline.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/pipeline.py?L71-80"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/taxonomy_v3.yaml",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v3.yaml?L395-442"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1978",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed.",
+  "prompt_family_id": "delegated_task_intent",
+  "prompt_sha256": "9aa6b9bb3e6c51b1e4af4893b948f831fb1fc46176c03c37a0d25d3ccbf7e21c",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "I now have a thorough picture of the repository. Here is the engineering task shape analysis at cutoff `e973e4ec`.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `sjarmak/agent-diagnostics` @ `e973e4ec`\n\n---\n\n### 1. Feature (primary, dominant)\n\nThe repository's central deliverable is a new observability system: the **Agent Reliability Observatory**. This is not an incremental feature on top of an existing product \u2014 it is the product itself, introduced at this stratum.\n\n**Evidence:**\n- [`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/pyproject.toml?L7-8): `version = \"0.8.1\"` with description _\"Agent Reliability Observatory \u2014 a behavioral taxonomy and annotation framework for analyzing why coding agents succeed or fail\"_\n- [`signals.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/signals.py): The `extract_signals` / `extract_all` pipeline reads `result.json` + `trajectory.json` per trial directory and emits 31-field `TrialSignals` dicts \u2014 a purpose-built feature with no prior open-source analog referenced.\n- [`annotator.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotator.py): 32 heuristic checkers (`_check_retrieval_failure`, `_check_over_exploration`, `_check_clean_success`, etc.) mapping signal patterns to taxonomy categories.\n- [`classifier.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/classifier.py): A from-scratch logistic regression trainer (pure Python, no sklearn) with stratified k-fold CV, ECE calibration, and a trust-gating scheme for the ensemble.\n- [`ensemble.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/ensemble.py): Two-tier annotator (heuristic for structural categories + classifier for held-out-validated categories) with `HEURISTIC_ONLY` guard frozenset.\n- [`calibrate.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/calibrate.py): ECE, Brier score, reliability diagram, Cohen's kappa (`compare_annotations`, `compare_cross_model`), added in 0.8.0 (CHANGELOG).\n- [`pipeline.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/pipeline.py): Content-hash\u2013based DAG pipeline runner reading `pipeline.toml`; staleness is SHA-256 of input content, not mtime \u2014 a deliberate design feature.\n- [`blend_labels.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/blend_labels.py): LLM-ground-truth + trusted-heuristic label fusion for classifier training.\n- [`extract_cache.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/extract_cache.py): Content-hash extraction cache, added in 0.8.0.\n\n---\n\n### 2. Architectural Scaffolding (strong secondary)\n\nSeveral structures exist to define the system's load-bearing abstractions rather than to deliver user-facing behavior directly.\n\n**Evidence:**\n- [`types.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/types.py): `TrialSignals` (TypedDict, 31 keys), `TrialInput` (Protocol), `Annotation`/`AnnotationDocument` (frozen dataclasses), `AnnotationResult` discriminated union (`AnnotationOk` / `AnnotationNoCategoriesFound` / `AnnotationError`). These are pure data-contract types \u2014 the cross-cutting spine that every other module depends on.\n- [`annotation_store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotation_store.py): Narrow-tall JSONL store with atomic writes (temp+`os.rename`) and `fcntl.flock` advisory locking; defines primary key schema `(trial_id, category_name, annotator_type, annotator_identity, taxonomy_version)`. This is an infrastructure piece enabling multi-writer persistence.\n- [`model_identity.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/model_identity.py): Stable logical identity \u2194 Anthropic snapshot ID resolver; exists to make annotations join-stable across model snapshot upgrades.\n- [`architecture/model.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/model.c4): Full C4 architecture model covering actors, containers, components, and data stores \u2014 formal scaffolding documentation.\n\n---\n\n### 3. Refactor (verified via CHANGELOG + test file)\n\nTwo explicit refactors are evidenced, both in 0.8.0:\n\n**3a. Module split \u2014 `llm_annotator.py` \u2192 8-module package**\n- CHANGELOG 0.8.0: _\"`llm_annotator.py` split into an 8-module package (`src/agent_diagnostics/llm_annotator/`) for clearer separation between dispatch, prompt building, caching, and backend adapters.\"_\n- Resulting files: [`dispatch.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/llm_annotator/dispatch.py), [`prompt.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/llm_annotator/prompt.py), [`api_backend.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/llm_annotator/api_backend.py), `batch.py`, `claude_code.py`, `models.py`, `parsing.py`.\n\n**3b. Module split \u2014 `report.py` \u2192 7-module package**\n- CHANGELOG 0.8.0: _\"`report.py` split into a 7-module package (`src/agent_diagnostics/report/`); `report/orchestration.py` trimmed to 133 lines.\"_\n\n**3c. Writer refactor \u2014 all four annotation writers unified through `AnnotationStore`**\n- [`tests/test_writer_refactor.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_writer_refactor.py): File named explicitly for a refactor; tests verify that `cmd_annotate`, `cmd_llm_annotate`, `cmd_predict`, and `cmd_ensemble` all route through `AnnotationStore.upsert_annotations()` with correct `annotator_type` and PK uniqueness.\n\n**3d. Logging refactor**\n- CHANGELOG 0.8.0: _\"`src/` refactored from `print()` to structured `logging`; CLI entrypoint is the only handler-installing site.\"_\n\n---\n\n### 4. Localized Bug Fix (evidenced, 0.8.1 patch)\n\n**Evidence** (CHANGELOG [0.8.1]):\n- `observatory report --annotations` crashed with `json.decoder.JSONDecodeError: Extra data` when given `.jsonl` input chained from `observatory annotate --output X.jsonl`. Fixed by adding `.jsonl` support to the report reader.\n- `observatory annotate` records were missing `annotation_result_status`, breaking the LLM-annotate v2 contract.\n- `observatory calibrate` silently produced an empty report on a trial-path join-key mismatch (filesystem path vs `trial_id_short` directory names); fixed with a `WARNING` log.\n- `tests/test_taxonomy.py::test_version_string` pinned to literal `\"0.7.0\"` (stale), fixed to pin semver shape instead.\n\n---\n\n### 5. Test Generation (substantial, purposeful)\n\nTests are not boilerplate \u2014 they encode contracts and guard regressions explicitly.\n\n**Evidence:**\n- [`tests/test_regression_guard.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_regression_guard.py): Guards the 31-field `TrialSignals` schema against drift; the comment _\"The 29 fields that existed before the PRD added trial_id / trial_id_full\"_ makes the before/after explicit.\n- [`tests/test_writer_refactor.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_writer_refactor.py): 4 writer suites + integration test verifying zero duplicate PKs across all 4 annotators in a shared store. Tests were generated specifically to validate the refactor \u2014 the file documents this in its module docstring.\n- [`tests/integration/test_golden_corpus.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/integration/test_golden_corpus.py), [`tests/fixtures/golden_corpus/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/tree/tests/fixtures/golden_corpus): 45-trial golden corpus added in 0.8.0 for end-to-end calibration smoke tests.\n- [`tests/contracts/taxonomy_v3_contract.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/contracts/taxonomy_v3_contract.py): Explicit schema contract for v3.\n- [`tests/test_llm_annotator_taxonomy_compat.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_llm_annotator_taxonomy_compat.py), [`tests/test_taxonomy_schema.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_taxonomy_schema.py): Taxonomy-compatibility and schema-compliance tests.\n- `pyproject.toml` enforces `fail_under = 80` coverage.\n\n---\n\n### 6. Documentation / Configuration\n\n**Evidence:**\n- [`taxonomy_v1.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v1.yaml), [`taxonomy_v2.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v2.yaml), [`taxonomy_v3.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v3.yaml): Three generations of taxonomy YAML (versioned structured documents). v3 adds `severity`, `derived_from_signal`, and `signal_dependencies` per category \u2014 a schema evolution rather than purely new feature code. The `_is_v3` predicate in [`taxonomy.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy.py?L26-33) encodes the version detection.\n- [`architecture/model.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/model.c4): C4 architecture model with `#built`, `#evolving`, `#risk` annotations \u2014 explicit risk tagging in configuration/documentation.\n- [`pipeline.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/pipeline.toml): Declarative pipeline configuration consumed by the runner in `pipeline.py`.\n- [`scripts/gen_schema_docs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/scripts/gen_schema_docs.py): Single-source schema doc generator; [`tests/test_schema_docs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_schema_docs.py) diffs against committed files to prevent docs drift.\n- [`CHANGELOG.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/CHANGELOG.md): Starts at 0.8.0; no changelog maintained prior to that release.\n- [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/AGENTS.md), [`CLAUDE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/CLAUDE.md): Repo convention documents for coding-agent consumers of the repository.\n\n---\n\n### 7. Dependency Migration (minor, in-progress signal)\n\n**Evidence (ambiguous):**\n- CHANGELOG [Unreleased]: _\"Follow-up (`agent-diagnostics-9py`) replaces the hardcoded `__version__` with `importlib.metadata`.\"_ \u2014 A dependency-on-static-string migration is pending but not yet landed at the cutoff.\n- `pyproject.toml`: `duckdb>=1.0,<2.0` and `pyarrow>=15.0,<18.0` are pinned with explicit upper bounds \u2014 evidence of active version management, though no migration is in flight at the cutoff. The TOML fallback import `tomllib` \u2192 `tomli` in [`pipeline.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/pipeline.py?L71-80) handles the 3.10/3.11 stdlib boundary.\n\n---\n\n### 8. Cleanup (minor, targeted)\n\n**Evidence:**\n- `annotator.py` contains a duplicate-category flag: `verification_skip` and `verification_skipped` both exist in the taxonomy v3 YAML ([line 395](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v3.yaml?L395-442)) and in `_ALL_CHECKERS`. The YAML comment distinguishes them (\"ran verification once, saw failure, didn't retry\" vs \"never verified at all\") but the two names are semantically very close \u2014 an unresolved cleanup candidate flagged by the model itself in its `description` fields.\n- `signals.py` docstring: _\"the generic, injectable replacement for CSB's hardcoded signals.py\"_ \u2014 cleanup from a predecessor internal tool, evident as an extraction task rather than fresh construction.\n\n---\n\n### Summary Table\n\n| Shape | Confidence | Primary Evidence |\n|---|---|---|\n| **Feature** | High | `signals.py`, `annotator.py`, `classifier.py`, `ensemble.py`, `calibrate.py`, `pipeline.py`, `blend_labels.py`, `extract_cache.py` \u2014 a complete new system |\n| **Architectural Scaffolding** | High | `types.py` (data contracts), `annotation_store.py` (persistence infrastructure), `model_identity.py` (join stability), `architecture/model.c4` |\n| **Refactor** | High | `llm_annotator/` split, `report/` split, writer unification via `AnnotationStore`, `print`\u2192`logging` (CHANGELOG 0.8.0; `test_writer_refactor.py`) |\n| **Test Generation** | High | `test_writer_refactor.py`, `test_regression_guard.py`, golden corpus, taxonomy contracts |\n| **Localized Bug Fix** | Medium | CHANGELOG 0.8.1 \u2014 3 surface-level UX fixes, 1 stale test fix |\n| **Documentation / Configuration** | Medium | Taxonomy YAML v1/v2/v3, C4 model, `pipeline.toml`, schema doc generator |\n| **Dependency Migration** | Low | `tomllib`/`tomli` compat shim; `importlib.metadata` migration pending at cutoff |\n| **Cleanup** | Low | `signals.py` extraction from prior internal tool; duplicate `verification_skip`/`verification_skipped` entries |\n| Boilerplate | None | No evidence \u2014 all test fixtures encode specific contracts; no scaffolded-but-empty modules found |\n\n---\n\n### Taxonomy Refinement Proposals\n\nNo new categories are required. However, two boundary observations:\n\n1. **The refactor task shape here is a composite of module-split refactor and writer-unification refactor.** Both fit cleanly under \"refactor\" but they differ structurally (decomposition vs convergence). If future precision is needed, a sub-label `refactor:decompose` (splitting a module) vs `refactor:consolidate` (unifying writers to a single store interface) could be useful, but is not necessary to classify this repository.\n\n2. **The taxonomy YAML versioning (`taxonomy_v1` \u2192 `v2` \u2192 `v3`) is not cleanly \"documentation/configuration.\"** Each version extends the schema with new semantics (`derived_from_signal`, `severity`, `signal_dependencies`) that alter downstream code behavior in `classifier.py` (skipping `derived_from_signal` categories at training time) and `blend_labels.py` (trust policy). This is a **schema evolution** pattern that sits between documentation and feature \u2014 the existing taxonomy is adequate if schema evolution is considered a sub-shape of feature, but it is worth flagging as distinct from static configuration.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:04:15Z",
+    "name": "users/476/conversations/1978",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "I now have a thorough picture of the repository. Here is the engineering task shape analysis at cutoff `e973e4ec`.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `sjarmak/agent-diagnostics` @ `e973e4ec`\n\n---\n\n### 1. Feature (primary, dominant)\n\nThe repository's central deliverable is a new observability system: the **Agent Reliability Observatory**. This is not an incremental feature on top of an existing product \u2014 it is the product itself, introduced at this stratum.\n\n**Evidence:**\n- [`pyproject.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/pyproject.toml?L7-8): `version = \"0.8.1\"` with description _\"Agent Reliability Observatory \u2014 a behavioral taxonomy and annotation framework for analyzing why coding agents succeed or fail\"_\n- [`signals.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/signals.py): The `extract_signals` / `extract_all` pipeline reads `result.json` + `trajectory.json` per trial directory and emits 31-field `TrialSignals` dicts \u2014 a purpose-built feature with no prior open-source analog referenced.\n- [`annotator.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotator.py): 32 heuristic checkers (`_check_retrieval_failure`, `_check_over_exploration`, `_check_clean_success`, etc.) mapping signal patterns to taxonomy categories.\n- [`classifier.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/classifier.py): A from-scratch logistic regression trainer (pure Python, no sklearn) with stratified k-fold CV, ECE calibration, and a trust-gating scheme for the ensemble.\n- [`ensemble.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/ensemble.py): Two-tier annotator (heuristic for structural categories + classifier for held-out-validated categories) with `HEURISTIC_ONLY` guard frozenset.\n- [`calibrate.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/calibrate.py): ECE, Brier score, reliability diagram, Cohen's kappa (`compare_annotations`, `compare_cross_model`), added in 0.8.0 (CHANGELOG).\n- [`pipeline.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/pipeline.py): Content-hash\u2013based DAG pipeline runner reading `pipeline.toml`; staleness is SHA-256 of input content, not mtime \u2014 a deliberate design feature.\n- [`blend_labels.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/blend_labels.py): LLM-ground-truth + trusted-heuristic label fusion for classifier training.\n- [`extract_cache.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/extract_cache.py): Content-hash extraction cache, added in 0.8.0.\n\n---\n\n### 2. Architectural Scaffolding (strong secondary)\n\nSeveral structures exist to define the system's load-bearing abstractions rather than to deliver user-facing behavior directly.\n\n**Evidence:**\n- [`types.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/types.py): `TrialSignals` (TypedDict, 31 keys), `TrialInput` (Protocol), `Annotation`/`AnnotationDocument` (frozen dataclasses), `AnnotationResult` discriminated union (`AnnotationOk` / `AnnotationNoCategoriesFound` / `AnnotationError`). These are pure data-contract types \u2014 the cross-cutting spine that every other module depends on.\n- [`annotation_store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotation_store.py): Narrow-tall JSONL store with atomic writes (temp+`os.rename`) and `fcntl.flock` advisory locking; defines primary key schema `(trial_id, category_name, annotator_type, annotator_identity, taxonomy_version)`. This is an infrastructure piece enabling multi-writer persistence.\n- [`model_identity.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/model_identity.py): Stable logical identity \u2194 Anthropic snapshot ID resolver; exists to make annotations join-stable across model snapshot upgrades.\n- [`architecture/model.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/model.c4): Full C4 architecture model covering actors, containers, components, and data stores \u2014 formal scaffolding documentation.\n\n---\n\n### 3. Refactor (verified via CHANGELOG + test file)\n\nTwo explicit refactors are evidenced, both in 0.8.0:\n\n**3a. Module split \u2014 `llm_annotator.py` \u2192 8-module package**\n- CHANGELOG 0.8.0: _\"`llm_annotator.py` split into an 8-module package (`src/agent_diagnostics/llm_annotator/`) for clearer separation between dispatch, prompt building, caching, and backend adapters.\"_\n- Resulting files: [`dispatch.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/llm_annotator/dispatch.py), [`prompt.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/llm_annotator/prompt.py), [`api_backend.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/llm_annotator/api_backend.py), `batch.py`, `claude_code.py`, `models.py`, `parsing.py`.\n\n**3b. Module split \u2014 `report.py` \u2192 7-module package**\n- CHANGELOG 0.8.0: _\"`report.py` split into a 7-module package (`src/agent_diagnostics/report/`); `report/orchestration.py` trimmed to 133 lines.\"_\n\n**3c. Writer refactor \u2014 all four annotation writers unified through `AnnotationStore`**\n- [`tests/test_writer_refactor.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_writer_refactor.py): File named explicitly for a refactor; tests verify that `cmd_annotate`, `cmd_llm_annotate`, `cmd_predict`, and `cmd_ensemble` all route through `AnnotationStore.upsert_annotations()` with correct `annotator_type` and PK uniqueness.\n\n**3d. Logging refactor**\n- CHANGELOG 0.8.0: _\"`src/` refactored from `print()` to structured `logging`; CLI entrypoint is the only handler-installing site.\"_\n\n---\n\n### 4. Localized Bug Fix (evidenced, 0.8.1 patch)\n\n**Evidence** (CHANGELOG [0.8.1]):\n- `observatory report --annotations` crashed with `json.decoder.JSONDecodeError: Extra data` when given `.jsonl` input chained from `observatory annotate --output X.jsonl`. Fixed by adding `.jsonl` support to the report reader.\n- `observatory annotate` records were missing `annotation_result_status`, breaking the LLM-annotate v2 contract.\n- `observatory calibrate` silently produced an empty report on a trial-path join-key mismatch (filesystem path vs `trial_id_short` directory names); fixed with a `WARNING` log.\n- `tests/test_taxonomy.py::test_version_string` pinned to literal `\"0.7.0\"` (stale), fixed to pin semver shape instead.\n\n---\n\n### 5. Test Generation (substantial, purposeful)\n\nTests are not boilerplate \u2014 they encode contracts and guard regressions explicitly.\n\n**Evidence:**\n- [`tests/test_regression_guard.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_regression_guard.py): Guards the 31-field `TrialSignals` schema against drift; the comment _\"The 29 fields that existed before the PRD added trial_id / trial_id_full\"_ makes the before/after explicit.\n- [`tests/test_writer_refactor.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_writer_refactor.py): 4 writer suites + integration test verifying zero duplicate PKs across all 4 annotators in a shared store. Tests were generated specifically to validate the refactor \u2014 the file documents this in its module docstring.\n- [`tests/integration/test_golden_corpus.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/integration/test_golden_corpus.py), [`tests/fixtures/golden_corpus/`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/tree/tests/fixtures/golden_corpus): 45-trial golden corpus added in 0.8.0 for end-to-end calibration smoke tests.\n- [`tests/contracts/taxonomy_v3_contract.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/contracts/taxonomy_v3_contract.py): Explicit schema contract for v3.\n- [`tests/test_llm_annotator_taxonomy_compat.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_llm_annotator_taxonomy_compat.py), [`tests/test_taxonomy_schema.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_taxonomy_schema.py): Taxonomy-compatibility and schema-compliance tests.\n- `pyproject.toml` enforces `fail_under = 80` coverage.\n\n---\n\n### 6. Documentation / Configuration\n\n**Evidence:**\n- [`taxonomy_v1.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v1.yaml), [`taxonomy_v2.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v2.yaml), [`taxonomy_v3.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v3.yaml): Three generations of taxonomy YAML (versioned structured documents). v3 adds `severity`, `derived_from_signal`, and `signal_dependencies` per category \u2014 a schema evolution rather than purely new feature code. The `_is_v3` predicate in [`taxonomy.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy.py?L26-33) encodes the version detection.\n- [`architecture/model.c4`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/architecture/model.c4): C4 architecture model with `#built`, `#evolving`, `#risk` annotations \u2014 explicit risk tagging in configuration/documentation.\n- [`pipeline.toml`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/pipeline.toml): Declarative pipeline configuration consumed by the runner in `pipeline.py`.\n- [`scripts/gen_schema_docs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/scripts/gen_schema_docs.py): Single-source schema doc generator; [`tests/test_schema_docs.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/tests/test_schema_docs.py) diffs against committed files to prevent docs drift.\n- [`CHANGELOG.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/CHANGELOG.md): Starts at 0.8.0; no changelog maintained prior to that release.\n- [`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/AGENTS.md), [`CLAUDE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/CLAUDE.md): Repo convention documents for coding-agent consumers of the repository.\n\n---\n\n### 7. Dependency Migration (minor, in-progress signal)\n\n**Evidence (ambiguous):**\n- CHANGELOG [Unreleased]: _\"Follow-up (`agent-diagnostics-9py`) replaces the hardcoded `__version__` with `importlib.metadata`.\"_ \u2014 A dependency-on-static-string migration is pending but not yet landed at the cutoff.\n- `pyproject.toml`: `duckdb>=1.0,<2.0` and `pyarrow>=15.0,<18.0` are pinned with explicit upper bounds \u2014 evidence of active version management, though no migration is in flight at the cutoff. The TOML fallback import `tomllib` \u2192 `tomli` in [`pipeline.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/pipeline.py?L71-80) handles the 3.10/3.11 stdlib boundary.\n\n---\n\n### 8. Cleanup (minor, targeted)\n\n**Evidence:**\n- `annotator.py` contains a duplicate-category flag: `verification_skip` and `verification_skipped` both exist in the taxonomy v3 YAML ([line 395](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy_v3.yaml?L395-442)) and in `_ALL_CHECKERS`. The YAML comment distinguishes them (\"ran verification once, saw failure, didn't retry\" vs \"never verified at all\") but the two names are semantically very close \u2014 an unresolved cleanup candidate flagged by the model itself in its `description` fields.\n- `signals.py` docstring: _\"the generic, injectable replacement for CSB's hardcoded signals.py\"_ \u2014 cleanup from a predecessor internal tool, evident as an extraction task rather than fresh construction.\n\n---\n\n### Summary Table\n\n| Shape | Confidence | Primary Evidence |\n|---|---|---|\n| **Feature** | High | `signals.py`, `annotator.py`, `classifier.py`, `ensemble.py`, `calibrate.py`, `pipeline.py`, `blend_labels.py`, `extract_cache.py` \u2014 a complete new system |\n| **Architectural Scaffolding** | High | `types.py` (data contracts), `annotation_store.py` (persistence infrastructure), `model_identity.py` (join stability), `architecture/model.c4` |\n| **Refactor** | High | `llm_annotator/` split, `report/` split, writer unification via `AnnotationStore`, `print`\u2192`logging` (CHANGELOG 0.8.0; `test_writer_refactor.py`) |\n| **Test Generation** | High | `test_writer_refactor.py`, `test_regression_guard.py`, golden corpus, taxonomy contracts |\n| **Localized Bug Fix** | Medium | CHANGELOG 0.8.1 \u2014 3 surface-level UX fixes, 1 stale test fix |\n| **Documentation / Configuration** | Medium | Taxonomy YAML v1/v2/v3, C4 model, `pipeline.toml`, schema doc generator |\n| **Dependency Migration** | Low | `tomllib`/`tomli` compat shim; `importlib.metadata` migration pending at cutoff |\n| **Cleanup** | Low | `signals.py` extraction from prior internal tool; duplicate `verification_skip`/`verification_skipped` entries |\n| Boilerplate | None | No evidence \u2014 all test fixtures encode specific contracts; no scaffolded-but-empty modules found |\n\n---\n\n### Taxonomy Refinement Proposals\n\nNo new categories are required. However, two boundary observations:\n\n1. **The refactor task shape here is a composite of module-split refactor and writer-unification refactor.** Both fit cleanly under \"refactor\" but they differ structurally (decomposition vs convergence). If future precision is needed, a sub-label `refactor:decompose` (splitting a module) vs `refactor:consolidate` (unifying writers to a single store interface) could be useful, but is not necessary to classify this repository.\n\n2. **The taxonomy YAML versioning (`taxonomy_v1` \u2192 `v2` \u2192 `v3`) is not cleanly \"documentation/configuration.\"** Each version extends the schema with new semantics (`derived_from_signal`, `severity`, `signal_dependencies`) that alter downstream code behavior in `classifier.py` (skipping `derived_from_signal` categories at training time) and `blend_labels.py` (trust policy). This is a **schema evolution** pattern that sits between documentation and feature \u2014 the existing taxonomy is adequate if schema evolution is considered a sub-shape of feature, but it is worth flagging as distinct from static configuration."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:04:15Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Classifying engineering task shapes from sjarmak/agent-diagnostics history",
+    "updateTime": "2026-07-29T03:06:56Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/237bdd41-6275-447f-9b37-f61582b753c9"
+  },
+  "run_id": "sha256:558d1854f80cfd5354a4eb50c7d51b90f0084f09185c7d49b01fac10bc568c45",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "sjarmak/agent-diagnostics"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

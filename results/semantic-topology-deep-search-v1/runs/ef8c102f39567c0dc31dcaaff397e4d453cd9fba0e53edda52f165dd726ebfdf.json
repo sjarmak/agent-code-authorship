@@ -1,0 +1,236 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "a2d32bad00f68985625ffaab8f1c23d99a162448417fe9588fc448dd216a2467",
+  "artifact_version": 1,
+  "canonical_repository_id": "superseriousbusiness/gotosocial",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "3722d124433d2087a97f68689fea934610703783"
+  ],
+  "cited_files": [
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".woodpecker/pr.yaml",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".woodpecker/pr.yaml",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml?L17-L21"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".woodpecker/snapshot.yaml",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/snapshot.yaml"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".woodpecker/release.yaml",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/release.yaml"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".golangci.yml",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".golangci.yml",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml?L24-L40"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".golangci.yml",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml?L11"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "internal/web/etag.go",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/web/etag.go?L21-L22"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "internal/paging/page.go",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/paging/page.go?L154"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "test/swagger.sh",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/swagger.sh"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "test/swagger.sh",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/swagger.sh?L22-L30"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "cmd/gotosocial/main.go",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/cmd/gotosocial/main.go?L38"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "internal/config/helpers.gen.go",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/helpers.gen.go"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "internal/config/helpers.gen.go",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/helpers.gen.go?L1"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "internal/config/config.go",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/config.go?L52-L54"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "test/run-sqlite.sh",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/run-sqlite.sh"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "test/run-postgres.sh",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/run-postgres.sh"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "scripts/test.sh",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/scripts/test.sh"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "test/envparsing.sh",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/envparsing.sh"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "test/envparsing.sh",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/envparsing.sh?L269-L400"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".gitea/pull_request_template.md",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.gitea/pull_request_template.md"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".gitea/pull_request_template.md",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.gitea/pull_request_template.md?L19"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "CONTRIBUTING.md",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/CONTRIBUTING.md?L87"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "CONTRIBUTING.md",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/CONTRIBUTING.md?L78-L93"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "AGENTS.md",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/AGENTS.md"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "CLAUDE.md",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/CLAUDE.md"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "internal/paging/boundary.go",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/paging/boundary.go"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": "internal/typeutils/internaltofrontend.go",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/typeutils/internaltofrontend.go"
+    },
+    {
+      "commit": "3722d124433d2087a97f68689fea934610703783",
+      "path": ".golangci.yml",
+      "repository": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml?L23-L40"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2037",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/superseriousbusiness-gotosocial at revision 3722d124433d2087a97f68689fea934610703783, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: superseriousbusiness/gotosocial; stratum: policy_control; cutoff: 3722d124433d2087a97f68689fea934610703783.",
+  "prompt_family_id": "review_validation",
+  "prompt_sha256": "750da022ad865e2598d1a280876d171e4203aee925fd1677e7b286c1630c904c",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a thorough picture of the validation landscape. Let me compile the findings.\n\n---\n\n## Code-Review and Validation Mechanisms \u2014 `superseriousbusiness/gotosocial` @ `3722d12`\n\n---\n\n### 1. CI Pipeline (Woodpecker CI)\n\n**Platform:** [Woodpecker CI](https://woodpecker-ci.org/), configured in [`.woodpecker/`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/tree/.woodpecker). Three pipeline files exist:\n\n#### PR pipeline \u2014 [`.woodpecker/pr.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml)\n\nTriggers on `event: pull_request`. Three steps, each conditionally skipped by inspecting `CI_PIPELINE_FILES`:\n\n| Step | Image | Condition (files changed) | Command |\n|---|---|---|---|\n| `lint` | `golangci/golangci-lint:v2.9` | `internal/`, `cmd/`, `testrig/` | `golangci-lint run` |\n| `test` | `golang:1.25-alpine` | `internal/`, `cmd/`, `testrig/`, `vendor/` | `go test ./...` + `test/envparsing.sh` + `test/swagger.sh` |\n| `web` | `node:lts-alpine` | `web/source/` | `yarn lint` + `yarn build` |\n\nThe condition logic explicitly accounts for edge cases: if `CI_PIPELINE_FILES` is absent (>500 files changed) or empty (force push), the step runs unconditionally. Source: [lines 17\u201321, 58\u201362, 107\u2013111](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml?L17-L21).\n\n**Verification query:** `CI_PIPELINE_FILES` handling \u2014 grep `.woodpecker/pr.yaml` for `fromJSON(CI_PIPELINE_FILES)`.\n\n#### Snapshot pipeline \u2014 [`.woodpecker/snapshot.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/snapshot.yaml)\n\nTriggers on push to `main`. Runs GoReleaser `--snapshot` and publishes Docker images + S3 binaries. Conditional on `internal/`, `cmd/`, `testrig/`, `vendor/`, `web/`, or `Dockerfile` changes.\n\n#### Release pipeline \u2014 [`.woodpecker/release.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/release.yaml)\n\nTriggers on `event: tag`. Runs `goreleaser release --clean`, computing `GORELEASER_PREVIOUS_TAG` by filtering out RC tags from the tag list.\n\n---\n\n### 2. Linter Configuration \u2014 [`.golangci.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml)\n\n- **Version:** `golangci-lint v2.9` (matched in `pr.yaml`; config uses `version: \"2\"`).\n- **Extra linters enabled** beyond defaults: `gocritic`, `goheader`, `gosec`, `nilerr`, `revive`.\n- **`goheader`:** Enforces exact AGPL-3.0 license header on every Go file. Template is embedded inline at [lines 24\u201340](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml?L24-L40). This makes header presence a hard CI gate.\n- **`staticcheck`:** All `SA*` checks enabled except `SA1012` (nil context), explicitly suppressed.\n- **`revive`:** Most default rules enabled; `unused-parameter` and `redefines-builtin-id` explicitly disabled. `var-naming` configured with `skip-package-name-checks: true`.\n- **`govet`:** `composites` check disabled.\n- **Formatter:** `gofmt` required; generated files excluded with `generated: lax`.\n- **Test files excluded from linting:** `tests: false` at [line 11](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml?L11).\n- **`nolint` annotations in source:** Present in ~15 files inside `internal/` (e.g., `gosec` on SHA-1 use in [`internal/web/etag.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/web/etag.go?L21-L22), `revive` on naming in [`internal/paging/page.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/paging/page.go?L154)).\n\n**Verification query:** All `nolint` suppressions in non-vendor Go source: `nolint repo:^github.com/sg-evals/superseriousbusiness-gotosocial$ -file:^vendor/ file:\\.go$`.\n\n---\n\n### 3. Generated Code Checks\n\n#### Swagger spec staleness check \u2014 [`test/swagger.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/swagger.sh)\n\nExecuted as part of CI `test` step. Regenerates `docs/api/swagger.yaml` into a temp dir, diffs against the committed copy, and exits non-zero if out of date. Also validates the spec. This is a generated-file freshness gate. Source: [lines 22\u201330](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/swagger.sh?L22-L30).\n\n**Trigger annotation:** [`cmd/gotosocial/main.go` line 38](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/cmd/gotosocial/main.go?L38) carries `//go:generate swagger generate spec` (but generation is manual\u2014`go generate` is not invoked in CI; the diff check is the gate).\n\n#### Config getter/setter codegen \u2014 [`internal/config/helpers.gen.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/helpers.gen.go)\n\nMarked `// THIS IS A GENERATED FILE, DO NOT EDIT BY HAND` at [line 1](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/helpers.gen.go?L1). Generated by `go run ./internal/config/gen/ -out ./internal/config/helpers.gen.go` (documented in [`internal/config/config.go` lines 52\u201354](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/config.go?L52-L54)). **No automated staleness check** exists for this file in CI\u2014staleness would surface only as a compile error or test failure, not a dedicated diff gate.\n\n**Verification query:** Search for any CI step running `internal/config/gen`: `config/gen repo:^github.com/sg-evals/superseriousbusiness-gotosocial$ file:^\\.woodpecker/`.\n\n---\n\n### 4. Test Infrastructure\n\n#### Test count (at this revision)\n\n- **341 `_test.go` files** in `internal/` (via regex count of `func Test` patterns).\n- **236 testify suite invocations** (`suite.Run(t, ...)`) \u2014 the dominant test pattern.\n- Most integration tests use in-memory SQLite via `testrig.NewTestDB` or `testrig.SetupTestStructs`, with a shared [`testrig/`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/tree/testrig) package providing mock HTTP transports, storage, and pre-populated fixtures.\n\n#### Test execution variants\n\n| Script | Backend | Parallelism | Notes |\n|---|---|---|---|\n| [`test/run-sqlite.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/run-sqlite.sh) | SQLite in-memory | default | Accepts `./...` or path arg |\n| [`test/run-postgres.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/run-postgres.sh) | Postgres (Docker/Podman) | `-p 1` serial | Spins up container, traps kill on exit |\n| [`scripts/test.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/scripts/test.sh) | SQLite then Postgres | SQLite parallel; Postgres `-p 1` | `-count 1` to bypass cache |\n| CI `test` step | SQLite only | default `-failfast` | 30m timeout; static build tags |\n\n**CI runs SQLite only** in the PR pipeline (`go test ./...` without `GTS_DB_TYPE=postgres`). Postgres testing is a local-only operation per the scripts.\n\n#### CLI/env parsing test \u2014 [`test/envparsing.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/envparsing.sh)\n\nRuns as part of CI `test` step. Sets ~90 environment variables, invokes `go run ./cmd/gotosocial/... debug config`, and diffs JSON output against a hardcoded expected snapshot. Catches regressions in config parsing. Source: [lines 269\u2013400](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/envparsing.sh?L269-L400).\n\n---\n\n### 5. Pull Request Process and Ownership\n\n#### PR template \u2014 [`.gitea/pull_request_template.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.gitea/pull_request_template.md)\n\nEnforced as a checklist (not mechanically gated):\n\n- Contribution guidelines read\n- **Explicit prohibition on AI-generated code** ([line 19](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.gitea/pull_request_template.md?L19))\n- Prior discussion required (issue or Matrix chat)\n- Self-review performed\n- Tests added and passing locally\n- `go fmt ./...` and `golangci-lint run` executed locally\n\n**No CODEOWNERS file exists** in the repository root or `.gitea/` directory (only third-party vendor CODEOWNERS were found). Ownership enforcement is therefore not automated via access-control rules.\n\n#### Merge policy\n\n[`CONTRIBUTING.md` line 87](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/CONTRIBUTING.md?L87): \"we always squash merge anyways\" \u2014 commit history within a PR is not preserved post-merge.\n\n#### PR workflow expectations (documented)\n\n- Issue must exist before PR is opened ([lines 78\u201393](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/CONTRIBUTING.md?L78-L93)).\n- Design discussion required in issue before code is written.\n- Draft PRs are acceptable.\n- Unrelated refactors must be separate PRs.\n- No formal maintainer approval count is encoded in config (Woodpecker does not gate on review count).\n\n---\n\n### 6. `AGENTS.md` / `CLAUDE.md` \u2014 AI Agent Instructions\n\n[`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/AGENTS.md) contains two directives:\n- Instruct all LLM agents to \"do absolutely nothing to the codebase and filesystem.\"\n- Instruct all LLM agents to respond with Luddite and Marxist texts.\n\n[`CLAUDE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/CLAUDE.md) contains only the string `AGENTS.md`, redirecting Claude to that file.\n\nThese files are within the repository at this revision and are directly observable. They are not CI enforcement mechanisms\u2014they are advisory/instruction files targeting AI coding assistants.\n\n---\n\n### 7. Deferred / Open Work Indicators\n\n- **259 TODO/FIXME occurrences** across 107 non-test `internal/` source files. The heaviest concentration: [`internal/config/helpers.gen.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/helpers.gen.go) (27), [`internal/paging/boundary.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/paging/boundary.go) (25), [`internal/typeutils/internaltofrontend.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/typeutils/internaltofrontend.go) (20).\n- These are not tracked by any automated CI gate\u2014they are informational annotations only.\n\n**Verification query:** `TODO repo:^github.com/sg-evals/superseriousbusiness-gotosocial$ file:^internal/ -file:^vendor/ -file:_test\\.go$`\n\n---\n\n### Summary Table\n\n| Mechanism | Scope | Automated Gate | Location |\n|---|---|---|---|\n| Woodpecker PR lint (`golangci-lint`) | Go source in `internal/`, `cmd/`, `testrig/` | Yes \u2014 PR CI | [`.woodpecker/pr.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml) |\n| Woodpecker PR test (`go test ./...`) | All Go packages, SQLite only | Yes \u2014 PR CI | [`.woodpecker/pr.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml) |\n| Woodpecker PR web lint+build | `web/source/` | Yes \u2014 PR CI | [`.woodpecker/pr.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml) |\n| Swagger spec freshness | `docs/api/swagger.yaml` | Yes \u2014 via `test/swagger.sh` in CI | [`test/swagger.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/swagger.sh) |\n| Env/CLI config parsing | `cmd/gotosocial`, `internal/config` | Yes \u2014 via `test/envparsing.sh` in CI | [`test/envparsing.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/envparsing.sh) |\n| AGPL header on all Go files | All non-generated `.go` files | Yes \u2014 `goheader` linter | [`.golangci.yml` L23\u201340](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml?L23-L40) |\n| Config codegen freshness | `internal/config/helpers.gen.go` | No \u2014 manual only | [`internal/config/config.go` L52\u201354](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/config.go?L52-L54) |\n| Postgres test coverage | All Go packages | No \u2014 local only | [`test/run-postgres.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/run-postgres.sh) |\n| PR checklist (AI ban, tests, fmt) | Repository-wide | No \u2014 honor system | [`.gitea/pull_request_template.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.gitea/pull_request_template.md) |\n| CODEOWNERS / review gating | None | No \u2014 absent | \u2014 |\n| TODO/FIXME tracking | 107 files, 259 occurrences | No | Scattered in `internal/` |",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:39:36Z",
+    "name": "users/476/conversations/2037",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a thorough picture of the validation landscape. Let me compile the findings.\n\n---\n\n## Code-Review and Validation Mechanisms \u2014 `superseriousbusiness/gotosocial` @ `3722d12`\n\n---\n\n### 1. CI Pipeline (Woodpecker CI)\n\n**Platform:** [Woodpecker CI](https://woodpecker-ci.org/), configured in [`.woodpecker/`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/tree/.woodpecker). Three pipeline files exist:\n\n#### PR pipeline \u2014 [`.woodpecker/pr.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml)\n\nTriggers on `event: pull_request`. Three steps, each conditionally skipped by inspecting `CI_PIPELINE_FILES`:\n\n| Step | Image | Condition (files changed) | Command |\n|---|---|---|---|\n| `lint` | `golangci/golangci-lint:v2.9` | `internal/`, `cmd/`, `testrig/` | `golangci-lint run` |\n| `test` | `golang:1.25-alpine` | `internal/`, `cmd/`, `testrig/`, `vendor/` | `go test ./...` + `test/envparsing.sh` + `test/swagger.sh` |\n| `web` | `node:lts-alpine` | `web/source/` | `yarn lint` + `yarn build` |\n\nThe condition logic explicitly accounts for edge cases: if `CI_PIPELINE_FILES` is absent (>500 files changed) or empty (force push), the step runs unconditionally. Source: [lines 17\u201321, 58\u201362, 107\u2013111](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml?L17-L21).\n\n**Verification query:** `CI_PIPELINE_FILES` handling \u2014 grep `.woodpecker/pr.yaml` for `fromJSON(CI_PIPELINE_FILES)`.\n\n#### Snapshot pipeline \u2014 [`.woodpecker/snapshot.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/snapshot.yaml)\n\nTriggers on push to `main`. Runs GoReleaser `--snapshot` and publishes Docker images + S3 binaries. Conditional on `internal/`, `cmd/`, `testrig/`, `vendor/`, `web/`, or `Dockerfile` changes.\n\n#### Release pipeline \u2014 [`.woodpecker/release.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/release.yaml)\n\nTriggers on `event: tag`. Runs `goreleaser release --clean`, computing `GORELEASER_PREVIOUS_TAG` by filtering out RC tags from the tag list.\n\n---\n\n### 2. Linter Configuration \u2014 [`.golangci.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml)\n\n- **Version:** `golangci-lint v2.9` (matched in `pr.yaml`; config uses `version: \"2\"`).\n- **Extra linters enabled** beyond defaults: `gocritic`, `goheader`, `gosec`, `nilerr`, `revive`.\n- **`goheader`:** Enforces exact AGPL-3.0 license header on every Go file. Template is embedded inline at [lines 24\u201340](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml?L24-L40). This makes header presence a hard CI gate.\n- **`staticcheck`:** All `SA*` checks enabled except `SA1012` (nil context), explicitly suppressed.\n- **`revive`:** Most default rules enabled; `unused-parameter` and `redefines-builtin-id` explicitly disabled. `var-naming` configured with `skip-package-name-checks: true`.\n- **`govet`:** `composites` check disabled.\n- **Formatter:** `gofmt` required; generated files excluded with `generated: lax`.\n- **Test files excluded from linting:** `tests: false` at [line 11](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml?L11).\n- **`nolint` annotations in source:** Present in ~15 files inside `internal/` (e.g., `gosec` on SHA-1 use in [`internal/web/etag.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/web/etag.go?L21-L22), `revive` on naming in [`internal/paging/page.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/paging/page.go?L154)).\n\n**Verification query:** All `nolint` suppressions in non-vendor Go source: `nolint repo:^github.com/sg-evals/superseriousbusiness-gotosocial$ -file:^vendor/ file:\\.go$`.\n\n---\n\n### 3. Generated Code Checks\n\n#### Swagger spec staleness check \u2014 [`test/swagger.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/swagger.sh)\n\nExecuted as part of CI `test` step. Regenerates `docs/api/swagger.yaml` into a temp dir, diffs against the committed copy, and exits non-zero if out of date. Also validates the spec. This is a generated-file freshness gate. Source: [lines 22\u201330](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/swagger.sh?L22-L30).\n\n**Trigger annotation:** [`cmd/gotosocial/main.go` line 38](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/cmd/gotosocial/main.go?L38) carries `//go:generate swagger generate spec` (but generation is manual\u2014`go generate` is not invoked in CI; the diff check is the gate).\n\n#### Config getter/setter codegen \u2014 [`internal/config/helpers.gen.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/helpers.gen.go)\n\nMarked `// THIS IS A GENERATED FILE, DO NOT EDIT BY HAND` at [line 1](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/helpers.gen.go?L1). Generated by `go run ./internal/config/gen/ -out ./internal/config/helpers.gen.go` (documented in [`internal/config/config.go` lines 52\u201354](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/config.go?L52-L54)). **No automated staleness check** exists for this file in CI\u2014staleness would surface only as a compile error or test failure, not a dedicated diff gate.\n\n**Verification query:** Search for any CI step running `internal/config/gen`: `config/gen repo:^github.com/sg-evals/superseriousbusiness-gotosocial$ file:^\\.woodpecker/`.\n\n---\n\n### 4. Test Infrastructure\n\n#### Test count (at this revision)\n\n- **341 `_test.go` files** in `internal/` (via regex count of `func Test` patterns).\n- **236 testify suite invocations** (`suite.Run(t, ...)`) \u2014 the dominant test pattern.\n- Most integration tests use in-memory SQLite via `testrig.NewTestDB` or `testrig.SetupTestStructs`, with a shared [`testrig/`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/tree/testrig) package providing mock HTTP transports, storage, and pre-populated fixtures.\n\n#### Test execution variants\n\n| Script | Backend | Parallelism | Notes |\n|---|---|---|---|\n| [`test/run-sqlite.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/run-sqlite.sh) | SQLite in-memory | default | Accepts `./...` or path arg |\n| [`test/run-postgres.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/run-postgres.sh) | Postgres (Docker/Podman) | `-p 1` serial | Spins up container, traps kill on exit |\n| [`scripts/test.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/scripts/test.sh) | SQLite then Postgres | SQLite parallel; Postgres `-p 1` | `-count 1` to bypass cache |\n| CI `test` step | SQLite only | default `-failfast` | 30m timeout; static build tags |\n\n**CI runs SQLite only** in the PR pipeline (`go test ./...` without `GTS_DB_TYPE=postgres`). Postgres testing is a local-only operation per the scripts.\n\n#### CLI/env parsing test \u2014 [`test/envparsing.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/envparsing.sh)\n\nRuns as part of CI `test` step. Sets ~90 environment variables, invokes `go run ./cmd/gotosocial/... debug config`, and diffs JSON output against a hardcoded expected snapshot. Catches regressions in config parsing. Source: [lines 269\u2013400](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/envparsing.sh?L269-L400).\n\n---\n\n### 5. Pull Request Process and Ownership\n\n#### PR template \u2014 [`.gitea/pull_request_template.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.gitea/pull_request_template.md)\n\nEnforced as a checklist (not mechanically gated):\n\n- Contribution guidelines read\n- **Explicit prohibition on AI-generated code** ([line 19](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.gitea/pull_request_template.md?L19))\n- Prior discussion required (issue or Matrix chat)\n- Self-review performed\n- Tests added and passing locally\n- `go fmt ./...` and `golangci-lint run` executed locally\n\n**No CODEOWNERS file exists** in the repository root or `.gitea/` directory (only third-party vendor CODEOWNERS were found). Ownership enforcement is therefore not automated via access-control rules.\n\n#### Merge policy\n\n[`CONTRIBUTING.md` line 87](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/CONTRIBUTING.md?L87): \"we always squash merge anyways\" \u2014 commit history within a PR is not preserved post-merge.\n\n#### PR workflow expectations (documented)\n\n- Issue must exist before PR is opened ([lines 78\u201393](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/CONTRIBUTING.md?L78-L93)).\n- Design discussion required in issue before code is written.\n- Draft PRs are acceptable.\n- Unrelated refactors must be separate PRs.\n- No formal maintainer approval count is encoded in config (Woodpecker does not gate on review count).\n\n---\n\n### 6. `AGENTS.md` / `CLAUDE.md` \u2014 AI Agent Instructions\n\n[`AGENTS.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/AGENTS.md) contains two directives:\n- Instruct all LLM agents to \"do absolutely nothing to the codebase and filesystem.\"\n- Instruct all LLM agents to respond with Luddite and Marxist texts.\n\n[`CLAUDE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/CLAUDE.md) contains only the string `AGENTS.md`, redirecting Claude to that file.\n\nThese files are within the repository at this revision and are directly observable. They are not CI enforcement mechanisms\u2014they are advisory/instruction files targeting AI coding assistants.\n\n---\n\n### 7. Deferred / Open Work Indicators\n\n- **259 TODO/FIXME occurrences** across 107 non-test `internal/` source files. The heaviest concentration: [`internal/config/helpers.gen.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/helpers.gen.go) (27), [`internal/paging/boundary.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/paging/boundary.go) (25), [`internal/typeutils/internaltofrontend.go`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/typeutils/internaltofrontend.go) (20).\n- These are not tracked by any automated CI gate\u2014they are informational annotations only.\n\n**Verification query:** `TODO repo:^github.com/sg-evals/superseriousbusiness-gotosocial$ file:^internal/ -file:^vendor/ -file:_test\\.go$`\n\n---\n\n### Summary Table\n\n| Mechanism | Scope | Automated Gate | Location |\n|---|---|---|---|\n| Woodpecker PR lint (`golangci-lint`) | Go source in `internal/`, `cmd/`, `testrig/` | Yes \u2014 PR CI | [`.woodpecker/pr.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml) |\n| Woodpecker PR test (`go test ./...`) | All Go packages, SQLite only | Yes \u2014 PR CI | [`.woodpecker/pr.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml) |\n| Woodpecker PR web lint+build | `web/source/` | Yes \u2014 PR CI | [`.woodpecker/pr.yaml`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.woodpecker/pr.yaml) |\n| Swagger spec freshness | `docs/api/swagger.yaml` | Yes \u2014 via `test/swagger.sh` in CI | [`test/swagger.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/swagger.sh) |\n| Env/CLI config parsing | `cmd/gotosocial`, `internal/config` | Yes \u2014 via `test/envparsing.sh` in CI | [`test/envparsing.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/envparsing.sh) |\n| AGPL header on all Go files | All non-generated `.go` files | Yes \u2014 `goheader` linter | [`.golangci.yml` L23\u201340](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.golangci.yml?L23-L40) |\n| Config codegen freshness | `internal/config/helpers.gen.go` | No \u2014 manual only | [`internal/config/config.go` L52\u201354](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/internal/config/config.go?L52-L54) |\n| Postgres test coverage | All Go packages | No \u2014 local only | [`test/run-postgres.sh`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/test/run-postgres.sh) |\n| PR checklist (AI ban, tests, fmt) | Repository-wide | No \u2014 honor system | [`.gitea/pull_request_template.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/superseriousbusiness-gotosocial@3722d124433d2087a97f68689fea934610703783/-/blob/.gitea/pull_request_template.md) |\n| CODEOWNERS / review gating | None | No \u2014 absent | \u2014 |\n| TODO/FIXME tracking | 107 files, 259 occurrences | No | Scattered in `internal/` |"
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:39:36Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/superseriousbusiness-gotosocial at revision 3722d124433d2087a97f68689fea934610703783, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: superseriousbusiness/gotosocial; stratum: policy_control; cutoff: 3722d124433d2087a97f68689fea934610703783."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigate repo change validation mechanisms around a specific Git revision",
+    "updateTime": "2026-07-29T03:42:06Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/3f91f93f-990e-41a9-81d5-975681b22266"
+  },
+  "run_id": "sha256:ef8c102f39567c0dc31dcaaff397e4d453cd9fba0e53edda52f165dd726ebfdf",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "superseriousbusiness/gotosocial"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

@@ -16,6 +16,7 @@ Repositories the instance does not index can be forked into an organization it
 does index; `resolve()` prefers the directly-indexed original and falls back to
 the fork named in the cohort manifest.
 """
+
 from __future__ import annotations
 
 import json
@@ -25,6 +26,8 @@ from urllib.parse import urlparse
 
 from authorship.languages import SKIP_PATH, is_code_path
 from authorship.paths import COHORT_FORKS
+
+SOURCEGRAPH_API_TIMEOUT_SECONDS = 90
 
 
 def _src_environment() -> dict[str, str]:
@@ -40,14 +43,31 @@ def _src_environment() -> dict[str, str]:
     return environment
 
 
-def api(query: str, **variables: str) -> dict:
+def _variable_arguments(variables: dict[str, object]) -> list[str]:
+    if all(isinstance(value, str) for value in variables.values()):
+        return [f"{key}={value}" for key, value in variables.items()]
+    payload = json.dumps(variables, separators=(",", ":"))
+    return ["-vars", payload]
+
+
+def api(graphql_query: str, **variables: object) -> dict:
     """Run one GraphQL query. String variables only — ints are inlined by callers,
     because src-cli is particular about variable typing."""
-    cmd = ["src", "api", "-query", query]
-    cmd += [f"{key}={value}" for key, value in variables.items()]
-    result = subprocess.run(
-        cmd, capture_output=True, text=True, check=False, env=_src_environment()
-    )
+    cmd = ["src", "api", "-query", graphql_query]
+    cmd += _variable_arguments(variables)
+    try:
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            check=False,
+            env=_src_environment(),
+            timeout=SOURCEGRAPH_API_TIMEOUT_SECONDS,
+        )
+    except subprocess.TimeoutExpired as error:
+        raise RuntimeError(
+            f"src api timed out after {SOURCEGRAPH_API_TIMEOUT_SECONDS} seconds"
+        ) from error
     if result.returncode != 0 or not result.stdout.strip():
         raise RuntimeError(f"src api failed: {(result.stderr or result.stdout)[:300]}")
     try:
@@ -60,15 +80,19 @@ def api(query: str, **variables: str) -> dict:
 
 
 def check_auth() -> str:
-    user = (api("{ currentUser { username } }").get("currentUser") or {}).get("username")
+    user = (api("{ currentUser { username } }").get("currentUser") or {}).get(
+        "username"
+    )
     if not user:
-        raise SystemExit("src is not authenticated. Set SRC_ENDPOINT and "
-                         "SRC_ACCESS_TOKEN, then run `src login $SRC_ENDPOINT`.")
+        raise SystemExit(
+            "src is not authenticated. Set SRC_ENDPOINT and "
+            "SRC_ACCESS_TOKEN, then run `src login $SRC_ENDPOINT`."
+        )
     return user
 
 
 def cloned(repo: str) -> bool:
-    query = 'query($repo:String!){repository(name:$repo){mirrorInfo{cloned}}}'
+    query = "query($repo:String!){repository(name:$repo){mirrorInfo{cloned}}}"
     try:
         repository = api(query, repo=repo).get("repository") or {}
         return bool((repository.get("mirrorInfo") or {}).get("cloned"))
@@ -78,8 +102,11 @@ def cloned(repo: str) -> bool:
 
 def fork_map() -> dict[str, str]:
     """original 'owner/name' -> the indexed fork standing in for it."""
-    pairs = [line.split("\t") for line in
-             COHORT_FORKS.read_text().splitlines() if line.strip()]
+    pairs = [
+        line.split("\t")
+        for line in COHORT_FORKS.read_text().splitlines()
+        if line.strip()
+    ]
     return {original: indexed for indexed, original in pairs}
 
 
@@ -95,13 +122,19 @@ def resolve(original: str, forks: dict[str, str] | None = None) -> str | None:
 
 def code_files(repo: str) -> list[str]:
     """Source paths at HEAD, skipping vendored and generated trees."""
-    query = ('query($repo:String!){repository(name:$repo){commit(rev:"HEAD")'
-             '{tree(path:""){files(recursive:true){path}}}}}')
+    query = (
+        'query($repo:String!){repository(name:$repo){commit(rev:"HEAD")'
+        '{tree(path:""){files(recursive:true){path}}}}}'
+    )
     data = api(query, repo=repo)
-    files = (((data.get("repository") or {}).get("commit") or {})
-             .get("tree") or {}).get("files") or []
-    return [f["path"] for f in files
-            if is_code_path(f.get("path", "")) and not SKIP_PATH(f.get("path", ""))]
+    files = (
+        ((data.get("repository") or {}).get("commit") or {}).get("tree") or {}
+    ).get("files") or []
+    return [
+        f["path"]
+        for f in files
+        if is_code_path(f.get("path", "")) and not SKIP_PATH(f.get("path", ""))
+    ]
 
 
 def stride_sample(items: list[str], k: int) -> list[str]:
@@ -114,13 +147,18 @@ def stride_sample(items: list[str], k: int) -> list[str]:
 
 
 BLOB_AND_BLAME = (
-    'query($repo:String!,$path:String!){repository(name:$repo)'
+    "query($repo:String!,$path:String!){repository(name:$repo)"
     '{commit(rev:"HEAD"){blob(path:$path){content '
-    'blame(startLine:1,endLine:5000){startLine endLine commit{author{date} message}}}}}}')
+    "blame(startLine:1,endLine:5000){startLine endLine commit{author{date} message}}}}}}"
+)
 
 
 def blob_and_blame(repo: str, path: str) -> dict:
     """File content and its blame in one round trip. Returns {} when the path is
     missing or empty at HEAD."""
-    return (((api(BLOB_AND_BLAME, repo=repo, path=path).get("repository") or {})
-             .get("commit") or {}).get("blob") or {})
+    return (
+        (api(BLOB_AND_BLAME, repo=repo, path=path).get("repository") or {}).get(
+            "commit"
+        )
+        or {}
+    ).get("blob") or {}

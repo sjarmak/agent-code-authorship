@@ -1,0 +1,16 @@
+{
+  "agreement": 1.0,
+  "coverage": 1.0,
+  "kappa": 1.0,
+  "kappa_status": "identified",
+  "missing_review_item_ids": [],
+  "observations": 50,
+  "packet_sha256": "303958b83ce7521893d70b637ad131ed08c06632b7c8a6248d8ceddb4bc210cf",
+  "passes": true,
+  "result_sha256": "a3871f24a8dbf98de723d578f762aaff18417f8e84991218ff8a83d24d3cb5ce",
+  "result_version": 1,
+  "reviewer_ids": [
+    "followup-count-reviewer-c",
+    "followup-count-reviewer-d"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic-topology-pilot-plan.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "plan_version",
+    "status",
+    "cutoff",
+    "outcomes_consulted",
+    "protocol_sha256",
+    "input_artifacts",
+    "input_sha256",
+    "repositories",
+    "runs",
+    "plan_sha256"
+  ],
+  "properties": {
+    "$schema": {"const": "semantic-topology-pilot-plan.schema.json"},
+    "plan_version": {"const": 1},
+    "status": {"const": "preregistered_pre_execution"},
+    "cutoff": {"const": "2026-07-24T23:59:59Z"},
+    "outcomes_consulted": {"const": false},
+    "protocol_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "input_artifacts": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {"type": "string"}
+    },
+    "input_sha256": {
+      "type": "object",
+      "minProperties": 5,
+      "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+    },
+    "repositories": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 20,
+      "items": {"$ref": "#/$defs/repository"}
+    },
+    "runs": {
+      "type": "array",
+      "minItems": 100,
+      "maxItems": 100,
+      "items": {"$ref": "#/$defs/run"}
+    },
+    "plan_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "$defs": {
+    "sha1": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "repository": {
+      "type": "object",
+      "required": [
+        "canonical_repository_id",
+        "canonical_source_url",
+        "sourcegraph_name",
+        "cutoff_commit",
+        "stratum",
+        "selection_basis",
+        "source_artifact",
+        "source_sha256",
+        "context_revision"
+      ],
+      "properties": {
+        "canonical_repository_id": {"type": "string", "pattern": "^[^/]+/[^/]+$"},
+        "canonical_source_url": {"type": "string", "format": "uri"},
+        "sourcegraph_name": {"type": "string"},
+        "cutoff_commit": {"$ref": "#/$defs/sha1"},
+        "stratum": {
+          "enum": ["agent_native", "attributable_agent", "policy_control", "pre_2023_context"]
+        },
+        "selection_basis": {"type": "string"},
+        "source_artifact": {"type": "string"},
+        "source_sha256": {"$ref": "#/$defs/sha256"},
+        "context_revision": {
+          "type": "object",
+          "required": ["kind", "status", "commit"],
+          "properties": {
+            "kind": {"type": "string"},
+            "status": {"enum": ["resolved", "pending_pinned_git_resolution"]},
+            "commit": {
+              "oneOf": [{"$ref": "#/$defs/sha1"}, {"type": "null"}]
+            }
+          }
+        },
+        "introduction_event": {"type": "object"}
+      }
+    },
+    "run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "run_id",
+        "canonical_repository_id",
+        "prompt_family_id",
+        "prompt_sha256",
+        "context_revision_kind",
+        "prompt",
+        "status"
+      ],
+      "properties": {
+        "run_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+        "canonical_repository_id": {"type": "string"},
+        "prompt_family_id": {
+          "enum": [
+            "adoption_configuration",
+            "delegated_task_intent",
+            "review_validation",
+            "semantic_controls",
+            "change_topology"
+          ]
+        },
+        "prompt_sha256": {"$ref": "#/$defs/sha256"},
+        "context_revision_kind": {"type": "string"},
+        "prompt": {"type": "string", "minLength": 100},
+        "status": {"enum": ["frozen", "pending_context_revision"]}
+      }
+    }
+  }
+}

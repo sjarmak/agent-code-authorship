@@ -1,0 +1,158 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "538d4f603ea89b7377b432edec2e4eb21b76a0085bf1e29a8a317b98497e7740",
+  "artifact_version": 1,
+  "canonical_repository_id": "0xfurai/peekaping",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "742a60d94fdaacc977c09444b651f7cf1c1aab9e"
+  ],
+  "cited_files": [
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/web/scripts/simple-translate.js",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/scripts/simple-translate.js"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/web/package.json",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/package.json?L62"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/docker-release.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L107-L110"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/docker-release.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L299-L304"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/web/src/api/client.gen.ts",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/api/client.gen.ts?L1"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/web/src/api/sdk.gen.ts",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/api/sdk.gen.ts?L1"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/web/src/api/types.gen.ts",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/api/types.gen.ts?L1"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/web/openapi-ts.config.ts",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/openapi-ts.config.ts"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/web/package.json",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/package.json?L11"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/server/docs/docs.go",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/docs/docs.go?L1"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "apps/web/src/version.ts",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/version.ts"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/docker-release.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L124-L127"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".github/workflows/release-candidate.yml",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/release-candidate.yml?L104"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": "scripts/generate-changelog.sh",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/scripts/generate-changelog.sh?L47-L50"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".gitignore",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.gitignore"
+    },
+    {
+      "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "path": ".vscode/settings.json",
+      "repository": "github.com/sg-evals/0xfurai-peekaping",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.vscode/settings.json"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2015",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/0xfurai-peekaping at revision 742a60d94fdaacc977c09444b651f7cf1c1aab9e, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: 0xfurai/peekaping; study cutoff: 742a60d94fdaacc977c09444b651f7cf1c1aab9e.",
+  "prompt_family_id": "adoption_configuration",
+  "prompt_sha256": "260a5d2a54ec470907b25193a199cad93a1ea94b038a6682ad2b161e6833b7f3",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Now I have a thorough picture of the repository. Let me compile the findings.\n\n---\n\n## Cited Candidate Observations\n\n### OBS-1: Ollama LLM invoked directly in a committed developer script for i18n translation\n\n**File:** [`apps/web/scripts/simple-translate.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/scripts/simple-translate.js)\n\n**Evidence:**\n\n```javascript\n// Line 10\nimport { Ollama } from \"@langchain/ollama\";\n\n// Lines 60-63\nconst llm = new Ollama({\n  model: \"gpt-oss:20b\",\n  reasoning: false\n});\n\n// Lines 99-107 \u2014 invocation at translation time\nasync function translate(text, targetLanguage) {\n  const prompt = `Translate this UI text from English to ${targetLanguage}. Return only the translation, no explanations:\\n\\n\"${text}\"`;\n  const response = await llm.invoke(prompt);\n  return response.trim().replace(/^[\"']|[\"']$/g, '');\n}\n```\n\n**Nature:** A local-execution developer tool that uses `@langchain/ollama` to drive a model named `gpt-oss:20b` (a locally served Ollama model). It reads the canonical English locale file (`en-US.json`), identifies untranslated keys in every other locale JSON file, generates a per-key translation prompt, invokes the LLM, and writes results back. No CI trigger; invoked manually by a developer with `node apps/web/scripts/simple-translate.js`.\n\n**Constraint / configuration details:**\n- The prompt is tightly constrained: `\"Return only the translation, no explanations\"`.\n- The `reasoning` field is explicitly set to `false`.\n- A 100 ms inter-call delay is inserted to avoid overloading the local API.\n- Bot-authored commits are filtered from changelog generation (separate script), but AI-generated locale strings themselves carry no disclosure annotation in the locale JSON files.\n\n**Dependency declaration:** [`apps/web/package.json` L62](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/package.json?L62) lists `\"@langchain/ollama\": \"^0.2.4\"` as a **devDependency**, confirming this is a developer-time tool, not a runtime feature.\n\n---\n\n### OBS-2: `github-actions[bot]` identity configured to author version-bump commits\n\n**File:** [`.github/workflows/docker-release.yml` L107-L110](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L107-L110)\n\n```yaml\n- name: Set up Git user\n  run: |\n    git config --global user.name \"github-actions[bot]\"\n    git config --global user.email \"github-actions[bot]@users.noreply.github.com\"\n```\n\nThis bot identity is configured to author the automated commit `chore: bump version to <version> and update changelog` ([L303](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L299-L304)) that modifies `apps/web/package.json`, `apps/web/src/version.ts`, `apps/server/internal/version/version.go`, and `CHANGELOG.md` on every release.\n\n**Significance:** Any commit in the repository's history matching this message pattern was produced by a workflow-driven bot, not a human.\n\n---\n\n### OBS-3: Three files auto-generated by `@hey-api/openapi-ts` from the Swagger spec\n\n**Files:**\n- [`apps/web/src/api/client.gen.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/api/client.gen.ts?L1) \u2014 `// This file is auto-generated by @hey-api/openapi-ts`\n- [`apps/web/src/api/sdk.gen.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/api/sdk.gen.ts?L1) \u2014 same header\n- [`apps/web/src/api/types.gen.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/api/types.gen.ts?L1) \u2014 same header\n\n**Configuration:** [`apps/web/openapi-ts.config.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/openapi-ts.config.ts) specifies input from `../server/docs/swagger.json`, output path `./src/api`, and plugins `@hey-api/client-axios`, `@tanstack/react-query`, `@hey-api/typescript`.\n\nThese are conventional codegen artifacts (not LLM-generated), but they are committed into the repository tree. The generator is invoked via `\"gen\": \"openapi-ts\"` in [package.json L11](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/package.json?L11).\n\n---\n\n### OBS-4: Server-side Swagger docs generated by `swaggo/swag`\n\n**File:** [`apps/server/docs/docs.go` L1](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/docs/docs.go?L1)\n\n```go\n// Package docs Code generated by swaggo/swag. DO NOT EDIT\n```\n\nThe Go Swagger spec (`swagger.json`, `swagger.yaml`) is generated by `swaggo/swag` from Go source annotations. These feed into OBS-3's `openapi-ts` pipeline. Again, conventional codegen, not LLM.\n\n---\n\n### OBS-5: `version.ts` declared auto-generated by the release workflow\n\n**File:** [`apps/web/src/version.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/version.ts)\n\n```typescript\n// This file is auto-generated by the release workflow\nexport const VERSION = \"0.0.46\";\n```\n\nThis comment is written by the shell `echo` in both [docker-release.yml L124-L127](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L124-L127) and [release-candidate.yml L104](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/release-candidate.yml?L104).\n\n---\n\n### OBS-6: `generate-changelog.sh` explicitly filters bot contributors from changelog output\n\n**File:** [`scripts/generate-changelog.sh` L47-L50 and L91-L93](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/scripts/generate-changelog.sh?L47-L50)\n\n```bash\n# Skip bot contributors\nif [[ \"$username\" == *\"[bot]\"* ]] || [[ \"$username\" == *\"bot\"* ]]; then\n    continue\nfi\n```\n\nThis appears three times. It indicates the project is aware that bot identities (including `github-actions[bot]`) will appear in `git log` and actively suppresses them from changelog attribution.\n\n---\n\n### OBS-7: No AI-agent instruction files, prompt files, CODEOWNERS, or `.github/copilot` configuration present\n\nChecked locations with no findings:\n- No `.github/copilot-instructions.md` or `.github/copilot/` directory.\n- No `.cursorrules`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, or equivalent agent-instruction files at any path.\n- No `codeowners` file.\n- [`.gitignore`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.gitignore) contains no entries referencing AI tools, session artifacts, or prompt caches.\n- [`.vscode/settings.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.vscode/settings.json) contains only ESLint working directory config; no Copilot or AI extension settings.\n\n---\n\n## Proposed Corpus-Scale Sourcegraph Queries\n\nEach query is deterministic and targets a specific observable.\n\n**OBS-1 \u2014 Ollama/LangChain invocation in committed scripts:**\n```\nrepo:.* file:\\.js$ \"@langchain/ollama\"\n```\n```\nrepo:.* file:package\\.json \"@langchain/ollama\"\n```\n```\nrepo:.* \"new Ollama(\" file:\\.js$\n```\n\n**OBS-1 \u2014 LLM-driven translation scripts specifically:**\n```\nrepo:.* file:\\.js$ \"llm.invoke\" \"translate\"\n```\n\n**OBS-2 \u2014 `github-actions[bot]` git identity configured in workflows:**\n```\nrepo:.* file:\\.github/workflows/ \"github-actions[bot]@users.noreply.github.com\"\n```\n```\nrepo:.* file:\\.github/workflows/ \"user.name\" \"github-actions[bot]\"\n```\n\n**OBS-3 / OBS-4 \u2014 Auto-generated codegen files committed to repo:**\n```\nrepo:.* \"This file is auto-generated by @hey-api/openapi-ts\"\n```\n```\nrepo:.* \"Code generated by swaggo/swag. DO NOT EDIT\"\n```\n\n**OBS-5 \u2014 Workflow-written version file with auto-generated comment:**\n```\nrepo:.* \"This file is auto-generated by the release workflow\"\n```\n\n**OBS-6 \u2014 Bot-filtering logic in changelog generators:**\n```\nrepo:.* file:\\.sh$ \"[bot]\" \"continue\"\n```\n```\nrepo:.* file:generate-changelog \"bot\" \"skip\"\n```\n\n**OBS-7 \u2014 Presence / absence of agent instruction files:**\n```\nrepo:.* file:AGENTS\\.md\n```\n```\nrepo:.* file:CLAUDE\\.md\n```\n```\nrepo:.* file:\\.cursorrules\n```\n```\nrepo:.* file:copilot-instructions\\.md\n```\n\n---\n\n## Summary Table\n\n| # | Artifact | Kind | Signal |\n|---|----------|------|--------|\n| OBS-1 | `apps/web/scripts/simple-translate.js` | LLM invocation (Ollama, `gpt-oss:20b`) | **Strongest AI signal** \u2014 LLM used to generate locale string content committed to repo |\n| OBS-2 | `.github/workflows/docker-release.yml` L107-110 | Bot identity for automated commits | CI bot authors version-bump commits |\n| OBS-3 | `apps/web/src/api/{client,sdk,types}.gen.ts` | `@hey-api/openapi-ts` codegen | Conventional tool codegen, not LLM |\n| OBS-4 | `apps/server/docs/docs.go` | `swaggo/swag` codegen | Conventional tool codegen, not LLM |\n| OBS-5 | `apps/web/src/version.ts` | Workflow-generated file | CI-written stub, declared in comment |\n| OBS-6 | `scripts/generate-changelog.sh` | Bot-suppression filter | Explicit awareness of bot commits in git history |\n| OBS-7 | Repo root, `.github/`, `.vscode/` | Absence | No agent instruction, prompt, or Copilot config files found |\n\nThe most distinctive finding is **OBS-1**: the project commits a script that invokes a local Ollama model (`gpt-oss:20b` via `@langchain/ollama`) to produce translated UI strings written back into locale JSON files. The generated locale content would not itself carry an AI-origin annotation. Everything else is standard CI automation or conventional code-generation tooling.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:27:06Z",
+    "name": "users/476/conversations/2015",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Now I have a thorough picture of the repository. Let me compile the findings.\n\n---\n\n## Cited Candidate Observations\n\n### OBS-1: Ollama LLM invoked directly in a committed developer script for i18n translation\n\n**File:** [`apps/web/scripts/simple-translate.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/scripts/simple-translate.js)\n\n**Evidence:**\n\n```javascript\n// Line 10\nimport { Ollama } from \"@langchain/ollama\";\n\n// Lines 60-63\nconst llm = new Ollama({\n  model: \"gpt-oss:20b\",\n  reasoning: false\n});\n\n// Lines 99-107 \u2014 invocation at translation time\nasync function translate(text, targetLanguage) {\n  const prompt = `Translate this UI text from English to ${targetLanguage}. Return only the translation, no explanations:\\n\\n\"${text}\"`;\n  const response = await llm.invoke(prompt);\n  return response.trim().replace(/^[\"']|[\"']$/g, '');\n}\n```\n\n**Nature:** A local-execution developer tool that uses `@langchain/ollama` to drive a model named `gpt-oss:20b` (a locally served Ollama model). It reads the canonical English locale file (`en-US.json`), identifies untranslated keys in every other locale JSON file, generates a per-key translation prompt, invokes the LLM, and writes results back. No CI trigger; invoked manually by a developer with `node apps/web/scripts/simple-translate.js`.\n\n**Constraint / configuration details:**\n- The prompt is tightly constrained: `\"Return only the translation, no explanations\"`.\n- The `reasoning` field is explicitly set to `false`.\n- A 100 ms inter-call delay is inserted to avoid overloading the local API.\n- Bot-authored commits are filtered from changelog generation (separate script), but AI-generated locale strings themselves carry no disclosure annotation in the locale JSON files.\n\n**Dependency declaration:** [`apps/web/package.json` L62](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/package.json?L62) lists `\"@langchain/ollama\": \"^0.2.4\"` as a **devDependency**, confirming this is a developer-time tool, not a runtime feature.\n\n---\n\n### OBS-2: `github-actions[bot]` identity configured to author version-bump commits\n\n**File:** [`.github/workflows/docker-release.yml` L107-L110](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L107-L110)\n\n```yaml\n- name: Set up Git user\n  run: |\n    git config --global user.name \"github-actions[bot]\"\n    git config --global user.email \"github-actions[bot]@users.noreply.github.com\"\n```\n\nThis bot identity is configured to author the automated commit `chore: bump version to <version> and update changelog` ([L303](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L299-L304)) that modifies `apps/web/package.json`, `apps/web/src/version.ts`, `apps/server/internal/version/version.go`, and `CHANGELOG.md` on every release.\n\n**Significance:** Any commit in the repository's history matching this message pattern was produced by a workflow-driven bot, not a human.\n\n---\n\n### OBS-3: Three files auto-generated by `@hey-api/openapi-ts` from the Swagger spec\n\n**Files:**\n- [`apps/web/src/api/client.gen.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/api/client.gen.ts?L1) \u2014 `// This file is auto-generated by @hey-api/openapi-ts`\n- [`apps/web/src/api/sdk.gen.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/api/sdk.gen.ts?L1) \u2014 same header\n- [`apps/web/src/api/types.gen.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/api/types.gen.ts?L1) \u2014 same header\n\n**Configuration:** [`apps/web/openapi-ts.config.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/openapi-ts.config.ts) specifies input from `../server/docs/swagger.json`, output path `./src/api`, and plugins `@hey-api/client-axios`, `@tanstack/react-query`, `@hey-api/typescript`.\n\nThese are conventional codegen artifacts (not LLM-generated), but they are committed into the repository tree. The generator is invoked via `\"gen\": \"openapi-ts\"` in [package.json L11](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/package.json?L11).\n\n---\n\n### OBS-4: Server-side Swagger docs generated by `swaggo/swag`\n\n**File:** [`apps/server/docs/docs.go` L1](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/server/docs/docs.go?L1)\n\n```go\n// Package docs Code generated by swaggo/swag. DO NOT EDIT\n```\n\nThe Go Swagger spec (`swagger.json`, `swagger.yaml`) is generated by `swaggo/swag` from Go source annotations. These feed into OBS-3's `openapi-ts` pipeline. Again, conventional codegen, not LLM.\n\n---\n\n### OBS-5: `version.ts` declared auto-generated by the release workflow\n\n**File:** [`apps/web/src/version.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/apps/web/src/version.ts)\n\n```typescript\n// This file is auto-generated by the release workflow\nexport const VERSION = \"0.0.46\";\n```\n\nThis comment is written by the shell `echo` in both [docker-release.yml L124-L127](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/docker-release.yml?L124-L127) and [release-candidate.yml L104](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.github/workflows/release-candidate.yml?L104).\n\n---\n\n### OBS-6: `generate-changelog.sh` explicitly filters bot contributors from changelog output\n\n**File:** [`scripts/generate-changelog.sh` L47-L50 and L91-L93](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/scripts/generate-changelog.sh?L47-L50)\n\n```bash\n# Skip bot contributors\nif [[ \"$username\" == *\"[bot]\"* ]] || [[ \"$username\" == *\"bot\"* ]]; then\n    continue\nfi\n```\n\nThis appears three times. It indicates the project is aware that bot identities (including `github-actions[bot]`) will appear in `git log` and actively suppresses them from changelog attribution.\n\n---\n\n### OBS-7: No AI-agent instruction files, prompt files, CODEOWNERS, or `.github/copilot` configuration present\n\nChecked locations with no findings:\n- No `.github/copilot-instructions.md` or `.github/copilot/` directory.\n- No `.cursorrules`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, or equivalent agent-instruction files at any path.\n- No `codeowners` file.\n- [`.gitignore`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.gitignore) contains no entries referencing AI tools, session artifacts, or prompt caches.\n- [`.vscode/settings.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/0xfurai-peekaping@742a60d94fdaacc977c09444b651f7cf1c1aab9e/-/blob/.vscode/settings.json) contains only ESLint working directory config; no Copilot or AI extension settings.\n\n---\n\n## Proposed Corpus-Scale Sourcegraph Queries\n\nEach query is deterministic and targets a specific observable.\n\n**OBS-1 \u2014 Ollama/LangChain invocation in committed scripts:**\n```\nrepo:.* file:\\.js$ \"@langchain/ollama\"\n```\n```\nrepo:.* file:package\\.json \"@langchain/ollama\"\n```\n```\nrepo:.* \"new Ollama(\" file:\\.js$\n```\n\n**OBS-1 \u2014 LLM-driven translation scripts specifically:**\n```\nrepo:.* file:\\.js$ \"llm.invoke\" \"translate\"\n```\n\n**OBS-2 \u2014 `github-actions[bot]` git identity configured in workflows:**\n```\nrepo:.* file:\\.github/workflows/ \"github-actions[bot]@users.noreply.github.com\"\n```\n```\nrepo:.* file:\\.github/workflows/ \"user.name\" \"github-actions[bot]\"\n```\n\n**OBS-3 / OBS-4 \u2014 Auto-generated codegen files committed to repo:**\n```\nrepo:.* \"This file is auto-generated by @hey-api/openapi-ts\"\n```\n```\nrepo:.* \"Code generated by swaggo/swag. DO NOT EDIT\"\n```\n\n**OBS-5 \u2014 Workflow-written version file with auto-generated comment:**\n```\nrepo:.* \"This file is auto-generated by the release workflow\"\n```\n\n**OBS-6 \u2014 Bot-filtering logic in changelog generators:**\n```\nrepo:.* file:\\.sh$ \"[bot]\" \"continue\"\n```\n```\nrepo:.* file:generate-changelog \"bot\" \"skip\"\n```\n\n**OBS-7 \u2014 Presence / absence of agent instruction files:**\n```\nrepo:.* file:AGENTS\\.md\n```\n```\nrepo:.* file:CLAUDE\\.md\n```\n```\nrepo:.* file:\\.cursorrules\n```\n```\nrepo:.* file:copilot-instructions\\.md\n```\n\n---\n\n## Summary Table\n\n| # | Artifact | Kind | Signal |\n|---|----------|------|--------|\n| OBS-1 | `apps/web/scripts/simple-translate.js` | LLM invocation (Ollama, `gpt-oss:20b`) | **Strongest AI signal** \u2014 LLM used to generate locale string content committed to repo |\n| OBS-2 | `.github/workflows/docker-release.yml` L107-110 | Bot identity for automated commits | CI bot authors version-bump commits |\n| OBS-3 | `apps/web/src/api/{client,sdk,types}.gen.ts` | `@hey-api/openapi-ts` codegen | Conventional tool codegen, not LLM |\n| OBS-4 | `apps/server/docs/docs.go` | `swaggo/swag` codegen | Conventional tool codegen, not LLM |\n| OBS-5 | `apps/web/src/version.ts` | Workflow-generated file | CI-written stub, declared in comment |\n| OBS-6 | `scripts/generate-changelog.sh` | Bot-suppression filter | Explicit awareness of bot commits in git history |\n| OBS-7 | Repo root, `.github/`, `.vscode/` | Absence | No agent instruction, prompt, or Copilot config files found |\n\nThe most distinctive finding is **OBS-1**: the project commits a script that invokes a local Ollama model (`gpt-oss:20b` via `@langchain/ollama`) to produce translated UI strings written back into locale JSON files. The generated locale content would not itself carry an AI-origin annotation. Everything else is standard CI automation or conventional code-generation tooling."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:27:06Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/0xfurai-peekaping at revision 742a60d94fdaacc977c09444b651f7cf1c1aab9e, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: 0xfurai/peekaping; study cutoff: 742a60d94fdaacc977c09444b651f7cf1c1aab9e."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigate coding-agent and generative AI evidence in GitHub repo artifacts",
+    "updateTime": "2026-07-29T03:29:21Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/05a7f417-31e3-4693-bf01-67848026ebeb"
+  },
+  "run_id": "sha256:0010023c26afd91d1ddf4d48bd5711715f0c2ad61519648a8c7f9a06eeb8dead",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "0xfurai/peekaping"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

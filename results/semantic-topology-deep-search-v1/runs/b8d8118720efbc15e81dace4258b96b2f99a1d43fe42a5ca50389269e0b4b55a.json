@@ -1,0 +1,116 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "78a1ed6acb1a2a36c464fc50fcc8431833f3003637b36cc2a99de0fe52cac81d",
+  "artifact_version": 1,
+  "canonical_repository_id": "sjarmak/agent-diagnostics",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "e973e4ec1d4a325b5d739562ce87586127c973ed"
+  ],
+  "cited_files": [
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/signals.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/signals.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/annotator.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotator.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/taxonomy.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/calibrate.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/calibrate.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/agreement.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/agreement.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/ensemble.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/ensemble.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/classifier.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/classifier.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/annotation_store.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotation_store.py"
+    },
+    {
+      "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "path": "src/agent_diagnostics/export.py",
+      "repository": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/export.py"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/1984",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Using @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed.",
+  "prompt_family_id": "semantic_controls",
+  "prompt_sha256": "78a3646b46fcd83f6bb5747c27b861d0aff60cdab8fdbc2916b24e48438d1ac1",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "The full survey is now complete. Here is the determinate finding:\n\n---\n\n## Comparable Implementation Search \u2014 Result\n\n**Reference:** [`github.com/sg-evals/sjarmak-agent-diagnostics`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics) @ `e973e4ec` \u2014 stratum `agent_native`\n\n---\n\n### Reference characterization (used as eligibility specification)\n\nThe reference is a **Python 3.10+ package** (`agent-diagnostics`, `pyproject.toml` + `hatchling`) implementing:\n\n| Subsystem | Key files | Engineering intent |\n|---|---|---|\n| Signal extraction | [`signals.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/signals.py) | Walk `result.json`/`trajectory.json` trial directories; emit a 31-field `TrialSignals` TypedDict per run; SHA-256 `trial_id` from four key fields |\n| Heuristic annotator | [`annotator.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotator.py) | 32 rule-based checker functions \u2192 `CategoryAssignment(name, confidence, evidence)`; sorted by confidence |\n| Taxonomy | [`taxonomy.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy.py) + YAML files | Versioned YAML (v1/v2/v3); 40 categories across 11 behavioral dimensions |\n| LLM annotation | `llm_annotator/` | Claude API / batch backend classification of trajectories |\n| Calibration & agreement | [`calibrate.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/calibrate.py), [`agreement.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/agreement.py) | ECE, Brier score, reliability diagrams; pairwise Cohen's kappa |\n| Ensemble + classifier | [`ensemble.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/ensemble.py), [`classifier.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/classifier.py) | Stratified k-fold CV; held-out F1/ECE gating |\n| Storage + export | [`annotation_store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotation_store.py), [`export.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/export.py) | `fcntl.flock`-guarded JSONL; DuckDB+Parquet export |\n| CLI | `cli/` | `typer`/argparse front-end for the full pipeline |\n\nDependencies: `anthropic`, `duckdb`, `pyarrow`, `pyyaml`, `jsonschema`. Test suite: ~40 pytest files. Change scope at `e973e4ec`: original authorship of the entire package (no upstream to inherit from).\n\n---\n\n### Eligibility criteria (deterministic)\n\nA candidate must pass **all** of the following checks to be eligible:\n\n1. **Language match** \u2014 Python source package (not Java, Rust, Go, TypeScript, etc.)\n2. **Framework/API context** \u2014 uses `anthropic` SDK and/or `duckdb`/`pyarrow` for agent-evaluation or annotation purposes; or implements the same logical pipeline (signal extraction \u2192 rule-based annotation \u2192 LLM annotation \u2192 classifier \u2192 export)\n3. **Engineering intent** \u2014 analyzes agent or LLM behavioral trajectories to produce structured failure-mode labels or reliability signals; not a general ML library, benchmark data mirror, or unrelated toolchain\n4. **Change size** \u2014 comparable in scope to a new standalone Python package with 15\u201330 source modules and 35\u201345 test files; excludes single-file scripts and multi-million-line monorepos\n5. **Exclusion filters** \u2014 not a pinned upstream mirror (`sg-evals/numpy`, `sg-evals/pandas`, etc.), not a vendored copy, not tutorial/fixture/generated code, not a pure documentation repo\n\n---\n\n### Search executed\n\nThe following searches were run exhaustively across the active context:\n\n- `list_repos` (full context, 200+ entries)\n- `keyword_search` for `tool_call_sequence`, `TrialSignals`, `retrieval_failure`, `reward_hacking`, `annotation_store`, `annotator_type`, `CategoryAssignment`, `trajectory.json result.json`, `pipeline.toml agent_diagnostics`, `anthropic duckdb pyarrow agent hatchling`\n- `nls_search` for `agent trajectory annotation taxonomy heuristic classifier`, `trial signals benchmark evaluation annotation pipeline`, `LLM annotation confidence evidence category_name trial_id`, `Cohen kappa inter-annotator calibration ECE Brier`\n- Direct inspection of the two closest surface matches: [`github.com/pbakaus/impeccable`](https://demo.sourcegraph.com/r/github.com/pbakaus/impeccable) and [`gitlab.com/gitlab-org/orbit/knowledge-graph`](https://demo.sourcegraph.com/r/gitlab.com/gitlab-org/orbit/knowledge-graph)\n\n---\n\n### Candidate assessment\n\n#### `github.com/pbakaus/impeccable` \u2014 **not eligible**\n\n- Language: JavaScript/TypeScript (Node.js, `bun`, `biome.json`). Fails criterion 1.\n- Engineering intent: design-guidance skill for AI coding agents \u2014 produces UI critique (Nielsen heuristics, visual design audit), not behavioral failure-mode taxonomy for benchmark trials. Fails criterion 3.\n- The \"60 deterministic detector rules\" and \"heuristic scoring\" surface-similarity is superficial: they assess visual design properties of frontend output, not agent trajectory signals (tool counts, retry rates, reward values).\n\n#### `gitlab.com/gitlab-org/orbit/knowledge-graph` \u2014 **not eligible**\n\n- Language: Rust (`Cargo.toml`, `crates/`). Fails criterion 1.\n- Engineering intent: SDLC property graph indexer \u2014 builds a DuckDB-backed code/issue graph for developer tooling. Uses DuckDB (shared surface-level dependency) but for graph storage, not agent annotation. Fails criterion 3.\n- Change scope: multi-crate Rust monorepo, orders of magnitude larger. Fails criterion 4.\n\n#### `sg-evals/*` mirrors (scipy, numpy, pandas, scikit-learn, flask, django, etc.) \u2014 **not eligible**\n\n- All are pinned upstream mirrors of existing OSS libraries, explicitly excluded by criterion 5.\n- `sg-evals/scikit-learn` contains `cohen_kappa_score` (a shared primitive the reference uses), but is a vendored snapshot of the full scikit-learn library, not a comparable implementation.\n\n#### All other repos in context \u2014 **not eligible**\n\n- Spring/Java projects: wrong language, wrong domain.\n- LLVM, etcd, tikv, kafka, etc.: wrong language, wrong domain.\n- `sourcegraph-community/*` repos: infrastructure tooling (MCP registry, no-secrets scanner), not agent evaluation pipelines.\n- `trly/*` repos: personal infrastructure (GitOps, calendar). Wrong domain.\n- `sourcegraph/zoekt`, `scip-*`: code-intelligence indexers, wrong domain and language mix.\n\n---\n\n### Conclusion\n\n**No functionally comparable implementation exists in the active search context.**\n\nEvery repository in scope fails at least one deterministic eligibility criterion \u2014 most fail criterion 1 (language), criterion 3 (engineering intent), or criterion 5 (upstream mirror). The active context is dominated by:\n\n- Pinned OSS library mirrors (`sg-evals/*`)\n- Java/Spring ecosystem projects\n- Rust/Go infrastructure tooling\n- JavaScript/TypeScript design-tooling\n\nNone implement the combination that defines the reference: a **Python agent-evaluation pipeline** that extracts quantitative signals from `result.json`/`trajectory.json` trial directories, applies a versioned behavioral taxonomy through rule-based + LLM + classifier annotation, and exports annotated datasets to DuckDB/Parquet with calibration and inter-annotator agreement metrics. The reference implementation is functionally unique within this search context.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:07:17Z",
+    "name": "users/476/conversations/1984",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "The full survey is now complete. Here is the determinate finding:\n\n---\n\n## Comparable Implementation Search \u2014 Result\n\n**Reference:** [`github.com/sg-evals/sjarmak-agent-diagnostics`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics) @ `e973e4ec` \u2014 stratum `agent_native`\n\n---\n\n### Reference characterization (used as eligibility specification)\n\nThe reference is a **Python 3.10+ package** (`agent-diagnostics`, `pyproject.toml` + `hatchling`) implementing:\n\n| Subsystem | Key files | Engineering intent |\n|---|---|---|\n| Signal extraction | [`signals.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/signals.py) | Walk `result.json`/`trajectory.json` trial directories; emit a 31-field `TrialSignals` TypedDict per run; SHA-256 `trial_id` from four key fields |\n| Heuristic annotator | [`annotator.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotator.py) | 32 rule-based checker functions \u2192 `CategoryAssignment(name, confidence, evidence)`; sorted by confidence |\n| Taxonomy | [`taxonomy.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/taxonomy.py) + YAML files | Versioned YAML (v1/v2/v3); 40 categories across 11 behavioral dimensions |\n| LLM annotation | `llm_annotator/` | Claude API / batch backend classification of trajectories |\n| Calibration & agreement | [`calibrate.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/calibrate.py), [`agreement.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/agreement.py) | ECE, Brier score, reliability diagrams; pairwise Cohen's kappa |\n| Ensemble + classifier | [`ensemble.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/ensemble.py), [`classifier.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/classifier.py) | Stratified k-fold CV; held-out F1/ECE gating |\n| Storage + export | [`annotation_store.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/annotation_store.py), [`export.py`](https://demo.sourcegraph.com/r/github.com/sg-evals/sjarmak-agent-diagnostics@e973e4ec1d4a325b5d739562ce87586127c973ed/-/blob/src/agent_diagnostics/export.py) | `fcntl.flock`-guarded JSONL; DuckDB+Parquet export |\n| CLI | `cli/` | `typer`/argparse front-end for the full pipeline |\n\nDependencies: `anthropic`, `duckdb`, `pyarrow`, `pyyaml`, `jsonschema`. Test suite: ~40 pytest files. Change scope at `e973e4ec`: original authorship of the entire package (no upstream to inherit from).\n\n---\n\n### Eligibility criteria (deterministic)\n\nA candidate must pass **all** of the following checks to be eligible:\n\n1. **Language match** \u2014 Python source package (not Java, Rust, Go, TypeScript, etc.)\n2. **Framework/API context** \u2014 uses `anthropic` SDK and/or `duckdb`/`pyarrow` for agent-evaluation or annotation purposes; or implements the same logical pipeline (signal extraction \u2192 rule-based annotation \u2192 LLM annotation \u2192 classifier \u2192 export)\n3. **Engineering intent** \u2014 analyzes agent or LLM behavioral trajectories to produce structured failure-mode labels or reliability signals; not a general ML library, benchmark data mirror, or unrelated toolchain\n4. **Change size** \u2014 comparable in scope to a new standalone Python package with 15\u201330 source modules and 35\u201345 test files; excludes single-file scripts and multi-million-line monorepos\n5. **Exclusion filters** \u2014 not a pinned upstream mirror (`sg-evals/numpy`, `sg-evals/pandas`, etc.), not a vendored copy, not tutorial/fixture/generated code, not a pure documentation repo\n\n---\n\n### Search executed\n\nThe following searches were run exhaustively across the active context:\n\n- `list_repos` (full context, 200+ entries)\n- `keyword_search` for `tool_call_sequence`, `TrialSignals`, `retrieval_failure`, `reward_hacking`, `annotation_store`, `annotator_type`, `CategoryAssignment`, `trajectory.json result.json`, `pipeline.toml agent_diagnostics`, `anthropic duckdb pyarrow agent hatchling`\n- `nls_search` for `agent trajectory annotation taxonomy heuristic classifier`, `trial signals benchmark evaluation annotation pipeline`, `LLM annotation confidence evidence category_name trial_id`, `Cohen kappa inter-annotator calibration ECE Brier`\n- Direct inspection of the two closest surface matches: [`github.com/pbakaus/impeccable`](https://demo.sourcegraph.com/r/github.com/pbakaus/impeccable) and [`gitlab.com/gitlab-org/orbit/knowledge-graph`](https://demo.sourcegraph.com/r/gitlab.com/gitlab-org/orbit/knowledge-graph)\n\n---\n\n### Candidate assessment\n\n#### `github.com/pbakaus/impeccable` \u2014 **not eligible**\n\n- Language: JavaScript/TypeScript (Node.js, `bun`, `biome.json`). Fails criterion 1.\n- Engineering intent: design-guidance skill for AI coding agents \u2014 produces UI critique (Nielsen heuristics, visual design audit), not behavioral failure-mode taxonomy for benchmark trials. Fails criterion 3.\n- The \"60 deterministic detector rules\" and \"heuristic scoring\" surface-similarity is superficial: they assess visual design properties of frontend output, not agent trajectory signals (tool counts, retry rates, reward values).\n\n#### `gitlab.com/gitlab-org/orbit/knowledge-graph` \u2014 **not eligible**\n\n- Language: Rust (`Cargo.toml`, `crates/`). Fails criterion 1.\n- Engineering intent: SDLC property graph indexer \u2014 builds a DuckDB-backed code/issue graph for developer tooling. Uses DuckDB (shared surface-level dependency) but for graph storage, not agent annotation. Fails criterion 3.\n- Change scope: multi-crate Rust monorepo, orders of magnitude larger. Fails criterion 4.\n\n#### `sg-evals/*` mirrors (scipy, numpy, pandas, scikit-learn, flask, django, etc.) \u2014 **not eligible**\n\n- All are pinned upstream mirrors of existing OSS libraries, explicitly excluded by criterion 5.\n- `sg-evals/scikit-learn` contains `cohen_kappa_score` (a shared primitive the reference uses), but is a vendored snapshot of the full scikit-learn library, not a comparable implementation.\n\n#### All other repos in context \u2014 **not eligible**\n\n- Spring/Java projects: wrong language, wrong domain.\n- LLVM, etcd, tikv, kafka, etc.: wrong language, wrong domain.\n- `sourcegraph-community/*` repos: infrastructure tooling (MCP registry, no-secrets scanner), not agent evaluation pipelines.\n- `trly/*` repos: personal infrastructure (GitOps, calendar). Wrong domain.\n- `sourcegraph/zoekt`, `scip-*`: code-intelligence indexers, wrong domain and language mix.\n\n---\n\n### Conclusion\n\n**No functionally comparable implementation exists in the active search context.**\n\nEvery repository in scope fails at least one deterministic eligibility criterion \u2014 most fail criterion 1 (language), criterion 3 (engineering intent), or criterion 5 (upstream mirror). The active context is dominated by:\n\n- Pinned OSS library mirrors (`sg-evals/*`)\n- Java/Spring ecosystem projects\n- Rust/Go infrastructure tooling\n- JavaScript/TypeScript design-tooling\n\nNone implement the combination that defines the reference: a **Python agent-evaluation pipeline** that extracts quantitative signals from `result.json`/`trajectory.json` trial directories, applies a versioned behavioral taxonomy through rule-based + LLM + classifier annotation, and exports annotated datasets to DuckDB/Parquet with calibration and inter-annotator agreement metrics. The reference implementation is functionally unique within this search context."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:07:17Z",
+        "input": [
+          {
+            "question": {
+              "text": "Using @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Find comparable repository implementations for sjarmak agent diagnostics at a specific revision",
+    "updateTime": "2026-07-29T03:10:03Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/59b79171-6bc9-44ad-a9f4-6039f6225fdb"
+  },
+  "run_id": "sha256:b8d8118720efbc15e81dace4258b96b2f99a1d43fe42a5ca50389269e0b4b55a",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "sjarmak/agent-diagnostics"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

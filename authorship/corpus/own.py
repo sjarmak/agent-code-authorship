@@ -30,11 +30,10 @@ from __future__ import annotations
 import argparse
 import json
 import subprocess
-import sys
 from pathlib import Path
 
 from authorship import paths, sg
-from authorship.languages import EXT_LANG, ext_of
+from authorship.languages import EXT_LANG, SKIP_PATH, ext_of
 from authorship.features import vector
 
 OUT = paths.OWN_CORPUS
@@ -115,7 +114,7 @@ def clone(full_name: str) -> Path | None:
 def code_files(repo_dir: Path) -> list[str]:
     names = _git(repo_dir, "ls-files").splitlines()
     return [p for p in names
-            if EXT_LANG.get(ext_of(p)) and not any(s in p for s in SKIP_FRAGMENTS)]
+            if EXT_LANG.get(ext_of(p)) and not SKIP_PATH(p.lower())]
 
 
 def commit_size(repo_dir: Path, sha: str, cache: dict[str, int]) -> int:

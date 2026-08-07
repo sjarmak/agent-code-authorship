@@ -1,0 +1,117 @@
+{
+  "$schema": "sourcegraph-ai-ban-review-worksheet.schema.json",
+  "ambiguous_resolution": "distinct_secondary_then_distinct_resolver",
+  "classifier_outcomes_consulted": false,
+  "openai_api_key_used": false,
+  "outcomes_consulted": false,
+  "paid_api_used": false,
+  "predecessors": {
+    "case_index_file_sha256": "369145e65c6201e3782c8b35f42f667ca6fd122424babae24a5499596ed54cc4",
+    "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+    "control_evidence_file_sha256": "caefa0e4772ec67a7309ea433e149ec82311818075661cf55ed3b83a429a600e",
+    "index_manifest_file_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "packet_index_sha256": "ab92e8b06192f655553d4e58f03c97a4dd4f7fb32e354d254eb10fe0c75006ff",
+    "prior_decision_ledger_sha256": "c4441b67f5eaaa9fb85aacbda7970ac680c9bec6c99095952585af73e7e1efa2",
+    "specification_sha256": "16d40cc007a84fa92da01e2393f6ea65dc4870031487832d4147970f9d95bd3d",
+    "workflow_sha256": "6e25e2283f0b85681016bc6c579fc4b40f222df4973ca6dc584ae85027c64361"
+  },
+  "review_version": 3,
+  "scip_required": false,
+  "semantic_policy_decisions_made": false,
+  "stopping_rule": "earliest_accepted_policy_event",
+  "survival_outcomes_consulted": false,
+  "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+  "task_count": 1,
+  "tasks": [
+    {
+      "allowed_decisions": [
+        "accept_policy",
+        "ambiguous",
+        "insufficient",
+        "reject"
+      ],
+      "candidate_count": 9,
+      "candidate_event": {
+        "commit_oid": "6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+        "observed_at": "2025-10-31T22:13:04Z"
+      },
+      "candidate_position": 6,
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "canonical_source_url": "https://github.com/yt-dlp/yt-dlp",
+      "cutoff_commit": "fdcc954df4955267ec1627cbeb347b661a110e7c",
+      "event_id": "0e783f7356921dc47eaa7d727d9d21888ca1e6de3e16406ed1cff077dd0fd082",
+      "evidence": [
+        {
+          "packet_id": "5d96c4e2786a6cfda79be36b9b9ee30a5e957b667949f1e559e9101c8f716286",
+          "packet_sha256": "a2e8a5b99b5c4692ae61e47f7cffbb77e9c335cb7b5b9b39beba5de1f9c5f8fd",
+          "query_family_id": "ai_ban_policy_files",
+          "raw_evidence": [
+            {
+              "commit_oid": "6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+              "kind": "file_content",
+              "line": 69,
+              "path": "yt_dlp/extractor/youtube/jsc/README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/jsc/README.md#L70",
+              "value": "        # Raise yt_dlp.extractor.youtube.jsc.provider.JsChallengeProviderRejectedRequest if the request is not supported."
+            },
+            {
+              "commit_oid": "6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+              "kind": "blame",
+              "line": 69,
+              "path": "yt_dlp/extractor/youtube/jsc/README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+              "value": "cutoff blame attributes Sourcegraph line 69 to commit 6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc"
+            },
+            {
+              "commit_oid": "6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+              "kind": "file_content",
+              "line": 71,
+              "path": "yt_dlp/extractor/youtube/jsc/README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/yt_dlp/extractor/youtube/jsc/README.md#L72",
+              "value": "            raise JsChallengeProviderRejectedRequest('Challenges longer than 255 are not supported', expected=True)"
+            },
+            {
+              "commit_oid": "6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+              "kind": "blame",
+              "line": 71,
+              "path": "yt_dlp/extractor/youtube/jsc/README.md",
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+              "value": "cutoff blame attributes Sourcegraph line 71 to commit 6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc"
+            }
+          ]
+        },
+        {
+          "packet_id": "824e85a9712e9ac348a1d39ff08dfc5a5cd7a97ae1af77a250b3fa215c730b8f",
+          "packet_sha256": "d60c491280c46b3edfaf00523c1e4e36bd072589856169a85eab4af421a9f2d5",
+          "query_family_id": "ai_ban_policy_introduction_diffs",
+          "raw_evidence": [
+            {
+              "commit_oid": "6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+              "kind": "diff_added",
+              "line": null,
+              "path": null,
+              "source_url": "https://github.com/yt-dlp/yt-dlp/commit/6224a3898821965a7d6a2cb9cc2de40a0fd6e6bc",
+              "value": "/dev/null yt_dlp/extractor/youtube/jsc/README.md\n@@ -0,0 +69,5 @@ \n+        # \u2139\ufe0f If you need to do additional validation on the requests.\n+        # Raise yt_dlp.extractor.youtube.jsc.provider.JsChallengeProviderRejectedRequest if the request is not supported.\n+        if len(\"something\") > 255:\n+            raise JsChallengeProviderRejectedRequest('Challenges longer than 255 are not supported', expected=True)\n+            \n"
+            }
+          ]
+        }
+      ],
+      "outcomes_consulted": false,
+      "packet_ids": [
+        "5d96c4e2786a6cfda79be36b9b9ee30a5e957b667949f1e559e9101c8f716286",
+        "824e85a9712e9ac348a1d39ff08dfc5a5cd7a97ae1af77a250b3fa215c730b8f"
+      ],
+      "query_family_ids": [
+        "ai_ban_policy_files",
+        "ai_ban_policy_introduction_diffs"
+      ],
+      "review_question": "Does this default-branch event introduce a repository-wide prohibition on AI-generated code contributions? Training or data-use restrictions alone do not qualify.",
+      "review_role": "primary",
+      "sourcegraph_name": "github.com/sg-evals/yt-dlp-yt-dlp",
+      "target_manifest_sha256": "b8d997feaae216e7db0a11e2f209f6af9942353a1a01b2d55eda3cdb56d4a38b",
+      "task_id": "c5af9a3a262ddf7c2a9b9b9da798faeb1bd74be7802084ad9b9ff25e92a1f70f",
+      "task_sha256": "86497a7b2dca91ca56ef60f82331fd1c9b9591debacbdfd0d49ca99511d8bcae"
+    }
+  ],
+  "worksheet_sha256": "0897fef7783c481735d5cd1de8faef030ddec40521f41878604d392e3a189c13"
+}

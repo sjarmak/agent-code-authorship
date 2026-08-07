@@ -26,8 +26,6 @@ Usage: python3 -m authorship.signals [--lang Python] [--top 18]
 from __future__ import annotations
 
 import argparse
-import sys
-
 import numpy as np
 
 from authorship import data as fp_data

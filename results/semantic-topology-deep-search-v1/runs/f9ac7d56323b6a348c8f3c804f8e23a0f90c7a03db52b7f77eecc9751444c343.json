@@ -1,0 +1,58 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "4b36904c95fbdfd4f50c686663157b7de433751a76fb08b98def218b8497e9f0",
+  "artifact_version": 1,
+  "canonical_repository_id": "superseriousbusiness/gotosocial",
+  "citation_extraction_status": "none_extracted_from_api_response",
+  "cited_commits": [],
+  "cited_files": [],
+  "conversation_identity": "users/476/conversations/2041",
+  "error": {
+    "code": "ERROR_TOKEN_LIMIT_EXCEEDED",
+    "message": "The search could not be completed, please try again with more defined context."
+  },
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Using @github.com/sg-evals/superseriousbusiness-gotosocial at revision 3722d124433d2087a97f68689fea934610703783 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: superseriousbusiness/gotosocial; stratum: policy_control; cutoff: 3722d124433d2087a97f68689fea934610703783.",
+  "prompt_family_id": "semantic_controls",
+  "prompt_sha256": "fb5c5cc28eb2fb644b1a217bd338ca790aa907632dc7ad57e13f06667d80bb53",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:42:34Z",
+    "name": "users/476/conversations/2041",
+    "questions": [
+      {
+        "createTime": "2026-07-29T03:42:34Z",
+        "input": [
+          {
+            "question": {
+              "text": "Using @github.com/sg-evals/superseriousbusiness-gotosocial at revision 3722d124433d2087a97f68689fea934610703783 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: superseriousbusiness/gotosocial; stratum: policy_control; cutoff: 3722d124433d2087a97f68689fea934610703783."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "error": {
+        "code": "ERROR_TOKEN_LIMIT_EXCEEDED",
+        "message": "The search could not be completed, please try again with more defined context."
+      }
+    },
+    "title": "Find functionally comparable implementations across repositories for gotosocial (policy control)",
+    "updateTime": "2026-07-29T03:46:18Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/959c452f-ca2a-477b-bbdc-a120dab756af"
+  },
+  "run_id": "sha256:f9ac7d56323b6a348c8f3c804f8e23a0f90c7a03db52b7f77eecc9751444c343",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "superseriousbusiness/gotosocial"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "error"
+}

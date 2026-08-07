@@ -1,0 +1,23 @@
+[
+  {
+    "response_version": 3,
+    "worksheet_sha256": "44d2c18bb54023e83e8c4a13d158b0a290569700a8580da055d6e7ae45b22bb9",
+    "task_id": "3627767834d72bb43f5568ede274aacb4bb9e53681cb2ee247af1703eb0d1550",
+    "task_sha256": "7930906f2dfb07a994f3d46922da3da04fb2b1ed9c603a35868db18ba83e4440",
+    "canonical_repository_id": "yt-dlp/yt-dlp",
+    "event_id": "dc173eea5407670b2439655f0ea0bf7e7adf1869c3b16dce4c03decbc86ce15a",
+    "review_role": "primary",
+    "reviewer_id": "ai-ban-primary-a",
+    "decision": "reject",
+    "default_branch_supported": false,
+    "policy_scope": "not_applicable",
+    "evidence_tier": "not_applicable",
+    "rationale": "The dated change only corrects a typo in the feature-proposal instructions and contains no prohibition on AI-generated or AI-authored contributions.",
+    "evidence_citations": [
+      "https://github.com/yt-dlp/yt-dlp/commit/47ab66db0f083a76c7fba0f6e136b21dd5a93e3b",
+      "https://github.com/yt-dlp/yt-dlp/blob/fdcc954df4955267ec1627cbeb347b661a110e7c/CONTRIBUTING.md#L215"
+    ],
+    "outcomes_consulted": false,
+    "response_sha256": "384b85264f619bd6bdc97484c78ea98fe205f3a99e6f4000a02a69d2a8528f97"
+  }
+]

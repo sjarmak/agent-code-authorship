@@ -12,7 +12,27 @@ report.html
 __pycache__/
 *.py[cod]
 .DS_Store
+*.swp
 .venv/
+
+# Local verification outputs
+.coverage
+.ecc/
+test-results/
+
+# Large, rebuildable Sourcegraph execution outputs. Compact reports, frozen
+# protocols, final estimates, and the rendered investigation remain tracked.
+results/commit-message-authorship-heuristic.v1.json
+results/commit-message-era-expansion.v1.json
+results/multiview-commit-detector.v1.json
+results/sourcegraph-authorship-units-v1/
+results/sourcegraph-authorship-units-v1-obsolete-shards-*/
+results/sourcegraph-blame-v3/
+results/sourcegraph-discovery-partitions-v3/
+results/sourcegraph-discovery-v3/
+results/sourcegraph-evidence-packets.pre-blame.v3.json
+results/sourcegraph-evidence-packets.v3.json
+results/sourcegraph-repository-cases-v3/
 
 # Beads / Dolt files (added by bd init)
 .dolt/

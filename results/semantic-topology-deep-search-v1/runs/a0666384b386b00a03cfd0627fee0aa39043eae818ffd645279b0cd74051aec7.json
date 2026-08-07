@@ -1,0 +1,110 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "dea81b8ba5b907c7a8ae1272b53059ec452b1b0c0b6d8ebafcd98b6c2279b7c8",
+  "artifact_version": 1,
+  "canonical_repository_id": "3b1b/manim",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a"
+  ],
+  "cited_files": [
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".gitignore",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.gitignore?L1-L2"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".github/workflows/docs.yml",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/docs.yml"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".github/workflows/publish.yml",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/publish.yml"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/PULL_REQUEST_TEMPLATE.md"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/ISSUE_TEMPLATE/bug_report.md"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".github/ISSUE_TEMPLATE/error-when-using.md",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/ISSUE_TEMPLATE/error-when-using.md"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a",
+      "path": "setup.cfg",
+      "repository": "github.com/sg-evals/3b1b-manim",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/setup.cfg?L3-L5"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2044",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/3b1b-manim at revision a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum pre_2023_context; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: 3b1b/manim; study cutoff: 6199a00d4c1b1127ebe45cb629c3f22538b10e13.",
+  "prompt_family_id": "adoption_configuration",
+  "prompt_sha256": "1882f245004cb019b657f5ac4fe62d1e2ac7075191a2c4cbb8d274ab7b7afcb1",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "Here is the complete analysis of artifacts at revision `a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a`:\n\n---\n\n## Candidate Observations\n\n### 1. No AI/agent configuration files present\n\n**Observation:** The repository contains no files associated with coding agents or generative AI configuration: no `.github/copilot-instructions.md`, no `.cursor/`, no `.aider*`, no `AGENTS.md`, no `CODEOWNERS` with bot entries, no `copilot-workspace*`, no `.claude*`, no prompt/session artifacts, and no `llms.txt`.\n\n**Cited artifacts checked:**\n- [`.github/`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/tree/.github) \u2014 contains only `ISSUE_TEMPLATE/`, `workflows/`, and `PULL_REQUEST_TEMPLATE.md`\n- [`manimlib/`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/tree/manimlib) \u2014 standard Python library directory, no agent scaffolding\n- Root level: `.gitignore`, `README.md`, `pyproject.toml`, `setup.cfg`, `setup.py`, `requirements.txt`, `MANIFEST.in`, `LICENSE.md`, `example_scenes.py` \u2014 none contain AI tooling references\n\n---\n\n### 2. `.gitignore` generated by gitignore.io (Toptal service), not an AI tool\n\n**Observation:** The [`.gitignore`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.gitignore?L1-L2) bears the header `# Created by https://www.toptal.com/developers/gitignore/api/python`. This is a deterministic template service, not a generative AI. No AI-generated content markers are present.\n\n---\n\n### 3. GitHub Actions workflows: no AI/bot actions invoked\n\n**Observation:** Both workflows ([`docs.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/docs.yml), [`publish.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/publish.yml)) perform exclusively conventional CI tasks: Sphinx doc build + GitHub Pages deploy, and PyPI package publish via `twine`. No AI review actions (e.g., `github/copilot-code-review`, `coderabbitai`, `sweep-ai/*`) are configured.\n\n---\n\n### 4. Pull request template: no AI-disclosure or bot-review fields\n\n**Observation:** [`PULL_REQUEST_TEMPLATE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/PULL_REQUEST_TEMPLATE.md) requires only **Motivation**, **Proposed changes**, and **Test** (code + result). No checkbox or field asks whether AI tools were used to produce the contribution.\n\n---\n\n### 5. Issue templates: no bot assignees or AI routing labels\n\n**Observation:** [`bug_report.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/ISSUE_TEMPLATE/bug_report.md) and [`error-when-using.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/ISSUE_TEMPLATE/error-when-using.md) have `assignees: ''` (blank). [`config.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/ISSUE_TEMPLATE/config.yml) routes questions to GitHub Discussions \u2014 no bot identity is registered.\n\n---\n\n### 6. `setup.cfg` authorship is a named human\n\n**Observation:** [`setup.cfg`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/setup.cfg?L3-L5) records `author = Grant Sanderson` / `author_email = grant@3blue1brown.com`. No machine-generated or AI co-author metadata.\n\n---\n\n## Proposed Deterministic Sourcegraph Queries (Corpus-Wide)\n\nEach query is designed to test a specific observation class across the study corpus.\n\n**OBS-1 \u2014 Copilot instruction files**\n```\nfile:(^|/)\\.github/copilot-instructions\\.md repo:sg-evals\n```\n\n**OBS-1b \u2014 Agent/AI root config files**\n```\nfile:(^|/)(AGENTS\\.md|\\.cursorrules|\\.aider.*|llms\\.txt|\\.claude.*) repo:sg-evals\n```\n\n**OBS-1c \u2014 Cursor project directories**\n```\nfile:^\\.cursor/ repo:sg-evals\n```\n\n**OBS-2 \u2014 gitignore.io generated headers (template service, not AI)**\n```\nrepo:sg-evals file:\\.gitignore \"toptal.com/developers/gitignore\"\n```\n\n**OBS-3a \u2014 AI-powered GitHub Actions (Copilot review, Sweep, CodeRabbit, etc.)**\n```\nrepo:sg-evals file:^\\.github/workflows/ (coderabbitai OR sweep-ai OR copilot-code-review OR \"github/copilot\")\n```\n\n**OBS-3b \u2014 Any workflow step referencing AI/LLM tools**\n```\nrepo:sg-evals file:^\\.github/workflows/ (openai OR anthropic OR chatgpt OR llm OR \"ai review\")\n```\n\n**OBS-4 \u2014 PR templates with AI-use disclosure checkboxes**\n```\nrepo:sg-evals file:PULL_REQUEST_TEMPLATE (\"AI\" OR \"copilot\" OR \"generated\" OR \"LLM\" OR \"ChatGPT\")\n```\n\n**OBS-5 \u2014 Issue template bot assignees**\n```\nrepo:sg-evals file:^\\.github/ISSUE_TEMPLATE/ \"assignees:\" (bot OR copilot OR sweep OR coderabbit)\n```\n\n**OBS-5b \u2014 GitHub Actions with bot-identity triggers**\n```\nrepo:sg-evals file:^\\.github/workflows/ (\"app/copilot\" OR \"app/sweep\" OR \"app/coderabbitai\")\n```\n\n**OBS-6 \u2014 setup.cfg / pyproject with non-human author patterns**\n```\nrepo:sg-evals file:(setup\\.cfg|pyproject\\.toml) author (bot OR generated OR openai OR copilot)\n```\n\n**Bonus \u2014 Broad scan for generative AI disclosure in any tracked file**\n```\nrepo:sg-evals (\"generated by\" OR \"co-authored-by\" OR \"AI-generated\" OR \"GPT\" OR \"Claude\" OR \"Copilot\") file:\\.(md|txt|py|yml|yaml|toml|cfg)$\n```\n\n---\n\n**Summary:** At the study revision, `3b1b/manim` contains **no evidence** of coding agent configuration, AI invocation, AI-generated content disclosure, bot identities, or AI-gated review policies. All infrastructure artifacts (workflows, templates, `.gitignore`) follow conventional human-operated open-source patterns consistent with a pre-2023 project of this type. No positive signals were found for any of the candidate classes.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:44:33Z",
+    "name": "users/476/conversations/2044",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "Here is the complete analysis of artifacts at revision `a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a`:\n\n---\n\n## Candidate Observations\n\n### 1. No AI/agent configuration files present\n\n**Observation:** The repository contains no files associated with coding agents or generative AI configuration: no `.github/copilot-instructions.md`, no `.cursor/`, no `.aider*`, no `AGENTS.md`, no `CODEOWNERS` with bot entries, no `copilot-workspace*`, no `.claude*`, no prompt/session artifacts, and no `llms.txt`.\n\n**Cited artifacts checked:**\n- [`.github/`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/tree/.github) \u2014 contains only `ISSUE_TEMPLATE/`, `workflows/`, and `PULL_REQUEST_TEMPLATE.md`\n- [`manimlib/`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/tree/manimlib) \u2014 standard Python library directory, no agent scaffolding\n- Root level: `.gitignore`, `README.md`, `pyproject.toml`, `setup.cfg`, `setup.py`, `requirements.txt`, `MANIFEST.in`, `LICENSE.md`, `example_scenes.py` \u2014 none contain AI tooling references\n\n---\n\n### 2. `.gitignore` generated by gitignore.io (Toptal service), not an AI tool\n\n**Observation:** The [`.gitignore`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.gitignore?L1-L2) bears the header `# Created by https://www.toptal.com/developers/gitignore/api/python`. This is a deterministic template service, not a generative AI. No AI-generated content markers are present.\n\n---\n\n### 3. GitHub Actions workflows: no AI/bot actions invoked\n\n**Observation:** Both workflows ([`docs.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/docs.yml), [`publish.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/workflows/publish.yml)) perform exclusively conventional CI tasks: Sphinx doc build + GitHub Pages deploy, and PyPI package publish via `twine`. No AI review actions (e.g., `github/copilot-code-review`, `coderabbitai`, `sweep-ai/*`) are configured.\n\n---\n\n### 4. Pull request template: no AI-disclosure or bot-review fields\n\n**Observation:** [`PULL_REQUEST_TEMPLATE.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/PULL_REQUEST_TEMPLATE.md) requires only **Motivation**, **Proposed changes**, and **Test** (code + result). No checkbox or field asks whether AI tools were used to produce the contribution.\n\n---\n\n### 5. Issue templates: no bot assignees or AI routing labels\n\n**Observation:** [`bug_report.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/ISSUE_TEMPLATE/bug_report.md) and [`error-when-using.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/ISSUE_TEMPLATE/error-when-using.md) have `assignees: ''` (blank). [`config.yml`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/.github/ISSUE_TEMPLATE/config.yml) routes questions to GitHub Discussions \u2014 no bot identity is registered.\n\n---\n\n### 6. `setup.cfg` authorship is a named human\n\n**Observation:** [`setup.cfg`](https://demo.sourcegraph.com/r/github.com/sg-evals/3b1b-manim@a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a/-/blob/setup.cfg?L3-L5) records `author = Grant Sanderson` / `author_email = grant@3blue1brown.com`. No machine-generated or AI co-author metadata.\n\n---\n\n## Proposed Deterministic Sourcegraph Queries (Corpus-Wide)\n\nEach query is designed to test a specific observation class across the study corpus.\n\n**OBS-1 \u2014 Copilot instruction files**\n```\nfile:(^|/)\\.github/copilot-instructions\\.md repo:sg-evals\n```\n\n**OBS-1b \u2014 Agent/AI root config files**\n```\nfile:(^|/)(AGENTS\\.md|\\.cursorrules|\\.aider.*|llms\\.txt|\\.claude.*) repo:sg-evals\n```\n\n**OBS-1c \u2014 Cursor project directories**\n```\nfile:^\\.cursor/ repo:sg-evals\n```\n\n**OBS-2 \u2014 gitignore.io generated headers (template service, not AI)**\n```\nrepo:sg-evals file:\\.gitignore \"toptal.com/developers/gitignore\"\n```\n\n**OBS-3a \u2014 AI-powered GitHub Actions (Copilot review, Sweep, CodeRabbit, etc.)**\n```\nrepo:sg-evals file:^\\.github/workflows/ (coderabbitai OR sweep-ai OR copilot-code-review OR \"github/copilot\")\n```\n\n**OBS-3b \u2014 Any workflow step referencing AI/LLM tools**\n```\nrepo:sg-evals file:^\\.github/workflows/ (openai OR anthropic OR chatgpt OR llm OR \"ai review\")\n```\n\n**OBS-4 \u2014 PR templates with AI-use disclosure checkboxes**\n```\nrepo:sg-evals file:PULL_REQUEST_TEMPLATE (\"AI\" OR \"copilot\" OR \"generated\" OR \"LLM\" OR \"ChatGPT\")\n```\n\n**OBS-5 \u2014 Issue template bot assignees**\n```\nrepo:sg-evals file:^\\.github/ISSUE_TEMPLATE/ \"assignees:\" (bot OR copilot OR sweep OR coderabbit)\n```\n\n**OBS-5b \u2014 GitHub Actions with bot-identity triggers**\n```\nrepo:sg-evals file:^\\.github/workflows/ (\"app/copilot\" OR \"app/sweep\" OR \"app/coderabbitai\")\n```\n\n**OBS-6 \u2014 setup.cfg / pyproject with non-human author patterns**\n```\nrepo:sg-evals file:(setup\\.cfg|pyproject\\.toml) author (bot OR generated OR openai OR copilot)\n```\n\n**Bonus \u2014 Broad scan for generative AI disclosure in any tracked file**\n```\nrepo:sg-evals (\"generated by\" OR \"co-authored-by\" OR \"AI-generated\" OR \"GPT\" OR \"Claude\" OR \"Copilot\") file:\\.(md|txt|py|yml|yaml|toml|cfg)$\n```\n\n---\n\n**Summary:** At the study revision, `3b1b/manim` contains **no evidence** of coding agent configuration, AI invocation, AI-generated content disclosure, bot identities, or AI-gated review policies. All infrastructure artifacts (workflows, templates, `.gitignore`) follow conventional human-operated open-source patterns consistent with a pre-2023 project of this type. No positive signals were found for any of the candidate classes."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:44:33Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/3b1b-manim at revision a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum pre_2023_context; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: 3b1b/manim; study cutoff: 6199a00d4c1b1127ebe45cb629c3f22538b10e13."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Investigate GitHub repository artifacts for coding agents or generative AI configuration",
+    "updateTime": "2026-07-29T03:45:29Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/de2edaa2-e049-4e9a-9209-33ac8eea6e2b"
+  },
+  "run_id": "sha256:a0666384b386b00a03cfd0627fee0aa39043eae818ffd645279b0cd74051aec7",
+  "search_context": {
+    "context_revision_kind": "last_default_branch_commit_before_2023",
+    "repository": "3b1b/manim"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

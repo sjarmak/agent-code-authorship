@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-evidence-packet-index.schema.json",
+  "title": "Sourcegraph evidence packet index v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "packet_index_version",
+    "specification_sha256",
+    "source_result_manifest_sha256s",
+    "packet_count",
+    "pending_file_enrichment_count",
+    "sourcegraph_line_number_basis",
+    "source_url_line_anchor_basis",
+    "packets",
+    "pending_file_enrichments",
+    "outcomes_consulted",
+    "packet_index_sha256"
+  ],
+  "properties": {
+    "packet_index_version": {
+      "const": 3
+    },
+    "specification_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "source_result_manifest_sha256s": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/sha256"
+      }
+    },
+    "packet_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "pending_file_enrichment_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sourcegraph_line_number_basis": {
+      "const": "zero_based_as_returned_by_graphql"
+    },
+    "source_url_line_anchor_basis": {
+      "const": "one_based"
+    },
+    "packets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "packet_id",
+          "packet_sha256"
+        ],
+        "properties": {
+          "packet_id": {
+            "$ref": "#/$defs/sha256"
+          },
+          "packet_sha256": {
+            "$ref": "#/$defs/sha256"
+          }
+        }
+      }
+    },
+    "pending_file_enrichments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/pendingEnrichment"
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "packet_index_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "resultId": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "pendingEnrichment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "result_manifest_sha256",
+        "sourcegraph_result_id",
+        "canonical_repository_id",
+        "sourcegraph_name",
+        "cutoff_commit",
+        "path",
+        "sourcegraph_line_numbers",
+        "required_enrichment"
+      ],
+      "properties": {
+        "result_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "sourcegraph_result_id": {
+          "$ref": "#/$defs/resultId"
+        },
+        "canonical_repository_id": {
+          "type": "string",
+          "pattern": "^[^/]+/[^/]+$"
+        },
+        "sourcegraph_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cutoff_commit": {
+          "$ref": "#/$defs/sha1"
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourcegraph_line_numbers": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required_enrichment": {
+          "const": "cutoff_pinned_blame"
+        }
+      }
+    }
+  }
+}

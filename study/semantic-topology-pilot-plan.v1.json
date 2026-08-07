@@ -1,0 +1,1394 @@
+{
+  "$schema": "semantic-topology-pilot-plan.schema.json",
+  "plan_version": 1,
+  "status": "preregistered_pre_execution",
+  "cutoff": "2026-07-24T23:59:59Z",
+  "outcomes_consulted": false,
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "input_artifacts": [
+    "study/repositories.v1.json",
+    "study/semantic-topology-pre2023-revisions.v1.json",
+    "study/sourcegraph-index-manifest.v3.json",
+    "study/survival-candidates.v1.json",
+    "study/targets.v1.json"
+  ],
+  "input_sha256": {
+    "study/repositories.v1.json": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+    "study/semantic-topology-pre2023-revisions.v1.json": "545c87ba8e2c4e5eff6fe05acf02c353b09811553584423358d58be5bb9a50a2",
+    "study/sourcegraph-index-manifest.v3.json": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "study/survival-candidates.v1.json": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837",
+    "study/targets.v1.json": "e2d4c7b90fb1276fc979935b60628eafb9c053f4f5a971df115eb3f6fab23238"
+  },
+  "repositories": [
+    {
+      "canonical_repository_id": "gastownhall/beads",
+      "canonical_source_url": "https://github.com/gastownhall/beads",
+      "sourcegraph_name": "github.com/sg-evals/gastownhall-beads",
+      "cutoff_commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c",
+      "stratum": "agent_native",
+      "selection_basis": "frozen_priority_among_tier1_entire_history_attestations",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "41f3bfe6f22d9b8b90775cae01a785d99df3f63c"
+      }
+    },
+    {
+      "canonical_repository_id": "gastownhall/gascity",
+      "canonical_source_url": "https://github.com/gastownhall/gascity",
+      "sourcegraph_name": "github.com/sg-evals/gastownhall-gascity",
+      "cutoff_commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4",
+      "stratum": "agent_native",
+      "selection_basis": "frozen_priority_among_tier1_entire_history_attestations",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "bd7c9dac0b305b94893f3382f66cb129536d1be4"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "canonical_source_url": "https://github.com/sjarmak/agent-diagnostics",
+      "sourcegraph_name": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "cutoff_commit": "e973e4ec1d4a325b5d739562ce87586127c973ed",
+      "stratum": "agent_native",
+      "selection_basis": "frozen_priority_among_tier1_entire_history_attestations",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "e973e4ec1d4a325b5d739562ce87586127c973ed"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "canonical_source_url": "https://github.com/sjarmak/codeprobe",
+      "sourcegraph_name": "github.com/sg-evals/sjarmak-codeprobe",
+      "cutoff_commit": "6052fec96850a06b18527a9bb8e41243bc1cbdb1",
+      "stratum": "agent_native",
+      "selection_basis": "frozen_priority_among_tier1_entire_history_attestations",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "6052fec96850a06b18527a9bb8e41243bc1cbdb1"
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "canonical_source_url": "https://github.com/sjarmak/scix-agent",
+      "sourcegraph_name": "github.com/sg-evals/sjarmak-scix-agent",
+      "cutoff_commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a",
+      "stratum": "agent_native",
+      "selection_basis": "frozen_priority_among_tier1_entire_history_attestations",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "dd618037f61035bd62f1e7a620029c6b4867ab6a"
+      }
+    },
+    {
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "canonical_source_url": "https://github.com/graphql-python/graphql-server",
+      "sourcegraph_name": "github.com/sg-evals/graphql-python-graphql-server",
+      "cutoff_commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+      "stratum": "attributable_agent",
+      "selection_basis": "lowest_frozen_selection_key",
+      "source_artifact": "study/survival-candidates.v1.json",
+      "source_sha256": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9"
+      },
+      "introduction_event": {
+        "agent_family": "OpenAI_Codex",
+        "provenance_tier": 2,
+        "commit_shas": [
+          "1f8bb6da75428ad93a4a41e1b730ccf73e425481",
+          "5e5eb1e7c4745520f347b6e24e7556dc1392d51b"
+        ],
+        "first_merged_at": "2025-07-04T23:24:34Z",
+        "language": "Python"
+      }
+    },
+    {
+      "canonical_repository_id": "vdaas/vald",
+      "canonical_source_url": "https://github.com/vdaas/vald",
+      "sourcegraph_name": "github.com/sg-evals/vdaas-vald",
+      "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+      "stratum": "attributable_agent",
+      "selection_basis": "lowest_frozen_selection_key",
+      "source_artifact": "study/survival-candidates.v1.json",
+      "source_sha256": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97"
+      },
+      "introduction_event": {
+        "agent_family": "Devin",
+        "provenance_tier": 2,
+        "commit_shas": [
+          "180ed091cbe6c29c108d1d6f44cf899ff2929c28",
+          "4713715c2381b7e92d3c7173312ce0521399d141",
+          "500049d33a706c1a66ff856f8430550dda8091fd",
+          "7b53f2f3fd2f631f9f4ff25d670e6ca8c72d709c",
+          "7bdd47b0fc076d1bd99a77271c1ac10c06f2d49f",
+          "7bee9ea54baf07155bdb644c0d2040f6cb8660ce",
+          "812b6b8f66f7af6dafc79f7c72cc13fa40399377",
+          "bbd487c583524963962313805faf1b3d4ed9c5e5",
+          "cc0a473a53a4b719f2b01a960c71e11e8258f635",
+          "d6b11d0e603e470c1ff763294e8502e5456d0516",
+          "e6bf7260f9b209778a0a6f17d1f8fb9848d09a85",
+          "e9fabe9d12827c83325aa90e4464e3e6e91dbdae"
+        ],
+        "first_merged_at": "2025-05-29T05:00:58Z",
+        "language": "Go"
+      }
+    },
+    {
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "canonical_source_url": "https://github.com/jeroenterheerdt/HAsmartirrigation",
+      "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+      "stratum": "attributable_agent",
+      "selection_basis": "lowest_frozen_selection_key",
+      "source_artifact": "study/survival-candidates.v1.json",
+      "source_sha256": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a"
+      },
+      "introduction_event": {
+        "agent_family": "Copilot",
+        "provenance_tier": 2,
+        "commit_shas": [
+          "05c8bbbb4d51104d5bb77a733736a7e2f959a2cc",
+          "299f04f13fce9def2e39c0a5543132813aa301a1",
+          "315560ead498740dd7b636bbe23d42d88cf19b08",
+          "3d339e3b26157d3d5f5f8b6baa2abb03fdb59356",
+          "4386f65aaccb6bb5d6d5c31e331d3bdc288e3558",
+          "4857c6ab5de9efadb717c24f29d6d96f195d5bda",
+          "4a783e5e75bb25013a735c386ef8d16a36569962",
+          "4c3af3f49b1d80885a5b8155af1ce549c218a38d",
+          "4e808dd3487eebaccda6c2733157b2921750f185",
+          "50984f5952081643266e51c827a0e17f0e54ffcc",
+          "5db8abf6669a35d29ae846f01e5c7fc0922caf7f",
+          "61bcbb5b8df37a1d28eede5636a109994b53a42e",
+          "6490dfb1a6f387f7cf82170d356304c36764b2c3",
+          "787eb46ecbaeab1b43c2c9881a88392e56352a49",
+          "8581349789d3666680d2376632d395de5145ef61",
+          "9295ab84b23a6532a597b9b26bacd8589086f7c6",
+          "959d5da3fc1177426846bb45a70476e8fc72371b",
+          "9efef6ef46bb33e9f90c382fdd96dcc027ab0343",
+          "a0ce4080cc87587e8e681990524d8a7fa87aa2a6",
+          "aa75af445242f2f2950012451879117bb9a61529",
+          "ab6383ef2cecd5de68cc4e0b9fa0a1373daf028b",
+          "bf07df0828f4e752f8b61a366503e10b4d99b2b0",
+          "d7c2f731b3dfe221e43bf67b8b12990f735d9ba0",
+          "e106efb202e6be168633fc2ad6907c8660734999",
+          "ec836ca63b21c9148f422d709a606f135f0edeb7",
+          "ef0dc99a03935516d1f57d463abf4ba4ea102e80",
+          "f8c74e9f763dc7776a01237f9ef22954d0fbe196"
+        ],
+        "first_merged_at": "2025-07-12T18:29:39Z",
+        "language": "Python"
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "canonical_source_url": "https://github.com/Azure/azure-sdk-for-python",
+      "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python",
+      "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+      "stratum": "attributable_agent",
+      "selection_basis": "lowest_frozen_selection_key",
+      "source_artifact": "study/survival-candidates.v1.json",
+      "source_sha256": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b"
+      },
+      "introduction_event": {
+        "agent_family": "Copilot",
+        "provenance_tier": 2,
+        "commit_shas": [
+          "072478963b3078af3d445871ad4925f3a6c49748",
+          "10714e1853532e9ae738d0913a2aaa870e65bc58",
+          "21be37511f6b4bea12164ff3be4ef82aebd9dce7",
+          "2b613299e62b5f86dcfc75820b2ff4c32a86b523",
+          "34222af040e7fde4ab2e17145945f21f55d83940",
+          "37b1f01b4d81d4c18525fe4fbe86b05989fa99b9",
+          "39f80763aed51a6c02936e87282a88c84303c2cf",
+          "3b6b9e3d1f0ba7624760f6ce24a2ffad7c2112b5",
+          "3cae1b0c30a83a2b18fed751de9f76f68068f26a",
+          "3f50031b2c99a2a222ebc04204622d14cf6c6aca",
+          "4b71dc47ed60c86272dbe97e0a3e080ecf4045ec",
+          "4d48a5d6bc621fe1e983fa281672b81a29005a9d",
+          "53c11d737f149676be918d99414229454f4358aa",
+          "549202cc2703766e7575cf951ee5de2035fe314e",
+          "6858c320af4409d9b469686b696f0bf9ef452b70",
+          "6d59d09f2789c526be9b7f119216d27003f77833",
+          "7b82d253dd7b30d4def1245f3abb1798beaddaf0",
+          "8cd6833deac4564d8cd39892b513aae52cedb9b6",
+          "93ca5ca0ae492d1a71f700c2b11d5d03a4c53ac0",
+          "a75172db2f1c003c76887a305c3125f2ba425025",
+          "a76fdf5f713f043d825f401272e8e69598e07e4b",
+          "b8d43ed242839d45dcef3682b03accf14ae26f80",
+          "b97cc4ebbcbf5a2dc7a3f2c014fd7ecaf7f5d335",
+          "bb2b1d6d2ac4c65c9c8e0a5563d51ed4ad3ec4bd",
+          "c47c493e4509e0fc32845acbe711b96bce3b1403",
+          "c64f2db136b11d3ca1e44a1c46e8f593279167b2",
+          "d971077dae4d594eeca953b60467fbf987f97a5f",
+          "e33b1b1f1705ae3988f8a9c3199b3d7ff52aae9d",
+          "ef418165b3649ffd4b6a89d7ddb66ed7c244723a",
+          "f700946995b6b06d32090b2acbab1f58e05a61cf",
+          "febb0929b0e0e1245c072cb5809bf7063e01fb9b"
+        ],
+        "first_merged_at": "2025-05-27T22:57:52Z",
+        "language": "Python"
+      }
+    },
+    {
+      "canonical_repository_id": "0xfurai/peekaping",
+      "canonical_source_url": "https://github.com/0xfurai/peekaping",
+      "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping",
+      "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+      "stratum": "attributable_agent",
+      "selection_basis": "lowest_frozen_selection_key",
+      "source_artifact": "study/survival-candidates.v1.json",
+      "source_sha256": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e"
+      },
+      "introduction_event": {
+        "agent_family": "Cursor",
+        "provenance_tier": 2,
+        "commit_shas": [
+          "03bb384d2e33dd5d9c2bbe8aaeb87bcb3de9b5a4",
+          "041fb3ed20017b21a10c0d52e77a112370408d47",
+          "0e031d747a16df5f65f8e4755f5d1413f4ed6098",
+          "117e7d7633029c4c738414161040c1b5c78e21ca",
+          "1c0c301152b9f2420e8507aea5c4b6b9e1251951",
+          "278a29ac3b8d90353dec895e10aeffe4f38ef40a",
+          "2a7e012afe935827c310a6205f451308dd3a81a3",
+          "347ccdf6d99ca3fc900ffe6046519027eba2783e",
+          "3ac00411d86809d1192e2f5c75685b6b8fc557f0",
+          "421a51e242e9d77399b13db06ddba4f66b3f8f78",
+          "432c4b0e201e693c7c2cb16790b14743ffa52ef2",
+          "4b17e3afd1c3840548b9505befe08476cb5d3347",
+          "5121cbcfb3aaf868b788b99568cfc71f7f1c8640",
+          "561b5d993b6971edf7c1c271452f6967f49d5a74",
+          "7168bb3d70647edcf0420da71443a4bbe4e3b591",
+          "74b30f9f27af1e6514792c781ec5cb6e6fde5b5c",
+          "7635b282f7ddcc0d4096bf9b5dcbc28d6f878d05",
+          "764684560a5f6c12257ccf6101ab1ba85d644616",
+          "78f282d31317a492c86c831bc08c7b61410a764d",
+          "79ff5632802abcc5563a77ff385e57048d383c18",
+          "8ab3c756a34d0f1b8c9a9a454504649002673f97",
+          "8d985eecf5d1571ae6ff48e340c9ba3e97fa96e9",
+          "968035c53a59f21675ee3b80ccee6c47bbf66a69",
+          "97cd8d58a16292e13a3eec3c58925ebabb2f5cb2",
+          "9b17e1019328d533893b9589b97edfb6724f67b6",
+          "9cc0fbfc73d90c5f049ae7f4b56bb249479b2463",
+          "a7cc0dab1476e163ee9e531938d0340cb86e0b68",
+          "b66c02992c437acbfacc11dc5c74144c86ea24d7",
+          "c600ef27b2456fcc5756100126982bc85ad64f68",
+          "ceb2dbac5004115668d9cfec731d8d1800f80978",
+          "cee67925497f2562978300b94ec0ab4e6b307d75",
+          "d2d4110d54da94fa3a00e235c999a18145d8b1d6",
+          "dac8b7850236f7503baa3d70c2944709309a935f",
+          "f120ccb8c021724ea0239bce9879e32ddcffe799",
+          "f56db9e8d4c5233f136e106fa07fa30699181c21"
+        ],
+        "first_merged_at": "2025-07-13T23:08:01Z",
+        "language": "Go"
+      }
+    },
+    {
+      "canonical_repository_id": "asahilinux/m1n1",
+      "canonical_source_url": "https://github.com/AsahiLinux/m1n1",
+      "sourcegraph_name": "github.com/sg-evals/asahilinux-m1n1",
+      "cutoff_commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce",
+      "stratum": "policy_control",
+      "selection_basis": "lexicographic_tier1_repository_policy",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "7c7716b6a196c7e601f9f22bb8af335c1b8173ce"
+      },
+      "introduction_event": {
+        "policy_effective_from": "2026-07-21T18:22:44Z",
+        "policy_introduced_commit": "c9a03479bc2b0d1d97f77f61f6a0f8b277789cc3"
+      }
+    },
+    {
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "canonical_source_url": "https://projects.torsion.org/borgmatic-collective/borgmatic",
+      "sourcegraph_name": "github.com/sg-evals/borgmatic-collective-borgmatic",
+      "cutoff_commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "stratum": "policy_control",
+      "selection_basis": "lexicographic_tier1_repository_policy",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b"
+      },
+      "introduction_event": {
+        "policy_effective_from": "2026-02-19T19:11:57Z",
+        "policy_introduced_commit": "67eb48e6433beaab5b7472ceb190219d5b724149"
+      }
+    },
+    {
+      "canonical_repository_id": "poezio/poezio",
+      "canonical_source_url": "https://codeberg.org/poezio/poezio",
+      "sourcegraph_name": "github.com/sg-evals/poezio-poezio",
+      "cutoff_commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5",
+      "stratum": "policy_control",
+      "selection_basis": "lexicographic_tier1_repository_policy",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5"
+      },
+      "introduction_event": {
+        "policy_effective_from": "2026-03-22T18:38:08Z",
+        "policy_introduced_commit": "c41effcbc6e91ad800be15bd83f1f9ea58cff275"
+      }
+    },
+    {
+      "canonical_repository_id": "qemu-project/qemu",
+      "canonical_source_url": "https://gitlab.com/qemu-project/qemu",
+      "sourcegraph_name": "github.com/sg-evals/qemu-project-qemu",
+      "cutoff_commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "stratum": "policy_control",
+      "selection_basis": "lexicographic_tier1_repository_policy",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587"
+      },
+      "introduction_event": {
+        "policy_effective_from": "2025-06-24T14:37:56Z",
+        "policy_introduced_commit": "3d40db0efc22520fa6c399cf73960dced423b048"
+      }
+    },
+    {
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "canonical_source_url": "https://codeberg.org/superseriousbusiness/gotosocial",
+      "sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "cutoff_commit": "3722d124433d2087a97f68689fea934610703783",
+      "stratum": "policy_control",
+      "selection_basis": "lexicographic_tier1_repository_policy",
+      "source_artifact": "study/repositories.v1.json",
+      "source_sha256": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+      "context_revision": {
+        "kind": "cutoff",
+        "status": "resolved",
+        "commit": "3722d124433d2087a97f68689fea934610703783"
+      },
+      "introduction_event": {
+        "policy_effective_from": "2023-08-09T13:47:03Z",
+        "policy_introduced_commit": "31a215849e301f9e98a4735fd95a0fb0b7fc6f24"
+      }
+    },
+    {
+      "canonical_repository_id": "2dust/v2rayn",
+      "canonical_source_url": "https://github.com/2dust/v2rayN",
+      "sourcegraph_name": "github.com/sg-evals/2dust-v2rayN",
+      "cutoff_commit": "cf8dd45abe3dd54667a3ce0e6923695acbf10823",
+      "stratum": "pre_2023_context",
+      "selection_basis": "frozen_lexicographic_unlabeled_target_with_pre2023_revision",
+      "source_artifact": "study/semantic-topology-pre2023-revisions.v1.json",
+      "source_sha256": "545c87ba8e2c4e5eff6fe05acf02c353b09811553584423358d58be5bb9a50a2",
+      "context_revision": {
+        "kind": "last_default_branch_commit_before_2023",
+        "status": "resolved",
+        "commit": "b48037b7579ab524c106c555cce165e089ebf1dc"
+      }
+    },
+    {
+      "canonical_repository_id": "3b1b/manim",
+      "canonical_source_url": "https://github.com/3b1b/manim",
+      "sourcegraph_name": "github.com/sg-evals/3b1b-manim",
+      "cutoff_commit": "6199a00d4c1b1127ebe45cb629c3f22538b10e13",
+      "stratum": "pre_2023_context",
+      "selection_basis": "frozen_lexicographic_unlabeled_target_with_pre2023_revision",
+      "source_artifact": "study/semantic-topology-pre2023-revisions.v1.json",
+      "source_sha256": "545c87ba8e2c4e5eff6fe05acf02c353b09811553584423358d58be5bb9a50a2",
+      "context_revision": {
+        "kind": "last_default_branch_commit_before_2023",
+        "status": "resolved",
+        "commit": "a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a"
+      }
+    },
+    {
+      "canonical_repository_id": "angular/angular",
+      "canonical_source_url": "https://github.com/angular/angular",
+      "sourcegraph_name": "github.com/sg-evals/angular-angular",
+      "cutoff_commit": "5ad823139758b4d3a8a021d378b008c3457f8689",
+      "stratum": "pre_2023_context",
+      "selection_basis": "frozen_lexicographic_unlabeled_target_with_pre2023_revision",
+      "source_artifact": "study/semantic-topology-pre2023-revisions.v1.json",
+      "source_sha256": "545c87ba8e2c4e5eff6fe05acf02c353b09811553584423358d58be5bb9a50a2",
+      "context_revision": {
+        "kind": "last_default_branch_commit_before_2023",
+        "status": "resolved",
+        "commit": "27da7338ea8f3bf5336d77ed1877cfa6a1974d52"
+      }
+    },
+    {
+      "canonical_repository_id": "ansible/ansible",
+      "canonical_source_url": "https://github.com/ansible/ansible",
+      "sourcegraph_name": "github.com/sg-evals/ansible-ansible",
+      "cutoff_commit": "76884711a617bfe59b417df11fbfc42016c99de8",
+      "stratum": "pre_2023_context",
+      "selection_basis": "frozen_lexicographic_unlabeled_target_with_pre2023_revision",
+      "source_artifact": "study/semantic-topology-pre2023-revisions.v1.json",
+      "source_sha256": "545c87ba8e2c4e5eff6fe05acf02c353b09811553584423358d58be5bb9a50a2",
+      "context_revision": {
+        "kind": "last_default_branch_commit_before_2023",
+        "status": "resolved",
+        "commit": "45df14a2e05573e6213ce789aa3278f4f30fa54f"
+      }
+    },
+    {
+      "canonical_repository_id": "ant-design/ant-design",
+      "canonical_source_url": "https://github.com/ant-design/ant-design",
+      "sourcegraph_name": "github.com/sg-evals/ant-design-ant-design",
+      "cutoff_commit": "29ea546eef68cf30079e66ed1b5751d881c8c86a",
+      "stratum": "pre_2023_context",
+      "selection_basis": "frozen_lexicographic_unlabeled_target_with_pre2023_revision",
+      "source_artifact": "study/semantic-topology-pre2023-revisions.v1.json",
+      "source_sha256": "545c87ba8e2c4e5eff6fe05acf02c353b09811553584423358d58be5bb9a50a2",
+      "context_revision": {
+        "kind": "last_default_branch_commit_before_2023",
+        "status": "resolved",
+        "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025"
+      }
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "sha256:e8e37f3da3171a42b52cae8553f85ccc3fc770f61074eadca97157e97ada6945",
+      "canonical_repository_id": "gastownhall/beads",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "0e7f3307005b8d47000ee136f29d1dee47d4d45a7763e3474cc108f7582980ba",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/gastownhall-beads at revision 41f3bfe6f22d9b8b90775cae01a785d99df3f63c, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum agent_native; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: gastownhall/beads; study cutoff: 41f3bfe6f22d9b8b90775cae01a785d99df3f63c.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:f071f0b8e31babeff76d03c501d4cfb2ecebf1202f5963843a40cb30dc9ac9dc",
+      "canonical_repository_id": "gastownhall/beads",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "4f765045d844cf6af481bd6cb66183de2fa26967f0ba8c48baa73c04e53e93d2",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/gastownhall-beads at revision 41f3bfe6f22d9b8b90775cae01a785d99df3f63c, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: gastownhall/beads; stratum: agent_native; cutoff: 41f3bfe6f22d9b8b90775cae01a785d99df3f63c.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:33567e7a42aa91a89ecd8cff3f8c01b9d4ee8e7b242d0223223e5c32d2a99364",
+      "canonical_repository_id": "gastownhall/beads",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "ee09a0728827daeb312854d5f75fe8bb4bf73abba2bfa9d1c4f03286d0113dad",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/gastownhall-beads at revision 41f3bfe6f22d9b8b90775cae01a785d99df3f63c, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: gastownhall/beads; stratum: agent_native; cutoff: 41f3bfe6f22d9b8b90775cae01a785d99df3f63c.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:5133dbbb510ae44a6b13517b78ed077257dca932bd12148faecb192a6be3842e",
+      "canonical_repository_id": "gastownhall/beads",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "961bf38d07e78097dd7fc7a33561f785a74fefe0bfb5201d3353f922cb2f38f5",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/gastownhall-beads at revision 41f3bfe6f22d9b8b90775cae01a785d99df3f63c as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: gastownhall/beads; stratum: agent_native; cutoff: 41f3bfe6f22d9b8b90775cae01a785d99df3f63c.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:9fe6b44ef66461a4deab87176fb1d4094127276385e19593b3de5e171014df6d",
+      "canonical_repository_id": "gastownhall/beads",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "0cf59a8d1bf04edb395cf71d869e13f22d3709343e1ebc32c8504e54e258cacc",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/gastownhall-beads at revision 41f3bfe6f22d9b8b90775cae01a785d99df3f63c, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: gastownhall/beads; stratum: agent_native; cutoff: 41f3bfe6f22d9b8b90775cae01a785d99df3f63c.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:0b91fbad0f7010970df4fc261f4b3bde4bdf429ff27402dc57286dd3f32fcf9a",
+      "canonical_repository_id": "gastownhall/gascity",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "3ad9b053b91fa23004c8a52b7468d29bfa6c590050388b91950c775f506b5b21",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/gastownhall-gascity at revision bd7c9dac0b305b94893f3382f66cb129536d1be4, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum agent_native; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: gastownhall/gascity; study cutoff: bd7c9dac0b305b94893f3382f66cb129536d1be4.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:7fd2b7957cc382dafec4fdd5a7cadf587230e016b083aabc94a3f2dfe4803798",
+      "canonical_repository_id": "gastownhall/gascity",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "b1863a068b553b8f2e1a9e5698beb791542b746aa2d349bef2e32b60c9f24a68",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/gastownhall-gascity at revision bd7c9dac0b305b94893f3382f66cb129536d1be4, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: gastownhall/gascity; stratum: agent_native; cutoff: bd7c9dac0b305b94893f3382f66cb129536d1be4.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:02e6594035cfa93ce643666c809dd6823e595ec30b0b2cd6abf163028990d91b",
+      "canonical_repository_id": "gastownhall/gascity",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "7e576ac4971eab495b615f0cb93ccd5fb27549f352ea71d44d7c834f2a46103e",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/gastownhall-gascity at revision bd7c9dac0b305b94893f3382f66cb129536d1be4, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: gastownhall/gascity; stratum: agent_native; cutoff: bd7c9dac0b305b94893f3382f66cb129536d1be4.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:82694363edf2b69517b70d3c5b77cdf1302ed6df8e63d4700edc4194bb5a4973",
+      "canonical_repository_id": "gastownhall/gascity",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "10437a68552788efb7ab88a16184d7ea788ca8189425ab3389eb80f915279a8c",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/gastownhall-gascity at revision bd7c9dac0b305b94893f3382f66cb129536d1be4 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: gastownhall/gascity; stratum: agent_native; cutoff: bd7c9dac0b305b94893f3382f66cb129536d1be4.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:0061265072d21aef1b91da833989b50e9e8a9864e104e1917ade7084688f7266",
+      "canonical_repository_id": "gastownhall/gascity",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "caa11c63a5994445c48aca8babcb1965d23f5c3a6e3fb35e341eb33e198e2944",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/gastownhall-gascity at revision bd7c9dac0b305b94893f3382f66cb129536d1be4, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: gastownhall/gascity; stratum: agent_native; cutoff: bd7c9dac0b305b94893f3382f66cb129536d1be4.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:8ea3325a11acbad9dcf8c64b7779f704c0826af3d5d734f263bbe1fb587a8fbb",
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "4b7963f9e838abff62265b50a15cdc0e21df4d59b9444d7c2a4ed8817d0228bc",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum agent_native; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: sjarmak/agent-diagnostics; study cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:558d1854f80cfd5354a4eb50c7d51b90f0084f09185c7d49b01fac10bc568c45",
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "9aa6b9bb3e6c51b1e4af4893b948f831fb1fc46176c03c37a0d25d3ccbf7e21c",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:1e70525cd36d4d3a6b30fcb06c7bf9a7158f6011bbc05760404fb48ec26e787a",
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "73e91d103e6e74c2e3110f3b0feed15c9c2b90323b107884afc67eef4c6da381",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:b8d8118720efbc15e81dace4258b96b2f99a1d43fe42a5ca50389269e0b4b55a",
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "78a3646b46fcd83f6bb5747c27b861d0aff60cdab8fdbc2916b24e48438d1ac1",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:09406d36f80839b163bfcc718d93bdecfd819d46240733266926b5e3dc0232bc",
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "e29cc7305f22500ea5abcb4bf816b500beb459d43a48bcd9455d8861e4cd080d",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-agent-diagnostics at revision e973e4ec1d4a325b5d739562ce87586127c973ed, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: sjarmak/agent-diagnostics; stratum: agent_native; cutoff: e973e4ec1d4a325b5d739562ce87586127c973ed.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ba3252149194576815d72d8908174ee965c7bf7abb057bdfeb71cf7ea7efc833",
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "406b10aa1ca849e8dd7f8510aa1745d620d51432528aebb14142b646a8b8e923",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-codeprobe at revision 6052fec96850a06b18527a9bb8e41243bc1cbdb1, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum agent_native; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: sjarmak/codeprobe; study cutoff: 6052fec96850a06b18527a9bb8e41243bc1cbdb1.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:cc767cd47bc1a702ca74f65aab404a57092e1e94cd230d1f35118c617a6140db",
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "cb1f589a76e6be8a92bc335e78b1f01b3654a82c03c1787547eff912ff27097e",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-codeprobe at revision 6052fec96850a06b18527a9bb8e41243bc1cbdb1, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: sjarmak/codeprobe; stratum: agent_native; cutoff: 6052fec96850a06b18527a9bb8e41243bc1cbdb1.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:c926079b2bb3826c73087b497774db97abb822da3fa847c2d448d26bb2ec1222",
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "4d2cbbb2a7e675360b2fce5b27209f5d88c76d6a99ebf3927948aa2818b95d59",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-codeprobe at revision 6052fec96850a06b18527a9bb8e41243bc1cbdb1, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: sjarmak/codeprobe; stratum: agent_native; cutoff: 6052fec96850a06b18527a9bb8e41243bc1cbdb1.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:f106a6551786337f9725d6e02cfadab5204fd85a17ef61679b755bbef738995a",
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "32bed9df72c88e1b37cec0c5b2184f328c20f5c9e944bd8856ff40aaf42019e5",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/sjarmak-codeprobe at revision 6052fec96850a06b18527a9bb8e41243bc1cbdb1 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: sjarmak/codeprobe; stratum: agent_native; cutoff: 6052fec96850a06b18527a9bb8e41243bc1cbdb1.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:dece1a36ad43c6fcfc12ac76c61a0d2162f91140d999834546d93cec111d07bf",
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "9dea21d6cc132ac39f6d3f557d8afe8c2005b8ecaeb5e6c6881bcf5ecd0cf604",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-codeprobe at revision 6052fec96850a06b18527a9bb8e41243bc1cbdb1, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: sjarmak/codeprobe; stratum: agent_native; cutoff: 6052fec96850a06b18527a9bb8e41243bc1cbdb1.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:fd9aead97913783c30482347cad37f79767c096902501d397cbed21e480149a9",
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "2f5dc8aa4ca0ae187e3c763d4bef5f1ea679744033baef11c2959d19ccfcf812",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-scix-agent at revision dd618037f61035bd62f1e7a620029c6b4867ab6a, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum agent_native; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: sjarmak/scix-agent; study cutoff: dd618037f61035bd62f1e7a620029c6b4867ab6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:97ffd71daed673a5beb9903613935a421bcda0c7424a16e0b4abfcee76ded8e1",
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "52c6683a76c2dba0ef543668a0852efb09efce340ef51e7695f72407b97aaab8",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-scix-agent at revision dd618037f61035bd62f1e7a620029c6b4867ab6a, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: sjarmak/scix-agent; stratum: agent_native; cutoff: dd618037f61035bd62f1e7a620029c6b4867ab6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:4ad7eb1dcb20a0eb4843b7caadd3aaeb2cbc2d049b4f4a8c56d098a12bd5aff3",
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "41774f0becf29c0e8cf0b0bd81ca7abd28396b69bcb561b4c8b1dfe1eecfc0fb",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-scix-agent at revision dd618037f61035bd62f1e7a620029c6b4867ab6a, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: sjarmak/scix-agent; stratum: agent_native; cutoff: dd618037f61035bd62f1e7a620029c6b4867ab6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:9a04d7bf9722ed9de357d82ac8c7412989d5f826cb50eb5b88f43454db2aa671",
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "c180ec0708703703924141f091f73713b677668533d29dd87df0607f7dca867b",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/sjarmak-scix-agent at revision dd618037f61035bd62f1e7a620029c6b4867ab6a as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: sjarmak/scix-agent; stratum: agent_native; cutoff: dd618037f61035bd62f1e7a620029c6b4867ab6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:8a08f95b53400d173eb905dbaab8176883fc50ea19ab9d0068592e5018b7ee17",
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "d9fb5a88701f4447d56500a5e638d6ad5388bfe93a01aaedcffd175325fc9dc0",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/sjarmak-scix-agent at revision dd618037f61035bd62f1e7a620029c6b4867ab6a, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: sjarmak/scix-agent; stratum: agent_native; cutoff: dd618037f61035bd62f1e7a620029c6b4867ab6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:9159ab37c704803ed1f2eee20fe6668ff4caf2755f48c660c1127297d099e826",
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "a709b46ad3a64b115a585d36afbaf570e374b5d6644395e7f4c50c62c037f38b",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: graphql-python/graphql-server; study cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:b3b79a78e6197d9e3f82c8b91d82f1671ce6a44946ad511806508381cffa3ffb",
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "9246b895d663b73c8031749f0970bb69285fce586663ffaeca48aef61fad883a",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: graphql-python/graphql-server; stratum: attributable_agent; cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:72c751b02fd58169a80bf17aeb1c2fe6345eec58f0107881a468a4e0cb2eabbc",
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "8c47c50ed0e63a41e40111cf1ccf414e58be83b9d1da977fc3322dc3e2f72870",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: graphql-python/graphql-server; stratum: attributable_agent; cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:c3c3fc2d139560ab3b1615a77b1b12f82041906c3f3d8575fc5bdc8df15cb3ad",
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "280d0feadbf026eccb1844a60219ed3b03be9c2b3637fe9ba1b0d06297e8d038",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: graphql-python/graphql-server; stratum: attributable_agent; cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ce8f95ae37463959bfa30a01ed4f6bb574306b8185fe18d0d0368f27faa77519",
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "d23d716b78e5ddc73f3fcf4826275b9a039a62f1af608d5de37f5e8a93006e2a",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/graphql-python-graphql-server at revision 2d5ac9539307d6db22b3364a61063e050c3f20b9, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: graphql-python/graphql-server; stratum: attributable_agent; cutoff: 2d5ac9539307d6db22b3364a61063e050c3f20b9.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:1dca8f81736a7bf2a1581f9bc003fe0e2eee11540661ed7d714c8c525a34c3ba",
+      "canonical_repository_id": "vdaas/vald",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "a598160d92f9de17ed0874e15849f1d6791f916346b341ce05c094c317e9940b",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: vdaas/vald; study cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ab8ee5f1bcce2732a262357ddf0d80418fbee72798ba604ccc5bfdb8c85546f3",
+      "canonical_repository_id": "vdaas/vald",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "8b88f2c22b93d6a571cfda0118ecd8e7f4ffaccd8fb939dd464f0ffd2420f2f6",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: vdaas/vald; stratum: attributable_agent; cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:f241a598380595ccf46d67ae771e1fbfa16c0a5640042ac6810603a5e886f09c",
+      "canonical_repository_id": "vdaas/vald",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "86330c84cdadace002f526e6153925012b969c0f4c32870753fb5c0d339180af",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: vdaas/vald; stratum: attributable_agent; cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:64357b8d5b18346083b6e7ed4e919de9ae0172f28ab60ea417dce75e187d1486",
+      "canonical_repository_id": "vdaas/vald",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "62121fe459eff4b4c27baec5be4ca9c05d9b24cca2faf4ba8a517872ffb24bbe",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: vdaas/vald; stratum: attributable_agent; cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:11698e92d603247d96d3b3eee20ab34529415b0f40e111ec9d47f3ffd51b334e",
+      "canonical_repository_id": "vdaas/vald",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "525ac0a470ecc66adfadad05e6762b205d7a1acd9158d7c3d4ea91093852c8aa",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/vdaas-vald at revision d50c5e731dedf7bc9dbe389bd9057c959198ac97, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: vdaas/vald; stratum: attributable_agent; cutoff: d50c5e731dedf7bc9dbe389bd9057c959198ac97.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:96195d0f5c16caa8f988ed202b945e9ef85ef4c5220884a031d36435663d4e90",
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "fa52278ff6794181ca1c9a223df5f2ee4a48b6ad86b32eb1d9bae632fc988d7f",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: jeroenterheerdt/hasmartirrigation; study cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:10b85f770c4b7e7c909a7959e98513ca25a28277def7bf2e439cd1e5cb844f1c",
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "55b2066a7a43f8088dd8247d2c481dbc41af697799545fc6d99f15f94f9621e8",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:281a4d8f56f901065df010d58c0f7a6628c29349f3b662e26cdc61be79cd0235",
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "831545a962c94c734229104776696244933da88e22460ee73fcb8caf18b33607",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:c56ed303f68738ad668c457353e193c4f5a9fbbf3565a3e25c99dcd7096d6198",
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "1029bff7cc67b9533973e55fe49d473ce73bb862143251e49b7440c2036bafb2",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:36efdf4245cc9250d0f206cb789bd90629e8762b3e3387109ba68cc840c55c2c",
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "ca25401f854648273aecf3a4280b0b5a96adbebedb80303cf5f016c8be95e6d0",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/jeroenterheerdt-hasmartirrigation at revision 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: jeroenterheerdt/hasmartirrigation; stratum: attributable_agent; cutoff: 9ad5a7d90ac2c42288536a6264cdc8adbea39b6a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:986979769e1a8829b16ae522b5dd5e5fc798e763463bf48a8c48ff0751045be5",
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "cce9773707f68629972ef88b755b9486808bcd5151c320560cfd0a0ae173fc23",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/azure-azure-sdk-for-python at revision 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: azure/azure-sdk-for-python; study cutoff: 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:73f86e65bd5d376eb8879e591a070a8963f588185a6848734e9f70559f95c99d",
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "88330ba8ba2db78971615c4c7ce177fa65147fdfaf5a1d6eb2285cb722740c30",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/azure-azure-sdk-for-python at revision 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: azure/azure-sdk-for-python; stratum: attributable_agent; cutoff: 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:acd3d9e8c4e5e6edd966a58c239ba472ea8fecb7d7c5eba71a7d1ad84ba78ae7",
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "814c12c3f7333415afec7edbcfe1a1157e343788fdb010701d439a06a8b6deb6",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/azure-azure-sdk-for-python at revision 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: azure/azure-sdk-for-python; stratum: attributable_agent; cutoff: 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:5c5f29e6ca903f14616ba4bd34140f46bfa45cd022e1c46bd135a9d78cc9e6c3",
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "a9cdb7f48c0bc43c106947ed54ae7459c451cbc24006b1e6e1e9b0c56c931f63",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/azure-azure-sdk-for-python at revision 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: azure/azure-sdk-for-python; stratum: attributable_agent; cutoff: 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:717258f7808cf926e6605d9709f5da1037808e15871cf5f5a0f90219a32996c0",
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "01a1ea7fee77c9c0db9341f604a5424c0fa1074075cd47ff2c0b94a3a8bf8202",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/azure-azure-sdk-for-python at revision 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: azure/azure-sdk-for-python; stratum: attributable_agent; cutoff: 7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:0010023c26afd91d1ddf4d48bd5711715f0c2ad61519648a8c7f9a06eeb8dead",
+      "canonical_repository_id": "0xfurai/peekaping",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "260a5d2a54ec470907b25193a199cad93a1ea94b038a6682ad2b161e6833b7f3",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/0xfurai-peekaping at revision 742a60d94fdaacc977c09444b651f7cf1c1aab9e, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum attributable_agent; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: 0xfurai/peekaping; study cutoff: 742a60d94fdaacc977c09444b651f7cf1c1aab9e.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:d080310d78a62af43507966baee22ad0a384719df1481978a187638261e2b5c7",
+      "canonical_repository_id": "0xfurai/peekaping",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "540ce09cb00c75e1b3cb307eab65f28c3b1f77c38bdbd5552628180d6c638cc3",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/0xfurai-peekaping at revision 742a60d94fdaacc977c09444b651f7cf1c1aab9e, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: 0xfurai/peekaping; stratum: attributable_agent; cutoff: 742a60d94fdaacc977c09444b651f7cf1c1aab9e.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ed76c5e8f36e66ffd1f78a72d7bbee67f3f698a17d98ae007fda65dea5eb7c4d",
+      "canonical_repository_id": "0xfurai/peekaping",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "67c784a460e7e9682c45b72ad0e7ea9f396ca5ad4084a0444832756b966dc5d9",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/0xfurai-peekaping at revision 742a60d94fdaacc977c09444b651f7cf1c1aab9e, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: 0xfurai/peekaping; stratum: attributable_agent; cutoff: 742a60d94fdaacc977c09444b651f7cf1c1aab9e.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:9907046a78d4fcf13aea6d0573969b4ddc48501451c49d6aa78b8207a570c9c0",
+      "canonical_repository_id": "0xfurai/peekaping",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "8ae2efb66d649669a6abaa52a9d4dac47af17bc54a3fa005f46ac3e46eeb7c55",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/0xfurai-peekaping at revision 742a60d94fdaacc977c09444b651f7cf1c1aab9e as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: 0xfurai/peekaping; stratum: attributable_agent; cutoff: 742a60d94fdaacc977c09444b651f7cf1c1aab9e.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ff9bacec9e5cb5843aaf132485f246645bfb9237fa4af3ad6d88d14050b7a877",
+      "canonical_repository_id": "0xfurai/peekaping",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "2e1138d1fb5c3198581856dca11e6c0be4aa4c52dcc3f7d196a1d329956e82e9",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/0xfurai-peekaping at revision 742a60d94fdaacc977c09444b651f7cf1c1aab9e, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: 0xfurai/peekaping; stratum: attributable_agent; cutoff: 742a60d94fdaacc977c09444b651f7cf1c1aab9e.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ab9d4766a13f7a13c629153a0781bb6313c891daeaad6279f852ec956d1ce26a",
+      "canonical_repository_id": "asahilinux/m1n1",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "2c6e0e73187ee83379eb43c64448ad3edcdb78ba984015b223a9e6b66e39a3c4",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/asahilinux-m1n1 at revision 7c7716b6a196c7e601f9f22bb8af335c1b8173ce, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum policy_control; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: asahilinux/m1n1; study cutoff: 7c7716b6a196c7e601f9f22bb8af335c1b8173ce.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:aa52114be8d2fa3de63069a6fa30a8149ec1b7b13e5c57b04669f5213e3c79a4",
+      "canonical_repository_id": "asahilinux/m1n1",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "add2f53f4c2f4c80877c29525e51007e09b32e7f39392ed4eec734ecf04feb9d",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/asahilinux-m1n1 at revision 7c7716b6a196c7e601f9f22bb8af335c1b8173ce, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: asahilinux/m1n1; stratum: policy_control; cutoff: 7c7716b6a196c7e601f9f22bb8af335c1b8173ce.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:f7a551fedf034226952e9af4508b706e8ac8d1c10eeb64ada2a4816cbf78b4d5",
+      "canonical_repository_id": "asahilinux/m1n1",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "c41f21044353465846a8d184e49f66a528827c2774f0d118b6f28c90eebad354",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/asahilinux-m1n1 at revision 7c7716b6a196c7e601f9f22bb8af335c1b8173ce, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: asahilinux/m1n1; stratum: policy_control; cutoff: 7c7716b6a196c7e601f9f22bb8af335c1b8173ce.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ae6c051d9f08ca477fb934725dc1b109a30a1857d6eac864b4134716f434e807",
+      "canonical_repository_id": "asahilinux/m1n1",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "735c089fc0860e848d0f4692ecd27afd2aac05aaa356a2ab071a6178a34b8d8f",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/asahilinux-m1n1 at revision 7c7716b6a196c7e601f9f22bb8af335c1b8173ce as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: asahilinux/m1n1; stratum: policy_control; cutoff: 7c7716b6a196c7e601f9f22bb8af335c1b8173ce.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:1845b846f3587b58b493b1d0810494a83e8d09707708dd630e8f01073bfbc6d0",
+      "canonical_repository_id": "asahilinux/m1n1",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "e0afb1ea490ef81eb2a171d7ea11c7ef148082a3c83c1c12fd0697391ac9b500",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/asahilinux-m1n1 at revision 7c7716b6a196c7e601f9f22bb8af335c1b8173ce, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: asahilinux/m1n1; stratum: policy_control; cutoff: 7c7716b6a196c7e601f9f22bb8af335c1b8173ce.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:4a03d52e6585ce9debb0ce864f9771237d7dde20670b45b4917f5e67cf8fb0fa",
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "6666371677a9269051802071f43522805b9e54a2ed6cd49763c236777238af34",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/borgmatic-collective-borgmatic at revision dbc3fc356ce58a1a8a37422b387ca22f7b3a651b, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum policy_control; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: borgmatic-collective/borgmatic; study cutoff: dbc3fc356ce58a1a8a37422b387ca22f7b3a651b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:a0ca033908268cbd6a98c66a1dc44597e6ea001be892b80fc38d60cc3c738e1a",
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "61dfd002bc2462500013a6d5211e7ddc807d9c77e90350fec2720697ace5520d",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/borgmatic-collective-borgmatic at revision dbc3fc356ce58a1a8a37422b387ca22f7b3a651b, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: borgmatic-collective/borgmatic; stratum: policy_control; cutoff: dbc3fc356ce58a1a8a37422b387ca22f7b3a651b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:473f80b56af5cd0d7ccb3b36a3464d0057b15a8339d3e61f3667fc480e35ac82",
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "2fc4386fad177f96b9852ea96dbebe34f93823baecb752e6930bbe300c04924e",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/borgmatic-collective-borgmatic at revision dbc3fc356ce58a1a8a37422b387ca22f7b3a651b, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: borgmatic-collective/borgmatic; stratum: policy_control; cutoff: dbc3fc356ce58a1a8a37422b387ca22f7b3a651b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:e9a9ad5fcf5ebf0c63aa67e59c9fa8b0d24cd03894fe103944ef3717a525267e",
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "8c2f496febcdd5187c3357f4618f33bb1246db469468a98fb867325e043ebb08",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/borgmatic-collective-borgmatic at revision dbc3fc356ce58a1a8a37422b387ca22f7b3a651b as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: borgmatic-collective/borgmatic; stratum: policy_control; cutoff: dbc3fc356ce58a1a8a37422b387ca22f7b3a651b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:72de97a7b4cd1f9f15cc46741b66a57cf9c18f17b1f85c4ecb8c3e8b47351594",
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "72e29faa702966c23bf7f9b11d9555c2dc7316fa05023a63cdec23a6be9e256e",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/borgmatic-collective-borgmatic at revision dbc3fc356ce58a1a8a37422b387ca22f7b3a651b, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: borgmatic-collective/borgmatic; stratum: policy_control; cutoff: dbc3fc356ce58a1a8a37422b387ca22f7b3a651b.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:7ea3d8b9d51926ce2da2ab1d37e9a97483e4ce40d47b6aeb608fca05c0ade4f5",
+      "canonical_repository_id": "poezio/poezio",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "5c0989f33ecc1448855673e5e357335130331a6a28c2a0cc99b6e5af92945371",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/poezio-poezio at revision 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum policy_control; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: poezio/poezio; study cutoff: 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:4af89bb7c855d7beb42a57f1309d854a63994b0da550fe04e1b8473a6442ec68",
+      "canonical_repository_id": "poezio/poezio",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "759452ab41451ccb7c6ac5b0c2438cac419f7ef7d7e95780beb1599eab1102db",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/poezio-poezio at revision 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: poezio/poezio; stratum: policy_control; cutoff: 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:7ffae92e99aeef0e24c995074605edbe94b49f25723a990c969834779af8c9c2",
+      "canonical_repository_id": "poezio/poezio",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "72ed25c5b8f7d282c0d13ab519bcf8f9dc9d105bf47ee4769afd4031631c8a29",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/poezio-poezio at revision 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: poezio/poezio; stratum: policy_control; cutoff: 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:8713990d7f4d0e7fa3066f706fe86e2a56766447091900cc7893fac521ec8d92",
+      "canonical_repository_id": "poezio/poezio",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "d0ea1e55b074060a1938d1ed094e17d27eae014f8e9c21e2443313cef9ab7981",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/poezio-poezio at revision 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: poezio/poezio; stratum: policy_control; cutoff: 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:b958c2eb9dfbd7b7a0d45c9058bdc7719ac165193ce6620eca550f7e079d4a16",
+      "canonical_repository_id": "poezio/poezio",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "be4525a24a9966d13852f9bd184ada079bad5e35fcfe61b5fed14b8105ad9d20",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/poezio-poezio at revision 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: poezio/poezio; stratum: policy_control; cutoff: 9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:b0eded6e389a00bd637709797dddcb09753884535c3b6c74702ff401e31654de",
+      "canonical_repository_id": "qemu-project/qemu",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "71381a5a6347347d370cdb28b7536dcd9179d23bba2e89328c3ea1af2e82854c",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/qemu-project-qemu at revision 300438ffbb8d9430cac2fcc15cba6f482b2c0587, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum policy_control; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: qemu-project/qemu; study cutoff: 300438ffbb8d9430cac2fcc15cba6f482b2c0587.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:9fd0a6d7017c8170929e2bbeb099c876cbf96519fe68172f3d6d633d61190ca9",
+      "canonical_repository_id": "qemu-project/qemu",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "18a897e93bdd1bcb5bc8eeb6b35444bc0355a5dd2cae5bb5201207c4a0949fb6",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/qemu-project-qemu at revision 300438ffbb8d9430cac2fcc15cba6f482b2c0587, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: qemu-project/qemu; stratum: policy_control; cutoff: 300438ffbb8d9430cac2fcc15cba6f482b2c0587.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:10687aff3d6793820f2266a1afc6998183d7baf8eab00f56eeba7dde8af820fb",
+      "canonical_repository_id": "qemu-project/qemu",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "6b92eece06cf4924cbc4b3195177b271ee40ce605bfbf8a5b1cb967398c4fee5",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/qemu-project-qemu at revision 300438ffbb8d9430cac2fcc15cba6f482b2c0587, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: qemu-project/qemu; stratum: policy_control; cutoff: 300438ffbb8d9430cac2fcc15cba6f482b2c0587.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:a35f237551f172e84fe00c0da7da82fa15bccbdb6244d57f5ba8b3fd1dc6936d",
+      "canonical_repository_id": "qemu-project/qemu",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "3d777afce7e8297437a4b5c16cd1b91c31eae7a6553ca5bb90dd442a6abd41b9",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/qemu-project-qemu at revision 300438ffbb8d9430cac2fcc15cba6f482b2c0587 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: qemu-project/qemu; stratum: policy_control; cutoff: 300438ffbb8d9430cac2fcc15cba6f482b2c0587.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:02167d2794f802ade78f16a1bb8e217a47873cefd65eee4a205a920b2ac3f861",
+      "canonical_repository_id": "qemu-project/qemu",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "e6339d21b734e83d03baeaccee7a367db647235d23bae2d18e535565f002edb0",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/qemu-project-qemu at revision 300438ffbb8d9430cac2fcc15cba6f482b2c0587, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: qemu-project/qemu; stratum: policy_control; cutoff: 300438ffbb8d9430cac2fcc15cba6f482b2c0587.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:98abe4609108efdd9889facb861be6ebc588b55499672b41262339005842715e",
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "d7fcf093af81488bbc34ae7d917028f0b4a4ca29c90d1ad09e9269c5b0e33a59",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/superseriousbusiness-gotosocial at revision 3722d124433d2087a97f68689fea934610703783, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum policy_control; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: superseriousbusiness/gotosocial; study cutoff: 3722d124433d2087a97f68689fea934610703783.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:6926864bf5fb69db738a628bc8405e170029d00a2fda0d410ca1a9d8de2ced39",
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "cd1f35f6fc1e7ceeec2e127c2c3d466d415ba7f28a77e2216e01f75cb7d7ffd3",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/superseriousbusiness-gotosocial at revision 3722d124433d2087a97f68689fea934610703783, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: superseriousbusiness/gotosocial; stratum: policy_control; cutoff: 3722d124433d2087a97f68689fea934610703783.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ef8c102f39567c0dc31dcaaff397e4d453cd9fba0e53edda52f165dd726ebfdf",
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "750da022ad865e2598d1a280876d171e4203aee925fd1677e7b286c1630c904c",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/superseriousbusiness-gotosocial at revision 3722d124433d2087a97f68689fea934610703783, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: superseriousbusiness/gotosocial; stratum: policy_control; cutoff: 3722d124433d2087a97f68689fea934610703783.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:f9ac7d56323b6a348c8f3c804f8e23a0f90c7a03db52b7f77eecc9751444c343",
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "fb5c5cc28eb2fb644b1a217bd338ca790aa907632dc7ad57e13f06667d80bb53",
+      "context_revision_kind": "cutoff",
+      "prompt": "Using @github.com/sg-evals/superseriousbusiness-gotosocial at revision 3722d124433d2087a97f68689fea934610703783 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: superseriousbusiness/gotosocial; stratum: policy_control; cutoff: 3722d124433d2087a97f68689fea934610703783.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:1cf5fb3139e507561e49e6d12dbb6611c9f668d3c7659559278fb34a664abd91",
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "11dd00df6dcd514a2581bd79dabe500bf580439582991d2ab6b5ec0898aa3c8f",
+      "context_revision_kind": "cutoff",
+      "prompt": "Within @github.com/sg-evals/superseriousbusiness-gotosocial at revision 3722d124433d2087a97f68689fea934610703783, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: superseriousbusiness/gotosocial; stratum: policy_control; cutoff: 3722d124433d2087a97f68689fea934610703783.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:aece842ff389e2bd7b320eb54c0a39d0fb070a713225f9cf2e8b55bdae6add4e",
+      "canonical_repository_id": "2dust/v2rayn",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "7b24384c0fd29f5fe7b21e82e1cd94aa1417af35ed774032fbcf7751ef875800",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/2dust-v2rayN at revision b48037b7579ab524c106c555cce165e089ebf1dc, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum pre_2023_context; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: 2dust/v2rayn; study cutoff: cf8dd45abe3dd54667a3ce0e6923695acbf10823.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ca53f474e84453bd00d31368aba1109967b8e9b181c0c3c63d42f3c00add96d5",
+      "canonical_repository_id": "2dust/v2rayn",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "1408aef88249019278d842eb4f10c27adfa3a87e1ab8978787a9145e9c6eeebf",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/2dust-v2rayN at revision b48037b7579ab524c106c555cce165e089ebf1dc, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: 2dust/v2rayn; stratum: pre_2023_context; cutoff: cf8dd45abe3dd54667a3ce0e6923695acbf10823.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:84c59cab262212f657b5bf46fa555215bfc1455247fa434b1a58e2c51501f691",
+      "canonical_repository_id": "2dust/v2rayn",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "7b7a1ad7f7aadb8fefc944f524fe298724c129af6cd55f9be7bd355c0bdd4c6d",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/2dust-v2rayN at revision b48037b7579ab524c106c555cce165e089ebf1dc, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: 2dust/v2rayn; stratum: pre_2023_context; cutoff: cf8dd45abe3dd54667a3ce0e6923695acbf10823.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:ea4ccd097f12a0275cf27ae7c85b77fe790dbeddf6c0e466ba292e52ed8623a4",
+      "canonical_repository_id": "2dust/v2rayn",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "c596ca12f53c8123c529518cf632552f419aa23a28fcc092a07452326bfceaa7",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Using @github.com/sg-evals/2dust-v2rayN at revision b48037b7579ab524c106c555cce165e089ebf1dc as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: 2dust/v2rayn; stratum: pre_2023_context; cutoff: cf8dd45abe3dd54667a3ce0e6923695acbf10823.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:507dc53e44c85eaebd0e3264777c1a4fed33926cf1ab99b8c630f495ac8ff1f9",
+      "canonical_repository_id": "2dust/v2rayn",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "dc9760add0a7a436a74f78e233a7c88c92fcf03ceb2391f5a1882dd64fa7bb28",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/2dust-v2rayN at revision b48037b7579ab524c106c555cce165e089ebf1dc, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: 2dust/v2rayn; stratum: pre_2023_context; cutoff: cf8dd45abe3dd54667a3ce0e6923695acbf10823.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:a0666384b386b00a03cfd0627fee0aa39043eae818ffd645279b0cd74051aec7",
+      "canonical_repository_id": "3b1b/manim",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "1882f245004cb019b657f5ac4fe62d1e2ac7075191a2c4cbb8d274ab7b7afcb1",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/3b1b-manim at revision a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum pre_2023_context; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: 3b1b/manim; study cutoff: 6199a00d4c1b1127ebe45cb629c3f22538b10e13.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:b67fa150b12e99b5185a264a8b583288e802a819c18c2cf0b7940d45dcd78ff5",
+      "canonical_repository_id": "3b1b/manim",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "e2015755bf3675b4ba91dc3d8663529dfa4abd90af1a3781dd66d1af15c6ca3c",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/3b1b-manim at revision a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: 3b1b/manim; stratum: pre_2023_context; cutoff: 6199a00d4c1b1127ebe45cb629c3f22538b10e13.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:73f68bda8281e911d9c6d9a0398e2a123d3b7b5b63846c5a799aede8b35941d5",
+      "canonical_repository_id": "3b1b/manim",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "d5f1c73fdc5d60967fa9b67fa1809530459ebe89e58a6b8cbe954a89e4c5965c",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/3b1b-manim at revision a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: 3b1b/manim; stratum: pre_2023_context; cutoff: 6199a00d4c1b1127ebe45cb629c3f22538b10e13.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:e3b0055990006e46a23faac1a0a57b098247083c404ce1e2336ae6c095e26ac9",
+      "canonical_repository_id": "3b1b/manim",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "10d658eef7529576a9c4db1ad38897abcfceb50b574714e28a1bf6c8eaf6558b",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Using @github.com/sg-evals/3b1b-manim at revision a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: 3b1b/manim; stratum: pre_2023_context; cutoff: 6199a00d4c1b1127ebe45cb629c3f22538b10e13.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:d01427bae0eb66d6061f5a23b34b2756dce9e0f693f911388d77a8001fe64abe",
+      "canonical_repository_id": "3b1b/manim",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "3b5bad80a8e4351e855b104cf2fc9977e620be923894f1c978f85ba5b21031a7",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/3b1b-manim at revision a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: 3b1b/manim; stratum: pre_2023_context; cutoff: 6199a00d4c1b1127ebe45cb629c3f22538b10e13.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:4ee3b11445e83b3ed892f5d2df5beaead240fb2026f2c078ae56d808375370fb",
+      "canonical_repository_id": "angular/angular",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "0480b0172ca507029e162340e6222933a89b9f053b4a738003f6672fecae638d",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/angular-angular at revision 27da7338ea8f3bf5336d77ed1877cfa6a1974d52, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum pre_2023_context; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: angular/angular; study cutoff: 5ad823139758b4d3a8a021d378b008c3457f8689.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:f872a93bfdc2daccbdd9e34ad259b578b4efeb7e047a49da9ee6306d73ee771a",
+      "canonical_repository_id": "angular/angular",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "6a8be21a7a664098a6d9e17751f954445ee0ca13da80b5e9a2bf7ca762303cf2",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/angular-angular at revision 27da7338ea8f3bf5336d77ed1877cfa6a1974d52, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: angular/angular; stratum: pre_2023_context; cutoff: 5ad823139758b4d3a8a021d378b008c3457f8689.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:23dc209604d907c92177df310c44c7cc646437d98f53800ba98986095c72fa2a",
+      "canonical_repository_id": "angular/angular",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "a51894e7725e06e8a99d02698604451d425f13aef1a99d485b2af1d0ba691f97",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/angular-angular at revision 27da7338ea8f3bf5336d77ed1877cfa6a1974d52, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: angular/angular; stratum: pre_2023_context; cutoff: 5ad823139758b4d3a8a021d378b008c3457f8689.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:a7284c3aa063ce9a799fe752d2acae49dc57f949eed542d24f621f8876fa2b0c",
+      "canonical_repository_id": "angular/angular",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "541aed528448dd85ca22974cd04e69623d5c9f7c20e630df664fc8408823cb0e",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Using @github.com/sg-evals/angular-angular at revision 27da7338ea8f3bf5336d77ed1877cfa6a1974d52 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: angular/angular; stratum: pre_2023_context; cutoff: 5ad823139758b4d3a8a021d378b008c3457f8689.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:726f9fa5a15866bedce0dec37c7f0df198c66c437c91819c8b3f79a6716af68a",
+      "canonical_repository_id": "angular/angular",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "d1536fefe9f50d45dea549f1e0f2baa917db7f1ec4e871c9694bffa2888c1765",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/angular-angular at revision 27da7338ea8f3bf5336d77ed1877cfa6a1974d52, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: angular/angular; stratum: pre_2023_context; cutoff: 5ad823139758b4d3a8a021d378b008c3457f8689.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:22468373cac05f031658c070979091885f438f3e7bcaef02182996e62d048c1c",
+      "canonical_repository_id": "ansible/ansible",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "72e65494b083cd2f1360382352c2c9d4c8196e182d1eb1ed973e246da4876206",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/ansible-ansible at revision 45df14a2e05573e6213ce789aa3278f4f30fa54f, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum pre_2023_context; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: ansible/ansible; study cutoff: 76884711a617bfe59b417df11fbfc42016c99de8.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:d78457925fb8f35a3b06544b0086028c8fe8a5f047517dcb8b337e4bf4b11fd6",
+      "canonical_repository_id": "ansible/ansible",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "67eac03e4db3f62166dcc6b2120c7c34ea211851c8c8ec2e89d17229e369503b",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/ansible-ansible at revision 45df14a2e05573e6213ce789aa3278f4f30fa54f, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: ansible/ansible; stratum: pre_2023_context; cutoff: 76884711a617bfe59b417df11fbfc42016c99de8.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:6b19cb0bee0270680819e967abe5545b01e1392af23b0e4a4f03d61ce0dcc3dc",
+      "canonical_repository_id": "ansible/ansible",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "14544b37c560e2b8063960eb57427012c8adbe579bc7fceb6f0b6820f437f13e",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/ansible-ansible at revision 45df14a2e05573e6213ce789aa3278f4f30fa54f, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: ansible/ansible; stratum: pre_2023_context; cutoff: 76884711a617bfe59b417df11fbfc42016c99de8.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:3fdd8e617f26097d859cee26cb4f1834e4b0a5e4e0e446a04d203a1057ad6328",
+      "canonical_repository_id": "ansible/ansible",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "48cf590ef6c920d27b7c2c76002f5238038bfca100631663c224cc8a6f1baafc",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Using @github.com/sg-evals/ansible-ansible at revision 45df14a2e05573e6213ce789aa3278f4f30fa54f as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: ansible/ansible; stratum: pre_2023_context; cutoff: 76884711a617bfe59b417df11fbfc42016c99de8.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:1be0a507a4eced9640355abd619d480ffcb4e28ae9b361758b0eefed10e56609",
+      "canonical_repository_id": "ansible/ansible",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "4c72b0a34d5ddbcc56f80c15fabeae9ce358a258b6dc83e0ed47a0038acdc271",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/ansible-ansible at revision 45df14a2e05573e6213ce789aa3278f4f30fa54f, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: ansible/ansible; stratum: pre_2023_context; cutoff: 76884711a617bfe59b417df11fbfc42016c99de8.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:2cb4bfeeb1bd2c293b23658529b54ae68e8fb8fd4108794abb3aeecd1e76e367",
+      "canonical_repository_id": "ant-design/ant-design",
+      "prompt_family_id": "adoption_configuration",
+      "prompt_sha256": "9df03960894e3504b18eaa3ae1b07863a5312d935ba10823fe136914fd6fa98c",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum pre_2023_context; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: ant-design/ant-design; study cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:76be0d17b438dd65803233cb2c48caea08e92d4be5c0984008f75315592a1200",
+      "canonical_repository_id": "ant-design/ant-design",
+      "prompt_family_id": "delegated_task_intent",
+      "prompt_sha256": "7e02cd24af05e53ab36ce26d491b9a572df2554ac33d773c92d424b363db2881",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:9642b0de6470aab9cb5c5613649e5ec361ae0cb595b5c5a7bd2704223377b4ec",
+      "canonical_repository_id": "ant-design/ant-design",
+      "prompt_family_id": "review_validation",
+      "prompt_sha256": "82d53a4ecd474b5c12c4bf33aa882aa0b80ca82f024bb62628bfaeca1c4ed6ca",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:3891f53e42702795edafaaf480358bb38e87ed17cc05c412621b28b93232080c",
+      "canonical_repository_id": "ant-design/ant-design",
+      "prompt_family_id": "semantic_controls",
+      "prompt_sha256": "c272c825b7e30cd20fbbd2449b13a43ea38fb2360933c814114332469b0faef5",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Using @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a.",
+      "status": "frozen"
+    },
+    {
+      "run_id": "sha256:92fb3af2b8ca4c9208e40e4d7f4266d2a48ac66211fa3119b3fc8d78dd51b5a9",
+      "canonical_repository_id": "ant-design/ant-design",
+      "prompt_family_id": "change_topology",
+      "prompt_sha256": "daa930fbe5dd1331db33a78e8b6d432e4cbd385d4e1475e527e61407d3822122",
+      "context_revision_kind": "last_default_branch_commit_before_2023",
+      "prompt": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a.",
+      "status": "frozen"
+    }
+  ],
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d"
+}

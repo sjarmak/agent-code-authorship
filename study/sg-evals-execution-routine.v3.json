@@ -1,0 +1,1419 @@
+{
+  "execution_version": 3,
+  "plan_sha256": "fd81906aa36a4b9ec291788603447ff8544f5468081955d7e20a999f451a73d4",
+  "approval_scope": "routine",
+  "started_at": "2026-07-27T19:28:58.295660Z",
+  "updated_at": "2026-07-27T19:29:35.665857Z",
+  "status": "failed",
+  "selected_count": 213,
+  "selected_repository_ids": [
+    "0x4d31/galah",
+    "0xfurai/peekaping",
+    "a16z/halmos",
+    "affaan-m/ecc",
+    "aftership/clickhouse-sql-parser",
+    "ag2ai/build-with-ag2",
+    "ai-shifu/ai-shifu",
+    "airbytehq/airbyte",
+    "airbytehq/pyairbyte",
+    "alacritty/alacritty",
+    "aldinokemal/go-whatsapp-web-multidevice",
+    "alexanderjeurissen/ranger_devicons",
+    "alirezamika/autoscraper",
+    "angular/angular",
+    "anomalyco/opencode",
+    "ansible/ansible",
+    "ant-design/ant-design",
+    "apache/couchdb",
+    "apache/superset",
+    "asahilinux/m1n1",
+    "astral-sh/uv",
+    "aztfmod/terraform-provider-azurecaf",
+    "azure/azure-dev",
+    "azure/azure-kusto-python",
+    "azure/azure-sdk-for-python",
+    "azure/azure-storage-fuse",
+    "badtuxx/girus-cli",
+    "bayesianbandits/bayesianbandits",
+    "beehiveinnovations/zen-mcp-server",
+    "bespokelabsai/curator",
+    "bevyengine/bevy",
+    "bitcoin/bitcoin",
+    "borgmatic-collective/borgmatic",
+    "brentyi/jaxls",
+    "brevdev/brev-cli",
+    "briangu/klongpy",
+    "browser-use/browser-use",
+    "busser/tfautomv",
+    "bytedance/deer-flow",
+    "cedar-policy/cedar-go",
+    "celestiaorg/celestia-core",
+    "clash-verge-rev/clash-verge-rev",
+    "coder/coder",
+    "comfy-org/comfyui",
+    "commaai/opendbc",
+    "commaai/openpilot",
+    "compiler-explorer/infra",
+    "crewaiinc/crewai",
+    "crewaiinc/crewai-tools",
+    "cschleiden/go-workflows",
+    "dagster-io/dagster",
+    "datadog/dd-trace-go",
+    "deepnoodle-ai/risor",
+    "defog-ai/introspect",
+    "denoland/deno",
+    "django/django",
+    "docling-project/docling",
+    "earendil-works/pi",
+    "elastic/elasticsearch",
+    "elastic/terraform-provider-elasticstack",
+    "electron/electron",
+    "endless-sky/endless-sky",
+    "equationzhao/g",
+    "ethyca/fides",
+    "exa-labs/exa-py",
+    "excalidraw/excalidraw",
+    "fastapi/fastapi",
+    "fatedier/fft",
+    "firecrawl/firecrawl",
+    "flutter/flutter",
+    "gastownhall/beads",
+    "gastownhall/gascity",
+    "getsentry/sentry",
+    "ggml-org/llama.cpp",
+    "github/issue-metrics",
+    "github/spec-kit",
+    "godotengine/godot",
+    "golang/go",
+    "google-gemini/gemini-cli",
+    "grafana/grafana",
+    "graphify-labs/graphify",
+    "graphql-python/graphql-server",
+    "haasonsaas/ocode",
+    "home-assistant/core",
+    "humansignal/label-studio-ml-backend",
+    "ikamensh/flynt",
+    "immich-app/immich",
+    "incatools/ontology-access-kit",
+    "infiniflow/ragflow",
+    "iterative/datachain",
+    "jeroenterheerdt/hasmartirrigation",
+    "jhy/jsoup",
+    "jkroepke/openvpn-auth-oauth2",
+    "justtrackio/gosoline",
+    "jxxghp/moviepilot",
+    "kanaries/pygwalker",
+    "kanisterio/kanister",
+    "keephq/keep",
+    "kubernetes-sigs/cloud-provider-azure",
+    "langbot-app/langbot",
+    "langchain-ai/langchain",
+    "langgenius/dify",
+    "levigross/grequests",
+    "lobehub/lobehub",
+    "louislam/uptime-kuma",
+    "marimo-team/marimo",
+    "microsoft/azuretre",
+    "microsoft/debug-gym",
+    "microsoft/go-mssqldb",
+    "microsoft/go-sqlcmd",
+    "microsoft/graphrag",
+    "microsoft/lisa",
+    "microsoft/magentic-ui",
+    "microsoft/olive",
+    "microsoft/playwright",
+    "microsoft/qcodes",
+    "microsoft/rd-agent",
+    "microsoft/retina",
+    "microsoft/typescript-go",
+    "microsoft/vscode",
+    "moby/moby",
+    "mochilang/mochi",
+    "modelcontextprotocol/registry",
+    "mrdoob/three.js",
+    "n8n-io/n8n",
+    "nationalsecurityagency/ghidra",
+    "navidrome/navidrome",
+    "nearai/nearai",
+    "neovim/neovim",
+    "newfuture/ddns",
+    "nikolaydubina/go-instrument",
+    "noneback/go-taskflow",
+    "nousresearch/atropos",
+    "nousresearch/hermes-agent",
+    "numbagg/numbagg",
+    "nvm-sh/nvm",
+    "obsproject/obs-studio",
+    "odigos-io/odigos",
+    "oevortex/webscout",
+    "ollama/ollama",
+    "onflow/flow-go",
+    "onnx/onnx",
+    "onyx-dot-app/onyx",
+    "open5e/open5e-api",
+    "openai/codex",
+    "openclaw/openclaw",
+    "openfga/openfga",
+    "openhands/openhands",
+    "openttd/openttd",
+    "oraios/serena",
+    "oras-project/oras",
+    "oven-sh/bun",
+    "paperclipai/paperclip",
+    "patched-codes/patchwork",
+    "pkgconf/pkgconf",
+    "poezio/poezio",
+    "pouchdb/pouchdb",
+    "prequel-dev/preq",
+    "protocolbuffers/protobuf",
+    "public-apis/public-apis",
+    "python/cpython",
+    "pythonnest/pynest",
+    "qemu-project/qemu",
+    "quantalogic/quantalogic",
+    "radius-project/radius",
+    "ray-project/ray",
+    "react/react-native",
+    "redis/redis",
+    "reflex-dev/reflex",
+    "roeniss/dhlottery-api",
+    "rqlite/rqlite",
+    "rtk-ai/rtk",
+    "rust-lang/rust",
+    "safedep/vet",
+    "sashabaranov/go-openai",
+    "savetherbtz/zstd-seekable-format-go",
+    "schemahero/schemahero",
+    "sirk123au/arrtools",
+    "sjarmak/agent-diagnostics",
+    "sjarmak/codeprobe",
+    "sjarmak/geo_public",
+    "sjarmak/livedocs",
+    "sjarmak/nls-finetune-scix",
+    "sjarmak/scix-agent",
+    "spacelift-io/spacectl",
+    "spcl/dace",
+    "spylang/spy",
+    "stanford-crfm/haliax",
+    "storybookjs/storybook",
+    "strapi/strapi",
+    "supabase/supabase",
+    "superseriousbusiness/gotosocial",
+    "sveltejs/svelte",
+    "swiftlang/swift",
+    "syntasso/kratix",
+    "teamtype/teamtype",
+    "teaxyz/chai",
+    "tphakala/birdnet-go",
+    "tracecathq/tracecat",
+    "twpayne/chezmoi",
+    "typst/typst",
+    "ucbepic/docetl",
+    "vdaas/vald",
+    "veloera/veloera",
+    "vercel/next.js",
+    "vladfi1/slippi-ai",
+    "vllm-project/vllm",
+    "vlm-run/vlmrun-hub",
+    "wafrn/wafrn",
+    "wandb/weave",
+    "willccbb/verifiers",
+    "zed-industries/zed",
+    "zfit/zfit"
+  ],
+  "current_action": null,
+  "results": [
+    {
+      "canonical_repository_id": "0x4d31/galah",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:28:58.298701Z",
+      "completed_at": "2026-07-27T19:28:59.163273Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/0x4d31-galah",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/0x4d31-galah'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "0x4d31/galah",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "0x4d31-galah"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "0xfurai/peekaping",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:28:59.167392Z",
+      "completed_at": "2026-07-27T19:29:00.049542Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/0xfurai-peekaping",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/0xfurai-peekaping'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "0xfurai/peekaping",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "0xfurai-peekaping"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "a16z/halmos",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:00.053787Z",
+      "completed_at": "2026-07-27T19:29:01.090654Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/a16z-halmos",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/a16z-halmos'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "a16z/halmos",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "a16z-halmos"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "affaan-m/ecc",
+      "action": "fast_forward_sync",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:01.095010Z",
+      "completed_at": "2026-07-27T19:29:02.111219Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "sync",
+            "sg-evals/affaan-m-ECC",
+            "--source",
+            "affaan-m/ecc"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "aftership/clickhouse-sql-parser",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:02.119139Z",
+      "completed_at": "2026-07-27T19:29:03.005586Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/aftership-clickhouse-sql-parser",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/aftership-clickhouse-sql-parser'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "aftership/clickhouse-sql-parser",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "aftership-clickhouse-sql-parser"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "ag2ai/build-with-ag2",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:03.010930Z",
+      "completed_at": "2026-07-27T19:29:03.886732Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/ag2ai-build-with-ag2",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/ag2ai-build-with-ag2'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "ag2ai/build-with-ag2",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "ag2ai-build-with-ag2"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "ai-shifu/ai-shifu",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:03.890947Z",
+      "completed_at": "2026-07-27T19:29:04.841789Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/ai-shifu-ai-shifu",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/ai-shifu-ai-shifu'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "ai-shifu/ai-shifu",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "ai-shifu-ai-shifu"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "airbytehq/airbyte",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:04.847690Z",
+      "completed_at": "2026-07-27T19:29:05.916153Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/airbytehq-airbyte",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/airbytehq-airbyte'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "airbytehq/airbyte",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "airbytehq-airbyte"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "airbytehq/pyairbyte",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:05.921533Z",
+      "completed_at": "2026-07-27T19:29:06.811516Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/airbytehq-pyairbyte",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/airbytehq-pyairbyte'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "airbytehq/pyairbyte",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "airbytehq-pyairbyte"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "alacritty/alacritty",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:06.815647Z",
+      "completed_at": "2026-07-27T19:29:07.860820Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/alacritty-alacritty",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/alacritty-alacritty'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "alacritty/alacritty",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "alacritty-alacritty"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:07.866831Z",
+      "completed_at": "2026-07-27T19:29:08.757680Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/aldinokemal-go-whatsapp-web-multidevice",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/aldinokemal-go-whatsapp-web-multidevice'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "aldinokemal/go-whatsapp-web-multidevice",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "aldinokemal-go-whatsapp-web-multidevice"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "alexanderjeurissen/ranger_devicons",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:08.762015Z",
+      "completed_at": "2026-07-27T19:29:09.618901Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/alexanderjeurissen-ranger_devicons",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/alexanderjeurissen-ranger_devicons'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "alexanderjeurissen/ranger_devicons",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "alexanderjeurissen-ranger_devicons"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "alirezamika/autoscraper",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:09.623263Z",
+      "completed_at": "2026-07-27T19:29:10.546967Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/alirezamika-autoscraper",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/alirezamika-autoscraper'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "alirezamika/autoscraper",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "alirezamika-autoscraper"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "angular/angular",
+      "action": "fast_forward_sync",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:10.555470Z",
+      "completed_at": "2026-07-27T19:29:11.554260Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "sync",
+            "sg-evals/angular-angular",
+            "--source",
+            "angular/angular"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "anomalyco/opencode",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:11.559141Z",
+      "completed_at": "2026-07-27T19:29:12.713317Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/anomalyco-opencode",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/anomalyco-opencode'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "anomalyco/opencode",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "anomalyco-opencode"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "ansible/ansible",
+      "action": "fast_forward_sync",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:12.719246Z",
+      "completed_at": "2026-07-27T19:29:13.800467Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "sync",
+            "sg-evals/ansible-ansible",
+            "--source",
+            "ansible/ansible"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "ant-design/ant-design",
+      "action": "fast_forward_sync",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:13.805390Z",
+      "completed_at": "2026-07-27T19:29:14.729529Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "sync",
+            "sg-evals/ant-design-ant-design",
+            "--source",
+            "ant-design/ant-design"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "apache/couchdb",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:14.732894Z",
+      "completed_at": "2026-07-27T19:29:15.793850Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/apache-couchdb",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/apache-couchdb'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "apache/couchdb",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "apache-couchdb"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "apache/superset",
+      "action": "fast_forward_sync",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:15.800446Z",
+      "completed_at": "2026-07-27T19:29:16.823555Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "sync",
+            "sg-evals/apache-superset",
+            "--source",
+            "apache/superset"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "asahilinux/m1n1",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:16.827444Z",
+      "completed_at": "2026-07-27T19:29:17.708017Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/asahilinux-m1n1",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/asahilinux-m1n1'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "asahilinux/m1n1",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "asahilinux-m1n1"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "astral-sh/uv",
+      "action": "fast_forward_sync",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:17.711648Z",
+      "completed_at": "2026-07-27T19:29:18.705876Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "sync",
+            "sg-evals/astral-sh-uv",
+            "--source",
+            "astral-sh/uv"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "aztfmod/terraform-provider-azurecaf",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:18.713604Z",
+      "completed_at": "2026-07-27T19:29:19.575421Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/aztfmod-terraform-provider-azurecaf",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/aztfmod-terraform-provider-azurecaf'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "aztfmod/terraform-provider-azurecaf",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "aztfmod-terraform-provider-azurecaf"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "azure/azure-dev",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:19.579964Z",
+      "completed_at": "2026-07-27T19:29:20.604896Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/azure-azure-dev",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/azure-azure-dev'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "azure/azure-dev",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "azure-azure-dev"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "azure/azure-kusto-python",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:20.608536Z",
+      "completed_at": "2026-07-27T19:29:21.618822Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/azure-azure-kusto-python",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/azure-azure-kusto-python'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "azure/azure-kusto-python",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "azure-azure-kusto-python"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:21.622522Z",
+      "completed_at": "2026-07-27T19:29:22.711638Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/azure-azure-sdk-for-python",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/azure-azure-sdk-for-python'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "azure/azure-sdk-for-python",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "azure-azure-sdk-for-python"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "azure/azure-storage-fuse",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:22.715100Z",
+      "completed_at": "2026-07-27T19:29:23.721099Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/azure-azure-storage-fuse",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/azure-azure-storage-fuse'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "azure/azure-storage-fuse",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "azure-azure-storage-fuse"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "badtuxx/girus-cli",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:23.825552Z",
+      "completed_at": "2026-07-27T19:29:24.753839Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/badtuxx-girus-cli",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/badtuxx-girus-cli'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "badtuxx/girus-cli",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "badtuxx-girus-cli"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "bayesianbandits/bayesianbandits",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:24.757626Z",
+      "completed_at": "2026-07-27T19:29:25.649946Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/bayesianbandits-bayesianbandits",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/bayesianbandits-bayesianbandits'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "bayesianbandits/bayesianbandits",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "bayesianbandits-bayesianbandits"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "beehiveinnovations/zen-mcp-server",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:25.655630Z",
+      "completed_at": "2026-07-27T19:29:26.717062Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/beehiveinnovations-zen-mcp-server",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/beehiveinnovations-zen-mcp-server'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "beehiveinnovations/zen-mcp-server",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "beehiveinnovations-zen-mcp-server"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "bespokelabsai/curator",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:26.721591Z",
+      "completed_at": "2026-07-27T19:29:27.693635Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/bespokelabsai-curator",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/bespokelabsai-curator'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "bespokelabsai/curator",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "bespokelabsai-curator"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "bevyengine/bevy",
+      "action": "create_github_fork",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:27.697008Z",
+      "completed_at": "2026-07-27T19:29:28.566311Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "view",
+            "sg-evals/bevyengine-bevy",
+            "--json",
+            "nameWithOwner,isFork,parent,description"
+          ],
+          "cwd": null,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "GraphQL: Could not resolve to a Repository with the name 'sg-evals/bevyengine-bevy'. (repository)\n"
+        },
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "fork",
+            "bevyengine/bevy",
+            "--org",
+            "sg-evals",
+            "--fork-name",
+            "bevyengine-bevy"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "bitcoin/bitcoin",
+      "action": "fast_forward_sync",
+      "status": "succeeded",
+      "started_at": "2026-07-27T19:29:28.672162Z",
+      "completed_at": "2026-07-27T19:29:29.609257Z",
+      "commands": [
+        {
+          "argv": [
+            "gh",
+            "repo",
+            "sync",
+            "sg-evals/bitcoin-bitcoin",
+            "--source",
+            "bitcoin/bitcoin"
+          ],
+          "cwd": null,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "action": "create_git_mirror",
+      "status": "failed",
+      "started_at": "2026-07-27T19:29:29.615934Z",
+      "completed_at": "2026-07-27T19:29:35.665857Z",
+      "commands": [
+        {
+          "argv": [
+            "git",
+            "clone",
+            "--mirror",
+            "https://projects.torsion.org/borgmatic-collective/borgmatic",
+            "/tmp/sg-evals-mirror-ta0jcvyc/borgmatic-collective-borgmatic.git"
+          ],
+          "cwd": null,
+          "returncode": 128,
+          "stdout": "",
+          "stderr": "Cloning into bare repository '/tmp/sg-evals-mirror-ta0jcvyc/borgmatic-collective-borgmatic.git'...\nfatal: unable to access 'https://projects.torsion.org/borgmatic-collective/borgmatic/': Could not resolve host: projects.torsion.org\n"
+        }
+      ],
+      "error": "Cloning into bare repository '/tmp/sg-evals-mirror-ta0jcvyc/borgmatic-collective-borgmatic.git'...\nfatal: unable to access 'https://projects.torsion.org/borgmatic-collective/borgmatic/': Could not resolve host: projects.torsion.org"
+    }
+  ],
+  "journal_sha256": "d4fffce4fae38d20ed40d565c1f45d3e1a7a0c46ff21a54cdef868c301f384f0"
+}

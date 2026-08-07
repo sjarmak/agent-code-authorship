@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sourcegraph.com/sg-evals/commit-message-era-candidate-adjudication.schema.json",
+  "title": "Commit-message era candidate adjudication",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "artifact_id",
+    "version",
+    "status",
+    "generated_at",
+    "sourcegraph_endpoint",
+    "source_shortlist",
+    "adjudication_method",
+    "summary",
+    "candidates"
+  ],
+  "properties": {
+    "$schema": {"type": "string"},
+    "artifact_id": {"const": "commit-message-era-candidate-adjudication"},
+    "version": {"const": "1.0.0"},
+    "status": {"const": "sourcegraph_evidence_adjudicated_for_expansion"},
+    "generated_at": {"type": "string", "format": "date"},
+    "sourcegraph_endpoint": {"type": "string", "format": "uri"},
+    "source_shortlist": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "adjudication_method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reviewer_count",
+        "outcome_blind",
+        "independent_primary_review",
+        "scope",
+        "accepted_event_rule",
+        "rejection_rule",
+        "pre_adoption_message_rule"
+      ],
+      "properties": {
+        "reviewer_count": {"const": 1},
+        "outcome_blind": {"const": true},
+        "independent_primary_review": {"const": false},
+        "scope": {"type": "string"},
+        "accepted_event_rule": {"type": "string"},
+        "rejection_rule": {"type": "string"},
+        "pre_adoption_message_rule": {"type": "string"}
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "candidate_count",
+        "confirmed_count",
+        "observed_count",
+        "rejected_count",
+        "era_eligible_count",
+        "requires_reindexing",
+        "requires_scip"
+      ],
+      "properties": {
+        "candidate_count": {"const": 12},
+        "confirmed_count": {"type": "integer", "minimum": 0},
+        "observed_count": {"type": "integer", "minimum": 0},
+        "rejected_count": {"type": "integer", "minimum": 0},
+        "era_eligible_count": {"type": "integer", "minimum": 0},
+        "requires_reindexing": {"const": false},
+        "requires_scip": {"const": false}
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 12,
+      "items": {"$ref": "#/$defs/candidate"}
+    }
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "nullableDateTime": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "string", "format": "date-time"}
+      ]
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_repository_id",
+        "sourcegraph_repository",
+        "cutoff_commit",
+        "candidate_event_at",
+        "candidate_commit_oid",
+        "candidate_source_family",
+        "adoption_adjudication_status",
+        "event_evidence_tier",
+        "adjudication_reason",
+        "next_valid_signal_at",
+        "eligible_pre_adoption_message_count",
+        "era_adjustment_eligibility",
+        "sourcegraph_evidence"
+      ],
+      "properties": {
+        "canonical_repository_id": {"type": "string", "pattern": "^[^/]+/[^/]+$"},
+        "sourcegraph_repository": {"type": "string"},
+        "cutoff_commit": {"$ref": "#/$defs/sha"},
+        "candidate_event_at": {"type": "string", "format": "date-time"},
+        "candidate_commit_oid": {"$ref": "#/$defs/sha"},
+        "candidate_source_family": {
+          "enum": [
+            "agent_trailer_commits",
+            "recognized_agent_identity_commits",
+            "generated_code_disclosure_diffs"
+          ]
+        },
+        "adoption_adjudication_status": {
+          "enum": ["confirmed", "observed", "rejected"]
+        },
+        "event_evidence_tier": {
+          "enum": [
+            "confirmed_agent_commit",
+            "observed_agent_trailer",
+            "none"
+          ]
+        },
+        "adjudication_reason": {"type": "string"},
+        "next_valid_signal_at": {"$ref": "#/$defs/nullableDateTime"},
+        "eligible_pre_adoption_message_count": {
+          "oneOf": [
+            {"type": "null"},
+            {"type": "integer", "minimum": 30}
+          ]
+        },
+        "era_adjustment_eligibility": {
+          "enum": ["eligible", "ineligible"]
+        },
+        "sourcegraph_evidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["shard_path", "shard_sha256", "result_id"],
+          "properties": {
+            "shard_path": {"type": "string"},
+            "shard_sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "result_id": {
+              "type": "string",
+              "pattern": "^sha256:[0-9a-f]{64}$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

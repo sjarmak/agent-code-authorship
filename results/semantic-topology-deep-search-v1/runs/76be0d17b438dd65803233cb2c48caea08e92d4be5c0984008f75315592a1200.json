@@ -1,0 +1,290 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "f945c66738d4b160eb186b1fe76eb5dc58c11a33e22fd950eadfe89846a67064",
+  "artifact_version": 1,
+  "canonical_repository_id": "ant-design/ant-design",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "2f623fe5536395bbb4dfa694fae6dbf2042d9025"
+  ],
+  "cited_files": [
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/app/index.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/app/index.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/qrcode/index.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/qrcode/index.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "package.json",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L119"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/watermark/index.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/watermark/index.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/watermark/useMutationObserver.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/watermark/useMutationObserver.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/tour/index.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/tour/index.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/theme/themes/default/index.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/theme/themes/default/index.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/theme/interface/alias.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/theme/interface/alias.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/theme/index.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/theme/index.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/button/style/index.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/button/style/index.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/_util/wave/WaveEffect.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/_util/wave/WaveEffect.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/menu/MenuItem.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/menu/MenuItem.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/locale-provider/index.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale-provider/index.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/locale/index.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/index.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "package.json",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L200"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".dumirc.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.dumirc.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "CHANGELOG.en-US.md",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/CHANGELOG.en-US.md"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "CHANGELOG.zh-CN.md",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/CHANGELOG.zh-CN.md"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/watermark/index.en-US.md",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/watermark/index.en-US.md"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "renovate.json",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/renovate.json"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".eslintrc.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.eslintrc.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".stylelintrc.json",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.stylelintrc.json"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "rome.json",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/rome.json"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/float-button/PurePanel.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/float-button/PurePanel.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/tour/PurePanel.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/tour/PurePanel.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/locale/fr_BE.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/fr_BE.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/locale/fr_CA.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/fr_CA.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/locale/eu_ES.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/eu_ES.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/locale/vi_VN.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/vi_VN.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/locale/he_IL.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/he_IL.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/table/__tests__/Table.filter.test.tsx",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/table/__tests__/Table.filter.test.tsx"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/table/__tests__/demo.test.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/table/__tests__/demo.test.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/table/__tests__/image.test.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/table/__tests__/image.test.ts"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "jest-puppeteer.config.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/jest-puppeteer.config.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".jest.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".jest.node.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.node.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": ".jest.image.js",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.image.js"
+    },
+    {
+      "commit": "2f623fe5536395bbb4dfa694fae6dbf2042d9025",
+      "path": "components/_util/warning.ts",
+      "repository": "github.com/sg-evals/ant-design-ant-design",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/_util/warning.ts"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2063",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a.",
+  "prompt_family_id": "delegated_task_intent",
+  "prompt_sha256": "7e02cd24af05e53ab36ce26d491b9a572df2554ac33d773c92d424b363db2881",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "I now have sufficient coverage across the stratum. Here is the full taxonomy analysis.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `ant-design/ant-design` @ `2f623fe` (antd v5.0.0\u20135.1.2, pre-2023 stratum)\n\nThe ancestry check confirmed `29ea546` is **not** an ancestor of `2f623fe`; the cutoff sits on a parallel line of history (likely a merge-base scenario). The analysis therefore covers the full file tree visible at `2f623fe`, cross-referenced against the CHANGELOG spanning v5.0.0\u2013v5.1.2 (November\u2013December 2022), which is the stratum of interest.\n\n---\n\n### 1. Feature \u2014 New top-level components\n\n**Evidence:**\n\n- [`components/app/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/app/index.tsx) \u2014 `App` component: wraps `useMessage`, `useNotification`, `useModal` into a single context provider (`AppContext`), exposing `App.useApp()`. This replaces the historically static-function-only imperative APIs (`message.success()`, etc.) with React-18-compatible hook-based alternatives. Zero prior art in the v4 tree for this exact pattern.\n\n- [`components/qrcode/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/qrcode/index.tsx) \u2014 `QRCode` component wrapping `qrcode.react`, with `status` states (`active` / `loading` / `expired`), locale support, and `onRefresh` callback. New dependency `\"qrcode.react\": \"^3.1.0\"` in [`package.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L119).\n\n- [`components/watermark/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/watermark/index.tsx) \u2014 `Watermark`: renders a Canvas-based repeating watermark overlay. Uses [`useMutationObserver.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/watermark/useMutationObserver.ts) to detect and re-render when the DOM is tampered with (anti-removal guard). Entirely self-contained, no v4 equivalent.\n\n- [`components/float-button/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/float-button) \u2014 `FloatButton`, `FloatButtonGroup`, `FloatButtonContent`, `BackTop` (refactored as a child); full compound component tree with CSS-in-JS styles, context for group shape, RTL support.\n\n- [`components/tour/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/tour/index.tsx) \u2014 `Tour` wrapping `@rc-component/tour` with custom `panelRender`, theme integration, RTL, and a `_InternalPanelDoNotUseOrYouWillBeFired` escape hatch.\n\n**Taxonomy verdict:** `feature` (new API surface, new user-visible functionality).\n\n---\n\n### 2. Architectural Scaffolding \u2014 CSS-in-JS Design Token system\n\nThis is the most structurally significant work in the stratum.\n\n**Evidence:**\n\n- [`components/theme/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/theme) \u2014 tri-algorithm token pipeline:\n  - [`themes/default/index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/theme/themes/default/index.ts) \u2014 `derivative()` maps `SeedToken \u2192 MapToken` via color palette generation, font scale, control height, spacing.\n  - [`themes/dark/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/theme/themes/dark) and [`themes/compact/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/theme/themes/compact) \u2014 parallel derivative algorithms.\n  - [`interface/alias.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/theme/interface/alias.ts) \u2014 `AliasToken` type extending `MapToken`, covering ~60 semantic tokens (colors, fonts, control sizes).\n  - [`index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/theme/index.ts) \u2014 exports `{ useToken, defaultAlgorithm, darkAlgorithm, compactAlgorithm, defaultSeed }` as the public theme API.\n\n- Every component now calls `useStyle(prefixCls)` \u2014 e.g., [`components/button/style/index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/button/style/index.ts) \u2014 which invokes `genComponentStyleHook` from `@ant-design/cssinjs`, consuming alias tokens to produce scoped, hashed CSS. The entire less/CSS pipeline is gone (CHANGELOG v5.0.0: \"Remove less and css in package\").\n\n- [`components/style/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/style) \u2014 shared style utilities: `compact-item.ts`, `compact-item-vertical.ts`, `roundedArrow.ts`, `placementArrow.ts`, `operationUnit.ts` \u2014 cross-component style primitives.\n\n- [`components/_util/wave/WaveEffect.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/_util/wave/WaveEffect.tsx) \u2014 wave animation fully rewritten in React (`CSSMotion`, `render`/`unmount` from `rc-util`), dynamically computing `borderRadius`, `scale`, and `--wave-color` CSS custom properties from live DOM geometry. This allows multiple simultaneous wave triggers (CHANGELOG 5.1.2: \"Refactor wave effect that can now trigger multiple times\").\n\n**Taxonomy verdict:** `architectural scaffolding` \u2014 establishes the foundational runtime styling infrastructure that all components depend on. This is category-spanning: it is simultaneously enabling infrastructure for every other task shape in the codebase.\n\n---\n\n### 3. Refactor \u2014 Component and API modernisation\n\n**Evidence:**\n\n- [`components/menu/MenuItem.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/menu/MenuItem.tsx) \u2014 `MenuItem` converted to a Function Component (CHANGELOG 5.1.0: \"Refactor MenuItem to Function Component\"). Uses `React.useContext(MenuContext)` and `SiderContext.Consumer`; prior class-based form is gone.\n\n- [`components/locale-provider/index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale-provider/index.ts) \u2014 reduced to a single-line re-export stub pointing at `../locale`. The real locale logic now lives in [`components/locale/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/index.tsx) with a deprecation warning via `_ANT_MARK__`. CHANGELOG 5.1.0 notes removal of `antd/es/locale-provider` and `antd/lib/locale-provider` folders. **Taxonomy verdict:** `refactor` with a cleanup dimension (deprecated surface eliminated).\n\n- `visible` \u2192 `open` prop rename across Drawer, Modal, Dropdown, Tooltip, Popover, Popconfirm, Tag, Table (`filterDropdownVisible` \u2192 `filterDropdownOpen`) \u2014 systematic API surface normalisation. CHANGELOG v5.0.0 lists six separate components. This is a **refactor** at the API contract layer, not a behaviour change.\n\n- `dropdownClassName` \u2192 `popupClassName` rename across AutoComplete, Mentions, Cascader, Select, TreeSelect, DatePicker, TimePicker. Same shape.\n\n**Taxonomy verdict:** `refactor` (behaviour-preserving restructuring of component internals and public API naming).\n\n---\n\n### 4. Dependency Migration \u2014 Moment.js \u2192 Day.js; Less \u2192 `@ant-design/cssinjs`\n\n**Evidence:**\n\n- CHANGELOG v5.0.1: \"Remove `Moment.js` dependency.\" [`package.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L119) lists `\"dayjs\": \"^1.11.1\"` as a first-class dep; no `moment` entry anywhere in the manifest. Date-picker's [`generatePicker/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/date-picker/generatePicker) abstraction allows plugging in any day.js-compatible library.\n\n- Less build pipeline removed (CHANGELOG v5.0.0: \"Remove less and css in package\"). `@ant-design/cssinjs` appears as a production dependency in `package.json`; `stylelint` remains only in devDependencies for lint of the remaining `.css` reset file.\n\n- Site tooling: CHANGELOG v5.0.0: \"Migrate official site to dumi@2.\" [`package.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L200) lists `\"dumi\": \"^2.0.17\"`; [`.dumirc.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.dumirc.ts) and [`.dumi/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/.dumi) directory confirm the migration.\n\n- CHANGELOG 5.1.0: \"Simplified lodash method introduction\" \u2014 targeted tree-shaking of lodash imports, reducing bundle scope.\n\n**Taxonomy verdict:** `dependency migration` (runtime and build-time dependency swap with consequent API adaptation).\n\n---\n\n### 5. Localized Bug Fix \u2014 Targeted per-component style and behaviour corrections\n\nThe densest task shape in the commit window. All entries are directly attributed to specific PR numbers in the CHANGELOG.\n\nRepresentative examples by component:\n\n| Component | Bug | Classification signal |\n|---|---|---|\n| Table | `column.filtered` cannot be updated; filter state persists after column change; fixed column transparent bg | State management, style regression |\n| Image | Preview bar covered during animation; TailwindCSS conflict | CSS specificity / z-index |\n| Slider | Missing Tooltip animation; missing Tooltip appear motion | Animation state regression |\n| QRCode | Missing expired style | Style omission |\n| Tree | Switcher background in dark theme | Theme token application |\n| Menu | Slide bar style when border reset; SubMenu flicker with `createRoot`; icon animation on collapse | CSS-in-JS token, React 18 concurrency edge case |\n| Checkbox | Tooltip/Popover blocked when disabled | Event/DOM wrapping regression |\n| Drawer | Default props not working when props are `undefined` | Props merging logic |\n| Form | Horizontal layout with `xs` responsive not working; validation motion flick | Layout and animation |\n| Badge | Wave effect color not following `color` prop | Token propagation |\n| Row | `justify`/`align` not reactive | Props reactivity |\n\n**Taxonomy verdict:** `localized bug fix` \u2014 each is isolated to a single component, with no cross-component side effects.\n\n---\n\n### 6. Documentation / Configuration\n\n**Evidence:**\n\n- [`CHANGELOG.en-US.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/CHANGELOG.en-US.md) and [`CHANGELOG.zh-CN.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/CHANGELOG.zh-CN.md) \u2014 bilingual changelog maintained in lockstep.\n- Each component carries `index.en-US.md` and `index.zh-CN.md` doc files with API tables (e.g., [`components/watermark/index.en-US.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/watermark/index.en-US.md)).\n- [`renovate.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/renovate.json), [`.eslintrc.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.eslintrc.js), [`.stylelintrc.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.stylelintrc.json), [`rome.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/rome.json), [`.dumirc.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.dumirc.ts) \u2014 toolchain and site configuration.\n- `browserslist` in `package.json`: \"Remove IE and other legacy browsers\" (CHANGELOG 5.1.1) \u2014 bundle-targeting configuration change.\n\n**Taxonomy verdict:** `documentation/configuration`.\n\n---\n\n### 7. Boilerplate \u2014 Per-component style module scaffolding\n\n**Evidence:**\n\nEvery new component (`app`, `float-button`, `qrcode`, `tour`) follows an identical structural pattern:\n```\n<component>/\n  index.tsx         \u2014 main component\n  interface.ts      \u2014 prop type definitions\n  context.ts        \u2014 React.createContext()\n  style/index.ts    \u2014 genComponentStyleHook() call\n  PurePanel.tsx     \u2014 internal preview/test escape hatch\n  __tests__/        \u2014 test directory\n  demo/             \u2014 demo .md files\n  index.en-US.md    \u2014 API docs\n  index.zh-CN.md    \u2014 Chinese docs\n```\n\nThe `PurePanel` pattern (e.g., [`components/float-button/PurePanel.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/float-button/PurePanel.tsx), [`components/tour/PurePanel.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/tour/PurePanel.tsx)) is uniform across all components.\n\n**Taxonomy verdict:** `boilerplate` \u2014 structural repetition generated by convention; not logic-carrying.\n\n---\n\n### 8. Localisation additions (fits within `feature`, borderline `documentation`)\n\n**Evidence:**\n\n- [`components/locale/fr_BE.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/fr_BE.ts), [`fr_CA.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/fr_CA.ts), [`eu_ES.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/eu_ES.ts) \u2014 new locale files added in 5.1.0.\n- [`vi_VN.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/vi_VN.ts), [`he_IL.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/he_IL.ts) \u2014 string corrections in 5.0.5.\n\n**Taxonomy verdict:** New locale files = `feature` (new language coverage); string corrections = `localized bug fix`.\n\n---\n\n### 9. Test Generation\n\n**Evidence:**\n\n- Comprehensive test suites exist for all components: [`components/table/__tests__/Table.filter.test.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/table/__tests__/Table.filter.test.tsx) uses `@testing-library/react` with realistic filter scenario scaffolding.\n- [`components/table/__tests__/demo.test.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/table/__tests__/demo.test.ts) and `demo-extend.test.ts` \u2014 auto-run demo files as smoke tests.\n- [`components/table/__tests__/image.test.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/table/__tests__/image.test.ts) \u2014 visual regression via `jest-image-snapshot` and Puppeteer (configured in [`jest-puppeteer.config.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/jest-puppeteer.config.js)).\n- Multiple Jest config files: [`.jest.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js), [`.jest.node.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.node.js), [`.jest.site.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js), [`.jest.image.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.image.js) \u2014 segmented test execution strategies.\n\n**Taxonomy verdict:** `test generation` \u2014 tests are authored alongside features; not machine-generated but follow a heavily templated structure with `createTable()`-style factory helpers.\n\n---\n\n### 10. Cleanup\n\n**Evidence:**\n\n- `LocaleProvider` deprecated and its physical folders removed from published outputs; stub redirects remain for backward compat (see [`components/locale-provider/index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale-provider/index.ts)).\n- `dist/antd.css` removed; `dist/reset.css` added as a minimal override (CHANGELOG v5.0.0).\n- IE and legacy browser removal from `browserslist` (CHANGELOG 5.1.1).\n- `visible` and `dropdownClassName` props deprecated with console warnings via [`_util/warning.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/_util/warning.ts) rather than immediate removal \u2014 a controlled deprecation pattern.\n\n**Taxonomy verdict:** `cleanup` \u2014 removal of dead/deprecated infrastructure, no new behaviour.\n\n---\n\n## Taxonomy Summary\n\n| Task Shape | Confidence | Key Evidence |\n|---|---|---|\n| **Feature** | High | `App`, `QRCode`, `Watermark`, `FloatButton`, `Tour` components; new locale files; new theme API (`useToken`, algorithms) |\n| **Architectural Scaffolding** | High | `components/theme/` token pipeline; per-component `useStyle`/`genComponentStyleHook`; `WaveEffect` React rewrite; `components/style/` shared primitives |\n| **Refactor** | High | `MenuItem` \u2192 FC; `visible`\u2192`open`, `dropdownClassName`\u2192`popupClassName` renames; `LocaleProvider` internals moved to `locale/` |\n| **Dependency Migration** | High | Moment.js \u2192 Day.js; Less \u2192 `@ant-design/cssinjs`; dumi v1 \u2192 v2 |\n| **Localized Bug Fix** | High | ~30 discrete per-component fixes in CHANGELOG 5.0.1\u20135.1.2 |\n| **Documentation/Configuration** | High | Bilingual changelogs + per-component `.md` docs; toolchain configs |\n| **Boilerplate** | High | Structural scaffold repeated across all new components (`context.ts`, `style/index.ts`, `PurePanel.tsx`, `interface.ts`) |\n| **Test Generation** | Medium | Per-component `__tests__/` suites with factory helpers; image regression tests |\n| **Cleanup** | Medium | Deprecated API stubs; IE removal; `antd.css` removal |\n\n**No taxonomy refinement proposed** \u2014 all observed task shapes map cleanly onto the provided categories. The only observation worth noting: the CSS-in-JS rewrite crosses the boundary between `dependency migration` (Less removed) and `architectural scaffolding` (token system introduced); it is properly classified as **architectural scaffolding** because the output is a new infrastructure layer, not a drop-in swap of an equivalent tool.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:57:19Z",
+    "name": "users/476/conversations/2063",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "I now have sufficient coverage across the stratum. Here is the full taxonomy analysis.\n\n---\n\n## Engineering Task Shape Analysis \u2014 `ant-design/ant-design` @ `2f623fe` (antd v5.0.0\u20135.1.2, pre-2023 stratum)\n\nThe ancestry check confirmed `29ea546` is **not** an ancestor of `2f623fe`; the cutoff sits on a parallel line of history (likely a merge-base scenario). The analysis therefore covers the full file tree visible at `2f623fe`, cross-referenced against the CHANGELOG spanning v5.0.0\u2013v5.1.2 (November\u2013December 2022), which is the stratum of interest.\n\n---\n\n### 1. Feature \u2014 New top-level components\n\n**Evidence:**\n\n- [`components/app/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/app/index.tsx) \u2014 `App` component: wraps `useMessage`, `useNotification`, `useModal` into a single context provider (`AppContext`), exposing `App.useApp()`. This replaces the historically static-function-only imperative APIs (`message.success()`, etc.) with React-18-compatible hook-based alternatives. Zero prior art in the v4 tree for this exact pattern.\n\n- [`components/qrcode/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/qrcode/index.tsx) \u2014 `QRCode` component wrapping `qrcode.react`, with `status` states (`active` / `loading` / `expired`), locale support, and `onRefresh` callback. New dependency `\"qrcode.react\": \"^3.1.0\"` in [`package.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L119).\n\n- [`components/watermark/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/watermark/index.tsx) \u2014 `Watermark`: renders a Canvas-based repeating watermark overlay. Uses [`useMutationObserver.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/watermark/useMutationObserver.ts) to detect and re-render when the DOM is tampered with (anti-removal guard). Entirely self-contained, no v4 equivalent.\n\n- [`components/float-button/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/float-button) \u2014 `FloatButton`, `FloatButtonGroup`, `FloatButtonContent`, `BackTop` (refactored as a child); full compound component tree with CSS-in-JS styles, context for group shape, RTL support.\n\n- [`components/tour/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/tour/index.tsx) \u2014 `Tour` wrapping `@rc-component/tour` with custom `panelRender`, theme integration, RTL, and a `_InternalPanelDoNotUseOrYouWillBeFired` escape hatch.\n\n**Taxonomy verdict:** `feature` (new API surface, new user-visible functionality).\n\n---\n\n### 2. Architectural Scaffolding \u2014 CSS-in-JS Design Token system\n\nThis is the most structurally significant work in the stratum.\n\n**Evidence:**\n\n- [`components/theme/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/theme) \u2014 tri-algorithm token pipeline:\n  - [`themes/default/index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/theme/themes/default/index.ts) \u2014 `derivative()` maps `SeedToken \u2192 MapToken` via color palette generation, font scale, control height, spacing.\n  - [`themes/dark/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/theme/themes/dark) and [`themes/compact/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/theme/themes/compact) \u2014 parallel derivative algorithms.\n  - [`interface/alias.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/theme/interface/alias.ts) \u2014 `AliasToken` type extending `MapToken`, covering ~60 semantic tokens (colors, fonts, control sizes).\n  - [`index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/theme/index.ts) \u2014 exports `{ useToken, defaultAlgorithm, darkAlgorithm, compactAlgorithm, defaultSeed }` as the public theme API.\n\n- Every component now calls `useStyle(prefixCls)` \u2014 e.g., [`components/button/style/index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/button/style/index.ts) \u2014 which invokes `genComponentStyleHook` from `@ant-design/cssinjs`, consuming alias tokens to produce scoped, hashed CSS. The entire less/CSS pipeline is gone (CHANGELOG v5.0.0: \"Remove less and css in package\").\n\n- [`components/style/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/style) \u2014 shared style utilities: `compact-item.ts`, `compact-item-vertical.ts`, `roundedArrow.ts`, `placementArrow.ts`, `operationUnit.ts` \u2014 cross-component style primitives.\n\n- [`components/_util/wave/WaveEffect.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/_util/wave/WaveEffect.tsx) \u2014 wave animation fully rewritten in React (`CSSMotion`, `render`/`unmount` from `rc-util`), dynamically computing `borderRadius`, `scale`, and `--wave-color` CSS custom properties from live DOM geometry. This allows multiple simultaneous wave triggers (CHANGELOG 5.1.2: \"Refactor wave effect that can now trigger multiple times\").\n\n**Taxonomy verdict:** `architectural scaffolding` \u2014 establishes the foundational runtime styling infrastructure that all components depend on. This is category-spanning: it is simultaneously enabling infrastructure for every other task shape in the codebase.\n\n---\n\n### 3. Refactor \u2014 Component and API modernisation\n\n**Evidence:**\n\n- [`components/menu/MenuItem.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/menu/MenuItem.tsx) \u2014 `MenuItem` converted to a Function Component (CHANGELOG 5.1.0: \"Refactor MenuItem to Function Component\"). Uses `React.useContext(MenuContext)` and `SiderContext.Consumer`; prior class-based form is gone.\n\n- [`components/locale-provider/index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale-provider/index.ts) \u2014 reduced to a single-line re-export stub pointing at `../locale`. The real locale logic now lives in [`components/locale/index.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/index.tsx) with a deprecation warning via `_ANT_MARK__`. CHANGELOG 5.1.0 notes removal of `antd/es/locale-provider` and `antd/lib/locale-provider` folders. **Taxonomy verdict:** `refactor` with a cleanup dimension (deprecated surface eliminated).\n\n- `visible` \u2192 `open` prop rename across Drawer, Modal, Dropdown, Tooltip, Popover, Popconfirm, Tag, Table (`filterDropdownVisible` \u2192 `filterDropdownOpen`) \u2014 systematic API surface normalisation. CHANGELOG v5.0.0 lists six separate components. This is a **refactor** at the API contract layer, not a behaviour change.\n\n- `dropdownClassName` \u2192 `popupClassName` rename across AutoComplete, Mentions, Cascader, Select, TreeSelect, DatePicker, TimePicker. Same shape.\n\n**Taxonomy verdict:** `refactor` (behaviour-preserving restructuring of component internals and public API naming).\n\n---\n\n### 4. Dependency Migration \u2014 Moment.js \u2192 Day.js; Less \u2192 `@ant-design/cssinjs`\n\n**Evidence:**\n\n- CHANGELOG v5.0.1: \"Remove `Moment.js` dependency.\" [`package.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L119) lists `\"dayjs\": \"^1.11.1\"` as a first-class dep; no `moment` entry anywhere in the manifest. Date-picker's [`generatePicker/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/components/date-picker/generatePicker) abstraction allows plugging in any day.js-compatible library.\n\n- Less build pipeline removed (CHANGELOG v5.0.0: \"Remove less and css in package\"). `@ant-design/cssinjs` appears as a production dependency in `package.json`; `stylelint` remains only in devDependencies for lint of the remaining `.css` reset file.\n\n- Site tooling: CHANGELOG v5.0.0: \"Migrate official site to dumi@2.\" [`package.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/package.json?L200) lists `\"dumi\": \"^2.0.17\"`; [`.dumirc.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.dumirc.ts) and [`.dumi/`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/tree/.dumi) directory confirm the migration.\n\n- CHANGELOG 5.1.0: \"Simplified lodash method introduction\" \u2014 targeted tree-shaking of lodash imports, reducing bundle scope.\n\n**Taxonomy verdict:** `dependency migration` (runtime and build-time dependency swap with consequent API adaptation).\n\n---\n\n### 5. Localized Bug Fix \u2014 Targeted per-component style and behaviour corrections\n\nThe densest task shape in the commit window. All entries are directly attributed to specific PR numbers in the CHANGELOG.\n\nRepresentative examples by component:\n\n| Component | Bug | Classification signal |\n|---|---|---|\n| Table | `column.filtered` cannot be updated; filter state persists after column change; fixed column transparent bg | State management, style regression |\n| Image | Preview bar covered during animation; TailwindCSS conflict | CSS specificity / z-index |\n| Slider | Missing Tooltip animation; missing Tooltip appear motion | Animation state regression |\n| QRCode | Missing expired style | Style omission |\n| Tree | Switcher background in dark theme | Theme token application |\n| Menu | Slide bar style when border reset; SubMenu flicker with `createRoot`; icon animation on collapse | CSS-in-JS token, React 18 concurrency edge case |\n| Checkbox | Tooltip/Popover blocked when disabled | Event/DOM wrapping regression |\n| Drawer | Default props not working when props are `undefined` | Props merging logic |\n| Form | Horizontal layout with `xs` responsive not working; validation motion flick | Layout and animation |\n| Badge | Wave effect color not following `color` prop | Token propagation |\n| Row | `justify`/`align` not reactive | Props reactivity |\n\n**Taxonomy verdict:** `localized bug fix` \u2014 each is isolated to a single component, with no cross-component side effects.\n\n---\n\n### 6. Documentation / Configuration\n\n**Evidence:**\n\n- [`CHANGELOG.en-US.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/CHANGELOG.en-US.md) and [`CHANGELOG.zh-CN.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/CHANGELOG.zh-CN.md) \u2014 bilingual changelog maintained in lockstep.\n- Each component carries `index.en-US.md` and `index.zh-CN.md` doc files with API tables (e.g., [`components/watermark/index.en-US.md`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/watermark/index.en-US.md)).\n- [`renovate.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/renovate.json), [`.eslintrc.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.eslintrc.js), [`.stylelintrc.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.stylelintrc.json), [`rome.json`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/rome.json), [`.dumirc.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.dumirc.ts) \u2014 toolchain and site configuration.\n- `browserslist` in `package.json`: \"Remove IE and other legacy browsers\" (CHANGELOG 5.1.1) \u2014 bundle-targeting configuration change.\n\n**Taxonomy verdict:** `documentation/configuration`.\n\n---\n\n### 7. Boilerplate \u2014 Per-component style module scaffolding\n\n**Evidence:**\n\nEvery new component (`app`, `float-button`, `qrcode`, `tour`) follows an identical structural pattern:\n```\n<component>/\n  index.tsx         \u2014 main component\n  interface.ts      \u2014 prop type definitions\n  context.ts        \u2014 React.createContext()\n  style/index.ts    \u2014 genComponentStyleHook() call\n  PurePanel.tsx     \u2014 internal preview/test escape hatch\n  __tests__/        \u2014 test directory\n  demo/             \u2014 demo .md files\n  index.en-US.md    \u2014 API docs\n  index.zh-CN.md    \u2014 Chinese docs\n```\n\nThe `PurePanel` pattern (e.g., [`components/float-button/PurePanel.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/float-button/PurePanel.tsx), [`components/tour/PurePanel.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/tour/PurePanel.tsx)) is uniform across all components.\n\n**Taxonomy verdict:** `boilerplate` \u2014 structural repetition generated by convention; not logic-carrying.\n\n---\n\n### 8. Localisation additions (fits within `feature`, borderline `documentation`)\n\n**Evidence:**\n\n- [`components/locale/fr_BE.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/fr_BE.ts), [`fr_CA.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/fr_CA.ts), [`eu_ES.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/eu_ES.ts) \u2014 new locale files added in 5.1.0.\n- [`vi_VN.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/vi_VN.ts), [`he_IL.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale/he_IL.ts) \u2014 string corrections in 5.0.5.\n\n**Taxonomy verdict:** New locale files = `feature` (new language coverage); string corrections = `localized bug fix`.\n\n---\n\n### 9. Test Generation\n\n**Evidence:**\n\n- Comprehensive test suites exist for all components: [`components/table/__tests__/Table.filter.test.tsx`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/table/__tests__/Table.filter.test.tsx) uses `@testing-library/react` with realistic filter scenario scaffolding.\n- [`components/table/__tests__/demo.test.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/table/__tests__/demo.test.ts) and `demo-extend.test.ts` \u2014 auto-run demo files as smoke tests.\n- [`components/table/__tests__/image.test.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/table/__tests__/image.test.ts) \u2014 visual regression via `jest-image-snapshot` and Puppeteer (configured in [`jest-puppeteer.config.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/jest-puppeteer.config.js)).\n- Multiple Jest config files: [`.jest.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js), [`.jest.node.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.node.js), [`.jest.site.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.js), [`.jest.image.js`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/.jest.image.js) \u2014 segmented test execution strategies.\n\n**Taxonomy verdict:** `test generation` \u2014 tests are authored alongside features; not machine-generated but follow a heavily templated structure with `createTable()`-style factory helpers.\n\n---\n\n### 10. Cleanup\n\n**Evidence:**\n\n- `LocaleProvider` deprecated and its physical folders removed from published outputs; stub redirects remain for backward compat (see [`components/locale-provider/index.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/locale-provider/index.ts)).\n- `dist/antd.css` removed; `dist/reset.css` added as a minimal override (CHANGELOG v5.0.0).\n- IE and legacy browser removal from `browserslist` (CHANGELOG 5.1.1).\n- `visible` and `dropdownClassName` props deprecated with console warnings via [`_util/warning.ts`](https://demo.sourcegraph.com/r/github.com/sg-evals/ant-design-ant-design@2f623fe5536395bbb4dfa694fae6dbf2042d9025/-/blob/components/_util/warning.ts) rather than immediate removal \u2014 a controlled deprecation pattern.\n\n**Taxonomy verdict:** `cleanup` \u2014 removal of dead/deprecated infrastructure, no new behaviour.\n\n---\n\n## Taxonomy Summary\n\n| Task Shape | Confidence | Key Evidence |\n|---|---|---|\n| **Feature** | High | `App`, `QRCode`, `Watermark`, `FloatButton`, `Tour` components; new locale files; new theme API (`useToken`, algorithms) |\n| **Architectural Scaffolding** | High | `components/theme/` token pipeline; per-component `useStyle`/`genComponentStyleHook`; `WaveEffect` React rewrite; `components/style/` shared primitives |\n| **Refactor** | High | `MenuItem` \u2192 FC; `visible`\u2192`open`, `dropdownClassName`\u2192`popupClassName` renames; `LocaleProvider` internals moved to `locale/` |\n| **Dependency Migration** | High | Moment.js \u2192 Day.js; Less \u2192 `@ant-design/cssinjs`; dumi v1 \u2192 v2 |\n| **Localized Bug Fix** | High | ~30 discrete per-component fixes in CHANGELOG 5.0.1\u20135.1.2 |\n| **Documentation/Configuration** | High | Bilingual changelogs + per-component `.md` docs; toolchain configs |\n| **Boilerplate** | High | Structural scaffold repeated across all new components (`context.ts`, `style/index.ts`, `PurePanel.tsx`, `interface.ts`) |\n| **Test Generation** | Medium | Per-component `__tests__/` suites with factory helpers; image regression tests |\n| **Cleanup** | Medium | Deprecated API stubs; IE removal; `antd.css` removal |\n\n**No taxonomy refinement proposed** \u2014 all observed task shapes map cleanly onto the provided categories. The only observation worth noting: the CSS-in-JS rewrite crosses the boundary between `dependency migration` (Less removed) and `architectural scaffolding` (token system introduced); it is properly classified as **architectural scaffolding** because the output is a new infrastructure layer, not a drop-in swap of an equivalent tool."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:57:19Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/ant-design-ant-design at revision 2f623fe5536395bbb4dfa694fae6dbf2042d9025, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: ant-design/ant-design; stratum: pre_2023_context; cutoff: 29ea546eef68cf30079e66ed1b5751d881c8c86a."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Classifying code changes into engineering task shapes for ant-design",
+    "updateTime": "2026-07-29T04:00:14Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/a3d8b23c-5832-455b-af27-f1a32b0aa033"
+  },
+  "run_id": "sha256:76be0d17b438dd65803233cb2c48caea08e92d4be5c0984008f75315592a1200",
+  "search_context": {
+    "context_revision_kind": "last_default_branch_commit_before_2023",
+    "repository": "ant-design/ant-design"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

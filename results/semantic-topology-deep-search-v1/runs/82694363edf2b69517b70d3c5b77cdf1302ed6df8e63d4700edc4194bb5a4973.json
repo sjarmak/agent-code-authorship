@@ -1,0 +1,58 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "6ddff48830ca404ba5c6461046f2269ef4cba8fe49264cab1af6bb530997f107",
+  "artifact_version": 1,
+  "canonical_repository_id": "gastownhall/gascity",
+  "citation_extraction_status": "none_extracted_from_api_response",
+  "cited_commits": [],
+  "cited_files": [],
+  "conversation_identity": "users/476/conversations/1973",
+  "error": {
+    "code": "ERROR_TOKEN_LIMIT_EXCEEDED",
+    "message": "The search could not be completed, please try again with more defined context."
+  },
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Using @github.com/sg-evals/gastownhall-gascity at revision bd7c9dac0b305b94893f3382f66cb129536d1be4 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: gastownhall/gascity; stratum: agent_native; cutoff: bd7c9dac0b305b94893f3382f66cb129536d1be4.",
+  "prompt_family_id": "semantic_controls",
+  "prompt_sha256": "10437a68552788efb7ab88a16184d7ea788ca8189425ab3389eb80f915279a8c",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:00:46Z",
+    "name": "users/476/conversations/1973",
+    "questions": [
+      {
+        "createTime": "2026-07-29T03:00:46Z",
+        "input": [
+          {
+            "question": {
+              "text": "Using @github.com/sg-evals/gastownhall-gascity at revision bd7c9dac0b305b94893f3382f66cb129536d1be4 as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: gastownhall/gascity; stratum: agent_native; cutoff: bd7c9dac0b305b94893f3382f66cb129536d1be4."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "error": {
+        "code": "ERROR_TOKEN_LIMIT_EXCEEDED",
+        "message": "The search could not be completed, please try again with more defined context."
+      }
+    },
+    "title": "Find functionally comparable implementations across repos for a specific gas city revision",
+    "updateTime": "2026-07-29T03:03:34Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/74a01863-f297-4287-9adc-e05c1f5e52fc"
+  },
+  "run_id": "sha256:82694363edf2b69517b70d3c5b77cdf1302ed6df8e63d4700edc4194bb5a4973",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "gastownhall/gascity"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "error"
+}

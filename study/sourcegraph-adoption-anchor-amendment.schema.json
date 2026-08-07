@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adoption-anchor-amendment.schema.json",
+  "title": "Sourcegraph adoption anchor-completion amendment",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "amendment_version",
+    "effective_after_tranche",
+    "source_chain_sha256",
+    "source_decision_ledger_sha256",
+    "trigger",
+    "selection_rule",
+    "interpretation",
+    "sensitivity",
+    "review_execution",
+    "adjudication_decisions_available",
+    "outcomes_consulted",
+    "amendment_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-adoption-anchor-amendment.schema.json"
+    },
+    "amendment_version": {
+      "const": 1
+    },
+    "effective_after_tranche": {
+      "const": 7
+    },
+    "source_chain_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "source_decision_ledger_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "trigger": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "active_repositories_at_tranche_7",
+        "remaining_event_reviews_before_tranche_7",
+        "maximum_single_repository_remaining_events",
+        "reason"
+      ],
+      "properties": {
+        "active_repositories_at_tranche_7": {
+          "const": 111
+        },
+        "remaining_event_reviews_before_tranche_7": {
+          "const": 4282
+        },
+        "maximum_single_repository_remaining_events": {
+          "const": 675
+        },
+        "reason": {
+          "const": "One-event tranches spend most review effort rejecting generic challenge hits and do not change the requested first-explicit-use adoption estimand."
+        }
+      }
+    },
+    "selection_rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "eligible_state",
+        "event",
+        "earlier_accepted_event_precedence",
+        "anchor_review_is_semantic",
+        "automatic_acceptance_forbidden",
+        "unresolved_earlier_candidate_count_retained",
+        "clean_prehistory_requires_zero_unresolved_earlier_candidates"
+      ],
+      "properties": {
+        "eligible_state": {
+          "const": "still active after the tranche-7 ledger with no open peer review"
+        },
+        "event": {
+          "const": "first explicit-provenance anchor in the frozen repository sequence"
+        },
+        "earlier_accepted_event_precedence": {
+          "const": true
+        },
+        "anchor_review_is_semantic": {
+          "const": true
+        },
+        "automatic_acceptance_forbidden": {
+          "const": true
+        },
+        "unresolved_earlier_candidate_count_retained": {
+          "const": true
+        },
+        "clean_prehistory_requires_zero_unresolved_earlier_candidates": {
+          "const": true
+        }
+      }
+    },
+    "interpretation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "accepted_anchor_date",
+        "not_claimed",
+        "pre_anchor_code",
+        "causal_interpretation"
+      ],
+      "properties": {
+        "accepted_anchor_date": {
+          "const": "first observed explicit coding-agent use in the frozen Sourcegraph frame"
+        },
+        "not_claimed": {
+          "const": "earliest actual repository adoption"
+        },
+        "pre_anchor_code": {
+          "const": "contemporary within-repository comparison code with possible earlier-agent contamination when clean_prehistory is false"
+        },
+        "causal_interpretation": {
+          "const": false
+        }
+      }
+    },
+    "sensitivity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "clean_prehistory",
+        "accepted_earlier_challenge",
+        "unclean_prehistory_bias"
+      ],
+      "properties": {
+        "primary": {
+          "const": "all accepted first-observed explicit anchors with prehistory status disclosed"
+        },
+        "clean_prehistory": {
+          "const": "restrict to repositories whose earlier challenge frame was fully resolved"
+        },
+        "accepted_earlier_challenge": {
+          "const": "use the earlier accepted observed or confirmed date instead of the anchor"
+        },
+        "unclean_prehistory_bias": {
+          "const": "treat possible pre-anchor agent contamination as bias toward smaller human-agent differences"
+        }
+      }
+    },
+    "review_execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "local_or_subagent_only",
+        "paid_batch_api",
+        "user_openai_api_key",
+        "scip_required",
+        "classifier_or_survival_outcomes_hidden"
+      ],
+      "properties": {
+        "local_or_subagent_only": {
+          "const": true
+        },
+        "paid_batch_api": {
+          "const": false
+        },
+        "user_openai_api_key": {
+          "const": false
+        },
+        "scip_required": {
+          "const": false
+        },
+        "classifier_or_survival_outcomes_hidden": {
+          "const": true
+        }
+      }
+    },
+    "adjudication_decisions_available": {
+      "const": true
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "amendment_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

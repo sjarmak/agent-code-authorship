@@ -1,0 +1,2037 @@
+{
+  "candidate_frame_sha256": "e2b24d9a16989a868cffbca7e8814f72c2c9e48c509cc404891341a21888748f",
+  "horizons_days": [
+    30,
+    90,
+    180,
+    365
+  ],
+  "input_inventory_sha256s": {
+    "cohort": "c981f23ab5b89a8d579dc345aa326ed89b8a4fc5885272adf2b59241c41e5538",
+    "git": "c8ccf46663d9b0e53586897270c85f45ad3cbd9fb41967cac8bea5fdb01def65",
+    "lineage": "7b521674ad4a174504768b96a94352d25af7a836bd16528fb47bdb777b6ef784",
+    "sourcegraph_index": "b6b18eed39693b4b7fc9c9bd3c814f13daaa86e37053b4c209d845ec8aee4de8"
+  },
+  "longitudinal_batch_plan_sha256": "ebf4b7701b4df51258e7b9e9a841b32fb6536091fd43346e0f4570073b6631bb",
+  "longitudinal_batch_plan_version": 3,
+  "outcomes_consulted": false,
+  "repository_count": 96,
+  "units": [
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/0x4d31__galah.jsonl",
+        "sha256": "1f1689b98c6925b46d39789a1c5820a8e75ff2243b61eec919fba315f0709e5a"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/0x4d31__galah.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "ab06900fc744e69ae4cab71d04885d8861619c148f883ef328de936ef73fd78c",
+      "repository": {
+        "bundle_sha256": "7b5c62d34aa322dd7988a1ce4b446c89d0111a78be5ce26f29fcbc9c8c3ca514",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/0x4d31__galah",
+        "canonical_repository_id": "0x4d31/galah",
+        "cutoff_commit": "8f77b85e892731cf1402963d8121c79fef0e59c7",
+        "cutoff_tree": "46ef771f0f0bac3229632a61353234343b92d2aa",
+        "sourcegraph_name": "github.com/sg-evals/0x4d31-galah"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/0x4d31__galah.jsonl",
+        "sha256": "fe663d5645da011fada332cf9568bcea1c4d25032f30ffb6919733071f102691"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/0xfurai__peekaping.jsonl",
+        "sha256": "e68208477f31267bd0f7c28148695685cfc771578614dff851bfccaa05f11a12"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/0xfurai__peekaping.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "2878f2054ec043c554f5a6707359ea02677c3887b79796a0f34ca8df53394ff0",
+      "repository": {
+        "bundle_sha256": "27ac85937a50096ff67b0f881adc2e337f8367ad1e8f5ffd760fe7096c4f9a97",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/0xfurai__peekaping",
+        "canonical_repository_id": "0xfurai/peekaping",
+        "cutoff_commit": "742a60d94fdaacc977c09444b651f7cf1c1aab9e",
+        "cutoff_tree": "027aac0deb908423de7ba2dbc23bbacb63176a54",
+        "sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/0xfurai__peekaping.jsonl",
+        "sha256": "8574d5531b3bef18f616c000a70e244001e7b5513cd4e31214e919e680106bf9"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/a16z__halmos.jsonl",
+        "sha256": "d8d68db2d5dd9656f420c48eb125433d03880cdfe220384dd6f358cc1fba0a15"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/a16z__halmos.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "4d5140f58a2a3ca93332329c0bcb3c89127ae31fefe58c590b6ec3adc7e58764",
+      "repository": {
+        "bundle_sha256": "550328ae1d5282c5a4ddd5af1d3f11bea3fb223d0c41152cd6778524c70a5eb4",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/a16z__halmos",
+        "canonical_repository_id": "a16z/halmos",
+        "cutoff_commit": "079bb4241d1b460baf986257d56ea86977d73451",
+        "cutoff_tree": "ba8e4db110d6827163bd994e06ba53fec6f21adf",
+        "sourcegraph_name": "github.com/sg-evals/a16z-halmos"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/a16z__halmos.jsonl",
+        "sha256": "2acc90ff40ecf22b0aed65a723855f6a58d59b82dec2a4e8999879dae209b76b"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/aftership__clickhouse-sql-parser.jsonl",
+        "sha256": "ee145ea97461d61c098752b29ccd4345d5c988779f9a631ecbe109c87fcca7ad"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/aftership__clickhouse-sql-parser.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "8f43f7f675e893d7fd1c32580c17816f28b96d08bbc382b65d4b8d44add151d7",
+      "repository": {
+        "bundle_sha256": "a2daf88b06421b508a30b0e6e7296c0effe4e1883515541088ff6aa3fc19d658",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/aftership__clickhouse-sql-parser",
+        "canonical_repository_id": "aftership/clickhouse-sql-parser",
+        "cutoff_commit": "e4c6e11fcec9a7140ef53835fae0728b2f304a3c",
+        "cutoff_tree": "17b38fbd24ffad2af961f00318b71cf37b4eb62a",
+        "sourcegraph_name": "github.com/sg-evals/aftership-clickhouse-sql-parser"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/aftership__clickhouse-sql-parser.jsonl",
+        "sha256": "8b9389efcb21d71e161213ad49103c6133e03d325ad4640a624aa546ba608509"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/airbytehq__airbyte.jsonl",
+        "sha256": "2dccfd69a2742aa70832ff34a4a465ab874f0de70e9a69dabc10f87e8eb6ad1d"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/airbytehq__airbyte.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "b823524b1ec156a592bedeb6af86ffc7fb0d2d9d778fd2066948c0bf6dbb24ef",
+      "repository": {
+        "bundle_sha256": "61f2468bfa9dc1b16d7dde274609ce2416d2b4a819c6e817ea6fc95061c651bc",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/airbytehq__airbyte",
+        "canonical_repository_id": "airbytehq/airbyte",
+        "cutoff_commit": "926797c471d8741f7da77b1f8ed9663e51abdf7a",
+        "cutoff_tree": "85dcecd8964ab3a7339a94c7517ad18bec798c45",
+        "sourcegraph_name": "github.com/sg-evals/airbytehq-airbyte"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/airbytehq__airbyte.jsonl",
+        "sha256": "858de68eb80594ec56fd4e78377efdd348837567f4cfa6144d9e0a355a069abc"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/aldinokemal__go-whatsapp-web-multidevice.jsonl",
+        "sha256": "dedc172b19f069fe0d07b7e063158b7203de252e2e7c939e2a56aec9767e8099"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/aldinokemal__go-whatsapp-web-multidevice.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "4ab3213c2af10d5329a4bb5187d283446b637fa8f6f128f63f478d0bbe379ec2",
+      "repository": {
+        "bundle_sha256": "88ac877a22ae8bdb8725d6c42eeac1fbdf88e3527d22563876255fa70ba09b21",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/aldinokemal__go-whatsapp-web-multidevice",
+        "canonical_repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+        "cutoff_commit": "ee9d05da08768d35384f823494d4ed0a1643eef5",
+        "cutoff_tree": "e5808d2b1462c5a1cf864528d29820da4e19945c",
+        "sourcegraph_name": "github.com/sg-evals/aldinokemal-go-whatsapp-web-multidevice"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/aldinokemal__go-whatsapp-web-multidevice.jsonl",
+        "sha256": "4f3dd057d598916612894537073ff45cac6270306e5f356cc06c5ad5b2cd3e53"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/alexanderjeurissen__ranger_devicons.jsonl",
+        "sha256": "db9a0fa6373e26eb7a472919c13b9b5985271caa67de7b2bfca582186ecaa096"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/alexanderjeurissen__ranger_devicons.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "ea46ab33baf6fcdb56b1451aabf02295d65625ef19c350feada07ff4f76234ad",
+      "repository": {
+        "bundle_sha256": "e08468b84ef5655657adcb790d154e0a0e2a4cbf6c0b82e520526ae8298c639f",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/alexanderjeurissen__ranger_devicons",
+        "canonical_repository_id": "alexanderjeurissen/ranger_devicons",
+        "cutoff_commit": "1bcaff0366a9d345313dc5af14002cfdcddabb82",
+        "cutoff_tree": "2ed3eee582c51ed989e54c7f0367ed8eac0fe3fc",
+        "sourcegraph_name": "github.com/sg-evals/alexanderjeurissen-ranger_devicons"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/alexanderjeurissen__ranger_devicons.jsonl",
+        "sha256": "3530c5731401853bbecd568567c23347fd0f5d993a88a5abd3b46731a7c3ca47"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/alirezamika__autoscraper.jsonl",
+        "sha256": "6a6325f647df5e54cfc0409eecb720630f96143e5b4d05101de3a178458c507f"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/alirezamika__autoscraper.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "d1ca3fbef20ccbd7d32c7d40c9cd272138989ac67013434ff054bf4470afd341",
+      "repository": {
+        "bundle_sha256": "318bb292a1f8bdbd97f1e512bac49db9dced66090a43c15a6b4df17d944c8428",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/alirezamika__autoscraper",
+        "canonical_repository_id": "alirezamika/autoscraper",
+        "cutoff_commit": "eb72f5dc6f7ffb6777684131d082d85f30a42b5a",
+        "cutoff_tree": "c6ed9b9a501949c5128168b39a903cbbc6d0a6d8",
+        "sourcegraph_name": "github.com/sg-evals/alirezamika-autoscraper"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/alirezamika__autoscraper.jsonl",
+        "sha256": "e1289a9cc19c15665aeef9e999cb1628c96b69a88799c0bba8ae4e82eccac18f"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/axinc-ai__ailia-models.jsonl",
+        "sha256": "eca4ba60c1e9f12cd8bef2728b27ffac8092e44979da9bb72d955710b0f2a9b5"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/axinc-ai__ailia-models.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "ba2e3cc7629a095bf90f976b55a9f6646b02fd7069d1ec56c462894d871d9d9a",
+      "repository": {
+        "bundle_sha256": "45b5ba6e79428969e7958251d19d5e63ded71b0bc71ac83dc5d87870f153c720",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/axinc-ai__ailia-models",
+        "canonical_repository_id": "axinc-ai/ailia-models",
+        "cutoff_commit": "e28ef95d123bc4e625fea40462d3cd33e0eef688",
+        "cutoff_tree": "26f68e32049ac00856e571305676a331c921ddcc",
+        "sourcegraph_name": "github.com/sg-evals/axinc-ai-ailia-models"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/axinc-ai__ailia-models.jsonl",
+        "sha256": "0b679ca1fc53045654497b2035831794401064efded514fef9a4a79ebae2b4ed"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/aztfmod__terraform-provider-azurecaf.jsonl",
+        "sha256": "9db6d799746004dec153bb29fcd75f8aa1d4f3c502a7a7a0de8ce786454d921a"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/aztfmod__terraform-provider-azurecaf.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "0bb6d7bfd13d34c07d8ec32db6e152d884acab15ebdad78f1bf90c5c4ee0cd65",
+      "repository": {
+        "bundle_sha256": "6264bdeb057ca382443a816f20a6fdcda74aacb37e581cd5777e3008b0d242c2",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/aztfmod__terraform-provider-azurecaf",
+        "canonical_repository_id": "aztfmod/terraform-provider-azurecaf",
+        "cutoff_commit": "c23d6ac52c89bb76e43285124b5afc419ccbc549",
+        "cutoff_tree": "f67460076b1ba8fed475a91cd8251072bd563f2a",
+        "sourcegraph_name": "github.com/sg-evals/aztfmod-terraform-provider-azurecaf"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/aztfmod__terraform-provider-azurecaf.jsonl",
+        "sha256": "5c5a96a0ef7f858bdbe42e047f9b0f29c1a7e18f2c7314b3a7b8ea0209103dd8"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/azure__azure-sdk-for-python.jsonl",
+        "sha256": "b70f68d1473c3ea0e2af87d4f623e534b2e2f5def321419379c445b55fa364c7"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/azure__azure-sdk-for-python.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "b72f45cdd533a2e32d65813f0d829dde0fefad3e7bfd12ada4dc722d45c35e20",
+      "repository": {
+        "bundle_sha256": "dc08550e9bc70271af7f398815056ff57f8db768803e85e8c02da282e1620b4e",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/azure__azure-sdk-for-python",
+        "canonical_repository_id": "azure/azure-sdk-for-python",
+        "cutoff_commit": "7e1331b1677a50c42a7a2fc2c5c489a1fdc72f5b",
+        "cutoff_tree": "293d222aadd52ae36370ab721ff52353f3195e17",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/azure__azure-sdk-for-python.jsonl",
+        "sha256": "4ecd28ab6a24d25e90e0f6ca920c9f493297d3a85e6e1fb97c4d18ae652ffc58"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/azure__azure-storage-fuse.jsonl",
+        "sha256": "05d2459857ac7dd6ffe27756f47afa7b83680ab3869454aabfa6fb4db0e9549f"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/azure__azure-storage-fuse.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "bc6de03d9b2185fc12e6bf405219550521d434cc734f86d74ead8ff590f7be3d",
+      "repository": {
+        "bundle_sha256": "2ea73629a341436d2dec22af1df7542b401f6492541b5fe4163ed8ea767d6582",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/azure__azure-storage-fuse",
+        "canonical_repository_id": "azure/azure-storage-fuse",
+        "cutoff_commit": "d302f13072d7af5d6777ebe5e06f46d66bb5b316",
+        "cutoff_tree": "e37975dfceedbf7a9480afdd32222f740b6c65ef",
+        "sourcegraph_name": "github.com/sg-evals/azure-azure-storage-fuse"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/azure__azure-storage-fuse.jsonl",
+        "sha256": "20d7f8b7d99180b0403446f84fc3d2192329e8eb28911c11189c7d29268535d6"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/badtuxx__girus-cli.jsonl",
+        "sha256": "2bff356e85c12a7234558b61ee6ad7a05b80931d862a6d960340fc91692643bc"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/badtuxx__girus-cli.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "260ab010e3785d3523e72201a47d4f936787b3c9f091f8cc589c9d0a92737dd6",
+      "repository": {
+        "bundle_sha256": "003cdeb06a51f1a0fff5b27aa52fc44f8165a82d196968a124cda6966b5d8959",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/badtuxx__girus-cli",
+        "canonical_repository_id": "badtuxx/girus-cli",
+        "cutoff_commit": "59b1db3fcc235db278db38d4f1fb8e4221140fdf",
+        "cutoff_tree": "d48d28328d80a2598cf943b4fba2c3b468993fcf",
+        "sourcegraph_name": "github.com/sg-evals/badtuxx-girus-cli"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/badtuxx__girus-cli.jsonl",
+        "sha256": "3d06a2820a21559c3771780457a9350f934be635c9e6bfa53db38fa7a9e7394d"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/bayesianbandits__bayesianbandits.jsonl",
+        "sha256": "b18af92eb97010cfa9d3e49e407130239c53184eed176cf10b873824add31195"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/bayesianbandits__bayesianbandits.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "30a5d5ce36732780a1c75977aac0dac57a59ce6b071f95bc9fedd96c690fd2f3",
+      "repository": {
+        "bundle_sha256": "13a06adb7a329b2f7cc7e3c6c26b22c1b8ec36f08818199ecd360bf0e651770e",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/bayesianbandits__bayesianbandits",
+        "canonical_repository_id": "bayesianbandits/bayesianbandits",
+        "cutoff_commit": "b8b533b8296f0c79d6a9953d6b2cb0059636a2e5",
+        "cutoff_tree": "c89369d6b268b49546bc65c2e8de624d6991649d",
+        "sourcegraph_name": "github.com/sg-evals/bayesianbandits-bayesianbandits"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/bayesianbandits__bayesianbandits.jsonl",
+        "sha256": "406f4de520cd79b36ea384e05a33a258fd428fb6030f56ff9f1a314136de7d9b"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/beehiveinnovations__zen-mcp-server.jsonl",
+        "sha256": "32f3359fc2f67bfc89568f0f2a7b4dfb65bdffd472792bc02f2a53d7f8d31187"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/beehiveinnovations__zen-mcp-server.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "60018dc60c4f7351078a93a42202d4a25ebfb1fd72be59b927c48fd3f77d34f2",
+      "repository": {
+        "bundle_sha256": "5c72e01177cf90ad3787177eb511b82324dfba2ca66e38b9b0badaffb93448da",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/beehiveinnovations__zen-mcp-server",
+        "canonical_repository_id": "beehiveinnovations/zen-mcp-server",
+        "cutoff_commit": "7afc7c1cc96e23992c8f105f960132c657883bb1",
+        "cutoff_tree": "28b81ef0320ad27b054e3755d1387033cc89d0f3",
+        "sourcegraph_name": "github.com/sg-evals/beehiveinnovations-zen-mcp-server"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/beehiveinnovations__zen-mcp-server.jsonl",
+        "sha256": "479da7c1a718fe51a1c6c08703d22ee85b71646335b2045baf38c60b767404db"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/bespokelabsai__curator.jsonl",
+        "sha256": "2bd73b364f3c43254187b23c1ae92394b6164ee85996f56cf095713beb6a1552"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/bespokelabsai__curator.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "389db63c5876b639950612960a267697cfc8727c5e4c2970677090dfe42de849",
+      "repository": {
+        "bundle_sha256": "4e2ed11746f5c67d9660206218b122883ff6a8b9d966e50cacfe40a218bc5861",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/bespokelabsai__curator",
+        "canonical_repository_id": "bespokelabsai/curator",
+        "cutoff_commit": "461b4170b96690873a152e829185a920a941b960",
+        "cutoff_tree": "429cd820aab4441be334b1be58b196e7b7b24b3b",
+        "sourcegraph_name": "github.com/sg-evals/bespokelabsai-curator"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/bespokelabsai__curator.jsonl",
+        "sha256": "bf08d2f5cad5ffe2d939d5887429f226d51273abe253e19f5ca2701bbc8ff135"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/brentyi__jaxls.jsonl",
+        "sha256": "d630093f31d2b4db446f020f695fbb90f9d75a3092c74d121c93709b322c11c3"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/brentyi__jaxls.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "f6c6011559825bdc75bf8ced7b3e4e070a821f978c32eead5dffedd20a5c3fa9",
+      "repository": {
+        "bundle_sha256": "462f2d4a31ca6664208afc07fc0ed11c2a89fb21cbcffe19fcea04193b61430b",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/brentyi__jaxls",
+        "canonical_repository_id": "brentyi/jaxls",
+        "cutoff_commit": "50a58be88c5ef74532f09e3f55268b4f02c490e3",
+        "cutoff_tree": "29e72006a8587b0bd5c8f03328a26cd6e994d08e",
+        "sourcegraph_name": "github.com/sg-evals/brentyi-jaxls"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/brentyi__jaxls.jsonl",
+        "sha256": "bc35ac3369befd7f7bd1035d807ca10f8923d9f3c9df803af02e2601ed99ffda"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/brevdev__brev-cli.jsonl",
+        "sha256": "03d3b5f5abe8a7f4d3f80a45fa0b4ec4b14e0887cbdcd3f57ef529586707e82d"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/brevdev__brev-cli.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "4d575b600239d6099157604a12cd73fbac0b788578c882ec2a3caad04506cb11",
+      "repository": {
+        "bundle_sha256": "8eaf821e3dc6b6f3cacbdcb0e0b6220301ee42c6cd68c68daaa513344ee4ed00",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/brevdev__brev-cli",
+        "canonical_repository_id": "brevdev/brev-cli",
+        "cutoff_commit": "6b111e1f041d354d682541cc489375431f195fcf",
+        "cutoff_tree": "37d53e31379118591af59f0882bd76a494970db8",
+        "sourcegraph_name": "github.com/sg-evals/brevdev-brev-cli"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/brevdev__brev-cli.jsonl",
+        "sha256": "efdf164b6ad5350df99f39c4da8fab218f1a7e8b48264782d70a45cba8f06b3f"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/briangu__klongpy.jsonl",
+        "sha256": "d9c9ff6fe9bb3b8ddf3571ec89d48825b129b04466a586e29ac538ad5605f64e"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/briangu__klongpy.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "8b2e9d644b5d4b2f8403bceed7b0acd7108a8ff94fcf88fe8845ec66aae4fdf5",
+      "repository": {
+        "bundle_sha256": "f922e4aa78b3eff707a133b5e4c2566cb879cdfc20470bbaf6ddcc288cf56d0e",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/briangu__klongpy",
+        "canonical_repository_id": "briangu/klongpy",
+        "cutoff_commit": "3b298541ba510cf45bd9702b8a10e4c96a4ddbc6",
+        "cutoff_tree": "77b7ae54515f93b29ca419a3af0bba2b0fa368be",
+        "sourcegraph_name": "github.com/sg-evals/briangu-klongpy"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/briangu__klongpy.jsonl",
+        "sha256": "66367a81d6902a768cece0f03c324fdcf125ac63a2712ce111c59a92f54c6089"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/busser__tfautomv.jsonl",
+        "sha256": "391ba38a2ce2d8c053749a0cd493ad98d6ba65e57a0d9ee8bd06feb3dc397e09"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/busser__tfautomv.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "741de37e2b45eec2840831b9e616862856786de5bed9f331ae9157139f8147dc",
+      "repository": {
+        "bundle_sha256": "ed4a295e87fc217eebd36a4d7c9328f3290af4ef87a3f09e673b4c4ae4b044f4",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/busser__tfautomv",
+        "canonical_repository_id": "busser/tfautomv",
+        "cutoff_commit": "b1a070dd2f4c0db63f894a77461a775ec508d5e1",
+        "cutoff_tree": "e7138038a02aa3c8c03809a751b6d8e713b440bb",
+        "sourcegraph_name": "github.com/sg-evals/busser-tfautomv"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/busser__tfautomv.jsonl",
+        "sha256": "79599cb7e689fa030a2945b693d0b75345a12d565477dec6dc3072574f6645a0"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/celestiaorg__celestia-core.jsonl",
+        "sha256": "0da3716bc456817c70332b78dd71c065b24d90df9a35af9fa76d41b84ef3433e"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/celestiaorg__celestia-core.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "cb6a7c04db31bdf973a761e5abc18b5980651b26539d011ea957ca80025ee976",
+      "repository": {
+        "bundle_sha256": "3ff3efeb88c41ffcf83da38588e5a7fca14bcc400359a43eec3805135b5844ab",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/celestiaorg__celestia-core",
+        "canonical_repository_id": "celestiaorg/celestia-core",
+        "cutoff_commit": "d1f0a046336373569617fb9d57cdbbb5c8dcaefb",
+        "cutoff_tree": "58fed397e5401f43551d042e60e61324eb5f8f18",
+        "sourcegraph_name": "github.com/sg-evals/celestiaorg-celestia-core"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/celestiaorg__celestia-core.jsonl",
+        "sha256": "45952f6bca8b29847220baed5e5b99a601c817a2bfd7e82a3ae41bf2fa827bb2"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/coder__coder.jsonl",
+        "sha256": "9da848ee90bec2d715c347a566d7bf0287b86edbb3481cac82914390a306c86a"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/coder__coder.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "4ecfd654666d1cf7e36c87f9a0b5e65ce101e899a206000e0285b0cd66e52d83",
+      "repository": {
+        "bundle_sha256": "f5d2fcdc9fcf47ac0e18c21dbee2e42156e87c28e6c88ce9ff25a7ba6078e2e0",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/coder__coder",
+        "canonical_repository_id": "coder/coder",
+        "cutoff_commit": "ff10beb042aff7ce8921356cb867cacbef71b6c3",
+        "cutoff_tree": "8edfac1aca7710d408000182e19b500c20970f66",
+        "sourcegraph_name": "github.com/sg-evals/coder-coder"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/coder__coder.jsonl",
+        "sha256": "e092a2d2e321b99e8ebc54f71fcfe702c621e92c2ab431875c2cacfd248464d9"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/commaai__opendbc.jsonl",
+        "sha256": "2df95d1a95abbf6950447e0a2d6cdabe719f34b84fa22e19277555c3218a6853"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/commaai__opendbc.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "6a66af420ea4451b9a5d7020064cb714b87f6db94cb575c5b7c0317f94310e7b",
+      "repository": {
+        "bundle_sha256": "3c272fb6aa595b3bad1a67bb0e75e212733f1a3661ab777a53038a433bf2bd2e",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/commaai__opendbc",
+        "canonical_repository_id": "commaai/opendbc",
+        "cutoff_commit": "c9b31d21bc396e8958891e271936bdbdf1a6ca93",
+        "cutoff_tree": "f2d014378ea1ca3ecf44f7fdc853b212f6356051",
+        "sourcegraph_name": "github.com/sg-evals/commaai-opendbc"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/commaai__opendbc.jsonl",
+        "sha256": "bbd9778e1c234e510efeafb7b0a614c70d4e5f0b41d9b64700cd5d7e0c1e96ec"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/compiler-explorer__infra.jsonl",
+        "sha256": "9dd61227271d0d2803f9f56439b8958ea8f74d5935dbcfd4ae830389039237c5"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/compiler-explorer__infra.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "cf881c61d9049152cf1a5f113e850f6eadc3928c4864f51d8eef2c9755298774",
+      "repository": {
+        "bundle_sha256": "bd75cbf2d2e1ec5243b4804b675f8873a3ef1c3c3b20b282f60ae0ba814b56b3",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/compiler-explorer__infra",
+        "canonical_repository_id": "compiler-explorer/infra",
+        "cutoff_commit": "0a68e44b7bed23cce1362f238b163723f3275fd8",
+        "cutoff_tree": "187997c1ee53075cd46c7f9eedd40e2769db5dec",
+        "sourcegraph_name": "github.com/sg-evals/compiler-explorer-infra"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/compiler-explorer__infra.jsonl",
+        "sha256": "c6d14e1472e100741a9a9651292ca5ccf78ffbf3789e4e1316dd71027a9f2b1c"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/crewaiinc__crewai.jsonl",
+        "sha256": "7fb7714016e1b6ab70b2f2cda870b3355ca4a06fcbd59533cadde392c05f98bc"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/crewaiinc__crewai.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "1f923d462be84e2c6a6765df7ed7a4bd6258218dc73d5e9fdc76c71a841985d4",
+      "repository": {
+        "bundle_sha256": "c4815552e0921adaf9dcd481314692288160b5f28965f6cbb9107e889332072a",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/crewaiinc__crewai",
+        "canonical_repository_id": "crewaiinc/crewai",
+        "cutoff_commit": "b3aaaab023a53a08db4d36c9430b3463f1efcc7d",
+        "cutoff_tree": "3777debd4a80bf476e82fff454023fd178e7d315",
+        "sourcegraph_name": "github.com/sg-evals/crewaiinc-crewai"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/crewaiinc__crewai.jsonl",
+        "sha256": "8e88a628f886deec436bb8521229a89d81fd6b31acaffee7d154f8e7d8ca6714"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/crewaiinc__crewai-tools.jsonl",
+        "sha256": "e57bfd818a6d0e417d0a0e2de6d428b9f6719b3fec83aa43e40e627ed05e3fc4"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/crewaiinc__crewai-tools.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "ecf39f98b6047d6606d1decaa88154a36bc267d9265f847c0d21c3c14c712b78",
+      "repository": {
+        "bundle_sha256": "ac14724a827f73b59d15cb498e13aa3605cb7edb2ff6e696731a3a26a2c6a98d",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/crewaiinc__crewai-tools",
+        "canonical_repository_id": "crewaiinc/crewai-tools",
+        "cutoff_commit": "62f4d7efd1ea61ec11e5c0922eee01b444b6c6d2",
+        "cutoff_tree": "a6fe675d076565d2c1a11def1d466b091f877c8a",
+        "sourcegraph_name": "github.com/sg-evals/crewaiinc-crewai-tools"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/crewaiinc__crewai-tools.jsonl",
+        "sha256": "a9c20050392848bad79efe9b603f69dfcfc4ea2abdcf6818939f5df70385102f"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/deepnoodle-ai__risor.jsonl",
+        "sha256": "05786e365767b84dd54127e4c9d907aea57b586d580e2cabbd362ec9abf14b0d"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/deepnoodle-ai__risor.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "32848d3c3720ea6eaa3c7fec865d7a210f4a8dc5b24f6fa222def28fb932fa20",
+      "repository": {
+        "bundle_sha256": "d410ea9f33a0ecf6437cb0d6a6de6b3aa6d4fa7c2ec3ee4d1f158af03bf0bcff",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/deepnoodle-ai__risor",
+        "canonical_repository_id": "deepnoodle-ai/risor",
+        "cutoff_commit": "a263ecce1b9d58c71e2147d9ed087288588c79de",
+        "cutoff_tree": "62f4f8524d8e949fd11a82efc2a20dbec7f2558c",
+        "sourcegraph_name": "github.com/sg-evals/deepnoodle-ai-risor"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/deepnoodle-ai__risor.jsonl",
+        "sha256": "55f43d9f39e25d0ae5e6b937e89ddf6df0277b983810ef2d81f9e5bf83bf5075"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/disler__single-file-agents.jsonl",
+        "sha256": "9520d4bcba32daf8f6d102a8d42f54e318b4abe0d4a717794c84ef42ec794c71"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/disler__single-file-agents.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "8afed878d337f56e2e4087ac9fd54abbda303e9b5ced03be98e2628cd3e3efe1",
+      "repository": {
+        "bundle_sha256": "b94d0eacb4c6b2b0feabc3655d817a4ebc9264179736661f16b8f93462cfd4aa",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/disler__single-file-agents",
+        "canonical_repository_id": "disler/single-file-agents",
+        "cutoff_commit": "ae5826a4165c4af2e54501ba99b4d98dda0bb8b3",
+        "cutoff_tree": "337e54dccad41644eec7405bfbbe334f9bd998e9",
+        "sourcegraph_name": "github.com/sg-evals/disler-single-file-agents"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/disler__single-file-agents.jsonl",
+        "sha256": "a934a90ef2e980460d5c9e4e6cf38af4cb6ffd1f1cb9e580c34204ecf5b880e0"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/elastic__terraform-provider-elasticstack.jsonl",
+        "sha256": "0ccf3fba9237ad8591568bd2b14e7b8436f3a2dbe7c633902ba8cea698f83281"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/elastic__terraform-provider-elasticstack.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "1b993452a82d3eb5ff10238c72f0f96926dd380ec872aa9508c133760fc49e72",
+      "repository": {
+        "bundle_sha256": "9f9b5b5b21135654c9451c4f42953985dfeffae5e32ec9076b15a561a20cdcf2",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/elastic__terraform-provider-elasticstack",
+        "canonical_repository_id": "elastic/terraform-provider-elasticstack",
+        "cutoff_commit": "6425763b17d16088584c5d403cdb730ecdac4371",
+        "cutoff_tree": "7689c61c057ab4aaebc66b2d6fcde6b10b03a9e8",
+        "sourcegraph_name": "github.com/sg-evals/elastic-terraform-provider-elasticstack"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/elastic__terraform-provider-elasticstack.jsonl",
+        "sha256": "b236e972a349913d3c4ac9bcbbd55c40dfb4d60c42574b96638d0906f43e0c20"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/equationzhao__g.jsonl",
+        "sha256": "4d3fe15b548c7ed50d35460d47fb5bfc7dbc6aae2e25290bf2054d891b9f17bd"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/equationzhao__g.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "450cf6c78b9b7610f8edef5bccd806ec81ecbbd4aaac4b5b3bab5b3918f3256e",
+      "repository": {
+        "bundle_sha256": "a5a4906fd1d0e6a0a9429234fdec84dadef243a0173d2d34c8392e0744a5886c",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/equationzhao__g",
+        "canonical_repository_id": "equationzhao/g",
+        "cutoff_commit": "8017c46d7f61d6286254561e877a5bc907805b63",
+        "cutoff_tree": "fb122dbad2fbb71a12d2651ed41b7994556a907f",
+        "sourcegraph_name": "github.com/sg-evals/equationzhao-g"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/equationzhao__g.jsonl",
+        "sha256": "468f87a5e1b8e5018891e09406ea1d9d48dd1b744e4184e6b9c82325ba9984b6"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/exa-labs__exa-py.jsonl",
+        "sha256": "becbab0710787588d9df3f8a0ba1274e0a79f15af03699ab65e9c4b1f5e49b01"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/exa-labs__exa-py.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "99331c0b50c83f38cecf36abbfce87684a9b8c81d073b102ed00d507592ad69c",
+      "repository": {
+        "bundle_sha256": "d661b34ae8e8f8ca2a8c25152179cbff7e6bc2e3f478f9144ae34ae5b1c6739f",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/exa-labs__exa-py",
+        "canonical_repository_id": "exa-labs/exa-py",
+        "cutoff_commit": "7537a5ebc4175143e3a582eb0f9239d3a1bbf311",
+        "cutoff_tree": "51d645a9a97fb50db7d8df9eecbdff3a377c6ee2",
+        "sourcegraph_name": "github.com/sg-evals/exa-labs-exa-py"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/exa-labs__exa-py.jsonl",
+        "sha256": "d46179118de96613010b44026d4099425287ce089752b012f6212f0dc24ae36d"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/fatedier__fft.jsonl",
+        "sha256": "d89c7e09cf97af1bc1797b7f62d1a129322e13ae62773c9fe00b50d68924486d"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/fatedier__fft.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "8f65d511561729fa28ab1290636576e075b765352085e9b26d7750b65d61a20c",
+      "repository": {
+        "bundle_sha256": "d040aef19cac5cd8b621444d94cdc853647c33e1a12992f638f8a4b45e3f8d28",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/fatedier__fft",
+        "canonical_repository_id": "fatedier/fft",
+        "cutoff_commit": "b3cf96145d0069fdd983dbc6c8140f674dd7fa3d",
+        "cutoff_tree": "cf2126da08bf5fda6eb10905b2e1e83d099caa2f",
+        "sourcegraph_name": "github.com/sg-evals/fatedier-fft"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/fatedier__fft.jsonl",
+        "sha256": "b8b8d7d0e795b6836d35142c6d3e15ad18ac12113f72ea00dd2193196b5b1e88"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/getsentry__sentry.jsonl",
+        "sha256": "52e148e54e6b144eae7102449b63ce4a46b7a652c3ed8e3a880f617c8a2902b5"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/getsentry__sentry.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "764e9d63edd5d88535315575dc43641011adc937314043edeaea555244417f7d",
+      "repository": {
+        "bundle_sha256": "399f8be88a4036403533453b1179fd10b24068cc17724a71b663dd7740f8f872",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/getsentry__sentry",
+        "canonical_repository_id": "getsentry/sentry",
+        "cutoff_commit": "dde7031206d75f30f3d2b146a3c9437a673c2aab",
+        "cutoff_tree": "6572b42ab4ae2238b8193ca2dd60c031b7140e10",
+        "sourcegraph_name": "github.com/sg-evals/getsentry-sentry"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/getsentry__sentry.jsonl",
+        "sha256": "58011b3c9bdd7990ad6d0febe43b094a15ec517f12ff2f148e20701fe0d035ae"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/github__issue-metrics.jsonl",
+        "sha256": "721e0f875f3fdacf2539ef9fa464a1269548ee28046224a749278c5a7dcc2b7a"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/github__issue-metrics.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "5dfde2b2a05466b83082e810ecc251aac39b3b77fae9ae9e70e82e11598714b4",
+      "repository": {
+        "bundle_sha256": "06996901e6715111f95422e3616ad274b17979148b6fb3f04a5a40409042c998",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/github__issue-metrics",
+        "canonical_repository_id": "github/issue-metrics",
+        "cutoff_commit": "fc6a9befae1e1ed72e123c72886e4875225aafa1",
+        "cutoff_tree": "4c60153f8fa52dec49add8f7898f8cd1ebfd67f4",
+        "sourcegraph_name": "github.com/sg-evals/github-issue-metrics"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/github__issue-metrics.jsonl",
+        "sha256": "6f620a01c8a4ffb38ae3bb3c9c6a0b1e6b032160b85002e6f5e41601adaf5bfa"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/graphql-python__graphql-server.jsonl",
+        "sha256": "c9d45796b01cfd4a8dc65cd3c42ac035697881a38ecc6b200e5e9726f4038714"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/graphql-python__graphql-server.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "d9b979c51298c24959c50df1a4700f533d0cf2f4137fcaef8751049c146fda57",
+      "repository": {
+        "bundle_sha256": "ea49963c7d512daf4d252806a2ea640f50436159f542bb7e38f5e379e0675398",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/graphql-python__graphql-server",
+        "canonical_repository_id": "graphql-python/graphql-server",
+        "cutoff_commit": "2d5ac9539307d6db22b3364a61063e050c3f20b9",
+        "cutoff_tree": "2384a69972e8fb1f55e0bb20593bbea457efcff2",
+        "sourcegraph_name": "github.com/sg-evals/graphql-python-graphql-server"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/graphql-python__graphql-server.jsonl",
+        "sha256": "b297488dc02f2bd6db0ecba4623c1a5451aa0e8d579312d299da60d68b5484de"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/humansignal__label-studio-ml-backend.jsonl",
+        "sha256": "f70051005761aef11f70c71c7722b6a6571df05531c2c962392b8b79988dc56f"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/humansignal__label-studio-ml-backend.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "ca3a958e7259ba324992f42b81c102f5aa73c41d41f8a14778dfcce11cb0ce58",
+      "repository": {
+        "bundle_sha256": "c0ed0245f2233cd13e0286a042ffa21120f2dc5b8701f415ac1c945b22e5ba52",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/humansignal__label-studio-ml-backend",
+        "canonical_repository_id": "humansignal/label-studio-ml-backend",
+        "cutoff_commit": "b06ebeb81531566ea10498f3ebe4013e43d5ee1d",
+        "cutoff_tree": "235cb117695aa2390b6462d4cd8cf4325662b6e0",
+        "sourcegraph_name": "github.com/sg-evals/humansignal-label-studio-ml-backend"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/humansignal__label-studio-ml-backend.jsonl",
+        "sha256": "9e11aaa8b81bc42fa30ce8f264edefeaf850a6e1958acb92e035c1672c6a57fb"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/ikamensh__flynt.jsonl",
+        "sha256": "0fbf36855f95d992422dd36bdc6f10e7e700388023173a83078cc9a3bdcd95ec"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/ikamensh__flynt.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "1ab6aaf9c3927d05487d839fe906e3626f6f6fe3255dc6f1bf476935fcf90c5c",
+      "repository": {
+        "bundle_sha256": "0e6957c79f8e17edd38d15c01b1b7a776d53594f889aaeb0d482537e63382dd9",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/ikamensh__flynt",
+        "canonical_repository_id": "ikamensh/flynt",
+        "cutoff_commit": "34ec5eb2d0a5d392c2eed4d81f716c5a3c5e3ac1",
+        "cutoff_tree": "69ec09bf2e613eeb22ecca6bee5e659c0a8bb4a4",
+        "sourcegraph_name": "github.com/sg-evals/ikamensh-flynt"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/ikamensh__flynt.jsonl",
+        "sha256": "9839395ca0391a1d10aec7e55dc5198036d9518bc8306a4474796a13334f9dbe"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/incatools__ontology-access-kit.jsonl",
+        "sha256": "169efca7c99b5e73b9f45fe1fbaaf4cc74dc20a48cc26fa56cc241b55a4543c9"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/incatools__ontology-access-kit.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "9e6ca4c9b52a82b2267ff068bf471b424b7b670d7620447988d4a68939b7e9c9",
+      "repository": {
+        "bundle_sha256": "4dd1c9303c151a95f024a3aab952dcbcd0291f693d4763527fd1548c6d146a61",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/incatools__ontology-access-kit",
+        "canonical_repository_id": "incatools/ontology-access-kit",
+        "cutoff_commit": "65c8760b50c6e9fef3a2d782c2a4ea07b3913b42",
+        "cutoff_tree": "dc91796316a1a35600ff62ac23a7bb497b2941fb",
+        "sourcegraph_name": "github.com/sg-evals/incatools-ontology-access-kit"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/incatools__ontology-access-kit.jsonl",
+        "sha256": "4a6b9e26ad961be7fa5a709c21e5b0ea29cb6d2b1b1ca8c06d2dcc3c729249f2"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/iterative__datachain.jsonl",
+        "sha256": "56dffb595c1455040e1815ae7604232023b122282c3d2afd02725c15fb49885e"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/iterative__datachain.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "01717adbc57a6773af913b15dda17db075f99305af8c2438309c4f4d1ad3ac87",
+      "repository": {
+        "bundle_sha256": "44a26a4fb043a3c16c0f86cb87038f37fe693f9a3a773d4a782545e521b67396",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/iterative__datachain",
+        "canonical_repository_id": "iterative/datachain",
+        "cutoff_commit": "16782f34e471affb31cfed075191b3f0591d3635",
+        "cutoff_tree": "41d24ef5d5c90967b9952c181fa924c377ee1a23",
+        "sourcegraph_name": "github.com/sg-evals/iterative-datachain"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/iterative__datachain.jsonl",
+        "sha256": "e1684322eac96b0f91701bf659399329691ae0f1d1590d47b0b2dfbdce08d63f"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/jeroenterheerdt__hasmartirrigation.jsonl",
+        "sha256": "b1b71a761f1bd872aa5a6f0d4048fcc9ceb2526d621e06dc90b5198852736a53"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/jeroenterheerdt__hasmartirrigation.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "6c09260546807de68138f9eec179c5b0dfbcd9ea66f79f8dd5fb69d330f30a8b",
+      "repository": {
+        "bundle_sha256": "54aeaa88b0f9d77555600f95c7fd50c9a64c7850572f8ed9bebe6f2a1017283a",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/jeroenterheerdt__hasmartirrigation",
+        "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+        "cutoff_commit": "9ad5a7d90ac2c42288536a6264cdc8adbea39b6a",
+        "cutoff_tree": "2e2550b743aa278ee298e909d81af2bfcf381757",
+        "sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/jeroenterheerdt__hasmartirrigation.jsonl",
+        "sha256": "6874419036c88a1bf5c0e96a6aa8336402771483f5f453fc830a3394578ec1e6"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/justtrackio__gosoline.jsonl",
+        "sha256": "c51cc9de368fcfe8f34e3e542a768225ea6b0fb66e228e855739e2fb3239fbc7"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/justtrackio__gosoline.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "a42ed2da5bb909cf632ab29fe1e10f783cec7f3465f4fc9e6f3e24f2c3abf3c7",
+      "repository": {
+        "bundle_sha256": "78dea9327d37bae4e665567376da1e2af0d438174c52632aec436f687c21f683",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/justtrackio__gosoline",
+        "canonical_repository_id": "justtrackio/gosoline",
+        "cutoff_commit": "c2f175bc0abe7b7cd79371305e028a1c06269c85",
+        "cutoff_tree": "ec535fabf9802ed277a870fc98f62115f1841418",
+        "sourcegraph_name": "github.com/sg-evals/justtrackio-gosoline"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/justtrackio__gosoline.jsonl",
+        "sha256": "996d1ed77a3cc9021420214734b7d3f8d67901ad612ed663dde2b37b486d8500"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/jxxghp__moviepilot.jsonl",
+        "sha256": "2e25d8126afb7557f846fe16c7c146e2665fe01e6ca384a11c81fe754ed36901"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/jxxghp__moviepilot.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "bf8991afb0acceab6ba0be66a563dd9a88fc4c836fa9f259312090e08d1122de",
+      "repository": {
+        "bundle_sha256": "6d81362c5ee372f912fbdcabe5f66a4a30933515b280ea9066dc9e584a6728f8",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/jxxghp__moviepilot",
+        "canonical_repository_id": "jxxghp/moviepilot",
+        "cutoff_commit": "6354a48405cf16a156c8f92da35f334aff92d26c",
+        "cutoff_tree": "25646574f5232009a36a5d9631074a4c0309732f",
+        "sourcegraph_name": "github.com/sg-evals/jxxghp-moviepilot"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/jxxghp__moviepilot.jsonl",
+        "sha256": "4156f7e9eb8f91eb3847c928ad6dbbfe32ed6b842c99ea9e5933aa49e579ae2d"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/kanaries__pygwalker.jsonl",
+        "sha256": "676bf9d9270ee71305dabd7fb1b55ccc4e2648e807b8ff20ac47855b459b0a31"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/kanaries__pygwalker.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "607d6acc2bde862865d50752f9a06a26d1eb51396b629a2461117e2995c136ae",
+      "repository": {
+        "bundle_sha256": "1165ef8ada46a425d8b8021a58589d9fd8dbd64378940becb28b7886d3b8c28f",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/kanaries__pygwalker",
+        "canonical_repository_id": "kanaries/pygwalker",
+        "cutoff_commit": "8005c8bf72a2e4f3f3eedc0f1922f7d29abe926b",
+        "cutoff_tree": "1295abdb3a344ee12344b0ba01239348c8778772",
+        "sourcegraph_name": "github.com/sg-evals/kanaries-pygwalker"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/kanaries__pygwalker.jsonl",
+        "sha256": "81764b1a85fb2fcc95d2b682084eaf49eb5fdc6844e4d1254522375888f78916"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/kanisterio__kanister.jsonl",
+        "sha256": "9601feea26cce10c86bc173100cb1371d193eeccbf94a4da5b70ed9c845dcf16"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/kanisterio__kanister.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "b1bcd2731f4523de531d5d0c8a413b7473222bf4f3f8cab5a070e6256ecfbed7",
+      "repository": {
+        "bundle_sha256": "6429536ec769772f37825edc3a08d16203b6ad67c5f35f513845c92fa7391f00",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/kanisterio__kanister",
+        "canonical_repository_id": "kanisterio/kanister",
+        "cutoff_commit": "5ce3f5eb0ba33656f5ed0d2746d530b27c9c45a2",
+        "cutoff_tree": "b84e8368045457a2c577d22892a9282bfa33a361",
+        "sourcegraph_name": "github.com/sg-evals/kanisterio-kanister"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/kanisterio__kanister.jsonl",
+        "sha256": "b17e4e68325139fed2bf43852bad7f743e551f275dbf7d6954bc6eed23740583"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/keephq__keep.jsonl",
+        "sha256": "c22c68f8399351b048566bdee3b1f9fb4c99bfbe9330c77a3bf8c39a3cd6f921"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/keephq__keep.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "a4042540e0f4900d36db9eddd94ecddfc52063817dd5a0a84931a2224a7c0258",
+      "repository": {
+        "bundle_sha256": "f6be6447de8121b364109e08736751d1f571cf7a4e19d8e0e24a78af8ef85648",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/keephq__keep",
+        "canonical_repository_id": "keephq/keep",
+        "cutoff_commit": "767fec9dbe1c19b2bfc45089f5dc1c7946f36a30",
+        "cutoff_tree": "8645cd860ab42b33836b152ba651a593ab6ed95c",
+        "sourcegraph_name": "github.com/sg-evals/keephq-keep"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/keephq__keep.jsonl",
+        "sha256": "6e6a3805814a6aeda094e9021380d42998edde97893cbfa413db3139b894ba4f"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/kubernetes-sigs__cloud-provider-azure.jsonl",
+        "sha256": "c97bd7a1b73bb7c55a2895a311ed2301622a79d71313544ad43ef858a7877290"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/kubernetes-sigs__cloud-provider-azure.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "7db4cbed01d13857eed15d869a71f03c229d230ab48526a947df9da11b423d26",
+      "repository": {
+        "bundle_sha256": "c038aa78ca6e6700b0199b9bcabc766cdfc58af68ebfddb0f2d0ed6993836c11",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/kubernetes-sigs__cloud-provider-azure",
+        "canonical_repository_id": "kubernetes-sigs/cloud-provider-azure",
+        "cutoff_commit": "4128235349f81a3f45d1f9e89f6c72a6a43a1ea2",
+        "cutoff_tree": "2c64478fd47725e2264e678fed9c6fd0f93b3aec",
+        "sourcegraph_name": "github.com/sg-evals/kubernetes-sigs-cloud-provider-azure"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/kubernetes-sigs__cloud-provider-azure.jsonl",
+        "sha256": "7005cfd20196706d6998909c73fc0ba1ff0d52d3002fafa34d919f5d4c165a0e"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/langbot-app__langbot.jsonl",
+        "sha256": "238d067893e97a5db7df6f4f6fa37ab5b816d7fac16b0cbe70d67c793a67f342"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/langbot-app__langbot.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "aba1e9f67c99bbba5aba6b50b4e7e41ab9568ab8c6fcb7394eb62568b0c8e9ab",
+      "repository": {
+        "bundle_sha256": "e0cfb8f1c4842556f6cf9c5360fd07694b575e7b8a0bacd332a985244c53b707",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/langbot-app__langbot",
+        "canonical_repository_id": "langbot-app/langbot",
+        "cutoff_commit": "38e35d328a13f6561c14a21ea734c2fa75c0e4d7",
+        "cutoff_tree": "be9ba694a95be44861a03ca6527690fa7dd904e9",
+        "sourcegraph_name": "github.com/sg-evals/langbot-app-langbot"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/langbot-app__langbot.jsonl",
+        "sha256": "8452de4c14cd5fdeb73e0bad125c916e7b78f0bb7bc09b9cb5e547a43b3d1815"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/levigross__grequests.jsonl",
+        "sha256": "8d0f1d8cb451b21fa5378d771e804b8dbaa6f3788ea89f70ed33a930de4ace11"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/levigross__grequests.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "e0911e735ceb4382297b921aaca100a3a257e6f8a9e37c04ea1fe0694715f428",
+      "repository": {
+        "bundle_sha256": "34a2add3432f43b94a3dcf7adc33fe14c6b21b20307aab1e2c25d1a22547c4a1",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/levigross__grequests",
+        "canonical_repository_id": "levigross/grequests",
+        "cutoff_commit": "05add15eea25fc3d11c8b19c661c74187db21949",
+        "cutoff_tree": "f84310d5e9e65e662ce492e27d8eec46b6dd9f00",
+        "sourcegraph_name": "github.com/sg-evals/levigross-grequests"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/levigross__grequests.jsonl",
+        "sha256": "982658c60a79141900e17e1090627e8b75fefa6caa6614c4e0609d23f4288517"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/marimo-team__marimo.jsonl",
+        "sha256": "6a624df7fd4f1ad285e7478dc5c3b3e5eba827041c708127d06370e2cd0af739"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/marimo-team__marimo.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "1a8b9d95736d5e00a9e344959227541a35a74204e4b031fabf82eb9aa9d1ca42",
+      "repository": {
+        "bundle_sha256": "cc261f13ac3ed3af0c039b21154c529ebf28ae078db6bf2210f8857444f637e1",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/marimo-team__marimo",
+        "canonical_repository_id": "marimo-team/marimo",
+        "cutoff_commit": "f514eddcf62a5d48b1bc6fab8d32d8418c60fff3",
+        "cutoff_tree": "0310befe63ed86e02fe8e3e95ab7a1142db149d3",
+        "sourcegraph_name": "github.com/sg-evals/marimo-team-marimo"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/marimo-team__marimo.jsonl",
+        "sha256": "6fa56562a14af2fb6ea6b3c0ef01741c39605c3d9dd263bf3b93acef7964b9f9"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__azuretre.jsonl",
+        "sha256": "2ff2971b98108f66dc6421fdaa368ec2464121660f4ad8eb9d9e5405979b1028"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__azuretre.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "2d2e2ed6ca15ed0f69c419dfbcd4a3e1d5338768bb6ab523580fac6b129a2b04",
+      "repository": {
+        "bundle_sha256": "7b558b3fdd6a3b99fa69a60f8db55c926f05d63445458a9608191565e5e06251",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__azuretre",
+        "canonical_repository_id": "microsoft/azuretre",
+        "cutoff_commit": "f1729ba39d4cdcede3f0105001e9aab9055d9396",
+        "cutoff_tree": "b0fe3d57e4c742f62893cd8c3df619954a8722a2",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-azuretre"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__azuretre.jsonl",
+        "sha256": "587c1ad5e8573ecb4b59d4b67c952799f47dd4cf23d68ba457f6782e51df0cce"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__debug-gym.jsonl",
+        "sha256": "a092eed5a15e3e10f0dd8fef064674fe72bf3944a2a472a52a426b4d351ce17d"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__debug-gym.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "7f5ab0b06ee0df7d0b20b204c346edc516c4536857d26dc3dcc0cc03f77742d7",
+      "repository": {
+        "bundle_sha256": "47fcfebbd2cc552b0902149f7bfc454c299588edfaaa365a23e38937015db191",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__debug-gym",
+        "canonical_repository_id": "microsoft/debug-gym",
+        "cutoff_commit": "cc3fe3ef4ce08919e522eb00ea1bea5689f3b53e",
+        "cutoff_tree": "54b04c0313b66d72c7f285dc255d2693164a7193",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-debug-gym"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__debug-gym.jsonl",
+        "sha256": "f2eb3e7f2e486d3bcac848636e1af9a952f2c176155c136d22e4e8984a1fe991"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__go-mssqldb.jsonl",
+        "sha256": "40dacb32e9401c8e5feab75a9f341cf6e6963da7c287d0b67363655557f0c2ec"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__go-mssqldb.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "9f7b7410fb686b49ebfce298d1af753eeafd827b7321a493ea0877463ba6b146",
+      "repository": {
+        "bundle_sha256": "ac916b2310496451c9a05ccb0e6135b545aa567119fa02109237d9c7ebf61be8",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__go-mssqldb",
+        "canonical_repository_id": "microsoft/go-mssqldb",
+        "cutoff_commit": "4f78540e675cba90350119613eea68dbbd766e7d",
+        "cutoff_tree": "e8f4414ef8fce99cb52344edc8ab408938e335a2",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-go-mssqldb"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__go-mssqldb.jsonl",
+        "sha256": "f12274177b8bcde703ff8331f529827934ed84dda0d8ef921dd3ecbdd88327af"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__go-sqlcmd.jsonl",
+        "sha256": "537bec01576a0121341c56088bec1ecc6c58bc234bda89233503d857cc6de8f0"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__go-sqlcmd.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "ee107deb49ad329de38320f57c061880be64aaa12c55ba0bf55d5941cee17f13",
+      "repository": {
+        "bundle_sha256": "9669930eea18044c0153fce430dc4da4d446c87bccc1066636fdf32ca06cbf83",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__go-sqlcmd",
+        "canonical_repository_id": "microsoft/go-sqlcmd",
+        "cutoff_commit": "a9e3ab59eaef20337e5c8e3ee2324058f17bc0ec",
+        "cutoff_tree": "206ff5af2f78300f495a2de4ef767b0dbb0a33ac",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-go-sqlcmd"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__go-sqlcmd.jsonl",
+        "sha256": "b80fc96c7ba6cd821e360a88d27de9d9dd9b3352786b83fe256174c5a995fe87"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__graphrag.jsonl",
+        "sha256": "8a5737fcf5db94e3dff604f2d84dd3966ef65ef4c18af358baaf91946fb1ba5d"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__graphrag.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "b931ff0c45f1554edd04bf0518b12c80946743c37f30b18106eea4d4eacf63d8",
+      "repository": {
+        "bundle_sha256": "153759b5714219098c98793b7f3b6ad8650943b9e83596eda90dd6cf7b2e633a",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__graphrag",
+        "canonical_repository_id": "microsoft/graphrag",
+        "cutoff_commit": "14a00ad88fc33cf2b52f4f113f25807556f8e25e",
+        "cutoff_tree": "e4e4e038e7850ea84d9ad2772c350db2014429e9",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-graphrag"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__graphrag.jsonl",
+        "sha256": "9454fcc029b3e6e341a6d0ea2b1a8d587e621c9bf804e796981d3a453b473e03"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__lisa.jsonl",
+        "sha256": "7a0d8781e1b58c6bd44c206dd3e683842b18945dd634032b57e6c2672ab088fe"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__lisa.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "39752d21f4f87f8c004f8e857fcd75b05566d086377f4fe9b80e81b6bf9d13c2",
+      "repository": {
+        "bundle_sha256": "8ac5dcbedfddbcb93b8ada445b533ca22e512df19884b8c6ac838a242b629011",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__lisa",
+        "canonical_repository_id": "microsoft/lisa",
+        "cutoff_commit": "ba9762595b01388291ca3c073b2bbe862da9bdbe",
+        "cutoff_tree": "6b226e60fdec00ad68496b47d42584bbf1a69aa1",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-lisa"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__lisa.jsonl",
+        "sha256": "460ee598a63ed72d29ccdeb32865e0e37b691c4dc773bf00a7b6cef1a7445c97"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__olive.jsonl",
+        "sha256": "7cf976e86e57d0bcee95936dc5e425fc00998192f383e6a5a60b459c3c98cb03"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__olive.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "aa6afe4d1ed304cc4e1c88f233e85601d3c11f2b69034574142817d20774f644",
+      "repository": {
+        "bundle_sha256": "ded4d7643ebb0b7326c9151f8da1dd56ad2c42ca2c424310e62253423bf0cba6",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__olive",
+        "canonical_repository_id": "microsoft/olive",
+        "cutoff_commit": "f12401efe3e5761db16fa0326906be7ab07e7d61",
+        "cutoff_tree": "a83e0a669e4e15da0cb0be10ef2c28dd60e1fd22",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-olive"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__olive.jsonl",
+        "sha256": "4dd7265b269f77fda8681011d515144595e2a1a1994aa39de44a209e5c771d65"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__qcodes.jsonl",
+        "sha256": "82c608b7b2fc4e69f63f66858e0e46f9aba31fc4bfb7ca167d1739f2f2356d00"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__qcodes.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "219cf1c08cc243334e367120c2a8de0dd2f083243d3878ada1d5a21fcb4481b3",
+      "repository": {
+        "bundle_sha256": "37f122e2134fb9807ff342e963c7f6bc60bfba71e4622eb8f62663715c8febcd",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__qcodes",
+        "canonical_repository_id": "microsoft/qcodes",
+        "cutoff_commit": "3ef949464da5e91ad21eafdad0c0c0eedf4c195f",
+        "cutoff_tree": "82791f94c0fb1f59c2513e531c3146211d64a7f7",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-qcodes"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__qcodes.jsonl",
+        "sha256": "7b19bbcad5a6d1b4e79e3c2ac780c7a3aa63ee7fc7a4263b5b8bf1465e6b1e8e"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__retina.jsonl",
+        "sha256": "8165c62c21c14caeb682b8875e4ff3989b55dbb1cc40f84d2997429f85105302"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__retina.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "e81f4835237f35f3e4cb51c4f7995f2c4db3e45b8f7d6ee4b5f312d17724a934",
+      "repository": {
+        "bundle_sha256": "82c5fa2f6622e09dbd4e459f5a3f2da511cda93f3d2b0563f608f6eb7a5caaba",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__retina",
+        "canonical_repository_id": "microsoft/retina",
+        "cutoff_commit": "4909dbc3f38ed95466c2f148cf930dd265c4c1bb",
+        "cutoff_tree": "cec97b522c03dc39b4729695d1fd72b79093177c",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-retina"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__retina.jsonl",
+        "sha256": "6b9b0a860de2c70175dbfc01081886a1315e3537d66d49253a65ee6be87ae0e4"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/microsoft__typescript-go.jsonl",
+        "sha256": "13fcd9f34043a348fb9389dfdca7fad6b341d10d3d24889e33b57d5748b43182"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/microsoft__typescript-go.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "e30cca3325167412572f8084181c720c4709be8d6038177637b4f6b1c4293c7e",
+      "repository": {
+        "bundle_sha256": "f3bdf9e1045155a050bab62e49ec2537d4a3b404bdcd203ed63912dc4bb29f1c",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/microsoft__typescript-go",
+        "canonical_repository_id": "microsoft/typescript-go",
+        "cutoff_commit": "8d29e62f3585c2fb5179e4412895aa3a8f40b9f5",
+        "cutoff_tree": "1e02318aa455f4b55f96927aaeb1583dc422d5bc",
+        "sourcegraph_name": "github.com/sg-evals/microsoft-typescript-go"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/microsoft__typescript-go.jsonl",
+        "sha256": "c3271831425df77bcacbbe7f558b1eed0d870fbdbbd859b431d186ce0a6e4dba"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/mochilang__mochi.jsonl",
+        "sha256": "a489f1a0d32a4a83d6bce203bcbf0fb3424988cfa1d2010837c6dbd1c7470caa"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/mochilang__mochi.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "40a2b2b11e9ef9a6ac146761bec81d3edfa24437dcafca626b609fcf648c848e",
+      "repository": {
+        "bundle_sha256": "5192eb79818927bd955696a9078f13305cb06bad6dd2a105387604138bd60949",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/mochilang__mochi",
+        "canonical_repository_id": "mochilang/mochi",
+        "cutoff_commit": "d09ff8d479f0e855b1d20216873d19279d3a5fdc",
+        "cutoff_tree": "7a47a7b4898d2c302c568ce88aae5fe818266a3f",
+        "sourcegraph_name": "github.com/sg-evals/mochilang-mochi"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/mochilang__mochi.jsonl",
+        "sha256": "8cd86dfbfac4c3a94c4f02c996debca1bc0b724b17b7ce93d253e5027b4e13cb"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/navidrome__navidrome.jsonl",
+        "sha256": "0fde945f9384482ea2e7ee6bbc92c5a6c84831103a40c63ce9eeb9c5613d8dab"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/navidrome__navidrome.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "f69c93ad72faffa31654c97cb71a1d6d9d0213c081805394da2f12935acf9ecb",
+      "repository": {
+        "bundle_sha256": "9602d5808c7145e94b368450f384af0b3065036bcd811740fa20d5ae55ab353e",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/navidrome__navidrome",
+        "canonical_repository_id": "navidrome/navidrome",
+        "cutoff_commit": "93f6afb684b44b29ebdbd35eb18d3f063d14caa6",
+        "cutoff_tree": "5eef3d978f57c7383c45739d4281832c6d27538a",
+        "sourcegraph_name": "github.com/sg-evals/navidrome-navidrome"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/navidrome__navidrome.jsonl",
+        "sha256": "813088d11d2cee1109808f9655869fed00cf50ebd2cd3bcf9d90c18974c021e5"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/newfuture__ddns.jsonl",
+        "sha256": "2441f4a0ff8363ca55691f7ad123d104c8ecf3672c9195a49688692cd8346e66"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/newfuture__ddns.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "32a33d8d76f0048dd61e8d8dd2f25f752d00801856c7fd4b681e07b7bf6e7238",
+      "repository": {
+        "bundle_sha256": "9508851044de6154f5695e28a30fce66b1f67d72a7c69dd353770f5af239b897",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/newfuture__ddns",
+        "canonical_repository_id": "newfuture/ddns",
+        "cutoff_commit": "024ba4a3368b767c92a5f1a7fcdd28a72bf07ff7",
+        "cutoff_tree": "d93d0a7c90b6d0c5bab70e1998a094a8bc1c07db",
+        "sourcegraph_name": "github.com/sg-evals/newfuture-ddns"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/newfuture__ddns.jsonl",
+        "sha256": "2639846082b3efa26ac1d658707726e387c0aad69a5020784c7d5b58033f5d35"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/noneback__go-taskflow.jsonl",
+        "sha256": "b042509cb31ade660eb873f59a39f5cd673ae1332fb836fe1ef661c80ca37a26"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/noneback__go-taskflow.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "a65090f0bd877157e72e69c19821834862e2a9ac35f1d59d63f008906b5d6932",
+      "repository": {
+        "bundle_sha256": "bad3b59ee98eaa1eaedd085e26cef303823c04a271e6a53a95a1ddc429c3befb",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/noneback__go-taskflow",
+        "canonical_repository_id": "noneback/go-taskflow",
+        "cutoff_commit": "fa25657f5be3bfb5d21844c215de0c2864447893",
+        "cutoff_tree": "4689b95d2126246766e57a613fb1c812931d4644",
+        "sourcegraph_name": "github.com/sg-evals/noneback-go-taskflow"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/noneback__go-taskflow.jsonl",
+        "sha256": "6c5c974049637262bd946a2256e0ef4fba6570def0eace09f35671389ca387f0"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/nousresearch__atropos.jsonl",
+        "sha256": "34dbff22c4164532c3bdc77e6838f3a88eeed44df34a3f2281e7fbfb9400c479"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/nousresearch__atropos.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "41a147d203c89fcc70f88183aed44ee196f8da17f4fe217a1050fdaf93d35673",
+      "repository": {
+        "bundle_sha256": "485e252840d4b0a9ae1ef7ec2814647e51e133781f838b2e43e74e7a3ba9bb2d",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/nousresearch__atropos",
+        "canonical_repository_id": "nousresearch/atropos",
+        "cutoff_commit": "296a0bc55760e43b9c0743c052f8d6c2732606d1",
+        "cutoff_tree": "150afe16ce8d93938eb8c62c1c574d39fd1b9de7",
+        "sourcegraph_name": "github.com/sg-evals/nousresearch-atropos"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/nousresearch__atropos.jsonl",
+        "sha256": "e08c3834f4effbe25048248c73f586ec12fb6b6faa9fb04523f2f21b7e1f8629"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/numbagg__numbagg.jsonl",
+        "sha256": "5e8b4d2c029248d35de0074af44f59d3aa4d725593196a205b7ccb6a385660fb"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/numbagg__numbagg.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "a1397f86b0a03653dedd27d90dc7294a59fb3fb5c84fda8a12f638fed428cb82",
+      "repository": {
+        "bundle_sha256": "9ff388feeb0b5c07e5b2be01918541fb3ef6c0bd46df1334437b7c0fc2e7c8f8",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/numbagg__numbagg",
+        "canonical_repository_id": "numbagg/numbagg",
+        "cutoff_commit": "038beeeedb5755519370638e463acdcaf374f535",
+        "cutoff_tree": "4c921af250729b41d937210ceee1300ac5551033",
+        "sourcegraph_name": "github.com/sg-evals/numbagg-numbagg"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/numbagg__numbagg.jsonl",
+        "sha256": "1ab792ba51426b187664f44ed0b300d35fe38e8975f38d67b8507e4b47fbd488"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/odigos-io__odigos.jsonl",
+        "sha256": "63fcc2fdccd5128dbbd5060e1e354c2ceb50c847b260bb889dc993d9ce2e97ad"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/odigos-io__odigos.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "d2c87e45ffbcb3d05442366653e3dcde5fcb2a60612f85beaaf1475244c356a3",
+      "repository": {
+        "bundle_sha256": "33304880eeee21d5bc1a74208f51e7f7837dcad7eb96dc7f15fcbbf8c316df65",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/odigos-io__odigos",
+        "canonical_repository_id": "odigos-io/odigos",
+        "cutoff_commit": "5ff48b941911618a37264079fc37252f1d26616c",
+        "cutoff_tree": "6ccd1ccb13162968f66e7ac11e48e0db173ae977",
+        "sourcegraph_name": "github.com/sg-evals/odigos-io-odigos"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/odigos-io__odigos.jsonl",
+        "sha256": "a6eaf9141240f95b5f60880e62130365a9005b6e03c7f9a10bc86cc157c34e36"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/oevortex__webscout.jsonl",
+        "sha256": "29e3a0d2148218aca6e61d131f0b3743c1a6696c6179f8bc74079be2c3579f6b"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/oevortex__webscout.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "19ed2917ca1544fb82c6a42bbff61079fd875993e9e903a2d0c26f231fa656a3",
+      "repository": {
+        "bundle_sha256": "8496152555cc32255857f483709b0fdbf6711f5fd1710ef14c8804e7893e0905",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/oevortex__webscout",
+        "canonical_repository_id": "oevortex/webscout",
+        "cutoff_commit": "b27f6214c3acc46357a5b6315e96bc874157b316",
+        "cutoff_tree": "65118551683be8566ea41485745d96ad9d932eff",
+        "sourcegraph_name": "github.com/sg-evals/oevortex-webscout"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/oevortex__webscout.jsonl",
+        "sha256": "3b434850f187beb591e5f4bcbcba66ba43927024a46c48fe786bb484756ef65e"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/onyx-dot-app__onyx.jsonl",
+        "sha256": "4bbf4acc65297c33c3ace23985803235867b9bab06aed023b014f98d9c4bae2b"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/onyx-dot-app__onyx.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "89076fbd8b75400a3d9604e5fed1088c57f2a4e795613f7fa9ce0254e64f1b6d",
+      "repository": {
+        "bundle_sha256": "8ec4ee88d0d50c8b16c95394f9368dbb7502fdbded9e2791616ef33f5b45c1ec",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/onyx-dot-app__onyx",
+        "canonical_repository_id": "onyx-dot-app/onyx",
+        "cutoff_commit": "062f50a26c482f9b63fdc3bdf7b45edb029d2842",
+        "cutoff_tree": "edef0dae418661560132a07aa1011d05e089e35f",
+        "sourcegraph_name": "github.com/sg-evals/onyx-dot-app-onyx"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/onyx-dot-app__onyx.jsonl",
+        "sha256": "923e4aab70d044f5a8b29abe54542a64d98c3e3d8b14c6c06f75b87cd8f59904"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/open5e__open5e-api.jsonl",
+        "sha256": "4a1cfde3929309be25bd2768b720f2ed019a14df3e9142405346c09f2cb3b3b1"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/open5e__open5e-api.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "6764bc9e522f8e52347696f882b0f614d115cd0b6707a09da9783bd0a4af4dac",
+      "repository": {
+        "bundle_sha256": "08824296421c82de72e3b7530d67a938ac43c8ed1bd948c7a594abf180c892ad",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/open5e__open5e-api",
+        "canonical_repository_id": "open5e/open5e-api",
+        "cutoff_commit": "d4276c586d79f2a27bf2b814aed151cf57605283",
+        "cutoff_tree": "16f5a8c0c20f6c50eaaed453f5232d0dd2a9138b",
+        "sourcegraph_name": "github.com/sg-evals/open5e-open5e-api"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/open5e__open5e-api.jsonl",
+        "sha256": "9060a0cb823efd56216bfd06df3de8d5c7d15e5d476e49034125d5f68f5c75bc"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/oraios__serena.jsonl",
+        "sha256": "5b86ffe2ed5b41a0828efd2eafa9d8125d3102f6343d64ffb0588032ef13e1ad"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/oraios__serena.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "efe05bd8351e8a618992dc40e2c58f654d2a802458fce7e520151fe6994ae58d",
+      "repository": {
+        "bundle_sha256": "3da16ba189547314a11a5c91ffdfad37775a401844b4fe1e318ceefd95dc24c8",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/oraios__serena",
+        "canonical_repository_id": "oraios/serena",
+        "cutoff_commit": "33b042ad067a1240e457f5616b9cdfe1ff49e92c",
+        "cutoff_tree": "032f3d1c5273beee5f9c402e1c1fccdcd6f92b6c",
+        "sourcegraph_name": "github.com/sg-evals/oraios-serena"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/oraios__serena.jsonl",
+        "sha256": "5d3273cf1db57fa1e84fc830c82bb3b531c6a52cc3fefac2a69313638868f85d"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/prequel-dev__preq.jsonl",
+        "sha256": "34c8842f9dd77c4007a2677ef6a07ff3e0cefd4f3b779a2c6bd15e1ff8734da4"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/prequel-dev__preq.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "6ace2b85348dea867ef513decbbc46614f4166ef682964715df194e8507802de",
+      "repository": {
+        "bundle_sha256": "cfcbf63d0c0e9eba4a0a3db52e422691a4c49fcb1d3212c5e8a5c55e5cd5ea08",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/prequel-dev__preq",
+        "canonical_repository_id": "prequel-dev/preq",
+        "cutoff_commit": "4a790baf3317289bda72b69c3ae9236541524668",
+        "cutoff_tree": "44a0b0d453a5037dabf39c3894bc665461ad1ef2",
+        "sourcegraph_name": "github.com/sg-evals/prequel-dev-preq"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/prequel-dev__preq.jsonl",
+        "sha256": "eae8ead9a87bb0a749ff0aa29aa97612de3c0041c0205014834d4506b777b4cf"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/pythonnest__pynest.jsonl",
+        "sha256": "adeff96169ae67f79de51ccbb79fc88aed5f408652bcc7d5d8032f61bad11539"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/pythonnest__pynest.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "39b5c39879f54270786cc5e364566bcfbaf6526562e7b83f2a21d3f93bcbfe7d",
+      "repository": {
+        "bundle_sha256": "ec48b04dcff33463767b8f5a08c32c47a66e11e9623df6f196dcaab1695111fa",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/pythonnest__pynest",
+        "canonical_repository_id": "pythonnest/pynest",
+        "cutoff_commit": "371f55480d9a7f4bbf1a7fbc964ab951ca28beb2",
+        "cutoff_tree": "c843a03d3433a0a8b97cc6366e7f98d557975715",
+        "sourcegraph_name": "github.com/sg-evals/pythonnest-pynest"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/pythonnest__pynest.jsonl",
+        "sha256": "4edda6baf5f11f50d6015600f7d4bd6da24deea74e92d609841a04f1c49a4fdd"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/quantalogic__quantalogic.jsonl",
+        "sha256": "7156e0dbf4f28b1938df8bf361c1c133a52eb04d741fd381afab9bcb2fad3330"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/quantalogic__quantalogic.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "fa5db52eec26886dca7a4611c3179f3edfb542e42e76b2d7b8af46b8e4de5a59",
+      "repository": {
+        "bundle_sha256": "1115a1e0cefec962d7d4e420d5b24fa2b6fa255b687ea5e03b53550ba0992379",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/quantalogic__quantalogic",
+        "canonical_repository_id": "quantalogic/quantalogic",
+        "cutoff_commit": "47c6987353d57369a5eb46205f346078ab00dcd8",
+        "cutoff_tree": "e6c8b2ea937e13c9429a84d57e65b50e0bc4bfdd",
+        "sourcegraph_name": "github.com/sg-evals/quantalogic-quantalogic"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/quantalogic__quantalogic.jsonl",
+        "sha256": "b200eb2811e59b2874cc1b583ae140bd449386aaca38d83c8fe424f3b45f5006"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/reflex-dev__reflex.jsonl",
+        "sha256": "b562a1f6976210313c3515186aa6b3505f43c78066323ec2132bce2938b5f5e6"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/reflex-dev__reflex.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "a01dc71ba55c66da4a51f82673e71e197ef0f242cca1ab6b267621fdad953499",
+      "repository": {
+        "bundle_sha256": "21d42581140e370bc790234680acc5b75e9bdf7487881cfc42dc50ee03be09ff",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/reflex-dev__reflex",
+        "canonical_repository_id": "reflex-dev/reflex",
+        "cutoff_commit": "586fac3f51fd02a49f2022c9f9d2b4d82d6455a0",
+        "cutoff_tree": "3f7f4917d1bcea4ac830e35c369032c0f289a4b2",
+        "sourcegraph_name": "github.com/sg-evals/reflex-dev-reflex"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/reflex-dev__reflex.jsonl",
+        "sha256": "8d194e38f1dfc0a9ad43e65b60f60006db0a81ed2b080fe35770b02e5b76e6c7"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/reflex-dev__reflex-web.jsonl",
+        "sha256": "746209000c00e7b571bfda1d01bd8234e70e3bcc6408e6557f932652d9473f51"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/reflex-dev__reflex-web.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "5832e5e52b5f195c2fd736d07cec4c9697af83221e262d62c580a481117da405",
+      "repository": {
+        "bundle_sha256": "2bbadc8098ae5f7adfbf6d75997709c5df3e444ea1f3596a33221365a4f56cb2",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/reflex-dev__reflex-web",
+        "canonical_repository_id": "reflex-dev/reflex-web",
+        "cutoff_commit": "21ef786c4454f2e4f0fa7e974b68b1279c642f37",
+        "cutoff_tree": "36db94347fdff95fa47bbae87b0c6d03a106e892",
+        "sourcegraph_name": "github.com/sg-evals/reflex-dev-reflex-web"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/reflex-dev__reflex-web.jsonl",
+        "sha256": "9cc6e724fc0bb27a2b9a25a55f14fd298a6ef81d9ca64786b387e028f51b870a"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/rqlite__rqlite.jsonl",
+        "sha256": "a19b748ebcf03a0922f8840c66aa9bc9dc7292f6a72d6e52e254aeb74e294f9a"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/rqlite__rqlite.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "d025a44565c37f3d85fb1c95540ee3362e3d0df13c700faa95e74fd6af4e544b",
+      "repository": {
+        "bundle_sha256": "46da31a0b3bfd203160e085f9c58ac8ee1dcff1830efa9396b9a3b622c0267e9",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/rqlite__rqlite",
+        "canonical_repository_id": "rqlite/rqlite",
+        "cutoff_commit": "df4edc42bada95cbe2c3445542020ea23a318827",
+        "cutoff_tree": "9e0f12939a0aa5000904e7ee3f4fb4d0772ded98",
+        "sourcegraph_name": "github.com/sg-evals/rqlite-rqlite"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/rqlite__rqlite.jsonl",
+        "sha256": "efc5d9b9a5f9075b76a951935921b6a191bd83390b77f602a6169080d2eae8d7"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/safedep__vet.jsonl",
+        "sha256": "18aaea6003f30dff16f553aade192d9e34f0845110cd256d33189b0b58616e70"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/safedep__vet.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "feee8be6e2f497c6fe8cdd554d7caa99d111d77f8248b322414aa0e82880b842",
+      "repository": {
+        "bundle_sha256": "2543e3e441c8f42d132ba6336a879c473883d8cea28694ab9192e45dc1ccbf66",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/safedep__vet",
+        "canonical_repository_id": "safedep/vet",
+        "cutoff_commit": "b4d728f9354a75dda99b8b7d0d1f672082614510",
+        "cutoff_tree": "11e1266b50d43d98db18a737859d92eaa2fd76f3",
+        "sourcegraph_name": "github.com/sg-evals/safedep-vet"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/safedep__vet.jsonl",
+        "sha256": "1a10edff155714c51504f489e9cdb7c3305aca9c4e5526ba5a46787d66019bcb"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/sashabaranov__go-openai.jsonl",
+        "sha256": "716297a4f41d28fb642e81b683e0259063b5f3bb01c40c1c5490a79c9668bb69"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/sashabaranov__go-openai.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "85474d1258cef1e4c94cf4b7dde85dd0f71076da18535e2ae6873f7b4ebc1716",
+      "repository": {
+        "bundle_sha256": "4fd618804faeb47adb08e097cef41c7fd622135c4f4cc6fa252fe3ffebed4433",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/sashabaranov__go-openai",
+        "canonical_repository_id": "sashabaranov/go-openai",
+        "cutoff_commit": "5d7a276f4c0e48f97354fe555cb793b52e350e62",
+        "cutoff_tree": "6b819e8f6e0dcbf6daf6d7741635d93d3fb68790",
+        "sourcegraph_name": "github.com/sg-evals/sashabaranov-go-openai"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/sashabaranov__go-openai.jsonl",
+        "sha256": "b43ede75fce0877324a14c97a72cb5e5bfb97b1a6f982fe862e81f08736f2d97"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/savetherbtz__zstd-seekable-format-go.jsonl",
+        "sha256": "a648f686676bb0f520d3b55e71adf2d47ad24119286749f9ee1aea714b190a97"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/savetherbtz__zstd-seekable-format-go.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "36ad6c9588d79559f5d98f2e069f5439622d9b7a9efd5a9b5c2c65ef3aa38a30",
+      "repository": {
+        "bundle_sha256": "9003971314a192bedd604c2c1c0e771919571a9bb38a4dd085276ef1a8934fb2",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/savetherbtz__zstd-seekable-format-go",
+        "canonical_repository_id": "savetherbtz/zstd-seekable-format-go",
+        "cutoff_commit": "9688e8192be6f4ea06af4898ac1bf7be78250a18",
+        "cutoff_tree": "f6c8975834a979ee886bb7dd40c30fc1c69767d6",
+        "sourcegraph_name": "github.com/sg-evals/savetherbtz-zstd-seekable-format-go"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/savetherbtz__zstd-seekable-format-go.jsonl",
+        "sha256": "4975bdceb94a7dbcb2b6c0aeb692c79899dc1cfb00355ab136b1679584592917"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/schemahero__schemahero.jsonl",
+        "sha256": "1a7b7621218b4303114215c61a616b750787d7ed475df2cc47e8c2c733610433"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/schemahero__schemahero.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "772fc2a4306a451b2b53dbf4af8eb2587921257adb3c260da43f585c8453a75c",
+      "repository": {
+        "bundle_sha256": "8d9576e52fb434a0b756598b3b59a2dbe72024547d43bfa96c40674505483b17",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/schemahero__schemahero",
+        "canonical_repository_id": "schemahero/schemahero",
+        "cutoff_commit": "a13872be5252f18b22d0f0e63200ced94f5f0e56",
+        "cutoff_tree": "66ede646568f8b7dc1186d8798e934e678e18ec9",
+        "sourcegraph_name": "github.com/sg-evals/schemahero-schemahero"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/schemahero__schemahero.jsonl",
+        "sha256": "9e8152df4483b6beb6144a015ecc1ec3ce31db352cd0655e6b98789076e989e4"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/sirk123au__arrtools.jsonl",
+        "sha256": "a7ba0cb119fe5aa7c4caabd766bda3de70972da9c7b400a06f2ba5248286b42a"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/sirk123au__arrtools.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "0e0283dd84f2a83f3d14f4973f79a6d3dc15fb553c72e6e8fbefad5dae42e986",
+      "repository": {
+        "bundle_sha256": "d960564f52ac70997ba5c88c32088e8b6cd4a30a8dd59db038ad0df07767377f",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/sirk123au__arrtools",
+        "canonical_repository_id": "sirk123au/arrtools",
+        "cutoff_commit": "80d50f2c46ca7a9aa5724f7565b506d9c9743ebd",
+        "cutoff_tree": "bd7874412ebdc5e8be9a938dedb734eb56b9e4ea",
+        "sourcegraph_name": "github.com/sg-evals/sirk123au-arrtools"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/sirk123au__arrtools.jsonl",
+        "sha256": "389b9163691cf06436a5d5a3ae0f891327e432e137a3c6a0f36f8f314a2dadff"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/spacelift-io__spacectl.jsonl",
+        "sha256": "d92685eddf738c895dc9e7dc1f90d8596015f20066e8e853041bb1f264d00834"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/spacelift-io__spacectl.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "08f6fb68d650b99c3be72747d3a45b60762f84d9e173bf6b90eff5ed6eb9565c",
+      "repository": {
+        "bundle_sha256": "3677e713e9d85da28d4dabddf6fe759b097615c2f5ea95dff6b6434cef8ede87",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/spacelift-io__spacectl",
+        "canonical_repository_id": "spacelift-io/spacectl",
+        "cutoff_commit": "9d26e402e3c784f27ad7f2e8a3e0b4573a4cc787",
+        "cutoff_tree": "04a82bd53dd20149f03f300ac0b6ce9fe4337b94",
+        "sourcegraph_name": "github.com/sg-evals/spacelift-io-spacectl"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/spacelift-io__spacectl.jsonl",
+        "sha256": "33e23bf03757b203767bfdce8f95a7cbfff51833987f8d7e08aedb0a1ae63ab3"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/spcl__dace.jsonl",
+        "sha256": "70ae3720f34db9c8da6a48383b040eb5e9b6450bde3b96b70193aeeb0591f9af"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/spcl__dace.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "9d13617a6c93b20a258f3c957ecfb41f9c3363c8b7a0fa61f729f599c4d24a58",
+      "repository": {
+        "bundle_sha256": "3be2d63d72dbe458aec2e0c8c80fbcea0427990b7402be0199106447037ea3be",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/spcl__dace",
+        "canonical_repository_id": "spcl/dace",
+        "cutoff_commit": "e73727fc3f853bd2e45e1bb0dc4ecc65337de6db",
+        "cutoff_tree": "1d69a710ac77bbfbbd872f05d0ec6f25c55faedb",
+        "sourcegraph_name": "github.com/sg-evals/spcl-dace"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/spcl__dace.jsonl",
+        "sha256": "6b51a6493229db7d670c062e567ccbc74bb8aac57f9a1db8fd0ac6887aad3554"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/spylang__spy.jsonl",
+        "sha256": "f5ab161f782250b9c1b1951c2f17adec484b5f849e35325b94daee948e2f3e53"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/spylang__spy.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "adb79e743cf6737e7f308db91eb760f1ce0751ca0e9ce7dccf961df4cb695ccd",
+      "repository": {
+        "bundle_sha256": "2e0151ce1301fa591043e9306b18548c0eed1827d75a7a1458b4df2a99ae2573",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/spylang__spy",
+        "canonical_repository_id": "spylang/spy",
+        "cutoff_commit": "910c57ddd218cc10bd2551f32badb1612913558d",
+        "cutoff_tree": "8f184ce16698f27bf751fc075dd163fe377e02a1",
+        "sourcegraph_name": "github.com/sg-evals/spylang-spy"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/spylang__spy.jsonl",
+        "sha256": "b74ab910e147b19b1bb8773dfd00b121361a56beb18ec809ced28e3c3a8dcd7a"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/stanford-crfm__haliax.jsonl",
+        "sha256": "4888de38766bbf079b4b41d59f0c7c5a8606c92f9e66fee9365fc808a3210847"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/stanford-crfm__haliax.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "c0aee86fd6ac51752b5c53f031d1b598fb0e49090d0bca58cefb259eb1c73772",
+      "repository": {
+        "bundle_sha256": "aefa6b1f76d8d715a5a02901c99ae1ffdc051ea618741891fd1c820f80ccee52",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/stanford-crfm__haliax",
+        "canonical_repository_id": "stanford-crfm/haliax",
+        "cutoff_commit": "280f49fb560f488063efd483b704172ca05b6476",
+        "cutoff_tree": "9aaba53fb5c41685fec5e08b22e4f36a9c6a9442",
+        "sourcegraph_name": "github.com/sg-evals/stanford-crfm-haliax"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/stanford-crfm__haliax.jsonl",
+        "sha256": "2dbe51d78dec9d869c207973807f53ae4b904c7c2f5b62d10b2246ad35005eac"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/teaxyz__chai.jsonl",
+        "sha256": "c254937bf98ec1d020d91792c022433d13505851b107decf874fd523f29d4bce"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/teaxyz__chai.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "7c68a7540df45b33bf50fefea5296d301a9d623eae5238ed484a232e924b4f80",
+      "repository": {
+        "bundle_sha256": "bcd84f7cd91354ad3fc72bae0af53e1403d8b0ef6eef386468e770d47afc0be2",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/teaxyz__chai",
+        "canonical_repository_id": "teaxyz/chai",
+        "cutoff_commit": "5ba601243a934a7a88217e0de93e2f66764d8910",
+        "cutoff_tree": "a69709551a1585c63fffa652fb29e8501ee5e306",
+        "sourcegraph_name": "github.com/sg-evals/teaxyz-chai"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/teaxyz__chai.jsonl",
+        "sha256": "aff66f478262c734111280e58f514a2e1b03a584157f6ea01b5f1053b6fb6611"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/tphakala__birdnet-go.jsonl",
+        "sha256": "bb0eb37e2fb5fb2eb76dd89e2556ac193ab47caf19d268c43861769443cccc90"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/tphakala__birdnet-go.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "1db2a6ba53e8375cff3fba6ce265bc68e888794762c23dfa4d6e48ebf1d9eac1",
+      "repository": {
+        "bundle_sha256": "6fc31abb72350f9b8bf2185ecc166372b43f0832b90a7aab840a780f368d99d1",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/tphakala__birdnet-go",
+        "canonical_repository_id": "tphakala/birdnet-go",
+        "cutoff_commit": "c84abf301054d2f2bac3ecc01b26f57fee8bd10b",
+        "cutoff_tree": "3526654959ffb4ea68ab1afa8da7b237ddd05ebb",
+        "sourcegraph_name": "github.com/sg-evals/tphakala-birdnet-go"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/tphakala__birdnet-go.jsonl",
+        "sha256": "fcf615cde7a88e23b50181e06eb6151ab6c1d537460c4471159b721cc31635fd"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/tracecathq__tracecat.jsonl",
+        "sha256": "6ac4c96c54f1ae62d665c3866befbe76f4145c79bbccd73102777b2a516fbc4b"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/tracecathq__tracecat.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "432159dad7700699d112285f044bf025cfed11e237292a0fcdaea46fe8ea581a",
+      "repository": {
+        "bundle_sha256": "d3a0308e2426b8ed5d33596d31803219a92092ddd023764fb40aa9640baf988e",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/tracecathq__tracecat",
+        "canonical_repository_id": "tracecathq/tracecat",
+        "cutoff_commit": "b01f437a91feac2fa395c5f9415904177a69c65b",
+        "cutoff_tree": "d36958aaab212bf5981ba889df00630596c55025",
+        "sourcegraph_name": "github.com/sg-evals/tracecathq-tracecat"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/tracecathq__tracecat.jsonl",
+        "sha256": "7b0f499b30b067257cdc2f6d20f0197bd82271f679612d16a475e9e2221775f6"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/ucbepic__docetl.jsonl",
+        "sha256": "e4aec5116fe5234fe8e1f2eb586d7b6276a2b2bc1c8d34f75bc2d20d81b91c93"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/ucbepic__docetl.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "e6dbc58d56b28f6b0e01c9bc45109b92d18a54a90940310cfd2a79dcb85e21b2",
+      "repository": {
+        "bundle_sha256": "cd48fe7187ed49edfa1c419467355917cd2c8fd4608c3ce54179bba461ae679b",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/ucbepic__docetl",
+        "canonical_repository_id": "ucbepic/docetl",
+        "cutoff_commit": "ae7f10f1ba350f3342e9fc3fa17c3131e0295f8c",
+        "cutoff_tree": "7590f3404d6947e53d559ede05784ea2b008e265",
+        "sourcegraph_name": "github.com/sg-evals/ucbepic-docetl"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/ucbepic__docetl.jsonl",
+        "sha256": "22ca11868129615fdc6b066c6faa18af43c8967ec019b1037ae8fef6bd8f0766"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/vdaas__vald.jsonl",
+        "sha256": "2a9523128ddd269db00c0e5ea058cd01a2d4e465d31b9840ecd6b1f8bea7b416"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/vdaas__vald.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "bb607ca2426bfd8bd9d9268507bc5e001623367e566a3ef63d5e5df2ad424922",
+      "repository": {
+        "bundle_sha256": "c2ff74aa3a8a1299239c6c108f3caca2da65170415d47036ab458af0958532ed",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/vdaas__vald",
+        "canonical_repository_id": "vdaas/vald",
+        "cutoff_commit": "d50c5e731dedf7bc9dbe389bd9057c959198ac97",
+        "cutoff_tree": "7179a435bfc34a6c042d67cfb332e261d1d2d8fd",
+        "sourcegraph_name": "github.com/sg-evals/vdaas-vald"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/vdaas__vald.jsonl",
+        "sha256": "d07642f257e5a9fd4e05e65dca73e938c2c78c287e67ee06b87a4d8154fa5d91"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/veloera__veloera.jsonl",
+        "sha256": "13fc4d508137b105027096b968631d1ffa9f1f3574552b566156171e91a7b28b"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/veloera__veloera.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "b0245e4c15d705690d269f448037e4c0775653fbde1bd8fd1ef4c1b8a7fbad1e",
+      "repository": {
+        "bundle_sha256": "7103f87081ffeda133533621bea49cbdc3d0af21f2093268ae435b081525023e",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/veloera__veloera",
+        "canonical_repository_id": "veloera/veloera",
+        "cutoff_commit": "6525dfce816beaa270e78f0d8b762e19e54d13b8",
+        "cutoff_tree": "11d306a11a94cfa5b795a1c52a05cb1db6e3b27d",
+        "sourcegraph_name": "github.com/sg-evals/veloera-veloera"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/veloera__veloera.jsonl",
+        "sha256": "2b1742487b92a04e1cb99b1f389a3551a131ddd8670910fc939e7318518eebb4"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/vladfi1__slippi-ai.jsonl",
+        "sha256": "131e0078e5d46ed7281778fb778976920d9a49a618ffd569ebfc2314d77110b3"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/vladfi1__slippi-ai.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "6b6bfda1a1d8f37a4b3f510be49948a50f13ba59fd137d27563b50878f819e63",
+      "repository": {
+        "bundle_sha256": "4bae820a6215112f3c7712740f73c45779ade27390e3669f59e9ccd0f2e4fe1c",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/vladfi1__slippi-ai",
+        "canonical_repository_id": "vladfi1/slippi-ai",
+        "cutoff_commit": "f8cf979bb80b18e1f100058b918121dd8d78358a",
+        "cutoff_tree": "2b2d3ebb7a78bf7484d5d12c2cf635bd9b420b81",
+        "sourcegraph_name": "github.com/sg-evals/vladfi1-slippi-ai"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/vladfi1__slippi-ai.jsonl",
+        "sha256": "117fb7e429582ebf4958e14187ffe0ccfe140d71dd1b25d3d966dd47049265f0"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/vlm-run__vlmrun-hub.jsonl",
+        "sha256": "cbc2bf701b6b6224ec312f583863db72586e76fce0593a6c73f46f41eee450fb"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/vlm-run__vlmrun-hub.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "fa6890f495190096396067feb272d94eb1d269ffc113867902977978bc2a6a22",
+      "repository": {
+        "bundle_sha256": "b469a95d9a5ccd10a44944146b0a925524251ce01f5d2e0b135bd67a2adf8238",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/vlm-run__vlmrun-hub",
+        "canonical_repository_id": "vlm-run/vlmrun-hub",
+        "cutoff_commit": "55b534d87980aaca55fba28a4a6062a58f8f01ab",
+        "cutoff_tree": "f5f4c00b91d5cf3efd544173cce2559aa953224d",
+        "sourcegraph_name": "github.com/sg-evals/vlm-run-vlmrun-hub"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/vlm-run__vlmrun-hub.jsonl",
+        "sha256": "bea07522b7746528329f15463d4c1c92701e827eb039a79e36c7d87279dc1aa1"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/wandb__weave.jsonl",
+        "sha256": "8947b44a2d8fd4c56885f9003e707406816722e19e00c5725608cca649d2b290"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/wandb__weave.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "d5f6eb5c5803584f7cee082db99256d9d77f3f565bc76560c55c330193a7832c",
+      "repository": {
+        "bundle_sha256": "4f41a6b9ac45cc327e507e8d0176644935a968bf3bb4c234d70c57553d8fa41d",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/wandb__weave",
+        "canonical_repository_id": "wandb/weave",
+        "cutoff_commit": "be7541765445710e9de6f67ca5a0b26b3147cf2f",
+        "cutoff_tree": "5ca6acfab4f9dabb5d844e251da0d5b46482b455",
+        "sourcegraph_name": "github.com/sg-evals/wandb-weave"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/wandb__weave.jsonl",
+        "sha256": "b679a6b350942c0858c1a40a3ff8bef9575dd22f16028a53eaf5ed526588edc4"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/willccbb__verifiers.jsonl",
+        "sha256": "6c3df79af0ac94108d873725946d52bc28839a124ca2622602bbfe0f77438445"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/willccbb__verifiers.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "58b7b4cc4ca6fce28ac80abd860d90908db539b00177cda653926b8eeec3c3e2",
+      "repository": {
+        "bundle_sha256": "c90a1bf9822a42a12cc09ecd2ca49c5c0d09a0c48c592fc91785bd4ded05097c",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/willccbb__verifiers",
+        "canonical_repository_id": "willccbb/verifiers",
+        "cutoff_commit": "295a0650585af8754eaf98c6fa9071314b5a531c",
+        "cutoff_tree": "31e3d3eefd48ac8a3737d2fdb60f3d9281749a63",
+        "sourcegraph_name": "github.com/sg-evals/willccbb-verifiers"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/willccbb__verifiers.jsonl",
+        "sha256": "49420141266e60e5fdf95e4bb8d1e164bf68ca463e55503ba6caf2e16f1fae06"
+      }
+    },
+    {
+      "introduction_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/cohort-shards-v1/zfit__zfit.jsonl",
+        "sha256": "0ffc473da75b6cfbb9b21c133edd9f489bb8be57ed50c9cc563a374002745007"
+      },
+      "probe_manifest_path": "/mnt/agent-code-authorship/survival-study/sourcegraph-longitudinal-v3/probes/zfit__zfit.json",
+      "probe_status": "pending_sourcegraph",
+      "probe_unit_id": "e516b3b25d383e3e19f2dd233012f3f3dff5095480cc4f48967063bed4344a79",
+      "repository": {
+        "bundle_sha256": "015cad5717512c698e28968bff75a5f4d21e9b788fde703d441eecdcb2c2124f",
+        "cache_path": "/mnt/agent-code-authorship/survival-study/repositories/zfit__zfit",
+        "canonical_repository_id": "zfit/zfit",
+        "cutoff_commit": "13196e53425d19c8dcb30a0463beb215bb0fb457",
+        "cutoff_tree": "74795e5b3eb0d72ac3dd37c8edfb902f3247939f",
+        "sourcegraph_name": "github.com/sg-evals/zfit-zfit"
+      },
+      "transition_shard": {
+        "path": "/mnt/agent-code-authorship/survival-study/lineage-v1/transitions/zfit__zfit.jsonl",
+        "sha256": "033599c83e8d75e9f4f25b8d7681acb65542b9a4f890c88ccc0339c588dc0818"
+      }
+    }
+  ]
+}

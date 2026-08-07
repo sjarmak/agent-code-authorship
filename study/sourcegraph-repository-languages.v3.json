@@ -1,0 +1,1534 @@
+{
+  "$schema": "sourcegraph-repository-language-inventory.schema.json",
+  "inventory_version": 3,
+  "case_index_sha256": "8729186a45ca2b46cbe163b1069c3a6998e4cf5abcdcc63b3075c07592d1bf15",
+  "source_tranche_sha256": "31009ce5eada3932ccb776b55619b7cf695e081674f9e72294135e6920a3db07",
+  "observed_at": "2026-07-29T19:53:52Z",
+  "sourcegraph_capability": "Repository.language",
+  "sourcegraph_scope": "github.com/sg-evals/*",
+  "scip_required": false,
+  "index_manifest_sha256": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+  "repository_name_map_sha256": "564e287004a714caf8647031908f2fb18d391bfebd93a6b5034f61987018a4b9",
+  "repository_count": 248,
+  "review_scope_exception_count": 1,
+  "language_counts": {
+    "Bru": 1,
+    "C": 4,
+    "C#": 2,
+    "C++": 5,
+    "CSV": 1,
+    "Dart": 2,
+    "Gettext Catalog": 3,
+    "Go": 55,
+    "JSON": 17,
+    "Java": 2,
+    "JavaScript": 9,
+    "Jupyter Notebook": 1,
+    "MDX": 2,
+    "Markdown": 9,
+    "Python": 78,
+    "Rust": 13,
+    "SQL": 1,
+    "SVG": 1,
+    "Shell": 2,
+    "Swift": 1,
+    "TOML": 1,
+    "Text": 1,
+    "TypeScript": 31,
+    "Vim Script": 1,
+    "XML": 1,
+    "YAML": 4
+  },
+  "repositories": [
+    {
+      "canonical_repository_id": "0xfurai/peekaping",
+      "review_sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping",
+      "language_sourcegraph_name": "github.com/sg-evals/0xfurai-peekaping",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "2dust/v2rayn",
+      "review_sourcegraph_name": "github.com/sg-evals/2dust-v2rayN",
+      "language_sourcegraph_name": "github.com/sg-evals/2dust-v2rayN",
+      "language": "C#"
+    },
+    {
+      "canonical_repository_id": "a16z/halmos",
+      "review_sourcegraph_name": "github.com/sg-evals/a16z-halmos",
+      "language_sourcegraph_name": "github.com/sg-evals/a16z-halmos",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "addyosmani/agent-skills",
+      "review_sourcegraph_name": "github.com/sg-evals/addyosmani-agent-skills",
+      "language_sourcegraph_name": "github.com/sg-evals/addyosmani-agent-skills",
+      "language": "Markdown"
+    },
+    {
+      "canonical_repository_id": "affaan-m/ecc",
+      "review_sourcegraph_name": "github.com/sg-evals/affaan-m-ECC",
+      "language_sourcegraph_name": "github.com/sg-evals/affaan-m-ECC",
+      "language": "Markdown"
+    },
+    {
+      "canonical_repository_id": "aftership/clickhouse-sql-parser",
+      "review_sourcegraph_name": "github.com/sg-evals/aftership-clickhouse-sql-parser",
+      "language_sourcegraph_name": "github.com/sg-evals/aftership-clickhouse-sql-parser",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "ag2ai/build-with-ag2",
+      "review_sourcegraph_name": "github.com/sg-evals/ag2ai-build-with-ag2",
+      "language_sourcegraph_name": "github.com/sg-evals/ag2ai-build-with-ag2",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "ai-shifu/ai-shifu",
+      "review_sourcegraph_name": "github.com/sg-evals/ai-shifu-ai-shifu",
+      "language_sourcegraph_name": "github.com/sg-evals/ai-shifu-ai-shifu",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "airbytehq/airbyte",
+      "review_sourcegraph_name": "github.com/sg-evals/airbytehq-airbyte",
+      "language_sourcegraph_name": "github.com/sg-evals/airbytehq-airbyte",
+      "language": "YAML"
+    },
+    {
+      "canonical_repository_id": "airbytehq/pyairbyte",
+      "review_sourcegraph_name": "github.com/sg-evals/airbytehq-pyairbyte",
+      "language_sourcegraph_name": "github.com/sg-evals/airbytehq-pyairbyte",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+      "review_sourcegraph_name": "github.com/sg-evals/aldinokemal-go-whatsapp-web-multidevice",
+      "language_sourcegraph_name": "github.com/sg-evals/aldinokemal-go-whatsapp-web-multidevice",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "angular/angular",
+      "review_sourcegraph_name": "github.com/sg-evals/angular-angular",
+      "language_sourcegraph_name": "github.com/sg-evals/angular-angular",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "anomalyco/opencode",
+      "review_sourcegraph_name": "github.com/sg-evals/anomalyco-opencode",
+      "language_sourcegraph_name": "github.com/sg-evals/anomalyco-opencode",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "ansible/ansible",
+      "review_sourcegraph_name": "github.com/sg-evals/ansible-ansible",
+      "language_sourcegraph_name": "github.com/sg-evals/ansible-ansible",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "ant-design/ant-design",
+      "review_sourcegraph_name": "github.com/sg-evals/ant-design-ant-design",
+      "language_sourcegraph_name": "github.com/sg-evals/ant-design-ant-design",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "anuraghazra/github-readme-stats",
+      "review_sourcegraph_name": "github.com/sg-evals/anuraghazra-github-readme-stats",
+      "language_sourcegraph_name": "github.com/sg-evals/anuraghazra-github-readme-stats",
+      "language": "JavaScript"
+    },
+    {
+      "canonical_repository_id": "apache/superset",
+      "review_sourcegraph_name": "github.com/sg-evals/apache-superset",
+      "language_sourcegraph_name": "github.com/sg-evals/apache-superset",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "astral-sh/uv",
+      "review_sourcegraph_name": "github.com/sg-evals/astral-sh-uv",
+      "language_sourcegraph_name": "github.com/sg-evals/astral-sh-uv",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "axios/axios",
+      "review_sourcegraph_name": "github.com/sg-evals/axios-axios",
+      "language_sourcegraph_name": "github.com/sg-evals/axios-axios",
+      "language": "JavaScript"
+    },
+    {
+      "canonical_repository_id": "aztfmod/terraform-provider-azurecaf",
+      "review_sourcegraph_name": "github.com/sg-evals/aztfmod-terraform-provider-azurecaf",
+      "language_sourcegraph_name": "github.com/sg-evals/aztfmod-terraform-provider-azurecaf",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "azure/azure-dev",
+      "review_sourcegraph_name": "github.com/sg-evals/azure-azure-dev",
+      "language_sourcegraph_name": "github.com/sg-evals/azure-azure-dev",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "azure/azure-kusto-python",
+      "review_sourcegraph_name": "github.com/sg-evals/azure-azure-kusto-python",
+      "language_sourcegraph_name": "github.com/sg-evals/azure-azure-kusto-python",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "review_sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python",
+      "language_sourcegraph_name": "github.com/sg-evals/azure-azure-sdk-for-python",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "azure/azure-storage-fuse",
+      "review_sourcegraph_name": "github.com/sg-evals/azure-azure-storage-fuse",
+      "language_sourcegraph_name": "github.com/sg-evals/azure-azure-storage-fuse",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "badtuxx/girus-cli",
+      "review_sourcegraph_name": "github.com/sg-evals/badtuxx-girus-cli",
+      "language_sourcegraph_name": "github.com/sg-evals/badtuxx-girus-cli",
+      "language": "YAML"
+    },
+    {
+      "canonical_repository_id": "bayesianbandits/bayesianbandits",
+      "review_sourcegraph_name": "github.com/sg-evals/bayesianbandits-bayesianbandits",
+      "language_sourcegraph_name": "github.com/sg-evals/bayesianbandits-bayesianbandits",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "beehiveinnovations/zen-mcp-server",
+      "review_sourcegraph_name": "github.com/sg-evals/beehiveinnovations-zen-mcp-server",
+      "language_sourcegraph_name": "github.com/sg-evals/beehiveinnovations-zen-mcp-server",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "bespokelabsai/curator",
+      "review_sourcegraph_name": "github.com/sg-evals/bespokelabsai-curator",
+      "language_sourcegraph_name": "github.com/sg-evals/bespokelabsai-curator",
+      "language": "YAML"
+    },
+    {
+      "canonical_repository_id": "bevyengine/bevy",
+      "review_sourcegraph_name": "github.com/sg-evals/bevyengine-bevy",
+      "language_sourcegraph_name": "github.com/sg-evals/bevyengine-bevy",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "bitcoin/bitcoin",
+      "review_sourcegraph_name": "github.com/sg-evals/bitcoin-bitcoin",
+      "language_sourcegraph_name": "github.com/sg-evals/bitcoin-bitcoin",
+      "language": "C++"
+    },
+    {
+      "canonical_repository_id": "brentyi/jaxls",
+      "review_sourcegraph_name": "github.com/sg-evals/brentyi-jaxls",
+      "language_sourcegraph_name": "github.com/sg-evals/brentyi-jaxls",
+      "language": "Jupyter Notebook"
+    },
+    {
+      "canonical_repository_id": "brevdev/brev-cli",
+      "review_sourcegraph_name": "github.com/sg-evals/brevdev-brev-cli",
+      "language_sourcegraph_name": "github.com/sg-evals/brevdev-brev-cli",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "briangu/klongpy",
+      "review_sourcegraph_name": "github.com/sg-evals/briangu-klongpy",
+      "language_sourcegraph_name": "github.com/sg-evals/briangu-klongpy",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "browser-use/browser-use",
+      "review_sourcegraph_name": "github.com/sg-evals/browser-use-browser-use",
+      "language_sourcegraph_name": "github.com/sg-evals/browser-use-browser-use",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "busser/tfautomv",
+      "review_sourcegraph_name": "github.com/sg-evals/busser-tfautomv",
+      "language_sourcegraph_name": "github.com/sg-evals/busser-tfautomv",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "bytedance/deer-flow",
+      "review_sourcegraph_name": "github.com/sg-evals/bytedance-deer-flow",
+      "language_sourcegraph_name": "github.com/sg-evals/bytedance-deer-flow",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "caddyserver/caddy",
+      "review_sourcegraph_name": "github.com/sg-evals/caddyserver-caddy",
+      "language_sourcegraph_name": "github.com/sg-evals/caddyserver-caddy",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "cedar-policy/cedar-go",
+      "review_sourcegraph_name": "github.com/sg-evals/cedar-policy-cedar-go",
+      "language_sourcegraph_name": "github.com/sg-evals/cedar-policy-cedar-go",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "celestiaorg/celestia-core",
+      "review_sourcegraph_name": "github.com/sg-evals/celestiaorg-celestia-core",
+      "language_sourcegraph_name": "github.com/sg-evals/celestiaorg-celestia-core",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "chatgptnextweb/nextchat",
+      "review_sourcegraph_name": "github.com/sg-evals/ChatGPTNextWeb-NextChat",
+      "language_sourcegraph_name": "github.com/sg-evals/ChatGPTNextWeb-NextChat",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "clash-verge-rev/clash-verge-rev",
+      "review_sourcegraph_name": "github.com/sg-evals/clash-verge-rev-clash-verge-rev",
+      "language_sourcegraph_name": "github.com/sg-evals/clash-verge-rev-clash-verge-rev",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "coder/coder",
+      "review_sourcegraph_name": "github.com/sg-evals/coder-coder",
+      "language_sourcegraph_name": "github.com/sg-evals/coder-coder",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "comfy-org/comfyui",
+      "review_sourcegraph_name": "github.com/sg-evals/Comfy-Org-ComfyUI",
+      "language_sourcegraph_name": "github.com/sg-evals/Comfy-Org-ComfyUI",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "commaai/opendbc",
+      "review_sourcegraph_name": "github.com/sg-evals/commaai-opendbc",
+      "language_sourcegraph_name": "github.com/sg-evals/commaai-opendbc",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "commaai/openpilot",
+      "review_sourcegraph_name": "github.com/sg-evals/commaai-openpilot",
+      "language_sourcegraph_name": "github.com/sg-evals/commaai-openpilot",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "compiler-explorer/infra",
+      "review_sourcegraph_name": "github.com/sg-evals/compiler-explorer-infra",
+      "language_sourcegraph_name": "github.com/sg-evals/compiler-explorer-infra",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai",
+      "review_sourcegraph_name": "github.com/sg-evals/crewaiinc-crewai",
+      "language_sourcegraph_name": "github.com/sg-evals/crewaiinc-crewai",
+      "language": "MDX"
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai-tools",
+      "review_sourcegraph_name": "github.com/sg-evals/crewaiinc-crewai-tools",
+      "language_sourcegraph_name": "github.com/sg-evals/crewaiinc-crewai-tools",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "cschleiden/go-workflows",
+      "review_sourcegraph_name": "github.com/sg-evals/cschleiden-go-workflows",
+      "language_sourcegraph_name": "github.com/sg-evals/cschleiden-go-workflows",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "dagster-io/dagster",
+      "review_sourcegraph_name": "github.com/sg-evals/dagster-io-dagster",
+      "language_sourcegraph_name": "github.com/sg-evals/dagster-io-dagster",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "danielmiessler/seclists",
+      "review_sourcegraph_name": "github.com/sg-evals/danielmiessler-SecLists",
+      "language_sourcegraph_name": "github.com/sg-evals/danielmiessler-SecLists",
+      "language": "Text"
+    },
+    {
+      "canonical_repository_id": "datadog/dd-trace-go",
+      "review_sourcegraph_name": "github.com/sg-evals/datadog-dd-trace-go",
+      "language_sourcegraph_name": "github.com/sg-evals/datadog-dd-trace-go",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "deepnoodle-ai/risor",
+      "review_sourcegraph_name": "github.com/sg-evals/deepnoodle-ai-risor",
+      "language_sourcegraph_name": "github.com/sg-evals/deepnoodle-ai-risor",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "defog-ai/introspect",
+      "review_sourcegraph_name": "github.com/sg-evals/defog-ai-introspect",
+      "language_sourcegraph_name": "github.com/sg-evals/defog-ai-introspect",
+      "language": "SQL"
+    },
+    {
+      "canonical_repository_id": "denoland/deno",
+      "review_sourcegraph_name": "github.com/sg-evals/denoland-deno",
+      "language_sourcegraph_name": "github.com/sg-evals/denoland-deno",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "django/django",
+      "review_sourcegraph_name": "github.com/sg-evals/django-django",
+      "language_sourcegraph_name": "github.com/sg-evals/django-django",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "docling-project/docling",
+      "review_sourcegraph_name": "github.com/sg-evals/docling-project-docling",
+      "language_sourcegraph_name": "github.com/sg-evals/docling-project-docling",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "earendil-works/pi",
+      "review_sourcegraph_name": "github.com/sg-evals/earendil-works-pi",
+      "language_sourcegraph_name": "github.com/sg-evals/earendil-works-pi",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "egonex-ai/understand-anything",
+      "review_sourcegraph_name": "github.com/sg-evals/Egonex-AI-Understand-Anything",
+      "language_sourcegraph_name": "github.com/sg-evals/Egonex-AI-Understand-Anything",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "elastic/elasticsearch",
+      "review_sourcegraph_name": "github.com/sg-evals/elastic-elasticsearch",
+      "language_sourcegraph_name": "github.com/sg-evals/elastic-elasticsearch",
+      "language": "Java"
+    },
+    {
+      "canonical_repository_id": "elastic/terraform-provider-elasticstack",
+      "review_sourcegraph_name": "github.com/sg-evals/elastic-terraform-provider-elasticstack",
+      "language_sourcegraph_name": "github.com/sg-evals/elastic-terraform-provider-elasticstack",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "electron/electron",
+      "review_sourcegraph_name": "github.com/sg-evals/electron-electron",
+      "language_sourcegraph_name": "github.com/sg-evals/electron-electron",
+      "language": "C++"
+    },
+    {
+      "canonical_repository_id": "equationzhao/g",
+      "review_sourcegraph_name": "github.com/sg-evals/equationzhao-g",
+      "language_sourcegraph_name": "github.com/sg-evals/equationzhao-g",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "ethyca/fides",
+      "review_sourcegraph_name": "github.com/sg-evals/ethyca-fides",
+      "language_sourcegraph_name": "github.com/sg-evals/ethyca-fides",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "eugeny/tabby",
+      "review_sourcegraph_name": "github.com/sg-evals/Eugeny-tabby",
+      "language_sourcegraph_name": "github.com/sg-evals/Eugeny-tabby",
+      "language": "Gettext Catalog"
+    },
+    {
+      "canonical_repository_id": "exa-labs/exa-py",
+      "review_sourcegraph_name": "github.com/sg-evals/exa-labs-exa-py",
+      "language_sourcegraph_name": "github.com/sg-evals/exa-labs-exa-py",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "excalidraw/excalidraw",
+      "review_sourcegraph_name": "github.com/sg-evals/excalidraw-excalidraw",
+      "language_sourcegraph_name": "github.com/sg-evals/excalidraw-excalidraw",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "farion1231/cc-switch",
+      "review_sourcegraph_name": "github.com/sg-evals/farion1231-cc-switch",
+      "language_sourcegraph_name": "github.com/sg-evals/farion1231-cc-switch",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "fastapi/fastapi",
+      "review_sourcegraph_name": "github.com/sg-evals/fastapi-fastapi",
+      "language_sourcegraph_name": "github.com/sg-evals/fastapi-fastapi",
+      "language": "Markdown"
+    },
+    {
+      "canonical_repository_id": "fatedier/fft",
+      "review_sourcegraph_name": "github.com/sg-evals/fatedier-fft",
+      "language_sourcegraph_name": "github.com/sg-evals/fatedier-fft",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "fatedier/frp",
+      "review_sourcegraph_name": "github.com/sg-evals/fatedier-frp",
+      "language_sourcegraph_name": "github.com/sg-evals/fatedier-frp",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "firecrawl/firecrawl",
+      "review_sourcegraph_name": "github.com/sg-evals/firecrawl-firecrawl",
+      "language_sourcegraph_name": "github.com/sg-evals/firecrawl-firecrawl",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "flutter/flutter",
+      "review_sourcegraph_name": "github.com/sg-evals/flutter-flutter",
+      "language_sourcegraph_name": "github.com/sg-evals/flutter-flutter",
+      "language": "Dart"
+    },
+    {
+      "canonical_repository_id": "foundationagents/metagpt",
+      "review_sourcegraph_name": "github.com/sg-evals/FoundationAgents-MetaGPT",
+      "language_sourcegraph_name": "github.com/sg-evals/FoundationAgents-MetaGPT",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "gastownhall/beads",
+      "review_sourcegraph_name": "github.com/sg-evals/gastownhall-beads",
+      "language_sourcegraph_name": "github.com/sg-evals/gastownhall-beads",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "gastownhall/gascity",
+      "review_sourcegraph_name": "github.com/sg-evals/gastownhall-gascity",
+      "language_sourcegraph_name": "github.com/sg-evals/gastownhall-gascity",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "getsentry/sentry",
+      "review_sourcegraph_name": "github.com/sg-evals/getsentry-sentry",
+      "language_sourcegraph_name": "github.com/sg-evals/getsentry-sentry",
+      "language": "Gettext Catalog"
+    },
+    {
+      "canonical_repository_id": "ggml-org/llama.cpp",
+      "review_sourcegraph_name": "github.com/sg-evals/ggml-org-llama.cpp",
+      "language_sourcegraph_name": "github.com/sg-evals/ggml-org-llama.cpp",
+      "language": "C++"
+    },
+    {
+      "canonical_repository_id": "gin-gonic/gin",
+      "review_sourcegraph_name": "github.com/sg-evals/gin-gonic-gin",
+      "language_sourcegraph_name": "github.com/sg-evals/gin-gonic-gin",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "github/issue-metrics",
+      "review_sourcegraph_name": "github.com/sg-evals/github-issue-metrics",
+      "language_sourcegraph_name": "github.com/sg-evals/github-issue-metrics",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "github/spec-kit",
+      "review_sourcegraph_name": "github.com/sg-evals/github-spec-kit",
+      "language_sourcegraph_name": "github.com/sg-evals/github-spec-kit",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "godotengine/godot",
+      "review_sourcegraph_name": "github.com/sg-evals/godotengine-godot",
+      "language_sourcegraph_name": "github.com/sg-evals/godotengine-godot",
+      "language": "Gettext Catalog"
+    },
+    {
+      "canonical_repository_id": "gohugoio/hugo",
+      "review_sourcegraph_name": "github.com/sg-evals/gohugoio-hugo",
+      "language_sourcegraph_name": "github.com/sg-evals/gohugoio-hugo",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "golang/go",
+      "review_sourcegraph_name": "github.com/sg-evals/golang-go",
+      "language_sourcegraph_name": "github.com/sg-evals/golang-go",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "google-gemini/gemini-cli",
+      "review_sourcegraph_name": "github.com/sg-evals/google-gemini-gemini-cli",
+      "language_sourcegraph_name": "github.com/sg-evals/google-gemini-gemini-cli",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "grafana/grafana",
+      "review_sourcegraph_name": "github.com/sg-evals/grafana-grafana",
+      "language_sourcegraph_name": "github.com/sg-evals/grafana-grafana",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "graphify-labs/graphify",
+      "review_sourcegraph_name": "github.com/sg-evals/Graphify-Labs-graphify",
+      "language_sourcegraph_name": "github.com/sg-evals/Graphify-Labs-graphify",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "haasonsaas/ocode",
+      "review_sourcegraph_name": "github.com/sg-evals/haasonsaas-ocode",
+      "language_sourcegraph_name": "github.com/sg-evals/haasonsaas-ocode",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "hacksider/deep-live-cam",
+      "review_sourcegraph_name": "github.com/sg-evals/hacksider-Deep-Live-Cam",
+      "language_sourcegraph_name": "github.com/sg-evals/hacksider-Deep-Live-Cam",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "harry0703/moneyprinterturbo",
+      "review_sourcegraph_name": "github.com/sg-evals/harry0703-MoneyPrinterTurbo",
+      "language_sourcegraph_name": "github.com/sg-evals/harry0703-MoneyPrinterTurbo",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "hiyouga/llamafactory",
+      "review_sourcegraph_name": "github.com/sg-evals/hiyouga-LlamaFactory",
+      "language_sourcegraph_name": "github.com/sg-evals/hiyouga-LlamaFactory",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "home-assistant/core",
+      "review_sourcegraph_name": "github.com/sg-evals/home-assistant-core",
+      "language_sourcegraph_name": "github.com/sg-evals/home-assistant-core",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "hoppscotch/hoppscotch",
+      "review_sourcegraph_name": "github.com/sg-evals/hoppscotch-hoppscotch",
+      "language_sourcegraph_name": "github.com/sg-evals/hoppscotch-hoppscotch",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "humansignal/label-studio-ml-backend",
+      "review_sourcegraph_name": "github.com/sg-evals/humansignal-label-studio-ml-backend",
+      "language_sourcegraph_name": "github.com/sg-evals/humansignal-label-studio-ml-backend",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "ikamensh/flynt",
+      "review_sourcegraph_name": "github.com/sg-evals/ikamensh-flynt",
+      "language_sourcegraph_name": "github.com/sg-evals/ikamensh-flynt",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "immich-app/immich",
+      "review_sourcegraph_name": "github.com/sg-evals/immich-app-immich",
+      "language_sourcegraph_name": "github.com/sg-evals/immich-app-immich",
+      "language": "Dart"
+    },
+    {
+      "canonical_repository_id": "incatools/ontology-access-kit",
+      "review_sourcegraph_name": "github.com/sg-evals/incatools-ontology-access-kit",
+      "language_sourcegraph_name": "github.com/sg-evals/incatools-ontology-access-kit",
+      "language": "XML"
+    },
+    {
+      "canonical_repository_id": "infiniflow/ragflow",
+      "review_sourcegraph_name": "github.com/sg-evals/infiniflow-ragflow",
+      "language_sourcegraph_name": "github.com/sg-evals/infiniflow-ragflow",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "iptv-org/iptv",
+      "review_sourcegraph_name": "github.com/sg-evals/iptv-org-iptv",
+      "language_sourcegraph_name": "github.com/sg-evals/iptv-org-iptv",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "iterative/datachain",
+      "review_sourcegraph_name": "github.com/sg-evals/iterative-datachain",
+      "language_sourcegraph_name": "github.com/sg-evals/iterative-datachain",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "review_sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "language_sourcegraph_name": "github.com/sg-evals/jeroenterheerdt-hasmartirrigation",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "jesseduffield/lazygit",
+      "review_sourcegraph_name": "github.com/sg-evals/jesseduffield-lazygit",
+      "language_sourcegraph_name": "github.com/sg-evals/jesseduffield-lazygit",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "jkroepke/openvpn-auth-oauth2",
+      "review_sourcegraph_name": "github.com/sg-evals/jkroepke-openvpn-auth-oauth2",
+      "language_sourcegraph_name": "github.com/sg-evals/jkroepke-openvpn-auth-oauth2",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "junegunn/fzf",
+      "review_sourcegraph_name": "github.com/sg-evals/junegunn-fzf",
+      "language_sourcegraph_name": "github.com/sg-evals/junegunn-fzf",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "justtrackio/gosoline",
+      "review_sourcegraph_name": "github.com/sg-evals/justtrackio-gosoline",
+      "language_sourcegraph_name": "github.com/sg-evals/justtrackio-gosoline",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "jxxghp/moviepilot",
+      "review_sourcegraph_name": "github.com/sg-evals/jxxghp-moviepilot",
+      "language_sourcegraph_name": "github.com/sg-evals/jxxghp-moviepilot",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "kanaries/pygwalker",
+      "review_sourcegraph_name": "github.com/sg-evals/kanaries-pygwalker",
+      "language_sourcegraph_name": "github.com/sg-evals/kanaries-pygwalker",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "kanisterio/kanister",
+      "review_sourcegraph_name": "github.com/sg-evals/kanisterio-kanister",
+      "language_sourcegraph_name": "github.com/sg-evals/kanisterio-kanister",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "keephq/keep",
+      "review_sourcegraph_name": "github.com/sg-evals/keephq-keep",
+      "language_sourcegraph_name": "github.com/sg-evals/keephq-keep",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "kubernetes-sigs/cloud-provider-azure",
+      "review_sourcegraph_name": "github.com/sg-evals/kubernetes-sigs-cloud-provider-azure",
+      "language_sourcegraph_name": "github.com/sg-evals/kubernetes-sigs-cloud-provider-azure",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "kubernetes/kubernetes",
+      "review_sourcegraph_name": "github.com/sg-evals/kubernetes-kubernetes",
+      "language_sourcegraph_name": "github.com/sg-evals/kubernetes-kubernetes",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "langbot-app/langbot",
+      "review_sourcegraph_name": "github.com/sg-evals/langbot-app-langbot",
+      "language_sourcegraph_name": "github.com/sg-evals/langbot-app-langbot",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "langchain-ai/langchain",
+      "review_sourcegraph_name": "github.com/sg-evals/langchain-ai-langchain",
+      "language_sourcegraph_name": "github.com/sg-evals/langchain-ai-langchain",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "langflow-ai/langflow",
+      "review_sourcegraph_name": "github.com/sg-evals/langflow-ai-langflow",
+      "language_sourcegraph_name": "github.com/sg-evals/langflow-ai-langflow",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "langgenius/dify",
+      "review_sourcegraph_name": "github.com/sg-evals/langgenius-dify",
+      "language_sourcegraph_name": "github.com/sg-evals/langgenius-dify",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "lobehub/lobehub",
+      "review_sourcegraph_name": "github.com/sg-evals/lobehub-lobehub",
+      "language_sourcegraph_name": "github.com/sg-evals/lobehub-lobehub",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "louislam/uptime-kuma",
+      "review_sourcegraph_name": "github.com/sg-evals/louislam-uptime-kuma",
+      "language_sourcegraph_name": "github.com/sg-evals/louislam-uptime-kuma",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "marimo-team/marimo",
+      "review_sourcegraph_name": "github.com/sg-evals/marimo-team-marimo",
+      "language_sourcegraph_name": "github.com/sg-evals/marimo-team-marimo",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "mermaid-js/mermaid",
+      "review_sourcegraph_name": "github.com/sg-evals/mermaid-js-mermaid",
+      "language_sourcegraph_name": "github.com/sg-evals/mermaid-js-mermaid",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "microsoft/azuretre",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-azuretre",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-azuretre",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "microsoft/debug-gym",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-debug-gym",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-debug-gym",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "microsoft/go-mssqldb",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-go-mssqldb",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-go-mssqldb",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "microsoft/go-sqlcmd",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-go-sqlcmd",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-go-sqlcmd",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "microsoft/graphrag",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-graphrag",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-graphrag",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "microsoft/lisa",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-lisa",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-lisa",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "microsoft/magentic-ui",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-magentic-ui",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-magentic-ui",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "microsoft/markitdown",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-markitdown",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-markitdown",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "microsoft/olive",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-olive",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-olive",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "microsoft/playwright",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-playwright",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-playwright",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "microsoft/powertoys",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-PowerToys",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-PowerToys",
+      "language": "C#"
+    },
+    {
+      "canonical_repository_id": "microsoft/qcodes",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-qcodes",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-qcodes",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "microsoft/rd-agent",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-rd-agent",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-rd-agent",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "microsoft/retina",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-retina",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-retina",
+      "language": "C"
+    },
+    {
+      "canonical_repository_id": "microsoft/terminal",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-terminal",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-terminal",
+      "language": "C++"
+    },
+    {
+      "canonical_repository_id": "microsoft/typescript",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-TypeScript",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-TypeScript",
+      "language": "JavaScript"
+    },
+    {
+      "canonical_repository_id": "microsoft/typescript-go",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-typescript-go",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-typescript-go",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "microsoft/vscode",
+      "review_sourcegraph_name": "github.com/sg-evals/microsoft-vscode",
+      "language_sourcegraph_name": "github.com/sg-evals/microsoft-vscode",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "moby/moby",
+      "review_sourcegraph_name": "github.com/sg-evals/moby-moby",
+      "language_sourcegraph_name": "github.com/sg-evals/moby-moby",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "mochilang/mochi",
+      "review_sourcegraph_name": "github.com/sg-evals/mochilang-mochi",
+      "language_sourcegraph_name": "github.com/sg-evals/mochilang-mochi",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "modelcontextprotocol/registry",
+      "review_sourcegraph_name": "github.com/sg-evals/modelcontextprotocol-registry",
+      "language_sourcegraph_name": "github.com/sg-evals/modelcontextprotocol-registry",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "modelcontextprotocol/servers",
+      "review_sourcegraph_name": "github.com/sg-evals/modelcontextprotocol-servers",
+      "language_sourcegraph_name": "github.com/sg-evals/modelcontextprotocol-servers",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "mrdoob/three.js",
+      "review_sourcegraph_name": "github.com/sg-evals/mrdoob-three.js",
+      "language_sourcegraph_name": "github.com/sg-evals/mrdoob-three.js",
+      "language": "JavaScript"
+    },
+    {
+      "canonical_repository_id": "msitarzewski/agency-agents",
+      "review_sourcegraph_name": "github.com/sg-evals/msitarzewski-agency-agents",
+      "language_sourcegraph_name": "github.com/sg-evals/msitarzewski-agency-agents",
+      "language": "Markdown"
+    },
+    {
+      "canonical_repository_id": "mui/material-ui",
+      "review_sourcegraph_name": "github.com/sg-evals/mui-material-ui",
+      "language_sourcegraph_name": "github.com/sg-evals/mui-material-ui",
+      "language": "JavaScript"
+    },
+    {
+      "canonical_repository_id": "n8n-io/n8n",
+      "review_sourcegraph_name": "github.com/sg-evals/n8n-io-n8n",
+      "language_sourcegraph_name": "github.com/sg-evals/n8n-io-n8n",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "nationalsecurityagency/ghidra",
+      "review_sourcegraph_name": "github.com/sg-evals/NationalSecurityAgency-ghidra",
+      "language_sourcegraph_name": "github.com/sg-evals/NationalSecurityAgency-ghidra",
+      "language": "Java"
+    },
+    {
+      "canonical_repository_id": "navidrome/navidrome",
+      "review_sourcegraph_name": "github.com/sg-evals/navidrome-navidrome",
+      "language_sourcegraph_name": "github.com/sg-evals/navidrome-navidrome",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "nearai/nearai",
+      "review_sourcegraph_name": "github.com/sg-evals/nearai-nearai",
+      "language_sourcegraph_name": "github.com/sg-evals/nearai-nearai",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "nektos/act",
+      "review_sourcegraph_name": "github.com/sg-evals/nektos-act",
+      "language_sourcegraph_name": "github.com/sg-evals/nektos-act",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "neovim/neovim",
+      "review_sourcegraph_name": "github.com/sg-evals/neovim-neovim",
+      "language_sourcegraph_name": "github.com/sg-evals/neovim-neovim",
+      "language": "Vim Script"
+    },
+    {
+      "canonical_repository_id": "nestjs/nest",
+      "review_sourcegraph_name": "github.com/sg-evals/nestjs-nest",
+      "language_sourcegraph_name": "github.com/sg-evals/nestjs-nest",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "newfuture/ddns",
+      "review_sourcegraph_name": "github.com/sg-evals/newfuture-ddns",
+      "language_sourcegraph_name": "github.com/sg-evals/newfuture-ddns",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "review_sourcegraph_name": "github.com/sg-evals/nextlevelbuilder-ui-ux-pro-max-skill",
+      "language_sourcegraph_name": "github.com/sg-evals/nextlevelbuilder-ui-ux-pro-max-skill",
+      "language": "Markdown"
+    },
+    {
+      "canonical_repository_id": "nexu-io/open-design",
+      "review_sourcegraph_name": "github.com/sg-evals/nexu-io-open-design",
+      "language_sourcegraph_name": "github.com/sg-evals/nexu-io-open-design",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "nikolaydubina/go-instrument",
+      "review_sourcegraph_name": "github.com/sg-evals/nikolaydubina-go-instrument",
+      "language_sourcegraph_name": "github.com/sg-evals/nikolaydubina-go-instrument",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "nodejs/node",
+      "review_sourcegraph_name": "github.com/sg-evals/nodejs-node",
+      "language_sourcegraph_name": "github.com/sg-evals/nodejs-node",
+      "language": "JavaScript"
+    },
+    {
+      "canonical_repository_id": "noneback/go-taskflow",
+      "review_sourcegraph_name": "github.com/sg-evals/noneback-go-taskflow",
+      "language_sourcegraph_name": "github.com/sg-evals/noneback-go-taskflow",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "nousresearch/atropos",
+      "review_sourcegraph_name": "github.com/sg-evals/nousresearch-atropos",
+      "language_sourcegraph_name": "github.com/sg-evals/nousresearch-atropos",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "nousresearch/hermes-agent",
+      "review_sourcegraph_name": "github.com/sg-evals/NousResearch-hermes-agent",
+      "language_sourcegraph_name": "github.com/sg-evals/NousResearch-hermes-agent",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "numbagg/numbagg",
+      "review_sourcegraph_name": "github.com/sg-evals/numbagg-numbagg",
+      "language_sourcegraph_name": "github.com/sg-evals/numbagg-numbagg",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "nvm-sh/nvm",
+      "review_sourcegraph_name": "github.com/sg-evals/nvm-sh-nvm",
+      "language_sourcegraph_name": "github.com/sg-evals/nvm-sh-nvm",
+      "language": "Shell"
+    },
+    {
+      "canonical_repository_id": "obra/superpowers",
+      "review_sourcegraph_name": "github.com/sg-evals/obra-superpowers",
+      "language_sourcegraph_name": "github.com/sg-evals/obra-superpowers",
+      "language": "Markdown"
+    },
+    {
+      "canonical_repository_id": "odigos-io/odigos",
+      "review_sourcegraph_name": "github.com/sg-evals/odigos-io-odigos",
+      "language_sourcegraph_name": "github.com/sg-evals/odigos-io-odigos",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "oevortex/webscout",
+      "review_sourcegraph_name": "github.com/sg-evals/oevortex-webscout",
+      "language_sourcegraph_name": "github.com/sg-evals/oevortex-webscout",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "ohmyzsh/ohmyzsh",
+      "review_sourcegraph_name": "github.com/sg-evals/ohmyzsh-ohmyzsh",
+      "language_sourcegraph_name": "github.com/sg-evals/ohmyzsh-ohmyzsh",
+      "language": "Shell"
+    },
+    {
+      "canonical_repository_id": "ollama/ollama",
+      "review_sourcegraph_name": "github.com/sg-evals/ollama-ollama",
+      "language_sourcegraph_name": "github.com/sg-evals/ollama-ollama",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "onflow/flow-go",
+      "review_sourcegraph_name": "github.com/sg-evals/onflow-flow-go",
+      "language_sourcegraph_name": "github.com/sg-evals/onflow-flow-go",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "onnx/onnx",
+      "review_sourcegraph_name": "github.com/sg-evals/onnx-onnx",
+      "language_sourcegraph_name": "github.com/sg-evals/onnx-onnx",
+      "language": "Markdown"
+    },
+    {
+      "canonical_repository_id": "onyx-dot-app/onyx",
+      "review_sourcegraph_name": "github.com/sg-evals/onyx-dot-app-onyx",
+      "language_sourcegraph_name": "github.com/sg-evals/onyx-dot-app-onyx",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "open-webui/open-webui",
+      "review_sourcegraph_name": "github.com/sg-evals/open-webui-open-webui",
+      "language_sourcegraph_name": "github.com/sg-evals/open-webui-open-webui",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "open5e/open5e-api",
+      "review_sourcegraph_name": "github.com/sg-evals/open5e-open5e-api",
+      "language_sourcegraph_name": "github.com/sg-evals/open5e-open5e-api",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "openai/codex",
+      "review_sourcegraph_name": "github.com/sg-evals/openai-codex",
+      "language_sourcegraph_name": "github.com/sg-evals/openai-codex",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "openai/openai-cookbook",
+      "review_sourcegraph_name": "github.com/sg-evals/openai-openai-cookbook",
+      "language_sourcegraph_name": "github.com/sg-evals/openai-openai-cookbook",
+      "language": "CSV"
+    },
+    {
+      "canonical_repository_id": "openai/whisper",
+      "review_sourcegraph_name": "github.com/sg-evals/openai-whisper",
+      "language_sourcegraph_name": "github.com/sg-evals/openai-whisper",
+      "language": "SVG"
+    },
+    {
+      "canonical_repository_id": "openclaw/openclaw",
+      "review_sourcegraph_name": "github.com/sg-evals/openclaw-openclaw",
+      "language_sourcegraph_name": "github.com/sg-evals/openclaw-openclaw",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "opendatalab/mineru",
+      "review_sourcegraph_name": "github.com/sg-evals/opendatalab-MinerU",
+      "language_sourcegraph_name": "github.com/sg-evals/opendatalab-MinerU",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "openfga/openfga",
+      "review_sourcegraph_name": "github.com/sg-evals/openfga-openfga",
+      "language_sourcegraph_name": "github.com/sg-evals/openfga-openfga",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "openhands/openhands",
+      "review_sourcegraph_name": "github.com/sg-evals/OpenHands-OpenHands",
+      "language_sourcegraph_name": "github.com/sg-evals/OpenHands-OpenHands",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "oraios/serena",
+      "review_sourcegraph_name": "github.com/sg-evals/oraios-serena",
+      "language_sourcegraph_name": "github.com/sg-evals/oraios-serena",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "oras-project/oras",
+      "review_sourcegraph_name": "github.com/sg-evals/oras-project-oras",
+      "language_sourcegraph_name": "github.com/sg-evals/oras-project-oras",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "oven-sh/bun",
+      "review_sourcegraph_name": "github.com/sg-evals/oven-sh-bun",
+      "language_sourcegraph_name": "github.com/sg-evals/oven-sh-bun",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "paddlepaddle/paddleocr",
+      "review_sourcegraph_name": "github.com/sg-evals/PaddlePaddle-PaddleOCR",
+      "language_sourcegraph_name": "github.com/sg-evals/PaddlePaddle-PaddleOCR",
+      "language": "Markdown"
+    },
+    {
+      "canonical_repository_id": "paperclipai/paperclip",
+      "review_sourcegraph_name": "github.com/sg-evals/paperclipai-paperclip",
+      "language_sourcegraph_name": "github.com/sg-evals/paperclipai-paperclip",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "patched-codes/patchwork",
+      "review_sourcegraph_name": "github.com/sg-evals/patched-codes-patchwork",
+      "language_sourcegraph_name": "github.com/sg-evals/patched-codes-patchwork",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "pewdiepie-archdaemon/odysseus",
+      "review_sourcegraph_name": "github.com/sg-evals/pewdiepie-archdaemon-odysseus",
+      "language_sourcegraph_name": "github.com/sg-evals/pewdiepie-archdaemon-odysseus",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "public-apis/public-apis",
+      "review_sourcegraph_name": "github.com/sg-evals/public-apis-public-apis",
+      "language_sourcegraph_name": "github.com/sg-evals/public-apis-public-apis",
+      "language": "Markdown"
+    },
+    {
+      "canonical_repository_id": "python/cpython",
+      "review_sourcegraph_name": "github.com/sg-evals/python-cpython",
+      "language_sourcegraph_name": "github.com/sg-evals/python-cpython",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "pythonnest/pynest",
+      "review_sourcegraph_name": "github.com/sg-evals/pythonnest-pynest",
+      "language_sourcegraph_name": "github.com/sg-evals/pythonnest-pynest",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "qemu-project/qemu",
+      "review_sourcegraph_name": "github.com/sg-evals/qemu-project-qemu",
+      "language_sourcegraph_name": "github.com/sg-evals/qemu-project-qemu",
+      "language": "C"
+    },
+    {
+      "canonical_repository_id": "quantalogic/quantalogic",
+      "review_sourcegraph_name": "github.com/sg-evals/quantalogic-quantalogic",
+      "language_sourcegraph_name": "github.com/sg-evals/quantalogic-quantalogic",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "radius-project/radius",
+      "review_sourcegraph_name": "github.com/sg-evals/radius-project-radius",
+      "language_sourcegraph_name": "github.com/sg-evals/radius-project-radius",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "ray-project/ray",
+      "review_sourcegraph_name": "github.com/sg-evals/ray-project-ray",
+      "language_sourcegraph_name": "github.com/sg-evals/ray-project-ray",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "react/react",
+      "review_sourcegraph_name": "github.com/react/react",
+      "language_sourcegraph_name": "github.com/sg-evals/react-react",
+      "language": "JavaScript"
+    },
+    {
+      "canonical_repository_id": "react/react-native",
+      "review_sourcegraph_name": "github.com/sg-evals/react-react-native",
+      "language_sourcegraph_name": "github.com/sg-evals/react-react-native",
+      "language": "C++"
+    },
+    {
+      "canonical_repository_id": "realworld-apps/realworld",
+      "review_sourcegraph_name": "github.com/sg-evals/realworld-apps-realworld",
+      "language_sourcegraph_name": "github.com/sg-evals/realworld-apps-realworld",
+      "language": "Bru"
+    },
+    {
+      "canonical_repository_id": "redis/redis",
+      "review_sourcegraph_name": "github.com/sg-evals/redis-redis",
+      "language_sourcegraph_name": "github.com/sg-evals/redis-redis",
+      "language": "C"
+    },
+    {
+      "canonical_repository_id": "reflex-dev/reflex",
+      "review_sourcegraph_name": "github.com/sg-evals/reflex-dev-reflex",
+      "language_sourcegraph_name": "github.com/sg-evals/reflex-dev-reflex",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "roeniss/dhlottery-api",
+      "review_sourcegraph_name": "github.com/sg-evals/roeniss-dhlottery-api",
+      "language_sourcegraph_name": "github.com/sg-evals/roeniss-dhlottery-api",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "rqlite/rqlite",
+      "review_sourcegraph_name": "github.com/sg-evals/rqlite-rqlite",
+      "language_sourcegraph_name": "github.com/sg-evals/rqlite-rqlite",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "rtk-ai/rtk",
+      "review_sourcegraph_name": "github.com/sg-evals/rtk-ai-rtk",
+      "language_sourcegraph_name": "github.com/sg-evals/rtk-ai-rtk",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "rust-lang/rust",
+      "review_sourcegraph_name": "github.com/sg-evals/rust-lang-rust",
+      "language_sourcegraph_name": "github.com/sg-evals/rust-lang-rust",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "rustdesk/rustdesk",
+      "review_sourcegraph_name": "github.com/sg-evals/rustdesk-rustdesk",
+      "language_sourcegraph_name": "github.com/sg-evals/rustdesk-rustdesk",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "safedep/vet",
+      "review_sourcegraph_name": "github.com/sg-evals/safedep-vet",
+      "language_sourcegraph_name": "github.com/sg-evals/safedep-vet",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "sashabaranov/go-openai",
+      "review_sourcegraph_name": "github.com/sg-evals/sashabaranov-go-openai",
+      "language_sourcegraph_name": "github.com/sg-evals/sashabaranov-go-openai",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "schemahero/schemahero",
+      "review_sourcegraph_name": "github.com/sg-evals/schemahero-schemahero",
+      "language_sourcegraph_name": "github.com/sg-evals/schemahero-schemahero",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "shadcn-ui/ui",
+      "review_sourcegraph_name": "github.com/sg-evals/shadcn-ui-ui",
+      "language_sourcegraph_name": "github.com/sg-evals/shadcn-ui-ui",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "sherlock-project/sherlock",
+      "review_sourcegraph_name": "github.com/sg-evals/sherlock-project-sherlock",
+      "language_sourcegraph_name": "github.com/sg-evals/sherlock-project-sherlock",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "significant-gravitas/autogpt",
+      "review_sourcegraph_name": "github.com/sg-evals/Significant-Gravitas-AutoGPT",
+      "language_sourcegraph_name": "github.com/sg-evals/Significant-Gravitas-AutoGPT",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "review_sourcegraph_name": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "language_sourcegraph_name": "github.com/sg-evals/sjarmak-agent-diagnostics",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "review_sourcegraph_name": "github.com/sg-evals/sjarmak-codeprobe",
+      "language_sourcegraph_name": "github.com/sg-evals/sjarmak-codeprobe",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "sjarmak/livedocs",
+      "review_sourcegraph_name": "github.com/sg-evals/sjarmak-livedocs",
+      "language_sourcegraph_name": "github.com/sg-evals/sjarmak-livedocs",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "sjarmak/nls-finetune-scix",
+      "review_sourcegraph_name": "github.com/sg-evals/sjarmak-nls-finetune-scix",
+      "language_sourcegraph_name": "github.com/sg-evals/sjarmak-nls-finetune-scix",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "review_sourcegraph_name": "github.com/sg-evals/sjarmak-scix-agent",
+      "language_sourcegraph_name": "github.com/sg-evals/sjarmak-scix-agent",
+      "language": "JSON"
+    },
+    {
+      "canonical_repository_id": "spacelift-io/spacectl",
+      "review_sourcegraph_name": "github.com/sg-evals/spacelift-io-spacectl",
+      "language_sourcegraph_name": "github.com/sg-evals/spacelift-io-spacectl",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "spcl/dace",
+      "review_sourcegraph_name": "github.com/sg-evals/spcl-dace",
+      "language_sourcegraph_name": "github.com/sg-evals/spcl-dace",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "spylang/spy",
+      "review_sourcegraph_name": "github.com/sg-evals/spylang-spy",
+      "language_sourcegraph_name": "github.com/sg-evals/spylang-spy",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "stirling-tools/stirling-pdf",
+      "review_sourcegraph_name": "github.com/sg-evals/Stirling-Tools-Stirling-PDF",
+      "language_sourcegraph_name": "github.com/sg-evals/Stirling-Tools-Stirling-PDF",
+      "language": "TOML"
+    },
+    {
+      "canonical_repository_id": "storybookjs/storybook",
+      "review_sourcegraph_name": "github.com/sg-evals/storybookjs-storybook",
+      "language_sourcegraph_name": "github.com/sg-evals/storybookjs-storybook",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "strapi/strapi",
+      "review_sourcegraph_name": "github.com/sg-evals/strapi-strapi",
+      "language_sourcegraph_name": "github.com/sg-evals/strapi-strapi",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "supabase/supabase",
+      "review_sourcegraph_name": "github.com/sg-evals/supabase-supabase",
+      "language_sourcegraph_name": "github.com/sg-evals/supabase-supabase",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "review_sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "language_sourcegraph_name": "github.com/sg-evals/superseriousbusiness-gotosocial",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "sveltejs/svelte",
+      "review_sourcegraph_name": "github.com/sg-evals/sveltejs-svelte",
+      "language_sourcegraph_name": "github.com/sg-evals/sveltejs-svelte",
+      "language": "JavaScript"
+    },
+    {
+      "canonical_repository_id": "swiftlang/swift",
+      "review_sourcegraph_name": "github.com/sg-evals/swiftlang-swift",
+      "language_sourcegraph_name": "github.com/sg-evals/swiftlang-swift",
+      "language": "Swift"
+    },
+    {
+      "canonical_repository_id": "syntasso/kratix",
+      "review_sourcegraph_name": "github.com/sg-evals/syntasso-kratix",
+      "language_sourcegraph_name": "github.com/sg-evals/syntasso-kratix",
+      "language": "YAML"
+    },
+    {
+      "canonical_repository_id": "tailwindlabs/tailwindcss",
+      "review_sourcegraph_name": "github.com/sg-evals/tailwindlabs-tailwindcss",
+      "language_sourcegraph_name": "github.com/sg-evals/tailwindlabs-tailwindcss",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "tauri-apps/tauri",
+      "review_sourcegraph_name": "github.com/sg-evals/tauri-apps-tauri",
+      "language_sourcegraph_name": "github.com/sg-evals/tauri-apps-tauri",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "teaxyz/chai",
+      "review_sourcegraph_name": "github.com/sg-evals/teaxyz-chai",
+      "language_sourcegraph_name": "github.com/sg-evals/teaxyz-chai",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "thedaviddias/front-end-checklist",
+      "review_sourcegraph_name": "github.com/sg-evals/thedaviddias-Front-End-Checklist",
+      "language_sourcegraph_name": "github.com/sg-evals/thedaviddias-Front-End-Checklist",
+      "language": "MDX"
+    },
+    {
+      "canonical_repository_id": "thedotmack/claude-mem",
+      "review_sourcegraph_name": "github.com/sg-evals/thedotmack-claude-mem",
+      "language_sourcegraph_name": "github.com/sg-evals/thedotmack-claude-mem",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "toeverything/affine",
+      "review_sourcegraph_name": "github.com/sg-evals/toeverything-AFFiNE",
+      "language_sourcegraph_name": "github.com/sg-evals/toeverything-AFFiNE",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "tphakala/birdnet-go",
+      "review_sourcegraph_name": "github.com/sg-evals/tphakala-birdnet-go",
+      "language_sourcegraph_name": "github.com/sg-evals/tphakala-birdnet-go",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "tracecathq/tracecat",
+      "review_sourcegraph_name": "github.com/sg-evals/tracecathq-tracecat",
+      "language_sourcegraph_name": "github.com/sg-evals/tracecathq-tracecat",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "twpayne/chezmoi",
+      "review_sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi",
+      "language_sourcegraph_name": "github.com/sg-evals/twpayne-chezmoi",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "typicode/json-server",
+      "review_sourcegraph_name": "github.com/sg-evals/typicode-json-server",
+      "language_sourcegraph_name": "github.com/sg-evals/typicode-json-server",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "ucbepic/docetl",
+      "review_sourcegraph_name": "github.com/sg-evals/ucbepic-docetl",
+      "language_sourcegraph_name": "github.com/sg-evals/ucbepic-docetl",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "unclecode/crawl4ai",
+      "review_sourcegraph_name": "github.com/sg-evals/unclecode-crawl4ai",
+      "language_sourcegraph_name": "github.com/sg-evals/unclecode-crawl4ai",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "unionlabs/union",
+      "review_sourcegraph_name": "github.com/sg-evals/unionlabs-union",
+      "language_sourcegraph_name": "github.com/sg-evals/unionlabs-union",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "vdaas/vald",
+      "review_sourcegraph_name": "github.com/sg-evals/vdaas-vald",
+      "language_sourcegraph_name": "github.com/sg-evals/vdaas-vald",
+      "language": "Go"
+    },
+    {
+      "canonical_repository_id": "ventoy/ventoy",
+      "review_sourcegraph_name": "github.com/sg-evals/ventoy-Ventoy",
+      "language_sourcegraph_name": "github.com/sg-evals/ventoy-Ventoy",
+      "language": "C"
+    },
+    {
+      "canonical_repository_id": "vercel/next.js",
+      "review_sourcegraph_name": "github.com/sg-evals/vercel-next.js",
+      "language_sourcegraph_name": "github.com/sg-evals/vercel-next.js",
+      "language": "JavaScript"
+    },
+    {
+      "canonical_repository_id": "vitejs/vite",
+      "review_sourcegraph_name": "github.com/sg-evals/vitejs-vite",
+      "language_sourcegraph_name": "github.com/sg-evals/vitejs-vite",
+      "language": "TypeScript"
+    },
+    {
+      "canonical_repository_id": "vladfi1/slippi-ai",
+      "review_sourcegraph_name": "github.com/sg-evals/vladfi1-slippi-ai",
+      "language_sourcegraph_name": "github.com/sg-evals/vladfi1-slippi-ai",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "vllm-project/vllm",
+      "review_sourcegraph_name": "github.com/sg-evals/vllm-project-vllm",
+      "language_sourcegraph_name": "github.com/sg-evals/vllm-project-vllm",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "vlm-run/vlmrun-hub",
+      "review_sourcegraph_name": "github.com/sg-evals/vlm-run-vlmrun-hub",
+      "language_sourcegraph_name": "github.com/sg-evals/vlm-run-vlmrun-hub",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "wandb/weave",
+      "review_sourcegraph_name": "github.com/sg-evals/wandb-weave",
+      "language_sourcegraph_name": "github.com/sg-evals/wandb-weave",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "willccbb/verifiers",
+      "review_sourcegraph_name": "github.com/sg-evals/willccbb-verifiers",
+      "language_sourcegraph_name": "github.com/sg-evals/willccbb-verifiers",
+      "language": "Python"
+    },
+    {
+      "canonical_repository_id": "zed-industries/zed",
+      "review_sourcegraph_name": "github.com/sg-evals/zed-industries-zed",
+      "language_sourcegraph_name": "github.com/sg-evals/zed-industries-zed",
+      "language": "Rust"
+    },
+    {
+      "canonical_repository_id": "zfit/zfit",
+      "review_sourcegraph_name": "github.com/sg-evals/zfit-zfit",
+      "language_sourcegraph_name": "github.com/sg-evals/zfit-zfit",
+      "language": "Python"
+    }
+  ],
+  "outcomes_consulted": false,
+  "inventory_sha256": "773d41498700dedebe9aee9a92046b7646c4136d992f1a5138d8ba4758117635"
+}

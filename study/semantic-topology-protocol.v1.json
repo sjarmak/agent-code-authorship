@@ -1,0 +1,130 @@
+{
+  "$schema": "semantic-topology-protocol.schema.json",
+  "protocol_version": 1,
+  "status": "preregistered",
+  "cutoff": "2026-07-24T23:59:59Z",
+  "purpose": "Evaluate whether Sourcegraph semantic and historical enrichment adds validated evidence beyond literal discovery and line survival.",
+  "outcomes_consulted": false,
+  "input_artifacts": {
+    "repository_evidence": "study/repositories.v1.json",
+    "attributable_events": "study/survival-candidates.v1.json",
+    "sourcegraph_index": "study/sourcegraph-index-manifest.v3.json",
+    "contextual_frame": "study/targets.v1.json",
+    "contextual_revisions": "study/semantic-topology-pre2023-revisions.v1.json"
+  },
+  "input_sha256": {
+    "study/repositories.v1.json": "91add8eca57f393fb6b1e439af86179718dbb1564a411fae172e173855c3b3c1",
+    "study/semantic-topology-pre2023-revisions.v1.json": "545c87ba8e2c4e5eff6fe05acf02c353b09811553584423358d58be5bb9a50a2",
+    "study/sourcegraph-index-manifest.v3.json": "eb39ec53d2cc73791f7ebef75a4226fdf67be0272017fed2d05ebbbe292b33b5",
+    "study/survival-candidates.v1.json": "564ea63d4f544e1c296be4ff3116877d1c92627f1f87da2a35d71a06bc7ef837",
+    "study/targets.v1.json": "e2d4c7b90fb1276fc979935b60628eafb9c053f4f5a971df115eb3f6fab23238"
+  },
+  "selection": {
+    "strata": {
+      "agent_native": 5,
+      "attributable_agent": 5,
+      "policy_control": 5,
+      "pre_2023_context": 5
+    },
+    "agent_native_priority": [
+      "gastownhall/beads",
+      "gastownhall/gascity",
+      "sjarmak/agent-diagnostics",
+      "sjarmak/codeprobe",
+      "sjarmak/scix-agent",
+      "sjarmak/nls-finetune-scix",
+      "sjarmak/sg_benchmark",
+      "sjarmak/GEO_public",
+      "sjarmak/livedocs"
+    ],
+    "pre_2023_definition": "last_default_branch_commit_strictly_before_2023-01-01T00:00:00Z",
+    "repository_overlap_allowed": false,
+    "selection_uses_downstream_outcomes": false
+  },
+  "deep_search": {
+    "role": "hypothesis_generation_only",
+    "may_directly_populate_analytic_fields": false,
+    "run_count": 100,
+    "required_raw_fields": [
+      "prompt",
+      "search_context",
+      "conversation_or_api_identity",
+      "searches",
+      "cited_files",
+      "cited_commits",
+      "model_metadata_when_exposed",
+      "raw_answer",
+      "errors",
+      "sha256"
+    ]
+  },
+  "analytic_admission_routes": [
+    "blinded_human_adjudication",
+    "deterministic_sourcegraph",
+    "pinned_git"
+  ],
+  "missingness": {
+    "typed": true,
+    "silent_imputation_allowed": false,
+    "required_statuses": [
+      "observed",
+      "unavailable",
+      "not_applicable",
+      "conflicting"
+    ]
+  },
+  "leakage_controls": {
+    "forbidden_inputs": [
+      "results/estimate.json",
+      "results/survival-estimates.v1.json",
+      "results/survival-estimates.v2.json",
+      "results/commit-message-authorship-heuristic.v1.json",
+      "results/multiview-commit-detector.v1.json"
+    ],
+    "repository_held_out_matching": true,
+    "downstream_outcomes_hidden_during_enrichment": true
+  },
+  "utility_gates": [
+    {
+      "id": "new_discovery_family",
+      "criterion": "At least one newly discovered deterministic query family attains blinded precision >= 0.90 on at least 30 independently reviewed hits spanning at least 5 repositories."
+    },
+    {
+      "id": "task_matched_controls",
+      "criterion": "At least 80% of sampled attributable events receive at least one eligible repository-held-out semantic control, with blinded reviewer agreement kappa >= 0.70."
+    },
+    {
+      "id": "reliable_topology_fields",
+      "criterion": "At least three nontrivial topology fields achieve >= 80% observability and blinded reviewer agreement kappa >= 0.70 across at least 50 records."
+    }
+  ],
+  "failed_utility_result": "not_identified",
+  "prompt_families": [
+    {
+      "id": "adoption_configuration",
+      "version": 1,
+      "template": "Within @{sourcegraph_name} at revision {context_revision}, investigate repository artifacts that reveal whether and how coding agents or generative AI were configured, invoked, constrained, or disclosed. Include workflows, instruction files, prompt/session artifacts, bot identities, review policies, ignore files, and generated-work disclosures. This repository is sampled in stratum {stratum}; do not infer authorship from that stratum. Return only cited candidate observations and propose deterministic Sourcegraph queries that could test each observation across the corpus. Repository identity: {canonical_repository_id}; study cutoff: {cutoff_commit}."
+    },
+    {
+      "id": "delegated_task_intent",
+      "version": 1,
+      "template": "Within @{sourcegraph_name} at revision {context_revision}, inspect relevant implementation and history to identify engineering task shapes evidenced by the code: feature, localized bug fix, refactor, test generation, dependency migration, documentation/configuration, boilerplate, architectural scaffolding, or cleanup. Do not assign authorship and do not use downstream study outcomes. Cite files, symbols, and commits; mark ambiguity; propose a frozen taxonomy refinement only when existing categories fail. Repository identity: {canonical_repository_id}; stratum: {stratum}; cutoff: {cutoff_commit}."
+    },
+    {
+      "id": "review_validation",
+      "version": 1,
+      "template": "Within @{sourcegraph_name} at revision {context_revision}, investigate code-review and validation mechanisms surrounding substantive changes: tests, linters, CI, generated checks, ownership rules, follow-up fixes, reverts, and refactors. Distinguish repository-wide mechanisms from evidence tied to a specific change. Do not infer quality or authorship. Return cited observations and deterministic verification queries. Repository identity: {canonical_repository_id}; stratum: {stratum}; cutoff: {cutoff_commit}."
+    },
+    {
+      "id": "semantic_controls",
+      "version": 1,
+      "template": "Using @{sourcegraph_name} at revision {context_revision} as a scoped starting point, identify functionally comparable implementations in other repositories in the active study search context. Prefer matches with the same language, framework/API context, engineering intent, and change size while excluding vendored, generated, tutorial, fixture, and copied code. Do not label matches human or agent. Cite every candidate and explain deterministic eligibility checks. Repository identity: {canonical_repository_id}; stratum: {stratum}; cutoff: {cutoff_commit}."
+    },
+    {
+      "id": "change_topology",
+      "version": 1,
+      "template": "Within @{sourcegraph_name} at revision {context_revision}, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: {canonical_repository_id}; stratum: {stratum}; cutoff: {cutoff_commit}."
+    }
+  ],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1"
+}

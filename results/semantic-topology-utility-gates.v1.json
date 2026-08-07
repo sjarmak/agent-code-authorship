@@ -1,0 +1,36 @@
+{
+  "gates": {
+    "new_discovery_family": {
+      "passes": false,
+      "reason": "validated_result_unavailable",
+      "status": "not_identified"
+    },
+    "reliable_topology_fields": {
+      "distinct_author_result_sha256": "35020e5a562ccad43712f5fea76295ae636a0062fec50484133d563d54dc2672",
+      "excluded_redundant_fields": [
+        "followup_commit_count"
+      ],
+      "followup_count_result_sha256": "a3871f24a8dbf98de723d578f762aaff18417f8e84991218ff8a83d24d3cb5ce",
+      "minimum_kappa": 0.7,
+      "minimum_observability": 0.8,
+      "minimum_records": 50,
+      "passes": true,
+      "passing_fields": [
+        "distinct_followup_author_count",
+        "first_followup_author_differs",
+        "subsequent_change_present"
+      ],
+      "primary_reliability_result_sha256": "7e16d8b0da46765024f77b46aa6c9a0cc89798dfb264b6c23c6e157d8372ea5f",
+      "required_field_count": 3,
+      "status": "validated"
+    },
+    "task_matched_controls": {
+      "passes": false,
+      "reason": "validated_result_unavailable",
+      "status": "not_identified"
+    }
+  },
+  "pilot_result": "validated_utility",
+  "result_sha256": "5614a0ca5d567aac38ebcf56e769204ea5e8662c67bcc19a2239a53d4bf9a8af",
+  "result_version": 1
+}

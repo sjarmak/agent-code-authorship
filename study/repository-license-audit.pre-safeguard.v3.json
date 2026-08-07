@@ -1,0 +1,4847 @@
+{
+  "audit_version": 3,
+  "kind": "repository_license_redistribution_evidence",
+  "observed_at": "2026-07-27T19:50:34.086224Z",
+  "outcomes_consulted": false,
+  "repository_count": 302,
+  "redistribution_counts": {
+    "no_declared_license": 6,
+    "open_source": 295,
+    "proprietary": 1
+  },
+  "records": [
+    {
+      "canonical_repository_id": "0x4d31/galah",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/0x4D31/galah",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "0xfurai/peekaping",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/0xfurai/peekaping",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "2dust/v2rayn",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/2dust/v2rayN",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "3b1b/manim",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/3b1b/manim",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "a16z/halmos",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/a16z/halmos",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "addyosmani/agent-skills",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/addyosmani/agent-skills",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "affaan-m/ecc",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/affaan-m/ECC",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "aftership/clickhouse-sql-parser",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/AfterShip/clickhouse-sql-parser",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ag2ai/build-with-ag2",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ag2ai/build-with-ag2",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ai-shifu/ai-shifu",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ai-shifu/ai-shifu",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "airbytehq/airbyte",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/airbytehq/airbyte",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "airbytehq/pyairbyte",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/airbytehq/PyAirbyte",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "alacritty/alacritty",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/alacritty/alacritty",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "aldinokemal/go-whatsapp-web-multidevice",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "alexanderjeurissen/ranger_devicons",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/alexanderjeurissen/ranger_devicons",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "alirezamika/autoscraper",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/alirezamika/autoscraper",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "angular/angular",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/angular/angular",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "anomalyco/opencode",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/anomalyco/opencode",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ansible/ansible",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ansible/ansible",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ant-design/ant-design",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ant-design/ant-design",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "anthropics/claude-code",
+      "manifest_license_status": "not_declared",
+      "spdx_id": null,
+      "redistribution_class": "proprietary",
+      "license_expression": "Anthropic commercial terms",
+      "override_applied": true,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://github.com/anthropics/claude-code/blob/0c188278cdf9b8b717c2740550bdb0f69c02f6b5/LICENSE.md",
+        "sha256": "728158fd1037143fad6907e8fa34804177e598b7326519503fe83cafdef849e6",
+        "summary": "Copyright is reserved and use is governed by Anthropic commercial terms; routine redistribution is held."
+      }
+    },
+    {
+      "canonical_repository_id": "anuraghazra/github-readme-stats",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/anuraghazra/github-readme-stats",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "apache/couchdb",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/apache/couchdb",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "apache/superset",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/apache/superset",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "appflowy-io/appflowy",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/AppFlowy-IO/AppFlowy",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "asahilinux/m1n1",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/AsahiLinux/m1n1",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "astral-sh/uv",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/astral-sh/uv",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "axinc-ai/ailia-models",
+      "manifest_license_status": "not_declared",
+      "spdx_id": null,
+      "redistribution_class": "no_declared_license",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/axinc-ai/ailia-models",
+        "sha256": null,
+        "summary": "Frozen source metadata does not record a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "axios/axios",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/axios/axios",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "aztfmod/terraform-provider-azurecaf",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/aztfmod/terraform-provider-azurecaf",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-dev",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Azure/azure-dev",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-kusto-python",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Azure/azure-kusto-python",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-sdk-for-python",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Azure/azure-sdk-for-python",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "azure/azure-storage-fuse",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Azure/azure-storage-fuse",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "badtuxx/girus-cli",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/badtuxx/girus-cli",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "bayesianbandits/bayesianbandits",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/bayesianbandits/bayesianbandits",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "beehiveinnovations/zen-mcp-server",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/BeehiveInnovations/zen-mcp-server",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "bespokelabsai/curator",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/bespokelabsai/curator",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "bevyengine/bevy",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/bevyengine/bevy",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "binary-husky/gpt_academic",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/binary-husky/gpt_academic",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "bitcoin/bitcoin",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/bitcoin/bitcoin",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "borgmatic-collective/borgmatic",
+      "manifest_license_status": "not_recorded_in_frozen_source",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0-only",
+      "override_applied": true,
+      "mirror_transport_url": "https://github.com/borgmatic-collective/borgmatic",
+      "mirror_transport_cutoff_oid": "dbc3fc356ce58a1a8a37422b387ca22f7b3a651b",
+      "evidence": {
+        "kind": "license_file_at_cutoff_via_same_name_github_mirror",
+        "url": "https://github.com/borgmatic-collective/borgmatic/blob/dbc3fc356ce58a1a8a37422b387ca22f7b3a651b/LICENSE",
+        "sha256": "12ac5047f2af0522f06798b1589ffc4599bc29c91f954d7874e0320634e777c0",
+        "summary": "The cutoff commit is available in the same-name GitHub mirror and contains GPL-3.0 license text."
+      }
+    },
+    {
+      "canonical_repository_id": "brentyi/jaxls",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/brentyi/jaxls",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "brevdev/brev-cli",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/brevdev/brev-cli",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "briangu/klongpy",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/briangu/klongpy",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "browser-use/browser-use",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/browser-use/browser-use",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "busser/tfautomv",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/busser/tfautomv",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "bytedance/deer-flow",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/bytedance/deer-flow",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "caddyserver/caddy",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/caddyserver/caddy",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "calganaygun/mdcat",
+      "manifest_license_status": "not_declared",
+      "spdx_id": null,
+      "redistribution_class": "no_declared_license",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/calganaygun/MDcat",
+        "sha256": null,
+        "summary": "Frozen source metadata does not record a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "cedar-policy/cedar-go",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/cedar-policy/cedar-go",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "celestiaorg/celestia-core",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/celestiaorg/celestia-core",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "chatgptnextweb/nextchat",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ChatGPTNextWeb/NextChat",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "clash-verge-rev/clash-verge-rev",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "coder/code-server",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/coder/code-server",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "coder/coder",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/coder/coder",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "comfy-org/comfyui",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "commaai/opendbc",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/commaai/opendbc",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "commaai/openpilot",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/commaai/openpilot",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "compiler-explorer/infra",
+      "manifest_license_status": "declared",
+      "spdx_id": "BSD-2-Clause",
+      "redistribution_class": "open_source",
+      "license_expression": "BSD-2-Clause",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/compiler-explorer/infra",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/crewAIInc/crewAI",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "crewaiinc/crewai-tools",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/crewAIInc/crewAI-tools",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "cschleiden/go-workflows",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/cschleiden/go-workflows",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "d3/d3",
+      "manifest_license_status": "declared",
+      "spdx_id": "ISC",
+      "redistribution_class": "open_source",
+      "license_expression": "ISC",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/d3/d3",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "dagster-io/dagster",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/dagster-io/dagster",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "danielmiessler/seclists",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/danielmiessler/SecLists",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "datadog/dd-trace-go",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/DataDog/dd-trace-go",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "deepnoodle-ai/risor",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/deepnoodle-ai/risor",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "defog-ai/introspect",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/defog-ai/introspect",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "denoland/deno",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/denoland/deno",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "disler/single-file-agents",
+      "manifest_license_status": "not_declared",
+      "spdx_id": null,
+      "redistribution_class": "no_declared_license",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/disler/single-file-agents",
+        "sha256": null,
+        "summary": "Frozen source metadata does not record a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "django/django",
+      "manifest_license_status": "declared",
+      "spdx_id": "BSD-3-Clause",
+      "redistribution_class": "open_source",
+      "license_expression": "BSD-3-Clause",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/django/django",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "docling-project/docling",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/docling-project/docling",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "doocs/advanced-java",
+      "manifest_license_status": "declared",
+      "spdx_id": "CC-BY-SA-4.0",
+      "redistribution_class": "open_source",
+      "license_expression": "CC-BY-SA-4.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/doocs/advanced-java",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "earendil-works/pi",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/earendil-works/pi",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "egonex-ai/understand-anything",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Egonex-AI/Understand-Anything",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "elastic/elasticsearch",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/elastic/elasticsearch",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "elastic/terraform-provider-elasticstack",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/elastic/terraform-provider-elasticstack",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "electron/electron",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/electron/electron",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "endless-sky/endless-sky",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/endless-sky/endless-sky",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "equationzhao/g",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Equationzhao/g",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ethyca/fides",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ethyca/fides",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "eugeny/tabby",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Eugeny/tabby",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "exa-labs/exa-py",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/exa-labs/exa-py",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "excalidraw/excalidraw",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/excalidraw/excalidraw",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "farion1231/cc-switch",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/farion1231/cc-switch",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "fastapi/fastapi",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/fastapi/fastapi",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "fatedier/fft",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/fatedier/fft",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "fatedier/frp",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/fatedier/frp",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "firecrawl/firecrawl",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/firecrawl/firecrawl",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "flutter/flutter",
+      "manifest_license_status": "declared",
+      "spdx_id": "BSD-3-Clause",
+      "redistribution_class": "open_source",
+      "license_expression": "BSD-3-Clause",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/flutter/flutter",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "foundationagents/metagpt",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/FoundationAgents/MetaGPT",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "gastownhall/beads",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/gastownhall/beads",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "gastownhall/gascity",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/gastownhall/gascity",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "genymobile/scrcpy",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Genymobile/scrcpy",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "getsentry/sentry",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/getsentry/sentry",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ggml-org/llama.cpp",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "gin-gonic/gin",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/gin-gonic/gin",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "github/issue-metrics",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/github/issue-metrics",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "github/spec-kit",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/github/spec-kit",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "godotengine/godot",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/godotengine/godot",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "gohugoio/hugo",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/gohugoio/hugo",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "golang/go",
+      "manifest_license_status": "declared",
+      "spdx_id": "BSD-3-Clause",
+      "redistribution_class": "open_source",
+      "license_expression": "BSD-3-Clause",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/golang/go",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "google-gemini/gemini-cli",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/google-gemini/gemini-cli",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "grafana/grafana",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/grafana/grafana",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "graphify-labs/graphify",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Graphify-Labs/graphify",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "graphql-python/graphql-server",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/graphql-python/graphql-server",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "haasonsaas/ocode",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/haasonsaas/ocode",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "hacksider/deep-live-cam",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/hacksider/Deep-Live-Cam",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "hakimel/reveal.js",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/hakimel/reveal.js",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "harry0703/moneyprinterturbo",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "hiyouga/llamafactory",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/hiyouga/LlamaFactory",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "home-assistant/core",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/home-assistant/core",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "hoppscotch/hoppscotch",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/hoppscotch/hoppscotch",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "humansignal/label-studio-ml-backend",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/HumanSignal/label-studio-ml-backend",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ikamensh/flynt",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ikamensh/flynt",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "immich-app/immich",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/immich-app/immich",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "incatools/ontology-access-kit",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/INCATools/ontology-access-kit",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "infiniflow/ragflow",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/infiniflow/ragflow",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "iptv-org/iptv",
+      "manifest_license_status": "declared",
+      "spdx_id": "Unlicense",
+      "redistribution_class": "open_source",
+      "license_expression": "Unlicense",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/iptv-org/iptv",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "iterative/datachain",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/iterative/datachain",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "jeroenterheerdt/hasmartirrigation",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/jeroenterheerdt/HAsmartirrigation",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "jesseduffield/lazygit",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/jesseduffield/lazygit",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "jhy/jsoup",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/jhy/jsoup",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "jkroepke/openvpn-auth-oauth2",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/jkroepke/openvpn-auth-oauth2",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "juliangarnier/anime",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/juliangarnier/anime",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "junegunn/fzf",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/junegunn/fzf",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "justtrackio/gosoline",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/justtrackio/gosoline",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "jxxghp/moviepilot",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/jxxghp/MoviePilot",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "kanaries/pygwalker",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Kanaries/pygwalker",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "kanisterio/kanister",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/kanisterio/kanister",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "keephq/keep",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/keephq/keep",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "kubernetes-sigs/cloud-provider-azure",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/kubernetes-sigs/cloud-provider-azure",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "kubernetes/kubernetes",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/kubernetes/kubernetes",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "langbot-app/langbot",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/langbot-app/LangBot",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "langchain-ai/langchain",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/langchain-ai/langchain",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "langflow-ai/langflow",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/langflow-ai/langflow",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "langgenius/dify",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/langgenius/dify",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "laravel/laravel",
+      "manifest_license_status": "not_declared",
+      "spdx_id": null,
+      "redistribution_class": "no_declared_license",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/laravel/laravel",
+        "sha256": null,
+        "summary": "Frozen source metadata does not record a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "levigross/grequests",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/levigross/grequests",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "lobehub/lobehub",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/lobehub/lobehub",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "localsend/localsend",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/localsend/localsend",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "louislam/uptime-kuma",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/louislam/uptime-kuma",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "marimo-team/marimo",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/marimo-team/marimo",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "mermaid-js/mermaid",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/mermaid-js/mermaid",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/azuretre",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/AzureTRE",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/debug-gym",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/debug-gym",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/go-mssqldb",
+      "manifest_license_status": "declared",
+      "spdx_id": "BSD-3-Clause",
+      "redistribution_class": "open_source",
+      "license_expression": "BSD-3-Clause",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/go-mssqldb",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/go-sqlcmd",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/go-sqlcmd",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/graphrag",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/graphrag",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/lisa",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/lisa",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/magentic-ui",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/magentic-ui",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/markitdown",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/markitdown",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/olive",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/Olive",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/playwright",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/playwright",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/powertoys",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/PowerToys",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/qcodes",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/Qcodes",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/rd-agent",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/RD-Agent",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/retina",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/retina",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/terminal",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/terminal",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/typescript",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/TypeScript",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/typescript-go",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/typescript-go",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "microsoft/vscode",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/microsoft/vscode",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "moby/moby",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/moby/moby",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "mochilang/mochi",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/mochilang/mochi",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "modelcontextprotocol/registry",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/modelcontextprotocol/registry",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "modelcontextprotocol/servers",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "mrdoob/three.js",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/mrdoob/three.js",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "msitarzewski/agency-agents",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/msitarzewski/agency-agents",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "mui/material-ui",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/mui/material-ui",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "n8n-io/n8n",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/n8n-io/n8n",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nationalsecurityagency/ghidra",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/NationalSecurityAgency/ghidra",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "navidrome/navidrome",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/navidrome/navidrome",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nearai/nearai",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/nearai/nearai",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nektos/act",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/nektos/act",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "neovim/neovim",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/neovim/neovim",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nestjs/nest",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/nestjs/nest",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "newfuture/ddns",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/NewFuture/DDNS",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nexu-io/open-design",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/nexu-io/open-design",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nikolaydubina/go-instrument",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/nikolaydubina/go-instrument",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nodejs/node",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/nodejs/node",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "noneback/go-taskflow",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/noneback/go-taskflow",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nousresearch/atropos",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/NousResearch/atropos",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nousresearch/hermes-agent",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/NousResearch/hermes-agent",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "numbagg/numbagg",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/numbagg/numbagg",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "nvm-sh/nvm",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/nvm-sh/nvm",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "obra/superpowers",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/obra/superpowers",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "obsproject/obs-studio",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/obsproject/obs-studio",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ocornut/imgui",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ocornut/imgui",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "odigos-io/odigos",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/odigos-io/odigos",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "oevortex/webscout",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/OEvortex/Webscout",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ohmyzsh/ohmyzsh",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ohmyzsh/ohmyzsh",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ollama/ollama",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ollama/ollama",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "onflow/flow-go",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/onflow/flow-go",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "onnx/onnx",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/onnx/onnx",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "onyx-dot-app/onyx",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/onyx-dot-app/onyx",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "open-webui/open-webui",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/open-webui/open-webui",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "open5e/open5e-api",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/open5e/open5e-api",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "openai/codex",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/openai/codex",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "openai/openai-cookbook",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/openai/openai-cookbook",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "openai/whisper",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/openai/whisper",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "openclaw/openclaw",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/openclaw/openclaw",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "opendatalab/mineru",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/opendatalab/MinerU",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "openfga/openfga",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/openfga/openfga",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "openhands/openhands",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "openttd/openttd",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/OpenTTD/OpenTTD",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "oraios/serena",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/oraios/serena",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "oras-project/oras",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/oras-project/oras",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "oven-sh/bun",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/oven-sh/bun",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "paddlepaddle/paddleocr",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/PaddlePaddle/PaddleOCR",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "pallets/flask",
+      "manifest_license_status": "declared",
+      "spdx_id": "BSD-3-Clause",
+      "redistribution_class": "open_source",
+      "license_expression": "BSD-3-Clause",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/pallets/flask",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "paperclipai/paperclip",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/paperclipai/paperclip",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "patched-codes/patchwork",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/patched-codes/patchwork",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "pewdiepie-archdaemon/odysseus",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "pkgconf/pkgconf",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/pkgconf/pkgconf",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "poezio/poezio",
+      "manifest_license_status": "not_recorded_in_frozen_source",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0-only",
+      "override_applied": true,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://codeberg.org/poezio/poezio/src/commit/9c528ac2f3e2cdad01b8c72dbcebbdd37c38fef5/COPYING",
+        "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271",
+        "summary": "The frozen revision contains GPL-3.0 license text."
+      }
+    },
+    {
+      "canonical_repository_id": "pouchdb/pouchdb",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/pouchdb/pouchdb",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "prequel-dev/preq",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/prequel-dev/preq",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "protocolbuffers/protobuf",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/protocolbuffers/protobuf",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "public-apis/public-apis",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/public-apis/public-apis",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "puppeteer/puppeteer",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/puppeteer/puppeteer",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "python/cpython",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/python/cpython",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "pythonnest/pynest",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/PythonNest/PyNest",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "qemu-project/qemu",
+      "manifest_license_status": "not_recorded_in_frozen_source",
+      "spdx_id": null,
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-2.0-or-later AND other component licenses",
+      "override_applied": true,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://gitlab.com/qemu-project/qemu/-/blob/300438ffbb8d9430cac2fcc15cba6f482b2c0587/LICENSE",
+        "sha256": "139c64b7a9ae62858ff969aae622ecfcf4f1519655bd92d2e70a1a2fb615690e",
+        "summary": "The frozen revision documents GPL-2.0-or-later for the combined work and multiple compatible component licenses."
+      }
+    },
+    {
+      "canonical_repository_id": "quantalogic/quantalogic",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/quantalogic/quantalogic",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "radius-project/radius",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/radius-project/radius",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ray-project/ray",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ray-project/ray",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "react/react",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/react/react",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "react/react-native",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/react/react-native",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "realworld-apps/realworld",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/realworld-apps/realworld",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "redis/redis",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/redis/redis",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "reflex-dev/reflex",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/reflex-dev/reflex",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "reflex-dev/reflex-web",
+      "manifest_license_status": "not_declared",
+      "spdx_id": null,
+      "redistribution_class": "no_declared_license",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/reflex-dev/reflex-web",
+        "sha256": null,
+        "summary": "Frozen source metadata does not record a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "roeniss/dhlottery-api",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/roeniss/dhlottery-api",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "rqlite/rqlite",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/rqlite/rqlite",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "rtk-ai/rtk",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/rtk-ai/rtk",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "rust-lang/rust",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/rust-lang/rust",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "rustdesk/rustdesk",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/rustdesk/rustdesk",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "safedep/vet",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/safedep/vet",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sashabaranov/go-openai",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sashabaranov/go-openai",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "savetherbtz/zstd-seekable-format-go",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/SaveTheRbtz/zstd-seekable-format-go",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "schemahero/schemahero",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/schemahero/schemahero",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "shadcn-ui/ui",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/shadcn-ui/ui",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sherlock-project/sherlock",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "significant-gravitas/autogpt",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sirk123au/arrtools",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sirk123au/ArrTools",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/agent-diagnostics",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sjarmak/agent-diagnostics",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/codeprobe",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sjarmak/codeprobe",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/geo_public",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sjarmak/GEO_public",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/livedocs",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sjarmak/livedocs",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/nls-finetune-scix",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sjarmak/nls-finetune-scix",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/scix-agent",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sjarmak/scix-agent",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "sjarmak/sg_benchmark",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sjarmak/sg_benchmark",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "spacelift-io/spacectl",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/spacelift-io/spacectl",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "spcl/dace",
+      "manifest_license_status": "declared",
+      "spdx_id": "BSD-3-Clause",
+      "redistribution_class": "open_source",
+      "license_expression": "BSD-3-Clause",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/spcl/dace",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "spring-projects/spring-boot",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/spring-projects/spring-boot",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "spylang/spy",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/spylang/spy",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "stanford-crfm/haliax",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/stanford-crfm/haliax",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "stirling-tools/stirling-pdf",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "storybookjs/storybook",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/storybookjs/storybook",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "strapi/strapi",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/strapi/strapi",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "supabase/supabase",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/supabase/supabase",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "superseriousbusiness/gotosocial",
+      "manifest_license_status": "not_recorded_in_frozen_source",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0-only",
+      "override_applied": true,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://codeberg.org/superseriousbusiness/gotosocial/src/commit/3722d124433d2087a97f68689fea934610703783/LICENSE",
+        "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+        "summary": "The frozen revision contains AGPL-3.0 license text."
+      }
+    },
+    {
+      "canonical_repository_id": "sveltejs/svelte",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/sveltejs/svelte",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "swiftlang/swift",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/swiftlang/swift",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "syncthing/syncthing",
+      "manifest_license_status": "declared",
+      "spdx_id": "MPL-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "MPL-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/syncthing/syncthing",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "syntasso/kratix",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/syntasso/kratix",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "tailwindlabs/tailwindcss",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/tailwindlabs/tailwindcss",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "tauri-apps/tauri",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/tauri-apps/tauri",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "teamtype/teamtype",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/teamtype/teamtype",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "teaxyz/chai",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/teaxyz/chai",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "tensorflow/models",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/tensorflow/models",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "thedaviddias/front-end-checklist",
+      "manifest_license_status": "not_declared",
+      "spdx_id": null,
+      "redistribution_class": "no_declared_license",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/thedaviddias/Front-End-Checklist",
+        "sha256": null,
+        "summary": "Frozen source metadata does not record a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "thedotmack/claude-mem",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/thedotmack/claude-mem",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "toeverything/affine",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/toeverything/AFFiNE",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "tonsky/firacode",
+      "manifest_license_status": "declared",
+      "spdx_id": "OFL-1.1",
+      "redistribution_class": "open_source",
+      "license_expression": "OFL-1.1",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/tonsky/FiraCode",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "tphakala/birdnet-go",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/tphakala/birdnet-go",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "tracecathq/tracecat",
+      "manifest_license_status": "declared",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/TracecatHQ/tracecat",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "twbs/bootstrap",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/twbs/bootstrap",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "twpayne/chezmoi",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/twpayne/chezmoi",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "typicode/json-server",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/typicode/json-server",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "typst/typst",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/typst/typst",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ucbepic/docetl",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ucbepic/docetl",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "unclecode/crawl4ai",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "unionlabs/union",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/unionlabs/union",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "vdaas/vald",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/vdaas/vald",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "veloera/veloera",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Veloera/Veloera",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ventoy/ventoy",
+      "manifest_license_status": "declared",
+      "spdx_id": "GPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "GPL-3.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ventoy/Ventoy",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "vercel/next.js",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/vercel/next.js",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "vitejs/vite",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/vitejs/vite",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "vladfi1/slippi-ai",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/vladfi1/slippi-ai",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "vllm-project/vllm",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/vllm-project/vllm",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "vlm-run/vlmrun-hub",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/vlm-run/vlmrun-hub",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "wafrn/wafrn",
+      "manifest_license_status": "not_recorded_in_frozen_source",
+      "spdx_id": "AGPL-3.0",
+      "redistribution_class": "open_source",
+      "license_expression": "AGPL-3.0-only",
+      "override_applied": true,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "license_file",
+        "url": "https://codeberg.org/wafrn/wafrn/src/commit/52e1d5266f8d66648870e48204b5e28521de30b9/LICENSE",
+        "sha256": "5ffb8eaf206c79f334260d6373dc8deda5235901d14e0c34e9b77e4c82cecb87",
+        "summary": "The frozen revision contains AGPL-3.0 license text."
+      }
+    },
+    {
+      "canonical_repository_id": "wandb/weave",
+      "manifest_license_status": "declared",
+      "spdx_id": "Apache-2.0",
+      "redistribution_class": "open_source",
+      "license_expression": "Apache-2.0",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/wandb/weave",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "willccbb/verifiers",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/willccbb/verifiers",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "yt-dlp/yt-dlp",
+      "manifest_license_status": "declared",
+      "spdx_id": "Unlicense",
+      "redistribution_class": "open_source",
+      "license_expression": "Unlicense",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/yt-dlp/yt-dlp",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "ytdl-org/youtube-dl",
+      "manifest_license_status": "declared",
+      "spdx_id": "Unlicense",
+      "redistribution_class": "open_source",
+      "license_expression": "Unlicense",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/ytdl-org/youtube-dl",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "z4nzu/hackingtool",
+      "manifest_license_status": "declared",
+      "spdx_id": "MIT",
+      "redistribution_class": "open_source",
+      "license_expression": "MIT",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/Z4nzu/hackingtool",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "zed-industries/zed",
+      "manifest_license_status": "declared",
+      "spdx_id": "NOASSERTION",
+      "redistribution_class": "open_source",
+      "license_expression": "NOASSERTION",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/zed-industries/zed",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    },
+    {
+      "canonical_repository_id": "zfit/zfit",
+      "manifest_license_status": "declared",
+      "spdx_id": "BSD-3-Clause",
+      "redistribution_class": "open_source",
+      "license_expression": "BSD-3-Clause",
+      "override_applied": false,
+      "mirror_transport_url": null,
+      "mirror_transport_cutoff_oid": null,
+      "evidence": {
+        "kind": "frozen_source_license_metadata",
+        "url": "https://github.com/zfit/zfit",
+        "sha256": null,
+        "summary": "Frozen source metadata records a declared license."
+      }
+    }
+  ],
+  "audit_sha256": "063f4c0010a3b8ef335e2b41457a3a55709f09631febeaa304ccffea2a34ad53"
+}

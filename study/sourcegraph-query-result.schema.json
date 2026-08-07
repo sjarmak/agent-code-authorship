@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-query-result.schema.json",
+  "title": "Frozen Sourcegraph query result manifest v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "result_manifest_version",
+    "query_family_id",
+    "result_type",
+    "canonical_repository_id",
+    "sourcegraph_name",
+    "cutoff_commit",
+    "rendered_query",
+    "rendered_query_sha256",
+    "unit_id",
+    "executed_at",
+    "sourcegraph_result_ids",
+    "result_count",
+    "result_object_count",
+    "limit_hit",
+    "cloning_repositories",
+    "missing_repositories",
+    "timed_out_repositories",
+    "valid",
+    "invalid_reasons",
+    "raw_results",
+    "outcomes_consulted",
+    "result_manifest_sha256"
+  ],
+  "properties": {
+    "result_manifest_version": {
+      "const": 3
+    },
+    "query_family_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "result_type": {
+      "enum": [
+        "file",
+        "commit",
+        "diff"
+      ]
+    },
+    "canonical_repository_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "sourcegraph_name": {
+      "type": "string",
+      "pattern": "^github\\.com/"
+    },
+    "cutoff_commit": {
+      "$ref": "#/$defs/sha1"
+    },
+    "rendered_query": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rendered_query_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "unit_id": {
+      "$ref": "#/$defs/sha256"
+    },
+    "executed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sourcegraph_result_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/resultId"
+      }
+    },
+    "result_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "result_object_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "limit_hit": {
+      "type": "boolean"
+    },
+    "cloning_repositories": {
+      "$ref": "#/$defs/repositories"
+    },
+    "missing_repositories": {
+      "$ref": "#/$defs/repositories"
+    },
+    "timed_out_repositories": {
+      "$ref": "#/$defs/repositories"
+    },
+    "valid": {
+      "type": "boolean"
+    },
+    "invalid_reasons": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "limit_hit_requires_partition",
+          "cloning_repositories",
+          "missing_repositories",
+          "timed_out_repositories",
+          "execution_error"
+        ]
+      }
+    },
+    "execution_error": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 400
+    },
+    "raw_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sourcegraph_result_id",
+          "payload"
+        ],
+        "properties": {
+          "sourcegraph_result_id": {
+            "$ref": "#/$defs/resultId"
+          },
+          "payload": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "result_manifest_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha1": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "resultId": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "repositories": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "$schema": "semantic-topology-deep-search-run.schema.json",
+  "artifact_sha256": "25fad4cf0f4319540b5e4e7b9ad3334232d8f4575708fb27ae210d84ad1194ec",
+  "artifact_version": 1,
+  "canonical_repository_id": "qemu-project/qemu",
+  "citation_extraction_status": "observed",
+  "cited_commits": [
+    "300438ffbb8d9430cac2fcc15cba6f482b2c0587"
+  ],
+  "cited_files": [
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "block/curl.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c?L465-L497"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/usb/redirect.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/redirect.c?L192"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "linux-user/alpha/target_proc.h",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/linux-user/alpha/target_proc.h?L41"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "block/curl.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c?L805"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "block/curl.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c?L918"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "chardev/char-win-stdio.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-win-stdio.c?L131-L143"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "include/chardev/char.h",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/chardev/char.h?L302"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "chardev/char-fe.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-fe.c?L334"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "chardev/char-stdio.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-stdio.c?L56"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "ui/dbus-chardev.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/dbus-chardev.c?L226"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/vmware_vga.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L616-L798"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/vmware_vga.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L223-L224"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/vmware_vga.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L304-L315"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/vmware_vga.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L1056"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/display/vmware_vga.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L1152"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/hyperv/vmbus.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L1525-L1546"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/hyperv/vmbus.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L2089-L2148"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "include/qemu/lockable.h",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/qemu/lockable.h?L133-L137"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/hyperv/vmbus.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L1568"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/hyperv/vmbus.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L2154"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/ide/core.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/core.c?L900-L945"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "include/hw/ide/internal.h",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/ide/internal.h?L463"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/ide/pci.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/pci.c?L136"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/ide/ahci.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/ahci.c?L1473"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/ide/core.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/core.c?L837"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "include/hw/ide/internal.h",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/ide/internal.h?L597"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/qtest/ide-test.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/ide-test.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/qtest/ahci-test.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/ahci-test.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/qtest/meson.build",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/meson.build?L89"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/usb/core.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/core.c?L320-L354"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/usb/pcap.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/pcap.c?L233"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "include/hw/usb.h",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/usb.h?L582"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "hw/usb/core.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/core.c?L156-L203"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "tests/qtest/usb-hcd-ehci-test.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/usb-hcd-ehci-test.c"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "docs/about/removed-features.rst",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/about/removed-features.rst?L1244"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "migration/migration.c",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/migration/migration.c?L2809"
+    },
+    {
+      "commit": "300438ffbb8d9430cac2fcc15cba6f482b2c0587",
+      "path": "qapi/migration.json",
+      "repository": "github.com/sg-evals/qemu-project-qemu",
+      "url": "https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/qapi/migration.json?L272-L275"
+    }
+  ],
+  "conversation_identity": "users/476/conversations/2036",
+  "error": null,
+  "model_metadata": {
+    "reason": "not_exposed_by_api",
+    "status": "unavailable"
+  },
+  "plan_sha256": "0a0285d0d371aee1b8e3bad94b0936c7b288acd10045fe4b9906cfa54794699d",
+  "prompt": "Within @github.com/sg-evals/qemu-project-qemu at revision 300438ffbb8d9430cac2fcc15cba6f482b2c0587, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: qemu-project/qemu; stratum: policy_control; cutoff: 300438ffbb8d9430cac2fcc15cba6f482b2c0587.",
+  "prompt_family_id": "change_topology",
+  "prompt_sha256": "e6339d21b734e83d03baeaccee7a367db647235d23bae2d18e535565f002edb0",
+  "proposed_queries": [],
+  "protocol_sha256": "1da1f2e260917f1f48efe3cfb8101e315f24608bbd640f56c684e624d1af1cf1",
+  "raw_answer": "`QEMU_VERSION` is generated by the build system (`meson.build` at line 3153 generates `qemu_version`). Now I have enough to produce the full topology map.\n\n---\n\n## Semantic Topology Map \u2014 `300438ffbb8d9430cac2fcc15cba6f482b2c0587`\n\n### Commit identity\n\nThis is a **merge commit** authored by Stefan Hajnoczi (Red Hat) on 2026-07-24, merging tag `pull-trivial-patches` from `mjt0k/qemu` into `staging`. It bundles 8 independent patches across 9 files. Each patch is analyzed as its own semantic unit below.\n\n---\n\n## Patch 1 \u2014 `block/curl.c`: Add `CURLOPT_USERAGENT`\n\n### Affected definition\n\n[`curl_init_state()`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c?L465-L497) \u2014 static function, not part of a public header. The new line inserts `CURLOPT_USERAGENT, \"QEMU/\" QEMU_VERSION` into the `curl_easy_setopt` chain.\n\n### Definitions referenced\n\n- `QEMU_VERSION` \u2014 a build-generated macro. Source: [`meson.build` L3153](https://demo.sourcegraph.com/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/meson.build?L3153) emits a generated header (`qemu_version`) included in the build. The macro is also used in [`hw/usb/redirect.c` L192](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/redirect.c?L192) for `usb-redir` and in [`linux-user/alpha/target_proc.h` L41](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/linux-user/alpha/target_proc.h?L41) as a string.\n- `curl_easy_setopt` \u2014 libcurl external API; not in-tree.\n\n### Callers of `curl_init_state`\n\nSearch-based navigation (keyword search confirmed two call sites):\n- [`block/curl.c` L805](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c?L805) \u2014 in the read path\n- [`block/curl.c` L918](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c?L918) \u2014 in the write/open path\n\nBoth callers are within the same file; `curl_init_state` is `static` and has no external callers.\n\n### Public API boundary\n\nThe `curl` block driver is exposed to users through the QEMU block layer (`BDRVCURLState`, `block_driver` struct). The `CURLOPT_USERAGENT` addition is transparent to the QAPI/QMP surface \u2014 no schema change.\n\n### Tests / docs\n\nNo qtest or unit test file for `block/curl.c` was found in the repository (search-based; no `tests/qtest/curl-test.c` exists). Documentation: no change in `docs/`.\n\n### CODEOWNERS\n\nNo `CODEOWNERS` file exists in this repository mirror (search returned no results). **Unavailable metadata.**\n\n### Later fixes/refactors/reverts\n\nNone identified within this cutoff. The commit message does not cite a `Fixes:` tag for this patch.\n\n---\n\n## Patch 2 \u2014 `chardev/char-win-stdio.c`: Typo fix (`win_stiod_` \u2192 `win_stdio_`)\n\n### Affected definition\n\n`win_stiod_chr_set_echo` (misspelled) is renamed to [`win_stdio_chr_set_echo`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-win-stdio.c?L131-L143). All three occurrences updated: definition at L131, internal call at L207 (inside `win_stdio_chr_open`), and the vtable assignment at L266.\n\n### Affected public API / vtable\n\n`cc->chr_set_echo` at L266 now correctly points to the renamed function. The vtable field `chr_set_echo` is declared in [`include/chardev/char.h` L302](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/chardev/char.h?L302) as `void (*chr_set_echo)(Chardev *chr, bool echo)`.\n\n### References / callers\n\nThe vtable is dispatched from [`chardev/char-fe.c` L334-L336](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-fe.c?L334) via `CHARDEV_GET_CLASS(chr)->chr_set_echo(chr, echo)` \u2014 **search-based navigation**.\n\nOther `chr_set_echo` implementations exist in [`chardev/char-stdio.c` L56](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-stdio.c?L56) and [`ui/dbus-chardev.c` L226](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/dbus-chardev.c?L226); these are parallel implementations, not callers.\n\n### Tests / docs\n\nNo Windows-specific chardev unit tests found. This is a latent correctness fix (the misspelled symbol would only matter at link time on Windows; on non-Windows targets, the file is not compiled).\n\n### Dependency boundary\n\nWindows-only (`chardev/char-win-stdio.c` is gated by `_WIN32`). No cross-platform impact.\n\n---\n\n## Patch 3 \u2014 `hw/display/vmware_vga.c`: Guest-triggerable infinite loop fix in `SVGA_CMD_DEFINE_ALPHA_CURSOR`\n\n### Affected definition\n\n[`vmsvga_fifo_run()`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L616-L798) \u2014 the central SVGA command dispatch loop.\n\nTwo changes:\n1. **Bounds check** on `x` and `y` before `args = x * y` at L740-L743: guards against integer overflow producing a huge `args` value that causes a long-running `while (args--)` drain loop.\n2. **`while (args-- > 0)`** at L783: fixes undefined behavior when `args == 0` with the previous `while (args--)` (signed underflow path was unreachable here, but the `> 0` guard is a correctness improvement; **precise read-based observation**).\n\n### Constants referenced\n\n`SVGA_MAX_WIDTH = 2368`, `SVGA_MAX_HEIGHT = 1770` \u2014 defined in the same file at [L223-L224](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L223-L224). Also used for rectangle validation in [`vmsvga_verify_rect()` at L304-L315](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L304-L315) \u2014 **search-based navigation, precise constant origin**.\n\n### Callers of `vmsvga_fifo_run`\n\n- [`hw/display/vmware_vga.c` L1056](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L1056) \u2014 called from the SVGA register write path (guest-triggered)\n- [`hw/display/vmware_vga.c` L1152](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L1152) \u2014 called from the display update path\n\nBoth are internal. The guest-to-host attack vector is through the MMIO write path. **Search-based navigation.**\n\n### Security classification\n\nThis is a **guest-to-host DoS** (infinite loop / host CPU exhaustion). Commit message explicitly labels it as a security-adjacent fix: \"Don't allow guest to trigger long running loop in host.\"\n\n### Tests / docs\n\nNo `tests/qtest/vmware-vga-test.c` found. No doc change. **Test coverage gap identified.**\n\n---\n\n## Patch 4 \u2014 `hw/hyperv/vmbus.c`: Replace `goto`-based mutex unlock with `QEMU_LOCK_GUARD`\n\n### Affected definitions\n\nTwo functions refactored:\n\n**`enqueue_incoming_message()`** at [L1525-L1546](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L1525-L1546): `rx_queue_lock` is now held via `QEMU_LOCK_GUARD`, early return replaces `goto out`.\n\n**`process_message()`** at [L2089-L2148](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L2089-L2148): same pattern; `goto unlock` \u2192 implicit RAII unlock. **Precise read-based observation.**\n\n### Macro definition\n\n`QEMU_LOCK_GUARD` is defined in [`include/qemu/lockable.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/qemu/lockable.h?L133-L137) as a scope-based RAII lock using GLib's `g_autoptr`. It works correctly with `return` inside the scope, which is the key semantic property exploited here. **Precise read-based observation.**\n\n### Callers of modified functions\n\n- `enqueue_incoming_message` is called only from `vmbus_recv_message()` at [L1568](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L1568). \u2014 **search-based navigation**\n- `process_message` is dispatched from `state_runner[]` at [L2154](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L2154). \u2014 **precise read-based observation**\n\n### Parallel usages of `QEMU_LOCK_GUARD`\n\nWidely used across `hw/hyperv/hyperv.c`, `hw/remote/iohub.c`, `hw/i386/kvm/xen_evtchn.c`, `util/vfio-helpers.c`, `block/graph-lock.c`, etc. \u2014 **search-based navigation**. This refactor aligns `vmbus.c` with the project's established idiom.\n\n### Tests / docs\n\nNo dedicated vmbus qtest found. No doc changes.\n\n---\n\n## Patch 5 \u2014 `hw/ide/core.c`: Replace `assert` with proper error handling for `prepare_buf()` failure\n\n### Affected definition\n\n[`ide_dma_cb()`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/core.c?L900-L945) \u2014 the DMA completion callback.\n\nBefore: `assert(prep_size >= 0 && prep_size <= n * 512)` aborted QEMU on negative `prep_size` (fuzzer-triggerable).\nAfter: negative `prep_size` calls `ide_dma_error(s)` and returns gracefully; the `<= n * 512` assertion is retained for the success path. **Precise read-based observation.**\n\n### `prepare_buf` dispatch table\n\n`IDEDMAOps.prepare_buf` is declared in [`include/hw/ide/internal.h` L463](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/ide/internal.h?L463) as `DMAInt32Func *prepare_buf`. Concrete implementations: \u2014 **search-based navigation**\n- [`hw/ide/pci.c` L136 `bmdma_prepare_buf`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/pci.c?L136) \u2014 BMDMA (PCI)\n- [`hw/ide/ahci.c` L1473 `ahci_dma_prepare_buf`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/ahci.c?L1473) \u2014 AHCI\n- `ide_nop_int32` (no-op stub) used in `hw/ide/macio.c` and the `ide_dma_nop_ops` fallback\n\n### `ide_dma_error` definition\n\n[`hw/ide/core.c` L837](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/core.c?L837), declared in [`include/hw/ide/internal.h` L597](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/ide/internal.h?L597). Also called from `hw/ide/macio.c` L147. **Search-based navigation.**\n\n### Provenance\n\nCommit message: `Fixes: ed78352a59 (\"ide: Fix incorrect handling of some PRDTs in ide_dma_cb...\")`. Found by Linux Verification Center using libFuzzer. `Cc: qemu-stable@nongnu.org` implies a stable-branch backport is expected.\n\n### Tests\n\n[`tests/qtest/ide-test.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/ide-test.c) and [`tests/qtest/ahci-test.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/ahci-test.c) exist and are registered in [`tests/qtest/meson.build` L89-L90](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/meson.build?L89). No new test for the negative `prepare_buf` path was added in this commit.\n\n---\n\n## Patch 6 \u2014 `hw/usb/core.c`: Add missing `usb_pcap_ctrl` call for async `SETUP_STATE_PARAM`\n\n### Affected definition\n\n[`usb_generic_async_ctrl_complete()`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/core.c?L320-L354) \u2014 handles completion of asynchronous USB control transfers. The `SETUP_STATE_PARAM` case (L340-L349) was missing `usb_pcap_ctrl(p, false)` before `break`. Now added at L348. **Precise read-based observation.**\n\n### `usb_pcap_ctrl` definition and callers\n\n- Defined in [`hw/usb/pcap.c` L233](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/pcap.c?L233)\n- Declared in [`include/hw/usb.h` L582](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/usb.h?L582)\n- Other call sites in [`hw/usb/core.c` L157, L194, L202](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/core.c?L156-L203) \u2014 the synchronous paths that already had the call. **Search-based navigation.**\n\n### Provenance\n\n`Fixes: 0f6dba145a4b (\"usb: add pcap support.\")` \u2014 the original pcap support omitted this code path.\n\n### Tests\n\nUSB HCD qtests exist ([`tests/qtest/usb-hcd-ehci-test.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/usb-hcd-ehci-test.c), `uhci`, `xhci`, `ohci`). None specifically test pcap async completion. **Test coverage gap identified.**\n\n---\n\n## Patches 7 & 8 \u2014 Typo fixes in docs and QAPI schema\n\n### Affected files\n\n| File | Change | Navigation basis |\n|---|---|---|\n| [`docs/about/removed-features.rst` L1244](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/about/removed-features.rst?L1244) | `happend` \u2192 `happened` (RISC-V spike machine note) | Precise read |\n| [`migration/migration.c` L2809](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/migration/migration.c?L2809) | `happend` \u2192 `happened` (comment in `migration_switchover_prepare`) | Precise read (diff) |\n| [`qapi/migration.json` L272-L275](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/qapi/migration.json?L272-L275) | `happend` \u2192 `happened` in `@postcopy-non-vcpu-latency` doc comment; line-wrap fix | Precise read |\n\n### QAPI schema impact\n\n`qapi/migration.json` changes are **doc-comment only** inside the `MigrationStats` struct definition. No field names, types, or `Since:` versions were altered. The QAPI-generated C code and QMP wire format are unaffected. \u2014 **Precise read-based observation.**\n\nThe `@postcopy-non-vcpu-latency` field is part of the `MigrationStats` union, a public QMP API surface introduced in QEMU 10.1.\n\n---\n\n## Topology Summary Table\n\n| Patch | Changed Symbol | Callers | Declarations | Tests | Security/Stability |\n|---|---|---|---|---|---|\n| curl USERAGENT | `curl_init_state` (static) | 2 internal | none (static) | none found | No CVE; identifies QEMU in HTTP UA |\n| win_stdio typo | `win_stdio_chr_set_echo` | `char-fe.c` dispatch | `char.h` vtable | none | Windows-only link fix |\n| vmsvga loop | `vmsvga_fifo_run` | 2 internal (MMIO + display) | none (static) | none | Guest DoS via CPU exhaustion |\n| vmbus LOCK_GUARD | `enqueue_incoming_message`, `process_message` | `vmbus_recv_message`, `state_runner[]` | none (static) | none | Correctness/code clarity |\n| ide_dma assert\u2192error | `ide_dma_cb` | internal DMA engine | `ide/internal.h` | `ide-test.c` exists | Fuzzer-found assert abort \u2192 graceful error |\n| usb pcap async | `usb_generic_async_ctrl_complete` | USB subsystem | `hw/usb.h` | USB HCD qtests exist | Pcap completeness fix |\n| doc/migration typos | comments only | N/A | N/A | N/A | None |\n| qapi/migration typo | doc comment in `MigrationStats` | N/A | QAPI schema | N/A | None |\n\n---\n\n## Unavailable Metadata\n\n| Metadata | Status |\n|---|---|\n| `CODEOWNERS` file | **Does not exist** in this repository mirror |\n| Stable-branch backport commits | Not searchable at this cutoff; `Cc: qemu-stable@nongnu.org` on the IDE patch signals intent |\n| Upstream GitLab MR numbers | Not mirrored; merge is from `gitlab.com/mjt0k/qemu` |\n| CVE assignments | None referenced in commit messages |\n| Build-generated `QEMU_VERSION` value | Macro value is determined at build time; not resolvable from source alone |\n\n---\n\n## Deterministic Verification Steps\n\n1. **Confirm merge structure**: `git show --stat 300438ffbb8d9430cac2fcc15cba6f482b2c0587` \u2014 expect 9 files changed, verify the PGP-signed tag `pull-trivial-patches`.\n2. **Verify vmsvga bounds**: `grep -n 'SVGA_MAX_WIDTH\\|SVGA_MAX_HEIGHT\\|DEFINE_ALPHA_CURSOR' hw/display/vmware_vga.c` \u2014 confirm guard at L740-L743 and `> 0` at L783.\n3. **Verify IDE assert split**: `grep -n 'prep_size\\|assert' hw/ide/core.c | head -20` \u2014 confirm no `assert(prep_size >= 0 ...)` remains; `assert(prep_size <= n * 512)` present.\n4. **Verify LOCK_GUARD replacement**: `grep -n 'QEMU_LOCK_GUARD\\|goto out\\|qemu_mutex_unlock' hw/hyperv/vmbus.c` \u2014 `goto out` and `qemu_mutex_unlock` should be absent from `enqueue_incoming_message` and `process_message`.\n5. **Verify usb_pcap_ctrl completeness**: `grep -n 'usb_pcap_ctrl\\|SETUP_STATE_PARAM' hw/usb/core.c` \u2014 `usb_pcap_ctrl(p, false)` should appear inside the `SETUP_STATE_PARAM` case.\n6. **Verify rename**: `grep -n 'win_stiod\\|win_stdio_chr_set_echo' chardev/char-win-stdio.c` \u2014 `win_stiod` should return 0 results; `win_stdio_chr_set_echo` should appear 3 times.\n7. **Check QAPI schema diff purity**: `python3 scripts/qapi/schema.py qapi/migration.json` \u2014 should parse cleanly with no structural change relative to parent commit.",
+  "raw_conversation": {
+    "createTime": "2026-07-29T03:39:21Z",
+    "name": "users/476/conversations/2036",
+    "questions": [
+      {
+        "answer": [
+          {
+            "markdown": {
+              "text": "`QEMU_VERSION` is generated by the build system (`meson.build` at line 3153 generates `qemu_version`). Now I have enough to produce the full topology map.\n\n---\n\n## Semantic Topology Map \u2014 `300438ffbb8d9430cac2fcc15cba6f482b2c0587`\n\n### Commit identity\n\nThis is a **merge commit** authored by Stefan Hajnoczi (Red Hat) on 2026-07-24, merging tag `pull-trivial-patches` from `mjt0k/qemu` into `staging`. It bundles 8 independent patches across 9 files. Each patch is analyzed as its own semantic unit below.\n\n---\n\n## Patch 1 \u2014 `block/curl.c`: Add `CURLOPT_USERAGENT`\n\n### Affected definition\n\n[`curl_init_state()`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c?L465-L497) \u2014 static function, not part of a public header. The new line inserts `CURLOPT_USERAGENT, \"QEMU/\" QEMU_VERSION` into the `curl_easy_setopt` chain.\n\n### Definitions referenced\n\n- `QEMU_VERSION` \u2014 a build-generated macro. Source: [`meson.build` L3153](https://demo.sourcegraph.com/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/meson.build?L3153) emits a generated header (`qemu_version`) included in the build. The macro is also used in [`hw/usb/redirect.c` L192](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/redirect.c?L192) for `usb-redir` and in [`linux-user/alpha/target_proc.h` L41](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/linux-user/alpha/target_proc.h?L41) as a string.\n- `curl_easy_setopt` \u2014 libcurl external API; not in-tree.\n\n### Callers of `curl_init_state`\n\nSearch-based navigation (keyword search confirmed two call sites):\n- [`block/curl.c` L805](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c?L805) \u2014 in the read path\n- [`block/curl.c` L918](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/block/curl.c?L918) \u2014 in the write/open path\n\nBoth callers are within the same file; `curl_init_state` is `static` and has no external callers.\n\n### Public API boundary\n\nThe `curl` block driver is exposed to users through the QEMU block layer (`BDRVCURLState`, `block_driver` struct). The `CURLOPT_USERAGENT` addition is transparent to the QAPI/QMP surface \u2014 no schema change.\n\n### Tests / docs\n\nNo qtest or unit test file for `block/curl.c` was found in the repository (search-based; no `tests/qtest/curl-test.c` exists). Documentation: no change in `docs/`.\n\n### CODEOWNERS\n\nNo `CODEOWNERS` file exists in this repository mirror (search returned no results). **Unavailable metadata.**\n\n### Later fixes/refactors/reverts\n\nNone identified within this cutoff. The commit message does not cite a `Fixes:` tag for this patch.\n\n---\n\n## Patch 2 \u2014 `chardev/char-win-stdio.c`: Typo fix (`win_stiod_` \u2192 `win_stdio_`)\n\n### Affected definition\n\n`win_stiod_chr_set_echo` (misspelled) is renamed to [`win_stdio_chr_set_echo`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-win-stdio.c?L131-L143). All three occurrences updated: definition at L131, internal call at L207 (inside `win_stdio_chr_open`), and the vtable assignment at L266.\n\n### Affected public API / vtable\n\n`cc->chr_set_echo` at L266 now correctly points to the renamed function. The vtable field `chr_set_echo` is declared in [`include/chardev/char.h` L302](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/chardev/char.h?L302) as `void (*chr_set_echo)(Chardev *chr, bool echo)`.\n\n### References / callers\n\nThe vtable is dispatched from [`chardev/char-fe.c` L334-L336](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-fe.c?L334) via `CHARDEV_GET_CLASS(chr)->chr_set_echo(chr, echo)` \u2014 **search-based navigation**.\n\nOther `chr_set_echo` implementations exist in [`chardev/char-stdio.c` L56](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/chardev/char-stdio.c?L56) and [`ui/dbus-chardev.c` L226](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/ui/dbus-chardev.c?L226); these are parallel implementations, not callers.\n\n### Tests / docs\n\nNo Windows-specific chardev unit tests found. This is a latent correctness fix (the misspelled symbol would only matter at link time on Windows; on non-Windows targets, the file is not compiled).\n\n### Dependency boundary\n\nWindows-only (`chardev/char-win-stdio.c` is gated by `_WIN32`). No cross-platform impact.\n\n---\n\n## Patch 3 \u2014 `hw/display/vmware_vga.c`: Guest-triggerable infinite loop fix in `SVGA_CMD_DEFINE_ALPHA_CURSOR`\n\n### Affected definition\n\n[`vmsvga_fifo_run()`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L616-L798) \u2014 the central SVGA command dispatch loop.\n\nTwo changes:\n1. **Bounds check** on `x` and `y` before `args = x * y` at L740-L743: guards against integer overflow producing a huge `args` value that causes a long-running `while (args--)` drain loop.\n2. **`while (args-- > 0)`** at L783: fixes undefined behavior when `args == 0` with the previous `while (args--)` (signed underflow path was unreachable here, but the `> 0` guard is a correctness improvement; **precise read-based observation**).\n\n### Constants referenced\n\n`SVGA_MAX_WIDTH = 2368`, `SVGA_MAX_HEIGHT = 1770` \u2014 defined in the same file at [L223-L224](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L223-L224). Also used for rectangle validation in [`vmsvga_verify_rect()` at L304-L315](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L304-L315) \u2014 **search-based navigation, precise constant origin**.\n\n### Callers of `vmsvga_fifo_run`\n\n- [`hw/display/vmware_vga.c` L1056](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L1056) \u2014 called from the SVGA register write path (guest-triggered)\n- [`hw/display/vmware_vga.c` L1152](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/display/vmware_vga.c?L1152) \u2014 called from the display update path\n\nBoth are internal. The guest-to-host attack vector is through the MMIO write path. **Search-based navigation.**\n\n### Security classification\n\nThis is a **guest-to-host DoS** (infinite loop / host CPU exhaustion). Commit message explicitly labels it as a security-adjacent fix: \"Don't allow guest to trigger long running loop in host.\"\n\n### Tests / docs\n\nNo `tests/qtest/vmware-vga-test.c` found. No doc change. **Test coverage gap identified.**\n\n---\n\n## Patch 4 \u2014 `hw/hyperv/vmbus.c`: Replace `goto`-based mutex unlock with `QEMU_LOCK_GUARD`\n\n### Affected definitions\n\nTwo functions refactored:\n\n**`enqueue_incoming_message()`** at [L1525-L1546](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L1525-L1546): `rx_queue_lock` is now held via `QEMU_LOCK_GUARD`, early return replaces `goto out`.\n\n**`process_message()`** at [L2089-L2148](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L2089-L2148): same pattern; `goto unlock` \u2192 implicit RAII unlock. **Precise read-based observation.**\n\n### Macro definition\n\n`QEMU_LOCK_GUARD` is defined in [`include/qemu/lockable.h`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/qemu/lockable.h?L133-L137) as a scope-based RAII lock using GLib's `g_autoptr`. It works correctly with `return` inside the scope, which is the key semantic property exploited here. **Precise read-based observation.**\n\n### Callers of modified functions\n\n- `enqueue_incoming_message` is called only from `vmbus_recv_message()` at [L1568](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L1568). \u2014 **search-based navigation**\n- `process_message` is dispatched from `state_runner[]` at [L2154](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/hyperv/vmbus.c?L2154). \u2014 **precise read-based observation**\n\n### Parallel usages of `QEMU_LOCK_GUARD`\n\nWidely used across `hw/hyperv/hyperv.c`, `hw/remote/iohub.c`, `hw/i386/kvm/xen_evtchn.c`, `util/vfio-helpers.c`, `block/graph-lock.c`, etc. \u2014 **search-based navigation**. This refactor aligns `vmbus.c` with the project's established idiom.\n\n### Tests / docs\n\nNo dedicated vmbus qtest found. No doc changes.\n\n---\n\n## Patch 5 \u2014 `hw/ide/core.c`: Replace `assert` with proper error handling for `prepare_buf()` failure\n\n### Affected definition\n\n[`ide_dma_cb()`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/core.c?L900-L945) \u2014 the DMA completion callback.\n\nBefore: `assert(prep_size >= 0 && prep_size <= n * 512)` aborted QEMU on negative `prep_size` (fuzzer-triggerable).\nAfter: negative `prep_size` calls `ide_dma_error(s)` and returns gracefully; the `<= n * 512` assertion is retained for the success path. **Precise read-based observation.**\n\n### `prepare_buf` dispatch table\n\n`IDEDMAOps.prepare_buf` is declared in [`include/hw/ide/internal.h` L463](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/ide/internal.h?L463) as `DMAInt32Func *prepare_buf`. Concrete implementations: \u2014 **search-based navigation**\n- [`hw/ide/pci.c` L136 `bmdma_prepare_buf`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/pci.c?L136) \u2014 BMDMA (PCI)\n- [`hw/ide/ahci.c` L1473 `ahci_dma_prepare_buf`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/ahci.c?L1473) \u2014 AHCI\n- `ide_nop_int32` (no-op stub) used in `hw/ide/macio.c` and the `ide_dma_nop_ops` fallback\n\n### `ide_dma_error` definition\n\n[`hw/ide/core.c` L837](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/ide/core.c?L837), declared in [`include/hw/ide/internal.h` L597](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/ide/internal.h?L597). Also called from `hw/ide/macio.c` L147. **Search-based navigation.**\n\n### Provenance\n\nCommit message: `Fixes: ed78352a59 (\"ide: Fix incorrect handling of some PRDTs in ide_dma_cb...\")`. Found by Linux Verification Center using libFuzzer. `Cc: qemu-stable@nongnu.org` implies a stable-branch backport is expected.\n\n### Tests\n\n[`tests/qtest/ide-test.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/ide-test.c) and [`tests/qtest/ahci-test.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/ahci-test.c) exist and are registered in [`tests/qtest/meson.build` L89-L90](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/meson.build?L89). No new test for the negative `prepare_buf` path was added in this commit.\n\n---\n\n## Patch 6 \u2014 `hw/usb/core.c`: Add missing `usb_pcap_ctrl` call for async `SETUP_STATE_PARAM`\n\n### Affected definition\n\n[`usb_generic_async_ctrl_complete()`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/core.c?L320-L354) \u2014 handles completion of asynchronous USB control transfers. The `SETUP_STATE_PARAM` case (L340-L349) was missing `usb_pcap_ctrl(p, false)` before `break`. Now added at L348. **Precise read-based observation.**\n\n### `usb_pcap_ctrl` definition and callers\n\n- Defined in [`hw/usb/pcap.c` L233](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/pcap.c?L233)\n- Declared in [`include/hw/usb.h` L582](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/include/hw/usb.h?L582)\n- Other call sites in [`hw/usb/core.c` L157, L194, L202](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/hw/usb/core.c?L156-L203) \u2014 the synchronous paths that already had the call. **Search-based navigation.**\n\n### Provenance\n\n`Fixes: 0f6dba145a4b (\"usb: add pcap support.\")` \u2014 the original pcap support omitted this code path.\n\n### Tests\n\nUSB HCD qtests exist ([`tests/qtest/usb-hcd-ehci-test.c`](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/tests/qtest/usb-hcd-ehci-test.c), `uhci`, `xhci`, `ohci`). None specifically test pcap async completion. **Test coverage gap identified.**\n\n---\n\n## Patches 7 & 8 \u2014 Typo fixes in docs and QAPI schema\n\n### Affected files\n\n| File | Change | Navigation basis |\n|---|---|---|\n| [`docs/about/removed-features.rst` L1244](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/docs/about/removed-features.rst?L1244) | `happend` \u2192 `happened` (RISC-V spike machine note) | Precise read |\n| [`migration/migration.c` L2809](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/migration/migration.c?L2809) | `happend` \u2192 `happened` (comment in `migration_switchover_prepare`) | Precise read (diff) |\n| [`qapi/migration.json` L272-L275](https://demo.sourcegraph.com/r/github.com/sg-evals/qemu-project-qemu@300438ffbb8d9430cac2fcc15cba6f482b2c0587/-/blob/qapi/migration.json?L272-L275) | `happend` \u2192 `happened` in `@postcopy-non-vcpu-latency` doc comment; line-wrap fix | Precise read |\n\n### QAPI schema impact\n\n`qapi/migration.json` changes are **doc-comment only** inside the `MigrationStats` struct definition. No field names, types, or `Since:` versions were altered. The QAPI-generated C code and QMP wire format are unaffected. \u2014 **Precise read-based observation.**\n\nThe `@postcopy-non-vcpu-latency` field is part of the `MigrationStats` union, a public QMP API surface introduced in QEMU 10.1.\n\n---\n\n## Topology Summary Table\n\n| Patch | Changed Symbol | Callers | Declarations | Tests | Security/Stability |\n|---|---|---|---|---|---|\n| curl USERAGENT | `curl_init_state` (static) | 2 internal | none (static) | none found | No CVE; identifies QEMU in HTTP UA |\n| win_stdio typo | `win_stdio_chr_set_echo` | `char-fe.c` dispatch | `char.h` vtable | none | Windows-only link fix |\n| vmsvga loop | `vmsvga_fifo_run` | 2 internal (MMIO + display) | none (static) | none | Guest DoS via CPU exhaustion |\n| vmbus LOCK_GUARD | `enqueue_incoming_message`, `process_message` | `vmbus_recv_message`, `state_runner[]` | none (static) | none | Correctness/code clarity |\n| ide_dma assert\u2192error | `ide_dma_cb` | internal DMA engine | `ide/internal.h` | `ide-test.c` exists | Fuzzer-found assert abort \u2192 graceful error |\n| usb pcap async | `usb_generic_async_ctrl_complete` | USB subsystem | `hw/usb.h` | USB HCD qtests exist | Pcap completeness fix |\n| doc/migration typos | comments only | N/A | N/A | N/A | None |\n| qapi/migration typo | doc comment in `MigrationStats` | N/A | QAPI schema | N/A | None |\n\n---\n\n## Unavailable Metadata\n\n| Metadata | Status |\n|---|---|\n| `CODEOWNERS` file | **Does not exist** in this repository mirror |\n| Stable-branch backport commits | Not searchable at this cutoff; `Cc: qemu-stable@nongnu.org` on the IDE patch signals intent |\n| Upstream GitLab MR numbers | Not mirrored; merge is from `gitlab.com/mjt0k/qemu` |\n| CVE assignments | None referenced in commit messages |\n| Build-generated `QEMU_VERSION` value | Macro value is determined at build time; not resolvable from source alone |\n\n---\n\n## Deterministic Verification Steps\n\n1. **Confirm merge structure**: `git show --stat 300438ffbb8d9430cac2fcc15cba6f482b2c0587` \u2014 expect 9 files changed, verify the PGP-signed tag `pull-trivial-patches`.\n2. **Verify vmsvga bounds**: `grep -n 'SVGA_MAX_WIDTH\\|SVGA_MAX_HEIGHT\\|DEFINE_ALPHA_CURSOR' hw/display/vmware_vga.c` \u2014 confirm guard at L740-L743 and `> 0` at L783.\n3. **Verify IDE assert split**: `grep -n 'prep_size\\|assert' hw/ide/core.c | head -20` \u2014 confirm no `assert(prep_size >= 0 ...)` remains; `assert(prep_size <= n * 512)` present.\n4. **Verify LOCK_GUARD replacement**: `grep -n 'QEMU_LOCK_GUARD\\|goto out\\|qemu_mutex_unlock' hw/hyperv/vmbus.c` \u2014 `goto out` and `qemu_mutex_unlock` should be absent from `enqueue_incoming_message` and `process_message`.\n5. **Verify usb_pcap_ctrl completeness**: `grep -n 'usb_pcap_ctrl\\|SETUP_STATE_PARAM' hw/usb/core.c` \u2014 `usb_pcap_ctrl(p, false)` should appear inside the `SETUP_STATE_PARAM` case.\n6. **Verify rename**: `grep -n 'win_stiod\\|win_stdio_chr_set_echo' chardev/char-win-stdio.c` \u2014 `win_stiod` should return 0 results; `win_stdio_chr_set_echo` should appear 3 times.\n7. **Check QAPI schema diff purity**: `python3 scripts/qapi/schema.py qapi/migration.json` \u2014 should parse cleanly with no structural change relative to parent commit."
+            }
+          }
+        ],
+        "createTime": "2026-07-29T03:39:21Z",
+        "input": [
+          {
+            "question": {
+              "text": "Within @github.com/sg-evals/qemu-project-qemu at revision 300438ffbb8d9430cac2fcc15cba6f482b2c0587, map the semantic topology around substantive sampled changes: affected definitions, references, implementations, callers, public APIs, dependency boundaries, CODEOWNERS domains, tests/docs, and later fixes/refactors/reverts. State whether each relation came from precise or search-based navigation and identify unavailable metadata explicitly. Return citations and deterministic verification steps, not authorship conclusions. Repository identity: qemu-project/qemu; stratum: policy_control; cutoff: 300438ffbb8d9430cac2fcc15cba6f482b2c0587."
+            }
+          }
+        ]
+      }
+    ],
+    "state": {
+      "completed": {}
+    },
+    "title": "Map semantic topology of QEMU changes at revision 300438ff",
+    "updateTime": "2026-07-29T03:42:34Z",
+    "url": "https://demo.sourcegraph.com/deepsearch/83cbbd18-1f77-446a-a2ab-08c415240c67"
+  },
+  "run_id": "sha256:02167d2794f802ade78f16a1bb8e217a47873cefd65eee4a205a920b2ac3f861",
+  "search_context": {
+    "context_revision_kind": "cutoff",
+    "repository": "qemu-project/qemu"
+  },
+  "search_trace_status": "unavailable_not_exposed_by_api",
+  "searches": [],
+  "terminal_status": "completed"
+}

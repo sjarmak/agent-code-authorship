@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "semantic-topology-pre2023-revisions.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "artifact_version",
+    "status",
+    "cutoff_exclusive",
+    "selection_rule",
+    "outcomes_consulted",
+    "repositories"
+  ],
+  "properties": {
+    "$schema": {"const": "semantic-topology-pre2023-revisions.schema.json"},
+    "artifact_version": {"const": 1},
+    "status": {"const": "frozen_pre_execution"},
+    "cutoff_exclusive": {"const": "2023-01-01T00:00:00Z"},
+    "selection_rule": {"type": "string", "minLength": 1},
+    "outcomes_consulted": {"const": false},
+    "repositories": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "canonical_repository_id",
+          "commit",
+          "committed_at",
+          "git_source"
+        ],
+        "properties": {
+          "canonical_repository_id": {"type": "string"},
+          "commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+          "committed_at": {"type": "string", "format": "date-time"},
+          "git_source": {"type": "string"}
+        }
+      }
+    }
+  }
+}

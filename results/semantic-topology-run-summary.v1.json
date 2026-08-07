@@ -1,0 +1,19 @@
+{
+  "cited_file_count": 1743,
+  "conversation_identity_present_count": 100,
+  "model_metadata_status_counts": {
+    "unavailable": 100
+  },
+  "proposed_query_count": 15,
+  "raw_answer_present_count": 97,
+  "run_count": 100,
+  "search_trace_status_counts": {
+    "unavailable_not_exposed_by_api": 100
+  },
+  "summary_sha256": "9f34fdafa171a3cb56bd6c0c9f9d48ac83684cd7927da11d107e4528ef8f1527",
+  "summary_version": 1,
+  "terminal_status_counts": {
+    "completed": 96,
+    "error": 4
+  }
+}

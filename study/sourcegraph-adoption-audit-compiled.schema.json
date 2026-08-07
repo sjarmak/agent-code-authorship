@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sourcegraph-adoption-audit-compiled.schema.json",
+  "title": "Compiled Sourcegraph adoption reliability diagnostics",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "audit_version",
+    "predecessors",
+    "response_count",
+    "response_set_sha256",
+    "overall",
+    "by_stratum",
+    "responses",
+    "scip_required",
+    "model_or_api_calls",
+    "outcomes_consulted",
+    "compiled_audit_sha256"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "sourcegraph-adoption-audit-compiled.schema.json"
+    },
+    "audit_version": {
+      "const": 1
+    },
+    "predecessors": {
+      "$ref": "#/$defs/predecessors"
+    },
+    "response_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "response_set_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "overall": {
+      "$ref": "#/$defs/metric"
+    },
+    "by_stratum": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/stratumMetric"
+      }
+    },
+    "responses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object"
+      }
+    },
+    "scip_required": {
+      "const": false
+    },
+    "model_or_api_calls": {
+      "const": false
+    },
+    "outcomes_consulted": {
+      "const": false
+    },
+    "compiled_audit_sha256": {
+      "$ref": "#/$defs/sha256"
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "predecessors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "worksheet_sha256",
+        "key_sha256",
+        "decision_ledger_sha256",
+        "tranche_set_sha256",
+        "language_inventory_sha256"
+      ],
+      "properties": {
+        "worksheet_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "key_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "decision_ledger_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "tranche_set_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "language_inventory_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "metric": {
+      "type": "object",
+      "required": [
+        "sample_count",
+        "exact_agreement_count",
+        "exact_agreement_rate",
+        "unresolved_count",
+        "unresolved_rate"
+      ],
+      "properties": {
+        "sample_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "exact_agreement_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "exact_agreement_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "unresolved_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unresolved_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "stratumMetric": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/metric"
+        },
+        {
+          "type": "object",
+          "required": [
+            "stratum_id",
+            "primary_decision",
+            "evidence_channel",
+            "language"
+          ],
+          "properties": {
+            "stratum_id": {
+              "$ref": "#/$defs/sha256"
+            },
+            "primary_decision": {
+              "enum": [
+                "accept_confirmed",
+                "accept_observed",
+                "insufficient",
+                "reject"
+              ]
+            },
+            "evidence_channel": {
+              "type": "string",
+              "minLength": 1
+            },
+            "language": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+}
